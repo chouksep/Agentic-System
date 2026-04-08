@@ -21,8 +21,14 @@ class SourceWatcher:
         self._parser = Parser()
 
     def scan_directory(self) -> list[Source]:
-        """Walk sources/ dir, hash content, return new (not-yet-ingested) Sources."""
+        """Walk sources/ dir, hash content, return new (not-yet-ingested) Sources.
+
+        Deduplicates by content hash: if two files have identical content, only
+        the first (alphabetically) is returned and registered.
+        """
         new_sources: list[Source] = []
+        seen_hashes: set[str] = set()
+
         for path in sorted(self._sources_dir.rglob("*")):
             if not path.is_file():
                 continue
@@ -34,8 +40,11 @@ class SourceWatcher:
                 continue
 
             content_id = _hash(raw_text)
-            if self._db.is_ingested(content_id):
+
+            # Skip if already processed in this scan pass or fully ingested
+            if content_id in seen_hashes or self._db.is_ingested(content_id):
                 continue
+            seen_hashes.add(content_id)
 
             source = Source(
                 id=content_id,
