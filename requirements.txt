@@ -1,0 +1,7 @@
+anthropic>=0.40.0
+requests>=2.33.0
+PyYAML>=6.0
+
+# dev
+pytest>=8.0
+pytest-mock>=3.12
