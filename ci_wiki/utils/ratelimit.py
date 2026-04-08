@@ -47,6 +47,11 @@ class TokenBucket:
                 return True
             return False
 
+    def refund_tokens(self, tokens: int) -> None:
+        """Return tokens to the bucket, capped at capacity."""
+        with self._lock:
+            self._tokens = min(self._capacity, self._tokens + tokens)
+
 
 class RateLimiter:
     """Dual token-bucket rate limiter for requests-per-minute and tokens-per-minute."""
@@ -62,9 +67,8 @@ class RateLimiter:
 
     def record_actual_tokens(self, estimated_tokens: int, actual_tokens: int) -> None:
         """Reconcile TPM bucket if actual usage differed from estimate.
-        If we over-estimated, add tokens back.
+        If we over-estimated, add tokens back (capped at bucket capacity).
         """
         diff = estimated_tokens - actual_tokens
         if diff > 0:
-            # give back the over-estimated tokens (non-blocking)
-            self._tpm_bucket.try_consume(-diff)  # effectively adds back
+            self._tpm_bucket.refund_tokens(diff)
