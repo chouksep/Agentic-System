@@ -20,16 +20,41 @@ query-demo: ## Ask a sample competitive intelligence question
 
 # ─── Core Commands ────────────────────────────────────────────────────────────
 
-ingest: ## Ingest a single URL or file: make ingest SOURCE=https://example.com
+ingest: ## Ingest a URL or file: make ingest SOURCE=https://example.com
+ifndef SOURCE
+	@echo ""
+	@echo "ERROR: SOURCE is required. Usage:"
+	@echo "  make ingest SOURCE=https://openai.com/api/pricing"
+	@echo "  make ingest SOURCE=sources/article.txt"
+	@echo ""
+	@echo "Or run the demo to ingest 3 AI company pages:"
+	@echo "  make ingest-demo"
+	@echo ""
+	@exit 1
+endif
 	python main.py ingest --source $(SOURCE)
 
 ingest-all: ## Ingest all pending sources in the sources/ directory
 	python main.py ingest --all
 
 query: ## Ask a question: make query Q="What is OpenAI's pricing?"
+ifndef Q
+	@echo ""
+	@echo "ERROR: Q is required. Usage:"
+	@echo "  make query Q=\"What is OpenAI's pricing for GPT-4o?\""
+	@echo ""
+	@echo "Or run the demo query:"
+	@echo "  make query-demo"
+	@echo ""
+	@exit 1
+endif
 	python main.py query "$(Q)"
 
-query-save: ## Ask a question and save the answer to the wiki
+query-save: ## Ask a question and save the answer: make query-save Q="..."
+ifndef Q
+	@echo "ERROR: Q is required. Usage: make query-save Q=\"your question\""
+	@exit 1
+endif
 	python main.py query "$(Q)" --save
 
 lint: ## Check wiki quality (LLM + static checks)
