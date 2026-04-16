@@ -1,0 +1,142 @@
+name: CI Wiki
+
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: 'Operation to run'
+        required: true
+        type: choice
+        options:
+          - ingest
+          - query
+          - lint
+          - status
+      source:
+        description: 'URL or file path to ingest (ingest only)'
+        required: false
+        type: string
+      question:
+        description: 'Question to ask (query only)'
+        required: false
+        type: string
+      save_answer:
+        description: 'Save query answer to wiki (query only)'
+        required: false
+        type: boolean
+        default: false
+      dry_run:
+        description: 'Dry run — report issues without fixing (lint only)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  ci-wiki:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to push wiki changes back
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -e ".[dev]" -q
+
+      - name: Verify setup
+        run: python -m pytest tests/ -q --tb=short
+
+      # ── INGEST ──────────────────────────────────────────────────────────────
+      - name: Ingest source
+        if: ${{ inputs.operation == 'ingest' && inputs.source != '' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          echo "Ingesting: ${{ inputs.source }}"
+          python main.py ingest --source "${{ inputs.source }}"
+
+      - name: Ingest all pending sources
+        if: ${{ inputs.operation == 'ingest' && inputs.source == '' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          echo "Ingesting all pending sources from sources/ directory..."
+          python main.py ingest --all
+
+      # ── QUERY ───────────────────────────────────────────────────────────────
+      - name: Query wiki
+        if: ${{ inputs.operation == 'query' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "${{ inputs.question }}" ]; then
+            echo "ERROR: 'question' input is required for the query operation."
+            exit 1
+          fi
+          SAVE_FLAG=""
+          if [ "${{ inputs.save_answer }}" = "true" ]; then
+            SAVE_FLAG="--save"
+          fi
+          python main.py query "${{ inputs.question }}" $SAVE_FLAG
+
+      # ── LINT ────────────────────────────────────────────────────────────────
+      - name: Lint wiki
+        if: ${{ inputs.operation == 'lint' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          DRY_FLAG=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            DRY_FLAG="--dry-run"
+          fi
+          python main.py lint $DRY_FLAG
+
+      # ── STATUS ──────────────────────────────────────────────────────────────
+      - name: Show wiki status
+        if: ${{ inputs.operation == 'status' }}
+        run: |
+          python main.py status || true
+          echo ""
+          echo "=== Wiki Index ==="
+          cat wiki/index.md 2>/dev/null || echo "(empty)"
+
+      # ── COMMIT WIKI CHANGES ─────────────────────────────────────────────────
+      - name: Commit wiki changes
+        if: ${{ inputs.operation == 'ingest' || inputs.operation == 'lint' || inputs.save_answer == true }}
+        run: |
+          git config user.name  "ci-wiki[bot]"
+          git config user.email "ci-wiki[bot]@users.noreply.github.com"
+
+          # Stage wiki pages, index, and log only (never stage secrets or DB)
+          git add wiki/ data/ --ignore-errors 2>/dev/null || true
+          git add wiki/index.md wiki/log.md 2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "No wiki changes to commit."
+          else
+            OP="${{ inputs.operation }}"
+            SRC="${{ inputs.source }}"
+            Q="${{ inputs.question }}"
+
+            if [ "$OP" = "ingest" ]; then
+              MSG="wiki: ingest ${SRC:-all pending sources}"
+            elif [ "$OP" = "query" ] && [ "${{ inputs.save_answer }}" = "true" ]; then
+              MSG="wiki: save query answer — ${Q:0:60}"
+            else
+              MSG="wiki: lint auto-fixes"
+            fi
+
+            git commit -m "$MSG [skip ci]"
+            git push origin HEAD
+            echo "Wiki changes pushed."
+          fi

@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Database
+data/*.db
+
+# Editor
+.idea/
+.vscode/
+.claude/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+config.yaml
+.env
+*.pem
+*.key
+*.p12
+
+# Logs
+*.log
+
+# Large source binaries (keep text files)
+sources/*.pdf
+sources/*.docx
+sources/*.xlsx
+sources/.cache/
