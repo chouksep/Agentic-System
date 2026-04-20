@@ -1,0 +1,67 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: speaking_coach_db
+    environment:
+      POSTGRES_USER: speaking_coach
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: speaking_coach
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - speaking_coach_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U speaking_coach"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: speaking_coach_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - speaking_coach_network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: speaking_coach_backend
+    environment:
+      DATABASE_URL: postgresql://speaking_coach:password@db:5432/speaking_coach
+      REDIS_URL: redis://redis:6379
+      DEBUG: "true"
+      LOG_LEVEL: INFO
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - speaking_coach_network
+    volumes:
+      - ./backend:/app/backend
+    command: uvicorn backend.src.main:app --host 0.0.0.0 --port 8000 --reload
+
+networks:
+  speaking_coach_network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  redis_data:

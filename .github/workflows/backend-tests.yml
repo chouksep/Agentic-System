@@ -1,0 +1,70 @@
+name: Backend Tests
+
+on:
+  push:
+    branches: [ main, claude/* ]
+    paths:
+      - 'backend/**'
+      - '.github/workflows/backend-tests.yml'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'backend/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:15-alpine
+        env:
+          POSTGRES_USER: speaking_coach
+          POSTGRES_PASSWORD: password
+          POSTGRES_DB: speaking_coach
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5432:5432
+
+      redis:
+        image: redis:7-alpine
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 6379:6379
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r backend/requirements.txt
+
+    - name: Lint with ruff
+      run: |
+        ruff check backend/src --fix
+        ruff format backend/src
+
+    - name: Run tests
+      env:
+        DATABASE_URL: postgresql://speaking_coach:password@localhost:5432/speaking_coach
+        REDIS_URL: redis://localhost:6379
+        SECRET_KEY: test-secret-key
+        DEEPGRAM_API_KEY: test-key
+        ANTHROPIC_API_KEY: test-key
+      run: |
+        pytest backend/tests -v --cov=backend/src
