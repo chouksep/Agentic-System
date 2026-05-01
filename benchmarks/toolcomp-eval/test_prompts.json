@@ -1,0 +1,248 @@
+{
+  "description": "ToolComp-style prompts for evaluating ci-wiki agent tool composition",
+  "test_cases": [
+    {
+      "id": "single_tool_write",
+      "name": "Single Tool: Write Company Page",
+      "description": "Agent should write a company page with correct tool call",
+      "scenario": "You have gathered information about OpenAI from their website. Write a new wiki page for the company with title 'OpenAI', type 'company', confidence 'high', and content about their founding and products.",
+      "expected_tool_calls": [
+        {
+          "tool": "write_page",
+          "params": {
+            "path": "companies/openai",
+            "frontmatter": {
+              "title": "OpenAI",
+              "type": "company",
+              "confidence": "high"
+            }
+          }
+        }
+      ],
+      "should_abstain": false
+    },
+    {
+      "id": "search_then_write",
+      "name": "Tool Composition: Search and Write",
+      "description": "Agent should search for existing page before deciding to write",
+      "scenario": "You want to create a page about Claude. First, check if a page already exists for Claude by searching. If it doesn't exist, create a new product page.",
+      "expected_tool_calls": [
+        {
+          "tool": "search_wiki",
+          "params": {
+            "query": "Claude"
+          }
+        },
+        {
+          "tool": "write_page",
+          "params": {
+            "path": "products/claude"
+          }
+        }
+      ],
+      "should_abstain": false
+    },
+    {
+      "id": "read_for_context",
+      "name": "Tool Composition: Read and Update",
+      "description": "Agent should read existing page before updating",
+      "scenario": "Update the OpenAI company page with new information about their latest product releases. First read the existing page to understand current content.",
+      "expected_tool_calls": [
+        {
+          "tool": "read_page",
+          "params": {
+            "path": "companies/openai"
+          }
+        },
+        {
+          "tool": "write_page",
+          "params": {
+            "path": "companies/openai"
+          }
+        }
+      ],
+      "should_abstain": false
+    },
+    {
+      "id": "abstain_no_search_results",
+      "name": "Abstain: No Relevant Data",
+      "description": "Agent should abstain from writing when search returns empty",
+      "scenario": "You're asked to create a page about 'FakeCompanyXYZ123'. Search the wiki for any existing information about this company. Only create a page if you find relevant information.",
+      "expected_tool_calls": [
+        {
+          "tool": "search_wiki",
+          "params": {
+            "query": "FakeCompanyXYZ123"
+          }
+        }
+      ],
+      "should_abstain": true,
+      "note": "Should NOT write since search returns nothing"
+    },
+    {
+      "id": "multi_step_chain",
+      "name": "Complex Chain: Search, Read, Update with Cross-refs",
+      "description": "Multi-step tool composition with cross-reference checking",
+      "scenario": "You found that Google DeepMind has a new research partnership with OpenAI. Update the Google DeepMind page to link to OpenAI and verify both pages have correct cross-references.",
+      "expected_tool_calls": [
+        {
+          "tool": "search_wiki",
+          "params": {
+            "query": "OpenAI"
+          }
+        },
+        {
+          "tool": "read_page",
+          "params": {
+            "path": "companies/google-deepmind"
+          }
+        },
+        {
+          "tool": "write_page",
+          "params": {
+            "path": "companies/google-deepmind"
+          }
+        }
+      ],
+      "should_abstain": false
+    },
+    {
+      "id": "edge_case_duplicate",
+      "name": "Edge Case: Detect Duplicate Entry",
+      "description": "Agent should search for duplicates before writing new page",
+      "scenario": "Create a page for 'Generative AI' trend. Search first to ensure no similar trend pages exist (check for 'AI', 'generative', 'generative-ai').",
+      "expected_tool_calls": [
+        {
+          "tool": "search_wiki",
+          "params": {
+            "query": "generative AI trend"
+          }
+        }
+      ],
+      "should_abstain": true,
+      "note": "Should find existing 'generative-ai-rise' trend and not create duplicate"
+    },
+    {
+      "id": "parameter_format_path",
+      "name": "Parameter Correctness: Page Path Format",
+      "description": "Verify correct page path format (type/slug)",
+      "scenario": "Create a page for the person 'Sam Altman, CEO of OpenAI'. The page path should follow format 'people/sam-altman'.",
+      "expected_tool_calls": [
+        {
+          "tool": "write_page",
+          "params": {
+            "path": "people/sam-altman",
+            "frontmatter": {
+              "title": "Sam Altman",
+              "type": "person"
+            }
+          }
+        }
+      ],
+      "should_abstain": false,
+      "critical_params": ["path", "frontmatter.type"]
+    },
+    {
+      "id": "parameter_frontmatter_required",
+      "name": "Parameter Correctness: Required YAML Fields",
+      "description": "Verify required YAML frontmatter fields are present",
+      "scenario": "Create a new product page for 'GPT-4'. It must include title, type, and confidence fields.",
+      "expected_tool_calls": [
+        {
+          "tool": "write_page",
+          "params": {
+            "path": "products/gpt-4",
+            "frontmatter": {
+              "title": "GPT-4",
+              "type": "product",
+              "confidence": "high"
+            }
+          }
+        }
+      ],
+      "should_abstain": false,
+      "critical_params": ["frontmatter.title", "frontmatter.type", "frontmatter.confidence"]
+    },
+    {
+      "id": "parameter_crossref_syntax",
+      "name": "Parameter Correctness: Cross-reference Syntax",
+      "description": "Verify proper markdown cross-reference format [[type:slug]]",
+      "scenario": "Create a page for Anthropic that mentions Claude. Use proper wiki cross-reference syntax: [[product:claude]].",
+      "expected_tool_calls": [
+        {
+          "tool": "write_page",
+          "params": {
+            "path": "companies/anthropic",
+            "content_contains": "[[product:claude]]"
+          }
+        }
+      ],
+      "should_abstain": false,
+      "critical_params": ["content_contains"]
+    },
+    {
+      "id": "parameter_confidence_levels",
+      "name": "Parameter Correctness: Confidence Score Levels",
+      "description": "Verify confidence is one of: high, medium, low",
+      "scenario": "Create a page with confidence level. Valid values are 'high', 'medium', 'low'.",
+      "expected_tool_calls": [
+        {
+          "tool": "write_page",
+          "params": {
+            "path": "companies/test",
+            "frontmatter": {
+              "confidence": "medium"
+            }
+          }
+        }
+      ],
+      "should_abstain": false,
+      "critical_params": ["frontmatter.confidence"],
+      "valid_values": ["high", "medium", "low"]
+    },
+    {
+      "id": "error_case_invalid_type",
+      "name": "Error Handling: Invalid Entity Type",
+      "description": "Agent should catch invalid entity types",
+      "scenario": "Create a page with type 'invalid_type'. Valid types are: company, product, person, trend.",
+      "expected_tool_calls": [],
+      "should_abstain": true,
+      "note": "Should abstain due to invalid type"
+    },
+    {
+      "id": "conditional_logic",
+      "name": "Conditional Logic: Update vs Create",
+      "description": "Decide whether to update existing page or create new",
+      "scenario": "You have new information about ChatGPT. Check if a ChatGPT page exists. If it exists, update it with new info. If not, create it.",
+      "expected_tool_calls": [
+        {
+          "tool": "search_wiki",
+          "params": {
+            "query": "ChatGPT"
+          }
+        }
+      ],
+      "should_abstain": false,
+      "conditional": "if search_result.found then write else skip"
+    }
+  ],
+  "evaluation_rubric": {
+    "tool_invocation_accuracy": {
+      "description": "Did the agent call the correct tools in the right order?",
+      "scoring": "1 point per correct tool call, 0 if wrong tool or missing"
+    },
+    "parameter_correctness": {
+      "description": "Are tool parameters in correct format and values?",
+      "scoring": "1 point per correct parameter, 0.5 for partial matches"
+    },
+    "abstention_accuracy": {
+      "description": "Did the agent correctly decide to abstain when needed?",
+      "scoring": "1 point if correct abstention decision, -1 if wrong"
+    },
+    "sequencing": {
+      "description": "Are tools called in the correct logical order?",
+      "scoring": "1 point if sequence is optimal, 0.5 if valid but suboptimal"
+    }
+  },
+  "scoring_formula": "sum(tool_invocation * 0.4 + parameter_correctness * 0.4 + abstention * 0.1 + sequencing * 0.1) / total_cases * 100"
+}
