@@ -326,7 +326,174 @@
       "critical": false
     }
   ],
-  "scoring": {
+  "priority_2_tests": [
+    {
+      "id": "confidence_comment_syntax",
+      "name": "Priority 2: Confidence Comment Syntax",
+      "description": "Verify confidence comments use correct HTML format",
+      "scenario": "Content should have confidence comments like: <!-- confidence: high | source_count: 3 -->",
+      "expected_format": "<!-- confidence: (high|medium|low)( | source_count: \\d+)? -->",
+      "category": "priority_2",
+      "critical": false
+    },
+    {
+      "id": "confidence_pricing_section",
+      "name": "Priority 2: Pricing Section Confidence",
+      "description": "Pricing section should have confidence comment for companies and products",
+      "scenario": "Create pricing section with confidence level",
+      "required_for_types": ["company", "product"],
+      "section": "Pricing",
+      "expected_confidence": "high|medium|low",
+      "category": "priority_2",
+      "critical": false
+    },
+    {
+      "id": "confidence_funding_section",
+      "name": "Priority 2: Funding Section Confidence",
+      "description": "Funding section should have confidence comment for companies",
+      "scenario": "Create funding section with confidence level",
+      "required_for_types": ["company"],
+      "section": "Funding & Financials",
+      "expected_confidence": "high|medium|low",
+      "category": "priority_2",
+      "critical": false
+    },
+    {
+      "id": "confidence_source_count_alignment",
+      "name": "Priority 2: Confidence-Source Count Alignment",
+      "description": "Confidence level should match source count (high: 3+, medium: 1-2, low: 0)",
+      "scenario": "Validate that confidence level aligns with source_count",
+      "validation_rules": {
+        "high": "source_count >= 3",
+        "medium": "source_count in [1, 2]",
+        "low": "source_count == 0"
+      },
+      "category": "priority_2",
+      "critical": false
+    },
+    {
+      "id": "sources_no_duplicates",
+      "name": "Priority 2: Sources List - No Duplicates",
+      "description": "Sources list should not contain duplicate URLs",
+      "scenario": "Check for duplicate entries in sources: field",
+      "category": "priority_2",
+      "critical": false
+    },
+    {
+      "id": "sources_valid_urls",
+      "name": "Priority 2: Sources List - Valid URLs",
+      "description": "All sources should be valid HTTP/HTTPS URLs",
+      "scenario": "Validate all URLs in sources: list",
+      "expected_format": "^https?://",
+      "category": "priority_2",
+      "critical": false
+    }
+  ],
+  "priority_3_tests": [
+    {
+      "id": "crossref_syntax_valid",
+      "name": "Priority 3: Cross-Reference Syntax Valid",
+      "description": "All cross-references must use [[type:slug]] format",
+      "scenario": "Validate [[company:openai]], [[product:claude]], etc.",
+      "expected_pattern": "\\[\\[([a-z]+):([a-z0-9-]+)\\]\\]",
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "crossref_no_duplicates",
+      "name": "Priority 3: Cross-Reference Deduplication",
+      "description": "No duplicate references to same entity in single page",
+      "scenario": "Detect duplicate [[company:openai]] references",
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "crossref_type_valid",
+      "name": "Priority 3: Cross-Reference Type Valid",
+      "description": "Cross-reference types must be valid entity types",
+      "scenario": "Check that type is one of: company, product, person, trend",
+      "valid_types": ["company", "product", "person", "trend"],
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "crossref_slug_kebab_case",
+      "name": "Priority 3: Cross-Reference Slug Format",
+      "description": "Cross-reference slugs must be kebab-case",
+      "scenario": "Validate slug format in [[type:slug]]",
+      "expected_pattern": "^[a-z0-9-]+$",
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "crossref_resolution_company",
+      "name": "Priority 3: Cross-Reference Resolution - Company",
+      "description": "Company references in product pages must exist",
+      "scenario": "Product pages should reference existing companies",
+      "entity_type": "product",
+      "reference_field": "company",
+      "must_exist": true,
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "crossref_resolution_product",
+      "name": "Priority 3: Cross-Reference Resolution - Product",
+      "description": "Product references must point to existing products",
+      "scenario": "Validate [[product:slug]] references exist in wiki",
+      "reference_type": "product",
+      "must_exist": true,
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "crossref_resolution_person",
+      "name": "Priority 3: Cross-Reference Resolution - Person",
+      "description": "Person references must point to existing people",
+      "scenario": "Validate [[person:slug]] references exist in wiki",
+      "reference_type": "person",
+      "must_exist": true,
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "crossref_resolution_trend",
+      "name": "Priority 3: Cross-Reference Resolution - Trend",
+      "description": "Trend references must point to existing trends",
+      "scenario": "Validate [[trend:slug]] references exist in wiki",
+      "reference_type": "trend",
+      "must_exist": true,
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "consistency_company_reference",
+      "name": "Priority 3: Consistency - Company Reference",
+      "description": "Product company: field must match referenced company",
+      "scenario": "Product's company field should match companies it references",
+      "entity_type": "product",
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "consistency_section_order",
+      "name": "Priority 3: Consistency - Section Order",
+      "description": "Sections should follow schema order",
+      "scenario": "Verify sections appear in recommended order",
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "consistency_markdown_headers",
+      "name": "Priority 3: Consistency - Markdown Headers",
+      "description": "All section headers must be H2 (##), not H1 or H3",
+      "scenario": "Validate header levels in content",
+      "expected_format": "^##\\s+",
+      "category": "priority_3",
+      "critical": false
+    }
+  ],
+  "test_categories_extended": {
     "perfect_score": 100,
     "critical_weight": 0.7,
     "non_critical_weight": 0.3,

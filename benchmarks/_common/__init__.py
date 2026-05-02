@@ -7,6 +7,12 @@ from .metrics import (
     calculate_f1,
     calculate_accuracy,
 )
+from .parsers import (
+    ConfidenceCommentParser,
+    ConfidenceComment,
+    SourceListParser,
+    CrossReferenceParser,
+)
 
 __all__ = [
     "ToolCallMetric",
@@ -14,4 +20,8 @@ __all__ = [
     "ConfidenceCalibration",
     "calculate_f1",
     "calculate_accuracy",
+    "ConfidenceCommentParser",
+    "ConfidenceComment",
+    "SourceListParser",
+    "CrossReferenceParser",
 ]
