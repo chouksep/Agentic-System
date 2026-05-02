@@ -23,7 +23,7 @@ Anthropic PBC is an American artificial intelligence company headquartered in Sa
 - Claude Gov — model for U.S. government/national security use, announced June 2025
 
 ## Pricing
-<!-- confidence: low | source_count: 1 -->
+<!-- confidence: medium | source_count: 1 -->
 No specific public pricing tiers detailed in this source. Models are available via API, web interface, and cloud platforms (Amazon Bedrock, Microsoft Azure, Snowflake).
 
 ## Funding & Financials
@@ -38,7 +38,7 @@ No specific public pricing tiers detailed in this source. Models are available v
 - **February 12, 2026**: Raised $30 billion Series G; post-money valuation of $380 billion
 - **Estimated value (February 2026)**: $380 billion
 - As part of the Amazon deal, Anthropic uses AWS as its primary cloud provider and makes models available to AWS customers
-<!-- confidence: high | source_count: 1 -->
+<!-- confidence: medium | source_count: 1 -->
 
 ## Leadership
 - **CEO**: [[person:dario-amodei]] (Dario Amodei) — co-founder

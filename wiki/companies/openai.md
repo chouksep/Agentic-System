@@ -30,8 +30,8 @@ OpenAI is an American artificial intelligence research organization consisting o
 - Universe — software platform for measuring and training AI general intelligence (released December 2016)
 
 ## Pricing
-<!-- confidence: low | source_count: 1 -->
-No specific pricing tiers detailed in this source. Revenue reported at US$13.1 billion (2025). Note: OpenAI introduced ads to the free version of ChatGPT (per Anthropic Wikipedia source, February 2026).
+<!-- confidence: medium | source_count: 1 -->
+No specific pricing tiers detailed in this source. Revenue reported at US$13.1 billion (2025). Note: OpenAI introduced ads to the free version of ChatGPT (per [[company:anthropic]] Wikipedia source, February 2026).
 
 ## Funding & Financials
 - **Revenue**: US$13.1 billion (2025)
