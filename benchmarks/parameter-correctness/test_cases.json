@@ -1,0 +1,277 @@
+{
+  "description": "BFCL-style parameter correctness test cases for ci-wiki",
+  "test_cases": [
+    {
+      "id": "path_format_company",
+      "name": "Path Format: Company Page",
+      "description": "Verify correct page path format for company entities",
+      "scenario": "Create a page for OpenAI company",
+      "expected_params": {
+        "path": "companies/openai",
+        "frontmatter.type": "company",
+        "frontmatter.title": "OpenAI"
+      },
+      "category": "path_format",
+      "critical": true
+    },
+    {
+      "id": "path_format_product",
+      "name": "Path Format: Product Page",
+      "description": "Verify correct page path format for product entities",
+      "scenario": "Create a page for ChatGPT product",
+      "expected_params": {
+        "path": "products/chatgpt",
+        "frontmatter.type": "product"
+      },
+      "category": "path_format",
+      "critical": true
+    },
+    {
+      "id": "path_format_person",
+      "name": "Path Format: Person Page",
+      "description": "Verify correct page path format for person entities",
+      "scenario": "Create a page for Sam Altman",
+      "expected_params": {
+        "path": "people/sam-altman",
+        "frontmatter.type": "person"
+      },
+      "category": "path_format",
+      "critical": true
+    },
+    {
+      "id": "path_format_trend",
+      "name": "Path Format: Trend Page",
+      "description": "Verify correct page path format for trend entities",
+      "scenario": "Create a page for generative AI trend",
+      "expected_params": {
+        "path": "trends/generative-ai-rise",
+        "frontmatter.type": "trend"
+      },
+      "category": "path_format",
+      "critical": true
+    },
+    {
+      "id": "path_slug_kebab_case",
+      "name": "Path Slug: Kebab Case Conversion",
+      "description": "Verify page slugs are converted to kebab-case",
+      "scenario": "Create a page for 'Google DeepMind' company",
+      "expected_params": {
+        "path": "companies/google-deepmind"
+      },
+      "valid_alternatives": ["companies/googledeepmmind"],
+      "category": "slug_format",
+      "critical": true
+    },
+    {
+      "id": "path_avoid_spaces",
+      "name": "Path Slug: No Spaces",
+      "description": "Verify page paths do not contain spaces",
+      "scenario": "Create a page for 'Ilya Sutskever' person",
+      "expected_params": {
+        "path": "people/ilya-sutskever"
+      },
+      "forbidden_patterns": ["ilya sutskever", "Ilya Sutskever"],
+      "category": "slug_format",
+      "critical": true
+    },
+    {
+      "id": "frontmatter_title_required",
+      "name": "Frontmatter: Title Required",
+      "description": "Verify title field is present in frontmatter",
+      "scenario": "Create any page (should have title field)",
+      "expected_params": {
+        "frontmatter.title": "NotEmpty"
+      },
+      "category": "frontmatter",
+      "critical": true
+    },
+    {
+      "id": "frontmatter_type_required",
+      "name": "Frontmatter: Type Required",
+      "description": "Verify type field is present and valid",
+      "scenario": "Create any page (should have valid type)",
+      "expected_params": {
+        "frontmatter.type": "ValidType"
+      },
+      "valid_values": ["company", "product", "person", "trend"],
+      "category": "frontmatter",
+      "critical": true
+    },
+    {
+      "id": "frontmatter_confidence_required",
+      "name": "Frontmatter: Confidence Required",
+      "description": "Verify confidence field is present for ingest operations",
+      "scenario": "Ingest a source and create a page",
+      "expected_params": {
+        "frontmatter.confidence": "ValidConfidence"
+      },
+      "valid_values": ["high", "medium", "low"],
+      "category": "frontmatter",
+      "critical": true
+    },
+    {
+      "id": "frontmatter_confidence_high",
+      "name": "Frontmatter: Confidence 'high'",
+      "description": "Verify 'high' confidence is correctly assigned",
+      "scenario": "Create a page with multiple credible sources confirming facts",
+      "expected_params": {
+        "frontmatter.confidence": "high"
+      },
+      "category": "confidence_assignment",
+      "critical": false
+    },
+    {
+      "id": "frontmatter_confidence_medium",
+      "name": "Frontmatter: Confidence 'medium'",
+      "description": "Verify 'medium' confidence is correctly assigned",
+      "scenario": "Create a page with some conflicting sources or partial information",
+      "expected_params": {
+        "frontmatter.confidence": "medium"
+      },
+      "category": "confidence_assignment",
+      "critical": false
+    },
+    {
+      "id": "frontmatter_confidence_low",
+      "name": "Frontmatter: Confidence 'low'",
+      "description": "Verify 'low' confidence is correctly assigned",
+      "scenario": "Create a page with very limited or contradictory information",
+      "expected_params": {
+        "frontmatter.confidence": "low"
+      },
+      "category": "confidence_assignment",
+      "critical": false
+    },
+    {
+      "id": "frontmatter_no_invalid_types",
+      "name": "Frontmatter: No Invalid Types",
+      "description": "Verify type is one of: company, product, person, trend",
+      "scenario": "Should reject invalid types like 'organization', 'item', 'person_fake'",
+      "expected_params": {
+        "frontmatter.type": "OneOf:company,product,person,trend"
+      },
+      "invalid_values": ["organization", "item", "person_fake", "unknown"],
+      "category": "validation",
+      "critical": true
+    },
+    {
+      "id": "frontmatter_no_invalid_confidence",
+      "name": "Frontmatter: No Invalid Confidence",
+      "description": "Verify confidence is one of: high, medium, low",
+      "scenario": "Should reject invalid confidence like 'very-high', 'maybe', 'uncertain'",
+      "expected_params": {
+        "frontmatter.confidence": "OneOf:high,medium,low"
+      },
+      "invalid_values": ["very-high", "maybe", "uncertain", "medium-high"],
+      "category": "validation",
+      "critical": true
+    },
+    {
+      "id": "crossref_syntax_correct",
+      "name": "Content: Cross-Reference Syntax",
+      "description": "Verify wiki cross-references use correct [[type:slug]] syntax",
+      "scenario": "Reference another page: should be [[product:claude]] not [Claude](claude.md)",
+      "expected_regex": "\\[\\[[a-z]+:[a-z-]+\\]\\]",
+      "category": "content_format",
+      "critical": false
+    },
+    {
+      "id": "crossref_valid_types",
+      "name": "Content: Cross-Reference Valid Types",
+      "description": "Verify cross-reference types match valid entity types",
+      "scenario": "Cross-reference should use valid type: [[company:openai]], not [[invalid:openai]]",
+      "valid_crossref_types": ["company", "product", "person", "trend"],
+      "category": "content_format",
+      "critical": false
+    },
+    {
+      "id": "markdown_formatting",
+      "name": "Content: Markdown Formatting",
+      "description": "Verify content uses valid Markdown syntax",
+      "scenario": "Content should be valid Markdown (# headers, **bold**, etc.)",
+      "expected_format": "markdown",
+      "category": "content_format",
+      "critical": false
+    },
+    {
+      "id": "content_not_empty",
+      "name": "Content: Non-Empty",
+      "description": "Verify page content is not empty",
+      "scenario": "Pages should have meaningful content",
+      "min_length": 50,
+      "category": "content_quality",
+      "critical": true
+    },
+    {
+      "id": "no_hallucinated_fields",
+      "name": "Frontmatter: No Extra Fields",
+      "description": "Verify no hallucinated/extra frontmatter fields",
+      "scenario": "Should only include: title, type, confidence, (optional: description, updated)",
+      "allowed_fields": ["title", "type", "confidence", "description", "updated", "created"],
+      "category": "validation",
+      "critical": false
+    },
+    {
+      "id": "update_preserves_type",
+      "name": "Update: Type Consistency",
+      "description": "Verify page type is not changed on update",
+      "scenario": "Update a 'company' page - type should remain 'company'",
+      "expected_params": {
+        "frontmatter.type_unchanged": true
+      },
+      "category": "update_behavior",
+      "critical": true
+    },
+    {
+      "id": "update_preserves_path",
+      "name": "Update: Path Consistency",
+      "description": "Verify page path is not changed on update",
+      "scenario": "Update a page - path should remain unchanged",
+      "expected_params": {
+        "path_unchanged": true
+      },
+      "category": "update_behavior",
+      "critical": true
+    },
+    {
+      "id": "path_matches_type",
+      "name": "Consistency: Path Matches Type",
+      "description": "Verify path directory matches entity type",
+      "scenario": "Company page should be in companies/, product in products/",
+      "validations": [
+        "type:company => path:companies/*",
+        "type:product => path:products/*",
+        "type:person => path:people/*",
+        "type:trend => path:trends/*"
+      ],
+      "category": "consistency",
+      "critical": true
+    },
+    {
+      "id": "title_matches_path_slug",
+      "name": "Consistency: Title Related to Slug",
+      "description": "Verify title is related to the page slug",
+      "scenario": "Slug 'openai' should have title 'OpenAI' or similar",
+      "category": "consistency",
+      "critical": false
+    }
+  ],
+  "scoring": {
+    "perfect_score": 100,
+    "critical_weight": 0.6,
+    "non_critical_weight": 0.4,
+    "passing_threshold": 80,
+    "critical_tests_must_pass": true
+  },
+  "evaluation_categories": {
+    "path_format": "Tests for correct directory/slug format",
+    "slug_format": "Tests for slug conversion rules",
+    "frontmatter": "Tests for YAML frontmatter fields",
+    "confidence_assignment": "Tests for correct confidence levels",
+    "validation": "Tests for invalid values rejection",
+    "content_format": "Tests for Markdown and cross-reference syntax",
+    "content_quality": "Tests for content completeness",
+    "update_behavior": "Tests for update operation correctness",
+    "consistency": "Tests for consistency across fields"
+  }
+}
