@@ -18,7 +18,7 @@ Gemini is Google's family of large language models (LLMs), developed by [[compan
 - Developed by Google DeepMind alongside other generative AI tools: Veo (text-to-video), Imagen (text-to-image), and Lyria (text-to-music)
 
 ## Pricing
-<!-- confidence: low | source_count: 1 -->
+<!-- confidence: medium | source_count: 1 -->
 No pricing details provided in this source.
 
 ## Target Market

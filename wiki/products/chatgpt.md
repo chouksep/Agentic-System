@@ -18,7 +18,7 @@ ChatGPT is a conversational AI assistant developed by [[company:openai]], releas
 - Extended capabilities via add-on products: ChatGPT agent, ChatGPT Atlas, ChatGPT Health
 
 ## Pricing
-<!-- confidence: low | source_count: 1 -->
+<!-- confidence: medium | source_count: 1 -->
 Listed as a freemium product based on general knowledge of the product; no specific pricing tiers detailed in this source. As of February 2026, OpenAI introduced ads to the free version of ChatGPT.
 
 ## Target Market
