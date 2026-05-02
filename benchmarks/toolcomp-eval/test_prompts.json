@@ -5,16 +5,21 @@
       "id": "single_tool_write",
       "name": "Single Tool: Write Company Page",
       "description": "Agent should write a company page with correct tool call",
-      "scenario": "You have gathered information about OpenAI from their website. Write a new wiki page for the company with title 'OpenAI', type 'company', confidence 'high', and content about their founding and products.",
+      "scenario": "You have gathered information about OpenAI from their website. Write a new wiki page for the company with name 'OpenAI', type 'company', founded 2015, hq 'San Francisco', and content about their founding and products.",
       "expected_tool_calls": [
         {
           "tool": "write_page",
           "params": {
             "path": "companies/openai",
             "frontmatter": {
-              "title": "OpenAI",
+              "name": "OpenAI",
               "type": "company",
-              "confidence": "high"
+              "founded": 2015,
+              "hq": "San Francisco, California, U.S.",
+              "funding_stage": "growth",
+              "funding_total": "$13B+",
+              "employees": 3000,
+              "last_updated": "2026-05-02"
             }
           }
         }
@@ -146,22 +151,25 @@
       "id": "parameter_frontmatter_required",
       "name": "Parameter Correctness: Required YAML Fields",
       "description": "Verify required YAML frontmatter fields are present",
-      "scenario": "Create a new product page for 'GPT-4'. It must include title, type, and confidence fields.",
+      "scenario": "Create a new product page for 'GPT-4'. It must include name, type, company, category, and last_updated fields.",
       "expected_tool_calls": [
         {
           "tool": "write_page",
           "params": {
             "path": "products/gpt-4",
             "frontmatter": {
-              "title": "GPT-4",
+              "name": "GPT-4",
               "type": "product",
-              "confidence": "high"
+              "company": "openai",
+              "category": "llm",
+              "pricing_model": "subscription",
+              "last_updated": "2026-05-02"
             }
           }
         }
       ],
       "should_abstain": false,
-      "critical_params": ["frontmatter.title", "frontmatter.type", "frontmatter.confidence"]
+      "critical_params": ["frontmatter.name", "frontmatter.type", "frontmatter.company", "frontmatter.category"]
     },
     {
       "id": "parameter_crossref_syntax",
@@ -182,23 +190,21 @@
     },
     {
       "id": "parameter_confidence_levels",
-      "name": "Parameter Correctness: Confidence Score Levels",
-      "description": "Verify confidence is one of: high, medium, low",
-      "scenario": "Create a page with confidence level. Valid values are 'high', 'medium', 'low'.",
+      "name": "Parameter Correctness: Confidence Score in Comments",
+      "description": "Verify confidence is properly placed in HTML comments (not frontmatter) with format: <!-- confidence: high|medium|low -->",
+      "scenario": "Create a page with pricing information. Add confidence comment to indicate data reliability.",
       "expected_tool_calls": [
         {
           "tool": "write_page",
           "params": {
-            "path": "companies/test",
-            "frontmatter": {
-              "confidence": "medium"
-            }
+            "path": "products/test",
+            "content_contains": "<!-- confidence: medium"
           }
         }
       ],
       "should_abstain": false,
-      "critical_params": ["frontmatter.confidence"],
-      "valid_values": ["high", "medium", "low"]
+      "critical_params": ["content_contains"],
+      "note": "Confidence goes in content comments, not frontmatter"
     },
     {
       "id": "error_case_invalid_type",

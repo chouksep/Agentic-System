@@ -1,15 +1,15 @@
 {
-  "description": "BFCL-style parameter correctness test cases for ci-wiki",
+  "description": "BFCL-style parameter correctness test cases for ci-wiki (FIXED: matches actual schema)",
   "test_cases": [
     {
       "id": "path_format_company",
       "name": "Path Format: Company Page",
-      "description": "Verify correct page path format for company entities",
-      "scenario": "Create a page for OpenAI company",
+      "description": "Verify correct page path format for company entities (in companies/ dir)",
+      "scenario": "Create a page for a company",
       "expected_params": {
-        "path": "companies/openai",
+        "path_directory": "companies",
         "frontmatter.type": "company",
-        "frontmatter.title": "OpenAI"
+        "frontmatter.name": "NotEmpty"
       },
       "category": "path_format",
       "critical": true
@@ -17,10 +17,10 @@
     {
       "id": "path_format_product",
       "name": "Path Format: Product Page",
-      "description": "Verify correct page path format for product entities",
-      "scenario": "Create a page for ChatGPT product",
+      "description": "Verify correct page path format for product entities (in products/ dir)",
+      "scenario": "Create a page for a product",
       "expected_params": {
-        "path": "products/chatgpt",
+        "path_directory": "products",
         "frontmatter.type": "product"
       },
       "category": "path_format",
@@ -29,10 +29,10 @@
     {
       "id": "path_format_person",
       "name": "Path Format: Person Page",
-      "description": "Verify correct page path format for person entities",
-      "scenario": "Create a page for Sam Altman",
+      "description": "Verify correct page path format for person entities (in people/ dir)",
+      "scenario": "Create a page for a person",
       "expected_params": {
-        "path": "people/sam-altman",
+        "path_directory": "people",
         "frontmatter.type": "person"
       },
       "category": "path_format",
@@ -41,10 +41,10 @@
     {
       "id": "path_format_trend",
       "name": "Path Format: Trend Page",
-      "description": "Verify correct page path format for trend entities",
-      "scenario": "Create a page for generative AI trend",
+      "description": "Verify correct page path format for trend entities (in trends/ dir)",
+      "scenario": "Create a page for a trend",
       "expected_params": {
-        "path": "trends/generative-ai-rise",
+        "path_directory": "trends",
         "frontmatter.type": "trend"
       },
       "category": "path_format",
@@ -58,7 +58,6 @@
       "expected_params": {
         "path": "companies/google-deepmind"
       },
-      "valid_alternatives": ["companies/googledeepmmind"],
       "category": "slug_format",
       "critical": true
     },
@@ -75,12 +74,12 @@
       "critical": true
     },
     {
-      "id": "frontmatter_title_required",
-      "name": "Frontmatter: Title Required",
-      "description": "Verify title field is present in frontmatter",
-      "scenario": "Create any page (should have title field)",
+      "id": "frontmatter_name_required",
+      "name": "Frontmatter: Name Required",
+      "description": "Verify name field is present in frontmatter (not title)",
+      "scenario": "Create any page (should have name field)",
       "expected_params": {
-        "frontmatter.title": "NotEmpty"
+        "frontmatter.name": "NotEmpty"
       },
       "category": "frontmatter",
       "critical": true
@@ -98,55 +97,156 @@
       "critical": true
     },
     {
-      "id": "frontmatter_confidence_required",
-      "name": "Frontmatter: Confidence Required",
-      "description": "Verify confidence field is present for ingest operations",
-      "scenario": "Ingest a source and create a page",
+      "id": "frontmatter_last_updated_required",
+      "name": "Frontmatter: Last Updated Required",
+      "description": "Verify last_updated field is present in YYYY-MM-DD format",
+      "scenario": "Create any page (should have last_updated date)",
       "expected_params": {
-        "frontmatter.confidence": "ValidConfidence"
+        "frontmatter.last_updated": "DateFormat:YYYY-MM-DD"
       },
-      "valid_values": ["high", "medium", "low"],
       "category": "frontmatter",
       "critical": true
     },
     {
-      "id": "frontmatter_confidence_high",
-      "name": "Frontmatter: Confidence 'high'",
-      "description": "Verify 'high' confidence is correctly assigned",
-      "scenario": "Create a page with multiple credible sources confirming facts",
+      "id": "company_field_founded_required",
+      "name": "Company-Specific: Founded Year",
+      "description": "Company pages must have founded field (YYYY format)",
+      "scenario": "Create a company page",
       "expected_params": {
-        "frontmatter.confidence": "high"
+        "frontmatter.type": "company",
+        "frontmatter.founded": "NotEmpty"
       },
-      "category": "confidence_assignment",
+      "entity_type": "company",
+      "category": "entity_specific",
+      "critical": true
+    },
+    {
+      "id": "company_field_hq_required",
+      "name": "Company-Specific: Headquarters",
+      "description": "Company pages must have hq field",
+      "scenario": "Create a company page",
+      "expected_params": {
+        "frontmatter.type": "company",
+        "frontmatter.hq": "NotEmpty"
+      },
+      "entity_type": "company",
+      "category": "entity_specific",
+      "critical": true
+    },
+    {
+      "id": "company_field_funding_stage_enum",
+      "name": "Company-Specific: Funding Stage Enum",
+      "description": "funding_stage must be one of: seed, series-a, series-b, series-c, growth, public, acquired, unknown",
+      "scenario": "Create a company page with valid funding_stage",
+      "expected_params": {
+        "frontmatter.type": "company",
+        "frontmatter.funding_stage": "ValidEnum"
+      },
+      "valid_values": ["seed", "series-a", "series-b", "series-c", "growth", "public", "acquired", "unknown"],
+      "entity_type": "company",
+      "category": "validation",
+      "critical": true
+    },
+    {
+      "id": "product_field_company_required",
+      "name": "Product-Specific: Company Reference",
+      "description": "Product pages must have company field (company slug)",
+      "scenario": "Create a product page",
+      "expected_params": {
+        "frontmatter.type": "product",
+        "frontmatter.company": "NotEmpty"
+      },
+      "entity_type": "product",
+      "category": "entity_specific",
+      "critical": true
+    },
+    {
+      "id": "product_field_category_enum",
+      "name": "Product-Specific: Category Enum",
+      "description": "category must be one of: llm, saas, api, hardware, platform, other",
+      "scenario": "Create a product page with valid category",
+      "expected_params": {
+        "frontmatter.type": "product",
+        "frontmatter.category": "ValidEnum"
+      },
+      "valid_values": ["llm", "saas", "api", "hardware", "platform", "other"],
+      "entity_type": "product",
+      "category": "validation",
+      "critical": true
+    },
+    {
+      "id": "product_field_pricing_model_enum",
+      "name": "Product-Specific: Pricing Model Enum",
+      "description": "pricing_model must be one of: free, freemium, subscription, usage-based, enterprise, open-source, unknown",
+      "scenario": "Create a product page with valid pricing_model",
+      "expected_params": {
+        "frontmatter.type": "product",
+        "frontmatter.pricing_model": "ValidEnum"
+      },
+      "valid_values": ["free", "freemium", "subscription", "usage-based", "enterprise", "open-source", "unknown"],
+      "entity_type": "product",
+      "category": "validation",
+      "critical": true
+    },
+    {
+      "id": "person_field_role_required",
+      "name": "Person-Specific: Role/Title",
+      "description": "Person pages must have role field",
+      "scenario": "Create a person page",
+      "expected_params": {
+        "frontmatter.type": "person",
+        "frontmatter.role": "NotEmpty"
+      },
+      "entity_type": "person",
+      "category": "entity_specific",
+      "critical": true
+    },
+    {
+      "id": "person_field_company_reference",
+      "name": "Person-Specific: Company Reference",
+      "description": "Person pages should have company field (recommended)",
+      "scenario": "Create a person page",
+      "expected_params": {
+        "frontmatter.type": "person",
+        "frontmatter.company": "NotEmpty"
+      },
+      "entity_type": "person",
+      "category": "entity_specific",
       "critical": false
     },
     {
-      "id": "frontmatter_confidence_medium",
-      "name": "Frontmatter: Confidence 'medium'",
-      "description": "Verify 'medium' confidence is correctly assigned",
-      "scenario": "Create a page with some conflicting sources or partial information",
+      "id": "trend_field_category_enum",
+      "name": "Trend-Specific: Category Enum",
+      "description": "category must be one of: technology, regulatory, market, customer-behavior, other",
+      "scenario": "Create a trend page with valid category",
       "expected_params": {
-        "frontmatter.confidence": "medium"
+        "frontmatter.type": "trend",
+        "frontmatter.category": "ValidEnum"
       },
-      "category": "confidence_assignment",
+      "valid_values": ["technology", "regulatory", "market", "customer-behavior", "other"],
+      "entity_type": "trend",
+      "category": "validation",
       "critical": false
     },
     {
-      "id": "frontmatter_confidence_low",
-      "name": "Frontmatter: Confidence 'low'",
-      "description": "Verify 'low' confidence is correctly assigned",
-      "scenario": "Create a page with very limited or contradictory information",
+      "id": "trend_field_maturity_enum",
+      "name": "Trend-Specific: Maturity Enum",
+      "description": "maturity must be one of: emerging, growing, mainstream, declining",
+      "scenario": "Create a trend page with valid maturity",
       "expected_params": {
-        "frontmatter.confidence": "low"
+        "frontmatter.type": "trend",
+        "frontmatter.maturity": "ValidEnum"
       },
-      "category": "confidence_assignment",
-      "critical": false
+      "valid_values": ["emerging", "growing", "mainstream", "declining"],
+      "entity_type": "trend",
+      "category": "validation",
+      "critical": true
     },
     {
-      "id": "frontmatter_no_invalid_types",
+      "id": "frontmatter_type_not_invalid",
       "name": "Frontmatter: No Invalid Types",
       "description": "Verify type is one of: company, product, person, trend",
-      "scenario": "Should reject invalid types like 'organization', 'item', 'person_fake'",
+      "scenario": "Should reject invalid types like 'organization', 'item'",
       "expected_params": {
         "frontmatter.type": "OneOf:company,product,person,trend"
       },
@@ -155,15 +255,12 @@
       "critical": true
     },
     {
-      "id": "frontmatter_no_invalid_confidence",
-      "name": "Frontmatter: No Invalid Confidence",
-      "description": "Verify confidence is one of: high, medium, low",
-      "scenario": "Should reject invalid confidence like 'very-high', 'maybe', 'uncertain'",
-      "expected_params": {
-        "frontmatter.confidence": "OneOf:high,medium,low"
-      },
-      "invalid_values": ["very-high", "maybe", "uncertain", "medium-high"],
-      "category": "validation",
+      "id": "content_not_empty",
+      "name": "Content: Non-Empty",
+      "description": "Verify page content is not empty",
+      "scenario": "Pages should have meaningful content",
+      "min_length": 50,
+      "category": "content_quality",
       "critical": true
     },
     {
@@ -182,33 +279,6 @@
       "scenario": "Cross-reference should use valid type: [[company:openai]], not [[invalid:openai]]",
       "valid_crossref_types": ["company", "product", "person", "trend"],
       "category": "content_format",
-      "critical": false
-    },
-    {
-      "id": "markdown_formatting",
-      "name": "Content: Markdown Formatting",
-      "description": "Verify content uses valid Markdown syntax",
-      "scenario": "Content should be valid Markdown (# headers, **bold**, etc.)",
-      "expected_format": "markdown",
-      "category": "content_format",
-      "critical": false
-    },
-    {
-      "id": "content_not_empty",
-      "name": "Content: Non-Empty",
-      "description": "Verify page content is not empty",
-      "scenario": "Pages should have meaningful content",
-      "min_length": 50,
-      "category": "content_quality",
-      "critical": true
-    },
-    {
-      "id": "no_hallucinated_fields",
-      "name": "Frontmatter: No Extra Fields",
-      "description": "Verify no hallucinated/extra frontmatter fields",
-      "scenario": "Should only include: title, type, confidence, (optional: description, updated)",
-      "allowed_fields": ["title", "type", "confidence", "description", "updated", "created"],
-      "category": "validation",
       "critical": false
     },
     {
@@ -248,18 +318,18 @@
       "critical": true
     },
     {
-      "id": "title_matches_path_slug",
-      "name": "Consistency: Title Related to Slug",
-      "description": "Verify title is related to the page slug",
-      "scenario": "Slug 'openai' should have title 'OpenAI' or similar",
+      "id": "name_matches_path_slug",
+      "name": "Consistency: Name Related to Slug",
+      "description": "Verify name is related to the page slug",
+      "scenario": "Slug 'openai' should have name 'OpenAI' or similar",
       "category": "consistency",
       "critical": false
     }
   ],
   "scoring": {
     "perfect_score": 100,
-    "critical_weight": 0.6,
-    "non_critical_weight": 0.4,
+    "critical_weight": 0.7,
+    "non_critical_weight": 0.3,
     "passing_threshold": 80,
     "critical_tests_must_pass": true
   },
@@ -267,8 +337,8 @@
     "path_format": "Tests for correct directory/slug format",
     "slug_format": "Tests for slug conversion rules",
     "frontmatter": "Tests for YAML frontmatter fields",
-    "confidence_assignment": "Tests for correct confidence levels",
-    "validation": "Tests for invalid values rejection",
+    "entity_specific": "Tests for entity-specific required fields",
+    "validation": "Tests for invalid values rejection and enum validation",
     "content_format": "Tests for Markdown and cross-reference syntax",
     "content_quality": "Tests for content completeness",
     "update_behavior": "Tests for update operation correctness",

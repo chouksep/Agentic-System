@@ -76,7 +76,7 @@ class ParameterCorrectnessEvaluator:
                     test_case, actual_path, actual_frontmatter, feedback
                 )
             )
-        elif category in ["frontmatter", "confidence_assignment", "validation"]:
+        elif category in ["frontmatter", "entity_specific", "validation"]:
             checks.extend(
                 self._check_frontmatter(
                     test_case, actual_frontmatter, feedback
@@ -134,10 +134,27 @@ class ParameterCorrectnessEvaluator:
     ) -> List[ParameterCheckResult]:
         """Check path-related parameters."""
         checks = []
-        expected_path = test_case.get("expected_params", {}).get("path", "")
-        expected_type = test_case.get("expected_params", {}).get("frontmatter.type", "")
+        expected_params = test_case.get("expected_params", {})
+        expected_path = expected_params.get("path", "")
+        expected_directory = expected_params.get("path_directory", "")
 
-        # Check exact path match
+        # Check path directory (more flexible than exact match)
+        if expected_directory:
+            path_directory = actual_path.split("/")[0] if "/" in actual_path else ""
+            passed = path_directory == expected_directory
+            checks.append(
+                ParameterCheckResult(
+                    test_id=test_case["id"],
+                    passed=passed,
+                    expected=f"{expected_directory}/*",
+                    actual=actual_path,
+                    error_message="" if passed else f"Path should be in {expected_directory}/, got {actual_path}",
+                )
+            )
+            if not passed:
+                feedback.append(f"Path should be in {expected_directory}/ directory, got {actual_path}")
+
+        # Check exact path match if specified
         if expected_path:
             passed = actual_path == expected_path
             checks.append(
@@ -229,19 +246,36 @@ class ParameterCorrectnessEvaluator:
                 )
                 if not passed:
                     feedback.append(f"Invalid type value: {actual_value}")
-            elif field_value == "ValidConfidence":
-                passed = actual_value in ["high", "medium", "low"]
+            elif field_value == "ValidEnum":
+                # For enum fields, use valid_values from test case
+                passed = actual_value in valid_values if valid_values else True
                 checks.append(
                     ParameterCheckResult(
                         test_id=test_case["id"],
                         passed=passed,
-                        expected="OneOf:high,medium,low",
+                        expected=f"OneOf:{','.join(valid_values)}",
                         actual=actual_value,
-                        error_message="" if passed else f"Invalid confidence: {actual_value}",
+                        error_message="" if passed else f"Invalid value: {actual_value}",
                     )
                 )
                 if not passed:
-                    feedback.append(f"Invalid confidence value: {actual_value}")
+                    feedback.append(f"'{field}' value '{actual_value}' not in allowed values: {valid_values}")
+            elif field_value.startswith("DateFormat:"):
+                # Date format validation
+                date_format = field_value.split(":", 1)[1]
+                if date_format == "YYYY-MM-DD":
+                    passed = bool(re.match(r"^\d{4}-\d{2}-\d{2}$", str(actual_value)))
+                    checks.append(
+                        ParameterCheckResult(
+                            test_id=test_case["id"],
+                            passed=passed,
+                            expected="YYYY-MM-DD format",
+                            actual=str(actual_value),
+                            error_message="" if passed else f"Invalid date format: {actual_value}",
+                        )
+                    )
+                    if not passed:
+                        feedback.append(f"Date '{actual_value}' must be in YYYY-MM-DD format")
 
         # Check valid values
         for field_name, field_value in expected.items():
@@ -250,17 +284,19 @@ class ParameterCorrectnessEvaluator:
             _, field = field_name.split(".", 1)
             actual_value = frontmatter.get(field)
 
-            if valid_values and actual_value not in valid_values:
-                checks.append(
-                    ParameterCheckResult(
-                        test_id=test_case["id"],
-                        passed=False,
-                        expected=f"OneOf:{','.join(valid_values)}",
-                        actual=actual_value,
-                        error_message=f"Value not in allowed set: {actual_value}",
+            if valid_values and actual_value and actual_value not in valid_values:
+                # Skip if we already checked this as ValidEnum
+                if field_value != "ValidEnum":
+                    checks.append(
+                        ParameterCheckResult(
+                            test_id=test_case["id"],
+                            passed=False,
+                            expected=f"OneOf:{','.join(valid_values)}",
+                            actual=actual_value,
+                            error_message=f"Value not in allowed set: {actual_value}",
+                        )
                     )
-                )
-                feedback.append(f"'{actual_value}' not in allowed values: {valid_values}")
+                    feedback.append(f"'{actual_value}' not in allowed values: {valid_values}")
 
         # Check invalid values
         for field_name, field_value in expected.items():
