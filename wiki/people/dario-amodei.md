@@ -16,7 +16,7 @@ Dario Amodei is a co-founder of [[company:anthropic]], which he helped establish
 CEO and co-founder of Anthropic. As CEO, he leads the company's mission to research AI systems' safety and reliability.
 
 ## Previous Roles
-- **Vice President of Research, [[company:openai]]** — held this role prior to departing to co-found Anthropic in 2021
+- **Vice President of Research, OpenAI** — held this role prior to departing to co-found Anthropic in 2021
 
 ## Public Statements
 - (2022) Anthropic delayed releasing the first version of Claude, citing a need for further internal safety testing and a desire to avoid initiating a potentially hazardous race to develop increasingly powerful AI systems.
