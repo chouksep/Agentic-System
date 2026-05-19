@@ -1,0 +1,16 @@
+{
+  "instruct": {
+    "json_args_em_metric": 0.6875,
+    "json_format_metric": 1.0
+  },
+  "review": {
+    "parse_rate": 1.0,
+    "review_quality": 0.6666666666666666
+  },
+  "planning_permutation": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1_score": 0.8888888888888888,
+    "parse_rate": 1.0
+  }
+}
