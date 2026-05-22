@@ -493,7 +493,7 @@
       "critical": false
     }
   ],
-  "test_categories_extended": {
+  "scoring": {
     "perfect_score": 100,
     "critical_weight": 0.7,
     "non_critical_weight": 0.3,
