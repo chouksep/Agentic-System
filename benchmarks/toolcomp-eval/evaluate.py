@@ -156,15 +156,30 @@ class ToolCompEvaluator:
             return (correct / total) * 100
         return 100.0
 
+    def _get_parameter_value(self, params: Dict, key: str) -> tuple[bool, Any]:
+        """Resolve a parameter value from a dict, supporting dotted paths."""
+        current = params
+        for part in key.split("."):
+            if not isinstance(current, dict) or part not in current:
+                return False, None
+            current = current[part]
+        return True, current
+
     def _check_parameter(
         self, key: str, agent_params: Dict, expected_params: Dict
     ) -> bool:
         """Check if a parameter matches expected value."""
-        if key not in agent_params:
+        agent_has_key, agent_value = self._get_parameter_value(agent_params, key)
+        if not agent_has_key:
             return False
-        if key not in expected_params:
+
+        expected_has_key, expected_value = self._get_parameter_value(
+            expected_params, key
+        )
+        if not expected_has_key:
             return True
-        return agent_params[key] == expected_params[key]
+
+        return agent_value == expected_value
 
     def _evaluate_abstention(
         self, agent_abstained: bool, test_case: Dict, feedback: List[str]
