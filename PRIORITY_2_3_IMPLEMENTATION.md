@@ -67,6 +67,11 @@
 
 ### Priority 2: Confidence & Sources
 
+**Current status: ✅ All issues resolved (0 remaining)**
+
+<details>
+<summary>Pre-fix evaluation output (historical)</summary>
+
 ```
 Testing 15 wiki pages
 
@@ -84,9 +89,18 @@ ISSUES FOUND:
   All 15 pages have valid or empty sources fields
 ```
 
-**Finding**: Companies and products have miscalibrated confidence scores. When 1 source is cited, confidence should be "medium" not "low".
+**Finding**: Companies and products had miscalibrated confidence scores. When 1 source is cited, confidence should be "medium" not "low".
+
+</details>
+
+**Post-fix**: All 6 pages corrected — confidence values now align with source counts. 15/15 pages pass.
 
 ### Priority 3: Cross-References & Consistency
+
+**Current status: ✅ All issues resolved (0 remaining)**
+
+<details>
+<summary>Pre-fix evaluation output (historical)</summary>
 
 ```
 CROSS-REFERENCE ANALYSIS:
@@ -111,7 +125,11 @@ BROKEN REFERENCES:
 - 1 reference to non-existent page (if any)
 ```
 
-**Finding**: Some pages reference the same entity multiple times unnecessarily. Could be consolidated for clarity.
+**Finding**: Some pages referenced the same entity multiple times unnecessarily.
+
+</details>
+
+**Post-fix**: Duplicate references consolidated and broken reference resolved. 15/15 pages pass.
 
 ---
 
@@ -124,7 +142,7 @@ BROKEN REFERENCES:
 - ✅ Sources list validation
 - ✅ URL format validation
 
-**Test Results**: 9 issues detected (all confidence misalignment)
+**Test Results**: 9 issues detected before fixes — all resolved ✅
 
 ### Priority 3 Test Suite
 - ✅ Cross-reference syntax
@@ -134,7 +152,7 @@ BROKEN REFERENCES:
 - ✅ Reference resolution
 - ✅ Consistency checks
 
-**Test Results**: 7 issues detected (6 duplicates, 1 broken reference)
+**Test Results**: 7 issues detected before fixes (6 duplicates, 1 broken reference) — all resolved ✅
 
 ---
 
