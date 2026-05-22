@@ -8,43 +8,33 @@
 
 This benchmark validates that the ci-wiki agent generates tool parameters in the correct format and with valid values. It tests:
 
-- **Path Format**: Pages are created in correct directory (e.g., `companies/`, `products/`)
+- **Path Format**: Pages are created in the correct directory (e.g., `companies/`, `products/`, `people/`, `trends/`)
 - **Slug Format**: Page slugs follow kebab-case convention with no spaces
-- **Frontmatter Fields**: Required YAML fields (title, type, confidence) are present
-- **Valid Values**: Types and confidence levels are from allowed sets
+- **Frontmatter Fields**: Required YAML fields are present, including `name` and `type`
+- **Valid Values**: Entity types are from the allowed set
+- **Confidence Metadata**: Confidence is provided in the expected HTML comment format, not as a frontmatter field
 - **Cross-References**: Wiki links use correct `[[type:slug]]` syntax
-- **Consistency**: Path directory matches entity type, title relates to slug
-- **Update Behavior**: Type and path don't change on update
+- **Consistency**: Path directory matches entity type, and the entity `name` is consistent with the generated slug
+- **Update Behavior**: Type and path do not change on update
 
-## Test Cases (23 total)
+## Test Cases
 
-### Critical Tests (60% weight)
-These tests **must pass** for overall success:
+The authoritative set of benchmark cases lives in `test_cases.json`. Do not rely on this README for a fixed total count or exhaustive list of test IDs.
 
-| Test ID | Category | What it Tests |
-|---------|----------|---------------|
-| `path_format_company` | Path Format | Company pages in `companies/` |
-| `path_format_product` | Path Format | Product pages in `products/` |
-| `path_format_person` | Path Format | Person pages in `people/` |
-| `path_format_trend` | Path Format | Trend pages in `trends/` |
-| `path_slug_kebab_case` | Slug Format | Kebab-case conversion |
-| `path_avoid_spaces` | Slug Format | No spaces in paths |
-| `frontmatter_title_required` | Frontmatter | Title field present |
-| `frontmatter_type_required` | Frontmatter | Type field with valid value |
-| `frontmatter_confidence_required` | Frontmatter | Confidence field present |
-| `frontmatter_no_invalid_types` | Validation | Type is one of: company, product, person, trend |
-| `frontmatter_no_invalid_confidence` | Validation | Confidence is one of: high, medium, low |
-| `content_not_empty` | Content Quality | Minimum 50 characters |
-| `update_preserves_type` | Update Behavior | Type unchanged on update |
-| `update_preserves_path` | Update Behavior | Path unchanged on update |
-| `path_matches_type` | Consistency | Directory matches type |
+Broadly, the evaluator checks:
 
-### Non-Critical Tests (40% weight)
+| Category | What it Tests |
+|----------|---------------|
+| Path Format | Correct directory for each entity type |
+| Slug Format | Kebab-case slugs with no spaces |
+| Frontmatter | Required YAML fields, including `name` and valid `type` |
+| Validation | Allowed entity type values and structurally valid outputs |
+| Confidence Metadata | Confidence captured in HTML comments using the expected format |
+| Content Quality | Non-empty, usable page content |
+| Consistency | Directory/type alignment and slug/name consistency |
+| Update Behavior | Updates preserve stable type/path assignments |
 
-| Test ID | Category | What it Tests |
-|---------|----------|---------------|
-| `frontmatter_confidence_high` | Confidence | Correctly assigns "high" |
-| `frontmatter_confidence_medium` | Confidence | Correctly assigns "medium" |
+Refer to `test_cases.json` and the evaluator implementation for the exact current cases and expected behavior.
 | `frontmatter_confidence_low` | Confidence | Correctly assigns "low" |
 | `crossref_syntax_correct` | Content | `[[type:slug]]` syntax |
 | `crossref_valid_types` | Content | Cross-ref types are valid |
