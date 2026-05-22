@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "benchmark": "T-Eval",
+    "paper": "Chen et al., 'T-Eval: Evaluating the Tool Utilization Capability of Large Language Models Step by Step', ACL 2024 (arXiv:2312.14033)",
+    "source_repo": "https://github.com/open-compass/T-Eval",
+    "description": "Six abilities are decomposed into four evaluators (REASON/RETRIEVE/UNDERSTAND share one). Each sample has fields appropriate to one evaluator. All metrics, weights, and thresholds match the upstream defaults verbatim."
+  },
+  "instruct": [
+    {
+      "name": "read_wiki_page openai company",
+      "response_format": "json",
+      "pred": {"action": "read_wiki_page", "args": {"slug": "openai", "page_type": "company"}},
+      "gt": {"action": "read_wiki_page", "args": {"slug": "openai", "page_type": "company"}}
+    },
+    {
+      "name": "search wiki anthropic",
+      "response_format": "json",
+      "pred": {"action": "search_wiki", "args": {"query": "anthropic funding"}},
+      "gt": {"action": "search_wiki", "args": {"query": "anthropic funding"}}
+    },
+    {
+      "name": "write_wiki_page minor schema deviation",
+      "response_format": "json",
+      "pred": {"action": "write_wiki_page", "args": {"slug": "gpt-4o", "page_type": "product"}},
+      "gt": {"action": "write_wiki_page", "args": {"slug": "gpt-4o", "page_type": "product", "content": "---\nname: GPT-4o\n---"}}
+    },
+    {
+      "name": "wrong action picked",
+      "response_format": "json",
+      "pred": {"action": "list_wiki_pages", "args": {"page_type": "company"}},
+      "gt": {"action": "search_wiki", "args": {"query": "openai"}}
+    }
+  ],
+  "plan": [
+    {
+      "name": "two-step plan: search then read",
+      "pred_plan": [
+        {"id": 0, "name": "search_wiki", "args": "{'query': 'openai'}"},
+        {"id": 1, "name": "read_wiki_page", "args": "{'slug': 'openai', 'page_type': 'company'}"}
+      ],
+      "gt_plan": [
+        {"id": 0, "name": "search_wiki", "args": "{'query': 'openai'}"},
+        {"id": 1, "name": "read_wiki_page", "args": "{'slug': 'openai', 'page_type': 'company'}"}
+      ]
+    },
+    {
+      "name": "three-step plan: search, read, write",
+      "pred_plan": [
+        {"id": 0, "name": "search_wiki", "args": "{'query': 'anthropic'}"},
+        {"id": 1, "name": "read_wiki_page", "args": "{'slug': 'anthropic', 'page_type': 'company'}"},
+        {"id": 2, "name": "write_wiki_page", "args": "{'slug': 'anthropic', 'page_type': 'company', 'content': '...'}"}
+      ],
+      "gt_plan": [
+        {"id": 0, "name": "search_wiki", "args": "{'query': 'anthropic'}"},
+        {"id": 1, "name": "read_wiki_page", "args": "{'slug': 'anthropic', 'page_type': 'company'}"},
+        {"id": 2, "name": "write_wiki_page", "args": "{'slug': 'anthropic', 'page_type': 'company', 'content': 'updated'}"}
+      ]
+    },
+    {
+      "name": "missing one step",
+      "pred_plan": [
+        {"id": 0, "name": "read_wiki_page", "args": "{'slug': 'openai', 'page_type': 'company'}"}
+      ],
+      "gt_plan": [
+        {"id": 0, "name": "search_wiki", "args": "{'query': 'openai'}"},
+        {"id": 1, "name": "read_wiki_page", "args": "{'slug': 'openai', 'page_type': 'company'}"}
+      ]
+    }
+  ],
+  "reason_retrieve_understand": [
+    {
+      "name": "perfect match",
+      "pred": {
+        "thought": "I need to look up OpenAI's wiki page",
+        "name": "read_wiki_page",
+        "args": {"slug": "openai", "page_type": "company"}
+      },
+      "gt": {
+        "thought": "I should read the OpenAI wiki page",
+        "name": "read_wiki_page",
+        "args": {"slug": "openai", "page_type": "company"}
+      }
+    },
+    {
+      "name": "right name, wrong args",
+      "pred": {
+        "thought": "Reading Anthropic page",
+        "name": "read_wiki_page",
+        "args": {"slug": "anthropic", "page_type": "product"}
+      },
+      "gt": {
+        "thought": "Reading Anthropic page",
+        "name": "read_wiki_page",
+        "args": {"slug": "anthropic", "page_type": "company"}
+      }
+    },
+    {
+      "name": "wrong name",
+      "pred": {
+        "thought": "Searching wiki",
+        "name": "list_wiki_pages",
+        "args": {"page_type": "company"}
+      },
+      "gt": {
+        "thought": "Searching wiki",
+        "name": "search_wiki",
+        "args": {"query": "openai"}
+      }
+    }
+  ],
+  "review": [
+    {"name": "is openai a company?", "pred": "A", "gt": "A"},
+    {"name": "is gpt-4 a product?",  "pred": "A", "gt": "A"},
+    {"name": "wrong choice",         "pred": "B", "gt": "A"}
+  ]
+}

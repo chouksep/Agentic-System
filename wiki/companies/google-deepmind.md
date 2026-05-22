@@ -31,7 +31,7 @@ Google DeepMind (legal name: DeepMind Technologies Limited) is a British-America
 - Streams — clinical task management app (co-developed with Royal Free NHS Trust, 2015)
 
 ## Pricing
-<!-- confidence: low | source_count: 1 -->
+<!-- confidence: medium | source_count: 1 -->
 No public pricing information provided in this source. Google DeepMind operates primarily as a research lab and subsidiary; commercial products (e.g., Gemini) are offered through Google's product ecosystem.
 
 ## Funding & Financials
@@ -44,7 +44,7 @@ No public pricing information provided in this source. Google DeepMind operates 
 - **Subsidiary**: Google AI
 - **Early investors (pre-acquisition)**: Horizons Ventures, Founders Fund, Scott Banister, Peter Thiel, Elon Musk, Jaan Tallinn (also an adviser)
 - Facebook reportedly ended acquisition negotiations with DeepMind in 2013 before Google's acquisition
-<!-- confidence: high | source_count: 1 -->
+<!-- confidence: medium | source_count: 1 -->
 
 ## Leadership
 - **CEO**: [[person:demis-hassabis]] (Demis Hassabis) — co-founder

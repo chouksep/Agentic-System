@@ -1,0 +1,514 @@
+{
+  "description": "BFCL-style parameter correctness test cases for ci-wiki (FIXED: matches actual schema)",
+  "test_cases": [
+    {
+      "id": "path_format_company",
+      "name": "Path Format: Company Page",
+      "description": "Verify correct page path format for company entities (in companies/ dir)",
+      "scenario": "Create a page for a company",
+      "expected_params": {
+        "path_directory": "companies",
+        "frontmatter.type": "company",
+        "frontmatter.name": "NotEmpty"
+      },
+      "category": "path_format",
+      "critical": true
+    },
+    {
+      "id": "path_format_product",
+      "name": "Path Format: Product Page",
+      "description": "Verify correct page path format for product entities (in products/ dir)",
+      "scenario": "Create a page for a product",
+      "expected_params": {
+        "path_directory": "products",
+        "frontmatter.type": "product"
+      },
+      "category": "path_format",
+      "critical": true
+    },
+    {
+      "id": "path_format_person",
+      "name": "Path Format: Person Page",
+      "description": "Verify correct page path format for person entities (in people/ dir)",
+      "scenario": "Create a page for a person",
+      "expected_params": {
+        "path_directory": "people",
+        "frontmatter.type": "person"
+      },
+      "category": "path_format",
+      "critical": true
+    },
+    {
+      "id": "path_format_trend",
+      "name": "Path Format: Trend Page",
+      "description": "Verify correct page path format for trend entities (in trends/ dir)",
+      "scenario": "Create a page for a trend",
+      "expected_params": {
+        "path_directory": "trends",
+        "frontmatter.type": "trend"
+      },
+      "category": "path_format",
+      "critical": true
+    },
+    {
+      "id": "path_slug_kebab_case",
+      "name": "Path Slug: Kebab Case Conversion",
+      "description": "Verify page slugs are converted to kebab-case",
+      "scenario": "Create a page for 'Google DeepMind' company",
+      "expected_params": {
+        "path": "companies/google-deepmind"
+      },
+      "category": "slug_format",
+      "critical": true
+    },
+    {
+      "id": "path_avoid_spaces",
+      "name": "Path Slug: No Spaces",
+      "description": "Verify page paths do not contain spaces",
+      "scenario": "Create a page for 'Ilya Sutskever' person",
+      "expected_params": {
+        "path": "people/ilya-sutskever"
+      },
+      "forbidden_patterns": ["ilya sutskever", "Ilya Sutskever"],
+      "category": "slug_format",
+      "critical": true
+    },
+    {
+      "id": "frontmatter_name_required",
+      "name": "Frontmatter: Name Required",
+      "description": "Verify name field is present in frontmatter (not title)",
+      "scenario": "Create any page (should have name field)",
+      "expected_params": {
+        "frontmatter.name": "NotEmpty"
+      },
+      "category": "frontmatter",
+      "critical": true
+    },
+    {
+      "id": "frontmatter_type_required",
+      "name": "Frontmatter: Type Required",
+      "description": "Verify type field is present and valid",
+      "scenario": "Create any page (should have valid type)",
+      "expected_params": {
+        "frontmatter.type": "ValidType"
+      },
+      "valid_values": ["company", "product", "person", "trend"],
+      "category": "frontmatter",
+      "critical": true
+    },
+    {
+      "id": "frontmatter_last_updated_required",
+      "name": "Frontmatter: Last Updated Required",
+      "description": "Verify last_updated field is present in YYYY-MM-DD format",
+      "scenario": "Create any page (should have last_updated date)",
+      "expected_params": {
+        "frontmatter.last_updated": "DateFormat:YYYY-MM-DD"
+      },
+      "category": "frontmatter",
+      "critical": true
+    },
+    {
+      "id": "company_field_founded_required",
+      "name": "Company-Specific: Founded Year",
+      "description": "Company pages must have founded field (YYYY format)",
+      "scenario": "Create a company page",
+      "expected_params": {
+        "frontmatter.type": "company",
+        "frontmatter.founded": "NotEmpty"
+      },
+      "entity_type": "company",
+      "category": "entity_specific",
+      "critical": true
+    },
+    {
+      "id": "company_field_hq_required",
+      "name": "Company-Specific: Headquarters",
+      "description": "Company pages must have hq field",
+      "scenario": "Create a company page",
+      "expected_params": {
+        "frontmatter.type": "company",
+        "frontmatter.hq": "NotEmpty"
+      },
+      "entity_type": "company",
+      "category": "entity_specific",
+      "critical": true
+    },
+    {
+      "id": "company_field_funding_stage_enum",
+      "name": "Company-Specific: Funding Stage Enum",
+      "description": "funding_stage must be one of: seed, series-a, series-b, series-c, growth, public, acquired, unknown",
+      "scenario": "Create a company page with valid funding_stage",
+      "expected_params": {
+        "frontmatter.type": "company",
+        "frontmatter.funding_stage": "ValidEnum"
+      },
+      "valid_values": ["seed", "series-a", "series-b", "series-c", "growth", "public", "acquired", "unknown"],
+      "entity_type": "company",
+      "category": "validation",
+      "critical": true
+    },
+    {
+      "id": "product_field_company_required",
+      "name": "Product-Specific: Company Reference",
+      "description": "Product pages must have company field (company slug)",
+      "scenario": "Create a product page",
+      "expected_params": {
+        "frontmatter.type": "product",
+        "frontmatter.company": "NotEmpty"
+      },
+      "entity_type": "product",
+      "category": "entity_specific",
+      "critical": true
+    },
+    {
+      "id": "product_field_category_enum",
+      "name": "Product-Specific: Category Enum",
+      "description": "category must be one of: llm, saas, api, hardware, platform, other",
+      "scenario": "Create a product page with valid category",
+      "expected_params": {
+        "frontmatter.type": "product",
+        "frontmatter.category": "ValidEnum"
+      },
+      "valid_values": ["llm", "saas", "api", "hardware", "platform", "other"],
+      "entity_type": "product",
+      "category": "validation",
+      "critical": true
+    },
+    {
+      "id": "product_field_pricing_model_enum",
+      "name": "Product-Specific: Pricing Model Enum",
+      "description": "pricing_model must be one of: free, freemium, subscription, usage-based, enterprise, open-source, unknown",
+      "scenario": "Create a product page with valid pricing_model",
+      "expected_params": {
+        "frontmatter.type": "product",
+        "frontmatter.pricing_model": "ValidEnum"
+      },
+      "valid_values": ["free", "freemium", "subscription", "usage-based", "enterprise", "open-source", "unknown"],
+      "entity_type": "product",
+      "category": "validation",
+      "critical": true
+    },
+    {
+      "id": "person_field_role_required",
+      "name": "Person-Specific: Role/Title",
+      "description": "Person pages must have role field",
+      "scenario": "Create a person page",
+      "expected_params": {
+        "frontmatter.type": "person",
+        "frontmatter.role": "NotEmpty"
+      },
+      "entity_type": "person",
+      "category": "entity_specific",
+      "critical": true
+    },
+    {
+      "id": "person_field_company_reference",
+      "name": "Person-Specific: Company Reference",
+      "description": "Person pages should have company field (recommended)",
+      "scenario": "Create a person page",
+      "expected_params": {
+        "frontmatter.type": "person",
+        "frontmatter.company": "NotEmpty"
+      },
+      "entity_type": "person",
+      "category": "entity_specific",
+      "critical": false
+    },
+    {
+      "id": "trend_field_category_enum",
+      "name": "Trend-Specific: Category Enum",
+      "description": "category must be one of: technology, regulatory, market, customer-behavior, other",
+      "scenario": "Create a trend page with valid category",
+      "expected_params": {
+        "frontmatter.type": "trend",
+        "frontmatter.category": "ValidEnum"
+      },
+      "valid_values": ["technology", "regulatory", "market", "customer-behavior", "other"],
+      "entity_type": "trend",
+      "category": "validation",
+      "critical": false
+    },
+    {
+      "id": "trend_field_maturity_enum",
+      "name": "Trend-Specific: Maturity Enum",
+      "description": "maturity must be one of: emerging, growing, mainstream, declining",
+      "scenario": "Create a trend page with valid maturity",
+      "expected_params": {
+        "frontmatter.type": "trend",
+        "frontmatter.maturity": "ValidEnum"
+      },
+      "valid_values": ["emerging", "growing", "mainstream", "declining"],
+      "entity_type": "trend",
+      "category": "validation",
+      "critical": true
+    },
+    {
+      "id": "frontmatter_type_not_invalid",
+      "name": "Frontmatter: No Invalid Types",
+      "description": "Verify type is one of: company, product, person, trend",
+      "scenario": "Should reject invalid types like 'organization', 'item'",
+      "expected_params": {
+        "frontmatter.type": "OneOf:company,product,person,trend"
+      },
+      "invalid_values": ["organization", "item", "person_fake", "unknown"],
+      "category": "validation",
+      "critical": true
+    },
+    {
+      "id": "content_not_empty",
+      "name": "Content: Non-Empty",
+      "description": "Verify page content is not empty",
+      "scenario": "Pages should have meaningful content",
+      "min_length": 50,
+      "category": "content_quality",
+      "critical": true
+    },
+    {
+      "id": "crossref_syntax_correct",
+      "name": "Content: Cross-Reference Syntax",
+      "description": "Verify wiki cross-references use correct [[type:slug]] syntax",
+      "scenario": "Reference another page: should be [[product:claude]] not [Claude](claude.md)",
+      "expected_regex": "\\[\\[[a-z]+:[a-z-]+\\]\\]",
+      "category": "content_format",
+      "critical": false
+    },
+    {
+      "id": "crossref_valid_types",
+      "name": "Content: Cross-Reference Valid Types",
+      "description": "Verify cross-reference types match valid entity types",
+      "scenario": "Cross-reference should use valid type: [[company:openai]], not [[invalid:openai]]",
+      "valid_crossref_types": ["company", "product", "person", "trend"],
+      "category": "content_format",
+      "critical": false
+    },
+    {
+      "id": "update_preserves_type",
+      "name": "Update: Type Consistency",
+      "description": "Verify page type is not changed on update",
+      "scenario": "Update a 'company' page - type should remain 'company'",
+      "expected_params": {
+        "frontmatter.type_unchanged": true
+      },
+      "category": "update_behavior",
+      "critical": true
+    },
+    {
+      "id": "update_preserves_path",
+      "name": "Update: Path Consistency",
+      "description": "Verify page path is not changed on update",
+      "scenario": "Update a page - path should remain unchanged",
+      "expected_params": {
+        "path_unchanged": true
+      },
+      "category": "update_behavior",
+      "critical": true
+    },
+    {
+      "id": "path_matches_type",
+      "name": "Consistency: Path Matches Type",
+      "description": "Verify path directory matches entity type",
+      "scenario": "Company page should be in companies/, product in products/",
+      "validations": [
+        "type:company => path:companies/*",
+        "type:product => path:products/*",
+        "type:person => path:people/*",
+        "type:trend => path:trends/*"
+      ],
+      "category": "consistency",
+      "critical": true
+    },
+    {
+      "id": "name_matches_path_slug",
+      "name": "Consistency: Name Related to Slug",
+      "description": "Verify name is related to the page slug",
+      "scenario": "Slug 'openai' should have name 'OpenAI' or similar",
+      "category": "consistency",
+      "critical": false
+    }
+  ],
+  "priority_2_tests": [
+    {
+      "id": "confidence_comment_syntax",
+      "name": "Priority 2: Confidence Comment Syntax",
+      "description": "Verify confidence comments use correct HTML format",
+      "scenario": "Content should have confidence comments like: <!-- confidence: high | source_count: 3 -->",
+      "expected_format": "<!-- confidence: (high|medium|low)( | source_count: \\d+)? -->",
+      "category": "priority_2",
+      "critical": false
+    },
+    {
+      "id": "confidence_pricing_section",
+      "name": "Priority 2: Pricing Section Confidence",
+      "description": "Pricing section should have confidence comment for companies and products",
+      "scenario": "Create pricing section with confidence level",
+      "required_for_types": ["company", "product"],
+      "section": "Pricing",
+      "expected_confidence": "high|medium|low",
+      "category": "priority_2",
+      "critical": false
+    },
+    {
+      "id": "confidence_funding_section",
+      "name": "Priority 2: Funding Section Confidence",
+      "description": "Funding section should have confidence comment for companies",
+      "scenario": "Create funding section with confidence level",
+      "required_for_types": ["company"],
+      "section": "Funding & Financials",
+      "expected_confidence": "high|medium|low",
+      "category": "priority_2",
+      "critical": false
+    },
+    {
+      "id": "confidence_source_count_alignment",
+      "name": "Priority 2: Confidence-Source Count Alignment",
+      "description": "Confidence level should match source count (high: 3+, medium: 1-2, low: 0)",
+      "scenario": "Validate that confidence level aligns with source_count",
+      "validation_rules": {
+        "high": "source_count >= 3",
+        "medium": "source_count in [1, 2]",
+        "low": "source_count == 0"
+      },
+      "category": "priority_2",
+      "critical": false
+    },
+    {
+      "id": "sources_no_duplicates",
+      "name": "Priority 2: Sources List - No Duplicates",
+      "description": "Sources list should not contain duplicate URLs",
+      "scenario": "Check for duplicate entries in sources: field",
+      "category": "priority_2",
+      "critical": false
+    },
+    {
+      "id": "sources_valid_urls",
+      "name": "Priority 2: Sources List - Valid URLs",
+      "description": "All sources should be valid HTTP/HTTPS URLs",
+      "scenario": "Validate all URLs in sources: list",
+      "expected_format": "^https?://",
+      "category": "priority_2",
+      "critical": false
+    }
+  ],
+  "priority_3_tests": [
+    {
+      "id": "crossref_syntax_valid",
+      "name": "Priority 3: Cross-Reference Syntax Valid",
+      "description": "All cross-references must use [[type:slug]] format",
+      "scenario": "Validate [[company:openai]], [[product:claude]], etc.",
+      "expected_pattern": "\\[\\[([a-z]+):([a-z0-9-]+)\\]\\]",
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "crossref_no_duplicates",
+      "name": "Priority 3: Cross-Reference Deduplication",
+      "description": "No duplicate references to same entity in single page",
+      "scenario": "Detect duplicate [[company:openai]] references",
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "crossref_type_valid",
+      "name": "Priority 3: Cross-Reference Type Valid",
+      "description": "Cross-reference types must be valid entity types",
+      "scenario": "Check that type is one of: company, product, person, trend",
+      "valid_types": ["company", "product", "person", "trend"],
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "crossref_slug_kebab_case",
+      "name": "Priority 3: Cross-Reference Slug Format",
+      "description": "Cross-reference slugs must be kebab-case",
+      "scenario": "Validate slug format in [[type:slug]]",
+      "expected_pattern": "^[a-z0-9-]+$",
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "crossref_resolution_company",
+      "name": "Priority 3: Cross-Reference Resolution - Company",
+      "description": "Company references in product pages must exist",
+      "scenario": "Product pages should reference existing companies",
+      "entity_type": "product",
+      "reference_field": "company",
+      "must_exist": true,
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "crossref_resolution_product",
+      "name": "Priority 3: Cross-Reference Resolution - Product",
+      "description": "Product references must point to existing products",
+      "scenario": "Validate [[product:slug]] references exist in wiki",
+      "reference_type": "product",
+      "must_exist": true,
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "crossref_resolution_person",
+      "name": "Priority 3: Cross-Reference Resolution - Person",
+      "description": "Person references must point to existing people",
+      "scenario": "Validate [[person:slug]] references exist in wiki",
+      "reference_type": "person",
+      "must_exist": true,
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "crossref_resolution_trend",
+      "name": "Priority 3: Cross-Reference Resolution - Trend",
+      "description": "Trend references must point to existing trends",
+      "scenario": "Validate [[trend:slug]] references exist in wiki",
+      "reference_type": "trend",
+      "must_exist": true,
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "consistency_company_reference",
+      "name": "Priority 3: Consistency - Company Reference",
+      "description": "Product company: field must match referenced company",
+      "scenario": "Product's company field should match companies it references",
+      "entity_type": "product",
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "consistency_section_order",
+      "name": "Priority 3: Consistency - Section Order",
+      "description": "Sections should follow schema order",
+      "scenario": "Verify sections appear in recommended order",
+      "category": "priority_3",
+      "critical": false
+    },
+    {
+      "id": "consistency_markdown_headers",
+      "name": "Priority 3: Consistency - Markdown Headers",
+      "description": "All section headers must be H2 (##), not H1 or H3",
+      "scenario": "Validate header levels in content",
+      "expected_format": "^##\\s+",
+      "category": "priority_3",
+      "critical": false
+    }
+  ],
+  "scoring": {
+    "perfect_score": 100,
+    "critical_weight": 0.7,
+    "non_critical_weight": 0.3,
+    "passing_threshold": 80,
+    "critical_tests_must_pass": true
+  },
+  "evaluation_categories": {
+    "path_format": "Tests for correct directory/slug format",
+    "slug_format": "Tests for slug conversion rules",
+    "frontmatter": "Tests for YAML frontmatter fields",
+    "entity_specific": "Tests for entity-specific required fields",
+    "validation": "Tests for invalid values rejection and enum validation",
+    "content_format": "Tests for Markdown and cross-reference syntax",
+    "content_quality": "Tests for content completeness",
+    "update_behavior": "Tests for update operation correctness",
+    "consistency": "Tests for consistency across fields"
+  }
+}
