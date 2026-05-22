@@ -262,6 +262,21 @@ class ParameterCorrectnessEvaluator:
                 )
                 if not passed:
                     feedback.append(f"'{field}' value '{actual_value}' not in allowed values: {valid_values}")
+            elif field_value.startswith("OneOf:"):
+                # OneOf constraint: value must be one of the listed options
+                allowed = field_value.split(":", 1)[1].split(",")
+                passed = actual_value in allowed
+                checks.append(
+                    ParameterCheckResult(
+                        test_id=test_case["id"],
+                        passed=passed,
+                        expected=field_value,
+                        actual=actual_value,
+                        error_message="" if passed else f"Invalid value: {actual_value}",
+                    )
+                )
+                if not passed:
+                    feedback.append(f"'{field}' value '{actual_value}' not in allowed set: {allowed}")
             elif field_value.startswith("DateFormat:"):
                 # Date format validation
                 date_format = field_value.split(":", 1)[1]
