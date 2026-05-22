@@ -326,10 +326,16 @@ python analyze_costs.py
 ### Run Priority 2 & 3 Tests
 
 ```python
-from benchmarks.priority_2_3_evaluator.advanced_tests import (
-    Priority2Evaluator,
-    Priority3Evaluator,
-)
+import importlib.util
+from pathlib import Path
+
+module_path = Path("benchmarks/priority-2-3-evaluator/advanced_tests.py")
+spec = importlib.util.spec_from_file_location("advanced_tests", module_path)
+advanced_tests = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(advanced_tests)
+
+Priority2Evaluator = advanced_tests.Priority2Evaluator
+Priority3Evaluator = advanced_tests.Priority3Evaluator
 
 # Initialize evaluators
 p2_eval = Priority2Evaluator()
