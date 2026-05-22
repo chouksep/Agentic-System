@@ -5,6 +5,11 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 import yaml
+from dotenv import load_dotenv
+
+# Load .env from the repo root once at import time so any os.environ reads below
+# pick up user-supplied secrets. override=False means shell-set vars still win.
+load_dotenv(Path(__file__).resolve().parent.parent / ".env", override=False)
 
 
 _DATABRICKS_HOST_DEFAULT = "https://lnlp-databricks-dev-vpc133-shared.cloud.databricks.com"
