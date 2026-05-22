@@ -562,11 +562,10 @@ def main():
     example_page = {
         "path": "companies/openai",
         "frontmatter": {
-            "title": "OpenAI",
+            "name": "OpenAI",
             "type": "company",
-            "confidence": "high",
         },
-        "content": "OpenAI is an AI research company...",
+        "content": "<!-- confidence: high -->\nOpenAI is an AI research company...",
     }
 
     result = evaluator.evaluate_page(example_page, "path_format_company")
