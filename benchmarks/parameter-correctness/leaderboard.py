@@ -51,7 +51,9 @@ class ParameterCorrectnessEvaluator:
         with open(test_cases_path) as f:
             self.test_data = json.load(f)
         self.test_cases = {tc["id"]: tc for tc in self.test_data["test_cases"]}
-        self.scoring_config = self.test_data["scoring"]
+        self.scoring_config = self.test_data.get(
+            "scoring", self.test_data.get("test_categories_extended", {})
+        )
 
     def evaluate_page(self, page_data: Dict[str, Any], test_id: str) -> TestCaseResult:
         """Evaluate a single page against a test case."""
