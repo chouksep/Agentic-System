@@ -70,6 +70,40 @@ cd benchmarks/toolcomp-faithful
 python test_evaluator.py            # verifies extract / score / aggregate
 ```
 
+## Live agent benchmarking (NEW)
+
+`benchmarks/runner/` runs the ci_wiki agent end-to-end against the BFCL
+evaluator, with multi-model comparison and a hard cost ceiling. The agent's
+tool dispatcher is record-only during BFCL eval — no real wiki I/O occurs.
+
+```bash
+# Smoke test against the 12 committed fixtures (no HF download)
+python -m benchmarks.runner \
+    --benchmark bfcl \
+    --models claude-sonnet-4-5 \
+    --datasets fixtures \
+    --n-samples 12 \
+    --max-cost 0.50
+
+# Full mid-scale run with QA-corpus expansion
+python -m benchmarks.runner \
+    --benchmark bfcl \
+    --models claude-sonnet-4-5,claude-sonnet-4-6 \
+    --datasets fixtures,entity_questions,triviaqa \
+    --n-samples 250 \
+    --seed 0 \
+    --max-cost 15.0
+```
+
+Output:
+- `benchmarks/runner/results/<run_id>/report.md` — per-model accuracy + diff table
+- `benchmarks/runner/results/<run_id>/summary.json` — full structured output
+- `benchmarks/runner/results/<run_id>/predictions/<model>.json` — raw BFCL predictions
+- `benchmarks/runner/cache/` — per-`(model, case)` cache; re-runs with the same
+  flags pay only for cache misses.
+
+Design doc: `docs/superpowers/specs/2026-05-22-live-llm-benchmark-generator-design.md`.
+
 ## Deprecated benchmarks (do NOT use as if they implemented the named paper)
 
 These were earlier work that borrowed names from research papers but actually

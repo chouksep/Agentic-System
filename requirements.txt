@@ -2,6 +2,8 @@ databricks-sdk>=0.20.0,<2.0.0
 requests>=2.33.0,<3.0.0
 PyYAML>=6.0,<7.0.0
 anthropic>=0.40.0,<1.0.0
+python-dotenv>=1.0,<2.0
+datasets>=2.16,<4.0
 
 # dev
 pytest>=8.0,<9.0.0
