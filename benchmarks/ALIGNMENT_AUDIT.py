@@ -12,6 +12,7 @@ Run with:
 from __future__ import annotations
 
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -19,6 +20,63 @@ ROOT = Path(__file__).parent
 sys.path.insert(0, str(ROOT / "bfcl-faithful"))
 sys.path.insert(0, str(ROOT / "teval-faithful"))
 sys.path.insert(0, str(ROOT / "toolcomp-faithful"))
+
+# Load .env from repo root so env-dependent checks see user-supplied keys.
+# override=False keeps shell-set vars authoritative.
+try:
+    from dotenv import load_dotenv
+    load_dotenv(ROOT.parent / ".env", override=False)
+except ImportError:
+    pass
+
+
+# Candidate env vars that satisfy ToolComp's pluggable LLM judge (LiteLLM
+# upstream routes to any of these). Presence of any one is sufficient.
+_TOOLCOMP_JUDGE_KEYS = (
+    "ANTHROPIC_API_KEY",
+    "OPENAI_API_KEY",
+    "GOOGLE_API_KEY",
+    "GEMINI_API_KEY",
+    "DATABRICKS_TOKEN",
+)
+
+
+def _hf_cache_root() -> Path:
+    """Resolve the HuggingFace Hub cache directory the same way huggingface_hub does."""
+    hub = os.environ.get("HF_HUB_CACHE")
+    if hub:
+        return Path(hub)
+    home = os.environ.get("HF_HOME")
+    if home:
+        return Path(home) / "hub"
+    return Path.home() / ".cache" / "huggingface" / "hub"
+
+
+def _check_teval_bertscore_ready() -> tuple[bool, str]:
+    try:
+        import sentence_transformers  # noqa: F401
+    except ImportError:
+        return False, "sentence-transformers not installed; pip install -r requirements.txt"
+    snapshots = _hf_cache_root() / "models--sentence-transformers--all-mpnet-base-v2" / "snapshots"
+    if snapshots.exists():
+        snaps = [p for p in snapshots.iterdir() if p.is_dir()]
+        if snaps:
+            return True, f"all-mpnet-base-v2 cached at {snaps[0]}"
+    return False, (
+        "all-mpnet-base-v2 not in local HF cache; download via "
+        "`python -c \"from sentence_transformers import SentenceTransformer; "
+        "SentenceTransformer('all-mpnet-base-v2')\"` (~420MB)"
+    )
+
+
+def _check_toolcomp_judge_ready() -> tuple[bool, str]:
+    present = [k for k in _TOOLCOMP_JUDGE_KEYS if os.environ.get(k)]
+    if present:
+        return True, f"judge backend env var(s) present: {', '.join(present)}"
+    return False, (
+        f"no judge backend API key in env; set one of {', '.join(_TOOLCOMP_JUDGE_KEYS)} "
+        "(e.g., via .env loaded by ci_wiki.config) — pipeline is still wired"
+    )
 
 
 # --------------------------------------------------------------------------- #
@@ -391,26 +449,26 @@ def audit_toolcomp():
 # --------------------------------------------------------------------------- #
 def declare_limitations():
     audit.section(
-        "LIMITATIONS — runtime dependencies not satisfied here",
-        "(documented honestly; not silently faked)",
-        "(local environment constraints)",
+        "RUNTIME ENVIRONMENT (probed dynamically)",
+        "(environment-dependent; passes when local setup is complete)",
+        "(local environment probes)",
     )
     audit.check(
         "BFCL: AST checker runs offline (no network needed)",
         True,
         "no model download required",
     )
+    teval_ok, teval_detail = _check_teval_bertscore_ready()
     audit.check(
-        "T-Eval: BERT-score matching requires huggingface.co access",
-        False,
-        "sentence-transformers cannot download all-mpnet-base-v2 here; "
-        "use --skip-bertscore (permutation strategy) as upstream-supported "
-        "alternative",
+        "T-Eval: BERT-score matching model available",
+        teval_ok,
+        teval_detail,
     )
+    judge_ok, judge_detail = _check_toolcomp_judge_ready()
     audit.check(
-        "ToolComp: LLM judge requires LiteLLM + API keys to call a real model",
-        False,
-        "pipeline is wired; pass any callable as `judge` (see evaluate_pair)",
+        "ToolComp: LLM judge backend reachable",
+        judge_ok,
+        judge_detail,
     )
 
 
