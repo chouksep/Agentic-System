@@ -24,7 +24,7 @@ Claude is a series of large language models (LLMs) developed by [[company:anthro
 - **Model Context Protocol (MCP) connector**: New API capability introduced with Claude 4 (May 2025)
 
 ## Pricing
-<!-- confidence: low | source_count: 1 -->
+<!-- confidence: medium | source_count: 1 -->
 No specific pricing tiers detailed in this source. Available via freemium web interface and paid API. Also accessible through Amazon Bedrock and Snowflake platforms for enterprise use. Anthropic has stated Claude will remain ad-free.
 
 ## Target Market

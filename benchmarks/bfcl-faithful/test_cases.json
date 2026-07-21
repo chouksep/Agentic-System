@@ -1,0 +1,131 @@
+{
+  "_meta": {
+    "benchmark": "BFCL (Berkeley Function Calling Leaderboard)",
+    "paper": "Patil et al., 'The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models', ICML 2025",
+    "source_repo": "https://github.com/ShishirPatil/gorilla",
+    "methodology": "AST-based parameter checking with the same simple_function_checker, multiple_function_checker, and parallel_function_checker_no_order algorithms used by the official BFCL.",
+    "category_definitions": {
+      "simple": "One available function, one expected call.",
+      "multiple": "Several available functions, exactly one expected call (model must pick the right function).",
+      "parallel": "Several expected calls to the same/different functions, any order.",
+      "irrelevance": "Functions are unrelated to the question; model must abstain (output 0 calls)."
+    }
+  },
+  "test_cases": [
+    {
+      "id": "simple_read_openai",
+      "category": "simple",
+      "functions": ["read_wiki_page"],
+      "question": "Read the wiki page for OpenAI (a company).",
+      "possible_answer": [
+        {"read_wiki_page": {"slug": ["openai"], "page_type": ["company"]}}
+      ]
+    },
+    {
+      "id": "simple_read_claude",
+      "category": "simple",
+      "functions": ["read_wiki_page"],
+      "question": "Read the wiki page for the Claude product.",
+      "possible_answer": [
+        {"read_wiki_page": {"slug": ["claude"], "page_type": ["product"]}}
+      ]
+    },
+    {
+      "id": "simple_read_person",
+      "category": "simple",
+      "functions": ["read_wiki_page"],
+      "question": "Open Dario Amodei's wiki page (he is a person).",
+      "possible_answer": [
+        {"read_wiki_page": {"slug": ["dario-amodei"], "page_type": ["person"]}}
+      ]
+    },
+    {
+      "id": "simple_search_funding",
+      "category": "simple",
+      "functions": ["search_wiki"],
+      "question": "Search the wiki for information about Anthropic funding.",
+      "possible_answer": [
+        {"search_wiki": {"query": ["anthropic funding", "Anthropic funding"], "top_k": ["", 5, 10]}}
+      ]
+    },
+    {
+      "id": "simple_list_companies",
+      "category": "simple",
+      "functions": ["list_wiki_pages"],
+      "question": "List all company pages in the wiki.",
+      "possible_answer": [
+        {"list_wiki_pages": {"page_type": ["company"]}}
+      ]
+    },
+    {
+      "id": "simple_list_all",
+      "category": "simple",
+      "functions": ["list_wiki_pages"],
+      "question": "Show every page in the wiki, regardless of type.",
+      "possible_answer": [
+        {"list_wiki_pages": {"page_type": ["all"]}}
+      ]
+    },
+    {
+      "id": "simple_flag_contradiction",
+      "category": "simple",
+      "functions": ["flag_contradiction"],
+      "question": "Flag a contradiction between the openai and anthropic pages: they list different founding years for Anthropic.",
+      "possible_answer": [
+        {"flag_contradiction": {
+          "page_a": ["openai", "anthropic"],
+          "page_b": ["openai", "anthropic"],
+          "description": ["different founding years for Anthropic", "conflicting founding year for Anthropic"],
+          "suggested_resolution": [""]
+        }}
+      ]
+    },
+    {
+      "id": "multiple_pick_search",
+      "category": "multiple",
+      "functions": ["read_wiki_page", "write_wiki_page", "search_wiki", "list_wiki_pages"],
+      "question": "I'm not sure which slug Anthropic uses. Find it in the wiki.",
+      "possible_answer": [
+        {"search_wiki": {"query": ["anthropic", "Anthropic"], "top_k": ["", 5]}}
+      ]
+    },
+    {
+      "id": "multiple_pick_list",
+      "category": "multiple",
+      "functions": ["read_wiki_page", "write_wiki_page", "search_wiki", "list_wiki_pages"],
+      "question": "Show me every product page that exists right now.",
+      "possible_answer": [
+        {"list_wiki_pages": {"page_type": ["product"]}}
+      ]
+    },
+    {
+      "id": "multiple_pick_read",
+      "category": "multiple",
+      "functions": ["read_wiki_page", "write_wiki_page", "search_wiki", "list_wiki_pages"],
+      "question": "I know there is a company page called openai. Open it.",
+      "possible_answer": [
+        {"read_wiki_page": {"slug": ["openai"], "page_type": ["company"]}}
+      ]
+    },
+    {
+      "id": "parallel_two_reads",
+      "category": "parallel",
+      "functions": ["read_wiki_page"],
+      "question": "Open the openai and anthropic company pages.",
+      "possible_answer": [
+        {"read_wiki_page": {"slug": ["openai"], "page_type": ["company"]}},
+        {"read_wiki_page": {"slug": ["anthropic"], "page_type": ["company"]}}
+      ]
+    },
+    {
+      "id": "parallel_two_lists",
+      "category": "parallel",
+      "functions": ["list_wiki_pages"],
+      "question": "List all company pages and all product pages.",
+      "possible_answer": [
+        {"list_wiki_pages": {"page_type": ["company"]}},
+        {"list_wiki_pages": {"page_type": ["product"]}}
+      ]
+    }
+  ]
+}

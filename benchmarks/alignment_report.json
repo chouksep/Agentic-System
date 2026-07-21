@@ -1,0 +1,175 @@
+{
+  "passed": 26,
+  "total": 28,
+  "percent": 92.85714285714286,
+  "sections": [
+    {
+      "name": "BFCL (Berkeley Function Calling Leaderboard)",
+      "paper": "Patil et al., ICML 2025",
+      "repo": "https://github.com/ShishirPatil/gorilla",
+      "checks": [
+        {
+          "name": "standardize_string regex r'[ \\,\\.\\/\\-\\_\\*\\^]' + lower + quote-swap",
+          "passed": true,
+          "detail": "matches upstream lowercase/strip behaviour"
+        },
+        {
+          "name": "PYTHON_TYPE_MAPPING includes string/integer/float/boolean/array/tuple/dict/any",
+          "passed": true,
+          "detail": "exact 8-key mapping"
+        },
+        {
+          "name": "PYTHON_NESTED_TYPE_CHECK_LIST == ['array', 'tuple']",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "wrong function name \u2192 'simple_function_checker:wrong_func_name'",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "missing required \u2192 'simple_function_checker:missing_required'",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "wrong string value \u2192 'value_error:string'",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "wrong type \u2192 'type_error:simple'",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "case-insensitive string match",
+          "passed": true,
+          "detail": "OPENAI vs openai accepted (per standardize_string)"
+        },
+        {
+          "name": "parallel checker is order-independent",
+          "passed": true,
+          "detail": "expected calls accepted in reversed order"
+        }
+      ]
+    },
+    {
+      "name": "T-Eval",
+      "paper": "Chen et al., ACL 2024 (arXiv:2312.14033)",
+      "repo": "https://github.com/open-compass/T-Eval",
+      "checks": [
+        {
+          "name": "PlanningEvaluator defaults: name_weight=0.75 args_weight=0.25 threshold=0.8",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "args_em_metric=1.0 for perfect match",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "args_em_metric formula = (action_match + arg_hits) / (gt_arg_count + 1)",
+          "passed": true,
+          "detail": "got 0.3333, expected 0.3333"
+        },
+        {
+          "name": "Review: review_quality is fraction of exact matches",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "Review: parse_rate is fraction of non-None predictions",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "Planning(permutation) reports precision, recall, f1_score, parse_rate",
+          "passed": true,
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "name": "ToolComp",
+      "paper": "Nath et al., arXiv:2501.01290 (2025)",
+      "repo": "https://github.com/vaskar-open-source-research/toolcomp",
+      "checks": [
+        {
+          "name": "_extract_label: JSON-fenced output",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "_extract_label: plain JSON",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "_extract_label: numeric value (int)",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "_extract_label: regex fallback",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "_extract_label: unparseable \u2192 'unknown'",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "_score_pair: identical 7-case truth table",
+          "passed": true,
+          "detail": "win=1.0, loss=0.0, ties=0.5"
+        },
+        {
+          "name": "aggregate reports total_accuracy, num_samples, action_plan_only_*, react_steps_*",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "evaluate_pair calls judge twice (forward + reversed)",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "PAIRWISE_REACT_PROMPT_TEMPLATE asks for better_step",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "name": "PAIRWISE_PLAN_PROMPT_TEMPLATE asks for better_action_plan",
+          "passed": true,
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "name": "LIMITATIONS \u2014 runtime dependencies not satisfied here",
+      "paper": "(documented honestly; not silently faked)",
+      "repo": "(local environment constraints)",
+      "checks": [
+        {
+          "name": "BFCL: AST checker runs offline (no network needed)",
+          "passed": true,
+          "detail": "no model download required"
+        },
+        {
+          "name": "T-Eval: BERT-score matching requires huggingface.co access",
+          "passed": false,
+          "detail": "sentence-transformers cannot download all-mpnet-base-v2 here; use --skip-bertscore (permutation strategy) as upstream-supported alternative"
+        },
+        {
+          "name": "ToolComp: LLM judge requires LiteLLM + API keys to call a real model",
+          "passed": false,
+          "detail": "pipeline is wired; pass any callable as `judge` (see evaluate_pair)"
+        }
+      ]
+    }
+  ]
+}

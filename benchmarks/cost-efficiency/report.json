@@ -1,0 +1,184 @@
+{
+  "summary": {
+    "total_tokens": 527599,
+    "total_operations": 15,
+    "average_tokens_per_operation": 35173.26666666667,
+    "total_pages_created": 15,
+    "total_pages_updated": 6,
+    "total_errors": 0,
+    "cost_by_operation_type": {
+      "ingest": 3,
+      "query": 12
+    },
+    "tokens_by_operation_type": {
+      "ingest": 333574,
+      "query": 194025
+    },
+    "error_rate": 0.0
+  },
+  "costs": {
+    "total_tokens": 527599,
+    "estimated_cost_usd": 1.582797,
+    "cost_per_page": 25123.761904761905,
+    "cost_per_query": 16168.75,
+    "cost_per_ingest": 111191.33333333333
+  },
+  "efficiency": {
+    "pages_per_token": 3.980295641197197e-05,
+    "error_rate": 0.0
+  },
+  "breakdown": {
+    "operations": [
+      {
+        "operation_type": "query",
+        "date": "2026-04-14T23:38:13Z",
+        "source": "Q: What are the key trends shaping the competitive AI landscape in 2024-2025?",
+        "tokens_used": 26476,
+        "pages_created": 0,
+        "pages_updated": 0,
+        "errors": 0,
+        "duration_seconds": null
+      },
+      {
+        "operation_type": "query",
+        "date": "2026-04-14T23:37:12Z",
+        "source": "Q: What differentiates Anthropic from OpenAI in terms of approach and products?",
+        "tokens_used": 12744,
+        "pages_created": 0,
+        "pages_updated": 0,
+        "errors": 0,
+        "duration_seconds": null
+      },
+      {
+        "operation_type": "query",
+        "date": "2026-04-14T23:34:57Z",
+        "source": "Q: How is the AI industry funded and who are the major investors?",
+        "tokens_used": 14544,
+        "pages_created": 0,
+        "pages_updated": 0,
+        "errors": 0,
+        "duration_seconds": null
+      },
+      {
+        "operation_type": "query",
+        "date": "2026-04-14T23:13:13Z",
+        "source": "Q: What are the most significant AI products competing in the enterprise market?",
+        "tokens_used": 26501,
+        "pages_created": 0,
+        "pages_updated": 0,
+        "errors": 0,
+        "duration_seconds": null
+      },
+      {
+        "operation_type": "query",
+        "date": "2026-04-14T23:09:25Z",
+        "source": "Q: Who are the key executives and founders across the major AI companies?",
+        "tokens_used": 32179,
+        "pages_created": 0,
+        "pages_updated": 0,
+        "errors": 0,
+        "duration_seconds": null
+      },
+      {
+        "operation_type": "query",
+        "date": "2026-04-14T23:05:32Z",
+        "source": "Q: What are the key risks and threats to OpenAI's market position?",
+        "tokens_used": 12397,
+        "pages_created": 0,
+        "pages_updated": 0,
+        "errors": 0,
+        "duration_seconds": null
+      },
+      {
+        "operation_type": "query",
+        "date": "2026-04-14T23:01:40Z",
+        "source": "Q: What is OpenAI's revenue model and how does it monetize its products?",
+        "tokens_used": 10228,
+        "pages_created": 0,
+        "pages_updated": 0,
+        "errors": 0,
+        "duration_seconds": null
+      },
+      {
+        "operation_type": "query",
+        "date": "2026-04-14T23:00:00Z",
+        "source": "Q: Who are OpenAI's main competitors and how do they compare?",
+        "tokens_used": 34366,
+        "pages_created": 0,
+        "pages_updated": 0,
+        "errors": 0,
+        "duration_seconds": null
+      },
+      {
+        "operation_type": "ingest",
+        "date": "2026-04-14T22:58:32Z",
+        "source": "https://en.wikipedia.org/wiki/Google_DeepMind",
+        "tokens_used": 141954,
+        "pages_created": 4,
+        "pages_updated": 3,
+        "errors": 0,
+        "duration_seconds": null
+      },
+      {
+        "operation_type": "ingest",
+        "date": "2026-04-14T22:51:35Z",
+        "source": "https://en.wikipedia.org/wiki/Anthropic",
+        "tokens_used": 139591,
+        "pages_created": 4,
+        "pages_updated": 3,
+        "errors": 0,
+        "duration_seconds": null
+      },
+      {
+        "operation_type": "query",
+        "date": "2026-04-14T22:43:46Z",
+        "source": "Q: What is OpenAI known for?",
+        "tokens_used": 10020,
+        "pages_created": 0,
+        "pages_updated": 0,
+        "errors": 0,
+        "duration_seconds": null
+      },
+      {
+        "operation_type": "query",
+        "date": "2026-04-14T22:42:55Z",
+        "source": "Q: What is OpenAI known for?",
+        "tokens_used": 10048,
+        "pages_created": 0,
+        "pages_updated": 0,
+        "errors": 0,
+        "duration_seconds": null
+      },
+      {
+        "operation_type": "ingest",
+        "date": "2026-04-14T22:42:24Z",
+        "source": "https://en.wikipedia.org/wiki/OpenAI",
+        "tokens_used": 52029,
+        "pages_created": 7,
+        "pages_updated": 0,
+        "errors": 0,
+        "duration_seconds": null
+      },
+      {
+        "operation_type": "query",
+        "date": "2026-04-12T14:42:19Z",
+        "source": "Q: Analyze competitors of Amazon",
+        "tokens_used": 2369,
+        "pages_created": 0,
+        "pages_updated": 0,
+        "errors": 0,
+        "duration_seconds": null
+      },
+      {
+        "operation_type": "query",
+        "date": "2026-04-12T14:12:20Z",
+        "source": "Q: Analyze competitors of Amazon",
+        "tokens_used": 2153,
+        "pages_created": 0,
+        "pages_updated": 0,
+        "errors": 0,
+        "duration_seconds": null
+      }
+    ]
+  }
+}

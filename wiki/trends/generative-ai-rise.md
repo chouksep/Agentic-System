@@ -17,7 +17,7 @@ Generative AI refers to artificial intelligence systems capable of generating te
 - [[company:anthropic]] — developer of the [[product:claude]] LLM series; founded 2021 by former OpenAI employees; valued at $380 billion as of February 2026; focuses on AI safety; raised $30 billion Series G in February 2026
 - [[company:google-deepmind]] — developer of [[product:gemini]] (Google's LLM family), Veo (text-to-video), Imagen (text-to-image), and Lyria (text-to-music); formed April 2023 from merger of DeepMind and Google Brain in response to ChatGPT
 - Microsoft — major investor in OpenAI (27% stake, $13B+ invested); provides Azure cloud infrastructure for OpenAI's systems; also committed to investing up to $15 billion in Anthropic (with Nvidia) as of November 2025; appointed [[person:mustafa-suleyman]] as EVP/CEO of Microsoft AI in March 2024
-- Google / Alphabet — parent of [[company:google-deepmind]]; invested $2.5B+ in Anthropic; also a cloud/TPU partner for Anthropic
+- Google / Alphabet — parent company of Google DeepMind; invested $2.5B+ in Anthropic; also a cloud/TPU partner for Anthropic
 - Amazon — invested $8B+ in Anthropic; primary cloud provider (AWS) for Anthropic
 - Nvidia — expected to co-invest up to $15 billion in Anthropic (with Microsoft) as of November 2025
 

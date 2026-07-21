@@ -1,0 +1,110 @@
+{
+  "per_category": {
+    "simple": {
+      "accuracy": 1.0,
+      "valid": 7,
+      "total": 7
+    },
+    "multiple": {
+      "accuracy": 1.0,
+      "valid": 3,
+      "total": 3
+    },
+    "parallel": {
+      "accuracy": 1.0,
+      "valid": 2,
+      "total": 2
+    }
+  },
+  "overall": {
+    "accuracy": 1.0,
+    "valid": 12,
+    "total": 12
+  },
+  "per_case": [
+    {
+      "id": "simple_read_openai",
+      "category": "simple",
+      "valid": true,
+      "error_type": "simple_function_checker:unclear",
+      "error": []
+    },
+    {
+      "id": "simple_read_claude",
+      "category": "simple",
+      "valid": true,
+      "error_type": "simple_function_checker:unclear",
+      "error": []
+    },
+    {
+      "id": "simple_read_person",
+      "category": "simple",
+      "valid": true,
+      "error_type": "simple_function_checker:unclear",
+      "error": []
+    },
+    {
+      "id": "simple_search_funding",
+      "category": "simple",
+      "valid": true,
+      "error_type": "simple_function_checker:unclear",
+      "error": []
+    },
+    {
+      "id": "simple_list_companies",
+      "category": "simple",
+      "valid": true,
+      "error_type": "simple_function_checker:unclear",
+      "error": []
+    },
+    {
+      "id": "simple_list_all",
+      "category": "simple",
+      "valid": true,
+      "error_type": "simple_function_checker:unclear",
+      "error": []
+    },
+    {
+      "id": "simple_flag_contradiction",
+      "category": "simple",
+      "valid": true,
+      "error_type": "simple_function_checker:unclear",
+      "error": []
+    },
+    {
+      "id": "multiple_pick_search",
+      "category": "multiple",
+      "valid": true,
+      "error_type": "simple_function_checker:unclear",
+      "error": []
+    },
+    {
+      "id": "multiple_pick_list",
+      "category": "multiple",
+      "valid": true,
+      "error_type": "simple_function_checker:unclear",
+      "error": []
+    },
+    {
+      "id": "multiple_pick_read",
+      "category": "multiple",
+      "valid": true,
+      "error_type": "simple_function_checker:unclear",
+      "error": []
+    },
+    {
+      "id": "parallel_two_reads",
+      "category": "parallel",
+      "valid": true,
+      "error_type": "",
+      "error": []
+    },
+    {
+      "id": "parallel_two_lists",
+      "category": "parallel",
+      "valid": true,
+      "error_type": "",
+      "error": []
+    }
+  ]
+}

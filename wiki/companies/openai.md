@@ -30,8 +30,8 @@ OpenAI is an American artificial intelligence research organization consisting o
 - Universe — software platform for measuring and training AI general intelligence (released December 2016)
 
 ## Pricing
-<!-- confidence: low | source_count: 1 -->
-No specific pricing tiers detailed in this source. Revenue reported at US$13.1 billion (2025). Note: OpenAI introduced ads to the free version of ChatGPT (per Anthropic Wikipedia source, February 2026).
+<!-- confidence: medium | source_count: 1 -->
+No specific pricing tiers detailed in this source. Revenue reported at US$13.1 billion (2025). Note: OpenAI introduced ads to the free version of ChatGPT (February 2026).
 
 ## Funding & Financials
 - **Revenue**: US$13.1 billion (2025)
@@ -77,7 +77,7 @@ No specific pricing tiers detailed in this source. Revenue reported at US$13.1 b
 - 2023-04-01: Google DeepMind formed from merger of DeepMind and Google Brain, explicitly in response to competitive pressure from ChatGPT
 - 2023-01-01: OpenAI faced multiple lawsuits for alleged copyright infringement against authors and media companies
 - 2022-11-01: Released ChatGPT, credited with catalyzing widespread interest in generative AI
-- 2021-01-01: Seven employees departed to found [[company:anthropic]], including VP of Research Dario Amodei and his sister Daniela Amodei
+- 2021-01-01: Seven employees departed to found Anthropic, including VP of Research Dario Amodei and his sister Daniela Amodei
 - 2019-01-01: Transitioned to capped for-profit structure; Microsoft invested $1 billion
 - 2016-12-01: Released "Universe" software platform for AI training
 - 2016-08-01: Nvidia gifted its first DGX-1 supercomputer to OpenAI
