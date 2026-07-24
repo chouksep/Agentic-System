@@ -232,3 +232,96 @@ When processing a source document:
 3. **Write complete content**: When calling `write_wiki_page`, provide the full page content (frontmatter + body). The tool overwrites the file.
 4. **Confirm writes**: After writing, you may call `list_wiki_pages` to verify the page exists.
 5. **One entity per write call**: Write each entity page separately, not combined.
+
+---
+
+## Financial Data Sidecar
+
+Company pages MAY have an accompanying `<slug>.financials.yaml` sidecar in
+`wiki/companies/` that carries structured financial data alongside the
+prose page. Sidecars are optional -- companies without curated financial
+data simply don't have one. Non-company entities (products, people,
+trends) do not have sidecars.
+
+**Path convention:** `wiki/companies/<slug>.financials.yaml`, colocated
+with the markdown page (`<slug>.md`).
+
+**Authoritative schema:** `schema/financials_sidecar.schema.json`
+(JSON Schema Draft 2020-12).
+
+**Two logical sections inside each sidecar:**
+
+1. `metrics` -- standardized numeric metrics per period, plus per-metric
+   metadata (description, optional XBRL concept pointer, optional
+   unit override). Periods use `YYYY-FY` (annual) or `YYYY-QN`
+   (quarterly). One consistent metric namespace across the whole file.
+2. `filings` -- optional list of per-filing snapshots. Each carries the
+   raw SEC-filing table transcription (pre_text, header, rows,
+   post_text) needed for line-item-specific questions that don't fit
+   the standardized `metrics` shape.
+
+**Minimum required top-level keys:** `schema_version` (int, `1`),
+`ticker` (uppercase string), `cik` (10-digit string with leading zeros
+preserved), `metrics` (object).
+
+**Cross-consistency rules** (validated by `ci_wiki.ops.financials.validate`):
+
+- Every metric in `metrics.metadata` must appear in at least one `metrics.by_period`.
+- Every metric in any `metrics.by_period` must have a `metrics.metadata` entry.
+- Every `filings[].period_covered` must reference a key in `metrics.by_period`.
+- Every row in `filings[].tables[].rows` must have `len == len(header)`.
+- `filings[].id` values must be unique within a single file.
+
+**Convention (not an error):** if two `filings[]` share the same
+`period_covered`, the last one in list order is authoritative.
+
+**Validation runs:**
+
+- `python -m pytest tests/test_financials_schema.py` -- 17 unit tests +
+  a repo-wide iteration that catches any invalid committed sidecar.
+- `ci_wiki lint` (`ci_wiki.ops.lint.LintOp.run()`) -- includes sidecar
+  validation in the Phase 1 static checks. Invalid sidecars surface as
+  `LintIssue(issue_type="invalid_financials_sidecar", severity="error")`.
+
+**Example** (abbreviated -- see `tests/fixtures/financials_valid.yaml` for
+a complete authored sample):
+
+```yaml
+schema_version: 1
+ticker: MSFT
+cik: "0000789019"
+
+metrics:
+  currency: USD
+  units: millions
+  by_period:
+    2024-FY:
+      revenue: 245122
+      net_income: 88136
+  metadata:
+    revenue:
+      xbrl_concept: us-gaap:Revenues
+      description: Total net sales / revenue
+    net_income:
+      xbrl_concept: us-gaap:NetIncomeLoss
+      description: Bottom-line profit after tax
+
+filings:
+  - id: msft-10k-2024
+    form: 10-K
+    filed: "2024-07-30"
+    period_covered: 2024-FY
+    source_url: https://www.sec.gov/Archives/edgar/data/789019/...
+    tables:
+      - id: income_statement
+        header: ["", "2024", "2023"]
+        rows:
+          - ["Revenue", "$245,122", "$211,915"]
+```
+
+**Rollout status (as of this document):** the schema, validator, and
+lint integration ship in P1. No real `wiki/companies/*.financials.yaml`
+files are committed yet; seed content arrives in P2. Existing
+`## Funding & Financials` prose sections in `wiki/companies/*.md` are
+untouched; whether to auto-generate them from the sidecar is a P3
+display-concern decision.
