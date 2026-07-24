@@ -29,3 +29,66 @@ def test_fixture_files_exist():
         "finqa_rows.json",
     ):
         assert (FIXTURES / name).exists(), f"missing fixture: {name}"
+
+
+import json
+
+from tools.seed_finance import xbrl_metric_map
+
+
+def _company_facts_us_gaap() -> dict:
+    """Load the fixture's .facts["us-gaap"] sub-tree."""
+    return json.loads((FIXTURES / "company_facts_JPM.json").read_text())["facts"]["us-gaap"]
+
+
+def test_metric_map_covers_expected_metric_names():
+    """METRIC_MAP must contain the standardized short-names used by the sidecar schema."""
+    expected = {
+        "revenue", "cost_of_revenue", "gross_profit", "operating_income",
+        "net_income", "diluted_eps", "total_assets", "total_liabilities",
+        "total_equity", "cash_and_equivalents", "total_debt",
+        "operating_cash_flow", "capex", "free_cash_flow", "employees",
+    }
+    missing = expected - set(xbrl_metric_map.METRIC_MAP.keys())
+    assert not missing, f"missing metric names: {missing}"
+
+
+def test_resolve_concept_happy_path():
+    facts = _company_facts_us_gaap()
+    v = xbrl_metric_map.resolve_concept(
+        ["Revenues", "SalesRevenueNet"], facts, "2018-FY",
+    )
+    assert v == 108783000000  # raw USD from the fixture
+
+
+def test_resolve_concept_priority_order():
+    """First concept in list should win when both are present.
+
+    Fixture has 'Revenues' but not 'RevenueFromContractWithCustomerExcludingAssessedTax'.
+    Priority ['Revenues', 'RevenueFromContractWithCustomerExcludingAssessedTax'] should
+    return the Revenues value (108783000000). Reversed order should also return
+    108783000000 because the ASC 606 concept is absent, so the fallback wins.
+    """
+    facts = _company_facts_us_gaap()
+    v_priority_order = xbrl_metric_map.resolve_concept(
+        ["Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax"],
+        facts, "2018-FY",
+    )
+    v_reversed = xbrl_metric_map.resolve_concept(
+        ["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues"],
+        facts, "2018-FY",
+    )
+    assert v_priority_order == 108783000000
+    assert v_reversed == 108783000000
+
+
+def test_resolve_concept_missing_period():
+    facts = _company_facts_us_gaap()
+    v = xbrl_metric_map.resolve_concept(["Revenues"], facts, "2010-FY")
+    assert v is None
+
+
+def test_resolve_concept_empty_priority_list():
+    facts = _company_facts_us_gaap()
+    v = xbrl_metric_map.resolve_concept([], facts, "2018-FY")
+    assert v is None
