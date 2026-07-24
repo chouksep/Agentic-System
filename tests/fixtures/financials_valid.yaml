@@ -1,0 +1,95 @@
+schema_version: 1
+ticker: MSFT
+cik: "0000789019"
+
+metrics:
+  currency: USD
+  units: millions
+  by_period:
+    2024-FY:
+      revenue: 245122
+      cost_of_revenue: 74114
+      gross_profit: 171008
+      operating_income: 109433
+      net_income: 88136
+      diluted_eps: 11.80
+      total_assets: 512163
+      total_liabilities: 243686
+      total_equity: 268477
+      cash_and_equivalents: 34704
+      total_debt: 47032
+      operating_cash_flow: 118548
+      capex: 44477
+      free_cash_flow: 74071
+      employees: 228000
+    2024-Q4:
+      revenue: 65585
+      net_income: 24667
+      operating_cash_flow: 39507
+      free_cash_flow: 23327
+  metadata:
+    revenue:
+      xbrl_concept: us-gaap:Revenues
+      description: Total net sales / revenue
+    cost_of_revenue:
+      xbrl_concept: us-gaap:CostOfRevenue
+      description: Cost of goods and services sold
+    gross_profit:
+      xbrl_concept: us-gaap:GrossProfit
+      description: Revenue minus cost of revenue
+    operating_income:
+      xbrl_concept: us-gaap:OperatingIncomeLoss
+      description: Income from operations
+    net_income:
+      xbrl_concept: us-gaap:NetIncomeLoss
+      description: Bottom-line profit after tax
+    diluted_eps:
+      xbrl_concept: us-gaap:EarningsPerShareDiluted
+      description: Diluted earnings per share
+      unit_override: dollars_per_share
+    total_assets:
+      xbrl_concept: us-gaap:Assets
+      description: Total assets at period end
+    total_liabilities:
+      xbrl_concept: us-gaap:Liabilities
+      description: Total liabilities at period end
+    total_equity:
+      xbrl_concept: us-gaap:StockholdersEquity
+      description: Total shareholders equity at period end
+    cash_and_equivalents:
+      xbrl_concept: us-gaap:CashAndCashEquivalentsAtCarryingValue
+      description: Cash and equivalents at period end
+    total_debt:
+      xbrl_concept: us-gaap:LongTermDebt
+      description: Total interest-bearing debt at period end
+    operating_cash_flow:
+      xbrl_concept: us-gaap:NetCashProvidedByUsedInOperatingActivities
+      description: Cash generated from operating activities
+    capex:
+      xbrl_concept: us-gaap:PaymentsToAcquirePropertyPlantAndEquipment
+      description: Capital expenditures
+    free_cash_flow:
+      description: Operating cash flow minus capex
+    employees:
+      description: Total full-time equivalent employees at period end
+      unit_override: count
+
+filings:
+  - id: msft-10k-2024
+    form: 10-K
+    filed: "2024-07-30"
+    period_covered: 2024-FY
+    source_url: https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm
+    tables:
+      - id: income_statement
+        pre_text: |
+          The following table presents our consolidated statements of income
+          for fiscal years 2024, 2023, and 2022 (in millions, except per share).
+        header: ["", "Year Ended June 30 2024", "2023", "2022"]
+        rows:
+          - ["Revenue", "$245,122", "$211,915", "$198,270"]
+          - ["Cost of revenue", "74,114", "65,863", "62,650"]
+          - ["Gross margin", "171,008", "146,052", "135,620"]
+        post_text: |
+          Revenue increased $33.2 billion or 16%, driven by growth across
+          Microsoft Cloud and Devices.

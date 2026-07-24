@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/chouksep/Agentic-System/schema/financials_sidecar.schema.json",
+  "title": "ci-wiki financial data sidecar",
+  "description": "Per-company financial data companion for wiki/companies/<slug>.md",
+  "type": "object",
+  "required": ["schema_version", "ticker", "cik", "metrics"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "ticker": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 10,
+      "pattern": "^[A-Z0-9.\\-]+$"
+    },
+    "cik": {
+      "type": "string",
+      "pattern": "^\\d{10}$",
+      "description": "SEC Central Index Key, zero-padded to 10 digits"
+    },
+    "metrics": {
+      "type": "object",
+      "required": ["currency", "units", "by_period", "metadata"],
+      "additionalProperties": false,
+      "properties": {
+        "currency": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$",
+          "description": "ISO 4217 currency code"
+        },
+        "units": {
+          "type": "string",
+          "enum": ["millions", "billions", "thousands", "raw"]
+        },
+        "by_period": {
+          "type": "object",
+          "minProperties": 1,
+          "patternProperties": {
+            "^\\d{4}-(FY|Q[1-4])$": {
+              "type": "object",
+              "minProperties": 1,
+              "additionalProperties": {
+                "type": "number"
+              }
+            }
+          },
+          "additionalProperties": false
+        },
+        "metadata": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "xbrl_concept": {"type": "string"},
+              "description": {"type": "string"},
+              "unit_override": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "filings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "form", "filed", "period_covered", "source_url"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "form": {"type": "string", "minLength": 1},
+          "filed": {"type": "string", "format": "date", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+          "period_covered": {"type": "string", "pattern": "^\\d{4}-(FY|Q[1-4])$"},
+          "source_url": {"type": "string", "format": "uri"},
+          "tables": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "header", "rows"],
+              "additionalProperties": false,
+              "properties": {
+                "id": {"type": "string", "minLength": 1},
+                "pre_text": {"type": "string"},
+                "post_text": {"type": "string"},
+                "header": {
+                  "type": "array",
+                  "items": {"type": "string"},
+                  "minItems": 1
+                },
+                "rows": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {"type": "string"}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
