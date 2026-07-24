@@ -371,3 +371,149 @@ def test_build_stub_markdown_has_required_frontmatter_and_sections():
         assert section in md, f"missing section: {section}"
     # Points readers at the sidecar
     assert "apple.financials.yaml" in md
+
+
+import yaml
+from tools.seed_finance import run
+
+
+def _fake_edgar_client(known_facts: dict, known_submissions: dict, known_ticker_map: dict):
+    """Build a SecEdgarClient-shaped stub for run.seed(edgar_client=...)."""
+    class _Stub:
+        def load_ticker_map(self):
+            return known_ticker_map
+
+        def fetch_company_facts(self, cik):
+            if cik not in known_facts:
+                raise sec_edgar.NotFound(f"cik {cik} not in stub")
+            return known_facts[cik]
+
+        def fetch_submissions(self, cik):
+            if cik not in known_submissions:
+                raise sec_edgar.NotFound(f"cik {cik} not in stub")
+            return known_submissions[cik]
+
+    return _Stub()
+
+
+def test_seed_writes_valid_sidecar_and_stub_markdown(tmp_path):
+    """One-ticker happy path: fetch, transform, validate, write."""
+    facts = json.loads((FIXTURES / "company_facts_JPM.json").read_text())
+    submissions = json.loads((FIXTURES / "submissions_JPM.json").read_text())
+    finqa_rows = json.loads((FIXTURES / "finqa_rows.json").read_text())
+
+    edgar = _fake_edgar_client(
+        known_facts={"0000019617": facts},
+        known_submissions={"0000019617": submissions},
+        known_ticker_map={"JPM": "0000019617"},
+    )
+
+    result = run.seed(
+        tickers=["JPM"],
+        out_dir=tmp_path,
+        force=False,
+        dry_run=False,
+        edgar_client=edgar,
+        finqa_rows=finqa_rows,
+    )
+
+    assert result.succeeded == 1
+    assert result.failed == 0
+    yaml_path = tmp_path / "companies" / "jpmorgan-chase.financials.yaml"
+    md_path = tmp_path / "companies" / "jpmorgan-chase.md"
+    assert yaml_path.exists()
+    assert md_path.exists()
+
+    # Sidecar must be schema-valid
+    data = yaml.safe_load(yaml_path.read_text())
+    errors = financials_validator.validate(data)
+    assert errors == [], f"generated sidecar failed validation: {errors}"
+
+    # Sidecar carries the JPM 2018 revenue we fed via fixture, in millions
+    assert data["metrics"]["by_period"]["2018-FY"]["revenue"] == 108783.0  # from 108,783,000,000 → millions
+
+
+def test_seed_is_idempotent_without_force(tmp_path):
+    facts = json.loads((FIXTURES / "company_facts_JPM.json").read_text())
+    submissions = json.loads((FIXTURES / "submissions_JPM.json").read_text())
+    finqa_rows = json.loads((FIXTURES / "finqa_rows.json").read_text())
+
+    edgar = _fake_edgar_client(
+        known_facts={"0000019617": facts},
+        known_submissions={"0000019617": submissions},
+        known_ticker_map={"JPM": "0000019617"},
+    )
+
+    # First run: writes files
+    run.seed(["JPM"], tmp_path, force=False, dry_run=False,
+             edgar_client=edgar, finqa_rows=finqa_rows)
+
+    # Second run: skips because sidecar already exists
+    edgar2 = _fake_edgar_client(
+        known_facts={"0000019617": facts},
+        known_submissions={"0000019617": submissions},
+        known_ticker_map={"JPM": "0000019617"},
+    )
+    result2 = run.seed(["JPM"], tmp_path, force=False, dry_run=False,
+                       edgar_client=edgar2, finqa_rows=finqa_rows)
+    assert result2.skipped == 1
+    assert result2.per_ticker["JPM"]["reason"] == "sidecar_exists"
+
+
+def test_seed_per_ticker_failure_does_not_poison_run(tmp_path):
+    """One bad ticker (SEC 404) doesn't stop other tickers from succeeding."""
+    facts = json.loads((FIXTURES / "company_facts_JPM.json").read_text())
+    submissions = json.loads((FIXTURES / "submissions_JPM.json").read_text())
+    finqa_rows = json.loads((FIXTURES / "finqa_rows.json").read_text())
+
+    edgar = _fake_edgar_client(
+        known_facts={"0000019617": facts},  # only JPM has facts
+        known_submissions={"0000019617": submissions},
+        known_ticker_map={"JPM": "0000019617", "AAPL": "0000320193"},
+    )
+
+    result = run.seed(["AAPL", "JPM"], tmp_path, force=False, dry_run=False,
+                      edgar_client=edgar, finqa_rows=finqa_rows)
+    assert result.succeeded == 1
+    assert result.failed == 1
+    assert result.per_ticker["JPM"]["seeded"] is True
+    assert result.per_ticker["AAPL"]["seeded"] is False
+
+
+def test_seed_dry_run_writes_nothing(tmp_path):
+    facts = json.loads((FIXTURES / "company_facts_JPM.json").read_text())
+    submissions = json.loads((FIXTURES / "submissions_JPM.json").read_text())
+    finqa_rows = json.loads((FIXTURES / "finqa_rows.json").read_text())
+
+    edgar = _fake_edgar_client(
+        known_facts={"0000019617": facts},
+        known_submissions={"0000019617": submissions},
+        known_ticker_map={"JPM": "0000019617"},
+    )
+    result = run.seed(["JPM"], tmp_path, force=False, dry_run=True,
+                      edgar_client=edgar, finqa_rows=finqa_rows)
+    assert result.succeeded == 1
+    assert not (tmp_path / "companies" / "jpmorgan-chase.financials.yaml").exists()
+
+
+from tools.seed_finance import __main__ as cli
+
+
+def test_cli_parses_n_companies():
+    args = cli.parse_args([
+        "--n-companies", "5",
+        "--out-dir", "/tmp/out",
+        "--dry-run",
+    ])
+    assert args.n_companies == 5
+    assert args.out_dir == "/tmp/out"
+    assert args.dry_run is True
+    assert args.force is False
+
+
+def test_cli_parses_ticker_list():
+    args = cli.parse_args([
+        "--ticker", "JPM",
+        "--ticker", "AAPL",
+    ])
+    assert args.ticker == ["JPM", "AAPL"]
