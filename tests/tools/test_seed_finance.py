@@ -92,3 +92,35 @@ def test_resolve_concept_empty_priority_list():
     facts = _company_facts_us_gaap()
     v = xbrl_metric_map.resolve_concept([], facts, "2018-FY")
     assert v is None
+
+
+from tools.seed_finance import ticker_slug_map
+
+
+def test_ticker_slug_map_covers_top20_finqa_tickers():
+    """The 20 hand-authored entries must include the tickers we plan to seed."""
+    # Top-20 tickers by FinQA question count (from prior FinQA sample).
+    expected = {
+        "ETR", "LMT", "JPM", "AMT", "GS", "AAPL", "PNC", "MRO",
+        "UNP", "AWK", "IPG", "AON", "STT", "AES", "RSG", "GPN",
+        "AAL", "RE", "ZBH", "CME",
+    }
+    missing = expected - set(ticker_slug_map.TICKER_SLUG.keys())
+    assert not missing, f"missing ticker→slug entries: {missing}"
+
+
+def test_slug_for_known_ticker():
+    assert ticker_slug_map.slug_for("JPM") == "jpmorgan-chase"
+
+
+def test_slug_for_unknown_ticker_raises():
+    with pytest.raises(KeyError, match="ZZZ"):
+        ticker_slug_map.slug_for("ZZZ")
+
+
+def test_all_slugs_are_lowercase_hyphenated():
+    """Slug rules: lowercase letters, digits, hyphens only."""
+    import re
+    slug_pattern = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+    for ticker, slug in ticker_slug_map.TICKER_SLUG.items():
+        assert slug_pattern.match(slug), f"invalid slug for {ticker}: {slug!r}"
