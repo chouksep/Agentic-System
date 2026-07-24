@@ -180,3 +180,106 @@ def test_years_by_ticker_covers_every_ticker():
     assert m["JPM"] == [2017, 2018]      # sorted ascending
     assert m["GS"] == [2018]
     assert m["AAPL"] == [2018]
+
+
+from tools.seed_finance import sec_edgar
+
+
+class _FakeResp:
+    def __init__(self, status_code: int, body: bytes | str = b""):
+        self.status_code = status_code
+        if isinstance(body, str):
+            body = body.encode("utf-8")
+        self._body = body
+        self.text = body.decode("utf-8")
+
+    def json(self):
+        return json.loads(self._body)
+
+
+class _FakeSession:
+    """Records .get() calls and returns predetermined responses in order."""
+
+    def __init__(self, responses: list):
+        self._responses = list(responses)
+        self.calls: list[tuple[str, dict]] = []
+
+    def get(self, url: str, headers: dict | None = None, timeout: int | None = None):
+        self.calls.append((url, headers or {}))
+        if not self._responses:
+            raise RuntimeError("scripted responses exhausted")
+        return self._responses.pop(0)
+
+
+def test_fetch_company_facts_returns_parsed_json():
+    body = (FIXTURES / "company_facts_JPM.json").read_bytes()
+    session = _FakeSession([_FakeResp(200, body)])
+    client = sec_edgar.SecEdgarClient(
+        user_agent="test-agent test@example.com",
+        session=session,
+        sleep_seconds=0.0,
+    )
+    data = client.fetch_company_facts("0000019617")
+    assert data["cik"] == 19617
+    # Correct URL called, correct User-Agent sent
+    called_url, called_headers = session.calls[0]
+    assert "companyfacts/CIK0000019617.json" in called_url
+    assert called_headers.get("User-Agent") == "test-agent test@example.com"
+
+
+def test_fetch_submissions_returns_parsed_json():
+    body = (FIXTURES / "submissions_JPM.json").read_bytes()
+    session = _FakeSession([_FakeResp(200, body)])
+    client = sec_edgar.SecEdgarClient(
+        user_agent="test-agent", session=session, sleep_seconds=0.0,
+    )
+    data = client.fetch_submissions("0000019617")
+    assert data["cik"] == "0000019617"
+    assert data["tickers"] == ["JPM"]
+
+
+def test_load_ticker_map_zero_pads_cik():
+    body = (FIXTURES / "company_tickers.json").read_bytes()
+    session = _FakeSession([_FakeResp(200, body)])
+    client = sec_edgar.SecEdgarClient(
+        user_agent="test-agent", session=session, sleep_seconds=0.0,
+    )
+    m = client.load_ticker_map()
+    assert m["JPM"] == "0000019617"  # 5-digit CIK zero-padded to 10
+    assert m["AAPL"] == "0000320193"
+
+
+def test_retries_on_429_then_succeeds():
+    """Two 429s then a 200; final result is the 200 body."""
+    body = b'{"cik": 19617}'
+    session = _FakeSession([
+        _FakeResp(429),
+        _FakeResp(429),
+        _FakeResp(200, body),
+    ])
+    client = sec_edgar.SecEdgarClient(
+        user_agent="test", session=session, sleep_seconds=0.0,
+    )
+    data = client.fetch_company_facts("0000019617")
+    assert data == {"cik": 19617}
+    assert len(session.calls) == 3
+
+
+def test_gives_up_after_3_retries():
+    session = _FakeSession([_FakeResp(429), _FakeResp(429), _FakeResp(429), _FakeResp(429)])
+    client = sec_edgar.SecEdgarClient(
+        user_agent="test", session=session, sleep_seconds=0.0,
+    )
+    with pytest.raises(sec_edgar.RateLimitExceeded):
+        client.fetch_company_facts("0000019617")
+    # Exactly 3 attempts (1 initial + 2 retries), then give up
+    assert len(session.calls) == 3
+
+
+def test_fetch_company_facts_404_raises_notfound():
+    session = _FakeSession([_FakeResp(404, b"not found")])
+    client = sec_edgar.SecEdgarClient(
+        user_agent="test", session=session, sleep_seconds=0.0,
+    )
+    with pytest.raises(sec_edgar.NotFound):
+        client.fetch_company_facts("9999999999")
