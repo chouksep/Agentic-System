@@ -1,0 +1,27 @@
+{
+  "cik": "0000019617",
+  "name": "JPMorgan Chase & Co",
+  "tickers": ["JPM"],
+  "sic": "6020",
+  "sicDescription": "State Commercial Banks",
+  "filings": {
+    "recent": {
+      "accessionNumber": [
+        "0000019617-19-000024",
+        "0000019617-18-000023"
+      ],
+      "filingDate": [
+        "2019-02-26",
+        "2018-02-27"
+      ],
+      "form": [
+        "10-K",
+        "10-K"
+      ],
+      "primaryDocument": [
+        "jpm-20181231x10k.htm",
+        "jpm-20171231x10k.htm"
+      ]
+    }
+  }
+}

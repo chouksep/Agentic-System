@@ -1,0 +1,59 @@
+[
+  {
+    "id": "JPM/2018/page_43.pdf-1",
+    "question": "what was net income in 2018?",
+    "answer": "32474",
+    "pre_text": "The following table presents selected income statement data (in millions).",
+    "post_text": "Net income grew year-over-year.",
+    "table": [
+      ["", "2018", "2017"],
+      ["Revenue", "$108,783", "$100,705"],
+      ["Net income", "$32,474", "$24,441"]
+    ]
+  },
+  {
+    "id": "JPM/2018/page_43.pdf-2",
+    "question": "growth rate of net income?",
+    "answer": "32.8%",
+    "pre_text": "The following table presents selected income statement data (in millions).",
+    "post_text": "Net income grew year-over-year.",
+    "table": [
+      ["", "2018", "2017"],
+      ["Revenue", "$108,783", "$100,705"],
+      ["Net income", "$32,474", "$24,441"]
+    ]
+  },
+  {
+    "id": "JPM/2017/page_51.pdf-1",
+    "question": "assets in 2017?",
+    "answer": "2534",
+    "pre_text": "Balance sheet highlights (in billions).",
+    "post_text": "Assets grew.",
+    "table": [
+      ["", "2017"],
+      ["Total assets", "$2,534"]
+    ]
+  },
+  {
+    "id": "GS/2018/page_60.pdf-1",
+    "question": "revenue in 2018?",
+    "answer": "36616",
+    "pre_text": "Financial highlights.",
+    "post_text": "Solid year.",
+    "table": [
+      ["", "2018", "2017"],
+      ["Revenue", "36616", "32073"]
+    ]
+  },
+  {
+    "id": "AAPL/2018/page_38.pdf-1",
+    "question": "revenue in 2018?",
+    "answer": "265595",
+    "pre_text": "Net sales by segment (in millions).",
+    "post_text": "iPhone drove growth.",
+    "table": [
+      ["Segment", "2018", "2017"],
+      ["iPhone", "164,888", "139,337"]
+    ]
+  }
+]

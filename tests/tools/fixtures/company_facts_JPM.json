@@ -1,0 +1,71 @@
+{
+  "cik": 19617,
+  "entityName": "JPMorgan Chase & Co",
+  "facts": {
+    "us-gaap": {
+      "Revenues": {
+        "label": "Revenues",
+        "description": "Amount of revenue recognized from goods sold, services rendered, insurance premiums, or other activities that constitute an earning process.",
+        "units": {
+          "USD": [
+            {
+              "start": "2018-01-01",
+              "end": "2018-12-31",
+              "val": 108783000000,
+              "accn": "0000019617-19-000024",
+              "fy": 2018,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2019-02-26"
+            },
+            {
+              "start": "2017-01-01",
+              "end": "2017-12-31",
+              "val": 100705000000,
+              "accn": "0000019617-18-000023",
+              "fy": 2017,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2018-02-27"
+            }
+          ]
+        }
+      },
+      "NetIncomeLoss": {
+        "label": "Net Income (Loss)",
+        "description": "The portion of profit or loss for the period, net of income taxes, which is attributable to the parent.",
+        "units": {
+          "USD": [
+            {
+              "start": "2018-01-01",
+              "end": "2018-12-31",
+              "val": 32474000000,
+              "accn": "0000019617-19-000024",
+              "fy": 2018,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2019-02-26"
+            }
+          ]
+        }
+      },
+      "Assets": {
+        "label": "Assets",
+        "description": "Sum of the carrying amounts as of the balance sheet date of all assets that are recognized.",
+        "units": {
+          "USD": [
+            {
+              "end": "2018-12-31",
+              "val": 2622532000000,
+              "accn": "0000019617-19-000024",
+              "fy": 2018,
+              "fp": "FY",
+              "form": "10-K",
+              "filed": "2019-02-26"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
