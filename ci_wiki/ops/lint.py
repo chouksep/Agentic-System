@@ -9,6 +9,7 @@ from ci_wiki.llm.client import LLMClient
 from ci_wiki.llm.prompts import build_lint_system_prompt, build_lint_user_prompt, load_schema
 from ci_wiki.llm.tools import LINT_TOOLS, ToolDispatcher
 from ci_wiki.models import LintIssue, LogEntry
+from ci_wiki.ops.financials import find_and_validate_all
 from ci_wiki.wiki.index import WikiIndex
 from ci_wiki.wiki.page import WikiPageIO
 from ci_wiki.wiki.search import WikiSearch
@@ -42,6 +43,7 @@ class LintOp:
         issues += self._find_stale_pages()
         issues += self._find_orphaned_pages()
         issues += self._find_missing_sections()
+        issues += self._find_invalid_financials_sidecars()
 
         if llm_check:
             print("Phase 2: LLM semantic checks...")
@@ -103,6 +105,30 @@ class LintOp:
                         description="Page exists on disk but is not tracked in the database",
                     )
                 )
+        return issues
+
+    def _find_invalid_financials_sidecars(self) -> list[LintIssue]:
+        """Validate every wiki/companies/*.financials.yaml sidecar file.
+
+        No-op if `config.wiki_dir` has no sidecars committed. Each invalid
+        file becomes one LintIssue with the aggregated error text in
+        description.
+        """
+        issues: list[LintIssue] = []
+        results = find_and_validate_all(self._config.wiki_dir)
+        for path, errors in results.items():
+            slug = path.name.removesuffix(".financials.yaml")
+            issues.append(
+                LintIssue(
+                    severity="error",
+                    page_slug=slug,
+                    issue_type="invalid_financials_sidecar",
+                    description=(
+                        f"Sidecar {path.name} has {len(errors)} validation "
+                        f"error(s): " + "; ".join(errors)
+                    ),
+                )
+            )
         return issues
 
     def _find_missing_sections(self) -> list[LintIssue]:

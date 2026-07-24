@@ -131,3 +131,18 @@ def test_lint_dry_run_does_not_modify_index(lint_op, lint_wiki):
 def test_lint_full_run_returns_issues(lint_op):
     issues = lint_op.run(llm_check=False)
     assert len(issues) > 0
+
+
+def test_lint_surfaces_invalid_financials_sidecar(lint_op, lint_wiki):
+    """A broken *.financials.yaml sidecar surfaces as an 'invalid_financials_sidecar' LintIssue."""
+    bad_sidecar = lint_wiki / "companies" / "bogus.financials.yaml"
+    bad_sidecar.write_text(
+        "schema_version: 1\nticker: BOGUS\ncik: 42\n"  # cik: int, not 10-digit string
+        "metrics: {currency: USD, units: millions, by_period: {}, metadata: {}}\n",
+        encoding="utf-8",
+    )
+    issues = lint_op._find_invalid_financials_sidecars()
+    sidecar_issues = [i for i in issues if i.issue_type == "invalid_financials_sidecar"]
+    assert sidecar_issues, f"expected an invalid_financials_sidecar issue; got: {issues}"
+    assert sidecar_issues[0].page_slug == "bogus"
+    assert "cik" in sidecar_issues[0].description.lower()
