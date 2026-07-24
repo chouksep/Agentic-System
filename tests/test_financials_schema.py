@@ -55,3 +55,52 @@ def test_cik_must_be_10digit_string():
     data["cik"] = 789019  # int rather than 10-char string
     errors = financials._check_json_schema(data)
     assert any("cik" in e.lower() for e in errors), errors
+
+
+import copy
+
+
+def test_metric_used_but_undocumented_fails():
+    data = _load_valid_fixture()
+    # Add a value to a period without a matching metadata entry
+    data["metrics"]["by_period"]["2024-FY"]["mystery_metric"] = 42
+    errors = financials._check_cross_consistency(data)
+    assert any("mystery_metric" in e and "metadata" in e for e in errors), errors
+
+
+def test_metric_documented_but_unused_fails():
+    data = _load_valid_fixture()
+    data["metrics"]["metadata"]["ghost_metric"] = {"description": "not used anywhere"}
+    errors = financials._check_cross_consistency(data)
+    assert any("ghost_metric" in e and "by_period" in e for e in errors), errors
+
+
+def test_orphan_filing_period_fails():
+    data = _load_valid_fixture()
+    # period_covered pointing at a period not in by_period
+    data["filings"][0]["period_covered"] = "2020-FY"
+    errors = financials._check_cross_consistency(data)
+    assert any("2020-FY" in e and "period_covered" in e for e in errors), errors
+
+
+def test_table_row_column_mismatch_fails():
+    data = _load_valid_fixture()
+    # Add a row with one fewer column than header
+    data["filings"][0]["tables"][0]["rows"].append(["Only two", "cols"])
+    errors = financials._check_cross_consistency(data)
+    assert any("row" in e.lower() and "column" in e.lower() for e in errors), errors
+
+
+def test_duplicate_filing_id_fails():
+    data = _load_valid_fixture()
+    dup = copy.deepcopy(data["filings"][0])
+    data["filings"].append(dup)  # same id
+    errors = financials._check_cross_consistency(data)
+    assert any("duplicate" in e.lower() and dup["id"] in e for e in errors), errors
+
+
+def test_valid_fixture_has_no_cross_consistency_errors():
+    """Sanity: the happy-path fixture also passes cross-consistency."""
+    data = _load_valid_fixture()
+    errors = financials._check_cross_consistency(data)
+    assert errors == [], errors
