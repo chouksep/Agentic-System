@@ -283,3 +283,91 @@ def test_fetch_company_facts_404_raises_notfound():
     )
     with pytest.raises(sec_edgar.NotFound):
         client.fetch_company_facts("9999999999")
+
+
+from ci_wiki.ops import financials as financials_validator
+from tools.seed_finance import generate
+
+
+def test_build_sidecar_passes_p1_validator():
+    """A minimally-populated sidecar dict must pass ci_wiki.ops.financials.validate()."""
+    data = generate.build_sidecar(
+        ticker="JPM",
+        cik="0000019617",
+        metrics_by_period={
+            "2018-FY": {"revenue": 108783.0, "net_income": 32474.0},
+        },
+        metric_metadata={
+            "revenue": {
+                "xbrl_concept": "us-gaap:Revenues",
+                "description": "Total net sales / revenue",
+            },
+            "net_income": {
+                "xbrl_concept": "us-gaap:NetIncomeLoss",
+                "description": "Bottom-line profit after tax",
+            },
+        },
+        filings=[
+            {
+                "id": "jpm-10k-2018",
+                "form": "10-K",
+                "filed": "2019-02-26",
+                "period_covered": "2018-FY",
+                "source_url": "https://www.sec.gov/example",
+                "tables": [
+                    {
+                        "id": "income_statement",
+                        "pre_text": "The following table...",
+                        "header": ["", "2018"],
+                        "rows": [["Revenue", "$108,783"]],
+                        "post_text": "Solid year.",
+                    }
+                ],
+            }
+        ],
+    )
+    errors = financials_validator.validate(data)
+    assert errors == [], f"validator errors: {errors}"
+
+
+def test_build_sidecar_top_level_keys():
+    data = generate.build_sidecar(
+        ticker="X", cik="0000000123",
+        metrics_by_period={"2020-FY": {"revenue": 100.0}},
+        metric_metadata={"revenue": {"description": "x"}},
+        filings=[],
+    )
+    # Schema requires these top-level keys
+    assert data["schema_version"] == 1
+    assert data["ticker"] == "X"
+    assert data["cik"] == "0000000123"
+    assert data["metrics"]["currency"] == "USD"
+    assert data["metrics"]["units"] == "millions"
+
+
+def test_build_sidecar_omits_empty_filings():
+    """When filings list is empty, the 'filings' key should be omitted (spec allows optional)."""
+    data = generate.build_sidecar(
+        ticker="X", cik="0000000123",
+        metrics_by_period={"2020-FY": {"revenue": 100.0}},
+        metric_metadata={"revenue": {"description": "x"}},
+        filings=[],
+    )
+    # Either 'filings' is absent, or it's an empty list — both valid per schema
+    assert data.get("filings", []) == []
+
+
+def test_build_stub_markdown_has_required_frontmatter_and_sections():
+    md = generate.build_stub_markdown(slug="apple", name="Apple Inc.")
+    # Frontmatter fence
+    assert md.startswith("---\n")
+    # Required company frontmatter fields (from schema/wiki_schema.md)
+    assert 'name: "Apple Inc."' in md
+    assert "type: company" in md
+    assert "last_updated:" in md
+    # Required section headers
+    for section in ("## Overview", "## Pricing", "## Funding & Financials",
+                     "## Competitive Position"):
+        assert section in md, f"missing section: {section}"
+    # Points readers at the sidecar
+    assert "apple.financials.yaml" in md
