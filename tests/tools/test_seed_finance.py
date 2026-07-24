@@ -124,3 +124,59 @@ def test_all_slugs_are_lowercase_hyphenated():
     slug_pattern = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
     for ticker, slug in ticker_slug_map.TICKER_SLUG.items():
         assert slug_pattern.match(slug), f"invalid slug for {ticker}: {slug!r}"
+
+
+from tools.seed_finance import finqa_index
+
+
+def _finqa_rows() -> list[dict]:
+    return json.loads((FIXTURES / "finqa_rows.json").read_text())
+
+
+def test_enumerate_top_by_question_count():
+    """JPM has 3 rows (2 in 2018, 1 in 2017); GS has 1 (2018); AAPL has 1 (2018)."""
+    rows = _finqa_rows()
+    top = finqa_index.enumerate_top_by_question_count(rows, n=3)
+    tickers = [t for t, _years in top]
+    assert tickers[0] == "JPM"  # highest count
+    assert set(tickers) == {"JPM", "GS", "AAPL"}
+    # JPM's year set should include both 2017 and 2018
+    jpm_years = dict(top)["JPM"]
+    assert set(jpm_years) == {2017, 2018}
+
+
+def test_enumerate_top_caps_at_n():
+    rows = _finqa_rows()
+    top = finqa_index.enumerate_top_by_question_count(rows, n=1)
+    assert len(top) == 1
+
+
+def test_tables_for_dedupes_by_page():
+    """The two JPM/2018/page_43 rows share the same table — should return 1 unique table."""
+    rows = _finqa_rows()
+    tables = finqa_index.tables_for(rows, ticker="JPM", year=2018)
+    assert len(tables) == 1
+    tbl = tables[0]
+    assert "pre_text" in tbl
+    assert "header" in tbl
+    assert "rows" in tbl
+    assert "post_text" in tbl
+    assert tbl["header"] == ["", "2018", "2017"]
+    # Numeric rows come through as strings, verbatim
+    assert any("Net income" in row[0] for row in tbl["rows"])
+
+
+def test_tables_for_returns_empty_when_no_match():
+    rows = _finqa_rows()
+    assert finqa_index.tables_for(rows, ticker="ZZZ", year=2018) == []
+    assert finqa_index.tables_for(rows, ticker="JPM", year=1999) == []
+
+
+def test_years_by_ticker_covers_every_ticker():
+    """years_by_ticker returns EVERY ticker (not top-N) with sorted year lists."""
+    rows = _finqa_rows()
+    m = finqa_index.years_by_ticker(rows)
+    assert set(m.keys()) == {"JPM", "GS", "AAPL"}
+    assert m["JPM"] == [2017, 2018]      # sorted ascending
+    assert m["GS"] == [2018]
+    assert m["AAPL"] == [2018]
