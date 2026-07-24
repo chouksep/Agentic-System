@@ -122,3 +122,36 @@ def _check_cross_consistency(data: dict) -> list[str]:
             seen_ids[fid] = i
 
     return errors
+
+
+def validate(data: dict) -> list[str]:
+    """Run both validation layers; return combined error list (empty when valid).
+
+    Layer 1 (JSON Schema) runs first. Layer 2 (cross-consistency) runs
+    unconditionally so callers see all defects in one pass, but Layer-2
+    handles missing/malformed inputs gracefully to avoid noisy cascades.
+    """
+    return _check_json_schema(data) + _check_cross_consistency(data)
+
+
+def find_and_validate_all(wiki_root: Path) -> dict[Path, list[str]]:
+    """Iterate every wiki/companies/*.financials.yaml under `wiki_root`.
+
+    Returns a dict mapping each invalid file's Path -> list of error strings.
+    Valid files are absent from the returned dict. YAML parse failures are
+    surfaced as a single-item error list.
+    """
+    results: dict[Path, list[str]] = {}
+    companies_dir = Path(wiki_root) / "companies"
+    if not companies_dir.is_dir():
+        return results
+    for path in sorted(companies_dir.glob("*.financials.yaml")):
+        try:
+            data = load_sidecar(path)
+        except yaml.YAMLError as exc:
+            results[path] = [f"YAML parse error: {exc}"]
+            continue
+        errors = validate(data)
+        if errors:
+            results[path] = errors
+    return results
