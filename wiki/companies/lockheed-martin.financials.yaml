@@ -1,0 +1,3296 @@
+schema_version: 1
+ticker: LMT
+cik: 0000936468
+metrics:
+  currency: USD
+  units: millions
+  by_period:
+    2010-FY:
+      revenue: 41372.0
+      cost_of_revenue: 30220.0
+      gross_profit: 4574.0
+      operating_income: 5049.0
+      net_income: 3217.0
+      diluted_eps: 7.86
+      total_assets: 35111.0
+      total_liabilities: 30982.0
+      total_equity: 9805.0
+      cash_and_equivalents: 2648.0
+      total_debt: 5052.0
+      operating_cash_flow: 4421.0
+      capex: 926.0
+      free_cash_flow: 3495.0
+    2010-Q1:
+      revenue: 10373.0
+      cost_of_revenue: 7527.0
+      gross_profit: 1005.0
+      operating_income: 1057.0
+      net_income: 666.0
+      diluted_eps: 1.68
+      total_assets: 35111.0
+      total_liabilities: 30982.0
+      total_equity: 4129.0
+      cash_and_equivalents: 2168.0
+      total_debt: 5052.0
+      operating_cash_flow: 1218.0
+      capex: 132.0
+      free_cash_flow: 1086.0
+    2010-Q2:
+      revenue: 21280.0
+      cost_of_revenue: 15572.0
+      gross_profit: 2017.0
+      operating_income: 2130.0
+      net_income: 1400.0
+      diluted_eps: 3.55
+      total_assets: 35111.0
+      total_liabilities: 30982.0
+      total_equity: 2865.0
+      cash_and_equivalents: 2168.0
+      total_debt: 5052.0
+      operating_cash_flow: 2354.0
+      capex: 299.0
+      free_cash_flow: 2055.0
+    2010-Q3:
+      revenue: 31792.0
+      cost_of_revenue: 23071.0
+      gross_profit: 2976.0
+      operating_income: 3171.0
+      net_income: 2197.0
+      diluted_eps: 5.61
+      total_assets: 35111.0
+      total_liabilities: 30982.0
+      total_equity: 2865.0
+      cash_and_equivalents: 2168.0
+      total_debt: 5052.0
+      operating_cash_flow: 3778.0
+      capex: 481.0
+      free_cash_flow: 3297.0
+    2012-FY:
+      revenue: 45671.0
+      cost_of_revenue: 32539.0
+      gross_profit: 3844.0
+      operating_income: 4105.0
+      net_income: 2878.0
+      diluted_eps: 7.81
+      total_assets: 37908.0
+      total_liabilities: 36907.0
+      total_equity: 3966.0
+      cash_and_equivalents: 2391.0
+      total_debt: 6460.0
+      operating_cash_flow: 3801.0
+      capex: 1074.0
+      free_cash_flow: 2727.0
+    2012-Q1:
+      revenue: 10626.0
+      cost_of_revenue: 7587.0
+      gross_profit: 814.0
+      operating_income: 864.0
+      net_income: 530.0
+      diluted_eps: 1.5
+      total_assets: 37908.0
+      total_liabilities: 36907.0
+      total_equity: 3497.0
+      cash_and_equivalents: 2261.0
+      total_debt: 6460.0
+      operating_cash_flow: 1719.0
+      capex: 130.0
+      free_cash_flow: 1589.0
+    2012-Q2:
+      revenue: 22169.0
+      cost_of_revenue: 15694.0
+      gross_profit: 1720.0
+      operating_income: 1857.0
+      net_income: 1272.0
+      diluted_eps: 3.64
+      total_assets: 37908.0
+      total_liabilities: 36907.0
+      total_equity: 3497.0
+      cash_and_equivalents: 2261.0
+      total_debt: 6460.0
+      operating_cash_flow: 2613.0
+      capex: 328.0
+      free_cash_flow: 2285.0
+    2012-Q3:
+      revenue: 34288.0
+      cost_of_revenue: 24361.0
+      gross_profit: 2716.0
+      operating_income: 2898.0
+      net_income: 1972.0
+      diluted_eps: 5.73
+      total_assets: 37908.0
+      total_liabilities: 36907.0
+      total_equity: 3497.0
+      cash_and_equivalents: 2261.0
+      total_debt: 6460.0
+      operating_cash_flow: 3164.0
+      capex: 569.0
+      free_cash_flow: 2595.0
+    2013-FY:
+      revenue: 46499.0
+      cost_of_revenue: 32968.0
+      gross_profit: 3744.0
+      operating_income: 4020.0
+      net_income: 2655.0
+      diluted_eps: 7.81
+      total_assets: 38657.0
+      total_liabilities: 38618.0
+      total_equity: 3497.0
+      cash_and_equivalents: 2261.0
+      total_debt: 6308.0
+      operating_cash_flow: 4253.0
+    2013-Q1:
+      revenue: 11293.0
+      cost_of_revenue: 8080.0
+      gross_profit: 1009.0
+      operating_income: 1044.0
+      net_income: 668.0
+      diluted_eps: 2.03
+      total_assets: 38657.0
+      total_liabilities: 38618.0
+      total_equity: 1001.0
+      cash_and_equivalents: 3582.0
+      total_debt: 6158.0
+      operating_cash_flow: 458.0
+      capex: 131.0
+      free_cash_flow: 327.0
+    2013-Q2:
+      revenue: 23214.0
+      cost_of_revenue: 16431.0
+      gross_profit: 2181.0
+      operating_income: 2236.0
+      net_income: 1449.0
+      diluted_eps: 4.41
+      total_assets: 38657.0
+      total_liabilities: 38618.0
+      total_equity: 1001.0
+      cash_and_equivalents: 3582.0
+      total_debt: 6158.0
+      operating_cash_flow: 1303.0
+      capex: 306.0
+      free_cash_flow: 997.0
+    2013-Q3:
+      revenue: 35083.0
+      cost_of_revenue: 24844.0
+      gross_profit: 3201.0
+      operating_income: 3373.0
+      net_income: 2176.0
+      diluted_eps: 6.62
+      total_assets: 38657.0
+      total_liabilities: 38618.0
+      total_equity: 1001.0
+      cash_and_equivalents: 3582.0
+      total_debt: 6158.0
+      operating_cash_flow: 2876.0
+      capex: 514.0
+      free_cash_flow: 2362.0
+    2014-FY:
+      revenue: 47182.0
+      cost_of_revenue: 33495.0
+      gross_profit: 4196.0
+      operating_income: 4434.0
+      net_income: 2745.0
+      diluted_eps: 8.36
+      total_assets: 36188.0
+      total_liabilities: 31270.0
+      total_equity: 1001.0
+      cash_and_equivalents: 3582.0
+      total_debt: 6152.0
+      operating_cash_flow: 1561.0
+    2014-Q1:
+      revenue: 11070.0
+      cost_of_revenue: 7671.0
+      gross_profit: 1041.0
+      operating_income: 1119.0
+      net_income: 761.0
+      diluted_eps: 2.33
+      total_assets: 36188.0
+      total_liabilities: 31270.0
+      total_equity: 39.0
+      cash_and_equivalents: 1898.0
+      total_debt: 6152.0
+      operating_cash_flow: 2085.0
+    2014-Q2:
+      revenue: 22478.0
+      cost_of_revenue: 15486.0
+      gross_profit: 2265.0
+      operating_income: 2417.0
+      net_income: 1620.0
+      diluted_eps: 4.97
+      total_assets: 36188.0
+      total_liabilities: 31270.0
+      total_equity: 39.0
+      cash_and_equivalents: 1898.0
+      total_debt: 6152.0
+      operating_cash_flow: 2708.0
+    2014-Q3:
+      revenue: 33825.0
+      cost_of_revenue: 23245.0
+      gross_profit: 3449.0
+      operating_income: 3671.0
+      net_income: 2493.0
+      diluted_eps: 7.63
+      total_assets: 36188.0
+      total_liabilities: 31270.0
+      total_equity: 39.0
+      cash_and_equivalents: 1898.0
+      total_debt: 6152.0
+      operating_cash_flow: 3608.0
+    2015-FY:
+      revenue: 45358.0
+      cost_of_revenue: 31346.0
+      gross_profit: 4187.0
+      operating_income: 4505.0
+      net_income: 2981.0
+      diluted_eps: 9.13
+      total_assets: 37046.0
+      total_liabilities: 33646.0
+      total_equity: 39.0
+      cash_and_equivalents: 1898.0
+      total_debt: 6142.0
+      operating_cash_flow: 4546.0
+    2015-Q1:
+      revenue: 10650.0
+      cost_of_revenue: 7339.0
+      gross_profit: 1371.0
+      operating_income: 1432.0
+      net_income: 933.0
+      diluted_eps: 2.87
+      total_assets: 37073.0
+      total_liabilities: 33673.0
+      total_equity: 4918.0
+      cash_and_equivalents: 2617.0
+      total_debt: 6169.0
+      operating_cash_flow: 2100.0
+    2015-Q2:
+      revenue: 21956.0
+      cost_of_revenue: 15269.0
+      gross_profit: 2712.0
+      operating_income: 2858.0
+      net_income: 1822.0
+      diluted_eps: 5.63
+      total_assets: 37073.0
+      total_liabilities: 33673.0
+      total_equity: 4918.0
+      cash_and_equivalents: 2617.0
+      total_debt: 6169.0
+      operating_cash_flow: 3077.0
+    2015-Q3:
+      revenue: 33070.0
+      cost_of_revenue: 22928.0
+      gross_profit: 3987.0
+      operating_income: 4250.0
+      net_income: 2710.0
+      diluted_eps: 8.39
+      total_assets: 37073.0
+      total_liabilities: 33673.0
+      total_equity: 4918.0
+      cash_and_equivalents: 2617.0
+      total_debt: 6169.0
+      operating_cash_flow: 4067.0
+    2016-FY:
+      revenue: 39946.0
+      cost_of_revenue: 30983.0
+      gross_profit: 4683.0
+      operating_income: 5012.0
+      net_income: 3614.0
+      diluted_eps: 11.21
+      total_assets: 49304.0
+      total_liabilities: 46207.0
+      total_equity: 3097.0
+      cash_and_equivalents: 2617.0
+      total_debt: 15261.0
+      operating_cash_flow: 3866.0
+    2016-Q1:
+      revenue: 10111.0
+      cost_of_revenue: 6951.0
+      gross_profit: 1263.0
+      operating_income: 1356.0
+      net_income: 878.0
+      diluted_eps: 2.74
+      total_assets: 49128.0
+      total_liabilities: 46031.0
+      total_equity: 3400.0
+      cash_and_equivalents: 1446.0
+      total_debt: 14305.0
+      operating_cash_flow: 957.0
+    2016-Q2:
+      revenue: 21754.0
+      cost_of_revenue: 15053.0
+      gross_profit: 2634.0
+      operating_income: 2801.0
+      net_income: 1807.0
+      diluted_eps: 5.68
+      total_assets: 49128.0
+      total_liabilities: 46031.0
+      total_equity: 3400.0
+      cash_and_equivalents: 1446.0
+      total_debt: 14305.0
+      operating_cash_flow: 2220.0
+    2016-Q3:
+      revenue: 29016.0
+      cost_of_revenue: 22238.0
+      gross_profit: 3355.0
+      operating_income: 3612.0
+      net_income: 2672.0
+      diluted_eps: 8.45
+      total_assets: 49304.0
+      total_liabilities: 46207.0
+      total_equity: 3097.0
+      cash_and_equivalents: 1446.0
+      total_debt: 14305.0
+      operating_cash_flow: 3737.0
+    2017-FY:
+      revenue: 40536.0
+      cost_of_revenue: 31091.0
+      gross_profit: 4492.0
+      operating_income: 4712.0
+      net_income: 3605.0
+      diluted_eps: 11.46
+      total_assets: 47806.0
+      total_liabilities: 46200.0
+      total_equity: 1511.0
+      cash_and_equivalents: 1446.0
+      total_debt: 14282.0
+      operating_cash_flow: 5101.0
+    2017-Q1:
+      revenue: 10368.0
+      cost_of_revenue: 7887.0
+      gross_profit: 1095.0
+      operating_income: 1158.0
+      net_income: 898.0
+      diluted_eps: 2.91
+      total_assets: 47806.0
+      total_liabilities: 46200.0
+      total_equity: 1511.0
+      cash_and_equivalents: 1090.0
+      total_debt: 14282.0
+      operating_cash_flow: 1667.0
+    2017-Q2:
+      revenue: 21945.0
+      cost_of_revenue: 16760.0
+      gross_profit: 2325.0
+      operating_income: 2533.0
+      net_income: 1919.0
+      diluted_eps: 6.23
+      total_assets: 47806.0
+      total_liabilities: 46200.0
+      total_equity: 1511.0
+      cash_and_equivalents: 1090.0
+      total_debt: 14282.0
+      operating_cash_flow: 3140.0
+    2017-Q3:
+      revenue: 33496.0
+      cost_of_revenue: 25787.0
+      gross_profit: 3709.0
+      operating_income: 4121.0
+      net_income: 4314.0
+      diluted_eps: 14.1
+      total_assets: 47806.0
+      total_liabilities: 46200.0
+      total_equity: 1511.0
+      cash_and_equivalents: 1090.0
+      total_debt: 14282.0
+      operating_cash_flow: 4460.0
+    2018-FY:
+      revenue: 47290.0
+      cost_of_revenue: 41889.0
+      gross_profit: 5401.0
+      operating_income: 5888.0
+      net_income: 5173.0
+      diluted_eps: 17.07
+      total_assets: 46620.0
+      total_liabilities: 47396.0
+      total_equity: -850.0
+      cash_and_equivalents: 1090.0
+      total_debt: 14263.0
+      operating_cash_flow: 5189.0
+    2018-Q1:
+      revenue: 11212.0
+      cost_of_revenue: 8744.0
+      gross_profit: 1406.0
+      operating_income: 1402.0
+      net_income: 789.0
+      diluted_eps: 2.69
+      total_assets: 46620.0
+      total_liabilities: 47396.0
+      total_equity: -850.0
+      cash_and_equivalents: 1837.0
+      total_debt: 13513.0
+      operating_cash_flow: 1666.0
+    2018-Q2:
+      revenue: 23775.0
+      cost_of_revenue: 20713.0
+      gross_profit: 3062.0
+      operating_income: 3118.0
+      net_income: 1744.0
+      diluted_eps: 5.97
+      total_assets: 46620.0
+      total_liabilities: 47396.0
+      total_equity: -850.0
+      cash_and_equivalents: 1837.0
+      total_debt: 13513.0
+      operating_cash_flow: 3210.0
+    2018-Q3:
+      revenue: 36116.0
+      cost_of_revenue: 31454.0
+      gross_profit: 4662.0
+      operating_income: 4795.0
+      net_income: 2707.0
+      diluted_eps: 9.29
+      total_assets: 46620.0
+      total_liabilities: 47396.0
+      total_equity: -850.0
+      cash_and_equivalents: 1837.0
+      total_debt: 13513.0
+      operating_cash_flow: 4964.0
+    2023-FY:
+      revenue: 67044.0
+      cost_of_revenue: 57983.0
+      gross_profit: 9061.0
+      operating_income: 9123.0
+      net_income: 6315.0
+      diluted_eps: 22.76
+      total_assets: 52880.0
+      total_liabilities: 43614.0
+      total_equity: 9266.0
+      cash_and_equivalents: 2547.0
+      total_debt: 15547.0
+      operating_cash_flow: 9221.0
+    2023-Q1:
+      revenue: 14964.0
+      cost_of_revenue: 13055.0
+      gross_profit: 1909.0
+      operating_income: 1933.0
+      net_income: 1733.0
+      diluted_eps: 6.44
+      total_assets: 52880.0
+      total_liabilities: 43614.0
+      total_equity: 9266.0
+      cash_and_equivalents: 2547.0
+      total_debt: 15429.0
+      operating_cash_flow: 1410.0
+    2023-Q2:
+      revenue: 30410.0
+      cost_of_revenue: 26545.0
+      gross_profit: 3865.0
+      operating_income: 3896.0
+      net_income: 2042.0
+      diluted_eps: 7.62
+      total_assets: 52880.0
+      total_liabilities: 43614.0
+      total_equity: 9266.0
+      cash_and_equivalents: 2547.0
+      total_debt: 15429.0
+      operating_cash_flow: 2741.0
+    2023-Q3:
+      revenue: 46993.0
+      cost_of_revenue: 41008.0
+      gross_profit: 5985.0
+      operating_income: 6055.0
+      net_income: 3820.0
+      diluted_eps: 14.31
+      total_assets: 52880.0
+      total_liabilities: 43614.0
+      total_equity: 9266.0
+      cash_and_equivalents: 2547.0
+      total_debt: 15429.0
+      operating_cash_flow: 5874.0
+    2024-FY:
+      revenue: 65984.0
+      cost_of_revenue: 57697.0
+      gross_profit: 8287.0
+      operating_income: 8348.0
+      net_income: 5732.0
+      diluted_eps: 21.66
+      total_assets: 52456.0
+      total_liabilities: 45621.0
+      total_equity: 10959.0
+      cash_and_equivalents: 1442.0
+      total_debt: 17459.0
+      operating_cash_flow: 7802.0
+    2024-Q1:
+      revenue: 15126.0
+      cost_of_revenue: 13080.0
+      gross_profit: 2046.0
+      operating_income: 2037.0
+      net_income: 1689.0
+      diluted_eps: 6.61
+      total_assets: 52456.0
+      total_liabilities: 45621.0
+      total_equity: 9266.0
+      cash_and_equivalents: 1442.0
+      total_debt: 17291.0
+      operating_cash_flow: 1564.0
+    2024-Q2:
+      revenue: 31819.0
+      cost_of_revenue: 27683.0
+      gross_profit: 4136.0
+      operating_income: 4172.0
+      net_income: 3370.0
+      diluted_eps: 13.24
+      total_assets: 52456.0
+      total_liabilities: 45621.0
+      total_equity: 9266.0
+      cash_and_equivalents: 1442.0
+      total_debt: 17291.0
+      operating_cash_flow: 2664.0
+    2024-Q3:
+      revenue: 48697.0
+      cost_of_revenue: 42513.0
+      gross_profit: 6184.0
+      operating_income: 6214.0
+      net_income: 5054.0
+      diluted_eps: 19.97
+      total_assets: 52456.0
+      total_liabilities: 45621.0
+      total_equity: 9266.0
+      cash_and_equivalents: 1442.0
+      total_debt: 17291.0
+      operating_cash_flow: 5555.0
+    2025-FY:
+      revenue: 67571.0
+      cost_of_revenue: 59092.0
+      gross_profit: 8479.0
+      operating_income: 8507.0
+      net_income: 6920.0
+      diluted_eps: 27.55
+      total_assets: 55617.0
+      total_liabilities: 49284.0
+      total_equity: 9266.0
+      cash_and_equivalents: 2483.0
+      total_debt: 20270.0
+      operating_cash_flow: 7920.0
+    2025-Q1:
+      revenue: 17195.0
+      cost_of_revenue: 15202.0
+      gross_profit: 1993.0
+      operating_income: 2029.0
+      net_income: 1545.0
+      diluted_eps: 6.39
+      total_assets: 55617.0
+      total_liabilities: 49284.0
+      total_equity: 6835.0
+      cash_and_equivalents: 2483.0
+      total_debt: 19627.0
+      operating_cash_flow: 1635.0
+    2025-Q2:
+      revenue: 35317.0
+      cost_of_revenue: 31194.0
+      gross_profit: 4123.0
+      operating_income: 4177.0
+      net_income: 3186.0
+      diluted_eps: 13.24
+      total_assets: 55617.0
+      total_liabilities: 49284.0
+      total_equity: 6835.0
+      cash_and_equivalents: 2483.0
+      total_debt: 19627.0
+      operating_cash_flow: 3511.0
+    2025-Q3:
+      revenue: 52421.0
+      cost_of_revenue: 46181.0
+      gross_profit: 6240.0
+      operating_income: 6317.0
+      net_income: 4809.0
+      diluted_eps: 20.05
+      total_assets: 55617.0
+      total_liabilities: 49284.0
+      total_equity: 6835.0
+      cash_and_equivalents: 2483.0
+      total_debt: 19627.0
+      operating_cash_flow: 5949.0
+    2026-Q1:
+      revenue: 17963.0
+      cost_of_revenue: 15640.0
+      gross_profit: 2323.0
+      operating_income: 2372.0
+      net_income: 1712.0
+      diluted_eps: 7.28
+      total_assets: 59840.0
+      total_liabilities: 53119.0
+      total_equity: 6333.0
+      cash_and_equivalents: 4121.0
+      total_debt: 20532.0
+      operating_cash_flow: 1409.0
+    2026-Q2:
+      revenue: 36118.0
+      cost_of_revenue: 33061.0
+      gross_profit: 3057.0
+      operating_income: 3120.0
+      net_income: 2054.0
+      diluted_eps: 8.75
+      total_assets: 59840.0
+      total_liabilities: 53119.0
+      total_equity: 6333.0
+      cash_and_equivalents: 4121.0
+      total_debt: 20532.0
+      operating_cash_flow: 1610.0
+  metadata:
+    capex:
+      xbrl_concept: us-gaap:PaymentsToAcquirePropertyPlantAndEquipment
+      description: Capex
+    cash_and_equivalents:
+      xbrl_concept: us-gaap:CashAndCashEquivalentsAtCarryingValue
+      description: Cash and equivalents
+    cost_of_revenue:
+      xbrl_concept: us-gaap:CostOfRevenue
+      description: Cost of revenue
+    diluted_eps:
+      xbrl_concept: us-gaap:EarningsPerShareDiluted
+      description: Diluted eps
+    free_cash_flow:
+      description: Free cash flow
+    gross_profit:
+      xbrl_concept: us-gaap:GrossProfit
+      description: Gross profit
+    net_income:
+      xbrl_concept: us-gaap:NetIncomeLoss
+      description: Net income
+    operating_cash_flow:
+      xbrl_concept: us-gaap:NetCashProvidedByUsedInOperatingActivities
+      description: Operating cash flow
+    operating_income:
+      xbrl_concept: us-gaap:OperatingIncomeLoss
+      description: Operating income
+    revenue:
+      xbrl_concept: us-gaap:Revenues
+      description: Revenue
+    total_assets:
+      xbrl_concept: us-gaap:Assets
+      description: Total assets
+    total_debt:
+      xbrl_concept: us-gaap:LongTermDebt
+      description: Total debt
+    total_equity:
+      xbrl_concept: us-gaap:StockholdersEquity
+      description: Total equity
+    total_liabilities:
+      xbrl_concept: us-gaap:Liabilities
+      description: Total liabilities
+filings:
+- id: lmt-10k-2015
+  form: 10-K
+  filed: '2016-02-24'
+  period_covered: 2015-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/936468/000119312516476010/d62685d10k.htm
+  tables:
+  - pre_text: 'aeronautics our aeronautics business segment is engaged in the research
+      , design , development , manufacture , integration , sustainment , support and
+      upgrade of advanced military aircraft , including combat and air mobility aircraft
+      , unmanned air vehicles and related technologies .
+
+
+      aeronautics 2019 major programs include the f-35 lightning ii joint strike fighter
+      , c-130 hercules , f-16 fighting falcon , c-5m super galaxy and f-22 raptor
+      .
+
+
+      aeronautics 2019 operating results included the following ( in millions ) :
+      .'
+    header:
+    - ''
+    - '2015'
+    - '2014'
+    - '2013'
+    rows:
+    - - net sales
+      - $ 15570
+      - $ 14920
+      - $ 14123
+    - - operating profit
+      - '1681'
+      - '1649'
+      - '1612'
+    - - operating margins
+      - 10.8% ( 10.8 % )
+      - 11.1% ( 11.1 % )
+      - 11.4% ( 11.4 % )
+    - - backlog at year-end
+      - $ 31800
+      - $ 27600
+      - $ 28000
+    post_text: '2015 compared to 2014 aeronautics 2019 net sales in 2015 increased
+      $ 650 million , or 4% ( 4 % ) , compared to 2014 .
+
+
+      the increase was attributable to higher net sales of approximately $ 1.4 billion
+      for f-35 production contracts due to increased volume on aircraft production
+      and sustainment activities ; and approximately $ 150 million for the c-5 program
+      due to increased deliveries ( nine aircraft delivered in 2015 compared to seven
+      delivered in 2014 ) .
+
+
+      the increases were partially offset by lower net sales of approximately $ 350
+      million for the c-130 program due to fewer aircraft deliveries ( 21 aircraft
+      delivered in 2015 , compared to 24 delivered in 2014 ) , lower sustainment activities
+      and aircraft contract mix ; approximately $ 200 million due to decreased volume
+      and lower risk retirements on various programs ; approximately $ 195 million
+      for the f-16 program due to fewer deliveries ( 11 aircraft delivered in 2015
+      , compared to 17 delivered in 2014 ) ; and approximately $ 190 million for the
+      f-22 program as a result of decreased sustainment activities .
+
+
+      aeronautics 2019 operating profit in 2015 increased $ 32 million , or 2% ( 2
+      % ) , compared to 2014 .
+
+
+      operating profit increased by approximately $ 240 million for f-35 production
+      contracts due to increased volume and risk retirements ; and approximately $
+      40 million for the c-5 program due to increased risk retirements .
+
+
+      these increases were offset by lower operating profit of approximately $ 90
+      million for the f-22 program due to lower risk retirements ; approximately $
+      70 million for the c-130 program as a result of the reasons stated above for
+      lower net sales ; and approximately $ 80 million due to decreased volume and
+      risk retirements on various programs .
+
+
+      adjustments not related to volume , including net profit booking rate adjustments
+      and other matters , were approximately $ 100 million higher in 2015 compared
+      to 2014 .
+
+
+      2014 compared to 2013 aeronautics 2019 net sales increased $ 797 million , or
+      6% ( 6 % ) , in 2014 as compared to 2013 .
+
+
+      the increase was primarily attributable to higher net sales of approximately
+      $ 790 million for f-35 production contracts due to increased volume and sustainment
+      activities ; about $ 55 million for the f-16 program due to increased deliveries
+      ( 17 aircraft delivered in 2014 compared to 13 delivered in 2013 ) partially
+      offset by contract mix ; and approximately $ 45 million for the f-22 program
+      due to increased risk retirements .
+
+
+      the increases were partially offset by lower net sales of approximately $ 55
+      million for the f-35 development contract due to decreased volume , partially
+      offset by the absence in 2014 of the downward revision to the profit booking
+      rate that occurred in 2013 ; and about $ 40 million for the c-130 program due
+      to fewer deliveries ( 24 aircraft delivered in 2014 compared to 25 delivered
+      in 2013 ) and decreased sustainment activities , partially offset by contract
+      mix .
+
+
+      aeronautics 2019 operating profit increased $ 37 million , or 2% ( 2 % ) , in
+      2014 as compared to 2013 .
+
+
+      the increase was primarily attributable to higher operating profit of approximately
+      $ 85 million for the f-35 development contract due to the absence in 2014 of
+      the downward revision to the profit booking rate that occurred in 2013 ; about
+      $ 75 million for the f-22 program due to increased risk retirements ; approximately
+      $ 50 million for the c-130 program due to increased risk retirements and contract
+      mix , partially offset by fewer deliveries ; and about $ 25 million for the
+      c-5 program due to the absence in 2014 of the downward revisions to the profit
+      booking rate that occurred in 2013 .
+
+
+      the increases were partially offset by lower operating profit of approximately
+      $ 130 million for the f-16 program due to decreased risk retirements , partially
+      offset by increased deliveries ; and about $ 70 million for sustainment activities
+      due to decreased risk retirements and volume .
+
+
+      operating profit was comparable for f-35 production contracts as higher volume
+      was offset by lower risk retirements .
+
+
+      adjustments not related to volume , including net profit booking rate adjustments
+      and other matters , were approximately $ 105 million lower for 2014 compared
+      to 2013. .'
+    id: lmt-2015-table-0
+  - pre_text: 'contributions and expected benefit payments the funding of our qualified
+      defined benefit pension plans is determined in accordance with erisa , as amended
+      by the ppa , and in a manner consistent with cas and internal revenue code rules
+      .
+
+
+      in 2015 , we made $ 5 million in contributions to our new sikorsky bargained
+      qualified defined benefit pension plan and we plan to make approximately $ 25
+      million in contributions to this plan in 2016 .
+
+
+      the following table presents estimated future benefit payments , which reflect
+      expected future employee service , as of december 31 , 2015 ( in millions )
+      : .'
+    header:
+    - ''
+    - '2016'
+    - '2017'
+    - '2018'
+    - '2019'
+    - '2020'
+    - 2021 - 2025
+    rows:
+    - - qualified defined benefit pension plans
+      - $ 2160
+      - $ 2240
+      - $ 2320
+      - $ 2410
+      - $ 2500
+      - $ 13670
+    - - retiree medical and life insurance plans
+      - '190'
+      - '190'
+      - '200'
+      - '200'
+      - '200'
+      - '940'
+    post_text: 'defined contribution plans we maintain a number of defined contribution
+      plans , most with 401 ( k ) features , that cover substantially all of our employees
+      .
+
+
+      under the provisions of our 401 ( k ) plans , we match most employees 2019 eligible
+      contributions at rates specified in the plan documents .
+
+
+      our contributions were $ 393 million in 2015 , $ 385 million in 2014 and $ 383
+      million in 2013 , the majority of which were funded in our common stock .
+
+
+      our defined contribution plans held approximately 40.0 million and 41.7 million
+      shares of our common stock as of december 31 , 2015 and 2014 .
+
+
+      note 12 2013 stockholders 2019 equity at december 31 , 2015 and 2014 , our authorized
+      capital was composed of 1.5 billion shares of common stock and 50 million shares
+      of series preferred stock .
+
+
+      of the 305 million shares of common stock issued and outstanding as of december
+      31 , 2015 , 303 million shares were considered outstanding for balance sheet
+      presentation purposes ; the remaining shares were held in a separate trust .
+
+
+      of the 316 million shares of common stock issued and outstanding as of december
+      31 , 2014 , 314 million shares were considered outstanding for balance sheet
+      presentation purposes ; the remaining shares were held in a separate trust .
+
+
+      no shares of preferred stock were issued and outstanding at december 31 , 2015
+      or 2014 .
+
+
+      repurchases of common stock during 2015 , we repurchased 15.2 million shares
+      of our common stock for $ 3.1 billion .
+
+
+      during 2014 and 2013 , we paid $ 1.9 billion and $ 1.8 billion to repurchase
+      11.5 million and 16.2 million shares of our common stock .
+
+
+      on september 24 , 2015 , our board of directors approved a $ 3.0 billion increase
+      to our share repurchase program .
+
+
+      inclusive of this increase , the total remaining authorization for future common
+      share repurchases under our program was $ 3.6 billion as of december 31 , 2015
+      .
+
+
+      as we repurchase our common shares , we reduce common stock for the $ 1 of par
+      value of the shares repurchased , with the excess purchase price over par value
+      recorded as a reduction of additional paid-in capital .
+
+
+      due to the volume of repurchases made under our share repurchase program , additional
+      paid-in capital was reduced to zero , with the remainder of the excess purchase
+      price over par value of $ 2.4 billion and $ 1.1 billion recorded as a reduction
+      of retained earnings in 2015 and 2014 .
+
+
+      we paid dividends totaling $ 1.9 billion ( $ 6.15 per share ) in 2015 , $ 1.8
+      billion ( $ 5.49 per share ) in 2014 and $ 1.5 billion ( $ 4.78 per share )
+      in 2013 .
+
+
+      we have increased our quarterly dividend rate in each of the last three years
+      , including a 10% ( 10 % ) increase in the quarterly dividend rate in the fourth
+      quarter of 2015 .
+
+
+      we declared quarterly dividends of $ 1.50 per share during each of the first
+      three quarters of 2015 and $ 1.65 per share during the fourth quarter of 2015
+      ; $ 1.33 per share during each of the first three quarters of 2014 and $ 1.50
+      per share during the fourth quarter of 2014 ; and $ 1.15 per share during each
+      of the first three quarters of 2013 and $ 1.33 per share during the fourth quarter
+      of 2013. .'
+    id: lmt-2015-table-1
+  - pre_text: '$ 15 million for fire control programs due to increased deliveries
+      ( primarily apache ) , partially offset by lower risk retirements ( primarily
+      sniper ae ) .
+
+
+      adjustments not related to volume , including net profit booking rate adjustments
+      and other matters , were approximately $ 95 million lower for 2014 compared
+      to 2013 .
+
+
+      backlog backlog increased in 2015 compared to 2014 primarily due to higher orders
+      on pac-3 , lantirn/sniper and certain tactical missile programs , partially
+      offset by lower orders on thaad .
+
+
+      backlog decreased in 2014 compared to 2013 primarily due to lower orders on
+      thaad and fire control systems programs , partially offset by higher orders
+      on certain tactical missile programs and pac-3 .
+
+
+      trends we expect mfc 2019s net sales to be flat or experience a slight decline
+      in 2016 as compared to 2015 .
+
+
+      operating profit is expected to decrease by approximately 20 percent , driven
+      by contract mix and fewer risk retirements in 2016 compared to 2015 .
+
+
+      accordingly , operating profit margin is expected to decline from 2015 levels
+      .
+
+
+      mission systems and training as previously described , on november 6 , 2015
+      , we acquired sikorsky and aligned the sikorsky business under our mst business
+      segment .
+
+
+      the results of the acquired sikorsky business have been included in our financial
+      results from the november 6 , 2015 acquisition date through december 31 , 2015
+      .
+
+
+      as a result , our consolidated operating results and mst business segment operating
+      results for the year ended december 31 , 2015 do not reflect a full year of
+      sikorsky operations .
+
+
+      our mst business segment provides design , manufacture , service and support
+      for a variety of military and civil helicopters , ship and submarine mission
+      and combat systems ; mission systems and sensors for rotary and fixed-wing aircraft
+      ; sea and land-based missile defense systems ; radar systems ; the littoral
+      combat ship ( lcs ) ; simulation and training services ; and unmanned systems
+      and technologies .
+
+
+      in addition , mst supports the needs of customers in cybersecurity and delivers
+      communication and command and control capabilities through complex mission solutions
+      for defense applications .
+
+
+      mst 2019s major programs include black hawk and seahawk helicopters , aegis
+      combat system ( aegis ) , lcs , space fence , advanced hawkeye radar system
+      , and tpq-53 radar system .
+
+
+      mst 2019s operating results included the following ( in millions ) : .'
+    header:
+    - ''
+    - '2015'
+    - '2014'
+    - '2013'
+    rows:
+    - - net sales
+      - $ 9091
+      - $ 8732
+      - $ 9037
+    - - operating profit
+      - '844'
+      - '936'
+      - '1065'
+    - - operating margins
+      - 9.3% ( 9.3 % )
+      - 10.7% ( 10.7 % )
+      - 11.8% ( 11.8 % )
+    - - backlog at year-end
+      - $ 30100
+      - $ 13300
+      - $ 12600
+    post_text: '2015 compared to 2014 mst 2019s net sales in 2015 increased $ 359
+      million , or 4% ( 4 % ) , compared to 2014 .
+
+
+      the increase was attributable to net sales of approximately $ 400 million from
+      sikorsky , net of adjustments required to account for the acquisition of this
+      business in the fourth quarter of 2015 ; and approximately $ 220 million for
+      integrated warfare systems and sensors programs , primarily due to the ramp-up
+      of recently awarded programs ( space fence ) .
+
+
+      these increases were partially offset by lower net sales of approximately $
+      150 million for undersea systems programs due to decreased volume as a result
+      of in-theater force reductions ( primarily persistent threat detection system
+      ) ; and approximately $ 105 million for ship and aviation systems programs primarily
+      due to decreased volume ( merlin capability sustainment program ) .
+
+
+      mst 2019s operating profit in 2015 decreased $ 92 million , or 10% ( 10 % )
+      , compared to 2014 .
+
+
+      operating profit decreased by approximately $ 75 million due to performance
+      matters on an international program ; approximately $ 45 million for sikorsky
+      due primarily to intangible amortization and adjustments required to account
+      for the acquisition of this business in the fourth quarter of 2015 ; and approximately
+      $ 15 million for integrated warfare systems and sensors programs , primarily
+      due to investments made in connection with a recently awarded next generation
+      radar technology program , partially offset by higher risk retirements ( including
+      halifax class modernization ) .
+
+
+      these decreases were partially offset by approximately $ 20 million in increased
+      operating profit for training and logistics services programs , primarily due
+      to reserves recorded on certain programs in 2014 that were not repeated in 2015
+      .
+
+
+      adjustments not related to volume , including net profit booking rate adjustments
+      and other matters , were approximately $ 100 million lower in 2015 compared
+      to 2014. .'
+    id: lmt-2015-table-2
+  - pre_text: '2015 and 2014 was $ 1.5 billion and $ 1.3 billion .
+
+
+      the aggregate notional amount of our outstanding foreign currency hedges at
+      december 31 , 2015 and 2014 was $ 4.1 billion and $ 804 million .
+
+
+      derivative instruments did not have a material impact on net earnings and comprehensive
+      income during 2015 , 2014 and 2013 .
+
+
+      substantially all of our derivatives are designated for hedge accounting .
+
+
+      see note 16 for more information on the fair value measurements related to our
+      derivative instruments .
+
+
+      recent accounting pronouncements 2013 in may 2014 , the fasb issued a new standard
+      that will change the way we recognize revenue and significantly expand the disclosure
+      requirements for revenue arrangements .
+
+
+      on july 9 , 2015 , the fasb approved a one-year deferral of the effective date
+      of the standard to 2018 for public companies , with an option that would permit
+      companies to adopt the standard in 2017 .
+
+
+      early adoption prior to 2017 is not permitted .
+
+
+      the new standard may be adopted either retrospectively or on a modified retrospective
+      basis whereby the new standard would be applied to new contracts and existing
+      contracts with remaining performance obligations as of the effective date ,
+      with a cumulative catch-up adjustment recorded to beginning retained earnings
+      at the effective date for existing contracts with remaining performance obligations
+      .
+
+
+      in addition , the fasb is contemplating making additional changes to certain
+      elements of the new standard .
+
+
+      we are currently evaluating the methods of adoption allowed by the new standard
+      and the effect the standard is expected to have on our consolidated financial
+      statements and related disclosures .
+
+
+      as the new standard will supersede substantially all existing revenue guidance
+      affecting us under gaap , it could impact revenue and cost recognition on thousands
+      of contracts across all our business segments , in addition to our business
+      processes and our information technology systems .
+
+
+      as a result , our evaluation of the effect of the new standard will extend over
+      future periods .
+
+
+      in september 2015 , the fasb issued a new standard that simplifies the accounting
+      for adjustments made to preliminary amounts recognized in a business combination
+      by eliminating the requirement to retrospectively account for those adjustments
+      .
+
+
+      instead , adjustments will be recognized in the period in which the adjustments
+      are determined , including the effect on earnings of any amounts that would
+      have been recorded in previous periods if the accounting had been completed
+      at the acquisition date .
+
+
+      we adopted the standard on january 1 , 2016 and will prospectively apply the
+      standard to business combination adjustments identified after the date of adoption
+      .
+
+
+      in november 2015 , the fasb issued a new standard that simplifies the presentation
+      of deferred income taxes and requires that deferred tax assets and liabilities
+      , as well as any related valuation allowance , be classified as noncurrent in
+      our consolidated balance sheets .
+
+
+      the standard is effective january 1 , 2017 , with early adoption permitted .
+
+
+      the standard may be applied either prospectively from the date of adoption or
+      retrospectively to all prior periods presented .
+
+
+      we are currently evaluating when we will adopt the standard and the method of
+      adoption .
+
+
+      note 2 2013 earnings per share the weighted average number of shares outstanding
+      used to compute earnings per common share were as follows ( in millions ) :
+      .'
+    header:
+    - ''
+    - '2015'
+    - '2014'
+    - '2013'
+    rows:
+    - - weighted average common shares outstanding for basic computations
+      - '310.3'
+      - '316.8'
+      - '320.9'
+    - - weighted average dilutive effect of equity awards
+      - '4.4'
+      - '5.6'
+      - '5.6'
+    - - weighted average common shares outstanding for diluted computations
+      - '314.7'
+      - '322.4'
+      - '326.5'
+    post_text: 'we compute basic and diluted earnings per common share by dividing
+      net earnings by the respective weighted average number of common shares outstanding
+      for the periods presented .
+
+
+      our calculation of diluted earnings per common share also includes the dilutive
+      effects for the assumed vesting of outstanding restricted stock units and exercise
+      of outstanding stock options based on the treasury stock method .
+
+
+      the computation of diluted earnings per common share excluded 2.4 million stock
+      options for the year ended december 31 , 2013 because their inclusion would
+      have been anti-dilutive , primarily due to their exercise prices exceeding the
+      average market prices of our common stock during the respective periods .
+
+
+      there were no anti-dilutive equity awards for the years ended december 31 ,
+      2015 and 2014. .'
+    id: lmt-2015-table-3
+  - pre_text: 'backlog backlog increased in 2015 compared to 2014 primarily due to
+      higher orders on f-35 and c-130 programs .
+
+
+      backlog decreased slightly in 2014 compared to 2013 primarily due to lower orders
+      on f-16 and f-22 programs .
+
+
+      trends we expect aeronautics 2019 2016 net sales to increase in the mid-single
+      digit percentage range as compared to 2015 due to increased volume on the f-35
+      and c-130 programs , partially offset by decreased volume on the f-16 program
+      .
+
+
+      operating profit is also expected to increase in the low single-digit percentage
+      range , driven by increased volume on the f-35 program offset by contract mix
+      that results in a slight decrease in operating margins between years .
+
+
+      information systems & global solutions our is&gs business segment provides advanced
+      technology systems and expertise , integrated information technology solutions
+      and management services across a broad spectrum of applications for civil ,
+      defense , intelligence and other government customers .
+
+
+      is&gs 2019 technical services business provides a comprehensive portfolio of
+      technical and sustainment services .
+
+
+      is&gs has a portfolio of many smaller contracts as compared to our other business
+      segments .
+
+
+      is&gs has been impacted by the continued downturn in certain federal agencies
+      2019 information technology budgets and increased re-competition on existing
+      contracts coupled with the fragmentation of large contracts into multiple smaller
+      contracts that are awarded primarily on the basis of price .
+
+
+      is&gs 2019 operating results included the following ( in millions ) : .'
+    header:
+    - ''
+    - '2015'
+    - '2014'
+    - '2013'
+    rows:
+    - - net sales
+      - $ 5596
+      - $ 5654
+      - $ 6115
+    - - operating profit
+      - '508'
+      - '472'
+      - '498'
+    - - operating margins
+      - 9.1% ( 9.1 % )
+      - 8.3% ( 8.3 % )
+      - 8.1% ( 8.1 % )
+    - - backlog at year-end
+      - $ 4800
+      - $ 6000
+      - $ 6300
+    post_text: '2015 compared to 2014 is&gs 2019 net sales decreased $ 58 million
+      , or 1% ( 1 % ) , in 2015 as compared to 2014 .
+
+
+      the decrease was attributable to lower net sales of approximately $ 395 million
+      as a result of key program completions , lower customer funding levels and increased
+      competition , coupled with the fragmentation of existing large contracts into
+      multiple smaller contracts that are awarded primarily on the basis of price
+      when re-competed ( including cms-citic ) .
+
+
+      these decreases were partially offset by higher net sales of approximately $
+      230 million for businesses acquired in 2014 ; and approximately $ 110 million
+      due to the start-up of new programs and growth in recently awarded programs
+      .
+
+
+      is&gs 2019 operating profit increased $ 36 million , or 8% ( 8 % ) , in 2015
+      as compared to 2014 .
+
+
+      the increase was attributable to improved program performance and risk retirements
+      , offset by decreased operating profit resulting from the activities mentioned
+      above for net sales .
+
+
+      adjustments not related to volume , including net profit booking rate adjustments
+      and other matters , were approximately $ 70 million higher in 2015 compared
+      to 2014 .
+
+
+      2014 compared to 2013 is&gs 2019 net sales decreased $ 461 million , or 8% (
+      8 % ) , in 2014 as compared to 2013 .
+
+
+      the decrease was primarily attributable to lower net sales of about $ 475 million
+      due to the wind-down or completion of certain programs , driven by reductions
+      in direct warfighter support ( including jieddo ) ; and approximately $ 320
+      million due to decreased volume in technical services programs reflecting market
+      pressures .
+
+
+      the decreases were offset by higher net sales of about $ 330 million due to
+      the start-up of new programs , growth in recently awarded programs and integration
+      of recently acquired companies .
+
+
+      is&gs 2019 operating profit decreased $ 26 million , or 5% ( 5 % ) , in 2014
+      as compared to 2013 .
+
+
+      the decrease was primarily attributable to the activities mentioned above for
+      sales , partially offset by severance recoveries related to the restructuring
+      announced in november 2013 of approximately $ 20 million in 2014 .
+
+
+      adjustments not related to volume , including net profit booking rate adjustments
+      , were comparable in 2014 and 2013. .'
+    id: lmt-2015-table-4
+- id: lmt-10k-2016
+  form: 10-K
+  filed: '2017-02-09'
+  period_covered: 2016-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/936468/000119312517036192/d290249d10k.htm
+  tables:
+  - pre_text: 'contributions and expected benefit payments the funding of our qualified
+      defined benefit pension plans is determined in accordance with erisa , as amended
+      by the ppa , and in a manner consistent with cas and internal revenue code rules
+      .
+
+
+      there were no contributions to our legacy qualified defined benefit pension
+      plans during 2016 .
+
+
+      we do not plan to make contributions to our legacy pension plans in 2017 because
+      none are required using current assumptions including investment returns on
+      plan assets .
+
+
+      we made $ 23 million in contributions during 2016 to our newly established sikorsky
+      pension plan and expect to make $ 45 million in contributions to this plan during
+      2017 .
+
+
+      the following table presents estimated future benefit payments , which reflect
+      expected future employee service , as of december 31 , 2016 ( in millions )
+      : .'
+    header:
+    - ''
+    - '2017'
+    - '2018'
+    - '2019'
+    - '2020'
+    - '2021'
+    - 2022 2013 2026
+    rows:
+    - - qualified defined benefit pension plans
+      - $ 2260
+      - $ 2340
+      - $ 2420
+      - $ 2510
+      - $ 2590
+      - $ 13920
+    - - retiree medical and life insurance plans
+      - '180'
+      - '180'
+      - '190'
+      - '190'
+      - '190'
+      - '870'
+    post_text: 'defined contribution plans we maintain a number of defined contribution
+      plans , most with 401 ( k ) features , that cover substantially all of our employees
+      .
+
+
+      under the provisions of our 401 ( k ) plans , we match most employees 2019 eligible
+      contributions at rates specified in the plan documents .
+
+
+      our contributions were $ 617 million in 2016 , $ 393 million in 2015 and $ 385
+      million in 2014 , the majority of which were funded in our common stock .
+
+
+      our defined contribution plans held approximately 36.9 million and 40.0 million
+      shares of our common stock as of december 31 , 2016 and 2015 .
+
+
+      note 12 2013 stockholders 2019 equity at december 31 , 2016 and 2015 , our authorized
+      capital was composed of 1.5 billion shares of common stock and 50 million shares
+      of series preferred stock .
+
+
+      of the 290 million shares of common stock issued and outstanding as of december
+      31 , 2016 , 289 million shares were considered outstanding for consolidated
+      balance sheet presentation purposes ; the remaining shares were held in a separate
+      trust .
+
+
+      of the 305 million shares of common stock issued and outstanding as of december
+      31 , 2015 , 303 million shares were considered outstanding for consolidated
+      balance sheet presentation purposes ; the remaining shares were held in a separate
+      trust .
+
+
+      no shares of preferred stock were issued and outstanding at december 31 , 2016
+      or 2015 .
+
+
+      repurchases of common stock during 2016 , we repurchased 8.9 million shares
+      of our common stock for $ 2.1 billion .
+
+
+      during 2015 and 2014 , we paid $ 3.1 billion and $ 1.9 billion to repurchase
+      15.2 million and 11.5 million shares of our common stock .
+
+
+      on september 22 , 2016 , our board of directors approved a $ 2.0 billion increase
+      to our share repurchase program .
+
+
+      inclusive of this increase , the total remaining authorization for future common
+      share repurchases under our program was $ 3.5 billion as of december 31 , 2016
+      .
+
+
+      as we repurchase our common shares , we reduce common stock for the $ 1 of par
+      value of the shares repurchased , with the excess purchase price over par value
+      recorded as a reduction of additional paid-in capital .
+
+
+      due to the volume of repurchases made under our share repurchase program , additional
+      paid-in capital was reduced to zero , with the remainder of the excess purchase
+      price over par value of $ 1.7 billion and $ 2.4 billion recorded as a reduction
+      of retained earnings in 2016 and 2015 .
+
+
+      we paid dividends totaling $ 2.0 billion ( $ 6.77 per share ) in 2016 , $ 1.9
+      billion ( $ 6.15 per share ) in 2015 and $ 1.8 billion ( $ 5.49 per share )
+      in 2014 .
+
+
+      we have increased our quarterly dividend rate in each of the last three years
+      , including a 10% ( 10 % ) increase in the quarterly dividend rate in the fourth
+      quarter of 2016 .
+
+
+      we declared quarterly dividends of $ 1.65 per share during each of the first
+      three quarters of 2016 and $ 1.82 per share during the fourth quarter of 2016
+      ; $ 1.50 per share during each of the first three quarters of 2015 and $ 1.65
+      per share during the fourth quarter of 2015 ; and $ 1.33 per share during each
+      of the first three quarters of 2014 and $ 1.50 per share during the fourth quarter
+      of 2014. .'
+    id: lmt-2016-table-0
+  - pre_text: 'segment includes awe and our share of earnings for our investment in
+      ula , which provides expendable launch services to the u.s .
+
+
+      government .
+
+
+      space systems 2019 operating results included the following ( in millions )
+      : .'
+    header:
+    - ''
+    - '2016'
+    - '2015'
+    - '2014'
+    rows:
+    - - net sales
+      - $ 9409
+      - $ 9105
+      - $ 9202
+    - - operating profit
+      - '1289'
+      - '1171'
+      - '1187'
+    - - operating margin
+      - 13.7% ( 13.7 % )
+      - 12.9% ( 12.9 % )
+      - 12.9% ( 12.9 % )
+    - - backlog atyear-end
+      - $ 18900
+      - $ 17400
+      - $ 20300
+    post_text: '2016 compared to 2015 space systems 2019 net sales in 2016 increased
+      $ 304 million , or 3% ( 3 % ) , compared to 2015 .
+
+
+      the increase was attributable to net sales of approximately $ 410 million from
+      awe following the consolidation of this business in the third quarter of 2016
+      ; and approximately $ 150 million for commercial space transportation programs
+      due to increased launch-related activities ; and approximately $ 70 million
+      of higher net sales for various programs ( primarily fleet ballistic missiles
+      ) due to increased volume .
+
+
+      these increases were partially offset by a decrease in net sales of approximately
+      $ 340 million for government satellite programs due to decreased volume ( primarily
+      sbirs and muos ) and the wind-down or completion of mission solutions programs
+      .
+
+
+      space systems 2019 operating profit in 2016 increased $ 118 million , or 10%
+      ( 10 % ) , compared to 2015 .
+
+
+      the increase was primarily attributable to a non-cash , pre-tax gain of approximately
+      $ 127 million related to the consolidation of awe ; and approximately $ 80 million
+      of increased equity earnings from joint ventures ( primarily ula ) .
+
+
+      these increases were partially offset by a decrease of approximately $ 105 million
+      for government satellite programs due to lower risk retirements ( primarily
+      sbirs , muos and mission solutions programs ) and decreased volume .
+
+
+      adjustments not related to volume , including net profit booking rate adjustments
+      , were approximately $ 185 million lower in 2016 compared to 2015 .
+
+
+      2015 compared to 2014 space systems 2019 net sales in 2015 decreased $ 97 million
+      , or 1% ( 1 % ) , compared to 2014 .
+
+
+      the decrease was attributable to approximately $ 335 million lower net sales
+      for government satellite programs due to decreased volume ( primarily aehf )
+      and the wind-down or completion of mission solutions programs ; and approximately
+      $ 55 million for strategic missile and defense systems due to lower volume .
+
+
+      these decreases were partially offset by higher net sales of approximately $
+      235 million for businesses acquired in 2014 ; and approximately $ 75 million
+      for the orion program due to increased volume .
+
+
+      space systems 2019 operating profit in 2015 decreased $ 16 million , or 1% (
+      1 % ) , compared to 2014 .
+
+
+      operating profit increased approximately $ 85 million for government satellite
+      programs due primarily to increased risk retirements .
+
+
+      this increase was offset by lower operating profit of approximately $ 65 million
+      for commercial satellite programs due to performance matters on certain programs
+      ; and approximately $ 35 million due to decreased equity earnings in joint ventures
+      .
+
+
+      adjustments not related to volume , including net profit booking rate adjustments
+      and other matters , were approximately $ 105 million higher in 2015 compared
+      to 2014 .
+
+
+      equity earnings total equity earnings recognized by space systems ( primarily
+      ula ) represented approximately $ 325 million , $ 245 million and $ 280 million
+      , or 25% ( 25 % ) , 21% ( 21 % ) and 24% ( 24 % ) of this business segment 2019s
+      operating profit during 2016 , 2015 and backlog backlog increased in 2016 compared
+      to 2015 primarily due to the addition of awe 2019s backlog .
+
+
+      backlog decreased in 2015 compared to 2014 primarily due to lower orders for
+      government satellite programs and the orion program and higher sales on the
+      orion program .
+
+
+      trends we expect space systems 2019 2017 net sales to decrease in the mid-single
+      digit percentage range as compared to 2016 , driven by program lifecycles on
+      government satellite programs , partially offset by the recognition of awe net
+      sales for a full year in 2017 versus a partial year in 2016 following the consolidation
+      of awe in the third quarter of 2016 .
+
+
+      operating profit .'
+    id: lmt-2016-table-1
+  - pre_text: 'benefits as an increase to earnings of $ 152 million ( $ 0.50 per share
+      ) during the year ended december 31 , 2016 .
+
+
+      additionally , we recognized additional income tax benefits as an increase to
+      operating cash flows of $ 152 million during the year ended december 31 , 2016
+      .
+
+
+      the new accounting standard did not impact any periods prior to january 1 ,
+      2016 , as we applied the changes in the asu on a prospective basis .
+
+
+      in september 2015 , the fasb issued asu no .
+
+
+      2015-16 , business combinations ( topic 805 ) , which simplifies the accounting
+      for adjustments made to preliminary amounts recognized in a business combination
+      by eliminating the requirement to retrospectively account for those adjustments
+      .
+
+
+      instead , adjustments will be recognized in the period in which the adjustments
+      are determined , including the effect on earnings of any amounts that would
+      have been recorded in previous periods if the accounting had been completed
+      at the acquisition date .
+
+
+      we adopted the asu on january 1 , 2016 and are prospectively applying the asu
+      to business combination adjustments identified after the date of adoption .
+
+
+      in november 2015 , the fasb issued asu no .
+
+
+      2015-17 , income taxes ( topic 740 ) , which simplifies the presentation of
+      deferred income taxes and requires that deferred tax assets and liabilities
+      , as well as any related valuation allowance , be classified as noncurrent in
+      our consolidated balance sheets .
+
+
+      we applied the provisions of the asu retrospectively and reclassified approximately
+      $ 1.6 billion from current to noncurrent assets and approximately $ 140 million
+      from current to noncurrent liabilities in our consolidated balance sheet as
+      of december 31 , 2015 .
+
+
+      note 2 2013 earnings per share the weighted average number of shares outstanding
+      used to compute earnings per common share were as follows ( in millions ) :
+      .'
+    header:
+    - ''
+    - '2016'
+    - '2015'
+    - '2014'
+    rows:
+    - - weighted average common shares outstanding for basic computations
+      - '299.3'
+      - '310.3'
+      - '316.8'
+    - - weighted average dilutive effect of equity awards
+      - '3.8'
+      - '4.4'
+      - '5.6'
+    - - weighted average common shares outstanding for dilutedcomputations
+      - '303.1'
+      - '314.7'
+      - '322.4'
+    post_text: 'we compute basic and diluted earnings per common share by dividing
+      net earnings by the respective weighted average number of common shares outstanding
+      for the periods presented .
+
+
+      our calculation of diluted earnings per common share also includes the dilutive
+      effects for the assumed vesting of outstanding restricted stock units and exercise
+      of outstanding stock options based on the treasury stock method .
+
+
+      there were no anti-dilutive equity awards for the years ended december 31 ,
+      2016 , 2015 and 2014 .
+
+
+      note 3 2013 acquisitions and divestitures acquisitions acquisition of sikorsky
+      aircraft corporation on november 6 , 2015 , we completed the acquisition of
+      sikorsky aircraft corporation and certain affiliated companies ( collectively
+      201csikorsky 201d ) from united technologies corporation ( utc ) and certain
+      of utc 2019s subsidiaries .
+
+
+      the purchase price of the acquisition was $ 9.0 billion , net of cash acquired
+      .
+
+
+      as a result of the acquisition , sikorsky became a wholly- owned subsidiary
+      of ours .
+
+
+      sikorsky is a global company primarily engaged in the research , design , development
+      , manufacture and support of military and commercial helicopters .
+
+
+      sikorsky 2019s products include military helicopters such as the black hawk
+      , seahawk , ch-53k , h-92 ; and commercial helicopters such as the s-76 and
+      s-92 .
+
+
+      the acquisition enables us to extend our core business into the military and
+      commercial rotary wing markets , allowing us to strengthen our position in the
+      aerospace and defense industry .
+
+
+      further , this acquisition will expand our presence in commercial and international
+      markets .
+
+
+      sikorsky has been aligned under our rms business segment .
+
+
+      to fund the $ 9.0 billion acquisition price , we utilized $ 6.0 billion of proceeds
+      borrowed under a temporary 364-day revolving credit facility ( the 364-day facility
+      ) , $ 2.0 billion of cash on hand and $ 1.0 billion from the issuance of commercial
+      paper .
+
+
+      in the fourth quarter of 2015 , we repaid all outstanding borrowings under the
+      364-day facility with the proceeds from the issuance of $ 7.0 billion of fixed
+      interest-rate long-term notes in a public offering ( the november 2015 notes
+      ) .
+
+
+      in the fourth quarter of 2015 , we also repaid the $ 1.0 billion in commercial
+      paper borrowings ( see 201cnote 10 2013 debt 201d ) . .'
+    id: lmt-2016-table-2
+  - pre_text: 'the income approach indicates value for an asset or liability based
+      on the present value of cash flow projected to be generated over the remaining
+      economic life of the asset or liability being measured .
+
+
+      both the amount and the duration of the cash flows are considered from a market
+      participant perspective .
+
+
+      our estimates of market participant net cash flows considered historical and
+      projected pricing , remaining developmental effort , operational performance
+      including company- specific synergies , aftermarket retention , product life
+      cycles , material and labor pricing , and other relevant customer , contractual
+      and market factors .
+
+
+      where appropriate , the net cash flows are adjusted to reflect the uncertainties
+      associated with the underlying assumptions , as well as the risk profile of
+      the net cash flows utilized in the valuation .
+
+
+      the adjusted future cash flows are then discounted to present value using an
+      appropriate discount rate .
+
+
+      projected cash flow is discounted at a required rate of return that reflects
+      the relative risk of achieving the cash flows and the time value of money .
+
+
+      the market approach is a valuation technique that uses prices and other relevant
+      information generated by market transactions involving identical or comparable
+      assets , liabilities , or a group of assets and liabilities .
+
+
+      valuation techniques consistent with the market approach often use market multiples
+      derived from a set of comparables .
+
+
+      the cost approach , which estimates value by determining the current cost of
+      replacing an asset with another of equivalent economic utility , was used ,
+      as appropriate , for property , plant and equipment .
+
+
+      the cost to replace a given asset reflects the estimated reproduction or replacement
+      cost , less an allowance for loss in value due to depreciation .
+
+
+      the purchase price allocation resulted in the recognition of $ 2.8 billion of
+      goodwill , all of which is expected to be amortizable for tax purposes .
+
+
+      substantially all of the goodwill was assigned to our rms business .
+
+
+      the goodwill recognized is attributable to expected revenue synergies generated
+      by the integration of our products and technologies with those of sikorsky ,
+      costs synergies resulting from the consolidation or elimination of certain functions
+      , and intangible assets that do not qualify for separate recognition , such
+      as the assembled workforce of sikorsky .
+
+
+      determining the fair value of assets acquired and liabilities assumed requires
+      the exercise of significant judgments , including the amount and timing of expected
+      future cash flows , long-term growth rates and discount rates .
+
+
+      the cash flows employed in the dcf analyses are based on our best estimate of
+      future sales , earnings and cash flows after considering factors such as general
+      market conditions , customer budgets , existing firm orders , expected future
+      orders , contracts with suppliers , labor agreements , changes in working capital
+      , long term business plans and recent operating performance .
+
+
+      use of different estimates and judgments could yield different results .
+
+
+      impact to 2015 financial results sikorsky 2019s 2015 financial results have
+      been included in our consolidated financial results only for the period from
+      the november 6 , 2015 acquisition date through december 31 , 2015 .
+
+
+      as a result , our consolidated financial results for the year ended december
+      31 , 2015 do not reflect a full year of sikorsky 2019s results .
+
+
+      from the november 6 , 2015 acquisition date through december 31 , 2015 , sikorsky
+      generated net sales of approximately $ 400 million and operating loss of approximately
+      $ 45 million , inclusive of intangible amortization and adjustments required
+      to account for the acquisition .
+
+
+      we incurred approximately $ 38 million of non-recoverable transaction costs
+      associated with the sikorsky acquisition in 2015 that were expensed as incurred
+      .
+
+
+      these costs are included in other income , net on our consolidated statements
+      of earnings .
+
+
+      we also incurred approximately $ 48 million in costs associated with issuing
+      the $ 7.0 billion november 2015 notes used to repay all outstanding borrowings
+      under the 364-day facility used to finance the acquisition .
+
+
+      the financing costs were recorded as a reduction of debt and will be amortized
+      to interest expense over the term of the related debt .
+
+
+      supplemental pro forma financial information ( unaudited ) the following table
+      presents summarized unaudited pro forma financial information as if sikorsky
+      had been included in our financial results for the entire years in 2015 and
+      2014 ( in millions ) : .'
+    header:
+    - ''
+    - '2015'
+    - '2014'
+    rows:
+    - - net sales
+      - $ 45366
+      - $ 47369
+    - - net earnings
+      - '3534'
+      - '3475'
+    - - basic earnings per common share
+      - '11.39'
+      - '10.97'
+    - - diluted earnings per common share
+      - '11.23'
+      - '10.78'
+    post_text: 'the unaudited supplemental pro forma financial data above has been
+      calculated after applying our accounting policies and adjusting the historical
+      results of sikorsky with pro forma adjustments , net of tax , that assume the
+      acquisition occurred on january 1 , 2014 .
+
+
+      significant pro forma adjustments include the recognition of additional amortization
+      expense related to acquired intangible assets and additional interest expense
+      related to the short-term debt used to finance the acquisition .
+
+
+      these .'
+    id: lmt-2016-table-3
+  - pre_text: 'purchases of equity securities the following table provides information
+      about our repurchases of our common stock registered pursuant to section 12
+      of the exchange act during the quarter ended december 31 , 2016 .
+
+
+      period ( a ) number of shares purchased average price paid per share total number
+      of shares purchased as part of publicly announced plans or programs ( b ) amount
+      available for future share repurchases under the plans or programs ( b ) ( in
+      millions ) .'
+    header:
+    - period ( a )
+    - total number of shares purchased
+    - average price paid per share
+    - total number of shares purchased as part of publicly announced plans or programs
+      ( b )
+    - amount available for future share repurchases under the plans or programs (
+      b ) ( in millions )
+    rows:
+    - - september 26 2016 2013 october 30 2016
+      - '1294018'
+      - $ 235.56
+      - '1293734'
+      - $ 4015
+    - - october 31 2016 2013 november 27 2016
+      - '712100'
+      - $ 254.42
+      - '711974'
+      - $ 3834
+    - - november 28 2016 2013 december 31 2016
+      - '1281651'
+      - $ 259.81
+      - '1270668'
+      - $ 3504
+    - - total
+      - 3287769 ( c )
+      - $ 249.09
+      - '3276376'
+      - ''
+    post_text: 'total 3287769 ( c ) $ 249.09 3276376 ( a ) we close our books and
+      records on the last sunday of each month to align our financial closing with
+      our business processes , except for the month of december , as our fiscal year
+      ends on december 31 .
+
+
+      as a result , our fiscal months often differ from the calendar months .
+
+
+      for example , september 26 , 2016 was the first day of our october 2016 fiscal
+      month .
+
+
+      ( b ) in october 2010 , our board of directors approved a share repurchase program
+      pursuant to which we are authorized to repurchase our common stock in privately
+      negotiated transactions or in the open market at prices per share not exceeding
+      the then-current market prices .
+
+
+      on september 22 , 2016 , our board of directors authorized a $ 2.0 billion increase
+      to the program .
+
+
+      under the program , management has discretion to determine the dollar amount
+      of shares to be repurchased and the timing of any repurchases in compliance
+      with applicable law and regulation .
+
+
+      this includes purchases pursuant to rule 10b5-1 plans .
+
+
+      the program does not have an expiration date .
+
+
+      ( c ) during the quarter ended december 31 , 2016 , the total number of shares
+      purchased included 11393 shares that were transferred to us by employees in
+      satisfaction of minimum tax withholding obligations associated with the vesting
+      of restricted stock units .
+
+
+      these purchases were made pursuant to a separate authorization by our board
+      of directors and are not included within the program. .'
+    id: lmt-2016-table-4
+  - pre_text: '2015 compared to 2014 mfc 2019s net sales in 2015 decreased $ 322 million
+      , or 5% ( 5 % ) , compared to the same period in 2014 .
+
+
+      the decrease was attributable to lower net sales of approximately $ 345 million
+      for air and missile defense programs due to fewer deliveries ( primarily pac-3
+      ) and lower volume ( primarily thaad ) ; and approximately $ 85 million for
+      tactical missile programs due to fewer deliveries ( primarily guided multiple
+      launch rocket system ( gmlrs ) ) and joint air-to-surface standoff missile ,
+      partially offset by increased deliveries for hellfire .
+
+
+      these decreases were partially offset by higher net sales of approximately $
+      55 million for energy solutions programs due to increased volume .
+
+
+      mfc 2019s operating profit in 2015 decreased $ 62 million , or 5% ( 5 % ) ,
+      compared to 2014 .
+
+
+      the decrease was attributable to lower operating profit of approximately $ 100
+      million for fire control programs due primarily to lower risk retirements (
+      primarily lantirn and sniper ) ; and approximately $ 65 million for tactical
+      missile programs due to lower risk retirements ( primarily hellfire and gmlrs
+      ) and fewer deliveries .
+
+
+      these decreases were partially offset by higher operating profit of approximately
+      $ 75 million for air and missile defense programs due to increased risk retirements
+      ( primarily thaad ) .
+
+
+      adjustments not related to volume , including net profit booking rate adjustments
+      and other matters , were approximately $ 60 million lower in 2015 compared to
+      2014 .
+
+
+      backlog backlog decreased in 2016 compared to 2015 primarily due to lower orders
+      on pac-3 , hellfire , and jassm .
+
+
+      backlog increased in 2015 compared to 2014 primarily due to higher orders on
+      pac-3 , lantirn/sniper and certain tactical missile programs , partially offset
+      by lower orders on thaad .
+
+
+      trends we expect mfc 2019s net sales to increase in the mid-single digit percentage
+      range in 2017 as compared to 2016 driven primarily by our air and missile defense
+      programs .
+
+
+      operating profit is expected to be flat or increase slightly .
+
+
+      accordingly , operating profit margin is expected to decline from 2016 levels
+      as a result of contract mix and fewer risk retirements in 2017 compared to 2016
+      .
+
+
+      rotary and mission systems as previously described , on november 6 , 2015 ,
+      we acquired sikorsky and aligned the sikorsky business under our rms business
+      segment .
+
+
+      the 2015 results of the acquired sikorsky business have been included in our
+      financial results from the november 6 , 2015 acquisition date through december
+      31 , 2015 .
+
+
+      as a result , our consolidated operating results and rms business segment operating
+      results for the year ended december 31 , 2015 do not reflect a full year of
+      sikorsky operations .
+
+
+      our rms business segment provides design , manufacture , service and support
+      for a variety of military and civil helicopters , ship and submarine mission
+      and combat systems ; mission systems and sensors for rotary and fixed-wing aircraft
+      ; sea and land-based missile defense systems ; radar systems ; the littoral
+      combat ship ( lcs ) ; simulation and training services ; and unmanned systems
+      and technologies .
+
+
+      in addition , rms supports the needs of government customers in cybersecurity
+      and delivers communication and command and control capabilities through complex
+      mission solutions for defense applications .
+
+
+      rms 2019 major programs include black hawk and seahawk helicopters , aegis combat
+      system ( aegis ) , lcs , space fence , advanced hawkeye radar system , tpq-53
+      radar system , ch-53k development helicopter , and vh-92a helicopter program
+      .
+
+
+      rms 2019 operating results included the following ( in millions ) : .'
+    header:
+    - ''
+    - '2016'
+    - '2015'
+    - '2014'
+    rows:
+    - - net sales
+      - $ 13462
+      - $ 9091
+      - $ 8732
+    - - operating profit
+      - '906'
+      - '844'
+      - '936'
+    - - operating margin
+      - 6.7% ( 6.7 % )
+      - 9.3% ( 9.3 % )
+      - 10.7% ( 10.7 % )
+    - - backlog atyear-end
+      - $ 28400
+      - $ 30100
+      - $ 13300
+    post_text: '2016 compared to 2015 rms 2019 net sales in 2016 increased $ 4.4 billion
+      , or 48% ( 48 % ) , compared to 2015 .
+
+
+      the increase was primarily attributable to higher net sales of approximately
+      $ 4.6 billion from sikorsky , which was acquired on november 6 , 2015 .
+
+
+      net sales for 2015 include sikorsky 2019s results subsequent to the acquisition
+      date , net of certain revenue adjustments required to account for the acquisition
+      of this business .
+
+
+      this increase was partially offset by lower net sales of approximately $ 70
+      million for training .'
+    id: lmt-2016-table-5
+  - pre_text: 'divestiture of the information systems & global solutions business
+      on august 16 , 2016 , we completed the previously announced divestiture of the
+      is&gs business , which merged with a subsidiary of leidos , in a reverse morris
+      trust transaction ( the 201ctransaction 201d ) .
+
+
+      the transaction was completed in a multi- step process pursuant to which we
+      initially contributed the is&gs business to abacus innovations corporation (
+      abacus ) , a wholly owned subsidiary of lockheed martin created to facilitate
+      the transaction , and the common stock of abacus was distributed to participating
+      lockheed martin stockholders through an exchange offer .
+
+
+      under the terms of the exchange offer , lockheed martin stockholders had the
+      option to exchange shares of lockheed martin common stock for shares of abacus
+      common stock .
+
+
+      at the conclusion of the exchange offer , all shares of abacus common stock
+      were exchanged for 9369694 shares of lockheed martin common stock held by lockheed
+      martin stockholders that elected to participate in the exchange .
+
+
+      the shares of lockheed martin common stock that were exchanged and accepted
+      were retired , reducing the number of shares of our common stock outstanding
+      by approximately 3% ( 3 % ) .
+
+
+      following the exchange offer , abacus merged with a subsidiary of leidos , with
+      abacus continuing as the surviving corporation and a wholly-owned subsidiary
+      of leidos .
+
+
+      as part of the merger , each share of abacus common stock was automatically
+      converted into one share of leidos common stock .
+
+
+      we did not receive any shares of leidos common stock as part of the transaction
+      and do not hold any shares of leidos or abacus common stock following the transaction
+      .
+
+
+      based on an opinion of outside tax counsel , subject to customary qualifications
+      and based on factual representations , the exchange offer and merger will qualify
+      as tax-free transactions to lockheed martin and its stockholders , except to
+      the extent that cash was paid to lockheed martin stockholders in lieu of fractional
+      shares .
+
+
+      in connection with the transaction , abacus borrowed an aggregate principal
+      amount of approximately $ 1.84 billion under term loan facilities with third
+      party financial institutions , the proceeds of which were used to make a one-time
+      special cash payment of $ 1.80 billion to lockheed martin and to pay associated
+      borrowing fees and expenses .
+
+
+      the entire special cash payment was used to repay debt , pay dividends and repurchase
+      stock during the third and fourth quarters of 2016 .
+
+
+      the obligations under the abacus term loan facilities were guaranteed by leidos
+      as part of the transaction .
+
+
+      as a result of the transaction , we recognized a net gain of approximately $
+      1.2 billion .
+
+
+      the net gain represents the $ 2.5 billion fair value of the shares of lockheed
+      martin common stock exchanged and retired as part of the exchange offer , plus
+      the $ 1.8 billion one-time special cash payment , less the net book value of
+      the is&gs business of about $ 3.0 billion at august 16 , 2016 and other adjustments
+      of about $ 100 million .
+
+
+      the final gain is subject to certain post-closing adjustments , including final
+      working capital , indemnification , and tax adjustments , which we expect to
+      complete in 2017 .
+
+
+      we classified the operating results of our is&gs business as discontinued operations
+      in our consolidated financial statements in accordance with u.s .
+
+
+      gaap , as the divestiture of this business represented a strategic shift that
+      had a major effect on our operations and financial results .
+
+
+      however , the cash flows generated by the is&gs business have not been reclassified
+      in our consolidated statements of cash flows as we retained this cash as part
+      of the transaction .
+
+
+      the carrying amounts of major classes of the is&gs business assets and liabilities
+      that were classified as assets and liabilities of discontinued operations as
+      of december 31 , 2015 are as follows ( in millions ) : .'
+    header:
+    - receivables net
+    - $ 807
+    rows:
+    - - inventories net
+      - '143'
+    - - other current assets
+      - '19'
+    - - property plant and equipment net
+      - '101'
+    - - goodwill
+      - '2881'
+    - - intangible assets
+      - '125'
+    - - other noncurrent assets
+      - '54'
+    - - total assets of the disposal group
+      - $ 4130
+    - - accounts payable
+      - $ -229 ( 229 )
+    - - customer advances and amounts in excess of costs incurred
+      - -285 ( 285 )
+    - - salaries benefits and payroll taxes
+      - -209 ( 209 )
+    - - other current liabilities
+      - -225 ( 225 )
+    - - deferred income taxes
+      - -145 ( 145 )
+    - - other noncurrent liabilities
+      - -60 ( 60 )
+    - - total liabilities of the disposal group
+      - $ -1153 ( 1153 )
+    post_text: .
+    id: lmt-2016-table-6
+  - pre_text: 'item 12 .
+
+
+      security ownership of certain beneficial owners and management and related stockholder
+      matters .
+
+
+      the information required by item 12 is included under the heading 201csecurity
+      ownership of management and certain beneficial owners 201d in the 2017 proxy
+      statement , and that information is incorporated by reference in this form 10-k
+      .
+
+
+      equity compensation plan information the following table provides information
+      about our equity compensation plans that authorize the issuance of shares of
+      lockheed martin common stock to employees and directors .
+
+
+      the information is provided as of december 31 , 2016 .
+
+
+      plan category number of securities to be issued exercise of outstanding options
+      , warrants and rights weighted-average exercise price of outstanding options
+      , warrants and rights number of securities remaining available for future issuance
+      under equity compensation ( excluding securities reflected in column ( a ) )
+      equity compensation plans approved by security holders ( 1 ) 5802673 $ 85.82
+      6216471 equity compensation plans not approved by security holders ( 2 ) 1082347
+      2014 2481032 .'
+    header:
+    - plan category
+    - number of securities to beissued upon exercise of outstanding options warrants
+      and rights ( a )
+    - weighted-average exercise price of outstanding options warrants and rights (
+      b )
+    - number of securities remaining availablefor future issuance under equity compensation
+      plans ( excluding securities reflected in column ( a ) ) ( c )
+    rows:
+    - - equity compensation plans approved by securityholders ( 1 )
+      - '5802673'
+      - $ 85.82
+      - '6216471'
+    - - equity compensation plans not approved bysecurity holders ( 2 )
+      - '1082347'
+      - '2014'
+      - '2481032'
+    - - total
+      - '6885020'
+      - $ 85.82
+      - '8697503'
+    post_text: '( 1 ) column ( a ) includes , as of december 31 , 2016 : 1747151 shares
+      that have been granted as restricted stock units ( rsus ) , 936308 shares that
+      could be earned pursuant to grants of performance stock units ( psus ) ( assuming
+      the maximum number of psus are earned and payable at the end of the three-year
+      performance period ) and 2967046 shares granted as options under the lockheed
+      martin corporation 2011 incentive performance award plan ( 2011 ipa plan ) or
+      predecessor plans prior to january 1 , 2013 and 23346 shares granted as options
+      and 128822 stock units payable in stock or cash under the lockheed martin corporation
+      2009 directors equity plan ( directors equity plan ) or predecessor plans for
+      members ( or former members ) of the board of directors .
+
+
+      column ( c ) includes , as of december 31 , 2016 , 5751655 shares available
+      for future issuance under the 2011 ipa plan as options , stock appreciation
+      rights ( sars ) , restricted stock awards ( rsas ) , rsus or psus and 464816
+      shares available for future issuance under the directors equity plan as stock
+      options and stock units .
+
+
+      of the 5751655 shares available for grant under the 2011 ipa plan on december
+      31 , 2016 , 516653 and 236654 shares are issuable pursuant to grants made on
+      january 26 , 2017 , of rsus and psus ( assuming the maximum number of psus are
+      earned and payable at the end of the three-year performance period ) , respectively
+      .
+
+
+      the weighted average price does not take into account shares issued pursuant
+      to rsus or psus .
+
+
+      ( 2 ) the shares represent annual incentive bonuses and long-term incentive
+      performance ( ltip ) payments earned and voluntarily deferred by employees .
+
+
+      the deferred amounts are payable under the deferred management incentive compensation
+      plan ( dmicp ) .
+
+
+      deferred amounts are credited as phantom stock units at the closing price of
+      our stock on the date the deferral is effective .
+
+
+      amounts equal to our dividend are credited as stock units at the time we pay
+      a dividend .
+
+
+      following termination of employment , a number of shares of stock equal to the
+      number of stock units credited to the employee 2019s dmicp account are distributed
+      to the employee .
+
+
+      there is no discount or value transfer on the stock distributed .
+
+
+      distributions may be made from newly issued shares or shares purchased on the
+      open market .
+
+
+      historically , all distributions have come from shares held in a separate trust
+      and , therefore , do not further dilute our common shares outstanding .
+
+
+      as a result , these shares also were not considered in calculating the total
+      weighted average exercise price in the table .
+
+
+      because the dmicp shares are outstanding , they should be included in the denominator
+      ( and not the numerator ) of a dilution calculation .
+
+
+      item 13 .
+
+
+      certain relationships and related transactions and director independence .
+
+
+      the information required by this item 13 is included under the captions 201ccorporate
+      governance 2013 related person transaction policy , 201d 201ccorporate governance
+      2013 certain relationships and related person transactions of directors , executive
+      officers , and 5 percent stockholders , 201d and 201ccorporate governance 2013
+      director independence 201d in the 2017 proxy statement , and that information
+      is incorporated by reference in this form 10-k .
+
+
+      item 14 .
+
+
+      principal accountant fees and services .
+
+
+      the information required by this item 14 is included under the caption 201cproposal
+      2 2013 ratification of appointment of independent auditors 201d in the 2017
+      proxy statement , and that information is incorporated by reference in this
+      form 10-k. .'
+    id: lmt-2016-table-7
+- id: lmt-10k-2017
+  form: 10-K
+  filed: '2018-02-06'
+  period_covered: 2017-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/936468/000093646818000009/lmtq4201710k.htm
+  tables:
+  - pre_text: 'u.s .
+
+
+      equity securities and international equity securities categorized as level 1
+      are traded on active national and international exchanges and are valued at
+      their closing prices on the last trading day of the year .
+
+
+      for u.s .
+
+
+      equity securities and international equity securities not traded on an active
+      exchange , or if the closing price is not available , the trustee obtains indicative
+      quotes from a pricing vendor , broker or investment manager .
+
+
+      these securities are categorized as level 2 if the custodian obtains corroborated
+      quotes from a pricing vendor or categorized as level 3 if the custodian obtains
+      uncorroborated quotes from a broker or investment manager .
+
+
+      commingled equity funds categorized as level 1 are traded on active national
+      and international exchanges and are valued at their closing prices on the last
+      trading day of the year .
+
+
+      for commingled equity funds not traded on an active exchange , or if the closing
+      price is not available , the trustee obtains indicative quotes from a pricing
+      vendor , broker or investment manager .
+
+
+      these securities are categorized as level 2 if the custodian obtains corroborated
+      quotes from a pricing vendor .
+
+
+      fixed income investments categorized as level 2 are valued by the trustee using
+      pricing models that use verifiable observable market data ( e.g. , interest
+      rates and yield curves observable at commonly quoted intervals and credit spreads
+      ) , bids provided by brokers or dealers or quoted prices of securities with
+      similar characteristics .
+
+
+      fixed income investments are categorized at level 3 when valuations using observable
+      inputs are unavailable .
+
+
+      the trustee obtains pricing based on indicative quotes or bid evaluations from
+      vendors , brokers or the investment manager .
+
+
+      commodities are traded on an active commodity exchange and are valued at their
+      closing prices on the last trading day of the certain commingled equity funds
+      , consisting of equity mutual funds , are valued using the nav.aa thenavaa valuations
+      are based on the underlying investments and typically redeemable within 90 days
+      .
+
+
+      private equity funds consist of partnership and co-investment funds .
+
+
+      the navaa is based on valuation models of the underlying securities , which
+      includes unobservable inputs that cannot be corroborated using verifiable observable
+      market data .
+
+
+      these funds typically have redemption periods between eight and 12 years .
+
+
+      real estate funds consist of partnerships , most of which are closed-end funds
+      , for which the navaa is based on valuationmodels and periodic appraisals .
+
+
+      these funds typically have redemption periods between eight and 10 years .
+
+
+      hedge funds consist of direct hedge funds forwhich thenavaa is generally based
+      on the valuation of the underlying investments .
+
+
+      redemptions in hedge funds are based on the specific terms of each fund , and
+      generally range from a minimum of one month to several months .
+
+
+      contributions and expected benefit payments the funding of our qualified defined
+      benefit pension plans is determined in accordance with erisa , as amended by
+      the ppa , and in a manner consistent with cas and internal revenue code rules
+      .
+
+
+      there were no material contributions to our qualified defined benefit pension
+      plans during 2017 .
+
+
+      we will make contributions of $ 5.0 billion to our qualified defined benefit
+      pension plans in 2018 , including required and discretionary contributions.as
+      a result of these contributions , we do not expect any material qualified defined
+      benefit cash funding will be required until 2021.we plan to fund these contributions
+      using a mix of cash on hand and commercial paper .
+
+
+      while we do not anticipate a need to do so , our capital structure and resources
+      would allow us to issue new debt if circumstances change .
+
+
+      the following table presents estimated future benefit payments , which reflect
+      expected future employee service , as of december 31 , 2017 ( in millions )
+      : .'
+    header:
+    - ''
+    - '2018'
+    - '2019'
+    - '2020'
+    - '2021'
+    - '2022'
+    - 2023 2013 2027
+    rows:
+    - - qualified defined benefit pension plans
+      - $ 2450
+      - $ 2480
+      - $ 2560
+      - $ 2630
+      - $ 2700
+      - $ 14200
+    - - retiree medical and life insurance plans
+      - '180'
+      - '180'
+      - '180'
+      - '180'
+      - '180'
+      - '820'
+    post_text: 'defined contribution plans wemaintain a number of defined contribution
+      plans , most with 401 ( k ) features , that cover substantially all of our employees
+      .
+
+
+      under the provisions of our 401 ( k ) plans , wematchmost employees 2019 eligible
+      contributions at rates specified in the plan documents .
+
+
+      our contributions were $ 613 million in 2017 , $ 617 million in 2016 and $ 393
+      million in 2015 , the majority of which were funded using our common stock .
+
+
+      our defined contribution plans held approximately 35.5 million and 36.9 million
+      shares of our common stock as of december 31 , 2017 and 2016. .'
+    id: lmt-2017-table-0
+  - pre_text: 'item 2 .
+
+
+      properties at december 31 , 2017 , we owned or leased building space ( including
+      offices , manufacturing plants , warehouses , service centers , laboratories
+      and other facilities ) at approximately 375 locations primarily in the u.s .
+
+
+      additionally , we manage or occupy approximately 15 government-owned facilities
+      under lease and other arrangements .
+
+
+      at december 31 , 2017 , we had significant operations in the following locations
+      : 2022 aeronautics - palmdale , california ; marietta , georgia ; greenville
+      , south carolina ; and fort worth , texas .
+
+
+      2022 missiles and fire control - camdenarkansas ; ocala and orlando , florida
+      ; lexington , kentucky ; and grand prairie , texas .
+
+
+      2022 rotary andmission systems - colorado springs , colorado ; shelton and stratford
+      , connecticut ; orlando and jupiter , florida ; moorestown/mt .
+
+
+      laurel , new jersey ; owego and syracuse , new york ; manassas , virginia ;
+      and mielec , poland .
+
+
+      2022 space - sunnyvale , california ; denver , colorado ; valley forge , pennsylvania
+      ; and reading , england .
+
+
+      2022 corporate activities - bethesda , maryland .
+
+
+      the following is a summary of our square feet of floor space by business segment
+      at december 31 , 2017 ( in millions ) : owned leased government- owned total
+      .'
+    header:
+    - ''
+    - owned
+    - leased
+    - government-owned
+    - total
+    rows:
+    - - aeronautics
+      - '5.0'
+      - '2.1'
+      - '14.4'
+      - '21.5'
+    - - missiles and fire control
+      - '6.3'
+      - '2.8'
+      - '1.8'
+      - '10.9'
+    - - rotary and mission systems
+      - '11.2'
+      - '6.6'
+      - '0.4'
+      - '18.2'
+    - - space
+      - '8.6'
+      - '1.9'
+      - '6.7'
+      - '17.2'
+    - - corporate activities
+      - '2.7'
+      - '0.9'
+      - '2014'
+      - '3.6'
+    - - total
+      - '33.8'
+      - '14.3'
+      - '23.3'
+      - '71.4'
+    post_text: 'we believe our facilities are in good condition and adequate for their
+      current use.wemay improve , replace or reduce facilities as considered appropriate
+      to meet the needs of our operations .
+
+
+      item 3 .
+
+
+      legal proceedings we are a party to or have property subject to litigation and
+      other proceedings that arise in the ordinary course of our business , including
+      matters arising under provisions relating to the protection of the environment
+      and are subject to contingencies related to certain businesses we previously
+      owned .
+
+
+      these types of matters could result in fines , penalties , compensatory or treble
+      damages or non-monetary sanctions or relief .
+
+
+      we believe the probability is remote that the outcome of each of these matters
+      will have a material adverse effect on the corporation as a whole , notwithstanding
+      that the unfavorable resolution of any matter may have a material effect on
+      our net earnings in any particular interim reporting period .
+
+
+      we cannot predict the outcome of legal or other proceedings with certainty .
+
+
+      these matters include the proceedings summarized in 201cnote 14 2013 legal proceedings
+      , commitments and contingencies 201d included in our notes to consolidated financial
+      statements .
+
+
+      we are subject to federal , state , local and foreign requirements for protection
+      of the environment , including those for discharge ofhazardousmaterials and
+      remediationof contaminated sites.due inpart to thecomplexity andpervasivenessof
+      these requirements , we are a party to or have property subject to various lawsuits
+      , proceedings and remediation obligations .
+
+
+      the extent of our financial exposure cannot in all cases be reasonably estimated
+      at this time .
+
+
+      for information regarding these matters , including current estimates of the
+      amounts that we believe are required for remediation or clean-up to the extent
+      estimable , see 201ccriticalaccounting policies - environmental matters 201d
+      in management 2019s discussion and analysis of financial condition and results
+      of operations and 201cnote 14 2013 legal proceedings , commitments andcontingencies
+      201d included in ournotes to consolidated financial statements .
+
+
+      as a u.s .
+
+
+      government contractor , we are subject to various audits and investigations
+      by the u.s .
+
+
+      government to determine whetherouroperations arebeingconducted in accordancewith
+      applicable regulatory requirements.u.s.government investigations of us , whether
+      relating to government contracts or conducted for other reasons , could result
+      in administrative , civil , or criminal liabilities , including repayments ,
+      fines or penalties being imposed upon us , suspension , proposed debarment ,
+      debarment from eligibility for future u.s .
+
+
+      government contracting , or suspension of export privileges .
+
+
+      suspension or debarment could have a material adverse effect on us because of
+      our dependence on contracts with the u.s .
+
+
+      government .
+
+
+      u.s .
+
+
+      government investigations often take years to complete and many result in no
+      adverse action against us .
+
+
+      we also provide products and services to customers outside of the u.s. , which
+      are subject to u.s .
+
+
+      and foreign laws and regulations and foreign procurement policies and practices
+      .
+
+
+      our compliance with local regulations or applicable u.s .
+
+
+      government regulations also may be audited or investigated .
+
+
+      item 4 .
+
+
+      mine safety disclosures not applicable. .'
+    id: lmt-2017-table-1
+  - pre_text: 'supplemental pro forma financial information ( unaudited ) the following
+      table presents summarized unaudited pro forma financial information as if sikorsky
+      had been included in our financial results for the entire year in 2015 ( in
+      millions ) : .'
+    header:
+    - net sales
+    - $ 45366
+    rows:
+    - - net earnings
+      - '3534'
+    - - basic earnings per common share
+      - '11.39'
+    - - diluted earnings per common share
+      - '11.23'
+    post_text: 'the unaudited supplemental pro forma financial data above has been
+      calculated after applying our accounting policies and adjusting the historical
+      results of sikorskywith pro forma adjustments , net of tax , that assume the
+      acquisition occurred on january 1 , 2015 .
+
+
+      significant pro forma adjustments include the recognition of additional amortization
+      expense related to acquired intangible assets and additional interest expense
+      related to the short-term debt used to finance the acquisition .
+
+
+      these adjustments assume the application of fair value adjustments to intangibles
+      and the debt issuance occurred on january 1 , 2015 and are approximated as follows
+      : amortization expense of $ 125million and interest expense of $ 40million .
+
+
+      in addition , significant nonrecurring adjustments include the elimination of
+      a $ 72million pension curtailment loss , net of tax , recognized in 2015 and
+      the elimination of a $ 58 million income tax charge related to historic earnings
+      of foreign subsidiaries recognized by sikorsky in 2015 .
+
+
+      the unaudited supplemental pro forma financial information also reflects an
+      increase in interest expense , net of tax , of approximately $ 110 million in
+      2015 .
+
+
+      the increase in interest expense is the result of assuming the november 2015
+      notes were issued on january 1 , 2015 .
+
+
+      proceeds of the november 2015 notes were used to repay all outstanding borrowings
+      under the 364- day facility used to finance a portion of the purchase price
+      of sikorsky , as contemplated at the date of acquisition .
+
+
+      the unaudited supplemental pro forma financial information does not reflect
+      the realization of any expected ongoing cost or revenue synergies relating to
+      the integration of the two companies .
+
+
+      further , the pro forma data should not be considered indicative of the results
+      that would have occurred if the acquisition , related financing and associated
+      notes issuance and repayment of the 364-day facility had been consummated on
+      january 1 , 2015 , nor are they indicative of future results .
+
+
+      consolidation of awemanagement limited on august 24 , 2016 , we increased our
+      ownership interest in the awe joint venture , which operates the united kingdom
+      2019s nuclear deterrent program , from 33% ( 33 % ) to 51% ( 51 % ) .
+
+
+      at which time , we began consolidating awe .
+
+
+      consequently , our operating results include 100% ( 100 % ) of awe 2019s sales
+      and 51% ( 51 % ) of its operating profit .
+
+
+      prior to increasing our ownership interest , we accounted for our investment
+      inawe using the equity method of accounting .
+
+
+      under the equity method , we recognized only 33% ( 33 % ) ofawe 2019s earnings
+      or losses and no sales.accordingly , prior toaugust 24 , 2016 , the date we
+      obtained control , we recorded 33%ofawe 2019s net earnings in our operating
+      results and subsequent to august 24 , 2016 , we recognized 100% ( 100 % ) of
+      awe 2019s sales and 51% ( 51 % ) of its operating profit .
+
+
+      we accounted for this transaction as a 201cstep acquisition 201d ( as defined
+      by u.s .
+
+
+      gaap ) , which requires us to consolidate and record the assets and liabilities
+      ofawe at fair value.accordingly , we recorded intangible assets of $ 243million
+      related to customer relationships , $ 32 million of net liabilities , and noncontrolling
+      interests of $ 107 million .
+
+
+      the intangible assets are being amortized over a period of eight years in accordance
+      with the underlying pattern of economic benefit reflected by the future net
+      cash flows .
+
+
+      in 2016we recognized a non-cash net gain of $ 104million associatedwith obtaining
+      a controlling interest inawewhich consisted of a $ 127 million pretax gain recognized
+      in the operating results of our space business segment and $ 23 million of tax-related
+      items at our corporate office .
+
+
+      the gain represents the fair value of our 51% ( 51 % ) interest inawe , less
+      the carrying value of our previously held investment inawe and deferred taxes
+      .
+
+
+      the gainwas recorded in other income , net on our consolidated statements of
+      earnings .
+
+
+      the fair value ofawe ( including the intangible assets ) , our controlling interest
+      , and the noncontrolling interests were determined using the income approach
+      .
+
+
+      divestiture of the information systems & global solutions business onaugust
+      16 , 2016wedivested our former is&gsbusinesswhichmergedwithleidos , in areversemorristrust
+      transactionrr ( the 201ctransaction 201d ) .
+
+
+      the transaction was completed in a multi-step process pursuant to which we initially
+      contributed the is&gs business to abacus innovations corporation ( abacus )
+      , a wholly owned subsidiary of lockheed martin created to facilitate the transaction
+      , and the common stock ofabacus was distributed to participating lockheedmartin
+      stockholders through an exchange offer .
+
+
+      under the terms of the exchange offer , lockheedmartin stockholders had the
+      option to exchange shares of lockheedmartin common stock for shares of abacus
+      common stock .
+
+
+      at the conclusion of the exchange offer , all shares of abacus common stock
+      were exchanged for 9369694 shares of lockheed martin common stock held by lockheed
+      martin stockholders that elected to participate in the exchange.the shares of
+      lockheedmartin common stock thatwere exchanged and acceptedwere retired , reducing
+      the number of shares of our common stock outstanding by approximately 3% ( 3
+      % ) .
+
+
+      following the exchange offer , abacus merged with .'
+    id: lmt-2017-table-2
+- id: lmt-10k-2018
+  form: 10-K
+  filed: '2019-02-08'
+  period_covered: 2018-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/936468/000093646819000009/lmtq4201810k.htm
+  tables:
+  - pre_text: 'valuation techniques 2013 cash equivalents are mostly comprised of
+      short-term money-market instruments and are valued at cost , which approximates
+      fair value .
+
+
+      u.s .
+
+
+      equity securities and international equity securities categorized as level 1
+      are traded on active national and international exchanges and are valued at
+      their closing prices on the last trading day of the year .
+
+
+      for u.s .
+
+
+      equity securities and international equity securities not traded on an active
+      exchange , or if the closing price is not available , the trustee obtains indicative
+      quotes from a pricing vendor , broker or investment manager .
+
+
+      these securities are categorized as level 2 if the custodian obtains corroborated
+      quotes from a pricing vendor or categorized as level 3 if the custodian obtains
+      uncorroborated quotes from a broker or investment manager .
+
+
+      commingled equity funds categorized as level 1 are traded on active national
+      and international exchanges and are valued at their closing prices on the last
+      trading day of the year .
+
+
+      for commingled equity funds not traded on an active exchange , or if the closing
+      price is not available , the trustee obtains indicative quotes from a pricing
+      vendor , broker or investment manager .
+
+
+      these securities are categorized as level 2 if the custodian obtains corroborated
+      quotes from a pricing vendor .
+
+
+      fixed income investments categorized as level 2 are valued by the trustee using
+      pricing models that use verifiable observable market data ( e.g. , interest
+      rates and yield curves observable at commonly quoted intervals and credit spreads
+      ) , bids provided by brokers or dealers or quoted prices of securities with
+      similar characteristics .
+
+
+      fixed income investments are categorized as level 3 when valuations using observable
+      inputs are unavailable .
+
+
+      the trustee typically obtains pricing based on indicative quotes or bid evaluations
+      from vendors , brokers or the investment manager .
+
+
+      in addition , certain other fixed income investments categorized as level 3
+      are valued using a discounted cash flow approach .
+
+
+      significant inputs include projected annuity payments and the discount rate
+      applied to those payments .
+
+
+      certain commingled equity funds , consisting of equity mutual funds , are valued
+      using the nav .
+
+
+      the nav valuations are based on the underlying investments and typically redeemable
+      within 90 days .
+
+
+      private equity funds consist of partnership and co-investment funds .
+
+
+      the nav is based on valuation models of the underlying securities , which includes
+      unobservable inputs that cannot be corroborated using verifiable observable
+      market data .
+
+
+      these funds typically have redemption periods between eight and 12 years .
+
+
+      real estate funds consist of partnerships , most of which are closed-end funds
+      , for which the nav is based on valuation models and periodic appraisals .
+
+
+      these funds typically have redemption periods between eight and 10 years .
+
+
+      hedge funds consist of direct hedge funds for which the nav is generally based
+      on the valuation of the underlying investments .
+
+
+      redemptions in hedge funds are based on the specific terms of each fund , and
+      generally range from a minimum of one month to several months .
+
+
+      contributions and expected benefit payments the funding of our qualified defined
+      benefit pension plans is determined in accordance with erisa , as amended by
+      the ppa , and in a manner consistent with cas and internal revenue code rules
+      .
+
+
+      we made contributions of $ 5.0 billion to our qualified defined benefit pension
+      plans in 2018 , including required and discretionary contributions .
+
+
+      as a result of these contributions , we do not expect to make contributions
+      to our qualified defined benefit pension plans in 2019 .
+
+
+      the following table presents estimated future benefit payments , which reflect
+      expected future employee service , as of december 31 , 2018 ( in millions )
+      : .'
+    header:
+    - ''
+    - '2019'
+    - '2020'
+    - '2021'
+    - '2022'
+    - '2023'
+    - 2024 2013 2028
+    rows:
+    - - qualified defined benefit pension plans
+      - $ 2350
+      - $ 2390
+      - $ 2470
+      - $ 2550
+      - $ 2610
+      - $ 13670
+    - - retiree medical and life insurance plans
+      - '170'
+      - '180'
+      - '180'
+      - '180'
+      - '170'
+      - '810'
+    post_text: 'defined contribution plans we maintain a number of defined contribution
+      plans , most with 401 ( k ) features , that cover substantially all of our employees
+      .
+
+
+      under the provisions of our 401 ( k ) plans , we match most employees 2019 eligible
+      contributions at rates specified in the plan documents .
+
+
+      our contributions were $ 658 million in 2018 , $ 613 million in 2017 and $ 617
+      million in 2016 , the majority of which were funded using our common stock .
+
+
+      our defined contribution plans held approximately 33.3 million and 35.5 million
+      shares of our common stock as of december 31 , 2018 and 2017. .'
+    id: lmt-2018-table-0
+  - pre_text: 'part ii item 5 .
+
+
+      market for registrant 2019s common equity , related stockholder matters and
+      issuer purchases of equity securities at january 25 , 2019 , we had 26812 holders
+      of record of our common stock , par value $ 1 per share .
+
+
+      our common stock is traded on the new york stock exchange ( nyse ) under the
+      symbol lmt .
+
+
+      information concerning dividends paid on lockheed martin common stock during
+      the past two years is as follows : common stock - dividends paid per share .'
+    header:
+    - quarter
+    - dividends paid per share 2018
+    - dividends paid per share 2017
+    rows:
+    - - first
+      - $ 2.00
+      - $ 1.82
+    - - second
+      - '2.00'
+      - '1.82'
+    - - third
+      - '2.00'
+      - '1.82'
+    - - fourth
+      - '2.20'
+      - '2.00'
+    - - year
+      - $ 8.20
+      - $ 7.46
+    post_text: 'stockholder return performance graph the following graph compares
+      the total return on a cumulative basis of $ 100 invested in lockheed martin
+      common stock on december 31 , 2013 to the standard and poor 2019s ( s&p ) 500
+      index and the s&p aerospace & defense index .
+
+
+      the s&p aerospace & defense index comprises arconic inc. , general dynamics
+      corporation , harris corporation , huntington ingalls industries , l3 technologies
+      , inc. , lockheed martin corporation , northrop grumman corporation , raytheon
+      company , textron inc. , the boeing company , transdigm group inc. , and united
+      technologies corporation .
+
+
+      the stockholder return performance indicated on the graph is not a guarantee
+      of future performance. .'
+    id: lmt-2018-table-1
+  - pre_text: 'note 2 2013 earnings per share the weighted average number of shares
+      outstanding used to compute earnings per common share were as follows ( in millions
+      ) : .'
+    header:
+    - ''
+    - '2018'
+    - '2017'
+    - '2016'
+    rows:
+    - - weighted average common shares outstanding for basic computations
+      - '284.5'
+      - '287.8'
+      - '299.3'
+    - - weighted average dilutive effect of equity awards
+      - '2.3'
+      - '2.8'
+      - '3.8'
+    - - weighted average common shares outstanding for diluted computations
+      - '286.8'
+      - '290.6'
+      - '303.1'
+    post_text: 'we compute basic and diluted earnings per common share by dividing
+      net earnings by the respective weighted average number of common shares outstanding
+      for the periods presented .
+
+
+      our calculation of diluted earnings per common share also includes the dilutive
+      effects for the assumed vesting of outstanding restricted stock units ( rsus
+      ) , performance stock units ( psus ) and exercise of outstanding stock options
+      based on the treasury stock method .
+
+
+      there were no significant anti-dilutive equity awards for the years ended december
+      31 , 2018 , 2017 and 2016 .
+
+
+      note 3 2013 acquisition and divestitures consolidation of awe management limited
+      on august 24 , 2016 , we increased our ownership interest in the awe joint venture
+      , which operates the united kingdom 2019s nuclear deterrent program , from 33%
+      ( 33 % ) to 51% ( 51 % ) .
+
+
+      consequently , we began consolidating awe and our operating results include
+      100% ( 100 % ) of awe 2019s sales and 51% ( 51 % ) of its operating profit .
+
+
+      prior to increasing our ownership interest , we accounted for our investment
+      in awe using the equity method of accounting .
+
+
+      under the equity method , we recognized only 33% ( 33 % ) of awe 2019s earnings
+      or losses and no sales .
+
+
+      accordingly , prior to august 24 , 2016 , the date we obtained control , we
+      recorded 33% ( 33 % ) of awe 2019s net earnings in our operating results and
+      subsequent to august 24 , 2016 , we recognized 100% ( 100 % ) of awe 2019s sales
+      and 51% ( 51 % ) of its operating profit .
+
+
+      we accounted for this transaction as a 201cstep acquisition 201d ( as defined
+      by u.s .
+
+
+      gaap ) , which requires us to consolidate and record the assets and liabilities
+      of awe at fair value .
+
+
+      accordingly , we recorded intangible assets of $ 243 million related to customer
+      relationships , $ 32 million of net liabilities , and noncontrolling interests
+      of $ 107 million .
+
+
+      the intangible assets are being amortized over a period of eight years in accordance
+      with the underlying pattern of economic benefit reflected by the future net
+      cash flows .
+
+
+      in 2016 , we recognized a non-cash net gain of $ 104 million associated with
+      obtaining a controlling interest in awe , which consisted of a $ 127 million
+      pretax gain recognized in the operating results of our space business segment
+      and $ 23 million of tax-related items at our corporate office .
+
+
+      the gain represented the fair value of our 51% ( 51 % ) interest in awe , less
+      the carrying value of our previously held investment in awe and deferred taxes
+      .
+
+
+      the gain was recorded in other income , net on our consolidated statements of
+      earnings .
+
+
+      the fair value of awe ( including the intangible assets ) , our controlling
+      interest , and the noncontrolling interests were determined using the income
+      approach .
+
+
+      divestiture of the information systems & global solutions business on august
+      16 , 2016 , we divested our former is&gs business , which merged with leidos
+      , in a reverse morris trust transaction ( the 201ctransaction 201d ) .
+
+
+      the transaction was completed in a multi-step process pursuant to which we initially
+      contributed the is&gs business to abacus innovations corporation ( abacus )
+      , a wholly owned subsidiary of lockheed martin created to facilitate the transaction
+      , and the common stock of abacus was distributed to participating lockheed martin
+      stockholders through an exchange offer .
+
+
+      under the terms of the exchange offer , lockheed martin stockholders had the
+      option to exchange shares of lockheed martin common stock for shares of abacus
+      common stock .
+
+
+      at the conclusion of the exchange offer , all shares of abacus common stock
+      were exchanged for 9369694 shares of lockheed martin common stock held by lockheed
+      martin stockholders that elected to participate in the exchange .
+
+
+      the shares of lockheed martin common stock that were exchanged and accepted
+      were retired , reducing the number of shares of our common stock outstanding
+      by approximately 3% ( 3 % ) .
+
+
+      following the exchange offer , abacus merged with a subsidiary of leidos , with
+      abacus continuing as the surviving corporation and a wholly-owned subsidiary
+      of leidos .
+
+
+      as part of the merger , each share of abacus common stock was automatically
+      converted into one share of leidos common stock .
+
+
+      we did not receive any shares of leidos common stock as part of the transaction
+      and do not hold any shares of leidos or abacus common stock following the transaction
+      .
+
+
+      based on an opinion of outside tax counsel , subject to customary qualifications
+      and based on factual representations , the exchange offer and merger will qualify
+      as tax-free transactions to lockheed martin and its stockholders , except to
+      the extent that cash was paid to lockheed martin stockholders in lieu of fractional
+      shares .
+
+
+      in connection with the transaction , abacus borrowed an aggregate principal
+      amount of approximately $ 1.84 billion under term loan facilities with third
+      party financial institutions , the proceeds of which were used to make a one-time
+      special cash payment of $ 1.80 billion to lockheed martin and to pay associated
+      borrowing fees and expenses .
+
+
+      the entire special cash payment was used to repay debt , pay dividends and repurchase
+      stock during the third and fourth quarters of 2016 .
+
+
+      the obligations under the abacus term loan facilities were guaranteed by leidos
+      as part of the transaction. .'
+    id: lmt-2018-table-2
+  - pre_text: 'as a result of the transaction , we recognized a net gain of approximately
+      $ 1.3 billion , including $ 1.2 billion recognized in 2016 .
+
+
+      the net gain represents the $ 2.5 billion fair value of the shares of lockheed
+      martin common stock exchanged and retired as part of the exchange offer , plus
+      the $ 1.8 billion one-time special cash payment , less the net book value of
+      the is&gs business of about $ 3.0 billion at august 16 , 2016 and other adjustments
+      of about $ 100 million .
+
+
+      in 2017 , we recognized an additional gain of $ 73 million , which reflects
+      certain post-closing adjustments , including certain tax adjustments and the
+      final determination of net working capital .
+
+
+      we classified the operating results of our former is&gs business as discontinued
+      operations in our consolidated financial statements in accordance with u.s .
+
+
+      gaap , as the divestiture of this business represented a strategic shift that
+      had a major effect on our operations and financial results .
+
+
+      however , the cash flows generated by the is&gs business have not been reclassified
+      in our consolidated statements of cash flows as we retained this cash as part
+      of the transaction .
+
+
+      the operating results , prior to the august 16 , 2016 divestiture date , of
+      the is&gs business that have been reflected within net earnings from discontinued
+      operations for the year ended december 31 , 2016 are as follows ( in millions
+      ) : .'
+    header:
+    - net sales
+    - $ 3410
+    rows:
+    - - cost of sales
+      - -2953 ( 2953 )
+    - - severance charges
+      - -19 ( 19 )
+    - - gross profit
+      - '438'
+    - - other income net
+      - '16'
+    - - operating profit
+      - '454'
+    - - earnings from discontinued operations before income taxes
+      - '454'
+    - - income tax expense
+      - -147 ( 147 )
+    - - net gain on divestiture of discontinued operations
+      - '1205'
+    - - net earnings from discontinued operations
+      - $ 1512
+    post_text: 'the operating results of the is&gs business reported as discontinued
+      operations are different than the results previously reported for the is&gs
+      business segment .
+
+
+      results reported within net earnings from discontinued operations only include
+      costs that were directly attributable to the is&gs business and exclude certain
+      corporate overhead costs that were previously allocated to the is&gs business
+      .
+
+
+      as a result , we reclassified $ 82 million in 2016 of corporate overhead costs
+      from the is&gs business to other unallocated , net on our consolidated statement
+      of earnings .
+
+
+      additionally , we retained all assets and obligations related to the pension
+      benefits earned by former is&gs business salaried employees through the date
+      of divestiture .
+
+
+      therefore , the non-service portion of net pension costs ( e.g. , interest cost
+      , actuarial gains and losses and expected return on plan assets ) for these
+      plans have been reclassified from the operating results of the is&gs business
+      segment and reported as a reduction to the fas/cas pension adjustment .
+
+
+      these net pension costs were $ 54 million for the year ended december 31 , 2016
+      .
+
+
+      the service portion of net pension costs related to is&gs business 2019s salaried
+      employees that transferred to leidos were included in the operating results
+      of the is&gs business classified as discontinued operations because such costs
+      are no longer incurred by us .
+
+
+      significant severance charges related to the is&gs business were historically
+      recorded at the lockheed martin corporate office .
+
+
+      these charges have been reclassified into the operating results of the is&gs
+      business , classified as discontinued operations , and excluded from the operating
+      results of our continuing operations .
+
+
+      the amount of severance charges reclassified were $ 19 million in 2016 .
+
+
+      financial information related to cash flows generated by the is&gs business
+      , such as depreciation and amortization , capital expenditures , and other non-cash
+      items , included in our consolidated statement of cash flows for the years ended
+      december 31 , 2016 were not significant. .'
+    id: lmt-2018-table-3
+- id: lmt-10k-2023
+  form: 10-K
+  filed: '2024-01-23'
+  period_covered: 2023-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/936468/000093646824000010/lmt-20231231.htm
+  tables: []
+- id: lmt-10k-2024
+  form: 10-K
+  filed: '2025-01-28'
+  period_covered: 2024-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/936468/000093646825000009/lmt-20241231.htm
+  tables: []
+- id: lmt-10k-2025
+  form: 10-K
+  filed: '2026-01-29'
+  period_covered: 2025-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/lmt-20251231.htm
+  tables: []

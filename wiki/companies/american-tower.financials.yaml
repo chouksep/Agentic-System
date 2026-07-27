@@ -1,0 +1,403 @@
+schema_version: 1
+ticker: AMT
+cik: '0001053507'
+metrics:
+  currency: USD
+  units: millions
+  by_period:
+    2010-FY:
+      revenue: 1593.5
+      operating_income: 606.75
+      net_income: 347.25
+      diluted_eps: 0.84
+      total_assets: 8519.93
+      total_liabilities: 5201.81
+      total_equity: 3315.08
+      cash_and_equivalents: 33.12
+      total_debt: 4211.58
+      operating_cash_flow: 773.26
+    2010-Q1:
+      revenue: 408.68
+      operating_income: 150.28
+      net_income: 58.6
+      diluted_eps: 0.15
+      total_assets: 8512.67
+      total_liabilities: 5194.54
+      total_equity: 3315.08
+      cash_and_equivalents: 143.08
+      operating_cash_flow: 205.74
+    2010-Q2:
+      revenue: 832.04
+      operating_income: 316.73
+      net_income: 114.89
+      diluted_eps: 0.28
+      total_assets: 8517.29
+      total_liabilities: 5199.16
+      total_equity: 3315.08
+      cash_and_equivalents: 143.08
+      operating_cash_flow: 409.35
+    2010-Q3:
+      revenue: 1276.14
+      operating_income: 495.81
+      net_income: 182.25
+      diluted_eps: 0.45
+      total_assets: 8519.93
+      total_liabilities: 5201.81
+      total_equity: 3315.08
+      cash_and_equivalents: 143.08
+      operating_cash_flow: 649.4
+    2012-FY:
+      revenue: 1985.34
+      operating_income: 784.38
+      net_income: 372.94
+      diluted_eps: 0.92
+      total_assets: 12242.4
+      total_liabilities: 8832.25
+      total_equity: 3287.22
+      cash_and_equivalents: 247.29
+      total_debt: 7236.31
+      operating_cash_flow: 1020.98
+    2012-Q1:
+      revenue: 562.7
+      operating_income: 218.3
+      net_income: 91.84
+      diluted_eps: 0.23
+      total_assets: 12229.69
+      total_liabilities: 8819.55
+      total_equity: 3287.22
+      cash_and_equivalents: 883.96
+      operating_cash_flow: 283.82
+    2012-Q2:
+      revenue: 1159.93
+      operating_income: 444.09
+      net_income: 207.05
+      diluted_eps: 0.52
+      total_assets: 12229.81
+      total_liabilities: 8819.67
+      total_equity: 3287.22
+      cash_and_equivalents: 883.96
+      operating_cash_flow: 559.34
+    2012-Q3:
+      revenue: 1790.33
+      operating_income: 672.39
+      net_income: 191.35
+      diluted_eps: 0.48
+      total_assets: 12229.81
+      total_liabilities: 8819.67
+      total_equity: 3287.22
+      cash_and_equivalents: 883.96
+      operating_cash_flow: 850.0
+    2014-FY:
+      revenue: 2875.96
+      operating_income: 1119.72
+      net_income: 637.28
+      diluted_eps: 1.6
+      total_assets: 14089.43
+      total_liabilities: 16693.62
+      total_equity: 3534.16
+      cash_and_equivalents: 330.19
+      total_debt: 14478.28
+    2014-Q1:
+      revenue: 802.73
+      operating_income: 299.69
+      net_income: 171.41
+      diluted_eps: 0.43
+      total_assets: 14463.74
+      total_liabilities: 16682.53
+      total_equity: 3534.16
+      cash_and_equivalents: 368.62
+    2014-Q2:
+      revenue: 1611.56
+      operating_income: 612.5
+      net_income: 271.23
+      diluted_eps: 0.68
+      total_assets: 14339.39
+      total_liabilities: 16655.24
+      total_equity: 3534.16
+      cash_and_equivalents: 368.62
+    2014-Q3:
+      revenue: 2419.44
+      operating_income: 921.38
+      net_income: 451.35
+      diluted_eps: 1.13
+      total_assets: 18181.32
+      total_liabilities: 16685.88
+      total_equity: 3534.16
+      cash_and_equivalents: 368.62
+    2015-FY:
+      revenue: 3361.41
+      operating_income: 1214.31
+      net_income: 551.33
+      diluted_eps: 1.38
+      total_assets: 20213.94
+      total_liabilities: 17210.21
+      total_equity: 3953.56
+      cash_and_equivalents: 368.62
+      total_debt: 17119.01
+    2015-Q1:
+      revenue: 984.09
+      operating_income: 353.64
+      net_income: 202.5
+      diluted_eps: 0.51
+      total_assets: 20417.41
+      total_liabilities: 17278.19
+      total_equity: 3953.56
+      cash_and_equivalents: 293.58
+    2015-Q2:
+      revenue: 2015.55
+      operating_income: 756.14
+      net_income: 436.93
+      diluted_eps: 1.08
+      total_assets: 20847.74
+      total_liabilities: 17278.58
+      total_equity: 3953.56
+      cash_and_equivalents: 293.58
+    2015-Q3:
+      revenue: 3053.73
+      operating_income: 1140.94
+      net_income: 644.52
+      diluted_eps: 1.58
+      total_assets: 20596.62
+      total_liabilities: 17278.58
+      total_equity: 3953.56
+      cash_and_equivalents: 293.58
+    2016-FY:
+      revenue: 4100.05
+      operating_income: 1486.92
+      net_income: 824.91
+      diluted_eps: 2.0
+      total_assets: 21263.56
+      total_liabilities: 20191.45
+      total_equity: 6651.68
+      cash_and_equivalents: 293.58
+      total_debt: 18533.47
+      capex: 974.4
+    2016-Q1:
+      revenue: 1079.19
+      operating_income: 419.97
+      net_income: 193.32
+      diluted_eps: 0.45
+      total_assets: 25930.19
+      total_liabilities: 20191.45
+      total_equity: 6651.68
+      cash_and_equivalents: 313.49
+      total_debt: 17068.81
+      operating_cash_flow: 509.93
+    2016-Q2:
+      revenue: 2253.57
+      operating_income: 809.74
+      net_income: 349.37
+      diluted_eps: 0.75
+      total_assets: 26469.72
+      total_liabilities: 20191.45
+      total_equity: 6651.68
+      cash_and_equivalents: 313.49
+      total_debt: 17068.81
+    2016-Q3:
+      revenue: 3491.47
+      operating_income: 1210.66
+      net_income: 452.37
+      diluted_eps: 0.92
+      total_assets: 26926.79
+      total_liabilities: 20191.45
+      total_equity: 6651.68
+      cash_and_equivalents: 313.49
+      total_debt: 17068.81
+    2023-FY:
+      revenue: 9356.9
+      operating_income: 3132.0
+      diluted_eps: 5.66
+      total_assets: 67194.5
+      total_liabilities: 54786.0
+      total_equity: 5572.4
+      cash_and_equivalents: 1949.9
+      operating_cash_flow: 4819.9
+      capex: 1376.7
+      free_cash_flow: 3443.2
+    2023-Q1:
+      revenue: 2660.3
+      operating_income: 725.1
+      diluted_eps: 1.56
+      total_assets: 69763.5
+      total_liabilities: 54786.0
+      total_equity: 5572.4
+      cash_and_equivalents: 1941.5
+      operating_cash_flow: 663.6
+      capex: 386.1
+      free_cash_flow: 277.5
+    2023-Q2:
+      revenue: 5334.6
+      operating_income: 1507.4
+      diluted_eps: 3.51
+      total_assets: 68116.8
+      total_liabilities: 54786.0
+      total_equity: 5572.4
+      cash_and_equivalents: 2066.7
+      operating_cash_flow: 1578.9
+      capex: 756.2
+      free_cash_flow: 822.7
+    2023-Q3:
+      revenue: 8006.1
+      operating_income: 2160.3
+      diluted_eps: 5.31
+      total_assets: 66512.8
+      total_liabilities: 54786.0
+      total_equity: 5572.4
+      cash_and_equivalents: 2121.8
+      operating_cash_flow: 2511.2
+      capex: 1215.4
+      free_cash_flow: 1295.7999999999997
+    2024-FY:
+      revenue: 9645.4
+      operating_income: 2738.6
+      diluted_eps: 3.82
+      total_assets: 66027.6
+      total_liabilities: 55162.2
+      total_equity: 4198.2
+      cash_and_equivalents: 1548.9
+      operating_cash_flow: 3696.2
+      capex: 1873.6
+      free_cash_flow: 1822.6
+    2024-Q1:
+      revenue: 2767.2
+      operating_income: 775.6
+      diluted_eps: 0.72
+      total_assets: 66817.7
+      total_liabilities: 55162.2
+      total_equity: 4198.2
+      cash_and_equivalents: 1803.0
+      operating_cash_flow: 1070.5
+      capex: 461.9
+      free_cash_flow: 608.6
+    2024-Q2:
+      revenue: 5538.9
+      operating_income: 1649.3
+      diluted_eps: 1.74
+      total_assets: 66879.0
+      total_liabilities: 55162.2
+      total_equity: 4198.2
+      cash_and_equivalents: 2015.7
+      operating_cash_flow: 2279.9
+      capex: 882.8
+      free_cash_flow: 1397.1000000000001
+    2024-Q3:
+      revenue: 7556.1
+      operating_income: 2512.7
+      diluted_eps: 2.99
+      total_assets: 65653.0
+      total_liabilities: 55162.2
+      total_equity: 4198.2
+      cash_and_equivalents: 1985.8
+      operating_cash_flow: 3580.5
+      capex: 1273.5
+      free_cash_flow: 2307.0
+    2025-FY:
+      revenue: 10012.2
+      operating_income: 3125.5
+      diluted_eps: 3.18
+      total_assets: 61077.4
+      total_liabilities: 51428.7
+      total_equity: 3382.2
+      cash_and_equivalents: 1753.7
+      operating_cash_flow: 4722.4
+      capex: 1798.1
+      free_cash_flow: 2924.2999999999997
+    2025-Q1:
+      revenue: 2512.6
+      operating_income: 1141.0
+      diluted_eps: 1.96
+      total_assets: 66679.0
+      total_liabilities: 51428.7
+      total_equity: 3382.2
+      cash_and_equivalents: 2217.0
+      operating_cash_flow: 1283.6
+      capex: 396.7
+      free_cash_flow: 886.8999999999999
+    2025-Q2:
+      revenue: 5057.3
+      operating_income: 2297.2
+      diluted_eps: 3.89
+      total_assets: 65837.8
+      total_liabilities: 51428.7
+      total_equity: 3382.2
+      cash_and_equivalents: 2158.3
+      operating_cash_flow: 2622.1
+      capex: 721.9
+      free_cash_flow: 1900.1999999999998
+    2025-Q3:
+      revenue: 7579.6
+      operating_income: 3436.4
+      diluted_eps: 2.19
+      total_assets: 62816.8
+      total_liabilities: 51428.7
+      total_equity: 3382.2
+      cash_and_equivalents: 2150.3
+      operating_cash_flow: 4091.5
+      capex: 1146.6
+      free_cash_flow: 2944.9
+    2026-Q1:
+      revenue: 2562.8
+      operating_income: 1254.1
+      diluted_eps: 1.04
+      total_assets: 62055.6
+      total_liabilities: 52835.1
+      total_equity: 3652.5
+      cash_and_equivalents: 2103.7
+      operating_cash_flow: 1295.0
+      capex: 331.1
+      free_cash_flow: 963.9
+  metadata:
+    capex:
+      xbrl_concept: us-gaap:PaymentsToAcquirePropertyPlantAndEquipment
+      description: Capex
+    cash_and_equivalents:
+      xbrl_concept: us-gaap:CashAndCashEquivalentsAtCarryingValue
+      description: Cash and equivalents
+    diluted_eps:
+      xbrl_concept: us-gaap:EarningsPerShareDiluted
+      description: Diluted eps
+    free_cash_flow:
+      description: Free cash flow
+    net_income:
+      xbrl_concept: us-gaap:NetIncomeLoss
+      description: Net income
+    operating_cash_flow:
+      xbrl_concept: us-gaap:NetCashProvidedByUsedInOperatingActivities
+      description: Operating cash flow
+    operating_income:
+      xbrl_concept: us-gaap:OperatingIncomeLoss
+      description: Operating income
+    revenue:
+      xbrl_concept: us-gaap:Revenues
+      description: Revenue
+    total_assets:
+      xbrl_concept: us-gaap:Assets
+      description: Total assets
+    total_debt:
+      xbrl_concept: us-gaap:LongTermDebt
+      description: Total debt
+    total_equity:
+      xbrl_concept: us-gaap:StockholdersEquity
+      description: Total equity
+    total_liabilities:
+      xbrl_concept: us-gaap:Liabilities
+      description: Total liabilities
+filings:
+- id: amt-10k-2023
+  form: 10-K
+  filed: '2024-02-27'
+  period_covered: 2023-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1053507/000105350724000011/amt-20231231.htm
+  tables: []
+- id: amt-10k-2024
+  form: 10-K
+  filed: '2025-02-25'
+  period_covered: 2024-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1053507/000105350725000025/amt-20241231.htm
+  tables: []
+- id: amt-10k-2025
+  form: 10-K
+  filed: '2026-02-24'
+  period_covered: 2025-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1053507/000105350726000035/amt-20251231.htm
+  tables: []

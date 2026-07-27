@@ -93,9 +93,19 @@ def tables_for(
         header = [str(c) for c in raw_table[0]]
         body = [[str(c) for c in r] for r in raw_table[1:]]
         out.append({
-            "pre_text": row.get("pre_text", "") or "",
+            "pre_text": _coerce_text(row.get("pre_text")),
             "header": header,
             "rows": body,
-            "post_text": row.get("post_text", "") or "",
+            "post_text": _coerce_text(row.get("post_text")),
         })
     return out
+
+
+def _coerce_text(value) -> str:
+    # FinQA rows expose pre_text/post_text as either a string or list[str]
+    # of paragraphs; the sidecar schema requires a single string.
+    if value is None:
+        return ""
+    if isinstance(value, list):
+        return "\n\n".join(str(p) for p in value)
+    return str(value)

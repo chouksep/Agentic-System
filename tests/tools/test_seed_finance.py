@@ -172,6 +172,22 @@ def test_tables_for_returns_empty_when_no_match():
     assert finqa_index.tables_for(rows, ticker="JPM", year=1999) == []
 
 
+def test_tables_for_coerces_list_pre_and_post_text_to_string():
+    """Live FinQA rows expose pre_text/post_text as list[str]; schema requires string."""
+    row = {
+        "id": "XYZ/2020/page_1.pdf-0",
+        "pre_text": ["First paragraph.", "Second paragraph."],
+        "post_text": ["Trailing note one.", "Trailing note two."],
+        "table": [["", "2020"], ["Revenue", "100"]],
+    }
+    tables = finqa_index.tables_for([row], ticker="XYZ", year=2020)
+    assert len(tables) == 1
+    assert isinstance(tables[0]["pre_text"], str)
+    assert isinstance(tables[0]["post_text"], str)
+    assert tables[0]["pre_text"] == "First paragraph.\n\nSecond paragraph."
+    assert tables[0]["post_text"] == "Trailing note one.\n\nTrailing note two."
+
+
 def test_years_by_ticker_covers_every_ticker():
     """years_by_ticker returns EVERY ticker (not top-N) with sorted year lists."""
     rows = _finqa_rows()
