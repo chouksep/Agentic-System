@@ -174,7 +174,7 @@ def _seed_one(
                 raw = resolve_concept(concepts, us_gaap, period_key)
                 if raw is None:
                     continue
-                period_dict[metric_name] = _to_millions_if_usd(raw)
+                period_dict[metric_name] = _scale_to_units(raw, metric_name)
             # Derived: free_cash_flow = operating_cash_flow - capex
             ocf = period_dict.get("operating_cash_flow")
             capex = period_dict.get("capex")
@@ -270,8 +270,23 @@ def _period_target_years(finqa_years: list[int]) -> list[int]:
     return sorted(set(finqa_years) | set(range(current - 3, current + 1)))
 
 
-def _to_millions_if_usd(raw: float | int) -> float:
-    """Convert a raw USD amount to millions (round to 2 decimals)."""
+# Metrics whose XBRL unit is NOT plain USD (e.g. USD/shares, pure counts) and
+# therefore must never be divided into "millions of USD". Scaling these would
+# silently corrupt them (e.g. a $5.30 diluted EPS becomes 0.0).
+_PER_SHARE_OR_UNITLESS_METRICS = {"diluted_eps", "employees"}
+
+
+def _scale_to_units(raw: float | int, metric_name: str) -> float:
+    """Convert a raw XBRL value to the sidecar's storage units.
+
+    Monetary metrics are stored in millions of USD, so we divide by 1e6 and
+    round to 2 decimals. Per-share and unitless metrics (see
+    `_PER_SHARE_OR_UNITLESS_METRICS`) are passed through unscaled — they are
+    not USD amounts and dividing them by 1,000,000 would silently corrupt
+    the value.
+    """
+    if metric_name in _PER_SHARE_OR_UNITLESS_METRICS:
+        return round(float(raw), 2)
     return round(float(raw) / 1_000_000, 2)
 
 
@@ -280,12 +295,26 @@ def _find_10k_for_year(
     year: int,
     cik: str,
 ) -> dict | None:
-    """Find a 10-K filed in the calendar year `year+1` covering fiscal year `year`.
+    """Find the 10-K covering fiscal year `year`.
+
+    Companies with a calendar fiscal year end typically file their FY N 10-K
+    in early calendar year N+1 (e.g. JPM's FY2018 10-K filed 2019-02-26).
+    Companies with a non-calendar fiscal year end (e.g. AAPL's Sep 30 FYE)
+    file their FY N 10-K within calendar year N itself (e.g. AAPL's FY2018
+    10-K filed 2018-11-05). A guard that only accepts `year + 1` silently
+    drops the latter, leaving `filings` empty for roughly half of tickers.
+
+    When the submissions API provides `reportDate` (the filing's fiscal
+    period end, a YYYY-MM-DD string) we match on that directly — it is
+    authoritative regardless of fiscal year end. When `reportDate` is
+    unavailable for an entry we fall back to accepting a filing date in
+    either `year` or `year + 1`.
 
     Returns {"form", "filed", "source_url"} or None.
     """
     accession_numbers = filings_recent.get("accessionNumber") or []
     filing_dates = filings_recent.get("filingDate") or []
+    report_dates = filings_recent.get("reportDate") or []
     forms = filings_recent.get("form") or []
     primary_docs = filings_recent.get("primaryDocument") or []
 
@@ -293,9 +322,11 @@ def _find_10k_for_year(
         if form != "10-K":
             continue
         filed = filing_dates[i] if i < len(filing_dates) else ""
-        # 10-K for FY 2018 is typically filed in early 2019; look for filings
-        # whose date is in year+1
-        if not filed.startswith(str(year + 1)):
+        report_date = report_dates[i] if i < len(report_dates) else ""
+        if report_date:
+            if not report_date.startswith(str(year)):
+                continue
+        elif not (filed.startswith(str(year)) or filed.startswith(str(year + 1))):
             continue
         accn = accession_numbers[i] if i < len(accession_numbers) else ""
         doc = primary_docs[i] if i < len(primary_docs) else ""

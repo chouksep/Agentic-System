@@ -480,6 +480,84 @@ def test_seed_per_ticker_failure_does_not_poison_run(tmp_path):
     assert result.per_ticker["AAPL"]["seeded"] is False
 
 
+def test_seed_preserves_diluted_eps_unscaled(tmp_path):
+    """diluted_eps must NOT be divided by 1_000_000 — it's per-share, not millions of USD.
+
+    Regression for P2 review finding C1: _to_millions_if_usd (now
+    _scale_to_units) was blindly applied to every resolved metric, including
+    EarningsPerShareDiluted (unit USD/shares, typical value $1-$15).
+    round(5.30 / 1_000_000, 2) == 0.0 — silent corruption on live data.
+    """
+    facts = {
+        "cik": 320193,
+        "facts": {
+            "us-gaap": {
+                "EarningsPerShareDiluted": {
+                    "label": "Earnings Per Share, Diluted",
+                    "units": {
+                        "USD/shares": [
+                            {
+                                "start": "2023-01-01",
+                                "end": "2023-12-31",
+                                "val": 5.30,
+                                "accn": "0000320193-24-000001",
+                                "fy": 2023,
+                                "fp": "FY",
+                                "form": "10-K",
+                                "filed": "2024-02-01",
+                            }
+                        ]
+                    },
+                }
+            }
+        },
+    }
+
+    edgar = _fake_edgar_client(
+        known_facts={"0000320193": facts},
+        known_submissions={},  # no filings needed for this test
+        known_ticker_map={"AAPL": "0000320193"},
+    )
+
+    result = run.seed(
+        tickers=["AAPL"],
+        out_dir=tmp_path,
+        force=False,
+        dry_run=False,
+        edgar_client=edgar,
+        finqa_rows=None,
+    )
+
+    assert result.succeeded == 1, result.per_ticker
+    yaml_path = tmp_path / "companies" / "apple.financials.yaml"
+    assert yaml_path.exists()
+    data = yaml.safe_load(yaml_path.read_text())
+    assert data["metrics"]["by_period"]["2023-FY"]["diluted_eps"] == 5.30
+
+
+def test_find_10k_matches_non_calendar_fiscal_year():
+    """AAPL's Sep-fiscal-year 10-K for FY2023 files in Nov-2023, not Nov-2024.
+
+    Regression for P2 review finding I1: the old guard only accepted a
+    filing date starting with `year + 1`, which assumes a Dec-31 fiscal year
+    end. That silently drops filings for companies whose 10-K is filed
+    within the fiscal year itself, leaving `filings` empty for roughly half
+    the top-20 tickers.
+    """
+    filings_recent = {
+        "accessionNumber": ["0000320193-23-000106"],
+        "filingDate": ["2023-11-03"],
+        "reportDate": ["2023-09-30"],
+        "form": ["10-K"],
+        "primaryDocument": ["aapl-20230930.htm"],
+    }
+    entry = run._find_10k_for_year(filings_recent, 2023, "0000320193")
+    assert entry is not None
+    assert entry["form"] == "10-K"
+    assert entry["filed"] == "2023-11-03"
+    assert "0000320193" in entry["source_url"]
+
+
 def test_seed_dry_run_writes_nothing(tmp_path):
     facts = json.loads((FIXTURES / "company_facts_JPM.json").read_text())
     submissions = json.loads((FIXTURES / "submissions_JPM.json").read_text())
