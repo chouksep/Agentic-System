@@ -68,3 +68,38 @@ def test_list_financial_metrics_metric_entry_has_metadata_fields():
     revenue = next(m for m in result["metrics"] if m["name"] == "revenue")
     assert "description" in revenue
     assert "xbrl_concept" in revenue
+
+
+def test_get_metric_series_revenue_for_jpm():
+    result = financials_lookup.get_metric_series(WIKI_DIR, "jpmorgan-chase", "revenue")
+    assert result["ticker"] == "JPM"
+    assert result["metric"] == "revenue"
+    assert result["currency"] == "USD"
+    assert result["units"] == "millions"
+    periods = [pt["period"] for pt in result["series"]]
+    assert periods == sorted(periods), "series must be sorted by period"
+    assert len(result["series"]) > 0
+    assert all(isinstance(pt["value"], (int, float)) for pt in result["series"])
+
+
+def test_get_metric_series_diluted_eps_never_scaled_to_millions():
+    """C1 regression: diluted_eps must be per-share, not /1_000_000."""
+    result = financials_lookup.get_metric_series(WIKI_DIR, "jpmorgan-chase", "diluted_eps")
+    assert result["series"], "expected at least one diluted_eps point"
+    for pt in result["series"]:
+        assert 0.0 < pt["value"] < 100.0, (
+            f"diluted_eps must be per-share (0-100 USD range), got {pt}"
+        )
+
+
+def test_get_metric_series_unknown_metric_returns_available_list():
+    result = financials_lookup.get_metric_series(WIKI_DIR, "jpmorgan-chase", "bogus_metric")
+    assert result["error"] == "unknown_metric"
+    assert result["metric"] == "bogus_metric"
+    assert isinstance(result["available"], list) and len(result["available"]) > 0
+    assert "revenue" in result["available"]
+
+
+def test_get_metric_series_no_sidecar():
+    result = financials_lookup.get_metric_series(WIKI_DIR, "does-not-exist", "revenue")
+    assert result == {"error": "no_sidecar", "slug": "does-not-exist"}

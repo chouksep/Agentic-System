@@ -80,3 +80,43 @@ def list_financial_metrics(wiki_dir: Path, slug: str) -> dict:
         "metrics": metric_entries,
         "periods": sorted(by_period.keys()),
     }
+
+
+def get_metric_series(wiki_dir: Path, slug: str, metric: str) -> dict:
+    """Time series for one metric across all periods.
+
+    {ticker, metric, currency, units, series: [{period, value}]}
+    sorted by period ascending. Periods where the metric is missing are
+    omitted (not returned as null).
+
+    Errors:
+      {"error": "no_sidecar", "slug": slug}
+      {"error": "unknown_metric", "metric": metric, "available": [names]}
+    """
+    path = _sidecar_path(wiki_dir, slug)
+    if not path.is_file():
+        return {"error": "no_sidecar", "slug": slug}
+    data = load_sidecar(path)
+    metrics = data.get("metrics") or {}
+    by_period = metrics.get("by_period") or {}
+    metadata = metrics.get("metadata") or {}
+
+    if metric not in metadata:
+        return {
+            "error": "unknown_metric",
+            "metric": metric,
+            "available": sorted(metadata.keys()),
+        }
+
+    series = [
+        {"period": period, "value": values[metric]}
+        for period, values in sorted(by_period.items())
+        if isinstance(values, dict) and metric in values
+    ]
+    return {
+        "ticker": data.get("ticker"),
+        "metric": metric,
+        "currency": metrics.get("currency"),
+        "units": metrics.get("units"),
+        "series": series,
+    }
