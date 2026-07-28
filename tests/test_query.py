@@ -94,7 +94,9 @@ def test_query_agent_calls_financials_tool_via_mock(test_config, test_db, tmp_wi
     test_config.wiki_dir = real_wiki
 
     page_io = WikiPageIO(real_wiki)
-    index = WikiIndex(real_wiki, page_io)
+    # Mock the index so QueryOp.run's append_log doesn't mutate the tracked
+    # wiki/log.md file. We only care that the dispatcher gets wired correctly.
+    index = MagicMock()
 
     mock_llm = MagicMock()
     # Simulate: LLM answers directly with tool_calls=[] (already-tested in existing tests)
