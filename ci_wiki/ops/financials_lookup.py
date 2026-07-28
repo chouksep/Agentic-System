@@ -120,3 +120,54 @@ def get_metric_series(wiki_dir: Path, slug: str, metric: str) -> dict:
         "units": metrics.get("units"),
         "series": series,
     }
+
+
+def get_filing_table(
+    wiki_dir: Path,
+    slug: str,
+    period: str,
+    table_index: int = 0,
+) -> dict:
+    """Return one filing table verbatim from the sidecar.
+
+    {ticker, period, source_url, filing_id, table_index,
+     pre_text, header, rows, post_text}.
+
+    Errors:
+      {"error": "no_sidecar", "slug"}
+      {"error": "no_filings", "slug"}
+      {"error": "unknown_period", "period", "available": [periods]}
+      {"error": "no_table", "table_index", "available_indices": [...]}
+    """
+    path = _sidecar_path(wiki_dir, slug)
+    if not path.is_file():
+        return {"error": "no_sidecar", "slug": slug}
+    data = load_sidecar(path)
+    filings = data.get("filings") or []
+    if not filings:
+        return {"error": "no_filings", "slug": slug}
+
+    available_periods = sorted({f.get("period_covered") for f in filings if f.get("period_covered")})
+    filing = next((f for f in filings if f.get("period_covered") == period), None)
+    if filing is None:
+        return {"error": "unknown_period", "period": period, "available": available_periods}
+
+    tables = filing.get("tables") or []
+    if not tables or table_index >= len(tables) or table_index < 0:
+        return {
+            "error": "no_table",
+            "table_index": table_index,
+            "available_indices": list(range(len(tables))),
+        }
+    table = tables[table_index]
+    return {
+        "ticker": data.get("ticker"),
+        "period": period,
+        "source_url": filing.get("source_url"),
+        "filing_id": filing.get("id"),
+        "table_index": table_index,
+        "pre_text": table.get("pre_text", ""),
+        "header": table.get("header") or [],
+        "rows": table.get("rows") or [],
+        "post_text": table.get("post_text", ""),
+    }

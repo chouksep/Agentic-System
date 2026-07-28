@@ -103,3 +103,58 @@ def test_get_metric_series_unknown_metric_returns_available_list():
 def test_get_metric_series_no_sidecar():
     result = financials_lookup.get_metric_series(WIKI_DIR, "does-not-exist", "revenue")
     assert result == {"error": "no_sidecar", "slug": "does-not-exist"}
+
+
+# Discover the first LMT filing that actually has tables.
+def _first_lmt_period_with_tables() -> str:
+    import yaml
+    data = yaml.safe_load(
+        (WIKI_DIR / "companies" / "lockheed-martin.financials.yaml").read_text(encoding="utf-8")
+    )
+    for f in data.get("filings") or []:
+        if f.get("tables"):
+            return f["period_covered"]
+    raise RuntimeError("no LMT filing has tables — fixture assumption broken")
+
+
+def test_get_filing_table_returns_verbatim_fields_for_lmt():
+    period = _first_lmt_period_with_tables()
+    result = financials_lookup.get_filing_table(WIKI_DIR, "lockheed-martin", period)
+    assert result["ticker"] == "LMT"
+    assert result["period"] == period
+    assert result["table_index"] == 0
+    assert isinstance(result["pre_text"], str) and len(result["pre_text"]) > 0, (
+        "coercion regression: pre_text must be a non-empty string"
+    )
+    assert isinstance(result["post_text"], str)
+    assert isinstance(result["header"], list) and len(result["header"]) > 0
+    assert isinstance(result["rows"], list)
+
+
+def test_get_filing_table_includes_source_url_when_present():
+    period = _first_lmt_period_with_tables()
+    result = financials_lookup.get_filing_table(WIKI_DIR, "lockheed-martin", period)
+    # source_url may be a string OR None per schema — but must be a key.
+    assert "source_url" in result
+    assert "filing_id" in result
+
+
+def test_get_filing_table_unknown_period():
+    result = financials_lookup.get_filing_table(WIKI_DIR, "lockheed-martin", "9999-FY")
+    assert result["error"] == "unknown_period"
+    assert isinstance(result["available"], list) and len(result["available"]) > 0
+
+
+def test_get_filing_table_out_of_range_index():
+    period = _first_lmt_period_with_tables()
+    result = financials_lookup.get_filing_table(
+        WIKI_DIR, "lockheed-martin", period, table_index=9999
+    )
+    assert result["error"] == "no_table"
+    assert result["table_index"] == 9999
+    assert isinstance(result["available_indices"], list) and len(result["available_indices"]) > 0
+
+
+def test_get_filing_table_no_sidecar():
+    result = financials_lookup.get_filing_table(WIKI_DIR, "does-not-exist", "2023-FY")
+    assert result == {"error": "no_sidecar", "slug": "does-not-exist"}
