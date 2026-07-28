@@ -1,0 +1,1116 @@
+schema_version: 1
+ticker: ADBE
+cik: 0000796343
+metrics:
+  currency: USD
+  units: millions
+  by_period:
+    2009-FY:
+      revenue: 3157.88
+      cost_of_revenue: 354.69
+      gross_profit: 2803.19
+      operating_income: 857.59
+      net_income: 723.81
+      diluted_eps: 1.21
+      total_assets: 5821.6
+      total_liabilities: 1411.24
+      total_equity: 5151.88
+      cash_and_equivalents: 772.5
+      total_debt: 350.0
+      operating_cash_flow: 1441.05
+      capex: 132.07
+      free_cash_flow: 1308.98
+    2009-Q2:
+      revenue: 1777.33
+      cost_of_revenue: 165.34
+      gross_profit: 1611.99
+      operating_income: 535.61
+      net_income: 434.29
+      diluted_eps: 0.78
+      total_assets: 5821.6
+      total_liabilities: 1411.24
+      total_equity: 4410.35
+      cash_and_equivalents: 946.42
+      total_debt: 350.0
+      operating_cash_flow: 731.09
+      capex: 48.67
+      free_cash_flow: 682.4200000000001
+    2009-Q3:
+      revenue: 2664.59
+      cost_of_revenue: 276.19
+      gross_profit: 2388.4
+      operating_income: 755.08
+      net_income: 625.9
+      diluted_eps: 1.13
+      total_assets: 5821.6
+      total_liabilities: 1411.24
+      total_equity: 4410.35
+      cash_and_equivalents: 946.42
+      total_debt: 350.0
+      operating_cash_flow: 942.43
+      capex: 88.48
+      free_cash_flow: 853.9499999999999
+    2011-FY:
+      revenue: 2945.85
+      cost_of_revenue: 296.73
+      gross_profit: 2649.12
+      operating_income: 690.51
+      net_income: 386.51
+      diluted_eps: 0.73
+      total_assets: 8141.15
+      total_liabilities: 2948.76
+      total_equity: 4410.35
+      cash_and_equivalents: 886.45
+      operating_cash_flow: 1117.79
+      capex: 119.59
+      free_cash_flow: 998.1999999999999
+    2011-Q1:
+      revenue: 858.7
+      cost_of_revenue: 89.37
+      gross_profit: 769.33
+      operating_income: 176.83
+      net_income: 127.15
+      diluted_eps: 0.24
+      total_assets: 8141.15
+      total_liabilities: 2948.76
+      total_equity: 5192.39
+      cash_and_equivalents: 999.49
+      operating_cash_flow: 259.86
+      capex: 25.55
+      free_cash_flow: 234.31
+    2011-Q2:
+      revenue: 1801.73
+      cost_of_revenue: 197.2
+      gross_profit: 1604.53
+      operating_income: 404.12
+      net_income: 275.76
+      diluted_eps: 0.52
+      total_assets: 8141.15
+      total_liabilities: 2948.76
+      total_equity: 5192.39
+      cash_and_equivalents: 999.49
+      operating_cash_flow: 510.95
+      capex: 75.17
+      free_cash_flow: 435.78
+    2011-Q3:
+      revenue: 2792.05
+      cost_of_revenue: 296.29
+      gross_profit: 2495.77
+      operating_income: 706.13
+      net_income: 505.83
+      diluted_eps: 0.95
+      total_assets: 8141.15
+      total_liabilities: 2948.76
+      total_equity: 5192.39
+      cash_and_equivalents: 999.49
+      operating_cash_flow: 802.37
+      capex: 114.22
+      free_cash_flow: 688.15
+    2012-FY:
+      revenue: 3800.0
+      cost_of_revenue: 403.5
+      gross_profit: 3396.5
+      operating_income: 993.07
+      net_income: 774.68
+      diluted_eps: 1.47
+      total_assets: 8991.18
+      total_liabilities: 3208.07
+      total_equity: 4890.57
+      cash_and_equivalents: 999.49
+      operating_cash_flow: 1112.99
+      capex: 169.64
+      free_cash_flow: 943.35
+    2012-Q1:
+      revenue: 1027.71
+      cost_of_revenue: 107.64
+      gross_profit: 920.07
+      operating_income: 302.33
+      net_income: 234.59
+      diluted_eps: 0.46
+      total_assets: 8991.18
+      total_liabilities: 3208.07
+      total_equity: 5783.11
+      cash_and_equivalents: 749.89
+      operating_cash_flow: 332.1
+      capex: 32.42
+      free_cash_flow: 299.68
+    2012-Q2:
+      revenue: 2050.89
+      cost_of_revenue: 216.84
+      gross_profit: 1834.05
+      operating_income: 579.06
+      net_income: 464.03
+      diluted_eps: 0.91
+      total_assets: 8991.18
+      total_liabilities: 3208.07
+      total_equity: 5783.11
+      cash_and_equivalents: 749.89
+      operating_cash_flow: 721.43
+      capex: 69.92
+      free_cash_flow: 651.51
+    2012-Q3:
+      revenue: 3064.1
+      cost_of_revenue: 321.49
+      gross_profit: 2742.6
+      operating_income: 853.17
+      net_income: 659.13
+      diluted_eps: 1.3
+      total_assets: 8991.18
+      total_liabilities: 3208.07
+      total_equity: 5783.11
+      cash_and_equivalents: 749.89
+      operating_cash_flow: 1046.56
+      capex: 135.4
+      free_cash_flow: 911.16
+    2013-FY:
+      revenue: 4216.26
+      cost_of_revenue: 437.87
+      gross_profit: 3778.39
+      operating_income: 1099.3
+      net_income: 832.85
+      diluted_eps: 1.65
+      total_assets: 10040.23
+      total_liabilities: 3375.05
+      total_equity: 5192.39
+      cash_and_equivalents: 749.89
+      operating_cash_flow: 1543.31
+      capex: 210.29
+      free_cash_flow: 1333.02
+    2013-Q1:
+      revenue: 1045.22
+      cost_of_revenue: 108.27
+      gross_profit: 936.96
+      operating_income: 288.98
+      net_income: 185.21
+      diluted_eps: 0.37
+      total_assets: 9974.52
+      total_liabilities: 3309.34
+      total_equity: 6665.18
+      cash_and_equivalents: 989.5
+      operating_cash_flow: 314.36
+      capex: 51.09
+      free_cash_flow: 263.27
+    2013-Q2:
+      revenue: 2169.67
+      cost_of_revenue: 239.18
+      gross_profit: 1930.49
+      operating_income: 594.12
+      net_income: 409.08
+      diluted_eps: 0.81
+      total_assets: 9974.52
+      total_liabilities: 3309.34
+      total_equity: 6665.18
+      cash_and_equivalents: 989.5
+      operating_cash_flow: 762.58
+      capex: 111.86
+      free_cash_flow: 650.72
+    2013-Q3:
+      revenue: 3250.25
+      cost_of_revenue: 358.8
+      gross_profit: 2891.45
+      operating_income: 872.43
+      net_income: 610.44
+      diluted_eps: 1.22
+      total_assets: 9974.52
+      total_liabilities: 3309.34
+      total_equity: 6665.18
+      cash_and_equivalents: 989.5
+      operating_cash_flow: 1025.92
+      capex: 189.29
+      free_cash_flow: 836.6300000000001
+    2014-FY:
+      revenue: 4403.68
+      cost_of_revenue: 483.78
+      gross_profit: 3919.89
+      operating_income: 1180.19
+      net_income: 832.77
+      diluted_eps: 1.66
+      total_assets: 10380.3
+      total_liabilities: 3655.66
+      total_equity: 5783.11
+      cash_and_equivalents: 989.5
+      operating_cash_flow: 1499.58
+      capex: 271.08
+      free_cash_flow: 1228.5
+    2014-Q1:
+      revenue: 1007.87
+      cost_of_revenue: 156.68
+      gross_profit: 851.19
+      operating_income: 98.22
+      net_income: 65.12
+      diluted_eps: 0.13
+      total_assets: 10380.3
+      total_liabilities: 3655.66
+      total_equity: 6724.63
+      cash_and_equivalents: 1425.05
+      operating_cash_flow: 322.03
+      capex: 60.19
+      free_cash_flow: 261.84
+    2014-Q2:
+      revenue: 2018.42
+      cost_of_revenue: 291.96
+      gross_profit: 1726.46
+      operating_income: 209.53
+      net_income: 141.66
+      diluted_eps: 0.28
+      total_assets: 10380.3
+      total_liabilities: 3655.66
+      total_equity: 6724.63
+      cash_and_equivalents: 1425.05
+      operating_cash_flow: 621.18
+      capex: 106.44
+      free_cash_flow: 514.74
+    2014-Q3:
+      revenue: 3013.54
+      cost_of_revenue: 439.04
+      gross_profit: 2574.5
+      operating_income: 319.89
+      net_income: 224.66
+      diluted_eps: 0.44
+      total_assets: 10380.3
+      total_liabilities: 3655.66
+      total_equity: 6724.63
+      cash_and_equivalents: 1425.05
+      operating_cash_flow: 836.7
+      capex: 153.24
+      free_cash_flow: 683.46
+    2018-FY:
+      revenue: 5854.43
+      cost_of_revenue: 819.91
+      gross_profit: 5034.52
+      operating_income: 1493.6
+      net_income: 1168.78
+      diluted_eps: 2.32
+      total_assets: 14535.56
+      total_liabilities: 6075.69
+      total_equity: 7001.58
+      cash_and_equivalents: 876.56
+      operating_cash_flow: 2199.73
+      capex: 203.81
+      free_cash_flow: 1995.92
+    2018-Q1:
+      revenue: 1681.65
+      cost_of_revenue: 237.34
+      gross_profit: 1444.31
+      operating_income: 469.0
+      net_income: 398.45
+      diluted_eps: 0.8
+      total_assets: 14535.56
+      total_liabilities: 6075.69
+      total_equity: 8459.87
+      cash_and_equivalents: 1011.32
+      total_debt: 1881.42
+      operating_cash_flow: 730.37
+      capex: 30.9
+      free_cash_flow: 699.47
+    2018-Q2:
+      revenue: 3453.84
+      cost_of_revenue: 476.7
+      gross_profit: 2977.14
+      operating_income: 973.08
+      net_income: 772.84
+      diluted_eps: 1.54
+      total_assets: 14535.56
+      total_liabilities: 6075.69
+      total_equity: 8459.87
+      cash_and_equivalents: 1011.32
+      total_debt: 1881.42
+      operating_cash_flow: 1375.2
+      capex: 86.2
+      free_cash_flow: 1289.0
+    2018-Q3:
+      revenue: 5294.91
+      cost_of_revenue: 739.62
+      gross_profit: 4555.29
+      operating_income: 1518.76
+      net_income: 1192.4
+      diluted_eps: 2.38
+      total_assets: 14535.56
+      total_liabilities: 6075.69
+      total_equity: 8459.87
+      cash_and_equivalents: 1011.32
+      total_debt: 1881.42
+      operating_cash_flow: 2079.63
+      capex: 140.44
+      free_cash_flow: 1939.19
+    2023-FY:
+      revenue: 15785.0
+      cost_of_revenue: 1865.0
+      gross_profit: 13920.0
+      operating_income: 5802.0
+      net_income: 4822.0
+      diluted_eps: 10.02
+      total_assets: 27165.0
+      total_liabilities: 13114.0
+      total_equity: 13264.0
+      cash_and_equivalents: 4236.0
+      total_debt: 3629.0
+      operating_cash_flow: 7230.0
+      capex: 348.0
+      free_cash_flow: 6882.0
+    2023-Q1:
+      revenue: 4262.0
+      cost_of_revenue: 512.0
+      gross_profit: 3750.0
+      operating_income: 1580.0
+      net_income: 1266.0
+      diluted_eps: 2.66
+      total_assets: 27165.0
+      total_liabilities: 13114.0
+      total_equity: 14797.0
+      cash_and_equivalents: 4236.0
+      total_debt: 3629.0
+      operating_cash_flow: 1769.0
+      capex: 100.0
+      free_cash_flow: 1669.0
+    2023-Q2:
+      revenue: 8648.0
+      cost_of_revenue: 1051.0
+      gross_profit: 7597.0
+      operating_income: 3109.0
+      net_income: 2444.0
+      diluted_eps: 5.15
+      total_assets: 27165.0
+      total_liabilities: 13114.0
+      total_equity: 14797.0
+      cash_and_equivalents: 4236.0
+      total_debt: 3629.0
+      operating_cash_flow: 3809.0
+      capex: 226.0
+      free_cash_flow: 3583.0
+    2023-Q3:
+      revenue: 13081.0
+      cost_of_revenue: 1597.0
+      gross_profit: 11484.0
+      operating_income: 4593.0
+      net_income: 3580.0
+      diluted_eps: 7.57
+      total_assets: 27165.0
+      total_liabilities: 13114.0
+      total_equity: 14797.0
+      cash_and_equivalents: 4236.0
+      total_debt: 3629.0
+      operating_cash_flow: 5513.0
+      capex: 351.0
+      free_cash_flow: 5162.0
+    2024-FY:
+      revenue: 17606.0
+      cost_of_revenue: 2165.0
+      gross_profit: 15441.0
+      operating_income: 6098.0
+      net_income: 4756.0
+      diluted_eps: 10.1
+      total_assets: 29779.0
+      total_liabilities: 13261.0
+      total_equity: 14797.0
+      cash_and_equivalents: 7141.0
+      total_debt: 3634.0
+      operating_cash_flow: 7838.0
+      capex: 442.0
+      free_cash_flow: 7396.0
+    2024-Q1:
+      revenue: 4655.0
+      cost_of_revenue: 568.0
+      gross_profit: 4087.0
+      operating_income: 1586.0
+      net_income: 1247.0
+      diluted_eps: 2.71
+      total_assets: 29779.0
+      total_liabilities: 13261.0
+      total_equity: 14051.0
+      cash_and_equivalents: 7141.0
+      total_debt: 3634.0
+      operating_cash_flow: 1693.0
+      capex: 101.0
+      free_cash_flow: 1592.0
+    2024-Q2:
+      revenue: 9471.0
+      cost_of_revenue: 1140.0
+      gross_profit: 8331.0
+      operating_income: 3210.0
+      net_income: 2542.0
+      diluted_eps: 5.54
+      total_assets: 29779.0
+      total_liabilities: 13261.0
+      total_equity: 14051.0
+      cash_and_equivalents: 7141.0
+      total_debt: 3634.0
+      operating_cash_flow: 3832.0
+      capex: 222.0
+      free_cash_flow: 3610.0
+    2024-Q3:
+      revenue: 14361.0
+      cost_of_revenue: 1720.0
+      gross_profit: 12641.0
+      operating_income: 4907.0
+      net_income: 3945.0
+      diluted_eps: 8.59
+      total_assets: 29779.0
+      total_liabilities: 13261.0
+      total_equity: 14051.0
+      cash_and_equivalents: 7141.0
+      total_debt: 3634.0
+      operating_cash_flow: 5705.0
+      capex: 313.0
+      free_cash_flow: 5392.0
+    2025-FY:
+      revenue: 19409.0
+      cost_of_revenue: 2354.0
+      gross_profit: 17055.0
+      operating_income: 6650.0
+      net_income: 5428.0
+      diluted_eps: 11.82
+      total_assets: 30230.0
+      total_liabilities: 16125.0
+      total_equity: 14051.0
+      cash_and_equivalents: 7613.0
+      total_debt: 4129.0
+      operating_cash_flow: 7302.0
+      capex: 360.0
+      free_cash_flow: 6942.0
+    2025-Q1:
+      revenue: 5182.0
+      cost_of_revenue: 590.0
+      gross_profit: 4592.0
+      operating_income: 907.0
+      net_income: 620.0
+      diluted_eps: 1.36
+      total_assets: 30230.0
+      total_liabilities: 16125.0
+      total_equity: 16518.0
+      cash_and_equivalents: 7613.0
+      total_debt: 4129.0
+      operating_cash_flow: 1174.0
+      capex: 37.0
+      free_cash_flow: 1137.0
+    2025-Q2:
+      revenue: 10491.0
+      cost_of_revenue: 1188.0
+      gross_profit: 9303.0
+      operating_income: 2792.0
+      net_income: 2193.0
+      diluted_eps: 4.83
+      total_assets: 30230.0
+      total_liabilities: 16125.0
+      total_equity: 16518.0
+      cash_and_equivalents: 7613.0
+      total_debt: 4129.0
+      operating_cash_flow: 3114.0
+      capex: 78.0
+      free_cash_flow: 3036.0
+    2025-Q3:
+      revenue: 15899.0
+      cost_of_revenue: 1742.0
+      gross_profit: 14157.0
+      operating_income: 4784.0
+      net_income: 3877.0
+      diluted_eps: 8.58
+      total_assets: 30230.0
+      total_liabilities: 16125.0
+      total_equity: 16518.0
+      cash_and_equivalents: 7613.0
+      total_debt: 4129.0
+      operating_cash_flow: 5135.0
+      capex: 135.0
+      free_cash_flow: 5000.0
+    2026-Q1:
+      revenue: 5714.0
+      cost_of_revenue: 622.0
+      gross_profit: 5092.0
+      operating_income: 2163.0
+      net_income: 1811.0
+      diluted_eps: 4.14
+      total_assets: 29496.0
+      total_liabilities: 17873.0
+      total_equity: 14105.0
+      cash_and_equivalents: 5431.0
+      total_debt: 6210.0
+      operating_cash_flow: 2482.0
+      capex: 26.0
+      free_cash_flow: 2456.0
+    2026-Q2:
+      revenue: 11587.0
+      cost_of_revenue: 1260.0
+      gross_profit: 10327.0
+      operating_income: 4272.0
+      net_income: 3502.0
+      diluted_eps: 8.08
+      total_assets: 29496.0
+      total_liabilities: 17873.0
+      total_equity: 14105.0
+      cash_and_equivalents: 5431.0
+      total_debt: 6210.0
+      operating_cash_flow: 4673.0
+      capex: 73.0
+      free_cash_flow: 4600.0
+  metadata:
+    capex:
+      xbrl_concept: us-gaap:PaymentsToAcquirePropertyPlantAndEquipment
+      description: Capex
+    cash_and_equivalents:
+      xbrl_concept: us-gaap:CashAndCashEquivalentsAtCarryingValue
+      description: Cash and equivalents
+    cost_of_revenue:
+      xbrl_concept: us-gaap:CostOfRevenue
+      description: Cost of revenue
+    diluted_eps:
+      xbrl_concept: us-gaap:EarningsPerShareDiluted
+      description: Diluted eps
+    free_cash_flow:
+      description: Free cash flow
+    gross_profit:
+      xbrl_concept: us-gaap:GrossProfit
+      description: Gross profit
+    net_income:
+      xbrl_concept: us-gaap:NetIncomeLoss
+      description: Net income
+    operating_cash_flow:
+      xbrl_concept: us-gaap:NetCashProvidedByUsedInOperatingActivities
+      description: Operating cash flow
+    operating_income:
+      xbrl_concept: us-gaap:OperatingIncomeLoss
+      description: Operating income
+    revenue:
+      xbrl_concept: us-gaap:Revenues
+      description: Revenue
+    total_assets:
+      xbrl_concept: us-gaap:Assets
+      description: Total assets
+    total_debt:
+      xbrl_concept: us-gaap:LongTermDebt
+      description: Total debt
+    total_equity:
+      xbrl_concept: us-gaap:StockholdersEquity
+      description: Total equity
+    total_liabilities:
+      xbrl_concept: us-gaap:Liabilities
+      description: Total liabilities
+filings:
+- id: adbe-10k-2018
+  form: 10-K
+  filed: '2019-01-25'
+  period_covered: 2018-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/796343/000079634319000019/adbe10kfy18.htm
+  tables:
+  - pre_text: 'table of contents adobe inc .
+
+
+      notes to consolidated financial statements ( continued ) goodwill , purchased
+      intangibles and other long-lived assets goodwill is assigned to one or more
+      reporting segments on the date of acquisition .
+
+
+      we review our goodwill for impairment annually during our second quarter of
+      each fiscal year and between annual tests if an event occurs or circumstances
+      change that would more likely than not reduce the fair value of any one of our
+      reporting units below its respective carrying amount .
+
+
+      in performing our goodwill impairment test , we first perform a qualitative
+      assessment , which requires that we consider events or circumstances including
+      macroeconomic conditions , industry and market considerations , cost factors
+      , overall financial performance , changes in management or key personnel , changes
+      in strategy , changes in customers , changes in the composition or carrying
+      amount of a reporting segment 2019s net assets and changes in our stock price
+      .
+
+
+      if , after assessing the totality of events or circumstances , we determine
+      that it is more likely than not that the fair values of our reporting segments
+      are greater than the carrying amounts , then the quantitative goodwill impairment
+      test is not performed .
+
+
+      if the qualitative assessment indicates that the quantitative analysis should
+      be performed , we then evaluate goodwill for impairment by comparing the fair
+      value of each of our reporting segments to its carrying value , including the
+      associated goodwill .
+
+
+      to determine the fair values , we use the equal weighting of the market approach
+      based on comparable publicly traded companies in similar lines of businesses
+      and the income approach based on estimated discounted future cash flows .
+
+
+      our cash flow assumptions consider historical and forecasted revenue , operating
+      costs and other relevant factors .
+
+
+      we completed our annual goodwill impairment test in the second quarter of fiscal
+      2018 .
+
+
+      we determined , after performing a qualitative review of each reporting segment
+      , that it is more likely than not that the fair value of each of our reporting
+      segments substantially exceeds the respective carrying amounts .
+
+
+      accordingly , there was no indication of impairment and the quantitative goodwill
+      impairment test was not performed .
+
+
+      we did not identify any events or changes in circumstances since the performance
+      of our annual goodwill impairment test that would require us to perform another
+      goodwill impairment test during the fiscal year .
+
+
+      we amortize intangible assets with finite lives over their estimated useful
+      lives and review them for impairment whenever an impairment indicator exists
+      .
+
+
+      we continually monitor events and changes in circumstances that could indicate
+      carrying amounts of our long-lived assets , including our intangible assets
+      may not be recoverable .
+
+
+      when such events or changes in circumstances occur , we assess recoverability
+      by determining whether the carrying value of such assets will be recovered through
+      the undiscounted expected future cash flows .
+
+
+      if the future undiscounted cash flows are less than the carrying amount of these
+      assets , we recognize an impairment loss based on any excess of the carrying
+      amount over the fair value of the assets .
+
+
+      we did not recognize any intangible asset impairment charges in fiscal 2018
+      , 2017 or 2016 .
+
+
+      during fiscal 2018 , our intangible assets were amortized over their estimated
+      useful lives ranging from 1 to 14 years .
+
+
+      amortization is based on the pattern in which the economic benefits of the intangible
+      asset will be consumed or on a straight-line basis when the consumption pattern
+      is not apparent .
+
+
+      the weighted average useful lives of our intangible assets were as follows :
+      weighted average useful life ( years ) .'
+    header:
+    - ''
+    - weighted averageuseful life ( years )
+    rows:
+    - - purchased technology
+      - '6'
+    - - customer contracts and relationships
+      - '9'
+    - - trademarks
+      - '9'
+    - - acquired rights to use technology
+      - '10'
+    - - backlog
+      - '2'
+    - - other intangibles
+      - '4'
+    post_text: 'income taxes we use the asset and liability method of accounting for
+      income taxes .
+
+
+      under this method , income tax expense is recognized for the amount of taxes
+      payable or refundable for the current year .
+
+
+      in addition , deferred tax assets and liabilities are recognized for expected
+      future tax consequences of temporary differences between the financial reporting
+      and tax bases of assets and liabilities , and for operating losses and tax credit
+      carryforwards .
+
+
+      we record a valuation allowance to reduce deferred tax assets to an amount for
+      which realization is more likely than not. .'
+    id: adbe-2018-table-0
+  - pre_text: 'table of contents adobe inc .
+
+
+      notes to consolidated financial statements ( continued ) the table below represents
+      the preliminary purchase price allocation to the acquired net tangible and intangible
+      assets of marketo based on their estimated fair values as of the acquisition
+      date and the associated estimated useful lives at that date .
+
+
+      the fair values assigned to assets acquired and liabilities assumed are based
+      on management 2019s best estimates and assumptions as of the reporting date
+      and are considered preliminary pending finalization of valuation analyses pertaining
+      to intangible assets acquired , deferred revenue and tax liabilities assumed
+      including the calculation of deferred tax assets and liabilities .
+
+
+      ( in thousands ) amount weighted average useful life ( years ) .'
+    header:
+    - ( in thousands )
+    - amount
+    - weighted average useful life ( years )
+    rows:
+    - - customer contracts and relationships
+      - $ 576900
+      - '11'
+    - - purchased technology
+      - '444500'
+      - '7'
+    - - backlog
+      - '105800'
+      - '2'
+    - - non-competition agreements
+      - '12100'
+      - '2'
+    - - trademarks
+      - '328500'
+      - '9'
+    - - total identifiable intangible assets
+      - '1467800'
+      - ''
+    - - net liabilities assumed
+      - -191288 ( 191288 )
+      - n/a
+    - - goodwill ( 1 )
+      - '3459751'
+      - n/a
+    - - total estimated purchase price
+      - $ 4736263
+      - ''
+    post_text: '_________________________________________ ( 1 ) non-deductible for
+      tax-purposes .
+
+
+      identifiable intangible assets 2014customer relationships consist of marketo
+      2019s contractual relationships and customer loyalty related to their enterprise
+      and commercial customers as well as technology partner relationships .
+
+
+      the estimated fair value of the customer contracts and relationships was determined
+      based on projected cash flows attributable to the asset .
+
+
+      purchased technology acquired primarily consists of marketo 2019s cloud-based
+      engagement marketing software platform .
+
+
+      the estimated fair value of the purchased technology was determined based on
+      the expected future cost savings resulting from ownership of the asset .
+
+
+      backlog relates to subscription contracts and professional services .
+
+
+      non-compete agreements include agreements with key marketo employees that preclude
+      them from competing against marketo for a period of two years from the acquisition
+      date .
+
+
+      trademarks include the marketo trade name , which is well known in the marketing
+      ecosystem .
+
+
+      we amortize the fair value of these intangible assets on a straight-line basis
+      over their respective estimated useful lives .
+
+
+      goodwill 2014approximately $ 3.46 billion has been allocated to goodwill , and
+      has been allocated in full to the digital experience reportable segment .
+
+
+      goodwill represents the excess of the purchase price over the fair value of
+      the underlying acquired net tangible and intangible assets .
+
+
+      the factors that contributed to the recognition of goodwill included securing
+      buyer-specific synergies that increase revenue and profits and are not otherwise
+      available to a marketplace participant , acquiring a talented workforce and
+      cost savings opportunities .
+
+
+      net liabilities assumed 2014marketo 2019s tangible assets and liabilities as
+      of october 31 , 2018 were reviewed and adjusted to their fair value as necessary
+      .
+
+
+      the net liabilities assumed included , among other items , $ 100.1 million in
+      accrued expenses , $ 74.8 million in deferred revenue and $ 182.6 million in
+      deferred tax liabilities , which were partially offset by $ 54.9 million in
+      cash and cash equivalents and $ 72.4 million in trade receivables acquired .
+
+
+      deferred revenue 2014included in net liabilities assumed is marketo 2019s deferred
+      revenue which represents advance payments from customers related to subscription
+      contracts and professional services .
+
+
+      we estimated our obligation related to the deferred revenue using the cost build-up
+      approach .
+
+
+      the cost build-up approach determines fair value by estimating the direct and
+      indirect costs related to supporting the obligation plus an assumed operating
+      margin .
+
+
+      the sum of the costs and assumed operating profit approximates , in theory ,
+      the amount that marketo would be required to pay a third party to assume the
+      obligation .
+
+
+      the estimated costs to fulfill the obligation were based on the near-term projected
+      cost structure for subscription and professional services .
+
+
+      as a result , we recorded an adjustment to reduce marketo 2019s carrying value
+      of deferred revenue to $ 74.8 million , which represents our estimate of the
+      fair value of the contractual obligations assumed based on a preliminary valuation.
+      .'
+    id: adbe-2018-table-1
+  - pre_text: 'table of contents adobe inc .
+
+
+      notes to consolidated financial statements ( continued ) stock options the 2003
+      plan allows us to grant options to all employees , including executive officers
+      , outside consultants and non- employee directors .
+
+
+      this plan will continue until the earlier of ( i ) termination by the board
+      or ( ii ) the date on which all of the shares available for issuance under the
+      plan have been issued and restrictions on issued shares have lapsed .
+
+
+      option vesting periods used in the past were generally four years and expire
+      seven years from the effective date of grant .
+
+
+      we eliminated the use of stock option grants for all employees and non-employee
+      directors but may choose to issue stock options in the future .
+
+
+      performance share programs our 2018 , 2017 and 2016 performance share programs
+      aim to help focus key employees on building stockholder value , provide significant
+      award potential for achieving outstanding company performance and enhance the
+      ability of the company to attract and retain highly talented and competent individuals
+      .
+
+
+      the executive compensation committee of our board of directors approves the
+      terms of each of our performance share programs , including the award calculation
+      methodology , under the terms of our 2003 plan .
+
+
+      shares may be earned based on the achievement of an objective relative total
+      stockholder return measured over a three-year performance period .
+
+
+      performance share awards will be awarded and fully vest upon the later of the
+      executive compensation committee''s certification of the level of achievement
+      or the three-year anniversary of each grant .
+
+
+      program participants generally have the ability to receive up to 200% ( 200
+      % ) of the target number of shares originally granted .
+
+
+      on january 24 , 2018 , the executive compensation committee approved the 2018
+      performance share program , the terms of which are similar to prior year performance
+      share programs as discussed above .
+
+
+      as of november 30 , 2018 , the shares awarded under our 2018 , 2017 and 2016
+      performance share programs are yet to be achieved .
+
+
+      issuance of shares upon exercise of stock options , vesting of restricted stock
+      units and performance shares , and purchases of shares under the espp , we will
+      issue treasury stock .
+
+
+      if treasury stock is not available , common stock will be issued .
+
+
+      in order to minimize the impact of on-going dilution from exercises of stock
+      options and vesting of restricted stock units and performance shares , we instituted
+      a stock repurchase program .
+
+
+      see note 12 for information regarding our stock repurchase programs .
+
+
+      valuation of stock-based compensation stock-based compensation cost is measured
+      at the grant date based on the fair value of the award .
+
+
+      our performance share awards are valued using a monte carlo simulation model
+      .
+
+
+      the fair value of the awards are fixed at grant date and amortized over the
+      longer of the remaining performance or service period .
+
+
+      we use the black-scholes option pricing model to determine the fair value of
+      espp shares .
+
+
+      the determination of the fair value of stock-based payment awards on the date
+      of grant using an option pricing model is affected by our stock price as well
+      as assumptions regarding a number of complex and subjective variables .
+
+
+      these variables include our expected stock price volatility over the expected
+      term of the awards , actual and projected employee stock option exercise behaviors
+      , a risk-free interest rate and any expected dividends .
+
+
+      the expected term of espp shares is the average of the remaining purchase periods
+      under each offering period .
+
+
+      the assumptions used to value employee stock purchase rights were as follows:
+      .'
+    header:
+    - ''
+    - '2018'
+    - '2017'
+    - '2016'
+    rows:
+    - - expected life ( in years )
+      - 0.5 - 2.0
+      - 0.5 - 2.0
+      - 0.5 - 2.0
+    - - volatility
+      - 26% ( 26 % ) - 29% ( 29 % )
+      - 22% ( 22 % ) - 27% ( 27 % )
+      - 26 - 29% ( 29 % )
+    - - risk free interest rate
+      - 1.54% ( 1.54 % ) - 2.52% ( 2.52 % )
+      - 0.62% ( 0.62 % ) - 1.41% ( 1.41 % )
+      - 0.37 - 1.06% ( 1.06 % )
+    post_text: .
+    id: adbe-2018-table-2
+  - pre_text: 'table of contents totaled an absolute notional equivalent of $ 292.3
+      million and $ 190.5 million , respectively , with the year-over-year increase
+      primarily driven by earnings growth .
+
+
+      at this time , we do not hedge these long-term investment exposures .
+
+
+      we do not use foreign exchange contracts for speculative trading purposes ,
+      nor do we hedge our foreign currency exposure in a manner that entirely offsets
+      the effects of changes in foreign exchange rates .
+
+
+      we regularly review our hedging program and assess the need to utilize financial
+      instruments to hedge currency exposures on an ongoing basis .
+
+
+      cash flow hedging 2014hedges of forecasted foreign currency revenue we may use
+      foreign exchange purchased options or forward contracts to hedge foreign currency
+      revenue denominated in euros , british pounds and japanese yen .
+
+
+      we hedge these cash flow exposures to reduce the risk that our earnings and
+      cash flows will be adversely affected by changes in exchange rates .
+
+
+      these foreign exchange contracts , carried at fair value , may have maturities
+      between one and twelve months .
+
+
+      we enter into these foreign exchange contracts to hedge forecasted revenue in
+      the normal course of business and accordingly , they are not speculative in
+      nature .
+
+
+      we record changes in the intrinsic value of these cash flow hedges in accumulated
+      other comprehensive income ( loss ) until the forecasted transaction occurs
+      .
+
+
+      when the forecasted transaction occurs , we reclassify the related gain or loss
+      on the cash flow hedge to revenue .
+
+
+      in the event the underlying forecasted transaction does not occur , or it becomes
+      probable that it will not occur , we reclassify the gain or loss on the related
+      cash flow hedge from accumulated other comprehensive income ( loss ) to interest
+      and other income , net on our consolidated statements of income at that time
+      .
+
+
+      for the fiscal year ended november 30 , 2018 , there were no net gains or losses
+      recognized in other income relating to hedges of forecasted transactions that
+      did not occur .
+
+
+      balance sheet hedging 2014hedging of foreign currency assets and liabilities
+      we hedge exposures related to our net recognized foreign currency assets and
+      liabilities with foreign exchange forward contracts to reduce the risk that
+      our earnings and cash flows will be adversely affected by changes in foreign
+      currency exchange rates .
+
+
+      these foreign exchange contracts are carried at fair value with changes in the
+      fair value recorded as interest and other income , net .
+
+
+      these foreign exchange contracts do not subject us to material balance sheet
+      risk due to exchange rate movements because gains and losses on these contracts
+      are intended to offset gains and losses on the assets and liabilities being
+      hedged .
+
+
+      at november 30 , 2018 , the outstanding balance sheet hedging derivatives had
+      maturities of 180 days or less .
+
+
+      see note 5 of our notes to consolidated financial statements for information
+      regarding our hedging activities .
+
+
+      interest rate risk short-term investments and fixed income securities at november
+      30 , 2018 , we had debt securities classified as short-term investments of $
+      1.59 billion .
+
+
+      changes in interest rates could adversely affect the market value of these investments
+      .
+
+
+      the following table separates these investments , based on stated maturities
+      , to show the approximate exposure to interest rates ( in millions ) : .'
+    header:
+    - due within one year
+    - $ 612.1
+    rows:
+    - - due between one and two years
+      - '564.2'
+    - - due between two and three years
+      - '282.2'
+    - - due after three years
+      - '127.7'
+    - - total
+      - $ 1586.2
+    post_text: 'a sensitivity analysis was performed on our investment portfolio as
+      of november 30 , 2018 .
+
+
+      the analysis is based on an estimate of the hypothetical changes in market value
+      of the portfolio that would result from an immediate parallel shift in the yield
+      curve of various magnitudes. .'
+    id: adbe-2018-table-3
+- id: adbe-10k-2023
+  form: 10-K
+  filed: '2024-01-17'
+  period_covered: 2023-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/796343/000079634324000006/adbe-20231201.htm
+  tables: []
+- id: adbe-10k-2024
+  form: 10-K
+  filed: '2025-01-13'
+  period_covered: 2024-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/796343/000079634325000004/adbe-20241129.htm
+  tables: []
+- id: adbe-10k-2025
+  form: 10-K
+  filed: '2026-01-15'
+  period_covered: 2025-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm
+  tables: []

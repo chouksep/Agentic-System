@@ -1,0 +1,1560 @@
+schema_version: 1
+ticker: AES
+cik: 0000874761
+metrics:
+  currency: USD
+  units: millions
+  by_period:
+    2010-FY:
+      gross_profit: 3568.0
+      net_income: 1234.0
+      diluted_eps: 1.82
+      total_assets: 34806.0
+      total_equity: 4675.0
+      cash_and_equivalents: 2020.0
+      operating_cash_flow: 2160.0
+      capex: 2850.0
+      free_cash_flow: -690.0
+    2010-Q1:
+      gross_profit: 856.0
+      net_income: 218.0
+      diluted_eps: 0.33
+      total_assets: 39535.0
+      total_equity: 4675.0
+      cash_and_equivalents: 881.0
+      operating_cash_flow: 357.0
+      capex: 574.0
+      free_cash_flow: -217.0
+    2010-Q2:
+      gross_profit: 1652.0
+      net_income: 521.0
+      diluted_eps: 0.78
+      total_assets: 39535.0
+      total_equity: 4675.0
+      cash_and_equivalents: 865.0
+      operating_cash_flow: 874.0
+      capex: 1193.0
+      free_cash_flow: -319.0
+    2010-Q3:
+      gross_profit: 2619.0
+      net_income: 706.0
+      diluted_eps: 1.06
+      total_assets: 39535.0
+      total_equity: 4675.0
+      cash_and_equivalents: 865.0
+      operating_cash_flow: 1877.0
+      capex: 1765.0
+      free_cash_flow: 112.0
+    2011-FY:
+      revenue: 13110.0
+      gross_profit: 3357.0
+      net_income: 658.0
+      diluted_eps: 0.98
+      total_assets: 39535.0
+      total_equity: 6473.0
+      cash_and_equivalents: 844.0
+      operating_cash_flow: 2211.0
+      capex: 2520.0
+      free_cash_flow: -309.0
+    2011-Q1:
+      gross_profit: 961.0
+      net_income: 187.0
+      diluted_eps: 0.27
+      total_assets: 40511.0
+      total_equity: 6473.0
+      cash_and_equivalents: 1780.0
+      operating_cash_flow: 668.0
+      capex: 493.0
+      free_cash_flow: 175.0
+    2011-Q2:
+      gross_profit: 1963.0
+      net_income: 331.0
+      diluted_eps: 0.44
+      total_assets: 40511.0
+      total_equity: 6473.0
+      cash_and_equivalents: 1780.0
+      operating_cash_flow: 1415.0
+      capex: 1002.0
+      free_cash_flow: 413.0
+    2011-Q3:
+      revenue: 11777.0
+      gross_profit: 2901.0
+      net_income: 445.0
+      diluted_eps: 0.58
+      total_assets: 40511.0
+      total_equity: 6473.0
+      cash_and_equivalents: 1775.0
+      operating_cash_flow: 2416.0
+      capex: 1528.0
+      free_cash_flow: 888.0
+    2012-FY:
+      revenue: 15443.0
+      gross_profit: 3820.0
+      net_income: 9.0
+      diluted_eps: 0.01
+      total_assets: 40511.0
+      total_equity: 5946.0
+      cash_and_equivalents: 1745.0
+      operating_cash_flow: 3465.0
+      capex: 2310.0
+      free_cash_flow: 1155.0
+    2012-Q1:
+      revenue: 4156.0
+      gross_profit: 993.0
+      net_income: 224.0
+      diluted_eps: 0.28
+      total_assets: 45333.0
+      total_equity: 5946.0
+      cash_and_equivalents: 2522.0
+      operating_cash_flow: 502.0
+      capex: 479.0
+      free_cash_flow: 23.0
+    2012-Q2:
+      revenue: 8591.0
+      gross_profit: 1985.0
+      net_income: 398.0
+      diluted_eps: 0.5
+      total_assets: 45293.0
+      total_equity: 5946.0
+      cash_and_equivalents: 2522.0
+      operating_cash_flow: 1177.0
+      capex: 1019.0
+      free_cash_flow: 158.0
+    2012-Q3:
+      revenue: 12898.0
+      gross_profit: 2995.0
+      net_income: 267.0
+      diluted_eps: 0.34
+      total_assets: 45346.0
+      total_equity: 5946.0
+      cash_and_equivalents: 2522.0
+      operating_cash_flow: 2313.0
+      capex: 1832.0
+      free_cash_flow: 481.0
+    2016-FY:
+      revenue: 16124.0
+      gross_profit: 2980.0
+      net_income: 769.0
+      diluted_eps: 1.06
+      total_assets: 38562.0
+      cash_and_equivalents: 1636.0
+      operating_cash_flow: 1791.0
+      capex: 2016.0
+      free_cash_flow: -225.0
+    2016-Q1:
+      gross_profit: 721.0
+      net_income: 142.0
+      diluted_eps: 0.2
+      total_assets: 36470.0
+      total_equity: 3149.0
+      cash_and_equivalents: 1539.0
+      operating_cash_flow: 437.0
+      capex: 619.0
+      free_cash_flow: -182.0
+    2016-Q2:
+      gross_profit: 1476.0
+      net_income: 211.0
+      diluted_eps: 0.3
+      total_assets: 36470.0
+      total_equity: 3149.0
+      cash_and_equivalents: 1517.0
+      operating_cash_flow: 590.0
+      capex: 1168.0
+      free_cash_flow: -578.0
+    2016-Q3:
+      gross_profit: 2141.0
+      net_income: 391.0
+      diluted_eps: 0.56
+      total_assets: 36470.0
+      total_equity: 3149.0
+      cash_and_equivalents: 1517.0
+      operating_cash_flow: 1505.0
+      capex: 1687.0
+      free_cash_flow: -182.0
+    2017-FY:
+      revenue: 11260.0
+      gross_profit: 2663.0
+      net_income: 306.0
+      diluted_eps: 0.44
+      total_assets: 36545.0
+      total_equity: 2794.0
+      cash_and_equivalents: 1449.0
+      operating_cash_flow: 2134.0
+      capex: 2308.0
+      free_cash_flow: -174.0
+    2017-Q1:
+      gross_profit: 509.0
+      net_income: 126.0
+      diluted_eps: 0.19
+      total_assets: 36119.0
+      total_equity: 2794.0
+      cash_and_equivalents: 1257.0
+      operating_cash_flow: 640.0
+      capex: 640.0
+      free_cash_flow: 0.0
+    2017-Q2:
+      gross_profit: 1083.0
+      net_income: -356.0
+      diluted_eps: -0.54
+      total_assets: 36119.0
+      total_equity: 2794.0
+      cash_and_equivalents: 1257.0
+      operating_cash_flow: 1363.0
+      capex: 1255.0
+      free_cash_flow: 108.0
+    2017-Q3:
+      gross_profit: 1771.0
+      net_income: -181.0
+      diluted_eps: -0.28
+      total_assets: 36119.0
+      total_equity: 2794.0
+      cash_and_equivalents: 1257.0
+      operating_cash_flow: 2182.0
+      capex: 1770.0
+      free_cash_flow: 412.0
+    2018-FY:
+      revenue: 10281.0
+      cost_of_revenue: 7898.0
+      gross_profit: 2383.0
+      net_income: -1130.0
+      diluted_eps: -1.72
+      total_assets: 36124.0
+      total_equity: 2465.0
+      cash_and_equivalents: 949.0
+      operating_cash_flow: 2897.0
+      capex: 2345.0
+      free_cash_flow: 552.0
+    2018-Q1:
+      revenue: 2740.0
+      gross_profit: 557.0
+      net_income: -24.0
+      diluted_eps: -0.04
+      total_assets: 33112.0
+      total_equity: 2465.0
+      cash_and_equivalents: 949.0
+      operating_cash_flow: 708.0
+      capex: 474.0
+      free_cash_flow: 234.0
+    2018-Q2:
+      revenue: 5194.0
+      cost_of_revenue: 4014.0
+      gross_profit: 1180.0
+      net_income: 29.0
+      diluted_eps: 0.04
+      total_assets: 33112.0
+      total_equity: 2465.0
+      cash_and_equivalents: 949.0
+      operating_cash_flow: 962.0
+      capex: 1123.0
+      free_cash_flow: -161.0
+    2018-Q3:
+      revenue: 7887.0
+      cost_of_revenue: 6067.0
+      gross_profit: 1820.0
+      net_income: 181.0
+      diluted_eps: 0.28
+      total_assets: 33112.0
+      total_equity: 2465.0
+      cash_and_equivalents: 949.0
+      operating_cash_flow: 1701.0
+      capex: 1587.0
+      free_cash_flow: 114.0
+    2023-FY:
+      revenue: 11141.0
+      cost_of_revenue: 8430.0
+      gross_profit: 2711.0
+      net_income: -409.0
+      diluted_eps: -0.61
+      total_assets: 32963.0
+      total_equity: 2437.0
+      cash_and_equivalents: 1374.0
+      operating_cash_flow: 1902.0
+      capex: 2116.0
+      free_cash_flow: -214.0
+    2024-FY:
+      revenue: 12617.0
+      cost_of_revenue: 10069.0
+      gross_profit: 2548.0
+      net_income: -546.0
+      diluted_eps: -0.82
+      total_assets: 38363.0
+      total_equity: 2488.0
+      cash_and_equivalents: 1426.0
+      operating_cash_flow: 2715.0
+      capex: 4551.0
+      free_cash_flow: -1836.0
+    2024-Q2:
+      revenue: 6266.0
+      cost_of_revenue: 5174.0
+      gross_profit: 1092.0
+      net_income: 112.0
+      diluted_eps: 0.16
+      total_assets: 44799.0
+      total_equity: 2488.0
+      cash_and_equivalents: 1426.0
+      operating_cash_flow: 1187.0
+      capex: 3396.0
+      free_cash_flow: -2209.0
+    2024-Q3:
+      revenue: 9700.0
+      cost_of_revenue: 7690.0
+      gross_profit: 2010.0
+      net_income: 343.0
+      diluted_eps: 0.48
+      total_assets: 44799.0
+      total_equity: 2488.0
+      cash_and_equivalents: 1426.0
+      operating_cash_flow: 2309.0
+      capex: 5295.0
+      free_cash_flow: -2986.0
+    2025-FY:
+      revenue: 12668.0
+      cost_of_revenue: 10164.0
+      gross_profit: 2504.0
+      net_income: 249.0
+      diluted_eps: 0.35
+      total_assets: 44799.0
+      total_equity: 3644.0
+      cash_and_equivalents: 1524.0
+      operating_cash_flow: 3034.0
+      capex: 7724.0
+      free_cash_flow: -4690.0
+    2025-Q1:
+      revenue: 3085.0
+      cost_of_revenue: 2466.0
+      gross_profit: 619.0
+      net_income: 432.0
+      diluted_eps: 0.6
+      total_assets: 47406.0
+      total_equity: 3644.0
+      cash_and_equivalents: 1524.0
+      operating_cash_flow: 287.0
+      capex: 2148.0
+      free_cash_flow: -1861.0
+    2025-Q2:
+      revenue: 6027.0
+      cost_of_revenue: 4855.0
+      gross_profit: 1172.0
+      net_income: 708.0
+      diluted_eps: 0.99
+      total_assets: 47406.0
+      total_equity: 3644.0
+      cash_and_equivalents: 1524.0
+      operating_cash_flow: 679.0
+      capex: 3833.0
+      free_cash_flow: -3154.0
+    2025-Q3:
+      revenue: 9316.0
+      cost_of_revenue: 7422.0
+      gross_profit: 1894.0
+      net_income: 1212.0
+      diluted_eps: 1.7
+      total_assets: 47406.0
+      total_equity: 3644.0
+      cash_and_equivalents: 1524.0
+      operating_cash_flow: 1664.0
+      capex: 5665.0
+      free_cash_flow: -4001.0
+    2026-Q1:
+      revenue: 2926.0
+      cost_of_revenue: 2485.0
+      gross_profit: 441.0
+      net_income: 46.0
+      diluted_eps: 0.07
+      total_assets: 51768.0
+      total_equity: 4063.0
+      cash_and_equivalents: 1382.0
+      operating_cash_flow: 545.0
+      capex: 1254.0
+      free_cash_flow: -709.0
+  metadata:
+    capex:
+      xbrl_concept: us-gaap:PaymentsToAcquirePropertyPlantAndEquipment
+      description: Capex
+    cash_and_equivalents:
+      xbrl_concept: us-gaap:CashAndCashEquivalentsAtCarryingValue
+      description: Cash and equivalents
+    cost_of_revenue:
+      xbrl_concept: us-gaap:CostOfRevenue
+      description: Cost of revenue
+    diluted_eps:
+      xbrl_concept: us-gaap:EarningsPerShareDiluted
+      description: Diluted eps
+    free_cash_flow:
+      description: Free cash flow
+    gross_profit:
+      xbrl_concept: us-gaap:GrossProfit
+      description: Gross profit
+    net_income:
+      xbrl_concept: us-gaap:NetIncomeLoss
+      description: Net income
+    operating_cash_flow:
+      xbrl_concept: us-gaap:NetCashProvidedByUsedInOperatingActivities
+      description: Operating cash flow
+    revenue:
+      xbrl_concept: us-gaap:Revenues
+      description: Revenue
+    total_assets:
+      xbrl_concept: us-gaap:Assets
+      description: Total assets
+    total_equity:
+      xbrl_concept: us-gaap:StockholdersEquity
+      description: Total equity
+filings:
+- id: aes-10k-2012
+  form: 10-K
+  filed: '2013-02-27'
+  period_covered: 2012-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/874761/000119312513077580/d472985d10k.htm
+  tables:
+  - pre_text: 'the aes corporation notes to consolidated financial statements 2014
+      ( continued ) december 31 , 2012 , 2011 , and 2010 ( 1 ) a u.s .
+
+
+      subsidiary of the company has a defined benefit obligation of $ 764 million
+      and $ 679 million as of december 31 , 2012 and 2011 , respectively , and uses
+      salary bands to determine future benefit costs rather than rates of compensation
+      increases .
+
+
+      rates of compensation increases in the table above do not include amounts related
+      to this specific defined benefit plan .
+
+
+      ( 2 ) includes an inflation factor that is used to calculate future periodic
+      benefit cost , but is not used to calculate the benefit obligation .
+
+
+      the company establishes its estimated long-term return on plan assets considering
+      various factors , which include the targeted asset allocation percentages ,
+      historic returns and expected future returns .
+
+
+      the measurement of pension obligations , costs and liabilities is dependent
+      on a variety of assumptions .
+
+
+      these assumptions include estimates of the present value of projected future
+      pension payments to all plan participants , taking into consideration the likelihood
+      of potential future events such as salary increases and demographic experience
+      .
+
+
+      these assumptions may have an effect on the amount and timing of future contributions
+      .
+
+
+      the assumptions used in developing the required estimates include the following
+      key factors : 2022 discount rates ; 2022 salary growth ; 2022 retirement rates
+      ; 2022 inflation ; 2022 expected return on plan assets ; and 2022 mortality
+      rates .
+
+
+      the effects of actual results differing from the company 2019s assumptions are
+      accumulated and amortized over future periods and , therefore , generally affect
+      the company 2019s recognized expense in such future periods .
+
+
+      sensitivity of the company 2019s pension funded status to the indicated increase
+      or decrease in the discount rate and long-term rate of return on plan assets
+      assumptions is shown below .
+
+
+      note that these sensitivities may be asymmetric and are specific to the base
+      conditions at year-end 2012 .
+
+
+      they also may not be additive , so the impact of changing multiple factors simultaneously
+      cannot be calculated by combining the individual sensitivities shown .
+
+
+      the funded status as of december 31 , 2012 is affected by the assumptions as
+      of that date .
+
+
+      pension expense for 2012 is affected by the december 31 , 2011 assumptions .
+
+
+      the impact on pension expense from a one percentage point change in these assumptions
+      is shown in the table below ( in millions ) : .'
+    header:
+    - increase of 1% ( 1 % ) in the discount rate
+    - $ -48 ( 48 )
+    rows:
+    - - decrease of 1% ( 1 % ) in the discount rate
+      - '38'
+    - - increase of 1% ( 1 % ) in the long-term rate of return on plan assets
+      - -47 ( 47 )
+    - - decrease of 1% ( 1 % ) in the long-term rate of return on plan assets
+      - '47'
+    post_text: .
+    id: aes-2012-table-0
+- id: aes-10k-2016
+  form: 10-K
+  filed: '2017-02-27'
+  period_covered: 2016-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/874761/000087476117000003/a2016form10-k.htm
+  tables:
+  - pre_text: '31 , 2015 , the price was r$ 218/mwh .
+
+
+      after the expiration of contract with eletropaulo , tiet ea''s strategy is to
+      contract most of its physical guarantee , as described in regulatory framework
+      section below , and sell the remaining portion in the spot market .
+
+
+      tiet ea''s strategy is reassessed from time to time according to changes in
+      market conditions , hydrology and other factors .
+
+
+      tiet ea has been continuously selling its available energy from 2016 forward
+      through medium-term bilateral contracts of three to five years .
+
+
+      as of december 31 , 2016 , tiet ea''s contracted portfolio position is 95% (
+      95 % ) and 88% ( 88 % ) with average prices of r$ 157/ mwh and r$ 159/mwh (
+      inflation adjusted until december 2016 ) for 2016 and 2017 , respectively .
+
+
+      as brazil is mostly a hydro-based country with energy prices highly tied to
+      the hydrological situation , the deterioration of the hydrology since the beginning
+      of 2014 caused an increase in energy prices going forward .
+
+
+      tiet ea is closely monitoring and analyzing system supply conditions to support
+      energy commercialization decisions .
+
+
+      under the concession agreement , tiet ea has an obligation to increase its capacity
+      by 15% ( 15 % ) .
+
+
+      tiet ea , as well as other concession generators , have not yet met this requirement
+      due to regulatory , environmental , hydrological and fuel constraints .
+
+
+      the state of s e3o paulo does not have a sufficient potential for wind power
+      and only has a small remaining potential for hydro projects .
+
+
+      as such , the capacity increases in the state will mostly be derived from thermal
+      gas capacity projects .
+
+
+      due to the highly complex process to obtain an environmental license for coal
+      projects , tiet ea decided to fulfill its obligation with gas-fired projects
+      in line with the federal government plans .
+
+
+      petrobras refuses to supply natural gas and to offer capacity in its pipelines
+      and regasification terminals .
+
+
+      therefore , there are no regulations for natural gas swaps in place , and it
+      is unfeasible to bring natural gas to aes tiet ea .
+
+
+      a legal case has been initiated by the state of s e3o paulo requiring the investment
+      to be performed .
+
+
+      tiet ea is in the process of analyzing options to meet the obligation .
+
+
+      uruguaiana is a 640 mw gas-fired combined cycle power plant located in the town
+      of uruguaiana in the state of rio grande do sul , commissioned in december 2000
+      .
+
+
+      aes manages and has a 46% ( 46 % ) economic interest in the plant with the remaining
+      interest held by bndes .
+
+
+      the plant''s operations were suspended in april 2009 due to the unavailability
+      of gas .
+
+
+      aes has evaluated several alternatives to bring gas supply on a competitive
+      basis to uruguaiana .
+
+
+      one of the challenges is the capacity restrictions on the argentinean pipeline
+      , especially during the winter season when gas demand in argentina is very high
+      .
+
+
+      the plant operated on a short-term basis during february and march 2013 , march
+      through may 2014 , and february through may 2015 due to the short-term supply
+      of lng for the facility .
+
+
+      the plant did not operate in 2016 .
+
+
+      uruguaiana continues to work toward securing gas on a long-term basis .
+
+
+      market structure 2014 brazil has installed capacity of 150136 mw , which is
+      65% ( 65 % ) hydroelectric , 19% ( 19 % ) thermal and 16% ( 16 % ) renewable
+      ( biomass and wind ) .
+
+
+      brazil''s national grid is divided into four subsystems .
+
+
+      tiet ea is in the southeast and uruguaiana is in the south subsystems of the
+      national grid .
+
+
+      regulatory framework 2014 in brazil , the ministry of mines and energy determines
+      the maximum amount of energy that a plant can sell , called physical guarantee
+      , which represents the long-term average expected energy production of the plant
+      .
+
+
+      under current rules , physical guarantee can be sold to distribution companies
+      through long- term regulated auctions or under unregulated bilateral contracts
+      with large consumers or energy trading companies .
+
+
+      the national system operator ( "ons" ) is responsible for coordinating and controlling
+      the operation of the national grid .
+
+
+      the ons dispatches generators based on hydrological conditions , reservoir levels
+      , electricity demand and the prices of fuel and thermal generation .
+
+
+      given the importance of hydro generation in the country , the ons sometimes
+      reduces dispatch of hydro facilities and increases dispatch of thermal facilities
+      to protect reservoir levels in the system .
+
+
+      in brazil , the system operator controls all hydroelectric generation dispatch
+      and reservoir levels .
+
+
+      a mechanism known as the energy reallocation mechanism ( "mre" ) was created
+      to share hydrological risk across mre hydro generators .
+
+
+      if the hydro plants generate less than the total mre physical guarantee , the
+      hydro generators may need to purchase energy in the short-term market to fulfill
+      their contract obligations .
+
+
+      when total hydro generation is higher than the total mre physical guarantee
+      , the surplus is proportionally shared among its participants and they are able
+      to make extra revenue selling the excess energy on the spot market .
+
+
+      the consequences of unfavorable hydrology are ( i ) thermal plants more expensive
+      to the system being dispatched , ( ii ) lower hydropower generation with deficits
+      in the mre and ( iii ) high spot prices .
+
+
+      aneel defines the spot price cap for electricity in the brazilian market .
+
+
+      the spot price caps as defined by aneel and average spot prices by calendar
+      year are as follows ( r$ / .'
+    header:
+    - year
+    - '2017'
+    - '2016'
+    - '2015'
+    - '2014'
+    rows:
+    - - spot price cap as defined by aneel
+      - '534'
+      - '423'
+      - '388'
+      - '822'
+    - - average spot rate
+      - ''
+      - '94'
+      - '287'
+      - '689'
+    post_text: .
+    id: aes-2016-table-0
+  - pre_text: 'the net decrease in the 2016 effective tax rate was due , in part ,
+      to the 2016 asset impairments in the u.s .
+
+
+      and to the current year benefit related to a restructuring of one of our brazilian
+      businesses that increases tax basis in long-term assets .
+
+
+      further , the 2015 rate was impacted by the items described below .
+
+
+      see note 20 2014asset impairment expense for additional information regarding
+      the 2016 u.s .
+
+
+      asset impairments .
+
+
+      income tax expense increased $ 101 million , or 27% ( 27 % ) , to $ 472 million
+      in 2015 .
+
+
+      the company''s effective tax rates were 41% ( 41 % ) and 26% ( 26 % ) for the
+      years ended december 31 , 2015 and 2014 , respectively .
+
+
+      the net increase in the 2015 effective tax rate was due , in part , to the nondeductible
+      2015 impairment of goodwill at our u.s .
+
+
+      utility , dp&l and chilean withholding taxes offset by the release of valuation
+      allowance at certain of our businesses in brazil , vietnam and the u.s .
+
+
+      further , the 2014 rate was impacted by the sale of approximately 45% ( 45 %
+      ) of the company 2019s interest in masin aes pte ltd. , which owns the company
+      2019s business interests in the philippines and the 2014 sale of the company
+      2019s interests in four u.k .
+
+
+      wind operating projects .
+
+
+      neither of these transactions gave rise to income tax expense .
+
+
+      see note 15 2014equity for additional information regarding the sale of approximately
+      45% ( 45 % ) of the company 2019s interest in masin-aes pte ltd .
+
+
+      see note 23 2014dispositions for additional information regarding the sale of
+      the company 2019s interests in four u.k .
+
+
+      wind operating projects .
+
+
+      our effective tax rate reflects the tax effect of significant operations outside
+      the u.s. , which are generally taxed at rates lower than the u.s .
+
+
+      statutory rate of 35% ( 35 % ) .
+
+
+      a future proportionate change in the composition of income before income taxes
+      from foreign and domestic tax jurisdictions could impact our periodic effective
+      tax rate .
+
+
+      the company also benefits from reduced tax rates in certain countries as a result
+      of satisfying specific commitments regarding employment and capital investment
+      .
+
+
+      see note 21 2014income taxes for additional information regarding these reduced
+      rates .
+
+
+      foreign currency transaction gains ( losses ) foreign currency transaction gains
+      ( losses ) in millions were as follows: .'
+    header:
+    - years ended december 31,
+    - '2016'
+    - '2015'
+    - '2014'
+    rows:
+    - - aes corporation
+      - $ -50 ( 50 )
+      - $ -31 ( 31 )
+      - $ -34 ( 34 )
+    - - chile
+      - -9 ( 9 )
+      - -18 ( 18 )
+      - -30 ( 30 )
+    - - colombia
+      - -8 ( 8 )
+      - '29'
+      - '17'
+    - - mexico
+      - -8 ( 8 )
+      - -6 ( 6 )
+      - -14 ( 14 )
+    - - philippines
+      - '12'
+      - '8'
+      - '11'
+    - - united kingdom
+      - '13'
+      - '11'
+      - '12'
+    - - argentina
+      - '37'
+      - '124'
+      - '66'
+    - - other
+      - -2 ( 2 )
+      - -10 ( 10 )
+      - -17 ( 17 )
+    - - total ( 1 )
+      - $ -15 ( 15 )
+      - $ 107
+      - $ 11
+    post_text: 'total ( 1 ) $ ( 15 ) $ 107 $ 11 _____________________________ ( 1
+      ) includes gains of $ 17 million , $ 247 million and $ 172 million on foreign
+      currency derivative contracts for the years ended december 31 , 2016 , 2015
+      and 2014 , respectively .
+
+
+      the company recognized a net foreign currency transaction loss of $ 15 million
+      for the year ended december 31 , 2016 primarily due to losses of $ 50 million
+      at the aes corporation mainly due to remeasurement losses on intercompany notes
+      , and losses on swaps and options .
+
+
+      this loss was partially offset by gains of $ 37 million in argentina , mainly
+      due to the favorable impact of foreign currency derivatives related to government
+      receivables .
+
+
+      the company recognized a net foreign currency transaction gain of $ 107 million
+      for the year ended december 31 , 2015 primarily due to gains of : 2022 $ 124
+      million in argentina , due to the favorable impact from foreign currency derivatives
+      related to government receivables , partially offset by losses from the devaluation
+      of the argentine peso associated with u.s .
+
+
+      dollar denominated debt , and losses at termoandes ( a u.s .
+
+
+      dollar functional currency subsidiary ) primarily associated with cash and accounts
+      receivable balances in local currency , 2022 $ 29 million in colombia , mainly
+      due to the depreciation of the colombian peso , positively impacting chivor
+      ( a u.s .
+
+
+      dollar functional currency subsidiary ) due to liabilities denominated in colombian
+      pesos , 2022 $ 11 million in the united kingdom , mainly due to the depreciation
+      of the pound sterling , resulting in gains at ballylumford holdings ( a u.s
+      .
+
+
+      dollar functional currency subsidiary ) associated with intercompany notes payable
+      denominated in pound sterling , and .'
+    id: aes-2016-table-1
+- id: aes-10k-2017
+  form: 10-K
+  filed: '2018-02-27'
+  period_covered: 2017-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/874761/000087476118000014/a2017form10-k.htm
+  tables:
+  - pre_text: 'the aes corporation notes to consolidated financial statements 2014
+      ( continued ) december 31 , 2017 , 2016 , and 2015 the total amount of unrecognized
+      tax benefits anticipated to result in a net decrease to unrecognized tax benefits
+      within 12 months of december 31 , 2017 is estimated to be between $ 5 million
+      and $ 15 million , primarily relating to statute of limitation lapses and tax
+      exam settlements .
+
+
+      the following is a reconciliation of the beginning and ending amounts of unrecognized
+      tax benefits for the periods indicated ( in millions ) : .'
+    header:
+    - december 31,
+    - '2017'
+    - '2016'
+    - '2015'
+    rows:
+    - - balance at january 1
+      - $ 352
+      - $ 364
+      - $ 384
+    - - additions for current year tax positions
+      - '2014'
+      - '2'
+      - '2'
+    - - additions for tax positions of prior years
+      - '2'
+      - '1'
+      - '12'
+    - - reductions for tax positions of prior years
+      - -5 ( 5 )
+      - -1 ( 1 )
+      - -7 ( 7 )
+    - - effects of foreign currency translation
+      - '2014'
+      - '2014'
+      - -3 ( 3 )
+    - - settlements
+      - '2014'
+      - -13 ( 13 )
+      - -17 ( 17 )
+    - - lapse of statute of limitations
+      - -1 ( 1 )
+      - -1 ( 1 )
+      - -7 ( 7 )
+    - - balance at december 31
+      - $ 348
+      - $ 352
+      - $ 364
+    post_text: 'the company and certain of its subsidiaries are currently under examination
+      by the relevant taxing authorities for various tax years .
+
+
+      the company regularly assesses the potential outcome of these examinations in
+      each of the taxing jurisdictions when determining the adequacy of the amount
+      of unrecognized tax benefit recorded .
+
+
+      while it is often difficult to predict the final outcome or the timing of resolution
+      of any particular uncertain tax position , we believe we have appropriately
+      accrued for our uncertain tax benefits .
+
+
+      however , audit outcomes and the timing of audit settlements and future events
+      that would impact our previously recorded unrecognized tax benefits and the
+      range of anticipated increases or decreases in unrecognized tax benefits are
+      subject to significant uncertainty .
+
+
+      it is possible that the ultimate outcome of current or future examinations may
+      exceed our provision for current unrecognized tax benefits in amounts that could
+      be material , but cannot be estimated as of december 31 , 2017 .
+
+
+      our effective tax rate and net income in any given future period could therefore
+      be materially impacted .
+
+
+      21 .
+
+
+      discontinued operations due to a portfolio evaluation in the first half of 2016
+      , management decided to pursue a strategic shift of its distribution companies
+      in brazil , sul and eletropaulo , to reduce the company''s exposure to the brazilian
+      distribution market .
+
+
+      eletropaulo 2014 in november 2017 , eletropaulo converted its preferred shares
+      into ordinary shares and transitioned the listing of those shares into the novo
+      mercado , which is a listing segment of the brazilian stock exchange with the
+      highest standards of corporate governance .
+
+
+      upon conversion of the preferred shares into ordinary shares , aes no longer
+      controlled eletropaulo , but maintained significant influence over the business
+      .
+
+
+      as a result , the company deconsolidated eletropaulo .
+
+
+      after deconsolidation , the company''s 17% ( 17 % ) ownership interest is reflected
+      as an equity method investment .
+
+
+      the company recorded an after-tax loss on deconsolidation of $ 611 million ,
+      which primarily consisted of $ 455 million related to cumulative translation
+      losses and $ 243 million related to pension losses reclassified from aocl .
+
+
+      in december 2017 , all the remaining criteria were met for eletropaulo to qualify
+      as a discontinued operation .
+
+
+      therefore , its results of operations and financial position were reported as
+      such in the consolidated financial statements for all periods presented .
+
+
+      eletropaulo''s pre-tax loss attributable to aes , including the loss on deconsolidation
+      , for the years ended december 31 , 2017 and 2016 was $ 633 million and $ 192
+      million , respectively .
+
+
+      eletropaulo''s pre-tax income attributable to aes for the year ended december
+      31 , 2015 was $ 73 million .
+
+
+      prior to its classification as discontinued operations , eletropaulo was reported
+      in the brazil sbu reportable segment .
+
+
+      sul 2014 the company executed an agreement for the sale of sul , a wholly-owned
+      subsidiary , in june 2016 .
+
+
+      the results of operations and financial position of sul are reported as discontinued
+      operations in the consolidated financial statements for all periods presented
+      .
+
+
+      upon meeting the held-for-sale criteria , the company recognized an after-tax
+      loss of $ 382 million comprised of a pre-tax impairment charge of $ 783 million
+      , offset by a tax benefit of $ 266 million related to the impairment of the
+      sul long lived assets and a tax benefit of $ 135 million for deferred taxes
+      related to the investment in sul .
+
+
+      prior to the impairment charge , the carrying value of the sul asset group of
+      $ 1.6 billion was greater than its approximate fair value less costs to sell
+      .
+
+
+      however , the impairment charge was limited to the carrying value of the long
+      lived assets of the sul disposal group .
+
+
+      on october 31 , 2016 , the company completed the sale of sul and received final
+      proceeds less costs to sell of $ 484 million , excluding contingent consideration
+      .
+
+
+      upon disposal of sul , the company incurred an additional after-tax .'
+    id: aes-2017-table-0
+  - pre_text: '2022 triggering our obligation to make payments under any financial
+      guarantee , letter of credit or other credit support we have provided to or
+      on behalf of such subsidiary ; 2022 causing us to record a loss in the event
+      the lender forecloses on the assets ; and 2022 triggering defaults in our outstanding
+      debt at the parent company .
+
+
+      for example , our senior secured credit facility and outstanding debt securities
+      at the parent company include events of default for certain bankruptcy related
+      events involving material subsidiaries .
+
+
+      in addition , our revolving credit agreement at the parent company includes
+      events of default related to payment defaults and accelerations of outstanding
+      debt of material subsidiaries .
+
+
+      some of our subsidiaries are currently in default with respect to all or a portion
+      of their outstanding indebtedness .
+
+
+      the total non-recourse debt classified as current in the accompanying consolidated
+      balance sheets amounts to $ 2.2 billion .
+
+
+      the portion of current debt related to such defaults was $ 1 billion at december
+      31 , 2017 , all of which was non-recourse debt related to three subsidiaries
+      2014 alto maipo , aes puerto rico , and aes ilumina .
+
+
+      see note 10 2014debt in item 8 . 2014financial statements and supplementary
+      data of this form 10-k for additional detail .
+
+
+      none of the subsidiaries that are currently in default are subsidiaries that
+      met the applicable definition of materiality under aes'' corporate debt agreements
+      as of december 31 , 2017 in order for such defaults to trigger an event of default
+      or permit acceleration under aes'' indebtedness .
+
+
+      however , as a result of additional dispositions of assets , other significant
+      reductions in asset carrying values or other matters in the future that may
+      impact our financial position and results of operations or the financial position
+      of the individual subsidiary , it is possible that one or more of these subsidiaries
+      could fall within the definition of a "material subsidiary" and thereby upon
+      an acceleration trigger an event of default and possible acceleration of the
+      indebtedness under the parent company''s outstanding debt securities .
+
+
+      a material subsidiary is defined in the company''s senior secured revolving
+      credit facility as any business that contributed 20% ( 20 % ) or more of the
+      parent company''s total cash distributions from businesses for the four most
+      recently completed fiscal quarters .
+
+
+      as of december 31 , 2017 , none of the defaults listed above individually or
+      in the aggregate results in or is at risk of triggering a cross-default under
+      the recourse debt of the company .
+
+
+      contractual obligations and parent company contingent contractual obligations
+      a summary of our contractual obligations , commitments and other liabilities
+      as of december 31 , 2017 is presented below and excludes any businesses classified
+      as discontinued operations or held-for-sale ( in millions ) : contractual obligations
+      total less than 1 year more than 5 years other footnote reference ( 4 ) debt
+      obligations ( 1 ) $ 20404 $ 2250 $ 2431 $ 5003 $ 10720 $ 2014 10 interest payments
+      on long-term debt ( 2 ) 9103 1172 2166 1719 4046 2014 n/a .'
+    header:
+    - contractual obligations
+    - total
+    - less than 1 year
+    - 1-3 years
+    - 3-5 years
+    - more than 5 years
+    - other
+    - footnote reference ( 4 )
+    rows:
+    - - debt obligations ( 1 )
+      - $ 20404
+      - $ 2250
+      - $ 2431
+      - $ 5003
+      - $ 10720
+      - $ 2014
+      - '10'
+    - - interest payments on long-term debt ( 2 )
+      - '9103'
+      - '1172'
+      - '2166'
+      - '1719'
+      - '4046'
+      - '2014'
+      - n/a
+    - - capital lease obligations
+      - '18'
+      - '2'
+      - '2'
+      - '2'
+      - '12'
+      - '2014'
+      - '11'
+    - - operating lease obligations
+      - '935'
+      - '58'
+      - '116'
+      - '117'
+      - '644'
+      - '2014'
+      - '11'
+    - - electricity obligations
+      - '4501'
+      - '581'
+      - '948'
+      - '907'
+      - '2065'
+      - '2014'
+      - '11'
+    - - fuel obligations
+      - '5859'
+      - '1759'
+      - '1642'
+      - '992'
+      - '1466'
+      - '2014'
+      - '11'
+    - - other purchase obligations
+      - '4984'
+      - '1488'
+      - '1401'
+      - '781'
+      - '1314'
+      - '2014'
+      - '11'
+    - - other long-term liabilities reflected on aes' consolidated balance sheet under
+        gaap ( 3 )
+      - '701'
+      - '2014'
+      - '284'
+      - '118'
+      - '277'
+      - '22'
+      - n/a
+    - - total
+      - $ 46505
+      - $ 7310
+      - $ 8990
+      - $ 9639
+      - $ 20544
+      - $ 22
+      - ''
+    post_text: '_____________________________ ( 1 ) includes recourse and non-recourse
+      debt presented on the consolidated balance sheet .
+
+
+      these amounts exclude capital lease obligations which are included in the capital
+      lease category .
+
+
+      ( 2 ) interest payments are estimated based on final maturity dates of debt
+      securities outstanding at december 31 , 2017 and do not reflect anticipated
+      future refinancing , early redemptions or new debt issuances .
+
+
+      variable rate interest obligations are estimated based on rates as of december
+      31 , 2017 .
+
+
+      ( 3 ) these amounts do not include current liabilities on the consolidated balance
+      sheet except for the current portion of uncertain tax obligations .
+
+
+      noncurrent uncertain tax obligations are reflected in the "other" column of
+      the table above as the company is not able to reasonably estimate the timing
+      of the future payments .
+
+
+      in addition , these amounts do not include : ( 1 ) regulatory liabilities (
+      see note 9 2014regulatory assets and liabilities ) , ( 2 ) contingencies ( see
+      note 12 2014contingencies ) , ( 3 ) pension and other postretirement employee
+      benefit liabilities ( see note 13 2014benefit plans ) , ( 4 ) derivatives and
+      incentive compensation ( see note 5 2014derivative instruments and hedging activities
+      ) or ( 5 ) any taxes ( see note 20 2014income taxes ) except for uncertain tax
+      obligations , as the company is not able to reasonably estimate the timing of
+      future payments .
+
+
+      see the indicated notes to the consolidated financial statements included in
+      item 8 of this form 10-k for additional information on the items excluded .
+
+
+      ( 4 ) for further information see the note referenced below in item 8 . 2014financial
+      statements and supplementary data of this form 10-k. .'
+    id: aes-2017-table-1
+  - pre_text: 'foreign currency transaction gains ( losses ) foreign currency transaction
+      gains ( losses ) in millions were as follows: .'
+    header:
+    - years ended december 31,
+    - '2017'
+    - '2016'
+    - '2015'
+    rows:
+    - - mexico
+      - $ 17
+      - $ -8 ( 8 )
+      - $ -6 ( 6 )
+    - - philippines
+      - '15'
+      - '12'
+      - '8'
+    - - bulgaria
+      - '14'
+      - -8 ( 8 )
+      - '3'
+    - - chile
+      - '8'
+      - -9 ( 9 )
+      - -18 ( 18 )
+    - - aes corporation
+      - '3'
+      - -50 ( 50 )
+      - -31 ( 31 )
+    - - argentina
+      - '1'
+      - '37'
+      - '124'
+    - - united kingdom
+      - -3 ( 3 )
+      - '13'
+      - '11'
+    - - colombia
+      - -23 ( 23 )
+      - -8 ( 8 )
+      - '29'
+    - - other
+      - '10'
+      - '6'
+      - -14 ( 14 )
+    - - total ( 1 )
+      - $ 42
+      - $ -15 ( 15 )
+      - $ 106
+    post_text: 'total ( 1 ) $ 42 $ ( 15 ) $ 106 _____________________________ ( 1
+      ) includes gains of $ 21 million , $ 17 million and $ 247 million on foreign
+      currency derivative contracts for the years ended december 31 , 2017 , 2016
+      and 2015 , respectively .
+
+
+      the company recognized net foreign currency transaction gains of $ 42 million
+      for the year ended december 31 , 2017 primarily driven by transactions associated
+      with vat activity in mexico , the amortization of frozen embedded derivatives
+      in the philippines , and appreciation of the euro in bulgaria .
+
+
+      these gains were partially offset by unfavorable foreign currency derivatives
+      in colombia .
+
+
+      the company recognized net foreign currency transaction losses of $ 15 million
+      for the year ended december 31 , 2016 primarily due to remeasurement losses
+      on intercompany notes , and losses on swaps and options at the aes corporation
+      .
+
+
+      this loss was partially offset in argentina , mainly due to the favorable impact
+      of foreign currency derivatives related to government receivables .
+
+
+      the company recognized net foreign currency transaction gains of $ 106 million
+      for the year ended december 31 , 2015 primarily due to foreign currency derivatives
+      related to government receivables in argentina and depreciation of the colombian
+      peso in colombia .
+
+
+      these gains were partially offset due to decreases in the valuation of intercompany
+      notes at the aes corporation and unfavorable devaluation of the chilean peso
+      in chile .
+
+
+      income tax expense income tax expense increased $ 958 million to $ 990 million
+      in 2017 as compared to 2016 .
+
+
+      the company''s effective tax rates were 128% ( 128 % ) and 17% ( 17 % ) for
+      the years ended december 31 , 2017 and 2016 , respectively .
+
+
+      the net increase in the 2017 effective tax rate was due primarily to expense
+      related to the u.s .
+
+
+      tax reform one-time transition tax and remeasurement of deferred tax assets
+      .
+
+
+      further , the 2016 rate was impacted by the items described below .
+
+
+      income tax expense decreased $ 380 million to $ 32 million in 2016 as compared
+      to 2015 .
+
+
+      the company''s effective tax rates were 17% ( 17 % ) and 42% ( 42 % ) for the
+      years ended december 31 , 2016 and 2015 , respectively .
+
+
+      the net decrease in the 2016 effective tax rate was due , in part , to the 2016
+      asset impairments in the u.s. , as well as the devaluation of the peso in certain
+      of our mexican subsidiaries and the release of valuation allowance at certain
+      of our brazilian subsidiaries .
+
+
+      these favorable items were partially offset by the unfavorable impact of chilean
+      income tax law reform enacted during the first quarter of 2016 .
+
+
+      further , the 2015 rate was due , in part , to the nondeductible 2015 impairment
+      of goodwill at dp&l and chilean withholding taxes offset by the release of valuation
+      allowance at certain of our businesses in brazil , vietnam and the u.s .
+
+
+      see note 19 2014asset impairment expense included in item 8 . 2014financial
+      statements and supplementary data of this form 10-k for additional information
+      regarding the 2016 u.s .
+
+
+      asset impairments .
+
+
+      see note 20 2014income taxes included in item 8 . 2014financial statements and
+      supplementary data of this form 10-k for additional information regarding the
+      2016 chilean income tax law reform .
+
+
+      our effective tax rate reflects the tax effect of significant operations outside
+      the u.s. , which are generally taxed at rates different than the u.s .
+
+
+      statutory rate .
+
+
+      foreign earnings may be taxed at rates higher than the new u.s .
+
+
+      corporate rate of 21% ( 21 % ) and a greater portion of our foreign earnings
+      may be subject to current u.s .
+
+
+      taxation under the new tax rules .
+
+
+      a future proportionate change in the composition of income before income taxes
+      from foreign and domestic tax jurisdictions could impact our periodic effective
+      tax rate .
+
+
+      the company also benefits from reduced tax rates in certain countries as a result
+      of satisfying specific commitments regarding employment and capital investment
+      .
+
+
+      see note 20 2014income taxes included in item 8 . 2014financial statements and
+      supplementary data of this form 10-k for additional information regarding these
+      reduced rates. .'
+    id: aes-2017-table-2
+- id: aes-10k-2018
+  form: 10-K
+  filed: '2019-02-27'
+  period_covered: 2018-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/874761/000087476119000012/a2018form10-k.htm
+  tables:
+  - pre_text: 'the aes corporation notes to consolidated financial statements 2014
+      ( continued ) december 31 , 2018 , 2017 , and 2016 the following is a reconciliation
+      of the beginning and ending amounts of unrecognized tax benefits for the periods
+      indicated ( in millions ) : .'
+    header:
+    - ''
+    - '2018'
+    - '2017'
+    - '2016'
+    rows:
+    - - balance at january 1
+      - $ 348
+      - $ 352
+      - $ 364
+    - - additions for current year tax positions
+      - '2'
+      - '2014'
+      - '2'
+    - - additions for tax positions of prior years
+      - '146'
+      - '2'
+      - '1'
+    - - reductions for tax positions of prior years
+      - ( 26 )
+      - ( 5 )
+      - ( 1 )
+    - - settlements
+      - '2014'
+      - '2014'
+      - ( 13 )
+    - - lapse of statute of limitations
+      - ( 7 )
+      - ( 1 )
+      - ( 1 )
+    - - balance at december 31
+      - $ 463
+      - $ 348
+      - $ 352
+    post_text: 'the company and certain of its subsidiaries are currently under examination
+      by the relevant taxing authorities for various tax years .
+
+
+      the company regularly assesses the potential outcome of these examinations in
+      each of the taxing jurisdictions when determining the adequacy of the amount
+      of unrecognized tax benefit recorded .
+
+
+      while it is often difficult to predict the final outcome or the timing of resolution
+      of any particular uncertain tax position , we believe we have appropriately
+      accrued for our uncertain tax benefits .
+
+
+      however , audit outcomes and the timing of audit settlements and future events
+      that would impact our previously recorded unrecognized tax benefits and the
+      range of anticipated increases or decreases in unrecognized tax benefits are
+      subject to significant uncertainty .
+
+
+      it is possible that the ultimate outcome of current or future examinations may
+      exceed our provision for current unrecognized tax benefits in amounts that could
+      be material , but cannot be estimated as of december 31 , 2018 .
+
+
+      our effective tax rate and net income in any given future period could therefore
+      be materially impacted .
+
+
+      22 .
+
+
+      discontinued operations due to a portfolio evaluation in the first half of 2016
+      , management decided to pursue a strategic shift of its distribution companies
+      in brazil , sul and eletropaulo , to reduce the company''s exposure to the brazilian
+      distribution market .
+
+
+      the disposals of sul and eletropaulo were completed in october 2016 and june
+      2018 , respectively .
+
+
+      eletropaulo 2014 in november 2017 , eletropaulo converted its preferred shares
+      into ordinary shares and transitioned the listing of those shares to the novo
+      mercado , which is a listing segment of the brazilian stock exchange with the
+      highest standards of corporate governance .
+
+
+      upon conversion of the preferred shares into ordinary shares , aes no longer
+      controlled eletropaulo , but maintained significant influence over the business
+      .
+
+
+      as a result , the company deconsolidated eletropaulo .
+
+
+      after deconsolidation , the company''s 17% ( 17 % ) ownership interest was reflected
+      as an equity method investment .
+
+
+      the company recorded an after-tax loss on deconsolidation of $ 611 million ,
+      which primarily consisted of $ 455 million related to cumulative translation
+      losses and $ 243 million related to pension losses reclassified from aocl .
+
+
+      in december 2017 , all the remaining criteria were met for eletropaulo to qualify
+      as a discontinued operation .
+
+
+      therefore , its results of operations and financial position were reported as
+      such in the consolidated financial statements for all periods presented .
+
+
+      in june 2018 , the company completed the sale of its entire 17% ( 17 % ) ownership
+      interest in eletropaulo through a bidding process hosted by the brazilian securities
+      regulator , cvm .
+
+
+      gross proceeds of $ 340 million were received at our subsidiary in brazil ,
+      subject to the payment of taxes .
+
+
+      upon disposal of eletropaulo , the company recorded a pre-tax gain on sale of
+      $ 243 million ( after-tax $ 199 million ) .
+
+
+      excluding the gain on sale , eletropaulo''s pre-tax loss attributable to aes
+      was immaterial for the year ended december 31 , 2018 .
+
+
+      eletropaulo''s pre-tax loss attributable to aes , including the loss on deconsolidation
+      , for the years ended december 31 , 2017 and 2016 was $ 633 million and $ 192
+      million , respectively .
+
+
+      prior to its classification as discontinued operations , eletropaulo was reported
+      in the south america sbu reportable segment .
+
+
+      sul 2014 the company executed an agreement for the sale of sul , a wholly-owned
+      subsidiary , in june 2016 .
+
+
+      the results of operations and financial position of sul are reported as discontinued
+      operations in the consolidated financial statements for all periods presented
+      .
+
+
+      upon meeting the held-for-sale criteria , the company recognized an after-tax
+      loss of $ 382 million comprised of a pre-tax impairment charge of $ 783 million
+      , offset by a tax benefit of $ 266 million related to the impairment of the
+      sul long lived assets and a tax benefit of $ 135 million for deferred taxes
+      related to the investment in sul .
+
+
+      prior to the impairment charge , the carrying value of the sul asset group of
+      $ 1.6 billion was greater than its approximate fair value less costs to sell
+      .
+
+
+      however , the impairment charge was limited to the carrying value of the long
+      lived assets of the sul disposal group. .'
+    id: aes-2018-table-0
+- id: aes-10k-2023
+  form: 10-K
+  filed: '2024-02-26'
+  period_covered: 2023-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/874761/000087476124000011/aes-20231231.htm
+  tables: []
+- id: aes-10k-2024
+  form: 10-K
+  filed: '2025-03-11'
+  period_covered: 2024-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/874761/000087476125000013/aes-20241231.htm
+  tables: []
+- id: aes-10k-2025
+  form: 10-K
+  filed: '2026-03-02'
+  period_covered: 2025-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/874761/000087476126000063/aes-20251231.htm
+  tables: []

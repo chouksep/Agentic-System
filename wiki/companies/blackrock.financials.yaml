@@ -1,0 +1,141 @@
+schema_version: 1
+ticker: BLK
+cik: 0002012383
+metrics:
+  currency: USD
+  units: millions
+  by_period:
+    2024-FY:
+      revenue: 11061.0
+      operating_income: 6385.0
+      net_income: 5178.0
+      diluted_eps: 33.97
+      total_assets: 123211.0
+      total_liabilities: 81971.0
+      total_equity: 39347.0
+      cash_and_equivalents: 8736.0
+      total_debt: 7918.0
+      operating_cash_flow: 4956.0
+      capex: 533.0
+      free_cash_flow: 4423.0
+    2024-Q3:
+      revenue: 13228.0
+      operating_income: 4690.0
+      net_income: 4127.0
+      diluted_eps: 27.36
+      total_assets: 123211.0
+      total_liabilities: 81971.0
+      total_equity: 39347.0
+      cash_and_equivalents: 8736.0
+      total_debt: 7918.0
+      operating_cash_flow: 2167.0
+      capex: 220.0
+      free_cash_flow: 1947.0
+    2025-FY:
+      revenue: 17859.0
+      operating_income: 6275.0
+      net_income: 5502.0
+      diluted_eps: 36.51
+      total_assets: 138615.0
+      total_liabilities: 89260.0
+      total_equity: 47495.0
+      cash_and_equivalents: 12762.0
+      total_debt: 12314.0
+      operating_cash_flow: 4165.0
+      capex: 344.0
+      free_cash_flow: 3821.0
+    2025-Q1:
+      revenue: 4728.0
+      operating_income: 1693.0
+      net_income: 1573.0
+      diluted_eps: 10.48
+      total_assets: 138615.0
+      total_liabilities: 89260.0
+      total_equity: 47495.0
+      cash_and_equivalents: 12762.0
+      total_debt: 12314.0
+      operating_cash_flow: -408.0
+      capex: 64.0
+      free_cash_flow: -472.0
+    2025-Q2:
+      revenue: 9533.0
+      operating_income: 3493.0
+      net_income: 3068.0
+      diluted_eps: 20.47
+      total_assets: 138615.0
+      total_liabilities: 89260.0
+      total_equity: 47495.0
+      cash_and_equivalents: 12762.0
+      total_debt: 12314.0
+      operating_cash_flow: 957.0
+      capex: 71.0
+      free_cash_flow: 886.0
+    2025-Q3:
+      revenue: 14730.0
+      operating_income: 5499.0
+      net_income: 4699.0
+      diluted_eps: 31.37
+      total_assets: 138615.0
+      total_liabilities: 89260.0
+      total_equity: 47495.0
+      cash_and_equivalents: 12762.0
+      total_debt: 12314.0
+      operating_cash_flow: 2338.0
+      capex: 165.0
+      free_cash_flow: 2173.0
+    2026-Q1:
+      revenue: 5276.0
+      operating_income: 1698.0
+      net_income: 1510.0
+      diluted_eps: 9.64
+      total_assets: 169998.0
+      total_liabilities: 108456.0
+      total_equity: 55888.0
+      cash_and_equivalents: 11468.0
+      total_debt: 12768.0
+      operating_cash_flow: -1128.0
+      capex: 78.0
+      free_cash_flow: -1206.0
+  metadata:
+    capex:
+      xbrl_concept: us-gaap:PaymentsToAcquirePropertyPlantAndEquipment
+      description: Capex
+    cash_and_equivalents:
+      xbrl_concept: us-gaap:CashAndCashEquivalentsAtCarryingValue
+      description: Cash and equivalents
+    diluted_eps:
+      xbrl_concept: us-gaap:EarningsPerShareDiluted
+      description: Diluted eps
+    free_cash_flow:
+      description: Free cash flow
+    net_income:
+      xbrl_concept: us-gaap:NetIncomeLoss
+      description: Net income
+    operating_cash_flow:
+      xbrl_concept: us-gaap:NetCashProvidedByUsedInOperatingActivities
+      description: Operating cash flow
+    operating_income:
+      xbrl_concept: us-gaap:OperatingIncomeLoss
+      description: Operating income
+    revenue:
+      xbrl_concept: us-gaap:Revenues
+      description: Revenue
+    total_assets:
+      xbrl_concept: us-gaap:Assets
+      description: Total assets
+    total_debt:
+      xbrl_concept: us-gaap:LongTermDebt
+      description: Total debt
+    total_equity:
+      xbrl_concept: us-gaap:StockholdersEquity
+      description: Total equity
+    total_liabilities:
+      xbrl_concept: us-gaap:Liabilities
+      description: Total liabilities
+filings:
+- id: blk-10k-2025
+  form: 10-K
+  filed: '2026-02-25'
+  period_covered: 2025-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm
+  tables: []

@@ -1,0 +1,399 @@
+schema_version: 1
+ticker: PNC
+cik: '0000713676'
+metrics:
+  currency: USD
+  units: millions
+  by_period:
+    2009-FY:
+      revenue: 5891.0
+      diluted_eps: 4.32
+      total_assets: 291081.0
+      total_liabilities: 263433.0
+      total_equity: 25422.0
+      operating_cash_flow: -416.0
+    2009-Q2:
+      revenue: 3860.0
+      net_income: 882.0
+      diluted_eps: 2.54
+      total_assets: 291081.0
+      total_liabilities: 263433.0
+      total_equity: 25422.0
+      operating_cash_flow: 2103.0
+    2009-Q3:
+      revenue: 5514.0
+      net_income: 1130.0
+      diluted_eps: 3.23
+      total_assets: 291081.0
+      total_liabilities: 263433.0
+      total_equity: 25422.0
+      operating_cash_flow: 5404.0
+    2011-FY:
+      revenue: 16228.0
+      diluted_eps: 4.36
+      total_assets: 264284.0
+      total_liabilities: 231446.0
+      total_equity: 30242.0
+      operating_cash_flow: 5754.0
+    2011-Q1:
+      revenue: 3763.0
+      diluted_eps: 0.66
+      total_assets: 264284.0
+      total_liabilities: 231446.0
+      total_equity: 30242.0
+      operating_cash_flow: 2272.0
+    2011-Q2:
+      revenue: 7675.0
+      diluted_eps: 2.15
+      total_assets: 264284.0
+      total_liabilities: 231446.0
+      total_equity: 30242.0
+      operating_cash_flow: 4269.0
+    2011-Q3:
+      revenue: 11273.0
+      diluted_eps: 4.24
+      total_assets: 264284.0
+      total_liabilities: 231446.0
+      total_equity: 30242.0
+      operating_cash_flow: 4438.0
+    2012-FY:
+      revenue: 15176.0
+      diluted_eps: 5.74
+      total_assets: 271205.0
+      total_liabilities: 233959.0
+      total_equity: 34053.0
+      operating_cash_flow: 4812.0
+    2012-Q1:
+      revenue: 3631.0
+      diluted_eps: 1.57
+      total_assets: 271205.0
+      total_liabilities: 233959.0
+      total_equity: 34053.0
+      operating_cash_flow: 727.0
+    2012-Q2:
+      revenue: 7233.0
+      diluted_eps: 3.24
+      total_assets: 271205.0
+      total_liabilities: 233959.0
+      total_equity: 34053.0
+      operating_cash_flow: 3705.0
+    2012-Q3:
+      revenue: 10777.0
+      diluted_eps: 4.79
+      total_assets: 271205.0
+      total_liabilities: 233959.0
+      total_equity: 34053.0
+      operating_cash_flow: 4585.0
+    2013-FY:
+      revenue: 14326.0
+      diluted_eps: 5.64
+      total_assets: 305107.0
+      total_liabilities: 263342.0
+      total_equity: 39003.0
+    2013-Q1:
+      revenue: 3732.0
+      diluted_eps: 1.44
+      total_assets: 305107.0
+      total_liabilities: 263342.0
+      total_equity: 39003.0
+      operating_cash_flow: 2776.0
+    2013-Q2:
+      revenue: 7355.0
+      diluted_eps: 2.42
+      total_assets: 305107.0
+      total_liabilities: 263342.0
+      total_equity: 39003.0
+      operating_cash_flow: 3814.0
+    2013-Q3:
+      revenue: 11443.0
+      diluted_eps: 4.06
+      total_assets: 305107.0
+      total_liabilities: 263342.0
+      total_equity: 39003.0
+    2014-FY:
+      revenue: 15512.0
+      diluted_eps: 5.28
+      total_assets: 320192.0
+      total_liabilities: 276155.0
+      total_equity: 42334.0
+    2014-Q1:
+      revenue: 3955.0
+      net_income: 928.0
+      diluted_eps: 1.74
+      total_assets: 320192.0
+      total_liabilities: 276155.0
+      total_equity: 42334.0
+    2014-Q2:
+      revenue: 8019.0
+      diluted_eps: 3.72
+      total_assets: 320192.0
+      total_liabilities: 276155.0
+      total_equity: 42334.0
+    2014-Q3:
+      revenue: 11939.0
+      diluted_eps: 5.49
+      total_assets: 320192.0
+      total_liabilities: 276155.0
+      total_equity: 42334.0
+    2015-FY:
+      revenue: 16012.0
+      diluted_eps: 7.36
+      total_assets: 345072.0
+      total_liabilities: 298998.0
+      total_equity: 44551.0
+    2015-Q1:
+      revenue: 3777.0
+      diluted_eps: 1.82
+      total_assets: 345072.0
+      total_liabilities: 298998.0
+      total_equity: 44551.0
+    2015-Q2:
+      revenue: 7587.0
+      diluted_eps: 3.67
+      total_assets: 345072.0
+      total_liabilities: 298998.0
+      total_equity: 44551.0
+    2015-Q3:
+      revenue: 11428.0
+      diluted_eps: 5.45
+      total_assets: 345072.0
+      total_liabilities: 298998.0
+      total_equity: 44551.0
+    2016-FY:
+      revenue: 15375.0
+      diluted_eps: 7.3
+      total_assets: 358493.0
+      total_liabilities: 312513.0
+      total_equity: 44710.0
+    2016-Q1:
+      revenue: 3731.0
+      diluted_eps: 1.75
+      total_assets: 358493.0
+      total_liabilities: 312513.0
+      total_equity: 44710.0
+    2016-Q2:
+      revenue: 7597.0
+      diluted_eps: 3.63
+      total_assets: 358493.0
+      total_liabilities: 312513.0
+      total_equity: 44710.0
+    2016-Q3:
+      revenue: 11372.0
+      diluted_eps: 5.52
+      total_assets: 358493.0
+      total_liabilities: 312513.0
+      total_equity: 44710.0
+    2017-FY:
+      revenue: 15225.0
+      diluted_eps: 7.39
+      total_assets: 366380.0
+      total_liabilities: 319526.0
+      total_equity: 45699.0
+    2017-Q1:
+      revenue: 3665.0
+      diluted_eps: 1.68
+      total_assets: 366380.0
+      total_liabilities: 319526.0
+      total_equity: 45699.0
+    2017-Q2:
+      revenue: 7459.0
+      diluted_eps: 3.49
+      total_assets: 366380.0
+      total_liabilities: 319526.0
+      total_equity: 45699.0
+    2017-Q3:
+      revenue: 11288.0
+      diluted_eps: 5.33
+      total_assets: 366380.0
+      total_liabilities: 319526.0
+      total_equity: 45699.0
+      operating_cash_flow: 2295.0
+    2018-FY:
+      revenue: 15162.0
+      diluted_eps: 7.3
+      total_assets: 380768.0
+      total_liabilities: 333183.0
+      total_equity: 47513.0
+      operating_cash_flow: 3500.0
+    2018-Q1:
+      revenue: 3884.0
+      diluted_eps: 1.96
+      total_assets: 380768.0
+      total_liabilities: 333183.0
+      total_equity: 47513.0
+      operating_cash_flow: 1590.0
+    2018-Q2:
+      revenue: 7944.0
+      diluted_eps: 4.05
+      total_assets: 380768.0
+      total_liabilities: 333183.0
+      total_equity: 47513.0
+      operating_cash_flow: 2220.0
+    2018-Q3:
+      revenue: 12069.0
+      diluted_eps: 6.21
+      total_assets: 380768.0
+      total_liabilities: 333183.0
+      total_equity: 47513.0
+      operating_cash_flow: 4715.0
+    2023-FY:
+      revenue: 19211.0
+      diluted_eps: 12.7
+      total_assets: 557263.0
+      total_liabilities: 511451.0
+      total_equity: 45774.0
+      cash_and_equivalents: 7431.0
+      total_debt: 72737.0
+      operating_cash_flow: 7214.0
+    2023-Q1:
+      revenue: 4692.0
+      diluted_eps: 3.23
+      total_assets: 557263.0
+      total_liabilities: 511451.0
+      total_equity: 45774.0
+      cash_and_equivalents: 6971.0
+      total_debt: 60833.0
+      operating_cash_flow: -989.0
+    2023-Q2:
+      revenue: 9808.0
+      diluted_eps: 6.61
+      total_assets: 557263.0
+      total_liabilities: 511451.0
+      total_equity: 45774.0
+      cash_and_equivalents: 7950.0
+      total_debt: 65384.0
+      operating_cash_flow: 1643.0
+    2023-Q3:
+      revenue: 15357.0
+      diluted_eps: 10.39
+      total_assets: 557263.0
+      total_liabilities: 511451.0
+      total_equity: 45774.0
+      cash_and_equivalents: 5974.0
+      total_debt: 66167.0
+      operating_cash_flow: 5037.0
+    2024-FY:
+      revenue: 21120.0
+      diluted_eps: 13.85
+      total_assets: 561580.0
+      total_liabilities: 510439.0
+      total_equity: 51105.0
+      cash_and_equivalents: 33766.0
+      total_debt: 72737.0
+      operating_cash_flow: 9083.0
+    2024-Q1:
+      revenue: 5603.0
+      diluted_eps: 3.98
+      total_assets: 561580.0
+      total_liabilities: 510439.0
+      total_equity: 51105.0
+      cash_and_equivalents: 5335.0
+      total_debt: 72707.0
+      operating_cash_flow: 1876.0
+    2024-Q2:
+      revenue: 10896.0
+      diluted_eps: 7.34
+      total_assets: 561580.0
+      total_liabilities: 510439.0
+      total_equity: 51105.0
+      cash_and_equivalents: 43863.0
+      total_debt: 72737.0
+      operating_cash_flow: 5132.0
+    2024-Q3:
+      revenue: 16129.0
+      diluted_eps: 10.94
+      total_assets: 561580.0
+      total_liabilities: 510439.0
+      total_equity: 51105.0
+      cash_and_equivalents: 46266.0
+      total_debt: 72737.0
+      operating_cash_flow: 5247.0
+    2025-FY:
+      revenue: 21490.0
+      diluted_eps: 12.79
+      total_assets: 560038.0
+      total_liabilities: 505569.0
+      total_equity: 54425.0
+      total_debt: 61673.0
+      operating_cash_flow: 10111.0
+    2025-Q1:
+      revenue: 5145.0
+      diluted_eps: 3.1
+      total_assets: 560038.0
+      total_liabilities: 505569.0
+      total_equity: 54425.0
+      cash_and_equivalents: 58611.0
+      total_debt: 61673.0
+      operating_cash_flow: 1758.0
+    2025-Q2:
+      revenue: 10556.0
+      diluted_eps: 6.48
+      total_assets: 560038.0
+      total_liabilities: 505569.0
+      total_equity: 54425.0
+      cash_and_equivalents: 38407.0
+      total_debt: 61673.0
+      operating_cash_flow: 2793.0
+    2025-Q3:
+      revenue: 15988.0
+      diluted_eps: 9.98
+      total_assets: 560038.0
+      total_liabilities: 505569.0
+      total_equity: 54425.0
+      total_debt: 61673.0
+      operating_cash_flow: 6080.0
+    2026-Q1:
+      revenue: 5452.0
+      diluted_eps: 3.51
+      total_assets: 573572.0
+      total_liabilities: 512936.0
+      total_equity: 60585.0
+      total_debt: 57101.0
+      operating_cash_flow: -509.0
+  metadata:
+    cash_and_equivalents:
+      xbrl_concept: us-gaap:CashAndCashEquivalentsAtCarryingValue
+      description: Cash and equivalents
+    diluted_eps:
+      xbrl_concept: us-gaap:EarningsPerShareDiluted
+      description: Diluted eps
+    net_income:
+      xbrl_concept: us-gaap:NetIncomeLoss
+      description: Net income
+    operating_cash_flow:
+      xbrl_concept: us-gaap:NetCashProvidedByUsedInOperatingActivities
+      description: Operating cash flow
+    revenue:
+      xbrl_concept: us-gaap:Revenues
+      description: Revenue
+    total_assets:
+      xbrl_concept: us-gaap:Assets
+      description: Total assets
+    total_debt:
+      xbrl_concept: us-gaap:LongTermDebt
+      description: Total debt
+    total_equity:
+      xbrl_concept: us-gaap:StockholdersEquity
+      description: Total equity
+    total_liabilities:
+      xbrl_concept: us-gaap:Liabilities
+      description: Total liabilities
+filings:
+- id: pnc-10k-2023
+  form: 10-K
+  filed: '2024-02-21'
+  period_covered: 2023-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/713676/000071367624000028/pnc-20231231.htm
+  tables: []
+- id: pnc-10k-2024
+  form: 10-K
+  filed: '2025-02-21'
+  period_covered: 2024-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/713676/000071367625000027/pnc-20241231.htm
+  tables: []
+- id: pnc-10k-2025
+  form: 10-K
+  filed: '2026-02-20'
+  period_covered: 2025-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/713676/000071367626000020/pnc-20251231.htm
+  tables: []

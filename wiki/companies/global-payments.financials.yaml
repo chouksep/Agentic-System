@@ -1,0 +1,1920 @@
+schema_version: 1
+ticker: GPN
+cik: '0001123360'
+metrics:
+  currency: USD
+  units: millions
+  by_period:
+    2013-FY:
+      revenue: 1859.8
+      operating_income: 331.59
+      net_income: 209.24
+      diluted_eps: 2.6
+      total_assets: 2688.14
+      total_liabilities: 1242.8
+      total_equity: 1172.18
+      cash_and_equivalents: 769.95
+      total_debt: 236.56
+      operating_cash_flow: 709.77
+    2013-Q1:
+      revenue: 542.77
+      operating_income: 108.61
+      net_income: 63.97
+      diluted_eps: 0.79
+      total_assets: 2688.14
+      total_liabilities: 1242.8
+      total_equity: 1172.18
+      cash_and_equivalents: 1354.29
+      total_debt: 528.38
+      operating_cash_flow: -605.88
+    2013-Q2:
+      revenue: 1073.28
+      operating_income: 205.19
+      net_income: 125.16
+      diluted_eps: 1.57
+      total_assets: 2688.14
+      total_liabilities: 1242.8
+      total_equity: 1172.18
+      cash_and_equivalents: 1354.29
+      total_debt: 528.38
+      operating_cash_flow: -314.07
+    2013-Q3:
+      revenue: 1606.82
+      operating_income: 297.54
+      net_income: 183.07
+      diluted_eps: 2.3
+      total_assets: 2688.14
+      total_liabilities: 1242.8
+      total_equity: 1172.18
+      cash_and_equivalents: 1354.29
+      total_debt: 528.38
+      operating_cash_flow: -226.85
+    2014-FY:
+      revenue: 2203.85
+      operating_income: 307.35
+      net_income: 188.16
+      diluted_eps: 2.37
+      total_assets: 3125.06
+      total_liabilities: 1838.45
+      total_equity: 1146.09
+      cash_and_equivalents: 1354.29
+      total_debt: 891.13
+      operating_cash_flow: -173.47
+    2014-Q1:
+      revenue: 590.29
+      operating_income: 80.49
+      net_income: 46.67
+      diluted_eps: 0.59
+      total_assets: 3125.06
+      total_liabilities: 1838.45
+      total_equity: 1146.09
+      cash_and_equivalents: 781.27
+      total_debt: 891.13
+      operating_cash_flow: 68.63
+    2014-Q2:
+      revenue: 1178.83
+      operating_income: 197.07
+      net_income: 116.86
+      diluted_eps: 1.48
+      total_assets: 3125.06
+      total_liabilities: 1838.45
+      total_equity: 1146.09
+      cash_and_equivalents: 781.27
+      total_debt: 891.13
+      operating_cash_flow: 124.79
+    2014-Q3:
+      revenue: 1757.57
+      operating_income: 287.84
+      net_income: 175.32
+      diluted_eps: 2.23
+      total_assets: 3125.06
+      total_liabilities: 1838.45
+      total_equity: 1146.09
+      cash_and_equivalents: 781.27
+      total_debt: 891.13
+      operating_cash_flow: 204.77
+    2015-FY:
+      revenue: 2375.92
+      operating_income: 357.21
+      net_income: 216.12
+      diluted_eps: 2.76
+      total_assets: 4018.65
+      total_liabilities: 2885.85
+      total_equity: 997.23
+      cash_and_equivalents: 781.27
+      total_debt: 1376.0
+      operating_cash_flow: 240.55
+    2015-Q1:
+      revenue: 629.68
+      operating_income: 107.38
+      net_income: 64.64
+      diluted_eps: 0.87
+      total_assets: 4018.65
+      total_liabilities: 2885.85
+      total_equity: 997.23
+      cash_and_equivalents: 680.47
+      total_debt: 1376.0
+      operating_cash_flow: -23.19
+    2015-Q2:
+      revenue: 1263.81
+      operating_income: 219.29
+      net_income: 138.54
+      diluted_eps: 1.88
+      total_assets: 4018.65
+      total_liabilities: 2885.85
+      total_equity: 997.23
+      cash_and_equivalents: 680.47
+      total_debt: 1376.0
+      operating_cash_flow: 411.68
+    2015-Q3:
+      revenue: 1880.26
+      operating_income: 316.58
+      net_income: 193.66
+      diluted_eps: 2.65
+      total_assets: 4018.65
+      total_liabilities: 2885.85
+      total_equity: 997.23
+      cash_and_equivalents: 680.47
+      total_debt: 1376.0
+      operating_cash_flow: 314.4
+    2016-FY:
+      revenue: 2554.24
+      operating_income: 405.5
+      net_income: 245.29
+      diluted_eps: 1.69
+      total_assets: 5779.3
+      total_liabilities: 4915.75
+      total_equity: 757.98
+      cash_and_equivalents: 680.47
+      total_debt: 1740.07
+      operating_cash_flow: 194.1
+    2016-Q1:
+      revenue: 704.89
+      operating_income: 124.4
+      net_income: 75.37
+      diluted_eps: 1.1
+      total_assets: 5791.11
+      total_liabilities: 4927.56
+      total_equity: 757.98
+      cash_and_equivalents: 581.87
+      total_debt: 1740.07
+      operating_cash_flow: -63.47
+    2016-Q2:
+      revenue: 1402.19
+      operating_income: 248.38
+      net_income: 150.15
+      diluted_eps: 1.1
+      total_assets: 5779.3
+      total_liabilities: 4915.75
+      total_equity: 757.98
+      cash_and_equivalents: 581.87
+      total_debt: 1740.07
+      operating_cash_flow: 226.94
+    2016-Q3:
+      revenue: 2067.17
+      operating_income: 353.0
+      net_income: 212.72
+      diluted_eps: 1.57
+      total_assets: 5779.3
+      total_liabilities: 4915.75
+      total_equity: 757.98
+      cash_and_equivalents: 581.87
+      total_debt: 1740.07
+      operating_cash_flow: 347.08
+    2017-FY:
+      revenue: 2773.72
+      operating_income: 456.6
+      net_income: 278.04
+      diluted_eps: 2.06
+      total_assets: 10664.35
+      total_liabilities: 7885.01
+      total_equity: 2630.79
+      cash_and_equivalents: 581.87
+      total_debt: 4438.61
+      operating_cash_flow: 429.88
+    2017-Q1:
+      revenue: 748.8
+      operating_income: 137.77
+      net_income: 86.65
+      diluted_eps: 0.66
+      total_assets: 10509.95
+      total_liabilities: 7632.55
+      total_equity: 2746.48
+      cash_and_equivalents: 650.74
+      total_debt: 4515.29
+      operating_cash_flow: 513.39
+    2017-Q2:
+      revenue: 1471.15
+      operating_income: 260.94
+      net_income: 165.42
+      diluted_eps: 1.27
+      total_assets: 10509.95
+      total_liabilities: 7632.55
+      total_equity: 2746.48
+      cash_and_equivalents: 650.74
+      total_debt: 4515.29
+      operating_cash_flow: 454.07
+    2017-Q3:
+      revenue: 2420.79
+      operating_income: 276.12
+      net_income: 177.65
+      diluted_eps: 1.23
+      total_assets: 10664.35
+      total_liabilities: 7885.01
+      total_equity: 2630.79
+      cash_and_equivalents: 587.75
+      total_debt: 4438.61
+      operating_cash_flow: 367.43
+    2018-FY:
+      revenue: 1730.07
+      cost_of_revenue: 638.7
+      operating_income: 306.55
+      net_income: 194.84
+      diluted_eps: 1.49
+      total_assets: 12998.07
+      total_liabilities: 9032.84
+      total_equity: 3794.53
+      cash_and_equivalents: 650.74
+      total_debt: 4659.72
+      operating_cash_flow: 592.89
+    2018-Q1:
+      revenue: 919.76
+      operating_income: 104.97
+      net_income: 48.81
+      diluted_eps: 0.32
+      total_assets: 12998.07
+      total_liabilities: 9032.84
+      total_equity: 3794.53
+      cash_and_equivalents: 1162.78
+      total_debt: 4659.72
+      operating_cash_flow: 293.96
+    2018-Q2:
+      revenue: 1882.0
+      cost_of_revenue: 925.09
+      operating_income: 236.82
+      net_income: 115.72
+      diluted_eps: 0.75
+      total_assets: 12998.07
+      total_liabilities: 9032.84
+      total_equity: 3794.53
+      cash_and_equivalents: 1162.78
+      total_debt: 4659.72
+      operating_cash_flow: 268.06
+    2018-Q3:
+      revenue: 2920.91
+      cost_of_revenue: 1418.97
+      operating_income: 409.29
+      net_income: 226.46
+      diluted_eps: 1.47
+      total_assets: 12998.07
+      total_liabilities: 9032.84
+      total_equity: 3794.53
+      cash_and_equivalents: 1162.78
+      total_debt: 4659.72
+      operating_cash_flow: 360.12
+    2023-FY:
+      revenue: 8523.76
+      cost_of_revenue: 3773.72
+      operating_income: 1358.88
+      net_income: 965.46
+      diluted_eps: 3.29
+      total_assets: 44809.01
+      total_liabilities: 22268.8
+      total_equity: 22303.51
+      cash_and_equivalents: 1997.57
+      total_debt: 16368.08
+      operating_cash_flow: 2780.82
+    2023-Q1:
+      revenue: 2156.25
+      cost_of_revenue: 957.16
+      operating_income: 375.95
+      net_income: 244.73
+      diluted_eps: 0.87
+      total_assets: 44809.01
+      total_liabilities: 22268.8
+      total_equity: 22303.51
+      cash_and_equivalents: 1997.57
+      total_debt: 17774.01
+      operating_cash_flow: 630.0
+    2023-Q2:
+      revenue: 4437.16
+      cost_of_revenue: 1919.46
+      operating_income: -153.91
+      net_income: -428.27
+      diluted_eps: -1.53
+      total_assets: 44809.01
+      total_liabilities: 22268.8
+      total_equity: 22303.51
+      cash_and_equivalents: 1997.57
+      total_debt: 17106.94
+      operating_cash_flow: 1198.13
+    2023-Q3:
+      revenue: 6722.53
+      cost_of_revenue: 2850.71
+      operating_income: 232.52
+      net_income: -137.81
+      diluted_eps: -0.49
+      total_assets: 44809.01
+      total_liabilities: 22268.8
+      total_equity: 22303.51
+      cash_and_equivalents: 1997.57
+      total_debt: 16707.91
+      operating_cash_flow: 1534.51
+    2024-FY:
+      revenue: 8975.51
+      cost_of_revenue: 3778.62
+      operating_income: 640.15
+      net_income: 111.49
+      diluted_eps: 0.4
+      total_assets: 50570.19
+      total_liabilities: 26782.67
+      total_equity: 22999.21
+      cash_and_equivalents: 2088.89
+      total_debt: 16326.07
+      operating_cash_flow: 2244.04
+    2024-Q1:
+      revenue: 2292.45
+      cost_of_revenue: 947.75
+      operating_income: 56.73
+      net_income: -11.04
+      diluted_eps: -0.04
+      total_assets: 50570.19
+      total_liabilities: 26782.67
+      total_equity: 22999.21
+      cash_and_equivalents: 2088.89
+      total_debt: 17234.58
+      operating_cash_flow: 599.53
+    2024-Q2:
+      revenue: 4744.92
+      cost_of_revenue: 1889.7
+      operating_income: 659.48
+      net_income: 263.11
+      diluted_eps: 1.0
+      total_assets: 50570.19
+      total_liabilities: 26782.67
+      total_equity: 22999.21
+      cash_and_equivalents: 2088.89
+      total_debt: 17267.49
+      operating_cash_flow: 1164.48
+    2024-Q3:
+      revenue: 7220.61
+      cost_of_revenue: 2805.24
+      operating_income: 1217.67
+      net_income: 624.94
+      diluted_eps: 2.39
+      total_assets: 50570.19
+      total_liabilities: 26782.67
+      total_equity: 22999.21
+      cash_and_equivalents: 2088.89
+      total_debt: 16859.74
+      operating_cash_flow: 1591.29
+    2025-FY:
+      revenue: 7379.78
+      cost_of_revenue: 2068.3
+      operating_income: 1315.61
+      net_income: 986.23
+      diluted_eps: 3.77
+      total_assets: 46890.25
+      total_liabilities: 23873.69
+      total_equity: 22280.69
+      cash_and_equivalents: 2356.47
+      total_debt: 21551.2
+      operating_cash_flow: 2549.8
+    2025-Q1:
+      revenue: 2420.19
+      cost_of_revenue: 922.39
+      operating_income: 452.25
+      net_income: 313.31
+      diluted_eps: 1.22
+      total_assets: 46890.25
+      total_liabilities: 23873.69
+      total_equity: 22280.69
+      cash_and_equivalents: 2538.42
+      total_debt: 16278.21
+      operating_cash_flow: 529.58
+    2025-Q2:
+      revenue: 3805.12
+      cost_of_revenue: 1003.52
+      operating_income: 834.98
+      net_income: 688.07
+      diluted_eps: 2.68
+      total_assets: 46890.25
+      total_liabilities: 23873.69
+      total_equity: 22280.69
+      cash_and_equivalents: 2356.43
+      total_debt: 16100.25
+      operating_cash_flow: 1338.41
+    2025-Q3:
+      revenue: 5802.78
+      cost_of_revenue: 1508.08
+      operating_income: 1277.73
+      net_income: 1003.19
+      diluted_eps: 3.92
+      total_assets: 46890.25
+      total_liabilities: 23873.69
+      total_equity: 22280.69
+      cash_and_equivalents: 2356.43
+      total_debt: 15303.16
+      operating_cash_flow: 2174.15
+    2026-Q1:
+      revenue: 1820.32
+      cost_of_revenue: 495.18
+      operating_income: 371.96
+      net_income: 305.73
+      diluted_eps: 1.24
+      total_assets: 53338.48
+      total_liabilities: 29559.0
+      total_equity: 22888.77
+      cash_and_equivalents: 2714.05
+      total_debt: 22696.96
+      operating_cash_flow: 555.12
+  metadata:
+    cash_and_equivalents:
+      xbrl_concept: us-gaap:CashAndCashEquivalentsAtCarryingValue
+      description: Cash and equivalents
+    cost_of_revenue:
+      xbrl_concept: us-gaap:CostOfRevenue
+      description: Cost of revenue
+    diluted_eps:
+      xbrl_concept: us-gaap:EarningsPerShareDiluted
+      description: Diluted eps
+    net_income:
+      xbrl_concept: us-gaap:NetIncomeLoss
+      description: Net income
+    operating_cash_flow:
+      xbrl_concept: us-gaap:NetCashProvidedByUsedInOperatingActivities
+      description: Operating cash flow
+    operating_income:
+      xbrl_concept: us-gaap:OperatingIncomeLoss
+      description: Operating income
+    revenue:
+      xbrl_concept: us-gaap:Revenues
+      description: Revenue
+    total_assets:
+      xbrl_concept: us-gaap:Assets
+      description: Total assets
+    total_debt:
+      xbrl_concept: us-gaap:LongTermDebt
+      description: Total debt
+    total_equity:
+      xbrl_concept: us-gaap:StockholdersEquity
+      description: Total equity
+    total_liabilities:
+      xbrl_concept: us-gaap:Liabilities
+      description: Total liabilities
+filings:
+- id: gpn-10k-2016
+  form: 10-K
+  filed: '2016-07-28'
+  period_covered: 2016-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1123360/000112336016000094/gpn20160531-10k.htm
+  tables:
+  - pre_text: '2000 non-employee director stock option plan ( the 201cdirector stock
+      option plan 201d ) , and the global payments inc .
+
+
+      2011 incentive plan ( the 201c2011 plan 201d ) ( collectively , the 201cplans
+      201d ) .
+
+
+      we made no further grants under the 2000 plan after the 2005 plan was effective
+      , and the director stock option plan expired by its terms on february 1 , 2011
+      .
+
+
+      we will make no future grants under the 2000 plan , the 2005 plan or the director
+      stock option plan .
+
+
+      the 2011 plan permits grants of equity to employees , officers , directors and
+      consultants .
+
+
+      a total of 14.0 million shares of our common stock was reserved and made available
+      for issuance pursuant to awards granted under the 2011 plan .
+
+
+      the following table summarizes share-based compensation expense and the related
+      income tax benefit recognized for our share-based awards and stock options (
+      in thousands ) : 2016 2015 2014 ( in thousands ) .'
+    header:
+    - ''
+    - '2016'
+    - 2015 ( in thousands )
+    - '2014'
+    rows:
+    - - share-based compensation expense
+      - $ 30809
+      - $ 21056
+      - $ 29793
+    - - income tax benefit
+      - $ 9879
+      - $ 6907
+      - $ 7126
+    post_text: 'we grant various share-based awards pursuant to the plans under what
+      we refer to as our 201clong-term incentive plan . 201d the awards are held in
+      escrow and released upon the grantee 2019s satisfaction of conditions of the
+      award certificate .
+
+
+      restricted stock restricted stock awards vest over a period of time , provided
+      , however , that if the grantee is not employed by us on the vesting date ,
+      the shares are forfeited .
+
+
+      restricted shares cannot be sold or transferred until they have vested .
+
+
+      restricted stock granted before fiscal 2015 vests in equal installments on each
+      of the first four anniversaries of the grant date .
+
+
+      restricted stock granted during fiscal 2015 and thereafter either vest in equal
+      installments on each of the first three anniversaries of the grant date or cliff
+      vest at the end of a three-year service period .
+
+
+      the grant date fair value of restricted stock , which is based on the quoted
+      market value of our common stock at the closing of the award date , is recognized
+      as share-based compensation expense on a straight-line basis over the vesting
+      period .
+
+
+      performance units certain of our executives have been granted performance units
+      under our long-term incentive plan .
+
+
+      performance units are performance-based restricted stock units that , after
+      a performance period , convert into common shares , which may be restricted
+      .
+
+
+      the number of shares is dependent upon the achievement of certain performance
+      measures during the performance period .
+
+
+      the target number of performance units and any market-based performance measures
+      ( 201cat threshold , 201d 201ctarget , 201d and 201cmaximum 201d ) are set by
+      the compensation committee of our board of directors .
+
+
+      performance units are converted only after the compensation committee certifies
+      performance based on pre-established goals .
+
+
+      the performance units granted to certain executives in fiscal 2014 were based
+      on a one-year performance period .
+
+
+      after the compensation committee certified the performance results , 25% ( 25
+      % ) of the performance units converted to unrestricted shares .
+
+
+      the remaining 75% ( 75 % ) converted to restricted shares that vest in equal
+      installments on each of the first three anniversaries of the conversion date
+      .
+
+
+      the performance units granted to certain executives during fiscal 2015 and fiscal
+      2016 were based on a three-year performance period .
+
+
+      after the compensation committee certifies the performance results for the three-year
+      period , performance units earned will convert into unrestricted common stock
+      .
+
+
+      the compensation committee may set a range of possible performance-based outcomes
+      for performance units .
+
+
+      depending on the achievement of the performance measures , the grantee may earn
+      up to 200% ( 200 % ) of the target number of shares .
+
+
+      for awards with only performance conditions , we recognize compensation expense
+      on a straight-line basis over the performance period using the grant date fair
+      value of the award , which is based on the number of shares expected to be earned
+      according to the level of achievement of performance goals .
+
+
+      if the number of shares expected to be earned were to change at any time during
+      the performance period , we would make a cumulative adjustment to share-based
+      compensation expense based on the revised number of shares expected to be earned
+      .
+
+
+      global payments inc .
+
+
+      | 2016 form 10-k annual report 2013 83 .'
+    id: gpn-2016-table-0
+  - pre_text: 'reach in the united states , adding a 1400-person direct sales force
+      , over 300000 merchants and $ 130 billion in annual payments volume .
+
+
+      goodwill of $ 3.2 billion arising from the merger , included in the north america
+      segment , was attributable to expected growth opportunities , potential synergies
+      from combining our existing businesses and an assembled workforce , and is not
+      deductible for income tax purposes .
+
+
+      due to the timing of our merger with heartland , we are still in the process
+      of assigning goodwill to our reporting units .
+
+
+      during the year ended may 31 , 2016 , we incurred transaction costs in connection
+      with the merger of $ 24.4 million , which are recorded in selling , general
+      and administrative expenses in the consolidated statements of income .
+
+
+      the following reflects the preliminary estimated fair values of the identified
+      intangible assets ( in thousands ) : .'
+    header:
+    - customer-related intangible assets
+    - $ 977400
+    rows:
+    - - acquired technology
+      - '457000'
+    - - trademarks and trade names
+      - '176000'
+    - - covenants-not-to-compete
+      - '28640'
+    - - total estimated acquired intangible assets
+      - $ 1639040
+    post_text: 'the preliminary estimated fair value of customer-related intangible
+      assets was determined using the income approach , which is based on projected
+      cash flows discounted to their present value using discount rates that consider
+      the timing and risk of the forecasted cash flows .
+
+
+      the discount rate used is the average estimated value of a market participant
+      2019s cost of capital and debt , derived using customary market metrics .
+
+
+      other significant assumptions include terminal value margin rates , future capital
+      expenditures and future working capital requirements .
+
+
+      acquired technology was valued using the replacement cost method , which required
+      us to estimate the cost to construct an asset of equivalent utility at prices
+      available at the time of the valuation analysis , with adjustments in value
+      for physical deterioration and functional and economic obsolescence .
+
+
+      trademarks and trade names were valued using the relief-from-royalty approach
+      .
+
+
+      this method assumes that trade marks and trade names have value to the extent
+      that their owner is relieved of the obligation to pay royalties for the benefits
+      received from them .
+
+
+      this method required us to estimate the future revenue for the related brands
+      , the appropriate royalty rate and the weighted-average cost of capital .
+
+
+      the discount rate used is the average estimated value of a market participant
+      2019s cost of capital and debt , derived using customary market metrics .
+
+
+      the weighted-average estimated amortization period for the total estimated acquired
+      intangible assets is approximately 11 years .
+
+
+      the customer-related intangible assets have an estimated amortization period
+      range of 7-20 years .
+
+
+      the acquired technology has an estimated amortization period of 5 years .
+
+
+      the trademarks and trade names have an estimated amortization period of 7 years
+      .
+
+
+      covenants-not-to-compete have an estimated amortization period range of 1-4
+      years .
+
+
+      heartland 2019s revenues and operating income represented approximately 4% (
+      4 % ) and less than 0.5% ( 0.5 % ) of our total consolidated revenues and operating
+      income , respectively , for the year ended may 31 , 2016 .
+
+
+      the following unaudited pro forma information shows the results of our operations
+      for the years ended may 31 , 2016 and may 31 , 2015 as if our merger with heartland
+      had occurred on june 1 , 2014 .
+
+
+      the unaudited pro forma information reflects the effects of applying our accounting
+      policies and certain pro forma adjustments to the combined historical financial
+      information of global payments and heartland .
+
+
+      the pro forma adjustments include incremental amortization and depreciation
+      expense , incremental interest expense associated with new long-term debt ,
+      a reduction of revenues and operating expenses associated with fair value adjustments
+      made in applying the acquisition-method of accounting and the elimination of
+      nonrecurring transaction costs directly related to the merger .
+
+
+      global payments inc .
+
+
+      | 2016 form 10-k annual report 2013 67 .'
+    id: gpn-2016-table-1
+  - pre_text: 'strategy to provide omni-channel solutions that combine gateway services
+      , payment service provisioning and merchant acquiring across europe .
+
+
+      this transaction was accounted for as a business combination .
+
+
+      we recorded the assets acquired , liabilities assumed and noncontrolling interest
+      at their estimated fair values as of the acquisition date .
+
+
+      in connection with the acquisition of realex , we paid a transaction-related
+      tax of $ 1.2 million .
+
+
+      other acquisition costs were not material .
+
+
+      the revenue and earnings of realex for the year ended may 31 , 2015 were not
+      material nor were the historical revenue and earnings of realex material for
+      the purpose of presenting pro forma information for the current or prior-year
+      periods .
+
+
+      the estimated acquisition date fair values of the assets acquired , liabilities
+      assumed and the noncontrolling interest , including a reconciliation to the
+      total purchase consideration , are as follows ( in thousands ) : .'
+    header:
+    - cash
+    - $ 4082
+    rows:
+    - - customer-related intangible assets
+      - '16079'
+    - - acquired technology
+      - '39820'
+    - - trade name
+      - '3453'
+    - - other intangible assets
+      - '399'
+    - - other assets
+      - '6213'
+    - - liabilities
+      - -3479 ( 3479 )
+    - - deferred income tax liabilities
+      - -7216 ( 7216 )
+    - - total identifiable net assets
+      - '59351'
+    - - goodwill
+      - '66809'
+    - - noncontrolling interest
+      - -7280 ( 7280 )
+    - - total purchase consideration
+      - $ 118880
+    post_text: 'goodwill of $ 66.8 million arising from the acquisition , included
+      in the europe segment , was attributable to expected growth opportunities in
+      europe , potential synergies from combining our existing business with gateway
+      services and payment service provisioning in certain markets and an assembled
+      workforce to support the newly acquired technology .
+
+
+      goodwill associated with this acquisition is not deductible for income tax purposes
+      .
+
+
+      the customer-related intangible assets have an estimated amortization period
+      of 16 years .
+
+
+      the acquired technology has an estimated amortization period of 10 years .
+
+
+      the trade name has an estimated amortization period of 7 years .
+
+
+      on october 5 , 2015 , we paid 20ac6.7 million ( $ 7.5 million equivalent as
+      of october 5 , 2015 ) to acquire the remaining shares of realex after which
+      we own 100% ( 100 % ) of the outstanding shares .
+
+
+      ezidebit on october 10 , 2014 , we completed the acquisition of 100% ( 100 %
+      ) of the outstanding stock of ezi holdings pty ltd ( 201cezidebit 201d ) for
+      aud302.6 million in cash ( $ 266.0 million equivalent as of the acquisition
+      date ) .
+
+
+      this acquisition was funded by a combination of cash on hand and borrowings
+      on our revolving credit facility .
+
+
+      ezidebit is a leading integrated payments company focused on recurring payments
+      verticals in australia and new zealand .
+
+
+      ezidebit markets its services through a network of integrated software vendors
+      and direct channels to numerous vertical markets .
+
+
+      we acquired ezidebit to establish a direct distribution channel in australia
+      and new zealand and to further enhance our existing integrated solutions offerings
+      .
+
+
+      this transaction was accounted for as a business combination .
+
+
+      we recorded the assets acquired and liabilities assumed at their estimated fair
+      values as of the acquisition date .
+
+
+      certain adjustments to estimated fair value were recorded during the year ended
+      may 31 , 2016 based on new information obtained that existed as of the acquisition
+      date .
+
+
+      during the measurement period , management determined that deferred income taxes
+      should be reflected for certain nondeductible intangible assets .
+
+
+      measurement-period adjustments , which are reflected in the table below , had
+      no material effect on earnings or other comprehensive income for the current
+      or prior periods .
+
+
+      the revenue and earnings of ezidebit global payments inc .
+
+
+      | 2016 form 10-k annual report 2013 69 .'
+    id: gpn-2016-table-2
+  - pre_text: 'leveraged performance units during fiscal 2015 , certain executives
+      were granted performance units that we refer to as leveraged performance units
+      , or lpus .
+
+
+      lpus contain a market condition based on our relative stock price growth over
+      a three-year performance period .
+
+
+      the lpus contain a minimum threshold performance which , if not met , would
+      result in no payout .
+
+
+      the lpus also contain a maximum award opportunity set as a fixed dollar and
+      fixed number of shares .
+
+
+      after the three-year performance period , one-third of any earned units converts
+      to unrestricted common stock .
+
+
+      the remaining two-thirds convert to restricted stock that will vest in equal
+      installments on each of the first two anniversaries of the conversion date .
+
+
+      we recognize share-based compensation expense based on the grant date fair value
+      of the lpus , as determined by use of a monte carlo model , on a straight-line
+      basis over the requisite service period for each separately vesting portion
+      of the lpu award .
+
+
+      total shareholder return units before fiscal 2015 , certain of our executives
+      were granted total shareholder return ( 201ctsr 201d ) units , which are performance-based
+      restricted stock units that are earned based on our total shareholder return
+      over a three-year performance period compared to companies in the s&p 500 .
+
+
+      once the performance results are certified , tsr units convert into unrestricted
+      common stock .
+
+
+      depending on our performance , the grantee may earn up to 200% ( 200 % ) of
+      the target number of shares .
+
+
+      the target number of tsr units for each executive is set by the compensation
+      committee .
+
+
+      we recognize share-based compensation expense based on the grant date fair value
+      of the tsr units , as determined by use of a monte carlo model , on a straight-line
+      basis over the vesting period .
+
+
+      the following table summarizes the changes in unvested share-based awards for
+      the years ended may 31 , 2016 and 2015 ( shares in thousands ) : shares weighted-average
+      grant-date fair value .'
+    header:
+    - ''
+    - shares
+    - weighted-averagegrant-datefair value
+    rows:
+    - - unvested at may 31 2014
+      - '1754'
+      - $ 22.72
+    - - granted
+      - '954'
+      - '36.21'
+    - - vested
+      - -648 ( 648 )
+      - '23.17'
+    - - forfeited
+      - -212 ( 212 )
+      - '27.03'
+    - - unvested at may 31 2015
+      - '1848'
+      - '28.97'
+    - - granted
+      - '461'
+      - '57.04'
+    - - vested
+      - -633 ( 633 )
+      - '27.55'
+    - - forfeited
+      - -70 ( 70 )
+      - '34.69'
+    - - unvested at may 31 2016
+      - '1606'
+      - $ 37.25
+    post_text: 'including the restricted stock , performance units and tsr units described
+      above , the total fair value of share- based awards vested during the years
+      ended may 31 , 2016 , 2015 and 2014 was $ 17.4 million , $ 15.0 million and
+      $ 28.7 million , respectively .
+
+
+      for these share-based awards , we recognized compensation expense of $ 28.8
+      million , $ 19.8 million and $ 28.2 million in the years ended may 31 , 2016
+      , 2015 and 2014 , respectively .
+
+
+      as of may 31 , 2016 , there was $ 42.6 million of unrecognized compensation
+      expense related to unvested share-based awards that we expect to recognize over
+      a weighted-average period of 1.9 years .
+
+
+      our share-based award plans provide for accelerated vesting under certain conditions
+      .
+
+
+      employee stock purchase plan we have an employee stock purchase plan under which
+      the sale of 4.8 million shares of our common stock has been authorized .
+
+
+      employees may designate up to the lesser of $ 25000 or 20% ( 20 % ) of their
+      annual compensation for the purchase of our common stock .
+
+
+      the price for shares purchased under the plan is 85% ( 85 % ) of the market
+      value on 84 2013 global payments inc .
+
+
+      | 2016 form 10-k annual report .'
+    id: gpn-2016-table-3
+  - pre_text: 'stock performance graph the following graph compares our cumulative
+      shareholder returns with the standard & poor 2019s information technology index
+      and the standard & poor 2019s 500 index for the five years ended may 31 , 2016
+      .
+
+
+      the line graph assumes the investment of $ 100 in our common stock , the standard
+      & poor 2019s information technology index and the standard & poor 2019s 500
+      index on may 31 , 2011 and assumes reinvestment of all dividends .
+
+
+      comparison of 5 year cumulative total return* among global payments inc. , the
+      s&p 500 index and the s&p information technology index 5/11 5/145/135/12 global
+      payments inc .
+
+
+      s&p 500 s&p information technology 5/15 5/16 * $ 100 invested on may 31 , 2011
+      in stock or index , including reinvestment of dividends .
+
+
+      fiscal year ending may 31 .
+
+
+      copyright a9 2016 s&p , a division of the mcgraw-hill companies inc .
+
+
+      all rights reserved .
+
+
+      global payments information technology .'
+    header:
+    - ''
+    - globalpayments
+    - s&p500
+    - s&pinformationtechnology
+    rows:
+    - - may 31 2011
+      - $ 100.00
+      - $ 100.00
+      - $ 100.00
+    - - may 31 2012
+      - '81.90'
+      - '99.59'
+      - '107.57'
+    - - may 31 2013
+      - '92.63'
+      - '126.75'
+      - '123.83'
+    - - may 31 2014
+      - '132.59'
+      - '152.67'
+      - '153.42'
+    - - may 31 2015
+      - '202.06'
+      - '170.69'
+      - '182.29'
+    - - may 31 2016
+      - '300.97'
+      - '173.62'
+      - '187.97'
+    post_text: 'issuer purchases of equity securities as announced on july 28 , 2015
+      , our board of directors authorized the additional repurchase of up to $ 300.0
+      million of our common stock .
+
+
+      under these and other existing authorizations , we repurchased and retired 2.2
+      million shares of our common stock at a cost of $ 135.9 million including commissions
+      , or an average price of $ 63.17 per share , during the year ended may 31 ,
+      2016 .
+
+
+      global payments inc .
+
+
+      | 2016 form 10-k annual report 2013 29 .'
+    id: gpn-2016-table-4
+- id: gpn-10k-2017
+  form: 10-K
+  filed: '2018-02-23'
+  period_covered: 2017-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1123360/000112336018000007/gpn20171231-10k.htm
+  tables:
+  - pre_text: 'leveraged performance units during the year ended may 31 , 2015 , certain
+      executives were granted performance units that we refer to as 201cleveraged
+      performance units , 201d or 201clpus . 201d lpus contain a market condition
+      based on our relative stock price growth over a three-year performance period
+      .
+
+
+      the lpus contain a minimum threshold performance which , if not met , would
+      result in no payout .
+
+
+      the lpus also contain a maximum award opportunity set as a fixed dollar and
+      fixed number of shares .
+
+
+      after the three-year performance period , which concluded in october 2017 ,
+      one-third of the earned units converted to unrestricted common stock .
+
+
+      the remaining two-thirds converted to restricted stock that will vest in equal
+      installments on each of the first two anniversaries of the conversion date .
+
+
+      we recognize share-based compensation expense based on the grant date fair value
+      of the lpus , as determined by use of a monte carlo model , on a straight-line
+      basis over the requisite service period for each separately vesting portion
+      of the lpu award .
+
+
+      the following table summarizes the changes in unvested restricted stock and
+      performance awards for the year ended december 31 , 2017 , the 2016 fiscal transition
+      period and for the years ended may 31 , 2016 and 2015 : shares weighted-average
+      grant-date fair value ( in thousands ) .'
+    header:
+    - ''
+    - shares ( in thousands )
+    - weighted-averagegrant-datefair value
+    rows:
+    - - unvested at may 31 2014
+      - '1754'
+      - $ 22.72
+    - - granted
+      - '954'
+      - '36.21'
+    - - vested
+      - -648 ( 648 )
+      - '23.17'
+    - - forfeited
+      - -212 ( 212 )
+      - '27.03'
+    - - unvested at may 31 2015
+      - '1848'
+      - '28.97'
+    - - granted
+      - '461'
+      - '57.04'
+    - - vested
+      - -633 ( 633 )
+      - '27.55'
+    - - forfeited
+      - -70 ( 70 )
+      - '34.69'
+    - - unvested at may 31 2016
+      - '1606'
+      - '37.25'
+    - - granted
+      - '348'
+      - '74.26'
+    - - vested
+      - -639 ( 639 )
+      - '31.38'
+    - - forfeited
+      - -52 ( 52 )
+      - '45.27'
+    - - unvested at december 31 2016
+      - '1263'
+      - '49.55'
+    - - granted
+      - '899'
+      - '79.79'
+    - - vested
+      - -858 ( 858 )
+      - '39.26'
+    - - forfeited
+      - -78 ( 78 )
+      - '59.56'
+    - - unvested at december 31 2017
+      - '1226'
+      - $ 78.29
+    post_text: 'the total fair value of restricted stock and performance awards vested
+      was $ 33.7 million for the year ended december 31 , 2017 , $ 20.0 million for
+      the 2016 fiscal transition period and $ 17.4 million and $ 15.0 million , respectively
+      , for the years ended may 31 , 2016 and 2015 .
+
+
+      for restricted stock and performance awards , we recognized compensation expense
+      of $ 35.2 million for the year ended december 31 , 2017 , $ 17.2 million for
+      the 2016 fiscal transition period and $ 28.8 million and $ 19.8 million , respectively
+      , for the years ended may 31 , 2016 and 2015 .
+
+
+      as of december 31 , 2017 , there was $ 46.1 million of unrecognized compensation
+      expense related to unvested restricted stock and performance awards that we
+      expect to recognize over a weighted-average period of 1.8 years .
+
+
+      our restricted stock and performance award plans provide for accelerated vesting
+      under certain conditions .
+
+
+      stock options stock options are granted with an exercise price equal to 100%
+      ( 100 % ) of fair market value of our common stock on the date of grant and
+      have a term of ten years .
+
+
+      stock options granted before the year ended may 31 , 2015 vest in equal installments
+      on each of the first four anniversaries of the grant date .
+
+
+      stock options granted during the year ended may 31 , 2015 and thereafter vest
+      in equal installments on each of the first three anniversaries of the grant
+      date .
+
+
+      our stock option plans provide for accelerated vesting under certain conditions
+      .
+
+
+      global payments inc .
+
+
+      | 2017 form 10-k annual report 2013 91 .'
+    id: gpn-2017-table-0
+  - pre_text: 'a valuation allowance is provided against deferred tax assets when
+      it is more likely than not that some portion or all of the deferred tax assets
+      will not be realized .
+
+
+      changes to our valuation allowance during the year ended december 31 , 2017
+      , the 2016 fiscal transition period and the years ended may 31 , 2016 and 2015
+      are summarized below ( in thousands ) : .'
+    header:
+    - balance at may 31 2014
+    - $ -7199 ( 7199 )
+    rows:
+    - - utilization of foreign net operating loss carryforwards
+      - '3387'
+    - - other
+      - -11 ( 11 )
+    - - balance at may 31 2015
+      - -3823 ( 3823 )
+    - - allowance for foreign income tax credit carryforward
+      - -7140 ( 7140 )
+    - - allowance for domestic net operating loss carryforwards
+      - -4474 ( 4474 )
+    - - allowance for domestic net unrealized capital loss
+      - -1526 ( 1526 )
+    - - release of allowance of domestic capital loss carryforward
+      - '1746'
+    - - other
+      - '98'
+    - - balance at may 31 2016
+      - -15119 ( 15119 )
+    - - allowance for domestic net operating loss carryforwards
+      - -1504 ( 1504 )
+    - - release of allowance of domestic net unrealized capital loss
+      - '12'
+    - - balance at december 31 2016
+      - -16611 ( 16611 )
+    - - allowance for foreign net operating loss carryforwards
+      - -6469 ( 6469 )
+    - - allowance for domestic net operating loss carryforwards
+      - -3793 ( 3793 )
+    - - allowance for state credit carryforwards
+      - -685 ( 685 )
+    - - rate change on domestic net operating loss and capital loss carryforwards
+      - '3868'
+    - - utilization of foreign income tax credit carryforward
+      - '7140'
+    - - balance at december 31 2017
+      - $ -16550 ( 16550 )
+    post_text: 'the increase in the valuation allowance related to net operating loss
+      carryforwards of $ 10.3 million for the year ended december 31 , 2017 relates
+      primarily to carryforward assets recorded as part of the acquisition of active
+      network .
+
+
+      the increase in the valuation allowance related to domestic net operating loss
+      carryforwards of $ 1.5 million and $ 4.5 million for the 2016 fiscal transition
+      period and the year ended may 31 , 2016 , respectively , relates to acquired
+      carryforwards from the merger with heartland .
+
+
+      foreign net operating loss carryforwards of $ 43.2 million and domestic net
+      operating loss carryforwards of $ 28.9 million at december 31 , 2017 will expire
+      between december 31 , 2026 and december 31 , 2037 if not utilized .
+
+
+      we conduct business globally and file income tax returns in the domestic federal
+      jurisdiction and various state and foreign jurisdictions .
+
+
+      in the normal course of business , we are subject to examination by taxing authorities
+      around the world .
+
+
+      we are no longer subjected to state income tax examinations for years ended
+      on or before may 31 , 2008 , u.s .
+
+
+      federal income tax examinations for years ended on or before december 31 , 2013
+      and u.k .
+
+
+      federal income tax examinations for years ended on or before may 31 , 2014 .
+
+
+      88 2013 global payments inc .
+
+
+      | 2017 form 10-k annual report .'
+    id: gpn-2017-table-1
+  - pre_text: 'stock performance graph the following graph compares our cumulative
+      shareholder returns with the standard & poor 2019s information technology index
+      and the standard & poor 2019s 500 index for the year ended december 31 , 2017
+      , the 2016 fiscal transition period , and the years ended may 31 , 2016 , 2015
+      , 2014 and 2013 .
+
+
+      the line graph assumes the investment of $ 100 in our common stock , the standard
+      & poor 2019s 500 index and the standard & poor 2019s information technology
+      index on may 31 , 2012 and assumes reinvestment of all dividends .
+
+
+      5/12 5/165/155/145/13 global payments inc .
+
+
+      s&p 500 s&p information technology 12/16 12/17 comparison of 5 year cumulative
+      total return* among global payments inc. , the s&p 500 index and the s&p information
+      technology index * $ 100 invested on may 31 , 2012 in stock or index , including
+      reinvestment of dividends .
+
+
+      copyright a9 2018 standard & poor 2019s , a division of s&p global .
+
+
+      all rights reserved .
+
+
+      global payments 500 index information technology .'
+    header:
+    - ''
+    - globalpayments
+    - s&p500 index
+    - s&pinformationtechnology index
+    rows:
+    - - may 31 2012
+      - $ 100.00
+      - $ 100.00
+      - $ 100.00
+    - - may 31 2013
+      - '113.10'
+      - '127.28'
+      - '115.12'
+    - - may 31 2014
+      - '161.90'
+      - '153.30'
+      - '142.63'
+    - - may 31 2015
+      - '246.72'
+      - '171.40'
+      - '169.46'
+    - - may 31 2016
+      - '367.50'
+      - '174.34'
+      - '174.75'
+    - - december 31 2016
+      - '328.42'
+      - '188.47'
+      - '194.08'
+    - - december 31 2017
+      - '474.52'
+      - '229.61'
+      - '269.45'
+    post_text: '30 2013 global payments inc .
+
+
+      | 2017 form 10-k annual report .'
+    id: gpn-2017-table-2
+  - pre_text: 'acquisition date ) .
+
+
+      realex is a leading european online payment gateway technology provider .
+
+
+      this acquisition furthered our strategy to provide omnichannel solutions that
+      combine gateway services , payment service provisioning and payment technology
+      services across europe .
+
+
+      this transaction was accounted for as a business combination .
+
+
+      we recorded the assets acquired , liabilities assumed and noncontrolling interest
+      at their estimated fair values as of the acquisition date .
+
+
+      on october 5 , 2015 , we paid 20ac6.7 million ( $ 7.5 million equivalent as
+      of october 5 , 2015 ) to acquire the remaining shares of realex , after which
+      we own 100% ( 100 % ) of the outstanding shares .
+
+
+      the estimated acquisition date fair values of the assets acquired , liabilities
+      assumed and the noncontrolling interest , including a reconciliation to the
+      total purchase consideration , are as follows ( in thousands ) : .'
+    header:
+    - cash
+    - $ 4082
+    rows:
+    - - customer-related intangible assets
+      - '16079'
+    - - acquired technology
+      - '39820'
+    - - trade name
+      - '3453'
+    - - other intangible assets
+      - '399'
+    - - other assets
+      - '6213'
+    - - liabilities
+      - -3479 ( 3479 )
+    - - deferred income tax liabilities
+      - -7216 ( 7216 )
+    - - total identifiable net assets
+      - '59351'
+    - - goodwill
+      - '66809'
+    - - noncontrolling interest
+      - -7280 ( 7280 )
+    - - total purchase consideration
+      - $ 118880
+    post_text: 'goodwill of $ 66.8 million arising from the acquisition , included
+      in the europe segment , was attributable to expected growth opportunities in
+      europe , potential synergies from combining our existing business with gateway
+      services and payment service provisioning in certain markets and an assembled
+      workforce to support the newly acquired technology .
+
+
+      goodwill associated with this acquisition is not deductible for income tax purposes
+      .
+
+
+      the customer-related intangible assets have an estimated amortization period
+      of 16 years .
+
+
+      the acquired technology has an estimated amortization of 10 years .
+
+
+      the trade name has an estimated amortization period of 7 years .
+
+
+      ezidebit on october 10 , 2014 , we completed the acquisition of 100% ( 100 %
+      ) of the outstanding stock of ezi holdings pty ltd ( 201cezidebit 201d ) for
+      aud302.6 million in cash ( $ 266.0 million equivalent as of the acquisition
+      date ) .
+
+
+      this acquisition was funded by a combination of cash on hand and borrowings
+      on our revolving credit facility .
+
+
+      ezidebit is a leading integrated payments company focused on recurring payments
+      verticals in australia and new zealand .
+
+
+      the acquisition of ezidebit further enhanced our existing integrated solutions
+      offerings .
+
+
+      this transaction was accounted for as a business combination .
+
+
+      we recorded the assets acquired and liabilities assumed at their estimated fair
+      values as of the acquisition date .
+
+
+      76 2013 global payments inc .
+
+
+      | 2017 form 10-k annual report .'
+    id: gpn-2017-table-3
+  - pre_text: 'organizations evaluate whether transactions should be accounted for
+      as acquisitions ( or disposals ) of assets or businesses , with the expectation
+      that fewer will qualify as acquisitions ( or disposals ) of businesses .
+
+
+      the asu became effective for us on january 1 , 2018 .
+
+
+      these amendments will be applied prospectively from the date of adoption .
+
+
+      the effect of asu 2017-01 will be dependent upon the nature of future acquisitions
+      or dispositions that we make , if any .
+
+
+      in october 2016 , the fasb issued asu 2016-16 , 201cincome taxes ( topic 740
+      ) : intra-entity transfers of assets other than inventory . 201d the amendments
+      in this update state that an entity should recognize the income tax consequences
+      of an intra-entity transfer of an asset other than inventory , such as intellectual
+      property and property and equipment , when the transfer occurs .
+
+
+      we will adopt asu 2016-16 effective january 1 , 2018 with no expected effect
+      on our consolidated financial statements .
+
+
+      in june 2016 , the fasb issued asu 2016-13 , 201cfinancial instruments - credit
+      losses ( topic 326 ) : measurement of credit losses on financial instruments
+      . 201d the amendments in this update change how companies measure and recognize
+      credit impairment for many financial assets .
+
+
+      the new expected credit loss model will require companies to immediately recognize
+      an estimate of credit losses expected to occur over the remaining life of the
+      financial assets ( including trade receivables ) that are in the scope of the
+      update .
+
+
+      the update also made amendments to the current impairment model for held-to-maturity
+      and available-for-sale debt securities and certain guarantees .
+
+
+      the guidance will become effective for us on january 1 , 2020 .
+
+
+      early adoption is permitted for periods beginning on or after january 1 , 2019
+      .
+
+
+      we are evaluating the effect of asu 2016-13 on our consolidated financial statements
+      .
+
+
+      in january 2016 , the fasb issued asu 2016-01 , 201cfinancial instruments -
+      overall ( subtopic 825-10 ) : recognition and measurement of financial assets
+      and financial liabilities . 201d the amendments in this update address certain
+      aspects of recognition , measurement , presentation and disclosure of financial
+      instruments .
+
+
+      the amendments in this update supersede the guidance to classify equity securities
+      with readily determinable fair values into different categories ( that is ,
+      trading or available-for-sale ) and require equity securities ( including other
+      ownership interests , such as partnerships , unincorporated joint ventures and
+      limited liability companies ) to be measured at fair value with changes in the
+      fair value recognized through earnings .
+
+
+      equity investments that are accounted for under the equity method of accounting
+      or result in consolidation of an investee are not included within the scope
+      of this update .
+
+
+      the amendments allow equity investments that do not have readily determinable
+      fair values to be remeasured at fair value either upon the occurrence of an
+      observable price change or upon identification of an impairment .
+
+
+      the amendments also require enhanced disclosures about those investments .
+
+
+      we will adopt asu 2016-01 effective january 1 , 2018 with no expected effect
+      on our consolidated financial statements .
+
+
+      note 2 2014 acquisitions active network we acquired the communities and sports
+      divisions of athlaction topco , llc ( 201cactive network 201d ) on september
+      1 , 2017 , for total purchase consideration of $ 1.2 billion .
+
+
+      active network delivers cloud-based enterprise software , including payment
+      technology solutions , to event organizers in the communities and health and
+      fitness markets .
+
+
+      this acquisition aligns with our technology-enabled , software driven strategy
+      and adds an enterprise software business operating in two additional vertical
+      markets that we believe offer attractive growth fundamentals .
+
+
+      the following table summarizes the cash and non-cash components of the consideration
+      transferred on september 1 , 2017 ( in thousands ) : .'
+    header:
+    - cash consideration paid to active network stockholders
+    - $ 599497
+    rows:
+    - - fair value of global payments common stock issued to active network stockholders
+      - '572079'
+    - - total purchase consideration
+      - $ 1171576
+    post_text: 'we funded the cash portion of the total purchase consideration primarily
+      by drawing on our revolving credit facility ( described in 201cnote 7 2014 long-term
+      debt and lines of credit 201d ) .
+
+
+      the acquisition-date fair value of 72 2013 global payments inc .
+
+
+      | 2017 form 10-k annual report .'
+    id: gpn-2017-table-4
+- id: gpn-10k-2018
+  form: 10-K
+  filed: '2019-02-21'
+  period_covered: 2018-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1123360/000112336019000008/gpn20181231-10k.htm
+  tables:
+  - pre_text: 'assets ( including trade receivables ) that are in the scope of the
+      update .
+
+
+      asu 2016-13 also made amendments to the current impairment model for held-to-maturity
+      and available-for-sale debt securities and certain guarantees .
+
+
+      the guidance will become effective for us on january 1 , 2020 .
+
+
+      early adoption is permitted for periods beginning on or after january 1 , 2019
+      .
+
+
+      we are evaluating the effect of asu 2016-13 on our consolidated financial statements
+      .
+
+
+      note 2 2014 acquisitions the transactions described below were accounted for
+      as business combinations , which requires that we record the assets acquired
+      and liabilities assumed at fair value as of the acquisition date .
+
+
+      on october 17 , 2018 , we acquired sicom systems , inc .
+
+
+      ( 201csicom 201d ) for total purchase consideration of $ 409.2 million , which
+      we funded with cash on hand and by drawing on our revolving credit facility
+      ( described in 201cnote 8 2014 long-term debt and lines of credit 201d ) .
+
+
+      sicom is a provider of end-to-end enterprise , cloud-based software solutions
+      and other technologies to quick service restaurants and food service management
+      companies .
+
+
+      sicom 2019s technologies are complementary to our existing xenial solutions
+      , and we believe this acquisition will expand our software-driven payments strategy
+      by enabling us to increase our capabilities and expand on our existing presence
+      in the restaurant vertical market .
+
+
+      prior to the acquisition , sicom was indirectly owned by a private equity investment
+      firm where one of our board members is a partner and investor .
+
+
+      his direct interest in the transaction was approximately $ 1.1 million , the
+      amount distributed to him based on his investment interest in the fund of the
+      private equity firm that sold sicom to us .
+
+
+      based on consideration of all relevant information , the audit committee of
+      our board of directors recommended that the board approve the acquisition of
+      sicom , which it did .
+
+
+      the provisional estimated acquisition-date fair values of major classes of assets
+      acquired and liabilities assumed as of december 31 , 2018 , including a reconciliation
+      to the total purchase consideration , were as follows ( in thousands ) : .'
+    header:
+    - cash and cash equivalents
+    - $ 7540
+    rows:
+    - - property and equipment
+      - '5943'
+    - - identified intangible assets
+      - '188294'
+    - - other assets
+      - '22278'
+    - - deferred income taxes
+      - -48448 ( 48448 )
+    - - other liabilities
+      - -31250 ( 31250 )
+    - - total identifiable net assets
+      - '144357'
+    - - goodwill
+      - '264844'
+    - - total purchase consideration
+      - $ 409201
+    post_text: 'as of december 31 , 2018 , we considered these balances to be provisional
+      because we were still in the process of determining the final purchase consideration
+      , which is subject to adjustment pursuant to the purchase agreement , and gathering
+      and reviewing information to support the valuations of the assets acquired and
+      liabilities assumed .
+
+
+      goodwill arising from the acquisition of $ 264.8 million , included in the north
+      america segment , was attributable to expected growth opportunities , an assembled
+      workforce and potential synergies from combining our existing businesses .
+
+
+      we expect that approximately $ 50 million of the goodwill from this acquisition
+      will be deductible for income tax purposes .
+
+
+      74 2013 global payments inc .
+
+
+      | 2018 form 10-k annual report .'
+    id: gpn-2018-table-0
+  - pre_text: 'maturity requirements on long-term debt as of december 31 , 2018 by
+      year are as follows ( in thousands ) : years ending december 31 .'
+    header:
+    - '2019'
+    - $ 124176
+    rows:
+    - - '2020'
+      - '159979'
+    - - '2021'
+      - '195848'
+    - - '2022'
+      - '267587'
+    - - '2023'
+      - '3945053'
+    - - 2024 and thereafter
+      - '475000'
+    - - total
+      - $ 5167643
+    post_text: 'credit facility we are party to a credit facility agreement with bank
+      of america , n.a. , as administrative agent , and a syndicate of financial institutions
+      as lenders and other agents ( as amended from time to time , the 201ccredit
+      facility 201d ) .
+
+
+      as of december 31 , 2018 , the credit facility provided for secured financing
+      comprised of ( i ) a $ 1.5 billion revolving credit facility ( the 201crevolving
+      credit facility 201d ) ; ( ii ) a $ 1.5 billion term loan ( the 201cterm a loan
+      201d ) , ( iii ) a $ 1.37 billion term loan ( the 201cterm a-2 loan 201d ) ,
+      ( iv ) a $ 1.14 billion term loan facility ( the 201cterm b-2 loan 201d ) and
+      ( v ) a $ 500 million term loan ( the 201cterm b-4 loan 201d ) .
+
+
+      substantially all of the assets of our domestic subsidiaries are pledged as
+      collateral under the credit facility .
+
+
+      the borrowings outstanding under our credit facility as of december 31 , 2018
+      reflect amounts borrowed for acquisitions and other activities we completed
+      in 2018 , including a reduction to the interest rate margins applicable to our
+      term a loan , term a-2 loan , term b-2 loan and the revolving credit facility
+      , an extension of the maturity dates of the term a loan , term a-2 loan and
+      the revolving credit facility , and an increase in the total financing capacity
+      under the credit facility to approximately $ 5.5 billion in june 2018 .
+
+
+      in october 2018 , we entered into an additional term loan under the credit facility
+      in the amount of $ 500 million ( the 201cterm b-4 loan 201d ) .
+
+
+      we used the proceeds from the term b-4 loan to pay down a portion of the balance
+      outstanding under our revolving credit facility .
+
+
+      the credit facility provides for an interest rate , at our election , of either
+      libor or a base rate , in each case plus a margin .
+
+
+      as of december 31 , 2018 , the interest rates on the term a loan , the term
+      a-2 loan , the term b-2 loan and the term b-4 loan were 4.02% ( 4.02 % ) , 4.01%
+      ( 4.01 % ) , 4.27% ( 4.27 % ) and 4.27% ( 4.27 % ) , respectively , and the
+      interest rate on the revolving credit facility was 3.92% ( 3.92 % ) .
+
+
+      in addition , we are required to pay a quarterly commitment fee with respect
+      to the unused portion of the revolving credit facility at an applicable rate
+      per annum ranging from 0.20% ( 0.20 % ) to 0.30% ( 0.30 % ) depending on our
+      leverage ratio .
+
+
+      the term a loan and the term a-2 loan mature , and the revolving credit facility
+      expires , on january 20 , 2023 .
+
+
+      the term b-2 loan matures on april 22 , 2023 .
+
+
+      the term b-4 loan matures on october 18 , 2025 .
+
+
+      the term a loan and term a-2 loan principal amounts must each be repaid in quarterly
+      installments in the amount of 0.625% ( 0.625 % ) of principal through june 2019
+      , increasing to 1.25% ( 1.25 % ) of principal through june 2021 , increasing
+      to 1.875% ( 1.875 % ) of principal through june 2022 and increasing to 2.50%
+      ( 2.50 % ) of principal through december 2022 , with the remaining principal
+      balance due upon maturity in january 2023 .
+
+
+      the term b-2 loan principal must be repaid in quarterly installments in the
+      amount of 0.25% ( 0.25 % ) of principal through march 2023 , with the remaining
+      principal balance due upon maturity in april 2023 .
+
+
+      the term b-4 loan principal must be repaid in quarterly installments in the
+      amount of 0.25% ( 0.25 % ) of principal through september 2025 , with the remaining
+      principal balance due upon maturity in october 2025 .
+
+
+      we may issue standby letters of credit of up to $ 100 million in the aggregate
+      under the revolving credit facility .
+
+
+      outstanding letters of credit under the revolving credit facility reduce the
+      amount of borrowings available to us .
+
+
+      borrowings available to us under the revolving credit facility are further limited
+      by the covenants described below under 201ccompliance with covenants . 201d
+      the total available commitments under the revolving credit facility at december
+      31 , 2018 were $ 783.6 million .
+
+
+      global payments inc .
+
+
+      | 2018 form 10-k annual report 2013 85 .'
+    id: gpn-2018-table-1
+  - pre_text: 'fis gaming business on june 1 , 2015 , we acquired certain assets of
+      certegy check services , inc. , a wholly-owned subsidiary of fidelity national
+      information services , inc .
+
+
+      ( 201cfis 201d ) .
+
+
+      under the purchase arrangement , we acquired substantially all of the assets
+      of its gaming business related to licensed gaming operators ( the 201cfis gaming
+      business 201d ) , including relationships with gaming clients in approximately
+      260 locations as of the acquisition date , for $ 237.5 million , funded from
+      borrowings on our revolving credit facility and cash on hand .
+
+
+      we acquired the fis gaming business to expand our direct distribution and service
+      offerings in the gaming market .
+
+
+      the estimated acquisition-date fair values of major classes of assets acquired
+      and liabilities assumed , including a reconciliation to the total purchase consideration
+      , were as follows ( in thousands ) : .'
+    header:
+    - customer-related intangible assets
+    - $ 143400
+    rows:
+    - - liabilities
+      - -150 ( 150 )
+    - - total identifiable net assets
+      - '143250'
+    - - goodwill
+      - '94250'
+    - - total purchase consideration
+      - $ 237500
+    post_text: 'goodwill arising from the acquisition , included in the north america
+      segment , was attributable to an expected growth opportunities , including cross-selling
+      opportunities at existing and acquired gaming client locations and operating
+      synergies in the gaming business , and an assembled workforce .
+
+
+      goodwill associated with this acquisition is deductible for income tax purposes
+      .
+
+
+      the customer-related intangible assets have an estimated amortization period
+      of 15 years .
+
+
+      valuation of identified intangible assets for the acquisitions discussed above
+      , the estimated fair values of customer-related intangible assets were determined
+      using the income approach , which was based on projected cash flows discounted
+      to their present value using discount rates that consider the timing and risk
+      of the forecasted cash flows .
+
+
+      the discount rates used represented the average estimated value of a market
+      participant 2019s cost of capital and debt , derived using customary market
+      metrics .
+
+
+      acquired technologies were valued using the replacement cost method , which
+      required us to estimate the costs to construct an asset of equivalent utility
+      at prices available at the time of the valuation analysis , with adjustments
+      in value for physical deterioration and functional and economic obsolescence
+      .
+
+
+      trademarks and trade names were valued using the 201crelief-from-royalty 201d
+      approach .
+
+
+      this method assumes that trademarks and trade names have value to the extent
+      that their owner is relieved of the obligation to pay royalties for the benefits
+      received from them .
+
+
+      this method required us to estimate the future revenues for the related brands
+      , the appropriate royalty rate and the weighted-average cost of capital .
+
+
+      the discount rates used represented the average estimated value of a market
+      participant 2019s cost of capital and debt , derived using customary market
+      metrics .
+
+
+      note 3 2014 revenues we are a leading worldwide provider of payment technology
+      and software solutions delivering innovative services to our customers globally
+      .
+
+
+      our technologies , services and employee expertise enable us to provide a broad
+      range of solutions that allow our customers to accept various payment types
+      and operate their businesses more efficiently .
+
+
+      we distribute our services across a variety of channels to customers .
+
+
+      the disclosures in this note are applicable for the year ended december 31 ,
+      2018 .
+
+
+      global payments inc .
+
+
+      | 2018 form 10-k annual report 2013 79 .'
+    id: gpn-2018-table-2
+- id: gpn-10k-2023
+  form: 10-K
+  filed: '2024-02-14'
+  period_covered: 2023-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1123360/000112336024000004/gpn-20231231.htm
+  tables: []
+- id: gpn-10k-2024
+  form: 10-K
+  filed: '2025-02-14'
+  period_covered: 2024-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1123360/000112336025000011/gpn-20241231.htm
+  tables: []
+- id: gpn-10k-2025
+  form: 10-K
+  filed: '2026-02-20'
+  period_covered: 2025-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1123360/000112336026000008/gpn-20251231.htm
+  tables: []

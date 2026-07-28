@@ -1,0 +1,7348 @@
+schema_version: 1
+ticker: AWK
+cik: '0001410636'
+metrics:
+  currency: USD
+  units: millions
+  by_period:
+    2012-FY:
+      revenue: 2555.03
+      operating_income: 728.12
+      net_income: 267.83
+      diluted_eps: 1.53
+      total_assets: 14086.25
+      total_equity: 4235.84
+      cash_and_equivalents: 22.26
+      total_debt: 5389.94
+      operating_cash_flow: 774.93
+      capex: 765.64
+      free_cash_flow: 9.289999999999964
+    2012-Q1:
+      revenue: 596.72
+      operating_income: 143.25
+      net_income: 26.23
+      diluted_eps: 0.15
+      total_assets: 14107.38
+      total_equity: 4235.84
+      cash_and_equivalents: 13.11
+      total_debt: 5389.94
+      operating_cash_flow: 161.53
+      capex: 176.41
+      free_cash_flow: -14.879999999999995
+    2012-Q2:
+      revenue: 1265.59
+      operating_income: 344.64
+      net_income: 107.34
+      diluted_eps: 0.61
+      total_assets: 14322.28
+      total_equity: 4235.84
+      cash_and_equivalents: 13.11
+      total_debt: 5.39
+      operating_cash_flow: 262.4
+      capex: 391.79
+      free_cash_flow: -129.39000000000004
+    2012-Q3:
+      revenue: 2026.46
+      operating_income: 626.05
+      net_income: 244.76
+      diluted_eps: 1.39
+      total_assets: 14513.8
+      total_equity: 4235.84
+      cash_and_equivalents: 13.11
+      total_debt: 5.24
+      operating_cash_flow: 576.04
+      capex: 621.94
+      free_cash_flow: -45.90000000000009
+    2013-FY:
+      revenue: 2666.24
+      operating_income: 803.14
+      net_income: 309.61
+      diluted_eps: 1.75
+      total_assets: 14776.39
+      total_equity: 4443.27
+      cash_and_equivalents: 13.11
+      total_debt: 5325.29
+      operating_cash_flow: 808.36
+      capex: 924.86
+      free_cash_flow: -116.5
+    2013-Q1:
+      revenue: 618.55
+      operating_income: 159.74
+      net_income: 41.75
+      diluted_eps: 0.24
+      total_assets: 14087.74
+      total_equity: 4443.27
+      cash_and_equivalents: 14.21
+      total_debt: 5325.29
+      operating_cash_flow: 148.1
+      capex: 233.37
+      free_cash_flow: -85.27000000000001
+    2013-Q2:
+      revenue: 1364.16
+      operating_income: 430.37
+      net_income: 148.78
+      diluted_eps: 0.84
+      total_assets: 14412.76
+      total_equity: 4443.27
+      cash_and_equivalents: 14.21
+      total_debt: 5325.29
+      operating_cash_flow: 316.87
+      capex: 476.3
+      free_cash_flow: -159.43
+    2013-Q3:
+      revenue: 2195.98
+      operating_income: 758.01
+      net_income: 302.59
+      diluted_eps: 1.7
+      total_assets: 14599.53
+      total_equity: 4443.27
+      cash_and_equivalents: 14.21
+      total_debt: 5325.29
+      operating_cash_flow: 735.01
+      capex: 680.36
+      free_cash_flow: 54.64999999999998
+    2014-FY:
+      revenue: 2853.93
+      operating_income: 924.1
+      net_income: 358.07
+      diluted_eps: 2.01
+      total_assets: 14718.98
+      cash_and_equivalents: 14.21
+      operating_cash_flow: 955.6
+    2014-Q1:
+      revenue: 636.14
+      operating_income: 164.23
+      net_income: 57.64
+      diluted_eps: 0.32
+      total_assets: 14785.22
+      cash_and_equivalents: 24.43
+      total_debt: 5244.23
+      capex: 213.09
+    2014-Q2:
+      revenue: 1360.4
+      operating_income: 406.12
+      net_income: 158.91
+      diluted_eps: 0.89
+      total_assets: 14994.49
+      cash_and_equivalents: 24.43
+      total_debt: 5244.23
+      capex: 429.83
+    2014-Q3:
+      revenue: 2172.69
+      operating_income: 730.52
+      net_income: 309.57
+      diluted_eps: 1.73
+      total_assets: 15246.74
+      cash_and_equivalents: 24.43
+      total_debt: 5244.23
+      operating_cash_flow: 688.68
+    2015-FY:
+      operating_income: 948.0
+      net_income: 369.0
+      diluted_eps: 2.06
+      total_assets: 15064.0
+      total_equity: 4445.0
+      cash_and_equivalents: 24.0
+      total_debt: 5485.0
+      operating_cash_flow: 896.0
+    2015-Q1:
+      revenue: 679.0
+      operating_income: 187.44
+      net_income: 68.12
+      diluted_eps: 0.38
+      total_assets: 16130.96
+      cash_and_equivalents: 26.96
+      operating_cash_flow: 244.87
+    2015-Q2:
+      revenue: 1433.78
+      operating_income: 442.23
+      net_income: 177.42
+      diluted_eps: 0.99
+      total_assets: 15426.45
+      cash_and_equivalents: 26.96
+      operating_cash_flow: 450.62
+    2015-Q3:
+      operating_income: 779.51
+      diluted_eps: 1.83
+      total_assets: 15715.65
+      total_equity: 4915.59
+      cash_and_equivalents: 26.96
+      total_debt: 5491.34
+      operating_cash_flow: 840.26
+    2017-FY:
+      operating_income: 1075.0
+      net_income: 476.0
+      diluted_eps: 2.64
+      total_assets: 17241.0
+      total_equity: 4915.0
+      cash_and_equivalents: 75.0
+      total_debt: 6320.0
+      operating_cash_flow: 1195.0
+      capex: 1160.0
+      free_cash_flow: 35.0
+    2017-Q1:
+      operating_income: 214.0
+      net_income: 82.0
+      diluted_eps: 0.46
+      total_assets: 17417.0
+      total_equity: 5049.0
+      cash_and_equivalents: 45.0
+      capex: 284.0
+    2017-Q2:
+      operating_income: 513.0
+      net_income: 219.0
+      diluted_eps: 1.23
+      total_assets: 17706.0
+      total_equity: 5049.0
+      cash_and_equivalents: 45.0
+      capex: 597.0
+    2017-Q3:
+      operating_income: 832.0
+      net_income: 367.0
+      diluted_eps: 2.05
+      total_assets: 17971.0
+      total_equity: 5049.0
+      cash_and_equivalents: 45.0
+      operating_cash_flow: 945.0
+      capex: 928.0
+      free_cash_flow: 17.0
+    2018-FY:
+      revenue: 3417.0
+      operating_income: 1085.0
+      net_income: 468.0
+      diluted_eps: 2.62
+      total_assets: 18482.0
+      total_equity: 5049.0
+      cash_and_equivalents: 55.0
+      total_debt: 6809.0
+      operating_cash_flow: 1289.0
+      capex: 1311.0
+      free_cash_flow: -22.0
+    2018-Q1:
+      operating_income: 230.0
+      net_income: 93.0
+      diluted_eps: 0.52
+      total_assets: 18610.0
+      total_equity: 5218.0
+      cash_and_equivalents: 78.0
+      operating_cash_flow: 277.0
+      capex: 270.0
+      free_cash_flow: 7.0
+    2018-Q2:
+      operating_income: 540.0
+      net_income: 224.0
+      diluted_eps: 1.26
+      total_assets: 18966.0
+      total_equity: 5218.0
+      cash_and_equivalents: 64.0
+      operating_cash_flow: 524.0
+      capex: 602.0
+      free_cash_flow: -78.0
+    2018-Q3:
+      operating_income: 972.0
+      net_income: 427.0
+      diluted_eps: 2.39
+      total_assets: 19361.0
+      total_equity: 5218.0
+      cash_and_equivalents: 93.0
+      operating_cash_flow: 1020.0
+      capex: 964.0
+      free_cash_flow: 56.0
+    2023-FY:
+      revenue: 3914.0
+      operating_income: 1196.0
+      net_income: 1263.0
+      diluted_eps: 6.95
+      total_assets: 26075.0
+      total_equity: 6454.0
+      cash_and_equivalents: 85.0
+      operating_cash_flow: 1441.0
+      capex: 1764.0
+      free_cash_flow: -323.0
+    2023-Q1:
+      operating_income: 246.0
+      net_income: 158.0
+      diluted_eps: 0.87
+      total_assets: 25694.0
+      total_equity: 7298.0
+      cash_and_equivalents: 85.0
+      operating_cash_flow: 154.0
+      capex: 424.0
+      free_cash_flow: -270.0
+    2023-Q2:
+      operating_income: 573.0
+      net_income: 158.0
+      diluted_eps: 2.07
+      total_assets: 26574.0
+      total_equity: 7298.0
+      cash_and_equivalents: 85.0
+      operating_cash_flow: 196.0
+      capex: 995.0
+      free_cash_flow: -799.0
+    2023-Q3:
+      operating_income: 1012.0
+      net_income: 158.0
+      diluted_eps: 3.7
+      total_assets: 27126.0
+      total_equity: 7298.0
+      cash_and_equivalents: 85.0
+      operating_cash_flow: 764.0
+      capex: 1597.0
+      free_cash_flow: -833.0
+    2024-FY:
+      revenue: 3763.0
+      operating_income: 1273.0
+      net_income: 820.0
+      diluted_eps: 4.51
+      total_assets: 27787.0
+      total_equity: 7298.0
+      cash_and_equivalents: 330.0
+      operating_cash_flow: 1108.0
+      capex: 2297.0
+      free_cash_flow: -1189.0
+    2024-Q1:
+      operating_income: 295.0
+      net_income: 170.0
+      diluted_eps: 0.91
+      total_assets: 28286.0
+      total_equity: 7693.0
+      cash_and_equivalents: 330.0
+      operating_cash_flow: 285.0
+      capex: 526.0
+      free_cash_flow: -241.0
+    2024-Q2:
+      operating_income: 727.0
+      net_income: 170.0
+      diluted_eps: 2.37
+      total_assets: 29496.0
+      total_equity: 7693.0
+      cash_and_equivalents: 330.0
+      operating_cash_flow: 714.0
+      capex: 1153.0
+      free_cash_flow: -439.0
+    2024-Q3:
+      operating_income: 1205.0
+      net_income: 170.0
+      diluted_eps: 4.03
+      total_assets: 29818.0
+      total_equity: 7693.0
+      cash_and_equivalents: 628.0
+      operating_cash_flow: 1347.0
+      capex: 1779.0
+      free_cash_flow: -432.0
+    2025-FY:
+      revenue: 4217.0
+      operating_income: 1504.0
+      net_income: 944.0
+      diluted_eps: 4.9
+      total_assets: 30298.0
+      total_equity: 7693.0
+      cash_and_equivalents: 96.0
+      operating_cash_flow: 1874.0
+      capex: 2575.0
+      free_cash_flow: -701.0
+    2025-Q1:
+      operating_income: 326.0
+      net_income: 185.0
+      diluted_eps: 0.95
+      total_assets: 31086.0
+      total_equity: 9797.0
+      cash_and_equivalents: 584.0
+      operating_cash_flow: 382.0
+      capex: 609.0
+      free_cash_flow: -227.0
+    2025-Q2:
+      revenue: 2147.0
+      operating_income: 775.0
+      net_income: 185.0
+      diluted_eps: 2.37
+      total_assets: 31215.0
+      total_equity: 9797.0
+      cash_and_equivalents: 48.0
+      operating_cash_flow: 727.0
+      capex: 1279.0
+      free_cash_flow: -552.0
+    2025-Q3:
+      revenue: 3475.0
+      operating_income: 1318.0
+      net_income: 185.0
+      diluted_eps: 4.17
+      total_assets: 31790.0
+      total_equity: 9797.0
+      cash_and_equivalents: 127.0
+      operating_cash_flow: 1406.0
+      capex: 1962.0
+      free_cash_flow: -556.0
+    2026-Q1:
+      revenue: 1134.0
+      operating_income: 371.0
+      net_income: 205.0
+      diluted_eps: 1.05
+      total_assets: 33156.0
+      total_equity: 10332.0
+      cash_and_equivalents: 114.0
+      operating_cash_flow: 331.0
+      capex: 548.0
+      free_cash_flow: -217.0
+  metadata:
+    capex:
+      xbrl_concept: us-gaap:PaymentsToAcquirePropertyPlantAndEquipment
+      description: Capex
+    cash_and_equivalents:
+      xbrl_concept: us-gaap:CashAndCashEquivalentsAtCarryingValue
+      description: Cash and equivalents
+    diluted_eps:
+      xbrl_concept: us-gaap:EarningsPerShareDiluted
+      description: Diluted eps
+    free_cash_flow:
+      description: Free cash flow
+    net_income:
+      xbrl_concept: us-gaap:NetIncomeLoss
+      description: Net income
+    operating_cash_flow:
+      xbrl_concept: us-gaap:NetCashProvidedByUsedInOperatingActivities
+      description: Operating cash flow
+    operating_income:
+      xbrl_concept: us-gaap:OperatingIncomeLoss
+      description: Operating income
+    revenue:
+      xbrl_concept: us-gaap:Revenues
+      description: Revenue
+    total_assets:
+      xbrl_concept: us-gaap:Assets
+      description: Total assets
+    total_debt:
+      xbrl_concept: us-gaap:LongTermDebt
+      description: Total debt
+    total_equity:
+      xbrl_concept: us-gaap:StockholdersEquity
+      description: Total equity
+filings:
+- id: awk-10k-2014
+  form: 10-K
+  filed: '2015-02-25'
+  period_covered: 2014-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1410636/000156459015000905/awk-10k_20141231.htm
+  tables:
+  - pre_text: 'majority of the increased tax position is attributable to temporary
+      differences .
+
+
+      the increase in 2014 current period tax positions related primarily to the company
+      2019s change in tax accounting method filed in 2008 for repair and maintenance
+      costs on its utility plant .
+
+
+      the company does not anticipate material changes to its unrecognized tax benefits
+      within the next year .
+
+
+      if the company sustains all of its positions at december 31 , 2014 and 2013
+      , an unrecognized tax benefit of $ 9444 and $ 7439 , respectively , excluding
+      interest and penalties , would impact the company 2019s effective tax rate .
+
+
+      the following table summarizes the changes in the company 2019s valuation allowance:
+      .'
+    header:
+    - balance at january 1 2012
+    - $ 21579
+    rows:
+    - - increases in current period tax positions
+      - '2014'
+    - - decreases in current period tax positions
+      - -2059 ( 2059 )
+    - - balance at december 31 2012
+      - $ 19520
+    - - increases in current period tax positions
+      - '2014'
+    - - decreases in current period tax positions
+      - -5965 ( 5965 )
+    - - balance at december 31 2013
+      - $ 13555
+    - - increases in current period tax positions
+      - '2014'
+    - - decreases in current period tax positions
+      - -3176 ( 3176 )
+    - - balance at december 31 2014
+      - $ 10379
+    post_text: 'included in 2013 is a discrete tax benefit totaling $ 2979 associated
+      with an entity re-organization within the company 2019s market-based operations
+      segment that allowed for the utilization of state net operating loss carryforwards
+      and the release of an associated valuation allowance .
+
+
+      note 13 : employee benefits pension and other postretirement benefits the company
+      maintains noncontributory defined benefit pension plans covering eligible employees
+      of its regulated utility and shared services operations .
+
+
+      benefits under the plans are based on the employee 2019s years of service and
+      compensation .
+
+
+      the pension plans have been closed for all employees .
+
+
+      the pension plans were closed for most employees hired on or after january 1
+      , 2006 .
+
+
+      union employees hired on or after january 1 , 2001 had their accrued benefit
+      frozen and will be able to receive this benefit as a lump sum upon termination
+      or retirement .
+
+
+      union employees hired on or after january 1 , 2001 and non-union employees hired
+      on or after january 1 , 2006 are provided with a 5.25% ( 5.25 % ) of base pay
+      defined contribution plan .
+
+
+      the company does not participate in a multiemployer plan .
+
+
+      the company 2019s pension funding practice is to contribute at least the greater
+      of the minimum amount required by the employee retirement income security act
+      of 1974 or the normal cost .
+
+
+      further , the company will consider additional contributions if needed to avoid
+      201cat risk 201d status and benefit restrictions under the pension protection
+      act of 2006 .
+
+
+      the company may also consider increased contributions , based on other financial
+      requirements and the plans 2019 funded position .
+
+
+      pension plan assets are invested in a number of actively managed and commingled
+      funds including equity and bond funds , fixed income securities , guaranteed
+      interest contracts with insurance companies , real estate funds and real estate
+      investment trusts ( 201creits 201d ) .
+
+
+      pension expense in excess of the amount contributed to the pension plans is
+      deferred by certain regulated subsidiaries pending future recovery in rates
+      charged for utility services as contributions are made to the plans .
+
+
+      ( see note 6 ) the company also has unfunded noncontributory supplemental non-qualified
+      pension plans that provide additional retirement benefits to certain employees.
+      .'
+    id: awk-2014-table-0
+  - pre_text: 'the discount rate assumption was determined for the pension and postretirement
+      benefit plans independently .
+
+
+      at year-end 2011 , the company began using an approach that approximates the
+      process of settlement of obligations tailored to the plans 2019 expected cash
+      flows by matching the plans 2019 cash flows to the coupons and expected maturity
+      values of individually selected bonds .
+
+
+      the yield curve was developed for a universe containing the majority of u.s.-issued
+      aa-graded corporate bonds , all of which were non callable ( or callable with
+      make-whole provisions ) .
+
+
+      historically , for each plan , the discount rate was developed as the level
+      equivalent rate that would produce the same present value as that using spot
+      rates aligned with the projected benefit payments .
+
+
+      the expected long-term rate of return on plan assets is based on historical
+      and projected rates of return , prior to administrative and investment management
+      fees , for current and planned asset classes in the plans 2019 investment portfolios
+      .
+
+
+      assumed projected rates of return for each of the plans 2019 projected asset
+      classes were selected after analyzing historical experience and future expectations
+      of the returns and volatility of the various asset classes .
+
+
+      based on the target asset allocation for each asset class , the overall expected
+      rate of return for the portfolio was developed , adjusted for historical and
+      expected experience of active portfolio management results compared to the benchmark
+      returns and for the effect of expenses paid from plan assets .
+
+
+      the company 2019s pension expense increases as the expected return on assets
+      decreases .
+
+
+      in the determination of year end 2014 projected benefit plan obligations , the
+      company adopted a new table based on the society of actuaries rp 2014 mortality
+      table including a generational bb-2d projection scale .
+
+
+      the adoption resulted in a significant increase to pension and other postretirement
+      benefit plans 2019 projected benefit obligations .
+
+
+      assumed health care cost trend rates have a significant effect on the amounts
+      reported for the other postretirement benefit plans .
+
+
+      the health care cost trend rate is based on historical rates and expected market
+      conditions .
+
+
+      a one-percentage-point change in assumed health care cost trend rates would
+      have the following effects : one-percentage-point increase one-percentage-point
+      decrease effect on total of service and interest cost components .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      $ 5943 $ ( 4887 ) effect on other postretirement benefit obligation .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      $ 105967 $ ( 86179 ) .'
+    header:
+    - ''
+    - one-percentage-point increase
+    - one-percentage-point decrease
+    rows:
+    - - effect on total of service and interest cost components
+      - $ 5943
+      - $ -4887 ( 4887 )
+    - - effect on other postretirement benefit obligation
+      - $ 105967
+      - $ -86179 ( 86179 )
+    post_text: 'the discount rate assumption was determined for the pension and postretirement
+      benefit plans independently .
+
+
+      at year-end 2011 , the company began using an approach that approximates the
+      process of settlement of obligations tailored to the plans 2019 expected cash
+      flows by matching the plans 2019 cash flows to the coupons and expected maturity
+      values of individually selected bonds .
+
+
+      the yield curve was developed for a universe containing the majority of u.s.-issued
+      aa-graded corporate bonds , all of which were non callable ( or callable with
+      make-whole provisions ) .
+
+
+      historically , for each plan , the discount rate was developed as the level
+      equivalent rate that would produce the same present value as that using spot
+      rates aligned with the projected benefit payments .
+
+
+      the expected long-term rate of return on plan assets is based on historical
+      and projected rates of return , prior to administrative and investment management
+      fees , for current and planned asset classes in the plans 2019 investment portfolios
+      .
+
+
+      assumed projected rates of return for each of the plans 2019 projected asset
+      classes were selected after analyzing historical experience and future expectations
+      of the returns and volatility of the various asset classes .
+
+
+      based on the target asset allocation for each asset class , the overall expected
+      rate of return for the portfolio was developed , adjusted for historical and
+      expected experience of active portfolio management results compared to the benchmark
+      returns and for the effect of expenses paid from plan assets .
+
+
+      the company 2019s pension expense increases as the expected return on assets
+      decreases .
+
+
+      in the determination of year end 2014 projected benefit plan obligations , the
+      company adopted a new table based on the society of actuaries rp 2014 mortality
+      table including a generational bb-2d projection scale .
+
+
+      the adoption resulted in a significant increase to pension and other postretirement
+      benefit plans 2019 projected benefit obligations .
+
+
+      assumed health care cost trend rates have a significant effect on the amounts
+      reported for the other postretirement benefit plans .
+
+
+      the health care cost trend rate is based on historical rates and expected market
+      conditions .
+
+
+      a one-percentage-point change in assumed health care cost trend rates would
+      have the following effects : one-percentage-point increase one-percentage-point
+      decrease effect on total of service and interest cost components .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      $ 5943 $ ( 4887 ) effect on other postretirement benefit obligation .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      $ 105967 $ ( 86179 ) .'
+    id: awk-2014-table-1
+  - pre_text: 'part i item 1 .
+
+
+      business our company founded in 1886 , american water works company , inc. ,
+      ( the 201ccompany , 201d 201camerican water 201d or 201caww 201d ) is a delaware
+      holding company .
+
+
+      american water is the most geographically diversified , as well as the largest
+      publicly-traded , united states water and wastewater utility company , as measured
+      by both operating revenues and population served .
+
+
+      as a holding company , we conduct substantially all of our business operations
+      through our subsidiaries .
+
+
+      our approximately 6400 employees provide an estimated 15 million people with
+      drinking water , wastewater and/or other water-related services in 47 states
+      and one canadian province .
+
+
+      operating segments we report our results of operations in two operating segments
+      : the regulated businesses and the market- based operations .
+
+
+      additional information with respect to our operating segment results is included
+      in the section entitled 201citem 7 2014management 2019s discussion and analysis
+      of financial condition and results of operations , 201d and note 18 of the consolidated
+      financial statements .
+
+
+      regulated businesses our primary business involves the ownership of subsidiaries
+      that provide water and wastewater utility services to residential , commercial
+      , industrial and other customers , including sale for resale and public authority
+      customers .
+
+
+      we report the results of this business in our regulated businesses segment .
+
+
+      our subsidiaries that provide these services are generally subject to economic
+      regulation by certain state commissions or other entities engaged in economic
+      regulation , hereafter referred to as public utility commissions , or 201cpucs
+      , 201d of the states in which we operate .
+
+
+      the federal and state governments also regulate environmental , health and safety
+      , and water quality matters .
+
+
+      our regulated businesses segment operating revenues were $ 2674.3 million for
+      2014 , $ 2539.9 for 2013 , $ 2564.4 million for 2012 , accounting for 88.8%
+      ( 88.8 % ) , 90.1% ( 90.1 % ) and 89.9% ( 89.9 % ) , respectively , of total
+      operating revenues for the same periods .
+
+
+      the following table sets forth our regulated businesses operating revenues ,
+      number of customers and an estimate of population served as of december 31 ,
+      2014 : operating revenues ( in millions ) % (  % ) of total number of customers
+      % (  % ) of total estimated population served ( in millions ) % (  % ) of total
+      .'
+    header:
+    - new jersey
+    - operatingrevenues ( in millions ) $ 652.3
+    - '% (  % ) of total 24.5% ( 24.5 % )'
+    - number ofcustomers 648066
+    - '% (  % ) of total 20.2% ( 20.2 % )'
+    - estimatedpopulationserved ( in millions ) 2.7
+    - '% (  % ) of total 22.7% ( 22.7 % )'
+    rows:
+    - - pennsylvania
+      - '605.4'
+      - 22.6% ( 22.6 % )
+      - '666415'
+      - 20.7% ( 20.7 % )
+      - '2.2'
+      - 18.5% ( 18.5 % )
+    - - missouri
+      - '270.2'
+      - 10.1% ( 10.1 % )
+      - '464498'
+      - 14.4% ( 14.4 % )
+      - '1.5'
+      - 12.7% ( 12.7 % )
+    - - illinois ( a )
+      - '262.3'
+      - 9.8% ( 9.8 % )
+      - '312017'
+      - 9.7% ( 9.7 % )
+      - '1.3'
+      - 10.9% ( 10.9 % )
+    - - california
+      - '209.8'
+      - 7.8% ( 7.8 % )
+      - '174198'
+      - 5.4% ( 5.4 % )
+      - '0.6'
+      - 5.0% ( 5.0 % )
+    - - indiana
+      - '200.6'
+      - 7.5% ( 7.5 % )
+      - '293666'
+      - 9.1% ( 9.1 % )
+      - '1.2'
+      - 10.1% ( 10.1 % )
+    - - west virginia ( b )
+      - '127.0'
+      - 4.7% ( 4.7 % )
+      - '170371'
+      - 5.3% ( 5.3 % )
+      - '0.6'
+      - 5.0% ( 5.0 % )
+    - - subtotal ( top seven states )
+      - '2327.6'
+      - 87.0% ( 87.0 % )
+      - '2729231'
+      - 84.8% ( 84.8 % )
+      - '10.1'
+      - 84.9% ( 84.9 % )
+    - - other ( c )
+      - '346.7'
+      - 13.0% ( 13.0 % )
+      - '489961'
+      - 15.2% ( 15.2 % )
+      - '1.8'
+      - 15.1% ( 15.1 % )
+    - - total regulated businesses
+      - $ 2674.3
+      - 100.0% ( 100.0 % )
+      - '3219192'
+      - 100.0% ( 100.0 % )
+      - '11.9'
+      - 100.0% ( 100.0 % )
+    post_text: ( a ) includes illinois-american water company , which we refer to
+      as ilawc and american lake water company , also a regulated subsidiary in illinois.
+      .
+    id: awk-2014-table-2
+  - pre_text: 'from those currently anticipated and expressed in such forward-looking
+      statements as a result of a number of factors , including those we discuss under
+      201crisk factors 201d and elsewhere in this form 10-k .
+
+
+      you should read 201crisk factors 201d and 201cforward-looking statements . 201d
+      executive overview general american water works company , inc .
+
+
+      ( herein referred to as 201camerican water 201d or the 201ccompany 201d ) is
+      the largest investor-owned united states water and wastewater utility company
+      , as measured both by operating revenues and population served .
+
+
+      our approximately 6400 employees provide drinking water , wastewater and other
+      water related services to an estimated 15 million people in 47 states and in
+      one canadian province .
+
+
+      our primary business involves the ownership of water and wastewater utilities
+      that provide water and wastewater services to residential , commercial , industrial
+      and other customers .
+
+
+      our regulated businesses that provide these services are generally subject to
+      economic regulation by state regulatory agencies in the states in which they
+      operate .
+
+
+      the federal government and the states also regulate environmental , health and
+      safety and water quality matters .
+
+
+      our regulated businesses provide services in 16 states and serve approximately
+      3.2 million customers based on the number of active service connections to our
+      water and wastewater networks .
+
+
+      we report the results of these businesses in our regulated businesses segment
+      .
+
+
+      we also provide services that are not subject to economic regulation by state
+      regulatory agencies .
+
+
+      we report the results of these businesses in our market-based operations segment
+      .
+
+
+      in 2014 , we continued the execution of our strategic goals .
+
+
+      our commitment to growth through investment in our regulated infrastructure
+      and expansion of our regulated customer base and our market-based operations
+      , combined with operational excellence led to continued improvement in regulated
+      operating efficiency , improved performance of our market-based operations ,
+      and enabled us to provide increased value to our customers and investors .
+
+
+      during the year , we focused on growth , addressed regulatory lag , made more
+      efficient use of capital and improved our regulated operation and maintenance
+      ( 201co&m 201d ) efficiency ratio .
+
+
+      2014 financial results for the year ended december 31 , 2014 , we continued
+      to increase net income , while making significant capital investment in our
+      infrastructure and implementing operational efficiency improvements to keep
+      customer rates affordable .
+
+
+      highlights of our 2014 operating results compared to 2013 and 2012 include:
+      .'
+    header:
+    - ''
+    - '2014'
+    - '2013'
+    - '2012'
+    rows:
+    - - income from continuing operations
+      - $ 2.39
+      - $ 2.07
+      - $ 2.10
+    - - income ( loss ) from discontinued operations net of tax
+      - $ -0.04 ( 0.04 )
+      - $ -0.01 ( 0.01 )
+      - $ -0.09 ( 0.09 )
+    - - diluted earnings per share
+      - $ 2.35
+      - $ 2.06
+      - $ 2.01
+    post_text: 'continuing operations income from continuing operations included 4
+      cents per diluted share of costs resulting from the freedom industries chemical
+      spill in west virginia in 2014 and included 14 cents per diluted share in 2013
+      related to a tender offer .
+
+
+      earnings from continuing operations , adjusted for these two items , increased
+      10% ( 10 % ) , or 22 cents per share , mainly due to favorable operating results
+      from our regulated businesses segment due to higher revenues and lower operating
+      expenses , partially offset by higher depreciation expenses .
+
+
+      also contributing to the overall increase in income from continuing operations
+      was lower interest expense in 2014 compared to the same period in 2013. .'
+    id: awk-2014-table-3
+- id: awk-10k-2015
+  form: 10-K
+  filed: '2016-02-25'
+  period_covered: 2015-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1410636/000156459016013247/awk-10k_20151231.htm
+  tables:
+  - pre_text: 'the company recognizes accrued interest and penalties related to tax
+      positions as a component of income tax expense and accounts for sales tax collected
+      from customers and remitted to taxing authorities on a net basis .
+
+
+      allowance for funds used during construction afudc is a non-cash credit to income
+      with a corresponding charge to utility plant that represents the cost of borrowed
+      funds or a return on equity funds devoted to plant under construction .
+
+
+      the regulated utility subsidiaries record afudc to the extent permitted by the
+      pucs .
+
+
+      the portion of afudc attributable to borrowed funds is shown as a reduction
+      of interest , net in the accompanying consolidated statements of operations
+      .
+
+
+      any portion of afudc attributable to equity funds would be included in other
+      income ( expenses ) in the accompanying consolidated statements of operations
+      .
+
+
+      afudc is summarized in the following table for the years ended december 31:
+      .'
+    header:
+    - ''
+    - '2015'
+    - '2014'
+    - '2013'
+    rows:
+    - - allowance for other funds used during construction
+      - $ 13
+      - $ 9
+      - $ 13
+    - - allowance for borrowed funds used during construction
+      - '8'
+      - '6'
+      - '6'
+    post_text: 'environmental costs the company 2019s water and wastewater operations
+      are subject to u.s .
+
+
+      federal , state , local and foreign requirements relating to environmental protection
+      , and as such , the company periodically becomes subject to environmental claims
+      in the normal course of business .
+
+
+      environmental expenditures that relate to current operations or provide a future
+      benefit are expensed or capitalized as appropriate .
+
+
+      remediation costs that relate to an existing condition caused by past operations
+      are accrued , on an undiscounted basis , when it is probable that these costs
+      will be incurred and can be reasonably estimated .
+
+
+      remediation costs accrued amounted to $ 1 and $ 2 as of december 31 , 2015 and
+      2014 , respectively .
+
+
+      the accrual relates entirely to a conservation agreement entered into by a subsidiary
+      of the company with the national oceanic and atmospheric administration ( 201cnoaa
+      201d ) requiring the company to , among other provisions , implement certain
+      measures to protect the steelhead trout and its habitat in the carmel river
+      watershed in the state of california .
+
+
+      the company has agreed to pay $ 1 annually from 2010 to 2016 .
+
+
+      the company 2019s inception-to-date costs related to the noaa agreement were
+      recorded in regulatory assets in the accompanying consolidated balance sheets
+      as of december 31 , 2015 and 2014 and are expected to be fully recovered from
+      customers in future rates .
+
+
+      derivative financial instruments the company uses derivative financial instruments
+      for purposes of hedging exposures to fluctuations in interest rates .
+
+
+      these derivative contracts are entered into for periods consistent with the
+      related underlying exposures and do not constitute positions independent of
+      those exposures .
+
+
+      the company does not enter into derivative contracts for speculative purposes
+      and does not use leveraged instruments .
+
+
+      all derivatives are recognized on the balance sheet at fair value .
+
+
+      on the date the derivative contract is entered into , the company may designate
+      the derivative as a hedge of the fair value of a recognized asset or liability
+      ( fair-value hedge ) or a hedge of a forecasted transaction or of the variability
+      of cash flows to be received or paid related to a recognized asset or liability
+      ( cash-flow hedge ) .
+
+
+      changes in the fair value of a fair-value hedge , along with the gain or loss
+      on the underlying hedged item , are recorded in current-period earnings .
+
+
+      the effective portion of gains and losses on cash-flow hedges are recorded in
+      other comprehensive income , until earnings are affected by the variability
+      of cash flows .
+
+
+      any ineffective portion of designated hedges is recognized in current-period
+      earnings .
+
+
+      cash flows from derivative contracts are included in net cash provided by operating
+      activities in the accompanying consolidated statements of cash flows. .'
+    id: awk-2015-table-0
+  - pre_text: 'note 9 : stock based compensation the company has granted stock option
+      and restricted stock unit ( 201crsus 201d ) awards to non-employee directors
+      , officers and other key employees of the company pursuant to the terms of its
+      2007 omnibus equity compensation plan ( the 201c2007 plan 201d ) .
+
+
+      the total aggregate number of shares of common stock that may be issued under
+      the 2007 plan is 15.5 .
+
+
+      as of december 31 , 2015 , 8.4 shares were available for grant under the 2007
+      plan .
+
+
+      shares issued under the 2007 plan may be authorized-but-unissued shares of company
+      stock or reacquired shares of company stock , including shares purchased by
+      the company on the open market .
+
+
+      the company recognizes compensation expense for stock awards over the vesting
+      period of the award .
+
+
+      the following table presents stock-based compensation expense recorded in operation
+      and maintenance expense in the accompanying consolidated statements of operations
+      for the years ended december 31: .'
+    header:
+    - ''
+    - '2015'
+    - '2014'
+    - '2013'
+    rows:
+    - - stock options
+      - $ 2
+      - $ 2
+      - $ 3
+    - - rsus
+      - '8'
+      - '10'
+      - '9'
+    - - espp
+      - '1'
+      - '1'
+      - '1'
+    - - stock-based compensation
+      - '11'
+      - '13'
+      - '13'
+    - - income tax benefit
+      - -4 ( 4 )
+      - -5 ( 5 )
+      - -5 ( 5 )
+    - - stock-based compensation expense net of tax
+      - $ 7
+      - $ 8
+      - $ 8
+    post_text: 'there were no significant stock-based compensation costs capitalized
+      during the years ended december 31 , 2015 , 2014 and 2013 .
+
+
+      the cost of services received from employees in exchange for the issuance of
+      stock options and restricted stock awards is measured based on the grant date
+      fair value of the awards issued .
+
+
+      the value of stock options and rsus awards at the date of the grant is amortized
+      through expense over the three-year service period .
+
+
+      all awards granted in 2015 , 2014 and 2013 are classified as equity .
+
+
+      the company receives a tax deduction based on the intrinsic value of the award
+      at the exercise date for stock options and the distribution date for rsus .
+
+
+      for each award , throughout the requisite service period , the company recognizes
+      the tax benefits , which have been included in deferred income tax assets ,
+      related to compensation costs .
+
+
+      the tax deductions in excess of the benefits recorded throughout the requisite
+      service period are recorded to common stockholders 2019 equity or the statement
+      of operations and are presented in the financing section of the consolidated
+      statements of cash flows .
+
+
+      the company stratified its grant populations and used historic employee turnover
+      rates to estimate employee forfeitures .
+
+
+      the estimated rate is compared to the actual forfeitures at the end of the reporting
+      period and adjusted as necessary .
+
+
+      stock options in 2015 , 2014 and 2013 , the company granted non-qualified stock
+      options to certain employees under the 2007 plan .
+
+
+      the stock options vest ratably over the three-year service period beginning
+      on january 1 of the year of the grant .
+
+
+      these awards have no performance vesting conditions and the grant date fair
+      value is amortized through expense over the requisite service period using the
+      straight-line method and is included in operations and maintenance expense in
+      the accompanying consolidated statements of operations. .'
+    id: awk-2015-table-1
+  - pre_text: 'long-term liabilities .
+
+
+      the value of the company 2019s deferred compensation obligations is based on
+      the market value of the participants 2019 notional investment accounts .
+
+
+      the notional investments are comprised primarily of mutual funds , which are
+      based on observable market prices .
+
+
+      mark-to-market derivative asset and liability 2014the company utilizes fixed-to-floating
+      interest-rate swaps , typically designated as fair-value hedges , to achieve
+      a targeted level of variable-rate debt as a percentage of total debt .
+
+
+      the company also employs derivative financial instruments in the form of variable-to-fixed
+      interest rate swaps , classified as economic hedges , in order to fix the interest
+      cost on some of its variable-rate debt .
+
+
+      the company uses a calculation of future cash inflows and estimated future outflows
+      , which are discounted , to determine the current fair value .
+
+
+      additional inputs to the present value calculation include the contract terms
+      , counterparty credit risk , interest rates and market volatility .
+
+
+      other investments 2014other investments primarily represent money market funds
+      used for active employee benefits .
+
+
+      the company includes other investments in other current assets .
+
+
+      note 18 : leases the company has entered into operating leases involving certain
+      facilities and equipment .
+
+
+      rental expenses under operating leases were $ 21 for 2015 , $ 22 for 2014 and
+      $ 23 for 2013 .
+
+
+      the operating leases for facilities will expire over the next 25 years and the
+      operating leases for equipment will expire over the next five years .
+
+
+      certain operating leases have renewal options ranging from one to five years
+      .
+
+
+      the minimum annual future rental commitment under operating leases that have
+      initial or remaining non- cancelable lease terms over the next five years and
+      thereafter are as follows: .'
+    header:
+    - year
+    - amount
+    rows:
+    - - '2016'
+      - $ 13
+    - - '2017'
+      - '12'
+    - - '2018'
+      - '11'
+    - - '2019'
+      - '10'
+    - - '2020'
+      - '8'
+    - - thereafter
+      - '74'
+    post_text: 'the company has a series of agreements with various public entities
+      ( the 201cpartners 201d ) to establish certain joint ventures , commonly referred
+      to as 201cpublic-private partnerships . 201d under the public-private partnerships
+      , the company constructed utility plant , financed by the company and the partners
+      constructed utility plant ( connected to the company 2019s property ) , financed
+      by the partners .
+
+
+      the company agreed to transfer and convey some of its real and personal property
+      to the partners in exchange for an equal principal amount of industrial development
+      bonds ( 201cidbs 201d ) , issued by the partners under a state industrial development
+      bond and commercial development act .
+
+
+      the company leased back the total facilities , including portions funded by
+      both the company and the partners , under leases for a period of 40 years .
+
+
+      the leases related to the portion of the facilities funded by the company have
+      required payments from the company to the partners that approximate the payments
+      required by the terms of the idbs from the partners to the company ( as the
+      holder of the idbs ) .
+
+
+      as the ownership of the portion of the facilities constructed by the company
+      will revert back to the company at the end of the lease , the company has recorded
+      these as capital leases .
+
+
+      the lease obligation and the receivable for the principal amount of the idbs
+      are presented by the company on a net basis .
+
+
+      the gross cost of the facilities funded by the company recognized as a capital
+      lease asset was $ 156 and $ 157 as of december 31 , 2015 and 2014 , respectively
+      , which is presented in property , plant and equipment in the accompanying consolidated
+      balance sheets .
+
+
+      the future payments under the lease obligations are equal to and offset by the
+      payments receivable under the idbs. .'
+    id: awk-2015-table-2
+  - pre_text: 'during 2012 , the company granted selected employees an aggregate of
+      139 thousand rsus with internal performance measures and , separately , certain
+      market thresholds .
+
+
+      these awards vested in january 2015 .
+
+
+      the terms of the grants specified that to the extent certain performance goals
+      , comprised of internal measures and , separately , market thresholds were achieved
+      , the rsus would vest ; if performance goals were surpassed , up to 175% ( 175
+      % ) of the target awards would be distributed ; and if performance goals were
+      not met , the awards would be forfeited .
+
+
+      in january 2015 , an additional 93 thousand rsus were granted and distributed
+      because performance thresholds were exceeded .
+
+
+      in 2015 , 2014 and 2013 , the company granted rsus , both with and without performance
+      conditions , to certain employees under the 2007 plan .
+
+
+      the rsus without performance conditions vest ratably over the three- year service
+      period beginning january 1 of the year of the grant and the rsus with performance
+      conditions vest ratably over the three-year performance period beginning january
+      1 of the year of the grant ( the 201cperformance period 201d ) .
+
+
+      distribution of the performance shares is contingent upon the achievement of
+      internal performance measures and , separately , certain market thresholds over
+      the performance period .
+
+
+      during 2015 , 2014 and 2013 , the company granted rsus to non-employee directors
+      under the 2007 plan .
+
+
+      the rsus vested on the date of grant ; however , distribution of the shares
+      will be made within 30 days of the earlier of : ( i ) 15 months after grant
+      date , subject to any deferral election by the director ; or ( ii ) the participant
+      2019s separation from service .
+
+
+      because these rsus vested on the grant date , the total grant date fair value
+      was recorded in operation and maintenance expense included in the expense table
+      above on the grant date .
+
+
+      rsus generally vest over periods ranging from one to three years .
+
+
+      rsus granted with service-only conditions and those with internal performance
+      measures are valued at the market value of the closing price of the company
+      2019s common stock on the date of grant .
+
+
+      rsus granted with market conditions are valued using a monte carlo model .
+
+
+      expected volatility is based on historical volatilities of traded common stock
+      of the company and comparative companies using daily stock prices over the past
+      three years .
+
+
+      the expected term is three years and the risk-free interest rate is based on
+      the three-year u.s .
+
+
+      treasury rate in effect as of the measurement date .
+
+
+      the following table presents the weighted-average assumptions used in the monte
+      carlo simulation and the weighted-average grant date fair values of rsus granted
+      for the years ended december 31: .'
+    header:
+    - ''
+    - '2015'
+    - '2014'
+    - '2013'
+    rows:
+    - - expected volatility
+      - 14.93% ( 14.93 % )
+      - 17.78% ( 17.78 % )
+      - 19.37% ( 19.37 % )
+    - - risk-free interest rate
+      - 1.07% ( 1.07 % )
+      - 0.75% ( 0.75 % )
+      - 0.40% ( 0.40 % )
+    - - expected life ( years )
+      - '3.0'
+      - '3.0'
+      - '3.0'
+    - - grant date fair value per share
+      - $ 62.10
+      - $ 45.45
+      - $ 40.13
+    post_text: 'the grant date fair value of restricted stock awards that vest ratably
+      and have market and/or performance and service conditions are amortized through
+      expense over the requisite service period using the graded-vesting method .
+
+
+      rsus that have no performance conditions are amortized through expense over
+      the requisite service period using the straight-line method and are included
+      in operations expense in the accompanying consolidated statements of operations
+      .
+
+
+      as of december 31 , 2015 , $ 4 of total unrecognized compensation cost related
+      to the nonvested restricted stock units is expected to be recognized over the
+      weighted-average remaining life of 1.4 years .
+
+
+      the total grant date fair value of rsus vested was $ 12 , $ 11 and $ 9 for the
+      years ended december 31 , 2015 , 2014 and 2013. .'
+    id: awk-2015-table-3
+  - pre_text: 'the following tables present a reconciliation of the beginning and
+      ending balances of the fair value measurements using significant unobservable
+      inputs ( level 3 ) for 2015 and 2014 , respectively: .'
+    header:
+    - ''
+    - level 3
+    rows:
+    - - balance as of january 1 2015
+      - $ 127
+    - - actual return on assets
+      - '12'
+    - - purchases issuances and settlements net
+      - -3 ( 3 )
+    - - balance as of december 31 2015
+      - $ 136
+    post_text: 'purchases , issuances and settlements , net .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      76 balance as of december 31 , 2014 .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      $ 127 the company 2019s other postretirement benefit plans are partially funded
+      and the assets are held under various trusts .
+
+
+      the investments and risk mitigation strategies for the plans are tailored specifically
+      for each trust .
+
+
+      in setting new strategic asset mixes , consideration is given to the likelihood
+      that the selected asset allocation will effectively fund the projected plan
+      liabilities and the risk tolerance of the company .
+
+
+      the company periodically updates the long-term , strategic asset allocations
+      and uses various analytics to determine the optimal asset allocation .
+
+
+      considerations include plan liability characteristics , liquidity characteristics
+      , funding requirements , expected rates of return and the distribution of returns
+      .
+
+
+      in june 2012 , the company implemented a de-risking strategy for the medical
+      bargaining trust within the plan to minimize volatility .
+
+
+      as part of the de-risking strategy , the company revised the asset allocations
+      to increase the matching characteristics of assets relative to liabilities .
+
+
+      the initial de-risking asset allocation for the plan was 60% ( 60 % ) return-generating
+      assets and 40% ( 40 % ) liability-driven assets .
+
+
+      the investment strategies and policies for the plan reflect a balance of liability
+      driven and return-generating considerations .
+
+
+      the objective of minimizing the volatility of assets relative to liabilities
+      is addressed primarily through asset 2014liability matching , asset diversification
+      and hedging .
+
+
+      the fixed income target asset allocation matches the bond-like and long-dated
+      nature of the postretirement liabilities .
+
+
+      assets are broadly diversified within asset classes to achieve risk-adjusted
+      returns that in total lower asset volatility relative to the liabilities .
+
+
+      the company assesses the investment strategy regularly to ensure actual allocations
+      are in line with target allocations as appropriate .
+
+
+      strategies to address the goal of ensuring sufficient assets to pay benefits
+      include target allocations to a broad array of asset classes and , within asset
+      classes strategies are employed to provide adequate returns , diversification
+      and liquidity .
+
+
+      the assets of the company 2019s other trusts , within the other postretirement
+      benefit plans , have been primarily invested in equities and fixed income funds
+      .
+
+
+      the assets under the various other postretirement benefit trusts are invested
+      differently based on the assets and liabilities of each trust .
+
+
+      the obligations of the other postretirement benefit plans are dominated by obligations
+      for the medical bargaining trust .
+
+
+      thirty-nine percent and four percent of the total postretirement plan benefit
+      obligations are related to the medical non-bargaining and life insurance trusts
+      , respectively .
+
+
+      because expected benefit payments related to the benefit obligations are so
+      far into the future , and the size of the medical non-bargaining and life insurance
+      trusts 2019 obligations are large compared to each trusts 2019 assets , the
+      investment strategy is to allocate a significant portion of the assets 2019
+      investment to equities , which the company believes will provide the highest
+      long-term return and improve the funding ratio .
+
+
+      the company engages third party investment managers for all invested assets
+      .
+
+
+      managers are not permitted to invest outside of the asset class ( e.g .
+
+
+      fixed income , equity , alternatives ) or strategy for which they have been
+      appointed .
+
+
+      investment management agreements and recurring performance and attribution analysis
+      are used as tools to ensure investment managers invest solely within the investment
+      strategy they have been provided .
+
+
+      futures and options may be used to adjust portfolio duration to align with a
+      plan 2019s targeted investment policy. .'
+    id: awk-2015-table-4
+  - pre_text: 'note 4 : property , plant and equipment the following table summarizes
+      the major classes of property , plant and equipment by category as of december
+      31 : 2015 2014 range of remaining useful weighted average useful life utility
+      plant : land and other non-depreciable assets .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      $ 141 $ 137 sources of supply .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      705 681 12 to 127 years 51 years treatment and pumping facilities .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      3070 2969 3 to 101 years 39 years transmission and distribution facilities .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      8516 7963 9 to 156 years 83 years services , meters and fire hydrants .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      3250 3062 8 to 93 years 35 years general structures and equipment .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      1227 1096 1 to 154 years 39 years waste treatment , pumping and disposal .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      313 281 2 to 115 years 46 years waste collection .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      473 399 5 to 109 years 56 years construction work in progress .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      404 303 total utility plant .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      18099 16891 nonutility property .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      405 378 3 to 50 years 6 years total property , plant and equipment .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      $ 18504 $ 17269 property , plant and equipment depreciation expense amounted
+      to $ 405 , $ 392 , and $ 374 for the years ended december 31 , 2015 , 2014 and
+      2013 , respectively and was included in depreciation and amortization expense
+      in the accompanying consolidated statements of operations .
+
+
+      the provision for depreciation expressed as a percentage of the aggregate average
+      depreciable asset balances was 3.13% ( 3.13 % ) for the year ended december
+      31 , 2015 and 3.20% ( 3.20 % ) for years december 31 , 2014 and 2013 .
+
+
+      note 5 : allowance for uncollectible accounts the following table summarizes
+      the changes in the company 2019s allowances for uncollectible accounts for the
+      years ended december 31: .'
+    header:
+    - ''
+    - '2015'
+    - '2014'
+    - '2013'
+    rows:
+    - - balance as of january 1
+      - $ -35 ( 35 )
+      - $ -34 ( 34 )
+      - $ -27 ( 27 )
+    - - amounts charged to expense
+      - -32 ( 32 )
+      - -37 ( 37 )
+      - -27 ( 27 )
+    - - amounts written off
+      - '38'
+      - '43'
+      - '24'
+    - - recoveries of amounts written off
+      - -10 ( 10 )
+      - -7 ( 7 )
+      - -4 ( 4 )
+    - - balance as of december 31
+      - $ -39 ( 39 )
+      - $ -35 ( 35 )
+      - $ -34 ( 34 )
+    post_text: .
+    id: awk-2015-table-5
+  - pre_text: 'the authorized costs of $ 76 are to be recovered via a surcharge over
+      a twenty-year period beginning october 2012 .
+
+
+      surcharges collected as of december 31 , 2015 and 2014 were $ 4 and $ 5 , respectively
+      .
+
+
+      in addition to the authorized costs , the company expects to incur additional
+      costs totaling $ 34 , which will be recovered from contributions made by the
+      california state coastal conservancy .
+
+
+      contributions collected as of december 31 , 2015 and 2014 were $ 8 and $ 5 ,
+      respectively .
+
+
+      regulatory balancing accounts accumulate differences between revenues recognized
+      and authorized revenue requirements until they are collected from customers
+      or are refunded .
+
+
+      regulatory balancing accounts include low income programs and purchased power
+      and water accounts .
+
+
+      debt expense is amortized over the lives of the respective issues .
+
+
+      call premiums on the redemption of long- term debt , as well as unamortized
+      debt expense , are deferred and amortized to the extent they will be recovered
+      through future service rates .
+
+
+      purchase premium recoverable through rates is primarily the recovery of the
+      acquisition premiums related to an asset acquisition by the company 2019s california
+      subsidiary during 2002 , and acquisitions in 2007 by the company 2019s new jersey
+      subsidiary .
+
+
+      as authorized for recovery by the california and new jersey pucs , these costs
+      are being amortized to depreciation and amortization in the consolidated statements
+      of operations through november 2048 .
+
+
+      tank painting costs are generally deferred and amortized to operations and maintenance
+      expense in the consolidated statements of operations on a straight-line basis
+      over periods ranging from five to fifteen years , as authorized by the regulatory
+      authorities in their determination of rates charged for service .
+
+
+      other regulatory assets include certain deferred business transformation costs
+      , construction costs for treatment facilities , property tax stabilization ,
+      employee-related costs , business services project expenses , coastal water
+      project costs , rate case expenditures and environmental remediation costs among
+      others .
+
+
+      these costs are deferred because the amounts are being recovered in rates or
+      are probable of recovery through rates in future periods .
+
+
+      regulatory liabilities the regulatory liabilities generally represent probable
+      future reductions in revenues associated with amounts that are to be credited
+      or refunded to customers through the rate-making process .
+
+
+      the following table summarizes the composition of regulatory liabilities as
+      of december 31: .'
+    header:
+    - ''
+    - '2015'
+    - '2014'
+    rows:
+    - - removal costs recovered through rates
+      - $ 311
+      - $ 301
+    - - pension and other postretirement benefitbalancing accounts
+      - '59'
+      - '54'
+    - - other
+      - '32'
+      - '37'
+    - - total regulatory liabilities
+      - $ 402
+      - $ 392
+    post_text: 'removal costs recovered through rates are estimated costs to retire
+      assets at the end of their expected useful life that are recovered through customer
+      rates over the life of the associated assets .
+
+
+      in december 2008 , the company 2019s subsidiary in new jersey , at the direction
+      of the new jersey puc , began to depreciate $ 48 of the total balance into depreciation
+      and amortization expense in the consolidated statements of operations via straight
+      line amortization through november 2048 .
+
+
+      pension and other postretirement benefit balancing accounts represent the difference
+      between costs incurred and costs authorized by the puc 2019s that are expected
+      to be refunded to customers. .'
+    id: awk-2015-table-6
+  - pre_text: 'the facility is considered 201cdebt 201d for purposes of a support
+      agreement between american water and awcc , which serves as a functional equivalent
+      of a guarantee by american water of awcc 2019s payment obligations under the
+      credit facility .
+
+
+      also , the company acquired an additional revolving line of credit as part of
+      its keystone acquisition .
+
+
+      the total commitment under this credit facility was $ 16 million of which $
+      2 million was outstanding as of december 31 , 2015 .
+
+
+      the following table summarizes information regarding the company 2019s aggregate
+      credit facility commitments , letter of credit sub-limits and available funds
+      under those revolving credit facilities , as well as outstanding amounts of
+      commercial paper and outstanding borrowings under the respective facilities
+      as of december 31 , 2015 and 2014 : credit facility commitment available credit
+      facility capacity letter of credit sublimit available letter of credit capacity
+      outstanding commercial ( net of discount ) credit line borrowing ( in millions
+      ) december 31 , 2015 .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      $ 1266 $ 1182 $ 150 $ 68 $ 626 $ 2 december 31 , 2014 .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      $ 1250 $ 1212 $ 150 $ 112 $ 450 $ 2014 the weighted-average interest rate on
+      awcc short-term borrowings for the years ended december 31 , 2015 and 2014 was
+      approximately 0.49% ( 0.49 % ) and 0.31% ( 0.31 % ) , respectively .
+
+
+      interest accrues on the keystone revolving line of credit daily at a rate per
+      annum equal to 2.75% ( 2.75 % ) above the greater of the one month or one day
+      libor .
+
+
+      capital structure the following table indicates the percentage of our capitalization
+      represented by the components of our capital structure as of december 31: .'
+    header:
+    - ''
+    - '2015'
+    - '2014'
+    - '2013'
+    rows:
+    - - total common stockholders' equity
+      - 43.5% ( 43.5 % )
+      - 45.2% ( 45.2 % )
+      - 44.6% ( 44.6 % )
+    - - long-term debt and redeemable preferred stock at redemption value
+      - 50.6% ( 50.6 % )
+      - 50.1% ( 50.1 % )
+      - 49.3% ( 49.3 % )
+    - - short-term debt and current portion of long-term debt
+      - 5.9% ( 5.9 % )
+      - 4.7% ( 4.7 % )
+      - 6.1% ( 6.1 % )
+    - - total
+      - 100% ( 100 % )
+      - 100% ( 100 % )
+      - 100% ( 100 % )
+    post_text: 'the changes in the capital structure between periods were mainly attributable
+      to changes in outstanding commercial paper balances .
+
+
+      debt covenants our debt agreements contain financial and non-financial covenants
+      .
+
+
+      to the extent that we are not in compliance with these covenants such an event
+      may create an event of default under the debt agreement and we or our subsidiaries
+      may be restricted in our ability to pay dividends , issue new debt or access
+      our revolving credit facility .
+
+
+      for two of our smaller operating companies , we have informed our counterparties
+      that we will provide only unaudited financial information at the subsidiary
+      level , which resulted in technical non-compliance with certain of their reporting
+      requirements under debt agreements with respect to $ 8 million of outstanding
+      debt .
+
+
+      we do not believe this event will materially impact us .
+
+
+      our long-term debt indentures contain a number of covenants that , among other
+      things , limit the company from issuing debt secured by the company 2019s assets
+      , subject to certain exceptions .
+
+
+      our failure to comply with any of these covenants could accelerate repayment
+      obligations .
+
+
+      certain long-term notes and the revolving credit facility require us to maintain
+      a ratio of consolidated debt to consolidated capitalization ( as defined in
+      the relevant documents ) of not more than 0.70 to 1.00 .
+
+
+      on december 31 , 2015 , our ratio was 0.56 to 1.00 and therefore we were in
+      compliance with the covenant. .'
+    id: awk-2015-table-7
+  - pre_text: 'during 2014 , the company closed on thirteen acquisitions of various
+      regulated water and wastewater systems for a total aggregate purchase price
+      of $ 9 .
+
+
+      assets acquired , principally plant , totaled $ 17 .
+
+
+      liabilities assumed totaled $ 8 , including $ 5 of contributions in aid of construction
+      and assumed debt of $ 2 .
+
+
+      during 2013 , the company closed on fifteen acquisitions of various regulated
+      water and wastewater systems for a total aggregate net purchase price of $ 24
+      .
+
+
+      assets acquired , primarily utility plant , totaled $ 67 .
+
+
+      liabilities assumed totaled $ 43 , including $ 26 of contributions in aid of
+      construction and assumed debt of $ 13 .
+
+
+      included in these totals was the company 2019s november 14 , 2013 acquisition
+      of all of the capital stock of dale service corporation ( 201cdale 201d ) ,
+      a regulated wastewater utility company , for a total cash purchase price of
+      $ 5 ( net of cash acquired of $ 7 ) , plus assumed liabilities .
+
+
+      the dale acquisition was accounted for as a business combination ; accordingly
+      , operating results from november 14 , 2013 were included in the company 2019s
+      results of operations .
+
+
+      the purchase price was allocated to the net tangible and intangible assets based
+      upon their estimated fair values at the date of acquisition .
+
+
+      the company 2019s regulatory practice was followed whereby property , plant
+      and equipment ( rate base ) was considered fair value for business combination
+      purposes .
+
+
+      similarly , regulatory assets and liabilities acquired were recorded at book
+      value and are subject to regulatory approval where applicable .
+
+
+      the acquired debt was valued in a manner consistent with the company 2019s level
+      3 debt .
+
+
+      see note 17 2014fair value of financial instruments .
+
+
+      non-cash assets acquired in the dale acquisition , primarily utility plant ,
+      totaled $ 41 ; liabilities assumed totaled $ 36 , including debt assumed of
+      $ 13 and contributions of $ 19 .
+
+
+      divestitures in november 2014 , the company completed the sale of terratec ,
+      previously included in the market-based businesses .
+
+
+      after post-close adjustments , net proceeds from the sale totaled $ 1 , and
+      the company recorded a pretax loss on sale of $ 1 .
+
+
+      the following table summarizes the operating results of discontinued operations
+      presented in the accompanying consolidated statements of operations for the
+      years ended december 31: .'
+    header:
+    - ''
+    - '2014'
+    - '2013'
+    rows:
+    - - operating revenues
+      - $ 13
+      - $ 23
+    - - total operating expenses net
+      - '19'
+      - '26'
+    - - loss from discontinued operations before income taxes
+      - -6 ( 6 )
+      - -3 ( 3 )
+    - - provision ( benefit ) for income taxes
+      - '1'
+      - -1 ( 1 )
+    - - loss from discontinued operations net of tax
+      - $ -7 ( 7 )
+      - $ -2 ( 2 )
+    post_text: 'the provision for income taxes of discontinued operations includes
+      the recognition of tax expense related to the difference between the tax basis
+      and book basis of assets upon the sales of terratec that resulted in taxable
+      gains , since an election was made under section 338 ( h ) ( 10 ) of the internal
+      revenue code to treat the sales as asset sales .
+
+
+      there were no assets or liabilities of discontinued operations in the accompanying
+      consolidated balance sheets as of december 31 , 2015 and 2014. .'
+    id: awk-2015-table-8
+  - pre_text: 'part i item 1 .
+
+
+      business our company founded in 1886 , american water works company , inc .
+
+
+      ( the 201ccompany 201d or 201camerican water 201d ) is a holding company incorporated
+      in delaware .
+
+
+      american water is the largest and most geographically diverse investor owned
+      publicly-traded united states water and wastewater utility company , as measured
+      by both operating revenues and population served .
+
+
+      we employ approximately 6700 professionals who provide drinking water , wastewater
+      and other related services to an estimated 15 million people in 47 states ,
+      the district of columbia and ontario , canada .
+
+
+      operating segments we conduct our business primarily through our regulated businesses
+      segment .
+
+
+      we also operate several market-based businesses that provide a broad range of
+      related and complementary water and wastewater services , which include four
+      operating segments that individually do not meet the criteria of a reportable
+      segment in accordance with generally accepted accounting principles in the united
+      states ( 201cgaap 201d ) .
+
+
+      these four non- reportable operating segments are collectively presented as
+      our 201cmarket-based businesses , 201d which is consistent with how management
+      assesses the results of these businesses .
+
+
+      additional information can be found in item 7 2014management 2019s discussion
+      and analysis of financial condition and results of operations and note 19 2014segment
+      information in the notes to consolidated financial statements .
+
+
+      regulated businesses our primary business involves the ownership of subsidiaries
+      that provide water and wastewater utility services to residential , commercial
+      , industrial and other customers , including sale for resale and public authority
+      customers .
+
+
+      our subsidiaries that provide these services operate in approximately 1600 communities
+      in 16 states in the united states and are generally subject to regulation by
+      certain state commissions or other entities engaged in utility regulation ,
+      referred to as public utility commissions or ( 201cpucs 201d ) .
+
+
+      the federal and state governments also regulate environmental , health and safety
+      , and water quality matters .
+
+
+      we report the results of the services provided by our utilities in our regulated
+      businesses segment .
+
+
+      our regulated businesses segment 2019s operating revenues were $ 2743 million
+      for 2015 , $ 2674 million for 2014 and $ 2594 million for 2013 , accounting
+      for 86.8% ( 86.8 % ) , 88.8% ( 88.8 % ) and 90.1% ( 90.1 % ) , respectively
+      , of total operating revenues for the same periods .
+
+
+      the following table summarizes our regulated businesses 2019 operating revenues
+      , number of customers and estimated population served by state , each as of
+      december 31 , 2015 : operating revenues ( in millions ) % (  % ) of total number
+      of customers % (  % ) of total estimated population served ( in millions ) %
+      (  % ) of total .'
+    header:
+    - new jersey
+    - operatingrevenues ( in millions ) $ 704
+    - '% (  % ) of total 25.7% ( 25.7 % )'
+    - number ofcustomers 660580
+    - '% (  % ) of total 20.3% ( 20.3 % )'
+    - estimatedpopulationserved ( in millions ) 2.7
+    - '% (  % ) of total 22.3% ( 22.3 % )'
+    rows:
+    - - pennsylvania
+      - '614'
+      - 22.4% ( 22.4 % )
+      - '672407'
+      - 20.7% ( 20.7 % )
+      - '2.3'
+      - 19.0% ( 19.0 % )
+    - - illinois ( a )
+      - '270'
+      - 9.8% ( 9.8 % )
+      - '313058'
+      - 9.6% ( 9.6 % )
+      - '1.3'
+      - 10.7% ( 10.7 % )
+    - - missouri
+      - '269'
+      - 9.8% ( 9.8 % )
+      - '473245'
+      - 14.5% ( 14.5 % )
+      - '1.5'
+      - 12.4% ( 12.4 % )
+    - - indiana
+      - '206'
+      - 7.5% ( 7.5 % )
+      - '295994'
+      - 9.1% ( 9.1 % )
+      - '1.3'
+      - 10.7% ( 10.7 % )
+    - - california
+      - '198'
+      - 7.2% ( 7.2 % )
+      - '174942'
+      - 5.4% ( 5.4 % )
+      - '0.6'
+      - 5.0% ( 5.0 % )
+    - - west virginia ( b )
+      - '129'
+      - 4.7% ( 4.7 % )
+      - '169037'
+      - 5.2% ( 5.2 % )
+      - '0.6'
+      - 5.0% ( 5.0 % )
+    - - subtotal ( top seven states )
+      - '2390'
+      - 87.1% ( 87.1 % )
+      - '2759263'
+      - 84.8% ( 84.8 % )
+      - '10.3'
+      - 85.1% ( 85.1 % )
+    - - other ( c )
+      - '353'
+      - 12.9% ( 12.9 % )
+      - '493428'
+      - 15.2% ( 15.2 % )
+      - '1.8'
+      - 14.9% ( 14.9 % )
+    - - total regulated businesses
+      - $ 2743
+      - 100.0% ( 100.0 % )
+      - '3252691'
+      - 100.0% ( 100.0 % )
+      - '12.1'
+      - 100.0% ( 100.0 % )
+    post_text: '( a ) includes illinois-american water company and american lake water
+      company .
+
+
+      ( b ) includes west virginia-american water company and its subsidiary bluefield
+      valley water works company .
+
+
+      ( c ) includes data from our utilities in the following states : georgia , hawaii
+      , iowa , kentucky , maryland , michigan , new york , tennessee and virginia.
+      .'
+    id: awk-2015-table-9
+- id: awk-10k-2017
+  form: 10-K
+  filed: '2018-02-20'
+  period_covered: 2017-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1410636/000141063618000076/a12312017-awkx10kdocument.htm
+  tables:
+  - pre_text: the table below summarizes activity of rsus with performance conditions
+      for the year ended december 31 , shares ( in thousands ) weighted average grant
+      date fair value ( per share ) .
+    header:
+    - ''
+    - shares ( in thousands )
+    - weightedaverage grantdate fair value ( per share )
+    rows:
+    - - non-vested total as of december 31 2016
+      - '309'
+      - $ 55.94
+    - - granted
+      - '186'
+      - '63.10'
+    - - vested
+      - -204 ( 204 )
+      - '46.10'
+    - - forfeited
+      - -10 ( 10 )
+      - '70.50'
+    - - non-vested total as of december 31 2017
+      - '281'
+      - $ 67.33
+    post_text: 'as of december 31 , 2017 , $ 6 million of total unrecognized compensation
+      cost related to the nonvested rsus , with and without performance conditions
+      , is expected to be recognized over the weighted-average remaining life of 1.5
+      years .
+
+
+      the total fair value of rsus , with and without performance conditions , vested
+      was $ 16 million , $ 14 million and $ 12 million for the years ended december
+      31 , 2017 , 2016 and 2015 , respectively .
+
+
+      if dividends are paid with respect to shares of the company 2019s common stock
+      before the rsus are distributed , the company credits a liability for the value
+      of the dividends that would have been paid if the rsus were shares of company
+      common stock .
+
+
+      when the rsus are distributed , the company pays the participant a lump sum
+      cash payment equal to the value of the dividend equivalents accrued .
+
+
+      the company accrued dividend equivalents totaling less than $ 1 million , $
+      1 million and $ 1 million to accumulated deficit in the accompanying consolidated
+      statements of changes in stockholders 2019 equity for the years ended december
+      31 , 2017 , 2016 and 2015 , respectively .
+
+
+      employee stock purchase plan the company maintains a nonqualified employee stock
+      purchase plan ( the 201cespp 201d ) through which employee participants may
+      use payroll deductions to acquire company common stock at the lesser of 90%
+      ( 90 % ) of the fair market value of the common stock at either the beginning
+      or the end of a three-month purchase period .
+
+
+      on february 15 , 2017 , the board adopted the american water works company ,
+      inc .
+
+
+      and its designated subsidiaries 2017 nonqualified employee stock purchase plan
+      , which was approved by stockholders on may 12 , 2017 and took effect on august
+      5 , 2017 .
+
+
+      the prior plan was terminated as to new purchases of company stock effective
+      august 31 , 2017 .
+
+
+      as of december 31 , 2017 , there were 2.0 million shares of common stock reserved
+      for issuance under the espp .
+
+
+      the espp is considered compensatory .
+
+
+      during the years ended december 31 , 2017 , 2016 and 2015 , the company issued
+      93 thousand , 93 thousand and 98 thousand shares , respectively , under the
+      espp. .'
+    id: awk-2017-table-0
+  - pre_text: 'income taxes american water and its subsidiaries participate in a consolidated
+      federal income tax return for u.s .
+
+
+      tax purposes .
+
+
+      members of the consolidated group are charged with the amount of federal income
+      tax expense determined as if they filed separate returns .
+
+
+      certain income and expense items are accounted for in different time periods
+      for financial reporting than for income tax reporting purposes .
+
+
+      the company provides deferred income taxes on the difference between the tax
+      basis of assets and liabilities and the amounts at which they are carried in
+      the financial statements .
+
+
+      these deferred income taxes are based on the enacted tax rates expected to be
+      in effect when these temporary differences are projected to reverse .
+
+
+      in addition , the regulated utility subsidiaries recognize regulatory assets
+      and liabilities for the effect on revenues expected to be realized as the tax
+      effects of temporary differences , previously flowed through to customers ,
+      reverse .
+
+
+      investment tax credits have been deferred by the regulated utility subsidiaries
+      and are being amortized to income over the average estimated service lives of
+      the related assets .
+
+
+      the company recognizes accrued interest and penalties related to tax positions
+      as a component of income tax expense and accounts for sales tax collected from
+      customers and remitted to taxing authorities on a net basis .
+
+
+      see note 13 2014income taxes .
+
+
+      allowance for funds used during construction afudc is a non-cash credit to income
+      with a corresponding charge to utility plant that represents the cost of borrowed
+      funds or a return on equity funds devoted to plant under construction .
+
+
+      the regulated utility subsidiaries record afudc to the extent permitted by the
+      pucs .
+
+
+      the portion of afudc attributable to borrowed funds is shown as a reduction
+      of interest , net in the accompanying consolidated statements of operations
+      .
+
+
+      any portion of afudc attributable to equity funds would be included in other
+      income ( expenses ) in the accompanying consolidated statements of operations
+      .
+
+
+      afudc is summarized in the following table for the years ended december 31:
+      .'
+    header:
+    - ''
+    - '2017'
+    - '2016'
+    - '2015'
+    rows:
+    - - allowance for other funds used during construction
+      - $ 19
+      - $ 15
+      - $ 13
+    - - allowance for borrowed funds used during construction
+      - '8'
+      - '6'
+      - '8'
+    post_text: 'environmental costs the company 2019s water and wastewater operations
+      and the operations of its market-based businesses are subject to u.s .
+
+
+      federal , state , local and foreign requirements relating to environmental protection
+      , and as such , the company periodically becomes subject to environmental claims
+      in the normal course of business .
+
+
+      environmental expenditures that relate to current operations or provide a future
+      benefit are expensed or capitalized as appropriate .
+
+
+      remediation costs that relate to an existing condition caused by past operations
+      are accrued , on an undiscounted basis , when it is probable that these costs
+      will be incurred and can be reasonably estimated .
+
+
+      a conservation agreement entered into by a subsidiary of the company with the
+      national oceanic and atmospheric administration in 2010 and amended in 2017
+      required the company to , among other provisions , implement certain measures
+      to protect the steelhead trout and its habitat in the carmel river watershed
+      in the state of california .
+
+
+      the company agreed to pay $ 1 million annually commencing in 2010 with the final
+      payment being made in 2021 .
+
+
+      remediation costs accrued amounted to $ 6 million and less than $ 1 million
+      as of december 31 , 2017 and 2016 , respectively .
+
+
+      derivative financial instruments the company uses derivative financial instruments
+      for purposes of hedging exposures to fluctuations in interest rates .
+
+
+      these derivative contracts are entered into for periods consistent with the
+      related underlying .'
+    id: awk-2017-table-1
+  - pre_text: 'on may 12 , 2017 , the company 2019s stockholders approved the american
+      water works company , inc .
+
+
+      2017 omnibus equity compensation plan ( the 201c2017 omnibus plan 201d ) .
+
+
+      a total of 7.2 million shares of common stock may be issued under the 2017 omnibus
+      plan .
+
+
+      as of december 31 , 2017 , 7.2 million shares were available for grant under
+      the 2017 omnibus plan .
+
+
+      the 2017 omnibus plan provides that grants of awards may be in any of the following
+      forms : incentive stock options , nonqualified stock options , stock appreciation
+      rights , stock units , stock awards , other stock-based awards and dividend
+      equivalents , which may be granted only on stock units or other stock-based
+      awards .
+
+
+      following the approval of the 2017 omnibus plan , no additional awards are to
+      be granted under the 2007 plan .
+
+
+      however , shares will still be issued under the 2007 plan pursuant to the terms
+      of awards previously issued under that plan prior to may 12 , 2017 .
+
+
+      the cost of services received from employees in exchange for the issuance of
+      stock options and restricted stock awards is measured based on the grant date
+      fair value of the awards issued .
+
+
+      the value of stock options and rsus awards at the date of the grant is amortized
+      through expense over the three-year service period .
+
+
+      all awards granted in 2017 , 2016 and 2015 are classified as equity .
+
+
+      the company recognizes compensation expense for stock awards over the vesting
+      period of the award .
+
+
+      the company stratified its grant populations and used historic employee turnover
+      rates to estimate employee forfeitures .
+
+
+      the estimated rate is compared to the actual forfeitures at the end of the reporting
+      period and adjusted as necessary .
+
+
+      the following table presents stock-based compensation expense recorded in operation
+      and maintenance expense in the accompanying consolidated statements of operations
+      for the years ended december 31: .'
+    header:
+    - ''
+    - '2017'
+    - '2016'
+    - '2015'
+    rows:
+    - - stock options
+      - $ 1
+      - $ 2
+      - $ 2
+    - - rsus
+      - '9'
+      - '8'
+      - '8'
+    - - nonqualified employee stock purchase plan
+      - '1'
+      - '1'
+      - '1'
+    - - stock-based compensation
+      - '11'
+      - '11'
+      - '11'
+    - - income tax benefit
+      - -4 ( 4 )
+      - -4 ( 4 )
+      - -4 ( 4 )
+    - - stock-based compensation expense net of tax
+      - $ 7
+      - $ 7
+      - $ 7
+    post_text: 'there were no significant stock-based compensation costs capitalized
+      during the years ended december 31 , 2017 , 2016 and 2015 .
+
+
+      the company receives a tax deduction based on the intrinsic value of the award
+      at the exercise date for stock options and the distribution date for rsus .
+
+
+      for each award , throughout the requisite service period , the company recognizes
+      the tax benefits , which have been included in deferred income tax assets ,
+      related to compensation costs .
+
+
+      the tax deductions in excess of the benefits recorded throughout the requisite
+      service period are recorded to the consolidated statements of operations and
+      are presented in the financing section of the consolidated statements of cash
+      flows .
+
+
+      stock options there were no grants of stock options to employees in 2017 .
+
+
+      in 2016 and 2015 , the company granted non-qualified stock options to certain
+      employees under the 2007 plan .
+
+
+      the stock options vest ratably over the three-year service period beginning
+      on january 1 of the year of the grant and have no performance vesting conditions
+      .
+
+
+      expense is recognized using the straight-line method and is amortized over the
+      requisite service period. .'
+    id: awk-2017-table-2
+  - pre_text: 'regulatory balancing accounts accumulate differences between revenues
+      recognized and authorized revenue requirements until they are collected from
+      customers or are refunded .
+
+
+      regulatory balancing accounts include low income programs and purchased power
+      and water accounts .
+
+
+      debt expense is amortized over the lives of the respective issues .
+
+
+      call premiums on the redemption of long- term debt , as well as unamortized
+      debt expense , are deferred and amortized to the extent they will be recovered
+      through future service rates .
+
+
+      as a result of american water capital corp . 2019s prepayment of the 5.62% (
+      5.62 % ) series c senior notes due december 21 , 2018 ( 201cseries c senior
+      notes 201d ) and 5.77% ( 5.77 % ) series d senior notes due december 21 , 2021
+      ( 201cseries d senior notes 201d ) and payment of a make-whole premium amount
+      to the holders thereof of $ 34 million , the company recorded a $ 6 million
+      charge resulting from the early extinguishment of debt at the parent company
+      .
+
+
+      substantially all of the early debt extinguishment costs allocable to the company
+      2019s utility subsidiaries were recorded as regulatory assets that the company
+      believes are probable of recovery in future rates .
+
+
+      approximately $ 1 million of the early debt extinguishment costs allocable to
+      the company 2019s utility subsidiaries was amortized in 2017 .
+
+
+      purchase premium recoverable through rates is primarily the recovery of the
+      acquisition premiums related to an asset acquisition by the company 2019s california
+      utility subsidiary during 2002 , and acquisitions in 2007 by the company 2019s
+      new jersey utility subsidiary .
+
+
+      as authorized for recovery by the california and new jersey pucs , these costs
+      are being amortized to depreciation and amortization in the consolidated statements
+      of operations through november 2048 .
+
+
+      tank painting costs are generally deferred and amortized to operations and maintenance
+      expense in the consolidated statements of operations on a straight-line basis
+      over periods ranging from two to fifteen years , as authorized by the regulatory
+      authorities in their determination of rates charged for service .
+
+
+      other regulatory assets include certain construction costs for treatment facilities
+      , property tax stabilization , employee-related costs , deferred other postretirement
+      benefit expense , business services project expenses , coastal water project
+      costs , rate case expenditures and environmental remediation costs among others
+      .
+
+
+      these costs are deferred because the amounts are being recovered in rates or
+      are probable of recovery through rates in future periods .
+
+
+      regulatory liabilities regulatory liabilities generally represent amounts that
+      are probable of being credited or refunded to customers through the rate-making
+      process .
+
+
+      also , if costs expected to be incurred in the future are currently being recovered
+      through rates , the company records those expected future costs as regulatory
+      liabilities .
+
+
+      the following table summarizes the composition of regulatory liabilities as
+      of december 31: .'
+    header:
+    - ''
+    - '2017'
+    - '2016'
+    rows:
+    - - income taxes recovered through rates
+      - $ 1242
+      - $ 2014
+    - - removal costs recovered through rates
+      - '315'
+      - '316'
+    - - pension and other postretirement benefit balancing accounts
+      - '48'
+      - '55'
+    - - other
+      - '59'
+      - '32'
+    - - total regulatory liabilities
+      - $ 1664
+      - $ 403
+    post_text: 'income taxes recovered through rates relate to deferred taxes that
+      will likely be refunded to the company 2019s customers .
+
+
+      on december 22 , 2017 , the tcja was signed into law , which , among other things
+      , enacted significant and complex changes to the internal revenue code of 1986
+      , including a reduction in the maximum u.s .
+
+
+      federal corporate income tax rate from 35% ( 35 % ) to 21% ( 21 % ) as of january
+      1 , 2018 .
+
+
+      the tcja created significant .'
+    id: awk-2017-table-3
+  - pre_text: 'deposits 2014deposits include escrow funds and certain other deposits
+      held in trust .
+
+
+      the company includes cash deposits in other current assets .
+
+
+      deferred compensation obligations 2014the company 2019s deferred compensation
+      plans allow participants to defer certain cash compensation into notional investment
+      accounts .
+
+
+      the company includes such plans in other long-term liabilities .
+
+
+      the value of the company 2019s deferred compensation obligations is based on
+      the market value of the participants 2019 notional investment accounts .
+
+
+      the notional investments are comprised primarily of mutual funds , which are
+      based on observable market prices .
+
+
+      mark-to-market derivative asset and liability 2014the company utilizes fixed-to-floating
+      interest-rate swaps , typically designated as fair-value hedges , to achieve
+      a targeted level of variable-rate debt as a percentage of total debt .
+
+
+      the company also employs derivative financial instruments in the form of variable-to-fixed
+      interest rate swaps and forward starting interest rate swaps , classified as
+      economic hedges and cash flow hedges , respectively , in order to fix the interest
+      cost on existing or forecasted debt .
+
+
+      the company uses a calculation of future cash inflows and estimated future outflows
+      , which are discounted , to determine the current fair value .
+
+
+      additional inputs to the present value calculation include the contract terms
+      , counterparty credit risk , interest rates and market volatility .
+
+
+      other investments 2014other investments primarily represent money market funds
+      used for active employee benefits .
+
+
+      the company includes other investments in other current assets .
+
+
+      note 18 : leases the company has entered into operating leases involving certain
+      facilities and equipment .
+
+
+      rental expenses under operating leases were $ 29 million , $ 24 million and
+      $ 21 million for the years ended december 31 , 2017 , 2016 and 2015 , respectively
+      .
+
+
+      the operating leases for facilities will expire over the next 25 years and the
+      operating leases for equipment will expire over the next 5 years .
+
+
+      certain operating leases have renewal options ranging from one to five years
+      .
+
+
+      the minimum annual future rental commitment under operating leases that have
+      initial or remaining non-cancelable lease terms over the next 5 years and thereafter
+      are as follows: .'
+    header:
+    - ''
+    - amount
+    rows:
+    - - '2018'
+      - $ 15
+    - - '2019'
+      - '14'
+    - - '2020'
+      - '12'
+    - - '2021'
+      - '9'
+    - - '2022'
+      - '8'
+    - - thereafter
+      - '65'
+    post_text: 'the company has a series of agreements with various public entities
+      ( the 201cpartners 201d ) to establish certain joint ventures , commonly referred
+      to as 201cpublic-private partnerships . 201d under the public-private partnerships
+      , the company constructed utility plant , financed by the company and the partners
+      constructed utility plant ( connected to the company 2019s property ) , financed
+      by the partners .
+
+
+      the company agreed to transfer and convey some of its real and personal property
+      to the partners in exchange for an equal principal amount of industrial development
+      bonds ( 201cidbs 201d ) , issued by the partners under a state industrial development
+      bond and commercial development act .
+
+
+      the company leased back the total facilities , including portions funded by
+      both the company and the partners , under leases for a period of 40 years .
+
+
+      the leases related to the portion of the facilities funded by the company have
+      required payments from the company to the partners that approximate the payments
+      required by the terms of the idbs from the partners to the company ( as the
+      holder of the idbs ) .
+
+
+      as the ownership of the portion of the facilities constructed by the .'
+    id: awk-2017-table-4
+  - pre_text: 'the following tables present a reconciliation of the beginning and
+      ending balances of the fair value measurements using significant unobservable
+      inputs ( level 3 ) for 2017 and 2016 , respectively: .'
+    header:
+    - ''
+    - level 3
+    rows:
+    - - balance as of january 1 2017
+      - $ 140
+    - - actual return on assets
+      - '2'
+    - - purchases issuances and settlements net
+      - '136'
+    - - balance as of december 31 2017
+      - $ 278
+    post_text: 'purchases , issuances and settlements , net .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      ( 4 ) balance as of december 31 , 2016 .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      $ 140 the company 2019s postretirement benefit plans have different levels of
+      funded status and the assets are held under various trusts .
+
+
+      the investments and risk mitigation strategies for the plans are tailored specifically
+      for each trust .
+
+
+      in setting new strategic asset mixes , consideration is given to the likelihood
+      that the selected asset allocation will effectively fund the projected plan
+      liabilities and meet the risk tolerance criteria of the company .
+
+
+      the company periodically updates the long-term , strategic asset allocations
+      for these plans through asset liability studies and uses various analytics to
+      determine the optimal asset allocation .
+
+
+      considerations include plan liability characteristics , liquidity needs , funding
+      requirements , expected rates of return and the distribution of returns .
+
+
+      strategies to address the goal of ensuring sufficient assets to pay benefits
+      include target allocations to a broad array of asset classes and , within asset
+      classes , strategies are employed to provide adequate returns , diversification
+      and liquidity .
+
+
+      in 2012 , the company implemented a de-risking strategy for the american water
+      pension plan after conducting an asset-liability study to reduce the volatility
+      of the funded status of the plan .
+
+
+      as part of the de-risking strategy , the company revised the asset allocations
+      to increase the matching characteristics of fixed-income assets relative to
+      liabilities .
+
+
+      the fixed income portion of the portfolio was designed to match the bond-like
+      and long-dated nature of the postretirement liabilities .
+
+
+      in 2017 , the company further increased its exposure to liability-driven investing
+      and increased its fixed-income allocation to 50% ( 50 % ) , up from 40% ( 40
+      % ) , in an effort to further decrease the funded status volatility of the plan
+      and hedge the portfolio from movements in interest rates .
+
+
+      in 2012 , the company also implemented a de-risking strategy for the medical
+      bargaining trust within the plan to minimize volatility .
+
+
+      in 2017 , the company conducted a new asset-liability study that indicated medical
+      trend inflation that outpaced the consumer price index by more than 2% ( 2 %
+      ) for the last 20 years .
+
+
+      given continuously rising medical costs , the company decided to increase the
+      equity exposure of the portfolio to 30% ( 30 % ) , up from 20% ( 20 % ) , while
+      reducing the fixed-income portion of the portfolio from 80% ( 80 % ) to 70%
+      ( 70 % ) .
+
+
+      the company also conducted an asset-liability study for the post-retirement
+      non-bargaining medical plan .
+
+
+      its allocation was adjusted to make it more conservative , reducing the equity
+      allocation from 70% ( 70 % ) to 60% ( 60 % ) and increasing the fixed- income
+      allocation from 30% ( 30 % ) to 40% ( 40 % ) .
+
+
+      the post-retirement medical non-bargaining plan 2019s equity allocation was
+      reduced due to the cap on benefits for some non-union participants and resultant
+      reduction in the plan 2019s liabilities .
+
+
+      these changes will take place in 2018 .
+
+
+      the company engages third party investment managers for all invested assets
+      .
+
+
+      managers are not permitted to invest outside of the asset class ( e.g .
+
+
+      fixed income , equity , alternatives ) or strategy for which they have been
+      appointed .
+
+
+      investment management agreements and recurring performance and attribution analysis
+      are used as tools to ensure investment managers invest solely within the investment
+      strategy they have been provided .
+
+
+      futures and options may be used to adjust portfolio duration to align with a
+      plan 2019s targeted investment policy. .'
+    id: awk-2017-table-5
+- id: awk-10k-2018
+  form: 10-K
+  filed: '2019-02-19'
+  period_covered: 2018-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1410636/000141063619000041/a12312018-awkx10kdocument.htm
+  tables:
+  - pre_text: asset category target allocation total quoted prices in active markets
+      for identical assets ( level 1 ) significant observable inputs ( level 2 ) significant
+      unobservable inputs .
+    header:
+    - ''
+    - level 3
+    rows:
+    - - balance as of january 1 2018
+      - $ 278
+    - - actual return on assets
+      - -23 ( 23 )
+    - - purchases issuances and settlements net
+      - -25 ( 25 )
+    - - balance as of december 31 2018
+      - $ 230
+    post_text: 'balance as of january 1 , 2017 .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      $ 140 actual return on assets .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      2 purchases , issuances and settlements , net .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      136 balance as of december 31 , 2017 .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      $ 278 the company 2019s postretirement benefit plans have different levels of
+      funded status and the assets are held under various trusts .
+
+
+      the investments and risk mitigation strategies for the plans are tailored specifically
+      for each trust .
+
+
+      in setting new strategic asset mixes , consideration is given to the likelihood
+      that the selected asset allocation will effectively fund the projected plan
+      liabilities and meet the risk tolerance criteria of the company .
+
+
+      the company periodically updates the long-term , strategic asset allocations
+      for these plans through asset liability studies and uses various analytics to
+      determine the optimal asset allocation .
+
+
+      considerations include plan liability characteristics , liquidity needs , funding
+      requirements , expected rates of return and the distribution of returns .
+
+
+      in 2012 , the company implemented a de-risking strategy for the american water
+      pension plan after conducting an asset-liability study to reduce the volatility
+      of the funded status of the plan .
+
+
+      as part of the de-risking strategy , the company revised the asset allocations
+      to increase the matching characteristics of fixed- income assets relative to
+      liabilities .
+
+
+      the fixed income portion of the portfolio was designed to match the bond- .'
+    id: awk-2018-table-0
+  - pre_text: 'note 6 : allowance for uncollectible accounts the following table provides
+      the changes in the allowances for uncollectible accounts for the years ended
+      december 31: .'
+    header:
+    - ''
+    - '2018'
+    - '2017'
+    - '2016'
+    rows:
+    - - balance as of january 1
+      - $ -42 ( 42 )
+      - $ -40 ( 40 )
+      - $ -39 ( 39 )
+    - - amounts charged to expense
+      - -33 ( 33 )
+      - -29 ( 29 )
+      - -27 ( 27 )
+    - - amounts written off
+      - '34'
+      - '30'
+      - '29'
+    - - recoveries of amounts written off
+      - -4 ( 4 )
+      - -3 ( 3 )
+      - -3 ( 3 )
+    - - balance as of december 31
+      - $ -45 ( 45 )
+      - $ -42 ( 42 )
+      - $ -40 ( 40 )
+    post_text: 'note 7 : regulatory assets and liabilities regulatory assets regulatory
+      assets represent costs that are probable of recovery from customers in future
+      rates .
+
+
+      the majority of the regulatory assets earn a return .
+
+
+      the following table provides the composition of regulatory assets as of december
+      31 : 2018 2017 deferred pension expense .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      $ 362 $ 285 removal costs recoverable through rates .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      292 269 regulatory balancing accounts .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      110 113 san clemente dam project costs .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      85 89 debt expense .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      70 67 purchase premium recoverable through rates .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      56 57 deferred tank painting costs .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      42 42 make-whole premium on early extinguishment of debt .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      33 27 other .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      106 112 total regulatory assets .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      $ 1156 $ 1061 the company 2019s deferred pension expense includes a portion
+      of the underfunded status that is probable of recovery through rates in future
+      periods of $ 352 million and $ 270 million as of december 31 , 2018 and 2017
+      , respectively .
+
+
+      the remaining portion is the pension expense in excess of the amount contributed
+      to the pension plans which is deferred by certain subsidiaries and will be recovered
+      in future service rates as contributions are made to the pension plan .
+
+
+      removal costs recoverable through rates represent costs incurred for removal
+      of property , plant and equipment or other retirement costs .
+
+
+      regulatory balancing accounts accumulate differences between revenues recognized
+      and authorized revenue requirements until they are collected from customers
+      or are refunded .
+
+
+      regulatory balancing accounts include low income programs and purchased power
+      and water accounts .
+
+
+      san clemente dam project costs represent costs incurred and deferred by the
+      company 2019s utility subsidiary in california pursuant to its efforts to investigate
+      alternatives and remove the dam due to potential earthquake and flood safety
+      concerns .
+
+
+      in june 2012 , the california public utilities commission ( 201ccpuc 201d )
+      issued a decision authorizing implementation of a project to reroute the carmel
+      river and remove the san clemente dam .
+
+
+      the project includes the company 2019s utility subsidiary in california , the
+      california state conservancy and the national marine fisheries services .
+
+
+      under the order 2019s terms , the cpuc has authorized recovery for .'
+    id: awk-2018-table-1
+  - pre_text: 'investment tax credits have been deferred by the regulated utility
+      subsidiaries and are being amortized to income over the average estimated service
+      lives of the related assets .
+
+
+      the company recognizes accrued interest and penalties related to tax positions
+      as a component of income tax expense and accounts for sales tax collected from
+      customers and remitted to taxing authorities on a net basis .
+
+
+      see note 14 2014income taxes for additional information .
+
+
+      allowance for funds used during construction afudc is a non-cash credit to income
+      with a corresponding charge to utility plant that represents the cost of borrowed
+      funds or a return on equity funds devoted to plant under construction .
+
+
+      the regulated utility subsidiaries record afudc to the extent permitted by the
+      pucs .
+
+
+      the portion of afudc attributable to borrowed funds is shown as a reduction
+      of interest , net on the consolidated statements of operations .
+
+
+      any portion of afudc attributable to equity funds would be included in other
+      , net on the consolidated statements of operations .
+
+
+      afudc is provided in the following table for the years ended december 31: .'
+    header:
+    - ''
+    - '2018'
+    - '2017'
+    - '2016'
+    rows:
+    - - allowance for other funds used during construction
+      - $ 24
+      - $ 19
+      - $ 15
+    - - allowance for borrowed funds used during construction
+      - '13'
+      - '8'
+      - '6'
+    post_text: 'environmental costs the company 2019s water and wastewater operations
+      and the operations of its market-based businesses are subject to u.s .
+
+
+      federal , state , local and foreign requirements relating to environmental protection
+      , and as such , the company periodically becomes subject to environmental claims
+      in the normal course of business .
+
+
+      environmental expenditures that relate to current operations or provide a future
+      benefit are expensed or capitalized as appropriate .
+
+
+      remediation costs that relate to an existing condition caused by past operations
+      are accrued , on an undiscounted basis , when it is probable that these costs
+      will be incurred and can be reasonably estimated .
+
+
+      a conservation agreement entered into by a subsidiary of the company with the
+      national oceanic and atmospheric administration in 2010 and amended in 2017
+      required the subsidiary to , among other provisions , implement certain measures
+      to protect the steelhead trout and its habitat in the carmel river watershed
+      in the state of california .
+
+
+      the subsidiary agreed to pay $ 1 million annually commencing in 2010 with the
+      final payment being made in 2021 .
+
+
+      remediation costs accrued amounted to $ 4 million and $ 6 million as of december
+      31 , 2018 and 2017 , respectively .
+
+
+      derivative financial instruments the company uses derivative financial instruments
+      for purposes of hedging exposures to fluctuations in interest rates .
+
+
+      these derivative contracts are entered into for periods consistent with the
+      related underlying exposures and do not constitute positions independent of
+      those exposures .
+
+
+      the company does not enter into derivative contracts for speculative purposes
+      and does not use leveraged instruments .
+
+
+      all derivatives are recognized on the balance sheet at fair value .
+
+
+      on the date the derivative contract is entered into , the company may designate
+      the derivative as a hedge of the fair value of a recognized asset or liability
+      ( fair-value hedge ) or a hedge of a forecasted transaction or of the variability
+      of cash flows to be received or paid related to a recognized asset or liability
+      ( cash-flow hedge ) .
+
+
+      changes in the fair value of a fair-value hedge , along with the gain or loss
+      on the underlying hedged item , are recorded in current-period earnings .
+
+
+      the gains and losses on the effective portion of cash-flow hedges are recorded
+      in other comprehensive income , until earnings are affected by the variability
+      of cash flows .
+
+
+      any ineffective portion of designated cash-flow hedges is recognized in current-period
+      earnings. .'
+    id: awk-2018-table-2
+  - pre_text: 'the following table provides the weighted average assumptions used
+      in the black-scholes option-pricing model for grants and the resulting weighted
+      average grant date fair value per share of stock options granted for the years
+      ended december 31: .'
+    header:
+    - ''
+    - '2018'
+    - '2017'
+    - '2016'
+    rows:
+    - - intrinsic value
+      - $ 9
+      - $ 10
+      - $ 18
+    - - exercise proceeds
+      - '7'
+      - '11'
+      - '15'
+    - - income tax benefit realized
+      - '2'
+      - '3'
+      - '6'
+    post_text: 'stock units during 2018 , 2017 and 2016 , the company granted rsus
+      to certain employees under the 2007 plan and 2017 omnibus plan , as applicable
+      .
+
+
+      rsus generally vest based on continued employment with the company over periods
+      ranging from one to three years. .'
+    id: awk-2018-table-3
+  - pre_text: 'condition are valued using a monte carlo model .
+
+
+      expected volatility is based on historical volatilities of traded common stock
+      of the company and comparative companies using daily stock prices over the past
+      three years .
+
+
+      the expected term is three years and the risk-free interest rate is based on
+      the three-year u.s .
+
+
+      treasury rate in effect as of the measurement date .
+
+
+      the following table provides the weighted average assumptions used in the monte
+      carlo simulation and the weighted average grant date fair values of psus granted
+      for the years ended december 31: .'
+    header:
+    - ''
+    - '2018'
+    - '2017'
+    - '2016'
+    rows:
+    - - expected volatility
+      - 17.23% ( 17.23 % )
+      - 17.40% ( 17.40 % )
+      - 15.90% ( 15.90 % )
+    - - risk-free interest rate
+      - 2.36% ( 2.36 % )
+      - 1.53% ( 1.53 % )
+      - 0.91% ( 0.91 % )
+    - - expected life ( years )
+      - '3.0'
+      - '3.0'
+      - '3.0'
+    - - grant date fair value per share
+      - $ 73.62
+      - $ 72.81
+      - $ 77.16
+    post_text: 'the grant date fair value of psus that vest ratably and have market
+      and/or performance conditions are amortized through expense over the requisite
+      service period using the graded-vesting method .
+
+
+      if dividends are paid with respect to shares of the company 2019s common stock
+      before the rsus and psus are distributed , the company credits a liability for
+      the value of the dividends that would have been paid if the rsus and psus were
+      shares of company common stock .
+
+
+      when the rsus and psus are distributed , the company pays the participant a
+      lump sum cash payment equal to the value of the dividend equivalents accrued
+      .
+
+
+      the company accrued dividend equivalents totaling $ 1 million , less than $
+      1 million and $ 1 million to accumulated deficit in the accompanying consolidated
+      statements of changes in shareholders 2019 equity for the years ended december
+      31 , 2018 , 2017 and 2016 , respectively .
+
+
+      employee stock purchase plan the company maintains a nonqualified employee stock
+      purchase plan ( the 201cespp 201d ) through which employee participants may
+      use payroll deductions to acquire company common stock at a discount .
+
+
+      prior to february 5 , 2019 , the purchase price of common stock acquired under
+      the espp was the lesser of 90% ( 90 % ) of the fair market value of the common
+      stock at either the beginning or the end of a three -month purchase period .
+
+
+      on july 27 , 2018 , the espp was amended , effective february 5 , 2019 , to
+      permit employee participants to acquire company common stock at 85% ( 85 % )
+      of the fair market value of the common stock at the end of the purchase period
+      .
+
+
+      as of december 31 , 2018 , there were 1.9 million shares of common stock reserved
+      for issuance under the espp .
+
+
+      the espp is considered compensatory .
+
+
+      during the years ended december 31 , 2018 , 2017 and 2016 , the company issued
+      95 thousand , 93 thousand and 93 thousand shares , respectively , under the
+      espp. .'
+    id: awk-2018-table-4
+  - pre_text: 'pre-construction costs , interim dam safety measures and environmental
+      costs and construction costs .
+
+
+      the authorized costs were being recovered via a surcharge over a twenty-year
+      period which began in october 2012 .
+
+
+      the unrecovered balance of project costs incurred , including cost of capital
+      , net of surcharges totaled $ 85 million and $ 89 million as of december 31
+      , 2018 and 2017 , respectively .
+
+
+      surcharges collected were $ 8 million and $ 7 million for the years ended december
+      31 , 2018 and 2017 , respectively .
+
+
+      pursuant to the general rate case approved in december 2018 , approval was granted
+      to reset the twenty-year amortization period to begin january 1 , 2018 and to
+      establish an annual revenue requirement of $ 8 million to be recovered through
+      base rates .
+
+
+      debt expense is amortized over the lives of the respective issues .
+
+
+      call premiums on the redemption of long- term debt , as well as unamortized
+      debt expense , are deferred and amortized to the extent they will be recovered
+      through future service rates .
+
+
+      purchase premium recoverable through rates is primarily the recovery of the
+      acquisition premiums related to an asset acquisition by the company 2019s utility
+      subsidiary in california during 2002 , and acquisitions in 2007 by the company
+      2019s utility subsidiary in new jersey .
+
+
+      as authorized for recovery by the california and new jersey pucs , these costs
+      are being amortized to depreciation and amortization on the consolidated statements
+      of operations through november 2048 .
+
+
+      tank painting costs are generally deferred and amortized to operations and maintenance
+      expense on the consolidated statements of operations on a straight-line basis
+      over periods ranging from five to fifteen years , as authorized by the regulatory
+      authorities in their determination of rates charged for service .
+
+
+      as a result of the prepayment by american water capital corp. , the company
+      2019s wholly owned finance subsidiary ( 201cawcc 201d ) , of the 5.62% ( 5.62
+      % ) series c senior notes due upon maturity on december 21 , 2018 ( the 201cseries
+      c notes 201d ) , 5.62% ( 5.62 % ) series e senior notes due march 29 , 2019
+      ( the 201cseries e notes 201d ) and 5.77% ( 5.77 % ) series f senior notes due
+      december 21 , 2022 ( the 201cseries f notes , 201d and together with the series
+      e notes , the 201cseries notes 201d ) , a make-whole premium of $ 10 million
+      was paid to the holders of the series notes on september 11 , 2018 .
+
+
+      substantially all of these early debt extinguishment costs were allocable to
+      the company 2019s utility subsidiaries and recorded as regulatory assets , as
+      the company believes they are probable of recovery in future rates .
+
+
+      other regulatory assets include certain construction costs for treatment facilities
+      , property tax stabilization , employee-related costs , deferred other postretirement
+      benefit expense , business services project expenses , coastal water project
+      costs , rate case expenditures and environmental remediation costs among others
+      .
+
+
+      these costs are deferred because the amounts are being recovered in rates or
+      are probable of recovery through rates in future periods .
+
+
+      regulatory liabilities regulatory liabilities generally represent amounts that
+      are probable of being credited or refunded to customers through the rate-making
+      process .
+
+
+      also , if costs expected to be incurred in the future are currently being recovered
+      through rates , the company records those expected future costs as regulatory
+      liabilities .
+
+
+      the following table provides the composition of regulatory liabilities as of
+      december 31: .'
+    header:
+    - ''
+    - '2018'
+    - '2017'
+    rows:
+    - - income taxes recovered through rates
+      - $ 1279
+      - $ 1242
+    - - removal costs recovered through rates
+      - '309'
+      - '315'
+    - - postretirement benefit liability
+      - '209'
+      - '33'
+    - - pension and other postretirement benefit balancing accounts
+      - '46'
+      - '48'
+    - - tcja reserve on revenue
+      - '36'
+      - '2014'
+    - - other
+      - '28'
+      - '26'
+    - - total regulatory liabilities
+      - $ 1907
+      - $ 1664
+    post_text: .
+    id: awk-2018-table-5
+  - pre_text: 'flows of the company 2019s subsidiaries , the receipt of dividends
+      and repayments of indebtedness from the company 2019s subsidiaries , compliance
+      with delaware corporate and other laws , compliance with the contractual provisions
+      of debt and other agreements , and other factors .
+
+
+      the company 2019s dividend rate on its common stock is determined by the board
+      of directors on a quarterly basis and takes into consideration , among other
+      factors , current and possible future developments that may affect the company
+      2019s income and cash flows .
+
+
+      when dividends on common stock are declared , they are typically paid in march
+      , june , september and december .
+
+
+      historically , dividends have been paid quarterly to holders of record less
+      than 30 days prior to the distribution date .
+
+
+      since the dividends on the company 2019s common stock are not cumulative , only
+      declared dividends are paid .
+
+
+      during 2018 , 2017 and 2016 , the company paid $ 319 million , $ 289 million
+      and $ 261 million in cash dividends , respectively .
+
+
+      the following table provides the per share cash dividends paid for the years
+      ended december 31: .'
+    header:
+    - ''
+    - '2018'
+    - '2017'
+    - '2016'
+    rows:
+    - - december
+      - $ 0.455
+      - $ 0.415
+      - $ 0.375
+    - - september
+      - $ 0.455
+      - $ 0.415
+      - $ 0.375
+    - - june
+      - $ 0.455
+      - $ 0.415
+      - $ 0.375
+    - - march
+      - $ 0.415
+      - $ 0.375
+      - $ 0.34
+    post_text: 'on december 7 , 2018 , the company 2019s board of directors declared
+      a quarterly cash dividend payment of $ 0.455 per share payable on march 1 ,
+      2019 , to shareholders of record as of february 7 , 2019 .
+
+
+      equity forward transaction see note 4 2014acquisitions and divestitures for
+      information regarding the forward sale agreements entered into by the company
+      on april 11 , 2018 , and the subsequent settlement of these agreements on june
+      7 , 2018 .
+
+
+      regulatory restrictions the issuance of long-term debt or equity securities
+      by the company or american water capital corp .
+
+
+      ( 201cawcc 201d ) , the company 2019s wholly owned financing subsidiary , does
+      not require authorization of any state puc if no guarantee or pledge of the
+      regulated subsidiaries is utilized .
+
+
+      however , state puc authorization is required to issue long-term debt at most
+      of the company 2019s regulated subsidiaries .
+
+
+      the company 2019s regulated subsidiaries normally obtain the required approvals
+      on a periodic basis to cover their anticipated financing needs for a period
+      of time or in connection with a specific financing .
+
+
+      under applicable law , the company 2019s subsidiaries can pay dividends only
+      from retained , undistributed or current earnings .
+
+
+      a significant loss recorded at a subsidiary may limit the dividends that the
+      subsidiary can distribute to american water .
+
+
+      furthermore , the ability of the company 2019s subsidiaries to pay upstream
+      dividends or repay indebtedness to american water is subject to compliance with
+      applicable regulatory restrictions and financial obligations , including , for
+      example , debt service and preferred and preference stock dividends , as well
+      as applicable corporate , tax and other laws and regulations , and other agreements
+      or covenants made or entered into by the company and its subsidiaries .
+
+
+      note 10 : stock based compensation the company has granted stock options , stock
+      units and dividend equivalents to non-employee directors , officers and other
+      key employees of the company pursuant to the terms of its 2007 omnibus equity
+      compensation plan ( the 201c2007 plan 201d ) .
+
+
+      stock units under the 2007 plan generally vest based on ( i ) continued employment
+      with the company ( 201crsus 201d ) , or ( ii ) continued employment with the
+      company where distribution of the shares is subject to the satisfaction in whole
+      or in part of stated performance-based goals ( 201cpsus 201d ) .
+
+
+      the total aggregate number of shares of common stock that may be issued under
+      the 2007 plan is 15.5 million .
+
+
+      as of .'
+    id: awk-2018-table-6
+  - pre_text: 'totaled $ 12 million , $ 13 million and $ 9 million for 2018 , 2017
+      and 2016 , respectively .
+
+
+      all of the company 2019s contributions are invested in one or more funds at
+      the direction of the employees .
+
+
+      note 16 : commitments and contingencies commitments have been made in connection
+      with certain construction programs .
+
+
+      the estimated capital expenditures required under legal and binding contractual
+      obligations amounted to $ 419 million as of december 31 , 2018 .
+
+
+      the company 2019s regulated subsidiaries maintain agreements with other water
+      purveyors for the purchase of water to supplement their water supply .
+
+
+      the following table provides the future annual commitments related to minimum
+      quantities of purchased water having non-cancelable: .'
+    header:
+    - ''
+    - amount
+    rows:
+    - - '2019'
+      - $ 65
+    - - '2020'
+      - '65'
+    - - '2021'
+      - '65'
+    - - '2022'
+      - '64'
+    - - '2023'
+      - '57'
+    - - thereafter
+      - '641'
+    post_text: 'the company enters into agreements for the provision of services to
+      water and wastewater facilities for the united states military , municipalities
+      and other customers .
+
+
+      see note 3 2014revenue recognition for additional information regarding the
+      company 2019s performance obligations .
+
+
+      contingencies the company is routinely involved in legal actions incident to
+      the normal conduct of its business .
+
+
+      as of december 31 , 2018 , the company has accrued approximately $ 54 million
+      of probable loss contingencies and has estimated that the maximum amount of
+      losses associated with reasonably possible loss contingencies that can be reasonably
+      estimated is $ 26 million .
+
+
+      for certain matters , claims and actions , the company is unable to estimate
+      possible losses .
+
+
+      the company believes that damages or settlements , if any , recovered by plaintiffs
+      in such matters , claims or actions , other than as described in this note 16
+      2014commitments and contingencies , will not have a material adverse effect
+      on the company .
+
+
+      west virginia elk river freedom industries chemical spill on june 8 , 2018 ,
+      the u.s .
+
+
+      district court for the southern district of west virginia granted final approval
+      of a settlement class and global class action settlement ( the 201csettlement
+      201d ) for all claims and potential claims by all putative class members ( collectively
+      , the 201cplaintiffs 201d ) arising out of the january 2014 freedom industries
+      , inc .
+
+
+      chemical spill in west virginia .
+
+
+      the effective date of the settlement is july 16 , 2018 .
+
+
+      under the terms and conditions of the settlement , west virginia-american water
+      company ( 201cwvawc 201d ) and certain other company affiliated entities ( collectively
+      , the 201camerican water defendants 201d ) did not admit , and will not admit
+      , any fault or liability for any of the allegations made by the plaintiffs in
+      any of the actions that were resolved .
+
+
+      under federal class action rules , claimants had the right , until december
+      8 , 2017 , to elect to opt out of the final settlement .
+
+
+      less than 100 of the 225000 estimated putative class members elected to opt
+      out from the settlement , and these claimants will not receive any benefit from
+      or be bound by the terms of the settlement .
+
+
+      in june 2018 , the company and its remaining non-participating general liability
+      insurance carrier settled for a payment to the company of $ 20 million , out
+      of a maximum of $ 25 million in potential coverage under the terms of the relevant
+      policy , in exchange for a full release by the american water defendants of
+      all claims against the insurance carrier related to the freedom industries chemical
+      spill. .'
+    id: awk-2018-table-7
+  - pre_text: 'the following table provides the minimum annual future rental commitment
+      under operating leases that have initial or remaining non-cancelable lease terms
+      over the next five years and thereafter: .'
+    header:
+    - ''
+    - amount
+    rows:
+    - - '2019'
+      - $ 17
+    - - '2020'
+      - '15'
+    - - '2021'
+      - '12'
+    - - '2022'
+      - '11'
+    - - '2023'
+      - '6'
+    - - thereafter
+      - '80'
+    post_text: 'the company has a series of agreements with various public entities
+      ( the 201cpartners 201d ) to establish certain joint ventures , commonly referred
+      to as 201cpublic-private partnerships . 201d under the public-private partnerships
+      , the company constructed utility plant , financed by the company , and the
+      partners constructed utility plant ( connected to the company 2019s property
+      ) , financed by the partners .
+
+
+      the company agreed to transfer and convey some of its real and personal property
+      to the partners in exchange for an equal principal amount of industrial development
+      bonds ( 201cidbs 201d ) , issued by the partners under a state industrial development
+      bond and commercial development act .
+
+
+      the company leased back the total facilities , including portions funded by
+      both the company and the partners , under leases for a period of 40 years .
+
+
+      the leases related to the portion of the facilities funded by the company have
+      required payments from the company to the partners that approximate the payments
+      required by the terms of the idbs from the partners to the company ( as the
+      holder of the idbs ) .
+
+
+      as the ownership of the portion of the facilities constructed by the company
+      will revert back to the company at the end of the lease , the company has recorded
+      these as capital leases .
+
+
+      the lease obligation and the receivable for the principal amount of the idbs
+      are presented by the company on a net basis .
+
+
+      the carrying value of the facilities funded by the company recognized as a capital
+      lease asset was $ 147 million and $ 150 million as of december 31 , 2018 and
+      2017 , respectively , which is presented in property , plant and equipment on
+      the consolidated balance sheets .
+
+
+      the future payments under the lease obligations are equal to and offset by the
+      payments receivable under the idbs .
+
+
+      as of december 31 , 2018 , the minimum annual future rental commitment under
+      the operating leases for the portion of the facilities funded by the partners
+      that have initial or remaining non-cancelable lease terms in excess of one year
+      included in the preceding minimum annual rental commitments are $ 4 million
+      in 2019 through 2023 , and $ 59 million thereafter .
+
+
+      note 20 : segment information the company 2019s operating segments are comprised
+      of the revenue-generating components of its businesses for which separate financial
+      information is internally produced and regularly used by management to make
+      operating decisions and assess performance .
+
+
+      the company operates its businesses primarily through one reportable segment
+      , the regulated businesses segment .
+
+
+      the company also operates market-based businesses that provide a broad range
+      of related and complementary water and wastewater services within non-reportable
+      operating segments , collectively referred to as the market-based businesses
+      .
+
+
+      the regulated businesses segment is the largest component of the company 2019s
+      business and includes 20 subsidiaries that provide water and wastewater services
+      to customers in 16 states .
+
+
+      the company 2019s primary market-based businesses include the homeowner services
+      group , which provides warranty protection programs to residential and smaller
+      commercial customers ; the military services group , which provides water and
+      wastewater services to the u.s .
+
+
+      government on military installations ; and keystone , which provides water transfer
+      services for shale natural gas exploration and production companies. .'
+    id: awk-2018-table-8
+  - pre_text: 'the following table provides a summary of our historical capital expenditures
+      related to the upgrading of our infrastructure and systems: .'
+    header:
+    - ( in millions )
+    - for the years ended december 31 , 2018
+    - for the years ended december 31 , 2017
+    - for the years ended december 31 , 2016
+    rows:
+    - - transmission and distribution
+      - $ 572
+      - $ 551
+      - $ 568
+    - - treatment and pumping
+      - '231'
+      - '171'
+      - '151'
+    - - services meter and fire hydrants
+      - '303'
+      - '281'
+      - '297'
+    - - general structure and equipment
+      - '371'
+      - '281'
+      - '202'
+    - - sources of supply
+      - '26'
+      - '54'
+      - '59'
+    - - wastewater
+      - '83'
+      - '96'
+      - '34'
+    - - total capital expenditures
+      - $ 1586
+      - $ 1434
+      - $ 1311
+    post_text: 'in 2018 , our capital expenditures increased $ 152 million , or 10.6%
+      ( 10.6 % ) , primarily due to investment across the majority of our infrastructure
+      categories .
+
+
+      in 2017 , our capital expenditures increased $ 123 million , or 9.4% ( 9.4 %
+      ) , primarily due to investment in our general structure and equipment and wastewater
+      categories .
+
+
+      we also grow our business primarily through acquisitions of water and wastewater
+      systems , as well as other water-related services .
+
+
+      these acquisitions are complementary to our existing business and support continued
+      geographical diversification and growth of our operations .
+
+
+      generally , acquisitions are funded initially with short- term debt , and later
+      refinanced with the proceeds from long-term debt .
+
+
+      the following is a summary of the acquisitions and dispositions affecting our
+      cash flows from investing activities : 2022 the majority of cash paid for acquisitions
+      pertained to the $ 365 million purchase of pivotal within our homeowner services
+      group .
+
+
+      2022 paid $ 33 million for 15 water and wastewater systems , representing approximately
+      14000 customers .
+
+
+      2022 received $ 35 million for the sale of assets , including $ 27 million for
+      the sale of the majority of the o&m contracts in our contract services group
+      during the third quarter of 2018 .
+
+
+      2022 the majority of cash paid for acquisitions pertained to the $ 159 million
+      purchase of the wastewater collection and treatment system assets of the municipal
+      authority of the city of mckeesport , pennsylvania ( the 201cmckeesport system
+      201d ) , excluding a $ 5 million non-escrowed deposit made in 2016 .
+
+
+      2022 paid $ 18 million for 16 water and wastewater systems , excluding the mckeesport
+      system and shorelands ( a stock-for-stock transaction ) , representing approximately
+      7000 customers .
+
+
+      2022 received $ 15 million for the sale of assets .
+
+
+      2022 paid $ 199 million for 15 water and wastewater systems , representing approximately
+      42000 customers .
+
+
+      2022 made a non-escrowed deposit of $ 5 million related to the mckeesport system
+      acquisition .
+
+
+      2022 received $ 9 million for the sale of assets .
+
+
+      as previously noted , we expect to invest between $ 8.0 billion to $ 8.6 billion
+      from 2019 to 2023 , with $ 7.3 billion of this range for infrastructure improvements
+      in our regulated businesses .
+
+
+      in 2019 , we expect to .'
+    id: awk-2018-table-9
+  - pre_text: 'allows us to repurchase shares at times when we may otherwise be prevented
+      from doing so under insider trading laws or because of self-imposed trading
+      blackout periods .
+
+
+      subject to applicable regulations , we may elect to amend or cancel this repurchase
+      program or the share repurchase parameters at our discretion .
+
+
+      as of december 31 , 2018 , we have repurchased an aggregate of 4510000 shares
+      of common stock under this program .
+
+
+      credit facilities and short-term debt we have an unsecured revolving credit
+      facility of $ 2.25 billion that expires in june 2023 .
+
+
+      in march 2018 , awcc and its lenders amended and restated the credit agreement
+      with respect to awcc 2019s revolving credit facility to increase the maximum
+      commitments under the facility from $ 1.75 billion to $ 2.25 billion , and to
+      extend the expiration date of the facility from june 2020 to march 2023 .
+
+
+      all other terms , conditions and covenants with respect to the existing facility
+      remained unchanged .
+
+
+      subject to satisfying certain conditions , the credit agreement also permits
+      awcc to increase the maximum commitment under the facility by up to an aggregate
+      of $ 500 million , and to request extensions of its expiration date for up to
+      two , one-year periods .
+
+
+      interest rates on advances under the facility are based on a credit spread to
+      the libor rate or base rate in accordance with moody investors service 2019s
+      and standard & poor 2019s financial services 2019 then applicable credit rating
+      on awcc 2019s senior unsecured , non-credit enhanced debt .
+
+
+      the facility is used principally to support awcc 2019s commercial paper program
+      and to provide up to $ 150 million in letters of credit .
+
+
+      indebtedness under the facility is considered 201cdebt 201d for purposes of
+      a support agreement between the company and awcc , which serves as a functional
+      equivalent of a guarantee by the company of awcc 2019s payment obligations under
+      the credit facility .
+
+
+      awcc also has an outstanding commercial paper program that is backed by the
+      revolving credit facility , the maximum aggregate outstanding amount of which
+      was increased in march 2018 , from $ 1.60 billion to $ 2.10 billion .
+
+
+      the following table provides the aggregate credit facility commitments , letter
+      of credit sub-limit under the revolving credit facility and commercial paper
+      limit , as well as the available capacity for each as of december 31 , 2018
+      and 2017 : credit facility commitment available credit facility capacity letter
+      of credit sublimit available letter of credit capacity commercial paper limit
+      available commercial capacity ( in millions ) december 31 , 2018 .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      $ 2262 $ 2177 $ 150 $ 69 $ 2100 $ 1146 december 31 , 2017 .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      1762 1673 150 66 1600 695 the weighted average interest rate on awcc short-term
+      borrowings for the years ended december 31 , 2018 and 2017 was approximately
+      2.28% ( 2.28 % ) and 1.24% ( 1.24 % ) , respectively .
+
+
+      capital structure the following table provides the percentage of our capitalization
+      represented by the components of our capital structure as of december 31: .'
+    header:
+    - ''
+    - '2018'
+    - '2017'
+    - '2016'
+    rows:
+    - - total common shareholders' equity
+      - 40.4% ( 40.4 % )
+      - 41.0% ( 41.0 % )
+      - 42.1% ( 42.1 % )
+    - - long-term debt and redeemable preferred stock at redemption value
+      - 52.4% ( 52.4 % )
+      - 49.6% ( 49.6 % )
+      - 46.4% ( 46.4 % )
+    - - short-term debt and current portion of long-term debt
+      - 7.2% ( 7.2 % )
+      - 9.4% ( 9.4 % )
+      - 11.5% ( 11.5 % )
+    - - total
+      - 100% ( 100 % )
+      - 100% ( 100 % )
+      - 100% ( 100 % )
+    post_text: .
+    id: awk-2018-table-10
+  - pre_text: 'in 2017 , cash flows provided by operations increased $ 160 million
+      , primarily due to an increase in net income after non-cash adjustments , including
+      the impact of the enactment of the tcja , and an increase in cash flows from
+      working capital .
+
+
+      the main factors contributing to the net income increase are described in the
+      201cconsolidated results of operations 201d section and include higher operating
+      revenues , partially offset by higher income taxes due to a $ 125 million re-measurement
+      charge resulting from the impact of the change in the federal tax rate on the
+      company 2019s deferred income taxes from the enactment of the tcja .
+
+
+      the increase in non-cash activities was mainly attributable to the increase
+      in deferred income taxes , as mentioned above , and an increase in depreciation
+      and amortization due to additional utility plant placed in service .
+
+
+      the change in working capital was principally due to ( i ) the timing of accounts
+      payable and accrued liabilities , including the accrual recorded during 2016
+      for the binding global agreement in principle to settle claims associated with
+      the freedom industries chemical spill in west virginia , ( ii ) a decrease in
+      unbilled revenues as a result of our military services group achieving significant
+      capital project milestones during 2016 , and ( iii ) a change in other current
+      assets and liabilities , including the decrease in other current assets associated
+      with the termination of our four forward starting swap agreements and timing
+      of payments clearing our cash accounts .
+
+
+      the company expects to make pension contributions to the plan trusts of up to
+      $ 31 million in 2019 .
+
+
+      in addition , we estimate that contributions will amount to $ 32 million , $
+      29 million , $ 29 million and $ 29 million in 2020 , 2021 , 2022 and 2023 ,
+      respectively .
+
+
+      actual amounts contributed could change materially from these estimates as a
+      result of changes in assumptions and actual investment returns , among other
+      factors .
+
+
+      cash flows used in investing activities the following table provides a summary
+      of the major items affecting our cash flows used in investing activities: .'
+    header:
+    - ( in millions )
+    - for the years ended december 31 , 2018
+    - for the years ended december 31 , 2017
+    - for the years ended december 31 , 2016
+    rows:
+    - - net capital expenditures
+      - $ -1586 ( 1586 )
+      - $ -1434 ( 1434 )
+      - $ -1311 ( 1311 )
+    - - acquisitions
+      - -398 ( 398 )
+      - -177 ( 177 )
+      - -204 ( 204 )
+    - - other investing activities net ( a )
+      - -52 ( 52 )
+      - -61 ( 61 )
+      - -75 ( 75 )
+    - - net cash flows used in investing activities
+      - $ -2036 ( 2036 )
+      - $ -1672 ( 1672 )
+      - $ -1590 ( 1590 )
+    post_text: '( a ) includes removal costs from property , plant and equipment retirements
+      and proceeds from sale of assets .
+
+
+      in 2018 and 2017 , cash flows used in investing activities increased primarily
+      due to an increase in our regulated capital expenditures , principally from
+      incremental investments associated with the replacement and renewal of our transmission
+      and distribution infrastructure in our regulated businesses , as well as acquisitions
+      in both our regulated businesses and market-based businesses , as discussed
+      below .
+
+
+      our infrastructure investment plan consists of both infrastructure renewal programs
+      , where we replace infrastructure , as needed , and major capital investment
+      projects , where we construct new water and wastewater treatment and delivery
+      facilities to meet new customer growth and water quality regulations .
+
+
+      our projected capital expenditures and other investments are subject to periodic
+      review and revision to reflect changes in economic conditions and other factors.
+      .'
+    id: awk-2018-table-11
+- id: awk-10k-2023
+  form: 10-K
+  filed: '2024-02-14'
+  period_covered: 2023-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1410636/000141063624000050/awk-20231231.htm
+  tables: []
+- id: awk-10k-2024
+  form: 10-K
+  filed: '2025-02-19'
+  period_covered: 2024-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1410636/000141063625000022/awk-20241231.htm
+  tables: []
+- id: awk-10k-2025
+  form: 10-K
+  filed: '2026-02-18'
+  period_covered: 2025-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1410636/000141063626000034/awk-20251231.htm
+  tables: []

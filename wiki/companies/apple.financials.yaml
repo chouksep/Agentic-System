@@ -1,0 +1,1391 @@
+schema_version: 1
+ticker: AAPL
+cik: 0000320193
+metrics:
+  currency: USD
+  units: millions
+  by_period:
+    2010-FY:
+      revenue: 37491.0
+      cost_of_revenue: 24294.0
+      gross_profit: 13197.0
+      operating_income: 8327.0
+      net_income: 6119.0
+      diluted_eps: 6.78
+      total_assets: 36171.0
+      total_liabilities: 15861.0
+      total_equity: 14531.0
+      cash_and_equivalents: 9352.0
+      operating_cash_flow: 9596.0
+    2010-Q1:
+      revenue: 11880.0
+      cost_of_revenue: 7373.0
+      gross_profit: 4507.0
+      operating_income: 3101.0
+      net_income: 2255.0
+      diluted_eps: 2.5
+      total_assets: 47501.0
+      total_liabilities: 15861.0
+      total_equity: 31640.0
+      cash_and_equivalents: 11875.0
+      operating_cash_flow: 3938.0
+    2010-Q2:
+      revenue: 20964.0
+      cost_of_revenue: 12830.0
+      gross_profit: 8134.0
+      operating_income: 5424.0
+      net_income: 3875.0
+      diluted_eps: 4.29
+      total_assets: 47501.0
+      total_liabilities: 15861.0
+      total_equity: 31640.0
+      cash_and_equivalents: 11875.0
+      operating_cash_flow: 4779.0
+    2010-Q3:
+      revenue: 30698.0
+      cost_of_revenue: 18581.0
+      gross_profit: 12117.0
+      operating_income: 8056.0
+      net_income: 5703.0
+      diluted_eps: 6.3
+      total_assets: 47501.0
+      total_liabilities: 15861.0
+      total_equity: 31640.0
+      cash_and_equivalents: 11875.0
+      operating_cash_flow: 7049.0
+    2011-FY:
+      revenue: 42905.0
+      cost_of_revenue: 25683.0
+      gross_profit: 17222.0
+      operating_income: 11740.0
+      net_income: 8235.0
+      diluted_eps: 9.08
+      total_assets: 47501.0
+      total_liabilities: 27392.0
+      total_equity: 22297.0
+      cash_and_equivalents: 11875.0
+      operating_cash_flow: 10159.0
+    2011-Q1:
+      revenue: 15683.0
+      cost_of_revenue: 9272.0
+      gross_profit: 6411.0
+      operating_income: 4725.0
+      net_income: 3378.0
+      diluted_eps: 3.67
+      total_assets: 75183.0
+      total_liabilities: 27392.0
+      total_equity: 47791.0
+      cash_and_equivalents: 5263.0
+      operating_cash_flow: 5781.0
+    2011-Q2:
+      revenue: 29182.0
+      cost_of_revenue: 17146.0
+      gross_profit: 12036.0
+      operating_income: 8704.0
+      net_income: 6452.0
+      diluted_eps: 7.0
+      total_assets: 75183.0
+      total_liabilities: 27392.0
+      total_equity: 47791.0
+      cash_and_equivalents: 5263.0
+      operating_cash_flow: 8111.0
+    2011-Q3:
+      revenue: 44882.0
+      cost_of_revenue: 26710.0
+      gross_profit: 18172.0
+      operating_income: 12938.0
+      net_income: 9705.0
+      diluted_eps: 10.51
+      total_assets: 75183.0
+      total_liabilities: 27392.0
+      total_equity: 47791.0
+      cash_and_equivalents: 5263.0
+      operating_cash_flow: 12912.0
+    2012-FY:
+      revenue: 65225.0
+      cost_of_revenue: 39541.0
+      gross_profit: 25684.0
+      operating_income: 18385.0
+      net_income: 14013.0
+      diluted_eps: 15.15
+      total_assets: 116371.0
+      total_liabilities: 39756.0
+      total_equity: 31640.0
+      cash_and_equivalents: 5263.0
+      operating_cash_flow: 18595.0
+    2012-Q1:
+      revenue: 26741.0
+      cost_of_revenue: 16443.0
+      gross_profit: 10298.0
+      operating_income: 7827.0
+      net_income: 6004.0
+      diluted_eps: 6.43
+      total_assets: 116371.0
+      total_liabilities: 39756.0
+      total_equity: 76615.0
+      cash_and_equivalents: 11261.0
+      operating_cash_flow: 9773.0
+    2012-Q2:
+      revenue: 51408.0
+      cost_of_revenue: 30892.0
+      gross_profit: 20516.0
+      operating_income: 15701.0
+      net_income: 11991.0
+      diluted_eps: 12.83
+      total_assets: 116371.0
+      total_liabilities: 39756.0
+      total_equity: 76615.0
+      cash_and_equivalents: 11261.0
+      operating_cash_flow: 15992.0
+    2012-Q3:
+      revenue: 79979.0
+      cost_of_revenue: 47541.0
+      gross_profit: 32438.0
+      operating_income: 25080.0
+      net_income: 19299.0
+      diluted_eps: 20.63
+      total_assets: 116371.0
+      total_liabilities: 39756.0
+      total_equity: 76615.0
+      cash_and_equivalents: 11261.0
+      operating_cash_flow: 27100.0
+    2013-FY:
+      revenue: 108249.0
+      cost_of_revenue: 64431.0
+      gross_profit: 43818.0
+      operating_income: 33790.0
+      net_income: 25922.0
+      diluted_eps: 27.68
+      total_assets: 176064.0
+      total_liabilities: 57854.0
+      total_equity: 47791.0
+      cash_and_equivalents: 11261.0
+      total_debt: 0.0
+      operating_cash_flow: 37529.0
+    2013-Q1:
+      revenue: 46333.0
+      cost_of_revenue: 25630.0
+      gross_profit: 20703.0
+      operating_income: 17340.0
+      net_income: 13064.0
+      diluted_eps: 13.87
+      total_assets: 176064.0
+      total_liabilities: 57854.0
+      total_equity: 118210.0
+      cash_and_equivalents: 9815.0
+      operating_cash_flow: 17554.0
+    2013-Q2:
+      revenue: 85519.0
+      cost_of_revenue: 46252.0
+      gross_profit: 39267.0
+      operating_income: 32724.0
+      net_income: 24686.0
+      diluted_eps: 26.17
+      total_assets: 176064.0
+      total_liabilities: 57854.0
+      total_equity: 118210.0
+      cash_and_equivalents: 9815.0
+      operating_cash_flow: 31531.0
+    2013-Q3:
+      revenue: 120542.0
+      cost_of_revenue: 66281.0
+      gross_profit: 54261.0
+      operating_income: 44297.0
+      net_income: 33510.0
+      diluted_eps: 35.48
+      total_assets: 176064.0
+      total_liabilities: 57854.0
+      total_equity: 118210.0
+      cash_and_equivalents: 9815.0
+      total_debt: 0.0
+      operating_cash_flow: 41720.0
+    2014-FY:
+      revenue: 156508.0
+      cost_of_revenue: 87846.0
+      gross_profit: 68662.0
+      operating_income: 55241.0
+      net_income: 41733.0
+      diluted_eps: 6.31
+      total_assets: 207000.0
+      total_liabilities: 83451.0
+      total_equity: 76615.0
+      cash_and_equivalents: 9815.0
+      total_debt: 16960.0
+    2014-Q1:
+      revenue: 54512.0
+      cost_of_revenue: 33452.0
+      gross_profit: 21060.0
+      operating_income: 17210.0
+      net_income: 13078.0
+      diluted_eps: 13.81
+      total_assets: 207000.0
+      total_liabilities: 83451.0
+      total_equity: 123549.0
+      cash_and_equivalents: 10746.0
+      total_debt: 16960.0
+      operating_cash_flow: 23426.0
+    2014-Q2:
+      revenue: 98115.0
+      cost_of_revenue: 60706.0
+      gross_profit: 37409.0
+      operating_income: 29768.0
+      net_income: 22625.0
+      diluted_eps: 23.9
+      total_assets: 207000.0
+      total_liabilities: 83451.0
+      total_equity: 123549.0
+      cash_and_equivalents: 10746.0
+      total_debt: 16960.0
+    2014-Q3:
+      revenue: 133438.0
+      cost_of_revenue: 83005.0
+      gross_profit: 50433.0
+      operating_income: 38969.0
+      net_income: 29525.0
+      diluted_eps: 4.49
+      total_assets: 207000.0
+      total_liabilities: 83451.0
+      total_equity: 123549.0
+      cash_and_equivalents: 10746.0
+      total_debt: 16960.0
+    2015-FY:
+      revenue: 170910.0
+      cost_of_revenue: 106606.0
+      gross_profit: 64304.0
+      operating_income: 48999.0
+      net_income: 37037.0
+      diluted_eps: 5.68
+      total_assets: 231839.0
+      total_liabilities: 120292.0
+      total_equity: 118210.0
+      cash_and_equivalents: 10746.0
+      total_debt: 28987.0
+      capex: 8165.0
+    2015-Q1:
+      revenue: 57594.0
+      cost_of_revenue: 35748.0
+      gross_profit: 21846.0
+      operating_income: 17463.0
+      net_income: 13072.0
+      diluted_eps: 2.07
+      total_assets: 231839.0
+      total_liabilities: 120292.0
+      total_equity: 111547.0
+      cash_and_equivalents: 14259.0
+      total_debt: 28987.0
+      capex: 1985.0
+    2015-Q2:
+      revenue: 103240.0
+      cost_of_revenue: 63447.0
+      gross_profit: 39793.0
+      operating_income: 31056.0
+      net_income: 23295.0
+      diluted_eps: 3.74
+      total_assets: 231839.0
+      total_liabilities: 120292.0
+      total_equity: 111547.0
+      cash_and_equivalents: 14259.0
+      total_debt: 28987.0
+      capex: 3367.0
+    2015-Q3:
+      revenue: 140672.0
+      cost_of_revenue: 86144.0
+      gross_profit: 54528.0
+      operating_income: 41338.0
+      net_income: 31043.0
+      diluted_eps: 5.03
+      total_assets: 231839.0
+      total_liabilities: 120292.0
+      total_equity: 111547.0
+      cash_and_equivalents: 14259.0
+      total_debt: 28987.0
+      capex: 5745.0
+    2016-FY:
+      revenue: 182795.0
+      cost_of_revenue: 112258.0
+      gross_profit: 70537.0
+      operating_income: 52503.0
+      net_income: 39510.0
+      diluted_eps: 6.45
+      total_assets: 290345.0
+      total_liabilities: 170990.0
+      total_equity: 123549.0
+      cash_and_equivalents: 14259.0
+      total_debt: 53329.0
+      capex: 9571.0
+    2016-Q1:
+      revenue: 74599.0
+      cost_of_revenue: 44858.0
+      gross_profit: 29741.0
+      operating_income: 24246.0
+      net_income: 18024.0
+      diluted_eps: 3.06
+      total_assets: 290479.0
+      total_liabilities: 171124.0
+      total_equity: 119355.0
+      cash_and_equivalents: 13844.0
+      total_debt: 53463.0
+      capex: 3217.0
+    2016-Q2:
+      revenue: 132609.0
+      cost_of_revenue: 79212.0
+      gross_profit: 53397.0
+      operating_income: 42524.0
+      net_income: 31593.0
+      diluted_eps: 5.39
+      total_assets: 290479.0
+      total_liabilities: 171124.0
+      total_equity: 119355.0
+      cash_and_equivalents: 13844.0
+      total_debt: 53463.0
+      capex: 5586.0
+    2016-Q3:
+      revenue: 182214.0
+      cost_of_revenue: 109136.0
+      gross_profit: 73078.0
+      operating_income: 56607.0
+      net_income: 42270.0
+      diluted_eps: 7.25
+      total_assets: 290479.0
+      total_liabilities: 171124.0
+      total_equity: 119355.0
+      cash_and_equivalents: 13844.0
+      total_debt: 53463.0
+      capex: 7629.0
+    2017-FY:
+      revenue: 233715.0
+      cost_of_revenue: 140089.0
+      gross_profit: 93626.0
+      operating_income: 71230.0
+      net_income: 53394.0
+      diluted_eps: 9.22
+      total_assets: 321686.0
+      total_liabilities: 193437.0
+      total_equity: 111547.0
+      cash_and_equivalents: 13844.0
+      total_debt: 75427.0
+      operating_cash_flow: 81266.0
+      capex: 11247.0
+      free_cash_flow: 70019.0
+    2017-Q1:
+      revenue: 75872.0
+      cost_of_revenue: 45449.0
+      gross_profit: 30423.0
+      operating_income: 24171.0
+      net_income: 18361.0
+      diluted_eps: 3.28
+      total_assets: 321686.0
+      total_liabilities: 193437.0
+      total_equity: 128249.0
+      cash_and_equivalents: 21120.0
+      total_debt: 75427.0
+      capex: 3612.0
+    2017-Q2:
+      revenue: 126429.0
+      cost_of_revenue: 76085.0
+      gross_profit: 50344.0
+      operating_income: 38158.0
+      net_income: 28877.0
+      diluted_eps: 5.19
+      total_assets: 321686.0
+      total_liabilities: 193437.0
+      total_equity: 128249.0
+      cash_and_equivalents: 21120.0
+      total_debt: 75427.0
+      operating_cash_flow: 39064.0
+      capex: 5948.0
+      free_cash_flow: 33116.0
+    2017-Q3:
+      revenue: 168787.0
+      cost_of_revenue: 102337.0
+      gross_profit: 66450.0
+      operating_income: 48263.0
+      net_income: 36673.0
+      diluted_eps: 6.62
+      total_assets: 321686.0
+      total_liabilities: 193437.0
+      total_equity: 128249.0
+      cash_and_equivalents: 21120.0
+      total_debt: 75427.0
+      operating_cash_flow: 49698.0
+      capex: 8757.0
+      free_cash_flow: 40941.0
+    2018-FY:
+      revenue: 215639.0
+      cost_of_revenue: 131376.0
+      gross_profit: 84263.0
+      operating_income: 60024.0
+      net_income: 45687.0
+      diluted_eps: 8.31
+      total_assets: 375319.0
+      total_liabilities: 241272.0
+      total_equity: 119355.0
+      cash_and_equivalents: 21120.0
+      total_debt: 97207.0
+      operating_cash_flow: 66231.0
+      capex: 12734.0
+      free_cash_flow: 53497.0
+    2018-Q1:
+      revenue: 78351.0
+      cost_of_revenue: 48175.0
+      gross_profit: 30176.0
+      operating_income: 23359.0
+      net_income: 17891.0
+      diluted_eps: 3.36
+      total_assets: 375319.0
+      total_liabilities: 241272.0
+      total_equity: 134047.0
+      cash_and_equivalents: 20484.0
+      total_debt: 97207.0
+      operating_cash_flow: 27234.0
+      capex: 3334.0
+      free_cash_flow: 23900.0
+    2018-Q2:
+      revenue: 131247.0
+      cost_of_revenue: 80480.0
+      gross_profit: 50767.0
+      operating_income: 37456.0
+      net_income: 28920.0
+      diluted_eps: 5.46
+      total_assets: 375319.0
+      total_liabilities: 241272.0
+      total_equity: 134047.0
+      cash_and_equivalents: 20484.0
+      total_debt: 97207.0
+      operating_cash_flow: 39804.0
+      capex: 6309.0
+      free_cash_flow: 33495.0
+    2018-Q3:
+      revenue: 176655.0
+      cost_of_revenue: 108400.0
+      gross_profit: 68255.0
+      operating_income: 48224.0
+      net_income: 37637.0
+      diluted_eps: 7.14
+      total_assets: 375319.0
+      total_liabilities: 241272.0
+      total_equity: 134047.0
+      cash_and_equivalents: 20484.0
+      total_debt: 97207.0
+      operating_cash_flow: 48476.0
+      capex: 8586.0
+      free_cash_flow: 39890.0
+    2023-FY:
+      revenue: 365817.0
+      cost_of_revenue: 212981.0
+      gross_profit: 152836.0
+      operating_income: 108949.0
+      net_income: 94680.0
+      diluted_eps: 5.61
+      total_assets: 352755.0
+      total_liabilities: 302083.0
+      total_equity: 65339.0
+      cash_and_equivalents: 23646.0
+      total_debt: 110087.0
+      operating_cash_flow: 104038.0
+      capex: 11085.0
+      free_cash_flow: 92953.0
+    2023-Q1:
+      revenue: 123945.0
+      cost_of_revenue: 69702.0
+      gross_profit: 54243.0
+      operating_income: 41488.0
+      net_income: 34630.0
+      diluted_eps: 2.1
+      total_assets: 352755.0
+      total_liabilities: 302083.0
+      total_equity: 63090.0
+      cash_and_equivalents: 23646.0
+      total_debt: 110100.0
+      operating_cash_flow: 46966.0
+      capex: 2803.0
+      free_cash_flow: 44163.0
+    2023-Q2:
+      revenue: 221223.0
+      cost_of_revenue: 124421.0
+      gross_profit: 96802.0
+      operating_income: 71467.0
+      net_income: 59640.0
+      diluted_eps: 3.62
+      total_assets: 352755.0
+      total_liabilities: 302083.0
+      total_equity: 63090.0
+      cash_and_equivalents: 23646.0
+      total_debt: 110100.0
+      operating_cash_flow: 75132.0
+      capex: 5317.0
+      free_cash_flow: 69815.0
+    2023-Q3:
+      revenue: 304182.0
+      cost_of_revenue: 171495.0
+      gross_profit: 132687.0
+      operating_income: 94543.0
+      net_income: 79082.0
+      diluted_eps: 4.82
+      total_assets: 352755.0
+      total_liabilities: 302083.0
+      total_equity: 63090.0
+      cash_and_equivalents: 23646.0
+      total_debt: 110100.0
+      operating_cash_flow: 98024.0
+      capex: 7419.0
+      free_cash_flow: 90605.0
+    2024-FY:
+      revenue: 394328.0
+      cost_of_revenue: 223546.0
+      gross_profit: 170782.0
+      operating_income: 119437.0
+      net_income: 99803.0
+      diluted_eps: 6.11
+      total_assets: 352583.0
+      total_liabilities: 290437.0
+      total_equity: 63090.0
+      cash_and_equivalents: 29965.0
+      total_debt: 105103.0
+      operating_cash_flow: 122151.0
+      capex: 10708.0
+      free_cash_flow: 111443.0
+    2024-Q1:
+      revenue: 117154.0
+      cost_of_revenue: 66822.0
+      gross_profit: 50332.0
+      operating_income: 36016.0
+      net_income: 29998.0
+      diluted_eps: 1.88
+      total_assets: 352583.0
+      total_liabilities: 290437.0
+      total_equity: 50672.0
+      cash_and_equivalents: 29965.0
+      total_debt: 105100.0
+      operating_cash_flow: 34005.0
+      capex: 3787.0
+      free_cash_flow: 30218.0
+    2024-Q2:
+      revenue: 211990.0
+      cost_of_revenue: 119682.0
+      gross_profit: 92308.0
+      operating_income: 64334.0
+      net_income: 54158.0
+      diluted_eps: 3.41
+      total_assets: 352583.0
+      total_liabilities: 290437.0
+      total_equity: 50672.0
+      cash_and_equivalents: 29965.0
+      total_debt: 105100.0
+      operating_cash_flow: 62565.0
+      capex: 6703.0
+      free_cash_flow: 55862.0
+    2024-Q3:
+      revenue: 293787.0
+      cost_of_revenue: 165066.0
+      gross_profit: 128721.0
+      operating_income: 87332.0
+      net_income: 74039.0
+      diluted_eps: 4.67
+      total_assets: 352583.0
+      total_liabilities: 290437.0
+      total_equity: 50672.0
+      cash_and_equivalents: 29965.0
+      total_debt: 105100.0
+      operating_cash_flow: 88945.0
+      capex: 8796.0
+      free_cash_flow: 80149.0
+    2025-FY:
+      revenue: 383285.0
+      cost_of_revenue: 214137.0
+      gross_profit: 169148.0
+      operating_income: 114301.0
+      net_income: 96995.0
+      diluted_eps: 6.13
+      total_assets: 364980.0
+      total_liabilities: 308030.0
+      total_equity: 50672.0
+      cash_and_equivalents: 29943.0
+      total_debt: 96662.0
+      operating_cash_flow: 110543.0
+      capex: 10959.0
+      free_cash_flow: 99584.0
+    2025-Q1:
+      revenue: 119575.0
+      cost_of_revenue: 64720.0
+      gross_profit: 54855.0
+      operating_income: 40373.0
+      net_income: 33916.0
+      diluted_eps: 2.18
+      total_assets: 364980.0
+      total_liabilities: 308030.0
+      total_equity: 62146.0
+      cash_and_equivalents: 29943.0
+      total_debt: 96700.0
+      operating_cash_flow: 39895.0
+      capex: 2392.0
+      free_cash_flow: 37503.0
+    2025-Q2:
+      revenue: 210328.0
+      cost_of_revenue: 113202.0
+      gross_profit: 97126.0
+      operating_income: 68273.0
+      net_income: 57552.0
+      diluted_eps: 3.71
+      total_assets: 364980.0
+      total_liabilities: 308030.0
+      total_equity: 62146.0
+      cash_and_equivalents: 29943.0
+      total_debt: 96700.0
+      operating_cash_flow: 62585.0
+      capex: 4388.0
+      free_cash_flow: 58197.0
+    2025-Q3:
+      revenue: 296105.0
+      cost_of_revenue: 159301.0
+      gross_profit: 136804.0
+      operating_income: 93625.0
+      net_income: 79000.0
+      diluted_eps: 5.11
+      total_assets: 364980.0
+      total_liabilities: 308030.0
+      total_equity: 62146.0
+      cash_and_equivalents: 29943.0
+      total_debt: 96700.0
+      operating_cash_flow: 91443.0
+      capex: 6539.0
+      free_cash_flow: 84904.0
+    2026-Q1:
+      revenue: 124300.0
+      cost_of_revenue: 66025.0
+      gross_profit: 58275.0
+      operating_income: 42832.0
+      net_income: 36330.0
+      diluted_eps: 2.4
+      total_assets: 359241.0
+      total_liabilities: 285508.0
+      total_equity: 56950.0
+      cash_and_equivalents: 35934.0
+      total_debt: 90700.0
+      operating_cash_flow: 29935.0
+      capex: 2940.0
+      free_cash_flow: 26995.0
+    2026-Q2:
+      revenue: 219659.0
+      cost_of_revenue: 116517.0
+      gross_profit: 103142.0
+      operating_income: 72421.0
+      net_income: 61110.0
+      diluted_eps: 4.05
+      total_assets: 359241.0
+      total_liabilities: 285508.0
+      total_equity: 56950.0
+      cash_and_equivalents: 35934.0
+      total_debt: 90700.0
+      operating_cash_flow: 53887.0
+      capex: 6011.0
+      free_cash_flow: 47876.0
+  metadata:
+    capex:
+      xbrl_concept: us-gaap:PaymentsToAcquirePropertyPlantAndEquipment
+      description: Capex
+    cash_and_equivalents:
+      xbrl_concept: us-gaap:CashAndCashEquivalentsAtCarryingValue
+      description: Cash and equivalents
+    cost_of_revenue:
+      xbrl_concept: us-gaap:CostOfRevenue
+      description: Cost of revenue
+    diluted_eps:
+      xbrl_concept: us-gaap:EarningsPerShareDiluted
+      description: Diluted eps
+    free_cash_flow:
+      description: Free cash flow
+    gross_profit:
+      xbrl_concept: us-gaap:GrossProfit
+      description: Gross profit
+    net_income:
+      xbrl_concept: us-gaap:NetIncomeLoss
+      description: Net income
+    operating_cash_flow:
+      xbrl_concept: us-gaap:NetCashProvidedByUsedInOperatingActivities
+      description: Operating cash flow
+    operating_income:
+      xbrl_concept: us-gaap:OperatingIncomeLoss
+      description: Operating income
+    revenue:
+      xbrl_concept: us-gaap:Revenues
+      description: Revenue
+    total_assets:
+      xbrl_concept: us-gaap:Assets
+      description: Total assets
+    total_debt:
+      xbrl_concept: us-gaap:LongTermDebt
+      description: Total debt
+    total_equity:
+      xbrl_concept: us-gaap:StockholdersEquity
+      description: Total equity
+    total_liabilities:
+      xbrl_concept: us-gaap:Liabilities
+      description: Total liabilities
+filings:
+- id: aapl-10k-2015
+  form: 10-K
+  filed: '2015-10-28'
+  period_covered: 2015-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/320193/000119312515356351/d17062d10k.htm
+  tables:
+  - pre_text: 'table of contents company stock performance the following graph shows
+      a comparison of cumulative total shareholder return , calculated on a dividend
+      reinvested basis , for the company , the s&p 500 index , the s&p information
+      technology index and the dow jones u.s .
+
+
+      technology supersector index for the five years ended september 26 , 2015 .
+
+
+      the graph assumes $ 100 was invested in each of the company 2019s common stock
+      , the s&p 500 index , the s&p information technology index and the dow jones
+      u.s .
+
+
+      technology supersector index as of the market close on september 24 , 2010 .
+
+
+      note that historic stock price performance is not necessarily indicative of
+      future stock price performance .
+
+
+      * $ 100 invested on 9/25/10 in stock or index , including reinvestment of dividends
+      .
+
+
+      data points are the last day of each fiscal year for the company 2019scommon
+      stock and september 30th for indexes .
+
+
+      copyright a9 2015 s&p , a division of mcgraw hill financial .
+
+
+      all rights reserved .
+
+
+      copyright a9 2015 dow jones & co .
+
+
+      all rights reserved .
+
+
+      september september september september september september .'
+    header:
+    - ''
+    - september 2010
+    - september 2011
+    - september 2012
+    - september 2013
+    - september 2014
+    - september 2015
+    rows:
+    - - apple inc .
+      - $ 100
+      - $ 138
+      - $ 229
+      - $ 170
+      - $ 254
+      - $ 294
+    - - s&p 500 index
+      - $ 100
+      - $ 101
+      - $ 132
+      - $ 157
+      - $ 188
+      - $ 187
+    - - s&p information technology index
+      - $ 100
+      - $ 104
+      - $ 137
+      - $ 147
+      - $ 190
+      - $ 194
+    - - dow jones u.s . technology supersector index
+      - $ 100
+      - $ 103
+      - $ 134
+      - $ 141
+      - $ 183
+      - $ 183
+    post_text: 'apple inc .
+
+
+      | 2015 form 10-k | 21 .'
+    id: aapl-2015-table-0
+  - pre_text: 'table of contents the notional amounts for outstanding derivative instruments
+      provide one measure of the transaction volume outstanding and do not represent
+      the amount of the company 2019s exposure to credit or market loss .
+
+
+      the credit risk amounts represent the company 2019s gross exposure to potential
+      accounting loss on derivative instruments that are outstanding or unsettled
+      if all counterparties failed to perform according to the terms of the contract
+      , based on then-current currency or interest rates at each respective date .
+
+
+      the company 2019s exposure to credit loss and market risk will vary over time
+      as currency and interest rates change .
+
+
+      although the table above reflects the notional and credit risk amounts of the
+      company 2019s derivative instruments , it does not reflect the gains or losses
+      associated with the exposures and transactions that the instruments are intended
+      to hedge .
+
+
+      the amounts ultimately realized upon settlement of these financial instruments
+      , together with the gains and losses on the underlying exposures , will depend
+      on actual market conditions during the remaining life of the instruments .
+
+
+      the company generally enters into master netting arrangements , which are designed
+      to reduce credit risk by permitting net settlement of transactions with the
+      same counterparty .
+
+
+      to further limit credit risk , the company generally enters into collateral
+      security arrangements that provide for collateral to be received or posted when
+      the net fair value of certain financial instruments fluctuates from contractually
+      established thresholds .
+
+
+      the company presents its derivative assets and derivative liabilities at their
+      gross fair values in its consolidated balance sheets .
+
+
+      the net cash collateral received by the company related to derivative instruments
+      under its collateral security arrangements was $ 1.0 billion as of september
+      26 , 2015 and $ 2.1 billion as of september 27 , 2014 .
+
+
+      under master netting arrangements with the respective counterparties to the
+      company 2019s derivative contracts , the company is allowed to net settle transactions
+      with a single net amount payable by one party to the other .
+
+
+      as of september 26 , 2015 and september 27 , 2014 , the potential effects of
+      these rights of set-off associated with the company 2019s derivative contracts
+      , including the effects of collateral , would be a reduction to both derivative
+      assets and derivative liabilities of $ 2.2 billion and $ 1.6 billion , respectively
+      , resulting in net derivative liabilities of $ 78 million and $ 549 million
+      , respectively .
+
+
+      accounts receivable receivables the company has considerable trade receivables
+      outstanding with its third-party cellular network carriers , wholesalers , retailers
+      , value-added resellers , small and mid-sized businesses and education , enterprise
+      and government customers .
+
+
+      the company generally does not require collateral from its customers ; however
+      , the company will require collateral in certain instances to limit credit risk
+      .
+
+
+      in addition , when possible , the company attempts to limit credit risk on trade
+      receivables with credit insurance for certain customers or by requiring third-party
+      financing , loans or leases to support credit exposure .
+
+
+      these credit-financing arrangements are directly between the third-party financing
+      company and the end customer .
+
+
+      as such , the company generally does not assume any recourse or credit risk
+      sharing related to any of these arrangements .
+
+
+      as of september 26 , 2015 , the company had one customer that represented 10%
+      ( 10 % ) or more of total trade receivables , which accounted for 12% ( 12 %
+      ) .
+
+
+      as of september 27 , 2014 , the company had two customers that represented 10%
+      ( 10 % ) or more of total trade receivables , one of which accounted for 16%
+      ( 16 % ) and the other 13% ( 13 % ) .
+
+
+      the company 2019s cellular network carriers accounted for 71% ( 71 % ) and 72%
+      ( 72 % ) of trade receivables as of september 26 , 2015 and september 27 , 2014
+      , respectively .
+
+
+      vendor non-trade receivables the company has non-trade receivables from certain
+      of its manufacturing vendors resulting from the sale of components to these
+      vendors who manufacture sub-assemblies or assemble final products for the company
+      .
+
+
+      the company purchases these components directly from suppliers .
+
+
+      vendor non-trade receivables from three of the company 2019s vendors accounted
+      for 38% ( 38 % ) , 18% ( 18 % ) and 14% ( 14 % ) of total vendor non-trade receivables
+      as of september 26 , 2015 and three of the company 2019s vendors accounted for
+      51% ( 51 % ) , 16% ( 16 % ) and 14% ( 14 % ) of total vendor non-trade receivables
+      as of september 27 , 2014 .
+
+
+      note 3 2013 consolidated financial statement details the following tables show
+      the company 2019s consolidated financial statement details as of september 26
+      , 2015 and september 27 , 2014 ( in millions ) : property , plant and equipment
+      , net .'
+    header:
+    - ''
+    - '2015'
+    - '2014'
+    rows:
+    - - land and buildings
+      - $ 6956
+      - $ 4863
+    - - machinery equipment and internal-use software
+      - '37038'
+      - '29639'
+    - - leasehold improvements
+      - '5263'
+      - '4513'
+    - - gross property plant and equipment
+      - '49257'
+      - '39015'
+    - - accumulated depreciation and amortization
+      - -26786 ( 26786 )
+      - -18391 ( 18391 )
+    - - total property plant and equipment net
+      - $ 22471
+      - $ 20624
+    post_text: 'apple inc .
+
+
+      | 2015 form 10-k | 53 .'
+    id: aapl-2015-table-1
+  - pre_text: 'table of contents the company uses some custom components that are
+      not commonly used by its competitors , and new products introduced by the company
+      often utilize custom components available from only one source .
+
+
+      when a component or product uses new technologies , initial capacity constraints
+      may exist until the suppliers 2019 yields have matured or manufacturing capacity
+      has increased .
+
+
+      if the company 2019s supply of components for a new or existing product were
+      delayed or constrained , or if an outsourcing partner delayed shipments of completed
+      products to the company , the company 2019s financial condition and operating
+      results could be materially adversely affected .
+
+
+      the company 2019s business and financial performance could also be materially
+      adversely affected depending on the time required to obtain sufficient quantities
+      from the original source , or to identify and obtain sufficient quantities from
+      an alternative source .
+
+
+      continued availability of these components at acceptable prices , or at all
+      , may be affected if those suppliers concentrated on the production of common
+      components instead of components customized to meet the company 2019s requirements
+      .
+
+
+      the company has entered into agreements for the supply of many components ;
+      however , there can be no guarantee that the company will be able to extend
+      or renew these agreements on similar terms , or at all .
+
+
+      therefore , the company remains subject to significant risks of supply shortages
+      and price increases that could materially adversely affect its financial condition
+      and operating results .
+
+
+      substantially all of the company 2019s hardware products are manufactured by
+      outsourcing partners that are located primarily in asia .
+
+
+      a significant concentration of this manufacturing is currently performed by
+      a small number of outsourcing partners , often in single locations .
+
+
+      certain of these outsourcing partners are the sole- sourced suppliers of components
+      and manufacturers for many of the company 2019s products .
+
+
+      although the company works closely with its outsourcing partners on manufacturing
+      schedules , the company 2019s operating results could be adversely affected
+      if its outsourcing partners were unable to meet their production commitments
+      .
+
+
+      the company 2019s purchase commitments typically cover its requirements for
+      periods up to 150 days .
+
+
+      other off-balance sheet commitments operating leases the company leases various
+      equipment and facilities , including retail space , under noncancelable operating
+      lease arrangements .
+
+
+      the company does not currently utilize any other off-balance sheet financing
+      arrangements .
+
+
+      the major facility leases are typically for terms not exceeding 10 years and
+      generally contain multi-year renewal options .
+
+
+      as of september 26 , 2015 , the company had a total of 463 retail stores .
+
+
+      leases for retail space are for terms ranging from five to 20 years , the majority
+      of which are for 10 years , and often contain multi-year renewal options .
+
+
+      as of september 26 , 2015 , the company 2019s total future minimum lease payments
+      under noncancelable operating leases were $ 6.3 billion , of which $ 3.6 billion
+      related to leases for retail space .
+
+
+      rent expense under all operating leases , including both cancelable and noncancelable
+      leases , was $ 794 million , $ 717 million and $ 645 million in 2015 , 2014
+      and 2013 , respectively .
+
+
+      future minimum lease payments under noncancelable operating leases having remaining
+      terms in excess of one year as of september 26 , 2015 , are as follows ( in
+      millions ) : .'
+    header:
+    - '2016'
+    - $ 772
+    rows:
+    - - '2017'
+      - '774'
+    - - '2018'
+      - '744'
+    - - '2019'
+      - '715'
+    - - '2020'
+      - '674'
+    - - thereafter
+      - '2592'
+    - - total
+      - $ 6271
+    post_text: 'other commitments the company utilizes several outsourcing partners
+      to manufacture sub-assemblies for the company 2019s products and to perform
+      final assembly and testing of finished products .
+
+
+      these outsourcing partners acquire components and build product based on demand
+      information supplied by the company , which typically covers periods up to 150
+      days .
+
+
+      the company also obtains individual components for its products from a wide
+      variety of individual suppliers .
+
+
+      consistent with industry practice , the company acquires components through
+      a combination of purchase orders , supplier contracts and open orders based
+      on projected demand information .
+
+
+      where appropriate , the purchases are applied to inventory component prepayments
+      that are outstanding with the respective supplier .
+
+
+      as of september 26 , 2015 , the company had outstanding off-balance sheet third-party
+      manufacturing commitments and component purchase commitments of $ 29.5 billion
+      .
+
+
+      apple inc .
+
+
+      | 2015 form 10-k | 65 .'
+    id: aapl-2015-table-2
+- id: aapl-10k-2016
+  form: 10-K
+  filed: '2016-10-26'
+  period_covered: 2016-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/320193/000162828016020309/a201610-k9242016.htm
+  tables:
+  - pre_text: 'apple inc .
+
+
+      | 2016 form 10-k | 20 company stock performance the following graph shows a
+      comparison of cumulative total shareholder return , calculated on a dividend
+      reinvested basis , for the company , the s&p 500 index , the s&p information
+      technology index and the dow jones u.s .
+
+
+      technology supersector index for the five years ended september 24 , 2016 .
+
+
+      the graph assumes $ 100 was invested in each of the company 2019s common stock
+      , the s&p 500 index , the s&p information technology index and the dow jones
+      u.s .
+
+
+      technology supersector index as of the market close on september 23 , 2011 .
+
+
+      note that historic stock price performance is not necessarily indicative of
+      future stock price performance .
+
+
+      * $ 100 invested on 9/23/11 in stock or index , including reinvestment of dividends
+      .
+
+
+      data points are the last day of each fiscal year for the company 2019s common
+      stock and september 30th for indexes .
+
+
+      copyright a9 2016 s&p , a division of mcgraw hill financial .
+
+
+      all rights reserved .
+
+
+      copyright a9 2016 dow jones & co .
+
+
+      all rights reserved .
+
+
+      september september september september september september .'
+    header:
+    - ''
+    - september2011
+    - september2012
+    - september2013
+    - september2014
+    - september2015
+    - september2016
+    rows:
+    - - apple inc .
+      - $ 100
+      - $ 166
+      - $ 123
+      - $ 183
+      - $ 212
+      - $ 213
+    - - s&p 500 index
+      - $ 100
+      - $ 130
+      - $ 155
+      - $ 186
+      - $ 185
+      - $ 213
+    - - s&p information technology index
+      - $ 100
+      - $ 132
+      - $ 142
+      - $ 183
+      - $ 187
+      - $ 230
+    - - dow jones u.s . technology supersector index
+      - $ 100
+      - $ 130
+      - $ 137
+      - $ 178
+      - $ 177
+      - $ 217
+    post_text: .
+    id: aapl-2016-table-0
+- id: aapl-10k-2017
+  form: 10-K
+  filed: '2017-11-03'
+  period_covered: 2017-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/320193/000032019317000070/a10-k20179302017.htm
+  tables:
+  - pre_text: 'apple inc .
+
+
+      | 2017 form 10-k | 20 company stock performance the following graph shows a
+      comparison of cumulative total shareholder return , calculated on a dividend
+      reinvested basis , for the company , the s&p 500 index , the s&p information
+      technology index and the dow jones u.s .
+
+
+      technology supersector index for the five years ended september 30 , 2017 .
+
+
+      the graph assumes $ 100 was invested in each of the company 2019s common stock
+      , the s&p 500 index , the s&p information technology index and the dow jones
+      u.s .
+
+
+      technology supersector index as of the market close on september 28 , 2012 .
+
+
+      note that historic stock price performance is not necessarily indicative of
+      future stock price performance .
+
+
+      * $ 100 invested on 9/28/12 in stock or index , including reinvestment of dividends
+      .
+
+
+      data points are the last day of each fiscal year for the company 2019s common
+      stock and september 30th for indexes .
+
+
+      copyright a9 2017 s&p , a division of mcgraw hill financial .
+
+
+      all rights reserved .
+
+
+      copyright a9 2017 dow jones & co .
+
+
+      all rights reserved .
+
+
+      september september september september september september .'
+    header:
+    - ''
+    - september2012
+    - september2013
+    - september2014
+    - september2015
+    - september2016
+    - september2017
+    rows:
+    - - apple inc .
+      - $ 100
+      - $ 74
+      - $ 111
+      - $ 128
+      - $ 129
+      - $ 179
+    - - s&p 500 index
+      - $ 100
+      - $ 119
+      - $ 143
+      - $ 142
+      - $ 164
+      - $ 194
+    - - s&p information technology index
+      - $ 100
+      - $ 107
+      - $ 138
+      - $ 141
+      - $ 173
+      - $ 223
+    - - dow jones u.s . technology supersector index
+      - $ 100
+      - $ 105
+      - $ 137
+      - $ 137
+      - $ 167
+      - $ 214
+    post_text: .
+    id: aapl-2017-table-0
+- id: aapl-10k-2018
+  form: 10-K
+  filed: '2018-11-05'
+  period_covered: 2018-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/320193/000032019318000145/a10-k20189292018.htm
+  tables:
+  - pre_text: 'apple inc .
+
+
+      | 2018 form 10-k | 20 company stock performance the following graph shows a
+      comparison of cumulative total shareholder return , calculated on a dividend-reinvested
+      basis , for the company , the s&p 500 index , the s&p information technology
+      index and the dow jones u.s .
+
+
+      technology supersector index for the five years ended september 29 , 2018 .
+
+
+      the graph assumes $ 100 was invested in each of the company 2019s common stock
+      , the s&p 500 index , the s&p information technology index and the dow jones
+      u.s .
+
+
+      technology supersector index as of the market close on september 27 , 2013 .
+
+
+      note that historic stock price performance is not necessarily indicative of
+      future stock price performance .
+
+
+      * $ 100 invested on september 27 , 2013 in stock or index , including reinvestment
+      of dividends .
+
+
+      data points are the last day of each fiscal year for the company 2019s common
+      stock and september 30th for indexes .
+
+
+      copyright a9 2018 standard & poor 2019s , a division of s&p global .
+
+
+      all rights reserved .
+
+
+      copyright a9 2018 s&p dow jones indices llc , a division of s&p global .
+
+
+      all rights reserved .
+
+
+      september september september september september september .'
+    header:
+    - ''
+    - september2013
+    - september2014
+    - september2015
+    - september2016
+    - september2017
+    - september2018
+    rows:
+    - - apple inc .
+      - $ 100
+      - $ 149
+      - $ 173
+      - $ 174
+      - $ 242
+      - $ 359
+    - - s&p 500 index
+      - $ 100
+      - $ 120
+      - $ 119
+      - $ 137
+      - $ 163
+      - $ 192
+    - - s&p information technology index
+      - $ 100
+      - $ 129
+      - $ 132
+      - $ 162
+      - $ 209
+      - $ 275
+    - - dow jones u.s . technology supersector index
+      - $ 100
+      - $ 130
+      - $ 130
+      - $ 159
+      - $ 203
+      - $ 266
+    post_text: .
+    id: aapl-2018-table-0
+- id: aapl-10k-2023
+  form: 10-K
+  filed: '2023-11-03'
+  period_covered: 2023-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm
+  tables: []
+- id: aapl-10k-2024
+  form: 10-K
+  filed: '2024-11-01'
+  period_covered: 2024-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm
+  tables: []
+- id: aapl-10k-2025
+  form: 10-K
+  filed: '2025-10-31'
+  period_covered: 2025-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm
+  tables: []
