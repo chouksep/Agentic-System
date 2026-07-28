@@ -2,8 +2,10 @@
 from __future__ import annotations
 
 import json
+from pathlib import Path
 from typing import Callable
 
+from ci_wiki.ops import financials_lookup
 from ci_wiki.wiki.page import WikiPageIO
 from ci_wiki.wiki.search import WikiSearch
 from ci_wiki.models import WikiPage
@@ -128,9 +130,79 @@ FLAG_CONTRADICTION = {
     },
 }
 
+LIST_COMPANIES_WITH_FINANCIALS = {
+    "name": "list_companies_with_financials",
+    "description": (
+        "List every company that has a structured financials sidecar. "
+        "Call this to discover which tickers have machine-readable data before "
+        "asking about specific metrics or filings."
+    ),
+    "input_schema": {"type": "object", "properties": {}},
+}
+
+LIST_FINANCIAL_METRICS = {
+    "name": "list_financial_metrics",
+    "description": (
+        "List all available metric names and period keys for one company. "
+        "Use this to discover what get_metric_series can be called with."
+    ),
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "slug": {"type": "string", "description": "Company wiki slug (e.g. 'jpmorgan-chase')"},
+        },
+        "required": ["slug"],
+    },
+}
+
+GET_METRIC_SERIES = {
+    "name": "get_metric_series",
+    "description": (
+        "Return the full time series for one metric on one company, "
+        "sorted by period ascending. Units are given in the response — "
+        "monetary metrics are in the sidecar's units (usually 'millions'); "
+        "per-share metrics like diluted_eps are always per-share USD."
+    ),
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "slug": {"type": "string"},
+            "metric": {"type": "string", "description": "Metric name (e.g. 'revenue', 'net_income', 'diluted_eps')"},
+        },
+        "required": ["slug", "metric"],
+    },
+}
+
+GET_FILING_TABLE = {
+    "name": "get_filing_table",
+    "description": (
+        "Return one filing table verbatim from the sidecar, including the "
+        "surrounding pre_text/post_text narrative. The response includes "
+        "source_url for citation. Use this when the question quotes an SEC "
+        "filing or asks about a specific line item that may not be in "
+        "the standardized metrics."
+    ),
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "slug": {"type": "string"},
+            "period": {"type": "string", "description": "Period key (e.g. '2023-FY')"},
+            "table_index": {"type": "integer", "default": 0, "description": "Zero-based table index within the filing"},
+        },
+        "required": ["slug", "period"],
+    },
+}
+
+FINANCIALS_TOOLS = [
+    LIST_COMPANIES_WITH_FINANCIALS,
+    LIST_FINANCIAL_METRICS,
+    GET_METRIC_SERIES,
+    GET_FILING_TABLE,
+]
+
 # Standard toolsets per operation
-INGEST_TOOLS = [READ_WIKI_PAGE, WRITE_WIKI_PAGE, SEARCH_WIKI, LIST_WIKI_PAGES]
-QUERY_TOOLS = [READ_WIKI_PAGE, SEARCH_WIKI, LIST_WIKI_PAGES]
+INGEST_TOOLS = [READ_WIKI_PAGE, WRITE_WIKI_PAGE, SEARCH_WIKI, LIST_WIKI_PAGES] + FINANCIALS_TOOLS
+QUERY_TOOLS = [READ_WIKI_PAGE, SEARCH_WIKI, LIST_WIKI_PAGES] + FINANCIALS_TOOLS
 LINT_TOOLS = [READ_WIKI_PAGE, WRITE_WIKI_PAGE, SEARCH_WIKI, LIST_WIKI_PAGES, FLAG_CONTRADICTION]
 
 
@@ -144,9 +216,10 @@ class ToolCall:
 class ToolDispatcher:
     """Routes tool calls to Python implementations."""
 
-    def __init__(self, page_io: WikiPageIO, search: WikiSearch) -> None:
+    def __init__(self, page_io: WikiPageIO, search: WikiSearch, wiki_dir: Path) -> None:
         self._page_io = page_io
         self._search = search
+        self._wiki_dir = Path(wiki_dir)
         self.pages_created: list[str] = []
         self.pages_updated: list[str] = []
         self.contradictions: list[dict] = []
@@ -158,6 +231,10 @@ class ToolDispatcher:
             "search_wiki": self._search_wiki,
             "list_wiki_pages": self._list_wiki_pages,
             "flag_contradiction": self._flag_contradiction,
+            "list_companies_with_financials": self._list_companies_with_financials,
+            "list_financial_metrics": self._list_financial_metrics,
+            "get_metric_series": self._get_metric_series,
+            "get_filing_table": self._get_filing_table,
         }
         handler = handlers.get(tool_call.name)
         if handler is None:
@@ -242,3 +319,32 @@ class ToolDispatcher:
         }
         self.contradictions.append(entry)
         return json.dumps({"flagged": True, "contradiction": entry})
+
+    def _list_companies_with_financials(self, inp: dict) -> str:
+        return json.dumps(
+            financials_lookup.list_companies_with_financials(self._wiki_dir),
+            sort_keys=True,
+        )
+
+    def _list_financial_metrics(self, inp: dict) -> str:
+        return json.dumps(
+            financials_lookup.list_financial_metrics(self._wiki_dir, inp["slug"]),
+            sort_keys=True,
+        )
+
+    def _get_metric_series(self, inp: dict) -> str:
+        return json.dumps(
+            financials_lookup.get_metric_series(self._wiki_dir, inp["slug"], inp["metric"]),
+            sort_keys=True,
+        )
+
+    def _get_filing_table(self, inp: dict) -> str:
+        return json.dumps(
+            financials_lookup.get_filing_table(
+                self._wiki_dir,
+                inp["slug"],
+                inp["period"],
+                inp.get("table_index", 0),
+            ),
+            sort_keys=True,
+        )

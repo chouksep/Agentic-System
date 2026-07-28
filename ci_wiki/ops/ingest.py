@@ -127,7 +127,7 @@ class IngestOp:
         search = WikiSearch(pages)
         search.build_index()
 
-        dispatcher = ToolDispatcher(self._page_io, search)
+        dispatcher = ToolDispatcher(self._page_io, search, self._config.wiki_dir)
         final_text, tokens = self._llm.complete_with_tools(
             system=system,
             initial_user_message=user_msg,
