@@ -44,3 +44,27 @@ def test_list_companies_returns_empty_when_no_sidecars(tmp_path):
     (tmp_path / "companies").mkdir()
     result = financials_lookup.list_companies_with_financials(tmp_path)
     assert result == []
+
+
+def test_list_financial_metrics_returns_shape_for_jpm():
+    result = financials_lookup.list_financial_metrics(WIKI_DIR, "jpmorgan-chase")
+    assert result["ticker"] == "JPM"
+    assert result["currency"] == "USD"
+    metric_names = [m["name"] for m in result["metrics"]]
+    assert metric_names == sorted(metric_names)
+    assert {"revenue", "net_income", "diluted_eps"}.issubset(set(metric_names))
+    assert isinstance(result["periods"], list)
+    assert result["periods"] == sorted(result["periods"])
+    assert any(p.endswith("-FY") for p in result["periods"])
+
+
+def test_list_financial_metrics_no_sidecar():
+    result = financials_lookup.list_financial_metrics(WIKI_DIR, "does-not-exist")
+    assert result == {"error": "no_sidecar", "slug": "does-not-exist"}
+
+
+def test_list_financial_metrics_metric_entry_has_metadata_fields():
+    result = financials_lookup.list_financial_metrics(WIKI_DIR, "jpmorgan-chase")
+    revenue = next(m for m in result["metrics"] if m["name"] == "revenue")
+    assert "description" in revenue
+    assert "xbrl_concept" in revenue

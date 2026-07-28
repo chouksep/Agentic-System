@@ -44,3 +44,39 @@ def list_companies_with_financials(wiki_dir: Path) -> list[dict]:
             "has_filings": bool(data.get("filings")),
         })
     return out
+
+
+def _sidecar_path(wiki_dir: Path, slug: str) -> Path:
+    return _companies_dir(wiki_dir) / f"{slug}.financials.yaml"
+
+
+def list_financial_metrics(wiki_dir: Path, slug: str) -> dict:
+    """Return the metric catalogue and period keys for one company.
+
+    {ticker, currency, units, metrics, periods} where
+        metrics = [{name, description, xbrl_concept}] sorted by name,
+        periods = sorted list of period keys ('2023-FY', '2023-Q3', ...).
+    Returns {"error": "no_sidecar", "slug": slug} when the file is missing.
+    """
+    path = _sidecar_path(wiki_dir, slug)
+    if not path.is_file():
+        return {"error": "no_sidecar", "slug": slug}
+    data = load_sidecar(path)
+    metrics = data.get("metrics") or {}
+    metadata = metrics.get("metadata") or {}
+    by_period = metrics.get("by_period") or {}
+    metric_entries = [
+        {
+            "name": name,
+            "description": (meta or {}).get("description"),
+            "xbrl_concept": (meta or {}).get("xbrl_concept"),
+        }
+        for name, meta in sorted(metadata.items())
+    ]
+    return {
+        "ticker": data.get("ticker"),
+        "currency": metrics.get("currency"),
+        "units": metrics.get("units"),
+        "metrics": metric_entries,
+        "periods": sorted(by_period.keys()),
+    }
