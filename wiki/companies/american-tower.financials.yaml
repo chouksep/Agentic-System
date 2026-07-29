@@ -383,6 +383,2958 @@ metrics:
       xbrl_concept: us-gaap:Liabilities
       description: Total liabilities
 filings:
+- id: amt-10k-2010
+  form: 10-K
+  filed: '2011-02-28'
+  period_covered: 2010-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1053507/000119312511050129/d10k.htm
+  tables:
+  - pre_text: 'american tower corporation and subsidiaries notes to consolidated financial
+      statements the valuation allowance increased from $ 47.8 million as of december
+      31 , 2009 to $ 48.2 million as of december 31 , 2010 .
+
+
+      the increase was primarily due to valuation allowances on foreign loss carryforwards
+      .
+
+
+      at december 31 , 2010 , the company has provided a valuation allowance of approximately
+      $ 48.2 million which primarily relates to state net operating loss carryforwards
+      , equity investments and foreign items .
+
+
+      the company has not provided a valuation allowance for the remaining deferred
+      tax assets , primarily its federal net operating loss carryforwards , as management
+      believes the company will have sufficient taxable income to realize these federal
+      net operating loss carryforwards during the twenty-year tax carryforward period
+      .
+
+
+      valuation allowances may be reversed if related deferred tax assets are deemed
+      realizable based on changes in facts and circumstances relevant to the assets
+      2019 recoverability .
+
+
+      the recoverability of the company 2019s remaining net deferred tax asset has
+      been assessed utilizing projections based on its current operations .
+
+
+      the projections show a significant decrease in depreciation in the later years
+      of the carryforward period as a result of a significant portion of its assets
+      being fully depreciated during the first fifteen years of the carryforward period
+      .
+
+
+      accordingly , the recoverability of the net deferred tax asset is not dependent
+      on material improvements to operations , material asset sales or other non-routine
+      transactions .
+
+
+      based on its current outlook of future taxable income during the carryforward
+      period , management believes that the net deferred tax asset will be realized
+      .
+
+
+      the company 2019s deferred tax assets as of december 31 , 2010 and 2009 in the
+      table above do not include $ 122.1 million and $ 113.9 million , respectively
+      , of excess tax benefits from the exercises of employee stock options that are
+      a component of net operating losses .
+
+
+      total stockholders 2019 equity as of december 31 , 2010 will be increased by
+      $ 122.1 million if and when any such excess tax benefits are ultimately realized
+      .
+
+
+      at december 31 , 2010 , the company had net federal and state operating loss
+      carryforwards available to reduce future federal and state taxable income of
+      approximately $ 1.2 billion , including losses related to employee stock options
+      of $ 0.3 billion .
+
+
+      if not utilized , the company 2019s net operating loss carryforwards expire
+      as follows ( in thousands ) : .'
+    header:
+    - years ended december 31,
+    - federal
+    - state
+    - foreign
+    rows:
+    - - 2011 to 2015
+      - $ 2014
+      - $ 2014
+      - $ 503
+    - - 2016 to 2020
+      - '2014'
+      - '331315'
+      - '5509'
+    - - 2021 to 2025
+      - '774209'
+      - '576780'
+      - '2014'
+    - - 2026 to 2030
+      - '423398'
+      - '279908'
+      - '92412'
+    - - total
+      - $ 1197607
+      - $ 1188003
+      - $ 98424
+    post_text: in addition , the company has mexican tax credits of $ 5.2 million
+      which if not utilized would expire in 2017. .
+    id: amt-2010-table-0
+  - pre_text: '2022 international .
+
+
+      in general , our international markets are less advanced with respect to the
+      current technologies deployed for wireless services .
+
+
+      as a result , demand for our communications sites is driven by continued voice
+      network investments , new market entrants and initial 3g data network deployments
+      .
+
+
+      for example , in india , nationwide voice networks continue to be deployed as
+      wireless service providers are beginning their initial investments in 3g data
+      networks , as a result of recent spectrum auctions .
+
+
+      in mexico and brazil , where nationwide voice networks have been deployed ,
+      some incumbent wireless service providers continue to invest in their 3g data
+      networks , and recent spectrum auctions have enabled other incumbent wireless
+      service providers and new market entrants to begin their initial investments
+      in 3g data networks .
+
+
+      in markets such as chile and peru , recent spectrum auctions have attracted
+      new market entrants , who are expected to begin their investment in deploying
+      nationwide voice and 3g data networks .
+
+
+      we believe demand for our tower sites will continue in our international markets
+      as wireless service providers seek to remain competitive by increasing the coverage
+      of their networks while also investing in next generation data networks .
+
+
+      rental and management operations new site revenue growth .
+
+
+      during the year ended december 31 , 2010 , we grew our portfolio of communications
+      sites through acquisitions and construction activities , including the acquisition
+      and construction of approximately 7800 sites .
+
+
+      we continue to evaluate opportunities to acquire larger communications site
+      portfolios , both domestically and internationally , that we believe we can
+      effectively integrate into our existing portfolio. .'
+    header:
+    - new sites ( acquired or constructed )
+    - '2010'
+    - '2009'
+    - '2008'
+    rows:
+    - - domestic
+      - '947'
+      - '528'
+      - '160'
+    - - international ( 1 )
+      - '6865'
+      - '3022'
+      - '801'
+    post_text: '( 1 ) the majority of sites acquired or constructed internationally
+      during 2010 and 2009 were in india and our newly launched operations in chile
+      , colombia and peru .
+
+
+      network development services segment revenue growth .
+
+
+      as we continue to focus on growing our rental and management operations , we
+      anticipate that our network development services revenue will continue to represent
+      a small percentage of our total revenues .
+
+
+      through our network development services segment , we offer tower-related services
+      , including site acquisition , zoning and permitting services and structural
+      analysis services , which primarily support our site leasing business and the
+      addition of new tenants and equipment on our sites .
+
+
+      rental and management operations expenses .
+
+
+      our rental and management operations expenses include our direct site level
+      expenses and consist primarily of ground rent , property taxes , repairs and
+      maintenance and utilities .
+
+
+      these segment level expenses exclude all segment and corporate level selling
+      , general , administrative and development expenses , which are aggregated into
+      one line item entitled selling , general , administrative and development expense
+      .
+
+
+      in general , our rental and management segment level selling , general and administrative
+      expenses do not significantly increase as a result of adding incremental tenants
+      to our legacy sites and typically increase only modestly year-over-year .
+
+
+      as a result , leasing additional space to new tenants on our legacy sites provides
+      significant incremental cash flow .
+
+
+      in geographic areas where we have recently launched operations or are focused
+      on materially expanding our site footprint , we may incur additional segment
+      level selling , general and administrative expenses as we increase our presence
+      in these areas .
+
+
+      our profit margin growth is therefore positively impacted by the addition of
+      new tenants to our legacy sites and can be temporarily diluted by our development
+      activities .
+
+
+      reit election .
+
+
+      as we review our tax strategy and assess the utilization of our federal and
+      state nols , we are actively considering an election to a reit for u.s .
+
+
+      federal and , where applicable , state income tax purposes .
+
+
+      we may make the determination to elect reit status for the taxable year beginning
+      january 1 , 2012 , as early as the second half of 2011 , subject to the approval
+      of our board of directors , although there is no certainty as to the timing
+      of a reit election or whether we will make a reit election at all. .'
+    id: amt-2010-table-1
+  - pre_text: 'american tower corporation and subsidiaries notes to consolidated financial
+      statements as of december 31 , 2010 and 2009 , the company had $ 295.4 million
+      and $ 295.0 million net , respectively ( $ 300.0 million aggregate principal
+      amount ) outstanding under the 7.25% ( 7.25 % ) notes .
+
+
+      as of december 31 , 2010 and 2009 , the carrying value includes a discount of
+      $ 4.6 million and $ 5.0 million , respectively .
+
+
+      5.0% ( 5.0 % ) convertible notes 2014the 5.0% ( 5.0 % ) convertible notes due
+      2010 ( 201c5.0% ( 201c5.0 % ) notes 201d ) matured on february 15 , 2010 , and
+      interest was payable semiannually on february 15 and august 15 of each year
+      .
+
+
+      the 5.0% ( 5.0 % ) notes were convertible at any time into shares of the company
+      2019s class a common stock ( 201ccommon stock 201d ) at a conversion price of
+      $ 51.50 per share , subject to adjustment in certain cases .
+
+
+      as of december 31 , 2010 and 2009 , the company had none and $ 59.7 million
+      outstanding , respectively , under the 5.0% ( 5.0 % ) notes .
+
+
+      ati 7.25% ( 7.25 % ) senior subordinated notes 2014the ati 7.25% ( 7.25 % )
+      notes were issued with a maturity of december 1 , 2011 and interest was payable
+      semi-annually in arrears on june 1 and december 1 of each year .
+
+
+      the ati 7.25% ( 7.25 % ) notes were jointly and severally guaranteed on a senior
+      subordinated basis by the company and substantially all of the wholly owned
+      domestic restricted subsidiaries of ati and the company , other than spectrasite
+      and its subsidiaries .
+
+
+      the notes ranked junior in right of payment to all existing and future senior
+      indebtedness of ati , the sister guarantors ( as defined in the indenture relating
+      to the notes ) and their domestic restricted subsidiaries .
+
+
+      the ati 7.25% ( 7.25 % ) notes were structurally senior in right of payment
+      to all other existing and future indebtedness of the company , including the
+      company 2019s senior notes , convertible notes and the revolving credit facility
+      and term loan .
+
+
+      during the year ended december 31 , 2010 , ati issued a notice for the redemption
+      of the principal amount of its outstanding ati 7.25% ( 7.25 % ) notes .
+
+
+      in accordance with the redemption provisions and the indenture for the ati 7.25%
+      ( 7.25 % ) notes , the notes were redeemed at a price equal to 100.00% ( 100.00
+      % ) of the principal amount , plus accrued and unpaid interest up to , but excluding
+      , september 23 , 2010 , for an aggregate purchase price of $ 0.3 million .
+
+
+      as of december 31 , 2010 and 2009 , the company had none and $ 0.3 million ,
+      respectively , outstanding under the ati 7.25% ( 7.25 % ) notes .
+
+
+      capital lease obligations and notes payable 2014the company 2019s capital lease
+      obligations and notes payable approximated $ 46.3 million and $ 59.0 million
+      as of december 31 , 2010 and 2009 , respectively .
+
+
+      these obligations bear interest at rates ranging from 2.5% ( 2.5 % ) to 9.3%
+      ( 9.3 % ) and mature in periods ranging from less than one year to approximately
+      seventy years .
+
+
+      maturities 2014as of december 31 , 2010 , aggregate carrying value of long-term
+      debt , including capital leases , for the next five years and thereafter are
+      estimated to be ( in thousands ) : year ending december 31 .'
+    header:
+    - '2011'
+    - $ 74896
+    rows:
+    - - '2012'
+      - '625884'
+    - - '2013'
+      - '618'
+    - - '2014'
+      - '1750479'
+    - - '2015'
+      - '600489'
+    - - thereafter
+      - '2541858'
+    - - total cash obligations
+      - '5594224'
+    - - unamortized discounts and premiums net
+      - -6836 ( 6836 )
+    - - balance as of december 31 2010
+      - $ 5587388
+    post_text: .
+    id: amt-2010-table-2
+  - pre_text: 'american tower corporation and subsidiaries notes to consolidated financial
+      statements as of december 31 , 2010 , total unrecognized compensation expense
+      related to unvested restricted stock units granted under the 2007 plan was $
+      57.5 million and is expected to be recognized over a weighted average period
+      of approximately two years .
+
+
+      employee stock purchase plan 2014the company maintains an employee stock purchase
+      plan ( 201cespp 201d ) for all eligible employees .
+
+
+      under the espp , shares of the company 2019s common stock may be purchased during
+      bi-annual offering periods at 85% ( 85 % ) of the lower of the fair market value
+      on the first or the last day of each offering period .
+
+
+      employees may purchase shares having a value not exceeding 15% ( 15 % ) of their
+      gross compensation during an offering period and may not purchase more than
+      $ 25000 worth of stock in a calendar year ( based on market values at the beginning
+      of each offering period ) .
+
+
+      the offering periods run from june 1 through november 30 and from december 1
+      through may 31 of each year .
+
+
+      during the 2010 , 2009 and 2008 offering periods employees purchased 75354 ,
+      77509 and 55764 shares , respectively , at weighted average prices per share
+      of $ 34.16 , $ 23.91 and $ 30.08 , respectively .
+
+
+      the fair value of the espp offerings is estimated on the offering period commencement
+      date using a black-scholes pricing model with the expense recognized over the
+      expected life , which is the six month offering period over which employees
+      accumulate payroll deductions to purchase the company 2019s common stock .
+
+
+      the weighted average fair value for the espp shares purchased during 2010 ,
+      2009 and 2008 was $ 9.43 , $ 6.65 and $ 7.89 , respectively .
+
+
+      at december 31 , 2010 , 8.7 million shares remain reserved for future issuance
+      under the plan .
+
+
+      key assumptions used to apply this pricing model for the years ended december
+      31 , are as follows: .'
+    header:
+    - ''
+    - '2010'
+    - '2009'
+    - '2008'
+    rows:
+    - - range of risk-free interest rate
+      - 0.22% ( 0.22 % ) - 0.23% ( 0.23 % )
+      - 0.29% ( 0.29 % ) - 0.44% ( 0.44 % )
+      - 1.99% ( 1.99 % ) - 3.28% ( 3.28 % )
+    - - weighted average risk-free interest rate
+      - 0.22% ( 0.22 % )
+      - 0.38% ( 0.38 % )
+      - 2.58% ( 2.58 % )
+    - - expected life of shares
+      - 6 months
+      - 6 months
+      - 6 months
+    - - range of expected volatility of underlying stock price
+      - 35.26% ( 35.26 % ) - 35.27% ( 35.27 % )
+      - 35.31% ( 35.31 % ) - 36.63% ( 36.63 % )
+      - 27.85% ( 27.85 % ) - 28.51% ( 28.51 % )
+    - - weighted average expected volatility of underlying stock price
+      - 35.26% ( 35.26 % )
+      - 35.83% ( 35.83 % )
+      - 28.51% ( 28.51 % )
+    - - expected annual dividends
+      - n/a
+      - n/a
+      - n/a
+    post_text: '13 .
+
+
+      stockholders 2019 equity warrants 2014in august 2005 , the company completed
+      its merger with spectrasite , inc .
+
+
+      and assumed outstanding warrants to purchase shares of spectrasite , inc .
+
+
+      common stock .
+
+
+      as of the merger completion date , each warrant was exercisable for two shares
+      of spectrasite , inc .
+
+
+      common stock at an exercise price of $ 32 per warrant .
+
+
+      upon completion of the merger , each warrant to purchase shares of spectrasite
+      , inc .
+
+
+      common stock automatically converted into a warrant to purchase shares of the
+      company 2019s common stock , such that upon exercise of each warrant , the holder
+      has a right to receive 3.575 shares of the company 2019s common stock in lieu
+      of each share of spectrasite , inc .
+
+
+      common stock that would have been receivable under each assumed warrant prior
+      to the merger .
+
+
+      upon completion of the company 2019s merger with spectrasite , inc. , these
+      warrants were exercisable for approximately 6.8 million shares of common stock
+      .
+
+
+      of these warrants , warrants to purchase approximately none and 1.7 million
+      shares of common stock remained outstanding as of december 31 , 2010 and 2009
+      , respectively .
+
+
+      these warrants expired on february 10 , 2010 .
+
+
+      stock repurchase program 2014during the year ended december 31 , 2010 , the
+      company repurchased an aggregate of approximately 9.3 million shares of its
+      common stock for an aggregate of $ 420.8 million , including commissions and
+      fees , of which $ 418.6 million was paid in cash prior to december 31 , 2010
+      and $ 2.2 million was included in accounts payable and accrued expenses in the
+      accompanying consolidated balance sheet as of december 31 , 2010 , pursuant
+      to its publicly announced stock repurchase program , as described below. .'
+    id: amt-2010-table-3
+  - pre_text: 'american tower corporation and subsidiaries notes to consolidated financial
+      statements assessments in each of the tax jurisdictions resulting from these
+      examinations .
+
+
+      the company believes that adequate provisions have been made for income taxes
+      for all periods through december 31 , 2010 .
+
+
+      12 .
+
+
+      stock-based compensation the company recognized stock-based compensation of
+      $ 52.6 million , $ 60.7 million and $ 54.8 million for the years ended december
+      31 , 2010 , 2009 and 2008 , respectively .
+
+
+      stock-based compensation for the year ended december 31 , 2009 included $ 6.9
+      million related to the modification of the vesting and exercise terms for certain
+      employee 2019s equity awards .
+
+
+      the company did not capitalize any stock-based compensation during the years
+      ended december 31 , 2010 and 2009 .
+
+
+      summary of stock-based compensation plans 2014the company maintains equity incentive
+      plans that provide for the grant of stock-based awards to its directors , officers
+      and employees .
+
+
+      under the 2007 equity incentive plan ( 201c2007 plan 201d ) , which provides
+      for the grant of non-qualified and incentive stock options , as well as restricted
+      stock units , restricted stock and other stock-based awards , exercise prices
+      in the case of non-qualified and incentive stock options are not less than the
+      fair market value of the underlying common stock on the date of grant .
+
+
+      equity awards typically vest ratably over various periods , generally four years
+      , and generally expire ten years from the date of grant .
+
+
+      stock options 2014as of december 31 , 2010 , the company had the ability to
+      grant stock-based awards with respect to an aggregate of 22.0 million shares
+      of common stock under the 2007 plan .
+
+
+      the fair value of each option grant is estimated on the date of grant using
+      the black-scholes option pricing model based on the assumptions noted in the
+      table below .
+
+
+      the risk-free treasury rate is based on the u.s .
+
+
+      treasury yield in effect at the accounting measurement date .
+
+
+      the expected life ( estimated period of time outstanding ) was estimated using
+      the vesting term and historical exercise behavior of company employees .
+
+
+      the expected volatility was based on historical volatility for a period equal
+      to the expected life of the stock options .
+
+
+      key assumptions used to apply this pricing model are as follows: .'
+    header:
+    - ''
+    - '2010'
+    - '2009'
+    - '2008'
+    rows:
+    - - range of risk-free interest rate
+      - 1.41% ( 1.41 % ) 2013 2.39% ( 2.39 % )
+      - 1.41% ( 1.41 % ) 2013 2.04% ( 2.04 % )
+      - 1.44% ( 1.44 % ) 2013 3.05% ( 3.05 % )
+    - - weighted average risk-free interest rate
+      - 2.35% ( 2.35 % )
+      - 1.71% ( 1.71 % )
+      - 1.89% ( 1.89 % )
+    - - expected life of option grants
+      - 4.60 years
+      - 4.00 years
+      - 4.00 years
+    - - range of expected volatility of underlying stock price
+      - 37.11% ( 37.11 % ) 2013 37.48% ( 37.48 % )
+      - 36.00% ( 36.00 % ) 2013 36.63% ( 36.63 % )
+      - 28.51% ( 28.51 % ) 2013 35.30% ( 35.30 % )
+    - - weighted average expected volatility of underlying stock price
+      - 37.14% ( 37.14 % )
+      - 36.23% ( 36.23 % )
+      - 29.10% ( 29.10 % )
+    - - expected annual dividends
+      - n/a
+      - n/a
+      - n/a
+    post_text: 'the weighted average grant date fair value per share during the years
+      ended december 31 , 2010 , 2009 and 2008 was $ 15.03 , $ 8.90 and $ 9.55 , respectively
+      .
+
+
+      the intrinsic value of stock options exercised during the years ended december
+      31 , 2010 , 2009 and 2008 was $ 62.7 million , $ 40.1 million and $ 99.1 million
+      , respectively .
+
+
+      as of december 31 , 2010 , total unrecognized compensation expense related to
+      unvested stock options was approximately $ 27.7 million and is expected to be
+      recognized over a weighted average period of approximately two years .
+
+
+      the amount of cash received from the exercise of stock options was approximately
+      $ 129.1 million during the year ended december 31 , 2010 .
+
+
+      during the year ended december 31 , 2010 , the company realized approximately
+      $ 0.3 million of state tax benefits from the exercise of stock options. .'
+    id: amt-2010-table-4
+  - pre_text: 'american tower corporation and subsidiaries notes to consolidated financial
+      statements recognizing customer revenue , the company must assess the collectability
+      of both the amounts billed and the portion recognized on a straight-line basis
+      .
+
+
+      this assessment takes customer credit risk and business and industry conditions
+      into consideration to ultimately determine the collectability of the amounts
+      billed .
+
+
+      to the extent the amounts , based on management 2019s estimates , may not be
+      collectible , recognition is deferred until such point as the uncertainty is
+      resolved .
+
+
+      any amounts which were previously recognized as revenue and subsequently determined
+      to be uncollectible are charged to bad debt expense .
+
+
+      accounts receivable are reported net of allowances for doubtful accounts related
+      to estimated losses resulting from a customer 2019s inability to make required
+      payments and reserves for amounts invoiced whose collectability is not reasonably
+      assured .
+
+
+      these allowances are generally estimated based on payment patterns , days past
+      due and collection history , and incorporate changes in economic conditions
+      that may not be reflected in historical trends , such as customers in bankruptcy
+      , liquidation or reorganization .
+
+
+      receivables are written-off against the allowances when they are determined
+      uncollectible .
+
+
+      such determination includes analysis and consideration of the particular conditions
+      of the account .
+
+
+      changes in the allowances were as follows for the years ended december 31 ,
+      ( in thousands ) : .'
+    header:
+    - ''
+    - '2010'
+    - '2009'
+    - '2008'
+    rows:
+    - - balance as of january 1,
+      - $ 28520
+      - $ 11482
+      - $ 8850
+    - - current year increases
+      - '16219'
+      - '26771'
+      - '12059'
+    - - recoveries and other
+      - -22234 ( 22234 )
+      - -9733 ( 9733 )
+      - -9427 ( 9427 )
+    - - balance as of december 31,
+      - $ 22505
+      - $ 28520
+      - $ 11482
+    post_text: 'the company 2019s largest international customer is iusacell , which
+      is the brand name under which a group of companies controlled by grupo iusacell
+      , s.a .
+
+
+      de c.v .
+
+
+      ( 201cgrupo iusacell 201d ) operates .
+
+
+      iusacell represented approximately 4% ( 4 % ) of the company 2019s total revenue
+      for the year ended december 31 , 2010 .
+
+
+      grupo iusacell has been engaged in a refinancing of a majority of its u.s .
+
+
+      dollar denominated debt , and in connection with this process , two of the legal
+      entities of the group , including grupo iusacell , voluntarily filed for a pre-packaged
+      concurso mercantil ( a process substantially equivalent to chapter 11 of u.s
+      .
+
+
+      bankruptcy law ) with the backing of a majority of their financial creditors
+      in december 2010 .
+
+
+      as of december 31 , 2010 , iusacell notes receivable , net , and related assets
+      ( which include financing lease commitments and a deferred rent asset that are
+      primarily long-term in nature ) were $ 19.7 million and $ 51.2 million , respectively
+      .
+
+
+      functional currency 2014as a result of changes to the organizational structure
+      of the company 2019s subsidiaries in latin america in 2010 , the company determined
+      that effective january 1 , 2010 , the functional currency of its foreign subsidiary
+      in brazil is the brazilian real .
+
+
+      from that point forward , all assets and liabilities held by the subsidiary
+      in brazil are translated into u.s .
+
+
+      dollars at the exchange rate in effect at the end of the applicable reporting
+      period .
+
+
+      revenues and expenses are translated at the average monthly exchange rates and
+      the cumulative translation effect is included in stockholders 2019 equity .
+
+
+      the change in functional currency from u.s .
+
+
+      dollars to brazilian real gave rise to an increase in the net value of certain
+      non-monetary assets and liabilities .
+
+
+      the aggregate impact on such assets and liabilities was $ 39.8 million with
+      an offsetting increase in accumulated other comprehensive income ( loss ) .
+
+
+      as a result of the renegotiation of the company 2019s agreements with its largest
+      international customer , iusacell , which included , among other changes , converting
+      all of iusacell 2019s contractual obligations to the company from u.s .
+
+
+      dollars to mexican pesos , the company has determined that effective april 1
+      , 2010 , the functional currency of certain of its foreign subsidiaries in mexico
+      is the mexican peso .
+
+
+      from that point forward , all assets and liabilities held by those subsidiaries
+      in mexico are translated into u.s .
+
+
+      dollars at the exchange rate in effect at the end of the applicable reporting
+      period .
+
+
+      revenues and expenses are translated at the average monthly exchange rates and
+      the cumulative translation effect is included in stockholders 2019 equity .
+
+
+      the change in functional .'
+    id: amt-2010-table-5
+  - pre_text: 'issuer purchases of equity securities during the three months ended
+      december 31 , 2010 , we repurchased 1460682 shares of our common stock for an
+      aggregate of $ 74.6 million , including commissions and fees , pursuant to our
+      publicly announced stock repurchase program , as follows : period total number
+      of shares purchased ( 1 ) average price paid per share total number of shares
+      purchased as part of publicly announced plans or programs approximate dollar
+      value of shares that may yet be purchased under the plans or programs ( in millions
+      ) .'
+    header:
+    - period
+    - total number of shares purchased ( 1 )
+    - average price paid per share
+    - total number of shares purchased as part of publicly announced plans or programs
+    - approximate dollar value of shares that may yet be purchasedunder the plans
+      or programs ( in millions )
+    rows:
+    - - october 2010
+      - '722890'
+      - $ 50.76
+      - '722890'
+      - $ 369.1
+    - - november 2010
+      - '400692'
+      - $ 51.81
+      - '400692'
+      - $ 348.3
+    - - december 2010
+      - '337100'
+      - $ 50.89
+      - '337100'
+      - $ 331.1
+    - - total fourth quarter
+      - '1460682'
+      - $ 51.08
+      - '1460682'
+      - $ 331.1
+    post_text: '( 1 ) repurchases made pursuant to the $ 1.5 billion stock repurchase
+      program approved by our board of directors in february 2008 ( the 201cbuyback
+      201d ) .
+
+
+      under this program , our management is authorized to purchase shares from time
+      to time through open market purchases or privately negotiated transactions at
+      prevailing prices as permitted by securities laws and other legal requirements
+      , and subject to market conditions and other factors .
+
+
+      to facilitate repurchases , we make purchases pursuant to trading plans under
+      rule 10b5-1 of the exchange act , which allows us to repurchase shares during
+      periods when we otherwise might be prevented from doing so under insider trading
+      laws or because of self-imposed trading blackout periods .
+
+
+      this program may be discontinued at any time .
+
+
+      subsequent to december 31 , 2010 , we repurchased 1122481 shares of our common
+      stock for an aggregate of $ 58.0 million , including commissions and fees ,
+      pursuant to the buyback .
+
+
+      as of february 11 , 2011 , we had repurchased a total of 30.9 million shares
+      of our common stock for an aggregate of $ 1.2 billion , including commissions
+      and fees pursuant to the buyback .
+
+
+      we expect to continue to manage the pacing of the remaining $ 273.1 million
+      under the buyback in response to general market conditions and other relevant
+      factors. .'
+    id: amt-2010-table-6
+  - pre_text: 'american tower corporation and subsidiaries notes to consolidated financial
+      statements mexico litigation 2014one of the company 2019s subsidiaries , spectrasite
+      communications , inc .
+
+
+      ( 201csci 201d ) , is involved in a lawsuit brought in mexico against a former
+      mexican subsidiary of sci ( the subsidiary of sci was sold in 2002 , prior to
+      the company 2019s merger with sci 2019s parent in 2005 ) .
+
+
+      the lawsuit concerns a terminated tower construction contract and related agreements
+      with a wireless carrier in mexico .
+
+
+      the primary issue for the company is whether sci itself can be found liable
+      to the mexican carrier .
+
+
+      the trial and lower appellate courts initially found that sci had no such liability
+      in part because mexican courts do not have the necessary jurisdiction over sci
+      .
+
+
+      following several decisions by mexican appellate courts , including the supreme
+      court of mexico , and related appeals by both parties , an intermediate appellate
+      court issued a new decision that would , if enforceable , reimpose liability
+      on sci in september 2010 .
+
+
+      in its decision , the intermediate appellate court identified potential damages
+      of approximately $ 6.7 million , and on october 14 , 2010 , the company filed
+      a new constitutional appeal to again dispute the decision .
+
+
+      as a result , at this stage of the proceeding , the company is unable to determine
+      whether the liability imposed on sci by the september 2010 decision will survive
+      or to estimate its share , if any , of that potential liability if the decision
+      survives the pending appeal .
+
+
+      xcel litigation 2014on june 3 , 2010 , horse-shoe capital ( 201chorse-shoe 201d
+      ) , a company formed under the laws of the republic of mauritius , filed a complaint
+      in the supreme court of the state of new york , new york county , with respect
+      to horse-shoe 2019s sale of xcel to american tower mauritius ( 201catmauritius
+      201d ) , the company 2019s wholly-owned subsidiary formed under the laws of
+      the republic of mauritius .
+
+
+      the complaint names atmauritius , ati and the company as defendants , and the
+      dispute concerns the timing and amount of distributions to be made by atmauritius
+      to horse-shoe from a $ 7.5 million holdback escrow account and a $ 15.7 million
+      tax escrow account , each established by the transaction agreements at closing
+      .
+
+
+      the complaint seeks release of the entire holdback escrow account , plus an
+      additional $ 2.8 million , as well as the release of approximately $ 12.0 million
+      of the tax escrow account .
+
+
+      the complaint also seeks punitive damages in excess of $ 69.0 million .
+
+
+      the company filed an answer to the complaint in august 2010 , disputing both
+      the amounts alleged to be owed under the escrow agreements as well as the timing
+      of the escrow distributions .
+
+
+      the company also asserted in its answer that the demand for punitive damages
+      is meritless .
+
+
+      the parties have filed cross-motions for summary judgment concerning the release
+      of the tax escrow account and in january 2011 the court granted the company
+      2019s motion for summary judgment , finding no obligation for the company to
+      release the disputed portion of the tax escrow until 2013 .
+
+
+      other claims are pending .
+
+
+      the company is vigorously defending the lawsuit .
+
+
+      lease obligations 2014the company leases certain land , office and tower space
+      under operating leases that expire over various terms .
+
+
+      many of the leases contain renewal options with specified increases in lease
+      payments upon exercise of the renewal option .
+
+
+      escalation clauses present in operating leases , excluding those tied to cpi
+      or other inflation-based indices , are recognized on a straight-line basis over
+      the non-cancellable term of the lease .
+
+
+      future minimum rental payments under non-cancellable operating leases include
+      payments for certain renewal periods at the company 2019s option because failure
+      to renew could result in a loss of the applicable tower site and related revenues
+      from tenant leases , thereby making it reasonably assured that the company will
+      renew the lease .
+
+
+      such payments in effect at december 31 , 2010 are as follows ( in thousands
+      ) : year ending december 31 .'
+    header:
+    - '2011'
+    - $ 257971
+    rows:
+    - - '2012'
+      - '254575'
+    - - '2013'
+      - '251268'
+    - - '2014'
+      - '246392'
+    - - '2015'
+      - '238035'
+    - - thereafter
+      - '2584332'
+    - - total
+      - $ 3832573
+    post_text: .
+    id: amt-2010-table-7
+  - pre_text: 'american tower corporation and subsidiaries notes to consolidated financial
+      statements u.s .
+
+
+      acquisitions 2014during the year ended december 31 , 2010 , the company acquired
+      548 towers through multiple acquisitions in the united states for an aggregate
+      purchase price of $ 329.3 million and contingent consideration of approximately
+      $ 4.6 million .
+
+
+      the acquisition of these towers is consistent with the company 2019s strategy
+      to expand in selected geographic areas and have been accounted for as business
+      combinations .
+
+
+      the following table summarizes the preliminary allocation of the aggregate purchase
+      consideration paid and the amounts of assets acquired and liabilities assumed
+      based on the estimated fair value of the acquired assets and assumed liabilities
+      at the date of acquisition ( in thousands ) : purchase price allocation .'
+    header:
+    - ''
+    - purchase price allocation
+    rows:
+    - - non-current assets
+      - $ 442
+    - - property and equipment
+      - '64564'
+    - - intangible assets ( 1 )
+      - '260898'
+    - - current liabilities
+      - -360 ( 360 )
+    - - long-term liabilities
+      - -7802 ( 7802 )
+    - - fair value of net assets acquired
+      - $ 317742
+    - - goodwill ( 2 )
+      - '16131'
+    post_text: '( 1 ) consists of customer relationships of approximately $ 205.4
+      million and network location intangibles of approximately $ 55.5 million .
+
+
+      the customer relationships and network location intangibles are being amortized
+      on a straight-line basis over a period of 20 years .
+
+
+      ( 2 ) goodwill is expected to be deductible for income tax purposes .
+
+
+      the goodwill was allocated to the domestic rental and management segment .
+
+
+      the allocation of the purchase price will be finalized upon completion of analyses
+      of the fair value of the assets acquired and liabilities assumed .
+
+
+      south africa acquisition 2014on november 4 , 2010 , the company entered into
+      a definitive agreement with cell c ( pty ) limited to purchase up to approximately
+      1400 existing towers , and up to 1800 additional towers that either are under
+      construction or will be constructed , for an aggregate purchase price of up
+      to approximately $ 430 million .
+
+
+      the company anticipates closing the purchase of up to 1400 existing towers during
+      2011 , subject to customary closing conditions .
+
+
+      other transactions coltel transaction 2014on september 3 , 2010 , the company
+      entered into a definitive agreement to purchase the exclusive use rights for
+      towers in colombia from colombia telecomunicaciones s.a .
+
+
+      e.s.p .
+
+
+      ( 201ccoltel 201d ) until 2023 , when ownership of the towers will transfer
+      to the company at no additional cost .
+
+
+      pursuant to that agreement , the company completed the purchase of exclusive
+      use rights for 508 towers for an aggregate purchase price of $ 86.8 million
+      during the year ended december 31 , 2010 .
+
+
+      the company expects to complete the purchase of the exclusive use rights for
+      an additional 180 towers by the end of 2011 , subject to customary closing conditions
+      .
+
+
+      the transaction has been accounted for as a capital lease , with the aggregated
+      purchase price being allocated to property and equipment and non-current assets
+      .
+
+
+      joint venture with mtn group 2014on december 6 , 2010 , the company entered
+      into a definitive agreement with mtn group limited ( 201cmtn group 201d ) to
+      establish a joint venture in ghana ( 201ctowerco ghana 201d ) .
+
+
+      towerco ghana , which will be managed by the company , will be owned by a holding
+      company of which a wholly owned american tower subsidiary will hold a 51% (
+      51 % ) share and a wholly owned mtn group subsidiary ( 201cmtn ghana 201d )
+      will hold a 49% ( 49 % ) share .
+
+
+      the transaction involves the sale of up to 1876 of mtn ghana 2019s existing
+      sites to .'
+    id: amt-2010-table-8
+- id: amt-10k-2012
+  form: 10-K
+  filed: '2013-02-27'
+  period_covered: 2012-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1053507/000119312513077821/d448028d10k.htm
+  tables:
+  - pre_text: 'american tower corporation and subsidiaries notes to consolidated financial
+      statements ( 3 ) consists of customer-related intangibles of approximately $
+      75.0 million and network location intangibles of approximately $ 72.7 million
+      .
+
+
+      the customer-related intangibles and network location intangibles are being
+      amortized on a straight-line basis over periods of up to 20 years .
+
+
+      ( 4 ) the company expects that the goodwill recorded will be deductible for
+      tax purposes .
+
+
+      the goodwill was allocated to the company 2019s international rental and management
+      segment .
+
+
+      on september 12 , 2012 , the company entered into a definitive agreement to
+      purchase up to approximately 348 additional communications sites from telef
+      f3nica mexico .
+
+
+      on september 27 , 2012 and december 14 , 2012 , the company completed the purchase
+      of 279 and 2 communications sites , for an aggregate purchase price of $ 63.5
+      million ( including value added tax of $ 8.8 million ) .
+
+
+      the following table summarizes the preliminary allocation of the aggregate purchase
+      consideration paid and the amounts of assets acquired and liabilities assumed
+      based upon their estimated fair value at the date of acquisition ( in thousands
+      ) : preliminary purchase price allocation .'
+    header:
+    - ''
+    - preliminary purchase price allocation
+    rows:
+    - - current assets
+      - $ 8763
+    - - non-current assets
+      - '2332'
+    - - property and equipment
+      - '26711'
+    - - intangible assets ( 1 )
+      - '21079'
+    - - other non-current liabilities
+      - -1349 ( 1349 )
+    - - fair value of net assets acquired
+      - $ 57536
+    - - goodwill ( 2 )
+      - '5998'
+    post_text: '( 1 ) consists of customer-related intangibles of approximately $
+      10.7 million and network location intangibles of approximately $ 10.4 million
+      .
+
+
+      the customer-related intangibles and network location intangibles are being
+      amortized on a straight-line basis over periods of up to 20 years .
+
+
+      ( 2 ) the company expects that the goodwill recorded will be deductible for
+      tax purposes .
+
+
+      the goodwill was allocated to the company 2019s international rental and management
+      segment .
+
+
+      on november 16 , 2012 , the company entered into an agreement to purchase up
+      to 198 additional communications sites from telef f3nica mexico .
+
+
+      on december 14 , 2012 , the company completed the purchase of 188 communications
+      sites , for an aggregate purchase price of $ 64.2 million ( including value
+      added tax of $ 8.9 million ) . .'
+    id: amt-2012-table-0
+  - pre_text: 'american tower corporation and subsidiaries notes to consolidated financial
+      statements when they are determined uncollectible .
+
+
+      such determination includes analysis and consideration of the particular conditions
+      of the account .
+
+
+      changes in the allowances were as follows for the years ended december 31 ,
+      ( in thousands ) : .'
+    header:
+    - ''
+    - '2012'
+    - '2011'
+    - '2010'
+    rows:
+    - - balance as of january 1
+      - $ 24412
+      - $ 22505
+      - $ 28520
+    - - current year increases
+      - '8028'
+      - '17008'
+      - '16219'
+    - - write-offs net of recoveries and other
+      - -12034 ( 12034 )
+      - -15101 ( 15101 )
+      - -22234 ( 22234 )
+    - - balance as of december 31
+      - $ 20406
+      - $ 24412
+      - $ 22505
+    post_text: 'functional currency 2014as a result of changes to the organizational
+      structure of the company 2019s subsidiaries in latin america in 2010 , the company
+      determined that effective january 1 , 2010 , the functional currency of its
+      foreign subsidiary in brazil is the brazilian real .
+
+
+      from that point forward , all assets and liabilities held by the subsidiary
+      in brazil are translated into u.s .
+
+
+      dollars at the exchange rate in effect at the end of the applicable reporting
+      period .
+
+
+      revenues and expenses are translated at the average monthly exchange rates and
+      the cumulative translation effect is included in equity .
+
+
+      the change in functional currency from u.s .
+
+
+      dollars to brazilian real gave rise to an increase in the net value of certain
+      non-monetary assets and liabilities .
+
+
+      the aggregate impact on such assets and liabilities was $ 39.8 million with
+      an offsetting increase in accumulated other comprehensive income during the
+      year ended december 31 , 2010 .
+
+
+      as a result of the renegotiation of the company 2019s agreements with grupo
+      iusacell , s.a .
+
+
+      de c.v .
+
+
+      ( 201ciusacell 201d ) , which included , among other changes , converting iusacell
+      2019s contractual obligations to the company from u.s .
+
+
+      dollars to mexican pesos , the company determined that effective april 1 , 2010
+      , the functional currency of certain of its foreign subsidiaries in mexico is
+      the mexican peso .
+
+
+      from that point forward , all assets and liabilities held by those subsidiaries
+      in mexico are translated into u.s .
+
+
+      dollars at the exchange rate in effect at the end of the applicable reporting
+      period .
+
+
+      revenues and expenses are translated at the average monthly exchange rates and
+      the cumulative translation effect is included in equity .
+
+
+      the change in functional currency from u.s .
+
+
+      dollars to mexican pesos gave rise to a decrease in the net value of certain
+      non-monetary assets and liabilities .
+
+
+      the aggregate impact on such assets and liabilities was $ 33.6 million with
+      an offsetting decrease in accumulated other comprehensive income .
+
+
+      the functional currency of the company 2019s other foreign operating subsidiaries
+      is also the respective local currency .
+
+
+      all assets and liabilities held by the subsidiaries are translated into u.s
+      .
+
+
+      dollars at the exchange rate in effect at the end of the applicable fiscal reporting
+      period .
+
+
+      revenues and expenses are translated at the average monthly exchange rates .
+
+
+      the cumulative translation effect is included in equity as a component of accumulated
+      other comprehensive income .
+
+
+      foreign currency transaction gains and losses are recognized in the consolidated
+      statements of operations and are the result of transactions of a subsidiary
+      being denominated in a currency other than its functional currency .
+
+
+      cash and cash equivalents 2014cash and cash equivalents include cash on hand
+      , demand deposits and short-term investments , including money market funds
+      , with remaining maturities of three months or less when acquired , whose cost
+      approximates fair value .
+
+
+      restricted cash 2014the company classifies as restricted cash all cash pledged
+      as collateral to secure obligations and all cash whose use is otherwise limited
+      by contractual provisions , including cash on deposit in reserve accounts relating
+      to the commercial mortgage pass-through certificates , series 2007-1 issued
+      in the company 2019s securitization transaction and the secured cellular site
+      revenue notes , series 2010-1 class c , series 2010-2 class c and series 2010-2
+      class f , assumed by the company as a result of the acquisition of certain legal
+      entities from unison holdings , llc and unison site management ii , l.l.c .
+
+
+      ( collectively , 201cunison 201d ) . .'
+    id: amt-2012-table-1
+  - pre_text: 'american tower corporation and subsidiaries notes to consolidated financial
+      statements the following table summarizes the preliminary allocation of the
+      aggregate purchase consideration paid and the amounts of assets acquired and
+      liabilities assumed based upon their estimated fair value at the date of acquisition
+      ( in thousands ) : preliminary purchase price allocation .'
+    header:
+    - ''
+    - preliminary purchase price allocation
+    rows:
+    - - non-current assets
+      - $ 24460
+    - - property and equipment
+      - '138959'
+    - - intangible assets ( 1 )
+      - '117990'
+    - - other non-current liabilities
+      - -18195 ( 18195 )
+    - - fair value of net assets acquired
+      - $ 263214
+    - - goodwill ( 2 )
+      - '47481'
+    post_text: '( 1 ) consists of customer-related intangibles of approximately $
+      80.0 million and network location intangibles of approximately $ 38.0 million
+      .
+
+
+      the customer-related intangibles and network location intangibles are being
+      amortized on a straight-line basis over periods of up to 20 years .
+
+
+      ( 2 ) the company expects that the goodwill recorded will be deductible for
+      tax purposes .
+
+
+      the goodwill was allocated to the company 2019s international rental and management
+      segment .
+
+
+      ghana acquisition 2014on december 6 , 2010 , the company entered into a definitive
+      agreement with mtn group limited ( 201cmtn group 201d ) to establish a joint
+      venture in ghana .
+
+
+      the joint venture is controlled by a holding company of which a wholly owned
+      subsidiary of the company ( the 201catc ghana subsidiary 201d ) holds a 51%
+      ( 51 % ) interest and mobile telephone networks ( netherlands ) b.v. , a wholly
+      owned subsidiary of mtn group ( the 201cmtn ghana subsidiary 201d ) holds a
+      49% ( 49 % ) interest .
+
+
+      the joint venture is managed and controlled by the company and owns a tower
+      operations company in ghana .
+
+
+      pursuant to the agreement , on may 6 , 2011 , august 11 , 2011 and december
+      23 , 2011 , the joint venture acquired 400 , 770 and 686 communications sites
+      , respectively , from mtn group 2019s operating subsidiary in ghana for an aggregate
+      purchase price of $ 515.6 million ( including contingent consideration of $
+      2.3 million and value added tax of $ 65.6 million ) .
+
+
+      the aggregate purchase price was subsequently increased to $ 517.7 million (
+      including contingent consideration of $ 2.3 million and value added tax of $
+      65.6 million ) after certain post-closing adjustments .
+
+
+      under the terms of the purchase agreement , legal title to certain of the communications
+      sites acquired on december 23 , 2011 will be transferred upon fulfillment of
+      certain conditions by mtn group .
+
+
+      prior to the fulfillment of these conditions , the company will operate and
+      maintain control of these communications sites , and accordingly , reflect these
+      sites in the allocation of purchase price and the consolidated operating results
+      .
+
+
+      in december 2011 , the company signed an amendment to its agreement with mtn
+      group , which requires the company to make additional payments upon the conversion
+      of certain barter agreements with other wireless carriers to cash-paying master
+      lease agreements .
+
+
+      the company currently estimates the fair value of remaining potential contingent
+      consideration payments required to be made under the amended agreement to be
+      between zero and $ 1.0 million and is estimated to be $ 0.9 million using a
+      probability weighted average of the expected outcomes at december 31 , 2012
+      .
+
+
+      the company has previously made payments under this arrangement of $ 2.6 million
+      .
+
+
+      during the year ended december 31 , 2012 , the company recorded an increase
+      in fair value of $ 0.4 million as other operating expenses in the consolidated
+      statements of operations. .'
+    id: amt-2012-table-2
+  - pre_text: 'american tower corporation and subsidiaries notes to consolidated financial
+      statements loss on retirement of long-term obligations 2014loss on retirement
+      of long-term obligations primarily includes cash paid to retire debt in excess
+      of its carrying value , cash paid to holders of convertible notes in connection
+      with note conversions and non-cash charges related to the write-off of deferred
+      financing fees .
+
+
+      loss on retirement of long-term obligations also includes gains from repurchasing
+      or refinancing certain of the company 2019s debt obligations .
+
+
+      earnings per common share 2014basic and diluted 2014basic income from continuing
+      operations per common share for the years ended december 31 , 2012 , 2011 and
+      2010 represents income from continuing operations attributable to american tower
+      corporation divided by the weighted average number of common shares outstanding
+      during the period .
+
+
+      diluted income from continuing operations per common share for the years ended
+      december 31 , 2012 , 2011 and 2010 represents income from continuing operations
+      attributable to american tower corporation divided by the weighted average number
+      of common shares outstanding during the period and any dilutive common share
+      equivalents , including unvested restricted stock , shares issuable upon exercise
+      of stock options and warrants as determined under the treasury stock method
+      and upon conversion of the company 2019s convertible notes , as determined under
+      the if-converted method .
+
+
+      retirement plan 2014the company has a 401 ( k ) plan covering substantially
+      all employees who meet certain age and employment requirements .
+
+
+      the company 2019s matching contribution for the years ended december 31 , 2012
+      , 2011 and 2010 is 50% ( 50 % ) up to a maximum 6% ( 6 % ) of a participant
+      2019s contributions .
+
+
+      for the years ended december 31 , 2012 , 2011 and 2010 , the company contributed
+      approximately $ 4.4 million , $ 2.9 million and $ 1.9 million to the plan ,
+      respectively .
+
+
+      2 .
+
+
+      prepaid and other current assets prepaid and other current assets consist of
+      the following as of december 31 , ( in thousands ) : .'
+    header:
+    - ''
+    - '2012'
+    - 2011 ( 1 )
+    rows:
+    - - prepaid income tax
+      - $ 57665
+      - $ 31384
+    - - prepaid operating ground leases
+      - '56916'
+      - '49585'
+    - - value added tax and other consumption tax receivables
+      - '22443'
+      - '81276'
+    - - prepaid assets
+      - '19037'
+      - '28031'
+    - - other miscellaneous current assets
+      - '66790'
+      - '59997'
+    - - balance as of december 31,
+      - $ 222851
+      - $ 250273
+    post_text: ( 1 ) december 31 , 2011 balances have been revised to reflect purchase
+      accounting measurement period adjustments. .
+    id: amt-2012-table-3
+  - pre_text: 'american tower corporation and subsidiaries notes to consolidated financial
+      statements the allocation of the purchase price was finalized during the year
+      ended december 31 , 2012 .
+
+
+      the following table summarizes the allocation of the aggregate purchase consideration
+      paid and the amounts of assets acquired and liabilities assumed based upon their
+      estimated fair value at the date of acquisition ( in thousands ) : purchase
+      price allocation .'
+    header:
+    - ''
+    - final purchase price allocation
+    rows:
+    - - non-current assets
+      - $ 2
+    - - property and equipment
+      - '3590'
+    - - intangible assets ( 1 )
+      - '1062'
+    - - other non-current liabilities
+      - -91 ( 91 )
+    - - fair value of net assets acquired
+      - $ 4563
+    - - goodwill ( 2 )
+      - '89'
+    post_text: '( 1 ) consists of customer-related intangibles of approximately $
+      0.4 million and network location intangibles of approximately $ 0.7 million
+      .
+
+
+      the customer-related intangibles and network location intangibles are being
+      amortized on a straight-line basis over periods of up to 20 years .
+
+
+      ( 2 ) the company expects that the goodwill recorded will be deductible for
+      tax purposes .
+
+
+      the goodwill was allocated to the company 2019s international rental and management
+      segment .
+
+
+      colombia 2014colombia movil acquisition 2014on july 17 , 2011 , the company
+      entered into a definitive agreement with colombia movil s.a .
+
+
+      e.s.p .
+
+
+      ( 201ccolombia movil 201d ) , whereby atc sitios infraco , s.a.s. , a colombian
+      subsidiary of the company ( 201catc infraco 201d ) , would purchase up to 2126
+      communications sites from colombia movil for an aggregate purchase price of
+      approximately $ 182.0 million .
+
+
+      from december 21 , 2011 through the year ended december 31 , 2012 , atc infraco
+      completed the purchase of 1526 communications sites for an aggregate purchase
+      price of $ 136.2 million ( including contingent consideration of $ 17.3 million
+      ) , subject to post-closing adjustments .
+
+
+      through a subsidiary , millicom international cellular s.a .
+
+
+      ( 201cmillicom 201d ) exercised its option to acquire an indirect , substantial
+      non-controlling interest in atc infraco .
+
+
+      under the terms of the agreement , the company is required to make additional
+      payments upon the conversion of certain barter agreements with other wireless
+      carriers to cash paying lease agreements .
+
+
+      based on the company 2019s current estimates , the value of potential contingent
+      consideration payments required to be made under the amended agreement is expected
+      to be between zero and $ 32.8 million and is estimated to be $ 17.3 million
+      using a probability weighted average of the expected outcomes at december 31
+      , 2012 .
+
+
+      during the year ended december 31 , 2012 , the company recorded a reduction
+      in fair value of $ 1.2 million , which is included in other operating expenses
+      in the consolidated statements of operations. .'
+    id: amt-2012-table-4
+  - pre_text: 'american tower corporation and subsidiaries notes to consolidated financial
+      statements related contingent consideration , and any subsequent changes in
+      fair value using a discounted probability- weighted approach .
+
+
+      this approach takes into consideration level 3 unobservable inputs including
+      probability assessments of expected future cash flows over the period in which
+      the obligation is expected to be settled and applies a discount factor that
+      captures the uncertainties associated with the obligation .
+
+
+      changes in these unobservable inputs could significantly impact the fair value
+      of the liabilities recorded in the accompanying consolidated balance sheets
+      and operating expenses in the consolidated statements of operations .
+
+
+      as of december 31 , 2012 , the company estimates the value of all potential
+      acquisition-related contingent consideration required payments to be between
+      zero and $ 43.6 million .
+
+
+      during the years ended december 31 , 2012 and 2011 , the fair value of the contingent
+      consideration changed as follows ( in thousands ) : .'
+    header:
+    - ''
+    - '2012'
+    - '2011'
+    rows:
+    - - balance as of january 1
+      - $ 25617
+      - $ 5809
+    - - additions
+      - '6653'
+      - '19853'
+    - - payments
+      - -15716 ( 15716 )
+      - -5742 ( 5742 )
+    - - change in fair value
+      - '6329'
+      - '5634'
+    - - foreign currency translation adjustment
+      - '828'
+      - '63'
+    - - balance as of december 31
+      - $ 23711
+      - $ 25617
+    post_text: 'items measured at fair value on a nonrecurring basis 2014during the
+      year ended december 31 , 2012 , certain long-lived assets held and used with
+      a carrying value of $ 5379.2 million were written down to their net realizable
+      value of $ 5357.7 million as a result of an asset impairment charge of $ 21.5
+      million , which was recorded in other operating expenses in the accompanying
+      consolidated statements of operations .
+
+
+      during the year ended december 31 , 2011 , long-lived assets held and used with
+      a carrying value of $ 4280.8 million were written down to their net realizable
+      value of $ 4271.8 million , resulting in an asset impairment charge of $ 9.0
+      million .
+
+
+      these adjustments were determined by comparing the estimated proceeds from sale
+      of assets or the projected future discounted cash flows to be provided from
+      the long-lived assets ( calculated using level 3 inputs ) to the asset 2019s
+      carrying value .
+
+
+      there were no other items measured at fair value on a nonrecurring basis during
+      the year ended december 31 , 2012 .
+
+
+      fair value of financial instruments 2014the carrying value of the company 2019s
+      financial instruments , with the exception of long-term obligations , including
+      the current portion , reasonably approximate the related fair value as of december
+      31 , 2012 and 2011 .
+
+
+      the company 2019s estimates of fair value of its long-term obligations , including
+      the current portion , are based primarily upon reported market values .
+
+
+      for long-term debt not actively traded , fair value was estimated using a discounted
+      cash flow analysis using rates for debt with similar terms and maturities .
+
+
+      as of december 31 , 2012 , the carrying value and fair value of long-term obligations
+      , including the current portion , were $ 8.8 billion and $ 9.4 billion , respectively
+      , of which $ 4.9 billion was measured using level 1 inputs and $ 4.5 billion
+      was measured using level 2 inputs .
+
+
+      as of december 31 , 2011 , the carrying value and fair value of long-term obligations
+      , including the current portion , were $ 7.2 billion and $ 7.5 billion , respectively
+      , of which $ 3.8 billion was measured using level 1 inputs and $ 3.7 billion
+      was measured using level 2 inputs .
+
+
+      13 .
+
+
+      income taxes the company has filed , for prior taxable years through its taxable
+      year ended december 31 , 2011 , a consolidated u.s .
+
+
+      federal tax return , which includes all of its wholly owned domestic subsidiaries
+      .
+
+
+      for its taxable year commencing january 1 , 2012 , the company intends to file
+      as a reit , and its domestic trss intend to file as c corporations .
+
+
+      the company also files tax returns in various states and countries .
+
+
+      the company 2019s state tax returns reflect different combinations of the company
+      2019s subsidiaries and are dependent on the connection each subsidiary has with
+      a particular state .
+
+
+      the following information pertains to the company 2019s income taxes on a consolidated
+      basis. .'
+    id: amt-2012-table-5
+  - pre_text: 'continue to be deployed as wireless service providers are beginning
+      their investments in 3g data networks .
+
+
+      similarly , in ghana and uganda , wireless service providers continue to build
+      out their voice and data networks in order to satisfy increasing demand for
+      wireless services .
+
+
+      in south africa , where voice networks are in a more advanced stage of development
+      , carriers are beginning to deploy 3g data networks across spectrum acquired
+      in recent spectrum auctions .
+
+
+      in mexico and brazil , where nationwide voice networks have also been deployed
+      , some incumbent wireless service providers continue to invest in their 3g data
+      networks , and recent spectrum auctions have enabled other incumbent wireless
+      service providers to begin their initial investments in 3g data networks .
+
+
+      in markets such as chile , peru and colombia , recent or anticipated spectrum
+      auctions are expected to drive investment in nationwide voice and 3g data networks
+      .
+
+
+      in germany , our most mature international wireless market , demand is currently
+      being driven by a government-mandated rural fourth generation network build-out
+      , as well as other tenant initiatives to deploy next generation wireless services
+      .
+
+
+      we believe incremental demand for our tower sites will continue in our international
+      markets as wireless service providers seek to remain competitive by increasing
+      the coverage of their networks while also investing in next generation data
+      networks .
+
+
+      rental and management operations new site revenue growth .
+
+
+      during the year ended december 31 , 2012 , we grew our portfolio of communications
+      real estate through acquisitions and construction activities , including the
+      acquisition and construction of approximately 8810 sites .
+
+
+      in a majority of our international markets , the acquisition or construction
+      of new sites results in increased pass-through revenues and expenses .
+
+
+      we continue to evaluate opportunities to acquire larger communications real
+      estate portfolios , both domestically and internationally , to determine whether
+      they meet our risk adjusted hurdle rates and whether we believe we can effectively
+      integrate them into our existing portfolio. .'
+    header:
+    - new sites ( acquired or constructed )
+    - '2012'
+    - '2011'
+    - '2010'
+    rows:
+    - - domestic
+      - '960'
+      - '470'
+      - '950'
+    - - international ( 1 )
+      - '7850'
+      - '10000'
+      - '6870'
+    post_text: '( 1 ) the majority of sites acquired or constructed in 2012 were in
+      brazil , germany , india and uganda ; in 2011 were in brazil , colombia , ghana
+      , india , mexico and south africa ; and in 2010 were in chile , colombia , india
+      and peru .
+
+
+      network development services segment revenue growth .
+
+
+      as we continue to focus on growing our rental and management operations , we
+      anticipate that our network development services revenue will continue to represent
+      a relatively small percentage of our total revenues .
+
+
+      through our network development services segment , we offer tower-related services
+      , including site acquisition , zoning and permitting services and structural
+      analysis services , which primarily support our site leasing business and the
+      addition of new tenants and equipment on our sites , including in connection
+      with provider network upgrades .
+
+
+      rental and management operations expenses .
+
+
+      direct operating expenses incurred by our domestic and international rental
+      and management segments include direct site level expenses and consist primarily
+      of ground rent , property taxes , repairs and maintenance , security and power
+      and fuel costs , some of which may be passed through to our tenants .
+
+
+      these segment direct operating expenses exclude all segment and corporate selling
+      , general , administrative and development expenses , which are aggregated into
+      one line item entitled selling , general , administrative and development expense
+      in our consolidated statements of operations .
+
+
+      in general , our domestic and international rental and management segments selling
+      , general , administrative and development expenses do not significantly increase
+      as a result of adding incremental tenants to our legacy sites and typically
+      increase only modestly year-over-year .
+
+
+      as a result , leasing additional space to new tenants on our legacy sites provides
+      significant incremental cash flow .
+
+
+      we may incur additional segment selling , general , administrative and development
+      expenses as we increase our presence in geographic areas where we have recently
+      launched operations or are focused on expanding our portfolio .
+
+
+      our profit margin growth is therefore positively impacted by the addition of
+      new tenants to our legacy sites and can be temporarily diluted by our development
+      activities. .'
+    id: amt-2012-table-6
+- id: amt-10k-2014
+  form: 10-K
+  filed: '2015-02-24'
+  period_covered: 2014-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1053507/000119312515059026/d846752d10k.htm
+  tables:
+  - pre_text: 'rental and management operations new site revenue growth .
+
+
+      during the year ended december 31 , 2014 , we grew our portfolio of communications
+      real estate through the acquisition and construction of approximately 8450 sites
+      .
+
+
+      in a majority of our international markets , the acquisition or construction
+      of new sites results in increased pass-through revenues ( such as ground rent
+      or power and fuel costs ) and expenses .
+
+
+      we continue to evaluate opportunities to acquire communications real estate
+      portfolios , both domestically and internationally , to determine whether they
+      meet our risk-adjusted hurdle rates and whether we believe we can effectively
+      integrate them into our existing portfolio. .'
+    header:
+    - new sites ( acquired or constructed )
+    - '2014'
+    - '2013'
+    - '2012'
+    rows:
+    - - domestic
+      - '900'
+      - '5260'
+      - '960'
+    - - international ( 1 )
+      - '7550'
+      - '7810'
+      - '7850'
+    post_text: '( 1 ) the majority of sites acquired or constructed in 2014 were in
+      brazil , india and mexico ; in 2013 were in brazil , colombia , costa rica ,
+      india , mexico and south africa ; and in 2012 were in brazil , germany , india
+      and uganda .
+
+
+      rental and management operations expenses .
+
+
+      direct operating expenses incurred by our domestic and international rental
+      and management segments include direct site level expenses and consist primarily
+      of ground rent and power and fuel costs , some of which may be passed through
+      to our tenants , as well as property taxes , repairs and maintenance .
+
+
+      these segment direct operating expenses exclude all segment and corporate selling
+      , general , administrative and development expenses , which are aggregated into
+      one line item entitled selling , general , administrative and development expense
+      in our consolidated statements of operations .
+
+
+      in general , our domestic and international rental and management segments 2019
+      selling , general , administrative and development expenses do not significantly
+      increase as a result of adding incremental tenants to our legacy sites and typically
+      increase only modestly year-over-year .
+
+
+      as a result , leasing additional space to new tenants on our legacy sites provides
+      significant incremental cash flow .
+
+
+      we may , however , incur additional segment selling , general , administrative
+      and development expenses as we increase our presence in geographic areas where
+      we have recently launched operations or are focused on expanding our portfolio
+      .
+
+
+      our profit margin growth is therefore positively impacted by the addition of
+      new tenants to our legacy sites and can be temporarily diluted by our development
+      activities .
+
+
+      network development services segment revenue growth .
+
+
+      as we continue to focus on growing our rental and management operations , we
+      anticipate that our network development services revenue will continue to represent
+      a small percentage of our total revenues .
+
+
+      non-gaap financial measures included in our analysis of our results of operations
+      are discussions regarding earnings before interest , taxes , depreciation ,
+      amortization and accretion , as adjusted ( 201cadjusted ebitda 201d ) , funds
+      from operations , as defined by the national association of real estate investment
+      trusts ( 201cnareit ffo 201d ) and adjusted funds from operations ( 201caffo
+      201d ) .
+
+
+      we define adjusted ebitda as net income before income ( loss ) on discontinued
+      operations , net ; income ( loss ) on equity method investments ; income tax
+      benefit ( provision ) ; other income ( expense ) ; gain ( loss ) on retirement
+      of long-term obligations ; interest expense ; interest income ; other operating
+      income ( expense ) ; depreciation , amortization and accretion ; and stock-based
+      compensation expense .
+
+
+      nareit ffo is defined as net income before gains or losses from the sale or
+      disposal of real estate , real estate related impairment charges , real estate
+      related depreciation , amortization and accretion and dividends declared on
+      preferred stock , and including adjustments for ( i ) unconsolidated affiliates
+      and ( ii ) noncontrolling interest. .'
+    id: amt-2014-table-0
+  - pre_text: 'american tower corporation and subsidiaries notes to consolidated financial
+      statements of its outstanding restricted stock awards and stock options and
+      uses the if-converted method to calculate the effect of its outstanding mandatory
+      convertible preferred stock .
+
+
+      retirement plan 2014the company has a 401 ( k ) plan covering substantially
+      all employees who meet certain age and employment requirements .
+
+
+      for the years ended december 31 , 2014 and 2013 , the company matched 75% (
+      75 % ) of the first 6% ( 6 % ) of a participant 2019s contributions .
+
+
+      the company 2019s matching contribution for the year ended december 31 , 2012
+      was 50% ( 50 % ) of the first 6% ( 6 % ) of a participant 2019s contributions
+      .
+
+
+      for the years ended december 31 , 2014 , 2013 and 2012 , the company contributed
+      approximately $ 6.5 million , $ 6.0 million and $ 4.4 million to the plan ,
+      respectively .
+
+
+      accounting standards updates 2014in april 2014 , the financial accounting standards
+      board ( the 201cfasb 201d ) issued additional guidance on reporting discontinued
+      operations .
+
+
+      under this guidance , only disposals representing a strategic shift in operations
+      would be presented as discontinued operations .
+
+
+      this guidance requires expanded disclosure that provides information about the
+      assets , liabilities , income and expenses of discontinued operations .
+
+
+      additionally , the guidance requires additional disclosure for a disposal of
+      a significant part of an entity that does not qualify for discontinued operations
+      reporting .
+
+
+      this guidance is effective for reporting periods beginning on or after december
+      15 , 2014 , with early adoption permitted for disposals or classifications of
+      assets as held-for-sale that have not been reported in financial statements
+      previously issued or available for issuance .
+
+
+      the company chose to early adopt this guidance during the year ended december
+      31 , 2014 and the adoption did not have a material effect on the company 2019s
+      financial statements .
+
+
+      in may 2014 , the fasb issued new revenue recognition guidance , which requires
+      an entity to recognize revenue in an amount that reflects the consideration
+      to which the entity expects to be entitled in exchange for the transfer of promised
+      goods or services to customers .
+
+
+      the standard will replace most existing revenue recognition guidance in gaap
+      and will become effective on january 1 , 2017 .
+
+
+      the standard permits the use of either the retrospective or cumulative effect
+      transition method , and leases are not included in the scope of this standard
+      .
+
+
+      the company is evaluating the impact this standard may have on its financial
+      statements .
+
+
+      2 .
+
+
+      prepaid and other current assets prepaid and other current assets consists of
+      the following as of december 31 , ( in thousands ) : .'
+    header:
+    - ''
+    - '2014'
+    - 2013 ( 1 )
+    rows:
+    - - prepaid operating ground leases
+      - $ 88508
+      - $ 96881
+    - - prepaid income tax
+      - '34512'
+      - '52612'
+    - - unbilled receivables
+      - '25352'
+      - '25412'
+    - - prepaid assets
+      - '23848'
+      - '34243'
+    - - value added tax and other consumption tax receivables
+      - '23228'
+      - '77016'
+    - - other miscellaneous current assets
+      - '59174'
+      - '61253'
+    - - balance as of december 31,
+      - $ 254622
+      - $ 347417
+    post_text: ( 1 ) december 31 , 2013 balances have been revised to reflect purchase
+      accounting measurement period adjustments. .
+    id: amt-2014-table-1
+  - pre_text: .
+    header:
+    - contractual obligations
+    - '2015'
+    - '2016'
+    - '2017'
+    - '2018'
+    - '2019'
+    - thereafter
+    - total
+    rows:
+    - - long-term obligations excluding capital leases
+      - '888810'
+      - '753045'
+      - '700608'
+      - '1787451'
+      - '3159286'
+      - '7188751'
+      - '14477951'
+    - - cash interest expense
+      - '550000'
+      - '517000'
+      - '485000'
+      - '399000'
+      - '315000'
+      - '654000'
+      - '2920000'
+    - - capital lease payments ( including interest )
+      - '15589'
+      - '14049'
+      - '12905'
+      - '12456'
+      - '10760'
+      - '173313'
+      - '239072'
+    - - total debt service obligations
+      - '1454399'
+      - '1284094'
+      - '1198513'
+      - '2198907'
+      - '3485046'
+      - '8016064'
+      - '17637023'
+    - - operating lease payments ( 11 )
+      - '574438'
+      - '553864'
+      - '538405'
+      - '519034'
+      - '502847'
+      - '4214600'
+      - '6903188'
+    - - other non-current liabilities ( 12 ) ( 13 )
+      - '11082'
+      - '20480'
+      - '5705'
+      - '13911'
+      - '4186'
+      - '1860071'
+      - '1915435'
+    - - total
+      - $ 2039919
+      - $ 1858438
+      - $ 1742623
+      - $ 2731852
+      - $ 3992079
+      - $ 14090735
+      - $ 26455646
+    post_text: '( 1 ) represents anticipated repayment date ; final legal maturity
+      date is march 15 , 2043 .
+
+
+      ( 2 ) represents anticipated repayment date ; final legal maturity date is march
+      15 , 2048 .
+
+
+      ( 3 ) in connection with our acquisition of mipt on october 1 , 2013 , we assumed
+      approximately $ 1.49 billion aggregate principal amount of secured notes , $
+      250.0 million of which we repaid in august 2014 .
+
+
+      the gtp notes have anticipated repayment dates beginning june 15 , 2016 .
+
+
+      ( 4 ) assumed in connection with our acquisition of br towers and denominated
+      in brl .
+
+
+      the br towers debenture amortizes through october 2023 .
+
+
+      the br towers credit facility amortizes through january 15 , ( 5 ) assumed by
+      us in connection with the unison acquisition , and have anticipated repayment
+      dates of april 15 , 2017 , april 15 , 2020 and april 15 , 2020 , respectively
+      , and a final maturity date of april 15 , 2040 .
+
+
+      ( 6 ) denominated in mxn .
+
+
+      ( 7 ) denominated in zar and amortizes through march 31 , 2020 .
+
+
+      ( 8 ) denominated in cop and amortizes through april 24 , 2021 .
+
+
+      ( 9 ) reflects balances owed to our joint venture partners in ghana and uganda
+      .
+
+
+      the ghana loan is denominated in ghs and the uganda loan is denominated in usd
+      .
+
+
+      ( 10 ) on february 11 , 2015 , we redeemed all of the outstanding 4.625% ( 4.625
+      % ) notes in accordance with the terms thereof .
+
+
+      ( 11 ) includes payments under non-cancellable initial terms , as well as payments
+      for certain renewal periods at our option , which we expect to renew because
+      failure to renew could result in a loss of the applicable communications sites
+      and related revenues from tenant leases .
+
+
+      ( 12 ) primarily represents our asset retirement obligations and excludes certain
+      other non-current liabilities included in our consolidated balance sheet , primarily
+      our straight-line rent liability for which cash payments are included in operating
+      lease payments and unearned revenue that is not payable in cash .
+
+
+      ( 13 ) excludes $ 26.6 million of liabilities for unrecognized tax positions
+      and $ 24.9 million of accrued income tax related interest and penalties included
+      in our consolidated balance sheet as we are uncertain as to when and if the
+      amounts may be settled .
+
+
+      settlement of such amounts could require the use of cash flows generated from
+      operations .
+
+
+      we expect the unrecognized tax benefits to change over the next 12 months if
+      certain tax matters ultimately settle with the applicable taxing jurisdiction
+      during this timeframe .
+
+
+      however , based on the status of these items and the amount of uncertainty associated
+      with the outcome and timing of audit settlements , we are currently unable to
+      estimate the impact of the amount of such changes , if any , to previously recorded
+      uncertain tax positions .
+
+
+      off-balance sheet arrangements .
+
+
+      we have no material off-balance sheet arrangements as defined in item 303 (
+      a ) ( 4 ) ( ii ) of sec regulation s-k .
+
+
+      interest rate swap agreements .
+
+
+      we have entered into interest rate swap agreements to manage our exposure to
+      variability in interest rates on debt in colombia and south africa .
+
+
+      all of our interest rate swap agreements have been designated as cash flow hedges
+      and have an aggregate notional amount of $ 79.9 million , interest rates ranging
+      from 5.74% ( 5.74 % ) to 7.83% ( 7.83 % ) and expiration dates through april
+      2021 .
+
+
+      in february 2014 , we repaid the costa rica loan and subsequently terminated
+      the associated interest rate swap agreements .
+
+
+      additionally , in connection with entering into the colombian credit facility
+      in october 2014 , we terminated our pre-existing interest rate .'
+    id: amt-2014-table-2
+  - pre_text: 'american tower corporation and subsidiaries notes to consolidated financial
+      statements financial statements include impairment of long-lived assets ( including
+      goodwill ) , asset retirement obligations , revenue recognition , rent expense
+      , stock-based compensation , income taxes and accounting for business combinations
+      .
+
+
+      the company considers events or transactions that occur after the balance sheet
+      date but before the financial statements are issued as additional evidence for
+      certain estimates or to identify matters that require additional disclosure
+      .
+
+
+      concentrations of credit risk 2014the company is subject to concentrations of
+      credit risk related to its cash and cash equivalents , notes receivable , accounts
+      receivable , deferred rent asset and derivative financial instruments .
+
+
+      the company mitigates its risk with respect to cash and cash equivalents and
+      derivative financial instruments by maintaining its deposits and contracts at
+      high quality financial institutions and monitoring the credit ratings of those
+      institutions .
+
+
+      the company derives the largest portion of its revenues , corresponding accounts
+      receivable and the related deferred rent asset from a relatively small number
+      of tenants in the telecommunications industry , and approximately 56% ( 56 %
+      ) of its current year revenues are derived from four tenants .
+
+
+      in addition , the company has concentrations of credit risk in certain geographic
+      areas .
+
+
+      the company mitigates its concentrations of credit risk with respect to notes
+      and trade receivables and the related deferred rent assets by actively monitoring
+      the credit worthiness of its borrowers and tenants .
+
+
+      in recognizing customer revenue , the company must assess the collectibility
+      of both the amounts billed and the portion recognized in advance of billing
+      on a straight-line basis .
+
+
+      this assessment takes tenant credit risk and business and industry conditions
+      into consideration to ultimately determine the collectibility of the amounts
+      billed .
+
+
+      to the extent the amounts , based on management 2019s estimates , may not be
+      collectible , recognition is deferred until such point as collectibility is
+      determined to be reasonably assured .
+
+
+      any amounts that were previously recognized as revenue and subsequently determined
+      to be uncollectible are charged to bad debt expense included in selling , general
+      , administrative and development expense in the accompanying consolidated statements
+      of operations .
+
+
+      accounts receivable is reported net of allowances for doubtful accounts related
+      to estimated losses resulting from a tenant 2019s inability to make required
+      payments and allowances for amounts invoiced whose collectibility is not reasonably
+      assured .
+
+
+      these allowances are generally estimated based on payment patterns , days past
+      due and collection history , and incorporate changes in economic conditions
+      that may not be reflected in historical trends , such as tenants in bankruptcy
+      , liquidation or reorganization .
+
+
+      receivables are written-off against the allowances when they are determined
+      to be uncollectible .
+
+
+      such determination includes analysis and consideration of the particular conditions
+      of the account .
+
+
+      changes in the allowances were as follows for the years ended december 31 ,
+      ( in thousands ) : .'
+    header:
+    - ''
+    - '2014'
+    - '2013'
+    - '2012'
+    rows:
+    - - balance as of january 1
+      - $ 19895
+      - $ 20406
+      - $ 24412
+    - - current year increases
+      - '8243'
+      - '7025'
+      - '8028'
+    - - write-offs net of recoveries and other
+      - -10832 ( 10832 )
+      - -7536 ( 7536 )
+      - -12034 ( 12034 )
+    - - balance as of december 31
+      - $ 17306
+      - $ 19895
+      - $ 20406
+    post_text: 'functional currency 2014the functional currency of each of the company
+      2019s foreign operating subsidiaries is the respective local currency , except
+      for costa rica , where the functional currency is the u.s .
+
+
+      dollar .
+
+
+      all foreign currency assets and liabilities held by the subsidiaries are translated
+      into u.s .
+
+
+      dollars at the exchange rate in .'
+    id: amt-2014-table-3
+  - pre_text: 'american tower corporation and subsidiaries notes to consolidated financial
+      statements six-month offering period .
+
+
+      the weighted average fair value per share of espp share purchase options during
+      the year ended december 31 , 2014 , 2013 and 2012 was $ 14.83 , $ 13.42 and
+      $ 13.64 , respectively .
+
+
+      at december 31 , 2014 , 3.4 million shares remain reserved for future issuance
+      under the plan .
+
+
+      key assumptions used to apply the black-scholes pricing model for shares purchased
+      through the espp for the years ended december 31 , are as follows: .'
+    header:
+    - ''
+    - '2014'
+    - '2013'
+    - '2012'
+    rows:
+    - - range of risk-free interest rate
+      - 0.06% ( 0.06 % ) 2013 0.11% ( 0.11 % )
+      - 0.07% ( 0.07 % ) 2013 0.13% ( 0.13 % )
+      - 0.05% ( 0.05 % ) 2013 0.12% ( 0.12 % )
+    - - weighted average risk-free interest rate
+      - 0.09% ( 0.09 % )
+      - 0.10% ( 0.10 % )
+      - 0.08% ( 0.08 % )
+    - - expected life of shares
+      - 6 months
+      - 6 months
+      - 6 months
+    - - range of expected volatility of underlying stock price over the option period
+      - 11.29% ( 11.29 % ) 2013 16.59% ( 16.59 % )
+      - 12.21% ( 12.21 % ) 2013 13.57% ( 13.57 % )
+      - 33.16% ( 33.16 % ) 2013 33.86% ( 33.86 % )
+    - - weighted average expected volatility of underlying stock price
+      - 14.14% ( 14.14 % )
+      - 12.88% ( 12.88 % )
+      - 33.54% ( 33.54 % )
+    - - expected annual dividend yield
+      - 1.50% ( 1.50 % )
+      - 1.50% ( 1.50 % )
+      - 1.50% ( 1.50 % )
+    post_text: '16 .
+
+
+      equity mandatory convertible preferred stock offering 2014on may 12 , 2014 ,
+      the company completed a registered public offering of 6000000 shares of its
+      5.25% ( 5.25 % ) mandatory convertible preferred stock , series a , par value
+      $ 0.01 per share ( the 201cmandatory convertible preferred stock 201d ) .
+
+
+      the net proceeds of the offering were $ 582.9 million after deducting commissions
+      and estimated expenses .
+
+
+      the company used the net proceeds from this offering to fund acquisitions ,
+      including the acquisition from richland , initially funded by indebtedness incurred
+      under the 2013 credit facility .
+
+
+      unless converted earlier , each share of the mandatory convertible preferred
+      stock will automatically convert on may 15 , 2017 , into between 0.9174 and
+      1.1468 shares of common stock , depending on the applicable market value of
+      the common stock and subject to anti-dilution adjustments .
+
+
+      subject to certain restrictions , at any time prior to may 15 , 2017 , holders
+      of the mandatory convertible preferred stock may elect to convert all or a portion
+      of their shares into common stock at the minimum conversion rate then in effect
+      .
+
+
+      dividends on shares of mandatory convertible preferred stock are payable on
+      a cumulative basis when , as and if declared by the company 2019s board of directors
+      ( or an authorized committee thereof ) at an annual rate of 5.25% ( 5.25 % )
+      on the liquidation preference of $ 100.00 per share , on february 15 , may 15
+      , august 15 and november 15 of each year , commencing on august 15 , 2014 to
+      , and including , may 15 , 2017 .
+
+
+      the company may pay dividends in cash or , subject to certain limitations ,
+      in shares of common stock or any combination of cash and shares of common stock
+      .
+
+
+      the terms of the mandatory convertible preferred stock provide that , unless
+      full cumulative dividends have been paid or set aside for payment on all outstanding
+      mandatory convertible preferred stock for all prior dividend periods , no dividends
+      may be declared or paid on common stock .
+
+
+      stock repurchase program 2014in march 2011 , the board of directors approved
+      a stock repurchase program , pursuant to which the company is authorized to
+      purchase up to $ 1.5 billion of common stock ( 201c2011 buyback 201d ) .
+
+
+      in september 2013 , the company temporarily suspended repurchases in connection
+      with its acquisition of mipt .
+
+
+      under the 2011 buyback , the company is authorized to purchase shares from time
+      to time through open market purchases or privately negotiated transactions at
+      prevailing prices in accordance with securities laws and other legal requirements
+      , and subject to market conditions and other factors .
+
+
+      to facilitate repurchases , the company .'
+    id: amt-2014-table-4
+  - pre_text: 'american tower corporation and subsidiaries notes to consolidated financial
+      statements acquisition accounting upon closing of the acquisition .
+
+
+      based on current estimates , the company expects the value of potential contingent
+      consideration payments required to be made under these agreements to be between
+      zero and $ 4.4 million .
+
+
+      during the year ended december 31 , 2014 , the company ( i ) recorded a decrease
+      in fair value of $ 1.7 million in other operating expenses in the accompanying
+      consolidated statements of operations , ( ii ) recorded settlements under these
+      agreements of $ 3.5 million , ( iii ) reduced its contingent consideration liability
+      by $ 0.7 million as a portion of the company 2019s obligations was assumed by
+      the buyer in conjunction with the sale of operations in panama and ( iv ) recorded
+      additional liability of $ 0.1 million .
+
+
+      as a result , the company estimates the value of potential contingent consideration
+      payments required under these agreements to be $ 2.3 million using a probability
+      weighted average of the expected outcomes as of december 31 , 2014 .
+
+
+      other u.s . 2014in connection with other acquisitions in the united states ,
+      the company is required to make additional payments if certain pre-designated
+      tenant leases commence during a specified period of time .
+
+
+      during the year ended december 31 , 2014 , the company recorded $ 6.3 million
+      of contingent consideration liability as part of the preliminary acquisition
+      accounting upon closing of certain acquisitions .
+
+
+      during the year ended december 31 , 2014 , the company recorded settlements
+      under these agreements of $ 0.4 million .
+
+
+      based on current estimates , the company expects the value of potential contingent
+      consideration payments required to be made under these agreements to be between
+      zero and $ 5.9 million and estimates it to be $ 5.9 million using a probability
+      weighted average of the expected outcomes as of december 31 , 2014 .
+
+
+      for more information regarding contingent consideration , see note 12 .
+
+
+      7 .
+
+
+      accrued expenses accrued expenses consists of the following as of december 31
+      , ( in thousands ) : .'
+    header:
+    - ''
+    - '2014'
+    - 2013 ( 1 )
+    rows:
+    - - accrued property and real estate taxes
+      - $ 61206
+      - $ 54529
+    - - payroll and related withholdings
+      - '57110'
+      - '50843'
+    - - accrued construction costs
+      - '46024'
+      - '52446'
+    - - accrued rent
+      - '34074'
+      - '28456'
+    - - other accrued expenses
+      - '219340'
+      - '234914'
+    - - balance as of december 31,
+      - $ 417754
+      - $ 421188
+    post_text: ( 1 ) december 31 , 2013 balances have been revised to reflect purchase
+      accounting measurement period adjustments. .
+    id: amt-2014-table-5
+- id: amt-10k-2015
+  form: 10-K
+  filed: '2016-02-26'
+  period_covered: 2015-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1053507/000105350716000018/amt1231201510k.htm
+  tables:
+  - pre_text: 'part ii item 5 .
+
+
+      market for registrant 2019s common equity , related stockholder matters and
+      issuer purchases of equity securities the following table presents reported
+      quarterly high and low per share sale prices of our common stock on the nyse
+      for the years 2015 and 2014. .'
+    header:
+    - '2015'
+    - high
+    - low
+    rows:
+    - - quarter ended march 31
+      - $ 101.88
+      - $ 93.21
+    - - quarter ended june 30
+      - '98.64'
+      - '91.99'
+    - - quarter ended september 30
+      - '101.54'
+      - '86.83'
+    - - quarter ended december 31
+      - '104.12'
+      - '87.23'
+    - - '2014'
+      - high
+      - low
+    - - quarter ended march 31
+      - $ 84.90
+      - $ 78.38
+    - - quarter ended june 30
+      - '90.73'
+      - '80.10'
+    - - quarter ended september 30
+      - '99.90'
+      - '89.05'
+    - - quarter ended december 31
+      - '106.31'
+      - '90.20'
+    post_text: 'on february 19 , 2016 , the closing price of our common stock was
+      $ 87.32 per share as reported on the nyse .
+
+
+      as of february 19 , 2016 , we had 423897556 outstanding shares of common stock
+      and 159 registered holders .
+
+
+      dividends as a reit , we must annually distribute to our stockholders an amount
+      equal to at least 90% ( 90 % ) of our reit taxable income ( determined before
+      the deduction for distributed earnings and excluding any net capital gain )
+      .
+
+
+      generally , we have distributed and expect to continue to distribute all or
+      substantially all of our reit taxable income after taking into consideration
+      our utilization of net operating losses ( 201cnols 201d ) .
+
+
+      we have two series of preferred stock outstanding , 5.25% ( 5.25 % ) mandatory
+      convertible preferred stock , series a , issued in may 2014 ( the 201cseries
+      a preferred stock 201d ) , with a dividend rate of 5.25% ( 5.25 % ) , and the
+      5.50% ( 5.50 % ) mandatory convertible preferred stock , series b ( the 201cseries
+      b preferred stock 201d ) , issued in march 2015 , with a dividend rate of 5.50%
+      ( 5.50 % ) .
+
+
+      dividends are payable quarterly in arrears , subject to declaration by our board
+      of directors .
+
+
+      the amount , timing and frequency of future distributions will be at the sole
+      discretion of our board of directors and will be dependent upon various factors
+      , a number of which may be beyond our control , including our financial condition
+      and operating cash flows , the amount required to maintain our qualification
+      for taxation as a reit and reduce any income and excise taxes that we otherwise
+      would be required to pay , limitations on distributions in our existing and
+      future debt and preferred equity instruments , our ability to utilize nols to
+      offset our distribution requirements , limitations on our ability to fund distributions
+      using cash generated through our trss and other factors that our board of directors
+      may deem relevant .
+
+
+      we have distributed an aggregate of approximately $ 2.3 billion to our common
+      stockholders , including the dividend paid in january 2016 , primarily subject
+      to taxation as ordinary income .
+
+
+      during the year ended december 31 , 2015 , we declared the following cash distributions:
+      .'
+    id: amt-2015-table-0
+  - pre_text: 'the long term .
+
+
+      in addition , we have focused on building relationships with large multinational
+      carriers such as airtel , telef f3nica s.a .
+
+
+      and vodafone group plc .
+
+
+      we believe that consistent carrier investments in their networks across our
+      international markets position us to generate meaningful organic revenue growth
+      going forward .
+
+
+      in emerging markets , such as ghana , india , nigeria and uganda , wireless
+      networks tend to be significantly less advanced than those in the united states
+      , and initial voice networks continue to be deployed in underdeveloped areas
+      .
+
+
+      a majority of consumers in these markets still utilize basic wireless services
+      , predominantly on feature phones , while advanced device penetration remains
+      low .
+
+
+      in more developed urban locations within these markets , early-stage data network
+      deployments are underway .
+
+
+      carriers are focused on completing voice network build-outs while also investing
+      in initial data networks as wireless data usage and smartphone penetration within
+      their customer bases begin to accelerate .
+
+
+      in markets with rapidly evolving network technology , such as south africa and
+      most of the countries in latin america where we do business , initial voice
+      networks , for the most part , have already been built out , and carriers are
+      focused on 3g network build outs , with select investments in 4g technology
+      .
+
+
+      consumers in these regions are increasingly adopting smartphones and other advanced
+      devices , and as a result , the usage of bandwidth-intensive mobile applications
+      is growing materially .
+
+
+      recent spectrum auctions in these rapidly evolving markets have allowed incumbent
+      carriers to accelerate their data network deployments and have also enabled
+      new entrants to begin initial investments in data networks .
+
+
+      smartphone penetration and wireless data usage in these markets are growing
+      rapidly , which typically requires that carriers continue to invest in their
+      networks in order to maintain and augment their quality of service .
+
+
+      finally , in markets with more mature network technology , such as germany ,
+      carriers are focused on deploying 4g data networks to account for rapidly increasing
+      wireless data usage amongst their customer base .
+
+
+      with higher smartphone and advanced device penetration and significantly higher
+      per capita data usage , carrier investment in networks is focused on 4g coverage
+      and capacity .
+
+
+      we believe that the network technology migration we have seen in the united
+      states , which has led to significantly denser networks and meaningful new business
+      commencements for us over a number of years , will ultimately be replicated
+      in our less advanced international markets .
+
+
+      as a result , we expect to be able to leverage our extensive international portfolio
+      of approximately 60190 communications sites and the relationships we have built
+      with our carrier customers to drive sustainable , long-term growth .
+
+
+      we have holistic master lease agreements with certain of our tenants that provide
+      for consistent , long-term revenue and a reduction in the likelihood of churn
+      .
+
+
+      our holistic master lease agreements build and augment strong strategic partnerships
+      with our tenants and have significantly reduced collocation cycle times , thereby
+      providing our tenants with the ability to rapidly and efficiently deploy equipment
+      on our sites .
+
+
+      property operations new site revenue growth .
+
+
+      during the year ended december 31 , 2015 , we grew our portfolio of communications
+      real estate through the acquisition and construction of approximately 25370
+      sites .
+
+
+      in a majority of our asia , emea and latin america markets , the acquisition
+      or construction of new sites resulted in increases in both tenant and pass-
+      through revenues ( such as ground rent or power and fuel costs ) and expenses
+      .
+
+
+      we continue to evaluate opportunities to acquire communications real estate
+      portfolios , both domestically and internationally , to determine whether they
+      meet our risk-adjusted hurdle rates and whether we believe we can effectively
+      integrate them into our existing portfolio. .'
+    header:
+    - new sites ( acquired or constructed )
+    - '2015'
+    - '2014'
+    - '2013'
+    rows:
+    - - u.s .
+      - '11595'
+      - '900'
+      - '5260'
+    - - asia
+      - '2330'
+      - '1560'
+      - '1260'
+    - - emea
+      - '4910'
+      - '190'
+      - '485'
+    - - latin america
+      - '6535'
+      - '5800'
+      - '6065'
+    post_text: 'property operations expenses .
+
+
+      direct operating expenses incurred by our property segments include direct site
+      level expenses and consist primarily of ground rent and power and fuel costs
+      , some or all of which may be passed through to our tenants , as well as property
+      taxes , repairs and maintenance .
+
+
+      these segment direct operating expenses exclude all segment and corporate selling
+      , general , administrative and development expenses , which are aggregated into
+      one line item entitled selling , general , administrative and development expense
+      in our consolidated statements of operations .
+
+
+      in general , our property segments 2019 selling , general , administrative and
+      development expenses do not significantly increase as a result of adding incremental
+      tenants to our legacy sites and typically increase only modestly year-over-year
+      .
+
+
+      as a result , leasing additional space to new tenants on our legacy sites provides
+      significant incremental cash flow .
+
+
+      we may , however , incur additional segment .'
+    id: amt-2015-table-1
+- id: amt-10k-2016
+  form: 10-K
+  filed: '2017-02-27'
+  period_covered: 2016-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1053507/000105350717000009/amt1231201610k.htm
+  tables:
+  - pre_text: 'as of december 31 , 2016 , we had total outstanding indebtedness of
+      $ 18.7 billion , with a current portion of $ 238.8 million .
+
+
+      during the year ended december 31 , 2016 , we generated sufficient cash flow
+      from operations to fund our capital expenditures and debt service obligations
+      , as well as our required distributions .
+
+
+      we believe the cash generated by operating activities during the year ending
+      december 31 , 2017 will be sufficient to fund our required distributions , capital
+      expenditures , debt service obligations ( interest and principal repayments
+      ) and signed acquisitions .
+
+
+      as of december 31 , 2016 , we had $ 423.0 million of cash and cash equivalents
+      held by our foreign subsidiaries , of which $ 183.9 million was held by our
+      joint ventures .
+
+
+      while certain subsidiaries may pay us interest or principal on intercompany
+      debt , it has not been our practice to repatriate earnings from our foreign
+      subsidiaries primarily due to our ongoing expansion efforts and related capital
+      needs .
+
+
+      however , in the event that we do repatriate any funds , we may be required
+      to accrue and pay taxes .
+
+
+      cash flows from operating activities for the year ended december 31 , 2016 ,
+      cash provided by operating activities increased $ 520.6 million as compared
+      to the year ended december 31 , 2015 .
+
+
+      the primary factors that impacted cash provided by operating activities as compared
+      to the year ended december 31 , 2015 , include : 2022 an increase in our operating
+      profit of $ 490.8 million ; 2022 an increase of approximately $ 67.1 million
+      in cash paid for interest ; and 2022 a decrease of approximately $ 60.8 million
+      in cash paid for taxes .
+
+
+      for the year ended december 31 , 2015 , cash provided by operating activities
+      increased $ 48.5 million as compared to the year ended december 31 , 2014 .
+
+
+      the primary factors that impacted cash provided by operating activities as compared
+      to the year ended december 31 , 2014 , include : 2022 an increase in our operating
+      profit of $ 433.3 million ; 2022 an increase of approximately $ 87.8 million
+      in cash paid for taxes , driven primarily by the mipt one-time cash tax charge
+      of $ 93.0 million ; 2022 a decrease in capital contributions , tenant settlements
+      and other prepayments of approximately $ 99.0 million ; 2022 an increase of
+      approximately $ 29.9 million in cash paid for interest ; 2022 a decrease of
+      approximately $ 34.9 million in termination and decommissioning fees ; 2022
+      a decrease of approximately $ 49.0 million in tenant receipts due to timing
+      ; and 2022 a decrease due to the non-recurrence of a 2014 value added tax refund
+      of approximately $ 60.3 million .
+
+
+      cash flows from investing activities our significant investing activities during
+      the year ended december 31 , 2016 are highlighted below : 2022 we spent approximately
+      $ 1.1 billion for the viom acquisition .
+
+
+      2022 we spent $ 701.4 million for capital expenditures , as follows ( in millions
+      ) : .'
+    header:
+    - discretionary capital projects ( 1 )
+    - $ 149.7
+    rows:
+    - - ground lease purchases
+      - '153.3'
+    - - capital improvements and corporate expenditures ( 2 )
+      - '126.7'
+    - - redevelopment
+      - '147.4'
+    - - start-up capital projects
+      - '124.3'
+    - - total capital expenditures
+      - $ 701.4
+    post_text: '_______________ ( 1 ) includes the construction of 1869 communications
+      sites globally .
+
+
+      ( 2 ) includes $ 18.9 million of capital lease payments included in repayments
+      of notes payable , credit facilities , term loan , senior notes and capital
+      leases in the cash flow from financing activities in our consolidated statement
+      of cash flows .
+
+
+      our significant investing transactions in 2015 included the following : 2022
+      we spent $ 5.059 billion for the verizon transaction .
+
+
+      2022 we spent $ 796.9 million for the acquisition of 5483 communications sites
+      from tim in brazil .
+
+
+      2022 we spent $ 1.1 billion for the acquisition of 4716 communications sites
+      from certain of airtel 2019s subsidiaries in nigeria. .'
+    id: amt-2016-table-0
+  - pre_text: 'in emerging markets , such as ghana , india , nigeria and uganda ,
+      wireless networks tend to be significantly less advanced than those in the united
+      states , and initial voice networks continue to be deployed in underdeveloped
+      areas .
+
+
+      a majority of consumers in these markets still utilize basic wireless services
+      , predominantly on feature phones , while advanced device penetration remains
+      low .
+
+
+      in more developed urban locations within these markets , early-stage data network
+      deployments are underway .
+
+
+      carriers are focused on completing voice network build-outs while also investing
+      in initial data networks as wireless data usage and smartphone penetration within
+      their customer bases begin to accelerate .
+
+
+      in markets with rapidly evolving network technology , such as south africa and
+      most of the countries in latin america where we do business , initial voice
+      networks , for the most part , have already been built out , and carriers are
+      focused on 3g and 4g network build outs .
+
+
+      consumers in these regions are increasingly adopting smartphones and other advanced
+      devices , and , as a result , the usage of bandwidth-intensive mobile applications
+      is growing materially .
+
+
+      recent spectrum auctions in these rapidly evolving markets have allowed incumbent
+      carriers to accelerate their data network deployments and have also enabled
+      new entrants to begin initial investments in data networks .
+
+
+      smartphone penetration and wireless data usage in these markets are growing
+      rapidly , which typically requires that carriers continue to invest in their
+      networks in order to maintain and augment their quality of service .
+
+
+      finally , in markets with more mature network technology , such as germany and
+      france , carriers are focused on deploying 4g data networks to account for rapidly
+      increasing wireless data usage among their customer base .
+
+
+      with higher smartphone and advanced device penetration and significantly higher
+      per capita data usage , carrier investment in networks is focused on 4g coverage
+      and capacity .
+
+
+      we believe that the network technology migration we have seen in the united
+      states , which has led to significantly denser networks and meaningful new business
+      commencements for us over a number of years , will ultimately be replicated
+      in our less advanced international markets .
+
+
+      as a result , we expect to be able to leverage our extensive international portfolio
+      of approximately 104470 communications sites and the relationships we have built
+      with our carrier customers to drive sustainable , long-term growth .
+
+
+      we have master lease agreements with certain of our tenants that provide for
+      consistent , long-term revenue and reduce the likelihood of churn .
+
+
+      our master lease agreements build and augment strong strategic partnerships
+      with our tenants and have significantly reduced colocation cycle times , thereby
+      providing our tenants with the ability to rapidly and efficiently deploy equipment
+      on our sites .
+
+
+      property operations new site revenue growth .
+
+
+      during the year ended december 31 , 2016 , we grew our portfolio of communications
+      real estate through the acquisition and construction of approximately 45310
+      sites .
+
+
+      in a majority of our asia , emea and latin america markets , the revenue generated
+      from newly acquired or constructed sites resulted in increases in both tenant
+      and pass-through revenues ( such as ground rent or power and fuel costs ) and
+      expenses .
+
+
+      we continue to evaluate opportunities to acquire communications real estate
+      portfolios , both domestically and internationally , to determine whether they
+      meet our risk-adjusted hurdle rates and whether we believe we can effectively
+      integrate them into our existing portfolio. .'
+    header:
+    - new sites ( acquired or constructed )
+    - '2016'
+    - '2015'
+    - '2014'
+    rows:
+    - - u.s .
+      - '65'
+      - '11595'
+      - '900'
+    - - asia
+      - '43865'
+      - '2330'
+      - '1560'
+    - - emea
+      - '665'
+      - '4910'
+      - '190'
+    - - latin america
+      - '715'
+      - '6535'
+      - '5800'
+    post_text: 'property operations expenses .
+
+
+      direct operating expenses incurred by our property segments include direct site
+      level expenses and consist primarily of ground rent and power and fuel costs
+      , some or all of which may be passed through to our tenants , as well as property
+      taxes , repairs and maintenance .
+
+
+      these segment direct operating expenses exclude all segment and corporate selling
+      , general , administrative and development expenses , which are aggregated into
+      one line item entitled selling , general , administrative and development expense
+      in our consolidated statements of operations .
+
+
+      in general , our property segments 2019 selling , general , administrative and
+      development expenses do not significantly increase as a result of adding incremental
+      tenants to our sites and typically increase only modestly year-over-year .
+
+
+      as a result , leasing additional space to new tenants on our sites provides
+      significant incremental cash flow .
+
+
+      we may , however , incur additional segment selling , general , administrative
+      and development expenses as we increase our presence in our existing markets
+      or expand into new markets .
+
+
+      our profit margin growth is therefore positively impacted by the addition of
+      new tenants to our sites but can be temporarily diluted by our development activities.
+      .'
+    id: amt-2016-table-1
 - id: amt-10k-2023
   form: 10-K
   filed: '2024-02-27'

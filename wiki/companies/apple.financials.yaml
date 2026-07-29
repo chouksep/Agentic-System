@@ -723,6 +723,2348 @@ metrics:
       xbrl_concept: us-gaap:Liabilities
       description: Total liabilities
 filings:
+- id: aapl-10k-2010
+  form: 10-K
+  filed: '2010-10-27'
+  period_covered: 2010-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/320193/000119312510238044/d10k.htm
+  tables:
+  - pre_text: 'table of contents research and development expense ( 201cr&d 201d )
+      r&d expense increased 34% ( 34 % ) or $ 449 million to $ 1.8 billion in 2010
+      compared to 2009 .
+
+
+      this increase was due primarily to an increase in headcount and related expenses
+      in the current year to support expanded r&d activities .
+
+
+      also contributing to this increase in r&d expense in 2010 was the capitalization
+      in 2009 of software development costs of $ 71 million related to mac os x snow
+      leopard .
+
+
+      although total r&d expense increased 34% ( 34 % ) during 2010 , it declined
+      as a percentage of net sales given the 52% ( 52 % ) year-over-year increase
+      in net sales in 2010 .
+
+
+      the company continues to believe that focused investments in r&d are critical
+      to its future growth and competitive position in the marketplace and are directly
+      related to timely development of new and enhanced products that are central
+      to the company 2019s core business strategy .
+
+
+      as such , the company expects to make further investments in r&d to remain competitive
+      .
+
+
+      r&d expense increased 20% ( 20 % ) or $ 224 million to $ 1.3 billion in 2009
+      compared to 2008 .
+
+
+      this increase was due primarily to an increase in headcount in 2009 to support
+      expanded r&d activities and higher stock-based compensation expenses .
+
+
+      additionally , $ 71 million of software development costs were capitalized related
+      to mac os x snow leopard and excluded from r&d expense during 2009 , compared
+      to $ 11 million of software development costs capitalized during 2008 .
+
+
+      although total r&d expense increased 20% ( 20 % ) during 2009 , it remained
+      relatively flat as a percentage of net sales given the 14% ( 14 % ) increase
+      in revenue in 2009 .
+
+
+      selling , general and administrative expense ( 201csg&a 201d ) sg&a expense
+      increased $ 1.4 billion or 33% ( 33 % ) to $ 5.5 billion in 2010 compared to
+      2009 .
+
+
+      this increase was due primarily to the company 2019s continued expansion of
+      its retail segment , higher spending on marketing and advertising programs ,
+      increased stock-based compensation expenses and variable costs associated with
+      the overall growth of the company 2019s net sales .
+
+
+      sg&a expenses increased $ 388 million or 10% ( 10 % ) to $ 4.1 billion in 2009
+      compared to 2008 .
+
+
+      this increase was due primarily to the company 2019s continued expansion of
+      its retail segment in both domestic and international markets , higher stock-based
+      compensation expense and higher spending on marketing and advertising .
+
+
+      other income and expense other income and expense for the three years ended
+      september 25 , 2010 , are as follows ( in millions ) : total other income and
+      expense decreased $ 171 million or 52% ( 52 % ) to $ 155 million during 2010
+      compared to $ 326 million and $ 620 million in 2009 and 2008 , respectively
+      .
+
+
+      the overall decrease in other income and expense is attributable to the significant
+      declines in interest rates on a year- over-year basis , partially offset by
+      the company 2019s higher cash , cash equivalents and marketable securities balances
+      .
+
+
+      the weighted average interest rate earned by the company on its cash , cash
+      equivalents and marketable securities was 0.75% ( 0.75 % ) , 1.43% ( 1.43 %
+      ) and 3.44% ( 3.44 % ) during 2010 , 2009 and 2008 , respectively .
+
+
+      additionally the company incurred higher premium expenses on its foreign exchange
+      option contracts , which further reduced the total other income and expense
+      .
+
+
+      during 2010 , 2009 and 2008 , the company had no debt outstanding and accordingly
+      did not incur any related interest expense .
+
+
+      provision for income taxes the company 2019s effective tax rates were 24% (
+      24 % ) , 32% ( 32 % ) and 32% ( 32 % ) for 2010 , 2009 and 2008 , respectively
+      .
+
+
+      the company 2019s effective rates for these periods differ from the statutory
+      federal income tax rate of 35% ( 35 % ) due .'
+    header:
+    - ''
+    - '2010'
+    - '2009'
+    - '2008'
+    rows:
+    - - interest income
+      - $ 311
+      - $ 407
+      - $ 653
+    - - other income ( expense ) net
+      - -156 ( 156 )
+      - -81 ( 81 )
+      - -33 ( 33 )
+    - - total other income and expense
+      - $ 155
+      - $ 326
+      - $ 620
+    post_text: .
+    id: aapl-2010-table-0
+  - pre_text: 'table of contents the aggregate changes in the balance of gross unrecognized
+      tax benefits , which excludes interest and penalties , for the three years ended
+      september 25 , 2010 , is as follows ( in millions ) : the company includes interest
+      and penalties related to unrecognized tax benefits within the provision for
+      income taxes .
+
+
+      as of september 25 , 2010 and september 26 , 2009 , the total amount of gross
+      interest and penalties accrued was $ 247 million and $ 291 million , respectively
+      , which is classified as non-current liabilities in the consolidated balance
+      sheets .
+
+
+      in 2010 and 2009 , the company recognized an interest benefit of $ 43 million
+      and interest expense of $ 64 million , respectively , in connection with tax
+      matters .
+
+
+      the company is subject to taxation and files income tax returns in the u.s .
+
+
+      federal jurisdiction and in many state and foreign jurisdictions .
+
+
+      for u.s .
+
+
+      federal income tax purposes , all years prior to 2004 are closed .
+
+
+      the internal revenue service ( the 201cirs 201d ) has completed its field audit
+      of the company 2019s federal income tax returns for the years 2004 through 2006
+      and proposed certain adjustments .
+
+
+      the company has contested certain of these adjustments through the irs appeals
+      office .
+
+
+      the irs is currently examining the years 2007 through 2009 .
+
+
+      during the third quarter of 2010 , the company reached a tax settlement with
+      the irs for the years 2002 through 2003 .
+
+
+      in connection with the settlement , the company reduced its gross unrecognized
+      tax benefits by $ 100 million and recognized a $ 52 million tax benefit in the
+      third quarter of 2010 .
+
+
+      in addition , the company is also subject to audits by state , local and foreign
+      tax authorities .
+
+
+      in major states and major foreign jurisdictions , the years subsequent to 1988
+      and 2001 , respectively , generally remain open and could be subject to examination
+      by the taxing authorities .
+
+
+      management believes that an adequate provision has been made for any adjustments
+      that may result from tax examinations .
+
+
+      however , the outcome of tax audits cannot be predicted with certainty .
+
+
+      if any issues addressed in the company 2019s tax audits are resolved in a manner
+      not consistent with management 2019s expectations , the company could be required
+      to adjust its provision for income tax in the period such resolution occurs
+      .
+
+
+      although timing of the resolution and/or closure of audits is not certain ,
+      the company does not believe it is reasonably possible that its unrecognized
+      tax benefits would materially change in the next 12 months .
+
+
+      note 7 2013 shareholders 2019 equity and stock-based compensation preferred
+      stock the company has five million shares of authorized preferred stock , none
+      of which is issued or outstanding .
+
+
+      under the terms of the company 2019s restated articles of incorporation , the
+      board of directors is authorized to determine or alter the rights , preferences
+      , privileges and restrictions of the company 2019s authorized but unissued shares
+      of preferred stock .
+
+
+      comprehensive income comprehensive income consists of two components , net income
+      and other comprehensive income .
+
+
+      other comprehensive income refers to revenue , expenses , gains and losses that
+      under gaap are recorded as an element of shareholders 2019 equity but are excluded
+      from net income .
+
+
+      the company 2019s other comprehensive income consists .'
+    header:
+    - ''
+    - '2010'
+    - '2009'
+    - '2008'
+    rows:
+    - - beginning balance
+      - $ 971
+      - '506'
+      - $ 475
+    - - increases related to tax positions taken during a prior year
+      - '61'
+      - '341'
+      - '27'
+    - - decreases related to tax positions taken during a prior year
+      - -224 ( 224 )
+      - -24 ( 24 )
+      - -70 ( 70 )
+    - - increases related to tax positions taken during the current year
+      - '240'
+      - '151'
+      - '85'
+    - - decreases related to settlements with taxing authorities
+      - -102 ( 102 )
+      - '0'
+      - '0'
+    - - decreases related to expiration of statute of limitations
+      - -3 ( 3 )
+      - -3 ( 3 )
+      - -11 ( 11 )
+    - - ending balance
+      - $ 943
+      - $ 971
+      - $ 506
+    post_text: .
+    id: aapl-2010-table-1
+  - pre_text: 'table of contents primarily to certain undistributed foreign earnings
+      for which no u.s .
+
+
+      taxes are provided because such earnings are intended to be indefinitely reinvested
+      outside the u.s .
+
+
+      the lower effective tax rate in 2010 as compared to 2009 is due primarily to
+      an increase in foreign earnings on which u.s .
+
+
+      income taxes have not been provided as such earnings are intended to be indefinitely
+      reinvested outside the u.s .
+
+
+      as of september 25 , 2010 , the company had deferred tax assets arising from
+      deductible temporary differences , tax losses , and tax credits of $ 2.4 billion
+      , and deferred tax liabilities of $ 5.0 billion .
+
+
+      management believes it is more likely than not that forecasted income , including
+      income that may be generated as a result of certain tax planning strategies
+      , together with future reversals of existing taxable temporary differences ,
+      will be sufficient to fully recover the deferred tax assets .
+
+
+      the company will continue to evaluate the realizability of deferred tax assets
+      quarterly by assessing the need for and amount of a valuation allowance .
+
+
+      the internal revenue service ( the 201cirs 201d ) has completed its field audit
+      of the company 2019s federal income tax returns for the years 2004 through 2006
+      and proposed certain adjustments .
+
+
+      the company has contested certain of these adjustments through the irs appeals
+      office .
+
+
+      the irs is currently examining the years 2007 through 2009 .
+
+
+      all irs audit issues for years prior to 2004 have been resolved .
+
+
+      during the third quarter of 2010 , the company reached a tax settlement with
+      the irs for the years 2002 through 2003 .
+
+
+      in addition , the company is subject to audits by state , local , and foreign
+      tax authorities .
+
+
+      management believes that adequate provision has been made for any adjustments
+      that may result from tax examinations .
+
+
+      however , the outcome of tax audits cannot be predicted with certainty .
+
+
+      if any issues addressed in the company 2019s tax audits are resolved in a manner
+      not consistent with management 2019s expectations , the company could be required
+      to adjust its provision for income taxes in the period such resolution occurs
+      .
+
+
+      liquidity and capital resources the following table presents selected financial
+      information and statistics as of and for the three years ended september 25
+      , 2010 ( in millions ) : as of september 25 , 2010 , the company had $ 51 billion
+      in cash , cash equivalents and marketable securities , an increase of $ 17 billion
+      from september 26 , 2009 .
+
+
+      the principal component of this net increase was the cash generated by operating
+      activities of $ 18.6 billion , which was partially offset by payments for acquisition
+      of property , plant and equipment of $ 2 billion and payments made in connection
+      with business acquisitions , net of cash acquired , of $ 638 million .
+
+
+      the company 2019s marketable securities investment portfolio is invested primarily
+      in highly rated securities , generally with a minimum rating of single-a or
+      equivalent .
+
+
+      as of september 25 , 2010 and september 26 , 2009 , $ 30.8 billion and $ 17.4
+      billion , respectively , of the company 2019s cash , cash equivalents and marketable
+      securities were held by foreign subsidiaries and are generally based in u.s
+      .
+
+
+      dollar-denominated holdings .
+
+
+      the company believes its existing balances of cash , cash equivalents and marketable
+      securities will be sufficient to satisfy its working capital needs , capital
+      asset purchases , outstanding commitments and other liquidity requirements associated
+      with its existing operations over the next 12 months. .'
+    header:
+    - ''
+    - '2010'
+    - '2009'
+    - '2008'
+    rows:
+    - - cash cash equivalents and marketable securities
+      - $ 51011
+      - $ 33992
+      - $ 24490
+    - - accounts receivable net
+      - $ 5510
+      - $ 3361
+      - $ 2422
+    - - inventories
+      - $ 1051
+      - $ 455
+      - $ 509
+    - - working capital
+      - $ 20956
+      - $ 20049
+      - $ 18645
+    - - annual operating cash flow
+      - $ 18595
+      - $ 10159
+      - $ 9596
+    post_text: .
+    id: aapl-2010-table-2
+- id: aapl-10k-2011
+  form: 10-K
+  filed: '2011-10-26'
+  period_covered: 2011-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/320193/000119312511282113/d220209d10k.htm
+  tables:
+  - pre_text: 'company stock performance the following graph shows a five-year comparison
+      of cumulative total shareholder return , calculated on a dividend reinvested
+      basis , for the company , the s&p 500 composite index , the s&p computer hardware
+      index , and the dow jones u.s .
+
+
+      technology index .
+
+
+      the graph assumes $ 100 was invested in each of the company 2019s common stock
+      , the s&p 500 composite index , the s&p computer hardware index , and the dow
+      jones u.s .
+
+
+      technology index on september 30 , 2006 .
+
+
+      data points on the graph are annual .
+
+
+      note that historic stock price performance is not necessarily indicative of
+      future stock price performance .
+
+
+      comparison of 5 year cumulative total return* among apple inc. , the s&p 500
+      index , the s&p computer hardware index and the dow jones us technology index
+      sep-10sep-09sep-08sep-07sep-06 sep-11 apple inc .
+
+
+      s&p 500 s&p computer hardware dow jones us technology *$ 100 invested on 9/30/06
+      in stock or index , including reinvestment of dividends .
+
+
+      fiscal year ending september 30 .
+
+
+      copyright a9 2011 s&p , a division of the mcgraw-hill companies inc .
+
+
+      all rights reserved .
+
+
+      copyright a9 2011 dow jones & co .
+
+
+      all rights reserved .
+
+
+      september 30 , september 30 , september 30 , september 30 , september 30 , september
+      30 .'
+    header:
+    - ''
+    - september 30 2006
+    - september 30 2007
+    - september 30 2008
+    - september 30 2009
+    - september 30 2010
+    - september 30 2011
+    rows:
+    - - apple inc .
+      - $ 100
+      - $ 199
+      - $ 148
+      - $ 241
+      - $ 369
+      - $ 495
+    - - s&p 500
+      - $ 100
+      - $ 116
+      - $ 91
+      - $ 85
+      - $ 93
+      - $ 94
+    - - s&p computer hardware
+      - $ 100
+      - $ 148
+      - $ 124
+      - $ 147
+      - $ 174
+      - $ 197
+    - - dow jones us technology
+      - $ 100
+      - $ 123
+      - $ 94
+      - $ 104
+      - $ 117
+      - $ 120
+    post_text: .
+    id: aapl-2011-table-0
+  - pre_text: 'r&d expense increased 36% ( 36 % ) during 2011 compared to 2010 , it
+      declined slightly as a percentage of net sales , due to the 66% ( 66 % ) year-over-year
+      growth in the company 2019s net sales during 2011 .
+
+
+      r&d expense increased 34% ( 34 % ) or $ 449 million to $ 1.8 billion in 2010
+      compared to 2009 .
+
+
+      this increase was due primarily to an increase in headcount and related expenses
+      in the current year to support expanded r&d activities .
+
+
+      also contributing to this increase in r&d expense in 2010 was the capitalization
+      in 2009 of software development costs of $ 71 million related to mac os x snow
+      leopard .
+
+
+      although total r&d expense increased 34% ( 34 % ) during 2010 , it declined
+      as a percentage of net sales given the 52% ( 52 % ) year-over-year increase
+      in net sales in the company continues to believe that focused investments in
+      r&d are critical to its future growth and competitive position in the marketplace
+      and are directly related to timely development of new and enhanced products
+      that are central to the company 2019s core business strategy .
+
+
+      as such , the company expects to make further investments in r&d to remain competitive
+      .
+
+
+      selling , general and administrative expense ( 201csg&a 201d ) sg&a expense
+      increased $ 2.1 billion or 38% ( 38 % ) to $ 7.6 billion during 2011 compared
+      to 2010 .
+
+
+      this increase was due primarily to the company 2019s continued expansion of
+      its retail segment , increased headcount and related costs , higher spending
+      on professional services and marketing and advertising programs , and increased
+      variable costs associated with the overall growth of the company 2019s net sales
+      .
+
+
+      sg&a expense increased $ 1.4 billion or 33% ( 33 % ) to $ 5.5 billion in 2010
+      compared to 2009 .
+
+
+      this increase was due primarily to the company 2019s continued expansion of
+      its retail segment , higher spending on marketing and advertising programs ,
+      increased share-based compensation expenses and variable costs associated with
+      the overall growth of the company 2019s net sales .
+
+
+      other income and expense other income and expense for the three years ended
+      september 24 , 2011 , are as follows ( in millions ) : .'
+    header:
+    - ''
+    - '2011'
+    - '2010'
+    - '2009'
+    rows:
+    - - interest and dividend income
+      - $ 519
+      - $ 311
+      - $ 407
+    - - other expense net
+      - -104 ( 104 )
+      - -156 ( 156 )
+      - -81 ( 81 )
+    - - total other income and expense
+      - $ 415
+      - $ 155
+      - $ 326
+    post_text: 'total other income and expense increased $ 260 million or 168% ( 168
+      % ) to $ 415 million during 2011 compared to $ 155 million and $ 326 million
+      in 2010 and 2009 , respectively .
+
+
+      the year-over-year increase in other income and expense during 2011 was due
+      primarily to higher interest income and net realized gains on sales of marketable
+      securities .
+
+
+      the overall decrease in other income and expense in 2010 compared to 2009 was
+      attributable to the significant declines in interest rates on a year-over-year
+      basis , partially offset by the company 2019s higher cash , cash equivalents
+      and marketable securities balances .
+
+
+      additionally the company incurred higher premium expenses on its foreign exchange
+      option contracts , which further reduced the total other income and expense
+      .
+
+
+      the weighted average interest rate earned by the company on its cash , cash
+      equivalents and marketable securities was 0.77% ( 0.77 % ) , 0.75% ( 0.75 %
+      ) and 1.43% ( 1.43 % ) during 2011 , 2010 and 2009 , respectively .
+
+
+      during 2011 , 2010 and 2009 , the company had no debt outstanding and accordingly
+      did not incur any related interest expense .
+
+
+      provision for income taxes the company 2019s effective tax rates were approximately
+      24.2% ( 24.2 % ) , 24.4% ( 24.4 % ) and 31.8% ( 31.8 % ) for 2011 , 2010 and
+      2009 , respectively .
+
+
+      the company 2019s effective rates for these periods differ from the statutory
+      federal income tax rate of .'
+    id: aapl-2011-table-1
+  - pre_text: 'as of september 24 , 2011 , the total amount of gross unrecognized
+      tax benefits was $ 1.4 billion , of which $ 563 million , if recognized , would
+      affect the company 2019s effective tax rate .
+
+
+      as of september 25 , 2010 , the total amount of gross unrecognized tax benefits
+      was $ 943 million , of which $ 404 million , if recognized , would affect the
+      company 2019s effective tax rate .
+
+
+      the aggregate changes in the balance of gross unrecognized tax benefits , which
+      excludes interest and penalties , for the three years ended september 24 , 2011
+      , is as follows ( in millions ) : .'
+    header:
+    - ''
+    - '2011'
+    - '2010'
+    - '2009'
+    rows:
+    - - beginning balance
+      - $ 943
+      - '971'
+      - $ 506
+    - - increases related to tax positions taken during a prior year
+      - '49'
+      - '61'
+      - '341'
+    - - decreases related to tax positions taken during a prior year
+      - -39 ( 39 )
+      - -224 ( 224 )
+      - -24 ( 24 )
+    - - increases related to tax positions taken during the current year
+      - '425'
+      - '240'
+      - '151'
+    - - decreases related to settlements with taxing authorities
+      - '0'
+      - -102 ( 102 )
+      - '0'
+    - - decreases related to expiration of statute of limitations
+      - -3 ( 3 )
+      - -3 ( 3 )
+      - -3 ( 3 )
+    - - ending balance
+      - $ 1375
+      - $ 943
+      - $ 971
+    post_text: 'the company includes interest and penalties related to unrecognized
+      tax benefits within the provision for income taxes .
+
+
+      as of september 24 , 2011 and september 25 , 2010 , the total amount of gross
+      interest and penalties accrued was $ 261 million and $ 247 million , respectively
+      , which is classified as non-current liabilities in the consolidated balance
+      sheets .
+
+
+      in connection with tax matters , the company recognized interest expense in
+      2011 and 2009 of $ 14 million and $ 64 million , respectively , and in 2010
+      the company recognized an interest benefit of $ 43 million .
+
+
+      the company is subject to taxation and files income tax returns in the u.s .
+
+
+      federal jurisdiction and in many state and foreign jurisdictions .
+
+
+      for u.s .
+
+
+      federal income tax purposes , all years prior to 2004 are closed .
+
+
+      the internal revenue service ( the 201cirs 201d ) has completed its field audit
+      of the company 2019s federal income tax returns for the years 2004 through 2006
+      and proposed certain adjustments .
+
+
+      the company has contested certain of these adjustments through the irs appeals
+      office .
+
+
+      the irs is currently examining the years 2007 through 2009 .
+
+
+      in addition , the company is also subject to audits by state , local and foreign
+      tax authorities .
+
+
+      in major states and major foreign jurisdictions , the years subsequent to 1988
+      and 2001 , respectively , generally remain open and could be subject to examination
+      by the taxing authorities .
+
+
+      management believes that an adequate provision has been made for any adjustments
+      that may result from tax examinations .
+
+
+      however , the outcome of tax audits cannot be predicted with certainty .
+
+
+      if any issues addressed in the company 2019s tax audits are resolved in a manner
+      not consistent with management 2019s expectations , the company could be required
+      to adjust its provision for income tax in the period such resolution occurs
+      .
+
+
+      although timing of the resolution and/or closure of audits is not certain ,
+      the company does not believe it is reasonably possible that its unrecognized
+      tax benefits would materially change in the next 12 months .
+
+
+      note 6 2013 shareholders 2019 equity and share-based compensation preferred
+      stock the company has five million shares of authorized preferred stock , none
+      of which is issued or outstanding .
+
+
+      under the terms of the company 2019s restated articles of incorporation , the
+      board of directors is authorized to determine or alter the rights , preferences
+      , privileges and restrictions of the company 2019s authorized but unissued shares
+      of preferred stock .
+
+
+      comprehensive income comprehensive income consists of two components , net income
+      and other comprehensive income .
+
+
+      other comprehensive income refers to revenue , expenses , gains and losses that
+      under gaap are recorded as an element .'
+    id: aapl-2011-table-2
+  - pre_text: '35% ( 35 % ) due primarily to certain undistributed foreign earnings
+      for which no u.s .
+
+
+      taxes are provided because such earnings are intended to be indefinitely reinvested
+      outside the u.s .
+
+
+      as of september 24 , 2011 , the company had deferred tax assets arising from
+      deductible temporary differences , tax losses , and tax credits of $ 3.2 billion
+      , and deferred tax liabilities of $ 9.2 billion .
+
+
+      management believes it is more likely than not that forecasted income , including
+      income that may be generated as a result of certain tax planning strategies
+      , together with future reversals of existing taxable temporary differences ,
+      will be sufficient to fully recover the deferred tax assets .
+
+
+      the company will continue to evaluate the realizability of deferred tax assets
+      quarterly by assessing the need for and amount of a valuation allowance .
+
+
+      the internal revenue service ( the 201cirs 201d ) has completed its field audit
+      of the company 2019s federal income tax returns for the years 2004 through 2006
+      and proposed certain adjustments .
+
+
+      the company has contested certain of these adjustments through the irs appeals
+      office .
+
+
+      the irs is currently examining the years 2007 through 2009 .
+
+
+      all irs audit issues for years prior to 2004 have been resolved .
+
+
+      in addition , the company is subject to audits by state , local , and foreign
+      tax authorities .
+
+
+      management believes that adequate provisions have been made for any adjustments
+      that may result from tax examinations .
+
+
+      however , the outcome of tax audits cannot be predicted with certainty .
+
+
+      if any issues addressed in the company 2019s tax audits are resolved in a manner
+      not consistent with management 2019s expectations , the company could be required
+      to adjust its provision for income taxes in the period such resolution occurs
+      .
+
+
+      liquidity and capital resources the following table presents selected financial
+      information and statistics as of and for the three years ended september 24
+      , 2011 ( in millions ) : .'
+    header:
+    - ''
+    - '2011'
+    - '2010'
+    - '2009'
+    rows:
+    - - cash cash equivalents and marketable securities
+      - $ 81570
+      - $ 51011
+      - $ 33992
+    - - accounts receivable net
+      - $ 5369
+      - $ 5510
+      - $ 3361
+    - - inventories
+      - $ 776
+      - $ 1051
+      - $ 455
+    - - working capital
+      - $ 17018
+      - $ 20956
+      - $ 20049
+    - - annual operating cash flow
+      - $ 37529
+      - $ 18595
+      - $ 10159
+    post_text: 'cash , cash equivalents and marketable securities increased $ 30.6
+      billion or 60% ( 60 % ) during 2011 .
+
+
+      the principal components of this net increase was the cash generated by operating
+      activities of $ 37.5 billion , which was partially offset by payments for acquisition
+      of property , plant and equipment of $ 4.3 billion , payments for acquisition
+      of intangible assets of $ 3.2 billion and payments made in connection with business
+      acquisitions , net of cash acquired , of $ 244 million .
+
+
+      the company believes its existing balances of cash , cash equivalents and marketable
+      securities will be sufficient to satisfy its working capital needs , capital
+      asset purchases , outstanding commitments and other liquidity requirements associated
+      with its existing operations over the next 12 months .
+
+
+      the company 2019s marketable securities investment portfolio is invested primarily
+      in highly rated securities and its policy generally limits the amount of credit
+      exposure to any one issuer .
+
+
+      the company 2019s investment policy requires investments to generally be investment
+      grade with the objective of minimizing the potential risk of principal loss
+      .
+
+
+      as of september 24 , 2011 and september 25 , 2010 , $ 54.3 billion and $ 30.8
+      billion , respectively , of the company 2019s cash , cash equivalents and marketable
+      securities were held by foreign subsidiaries and are generally based in u.s
+      .
+
+
+      dollar-denominated holdings .
+
+
+      amounts held by foreign subsidiaries are generally subject to u.s .
+
+
+      income taxation on repatriation to the u.s .
+
+
+      capital assets the company 2019s capital expenditures were $ 4.6 billion during
+      2011 , consisting of approximately $ 614 million for retail store facilities
+      and $ 4.0 billion for other capital expenditures , including product tooling
+      and manufacturing .'
+    id: aapl-2011-table-3
+- id: aapl-10k-2012
+  form: 10-K
+  filed: '2012-10-31'
+  period_covered: 2012-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/320193/000119312512444068/d411355d10k.htm
+  tables:
+  - pre_text: 'company stock performance the following graph shows a five-year comparison
+      of cumulative total shareholder return , calculated on a dividend reinvested
+      basis , for the company , the s&p 500 composite index , the s&p computer hardware
+      index , and the dow jones u.s .
+
+
+      technology index .
+
+
+      the graph assumes $ 100 was invested in each of the company 2019s common stock
+      , the s&p 500 composite index , the s&p computer hardware index , and the dow
+      jones u.s .
+
+
+      technology index as of the market close on september 30 , 2007 .
+
+
+      data points on the graph are annual .
+
+
+      note that historic stock price performance is not necessarily indicative of
+      future stock price performance .
+
+
+      sep-11sep-10sep-09sep-08sep-07 sep-12 apple inc .
+
+
+      s&p 500 s&p computer hardware dow jones us technology comparison of 5 year cumulative
+      total return* among apple inc. , the s&p 500 index , the s&p computer hardware
+      index , and the dow jones us technology index *$ 100 invested on 9/30/07 in
+      stock or index , including reinvestment of dividends .
+
+
+      fiscal year ending september 30 .
+
+
+      copyright a9 2012 s&p , a division of the mcgraw-hill companies inc .
+
+
+      all rights reserved .
+
+
+      september 30 , september 30 , september 30 , september 30 , september 30 , september
+      30 .'
+    header:
+    - ''
+    - september 30 2007
+    - september 30 2008
+    - september 30 2009
+    - september 30 2010
+    - september 30 2011
+    - september 30 2012
+    rows:
+    - - apple inc .
+      - $ 100
+      - $ 74
+      - $ 121
+      - $ 185
+      - $ 248
+      - $ 437
+    - - s&p 500
+      - $ 100
+      - $ 78
+      - $ 73
+      - $ 80
+      - $ 81
+      - $ 105
+    - - s&p computer hardware
+      - $ 100
+      - $ 84
+      - $ 99
+      - $ 118
+      - $ 134
+      - $ 214
+    - - dow jones us technology
+      - $ 100
+      - $ 76
+      - $ 85
+      - $ 95
+      - $ 98
+      - $ 127
+    post_text: .
+    id: aapl-2012-table-0
+  - pre_text: '35% ( 35 % ) due primarily to certain undistributed foreign earnings
+      for which no u.s .
+
+
+      taxes are provided because such earnings are intended to be indefinitely reinvested
+      outside the u.s .
+
+
+      as of september 29 , 2012 , the company had deferred tax assets arising from
+      deductible temporary differences , tax losses , and tax credits of $ 4.0 billion
+      , and deferred tax liabilities of $ 14.9 billion .
+
+
+      management believes it is more likely than not that forecasted income , including
+      income that may be generated as a result of certain tax planning strategies
+      , together with future reversals of existing taxable temporary differences ,
+      will be sufficient to fully recover the deferred tax assets .
+
+
+      the company will continue to evaluate the realizability of deferred tax assets
+      quarterly by assessing the need for and amount of a valuation allowance .
+
+
+      the internal revenue service ( the 201cirs 201d ) has completed its field audit
+      of the company 2019s federal income tax returns for the years 2004 through 2006
+      and proposed certain adjustments .
+
+
+      the company has contested certain of these adjustments through the irs appeals
+      office .
+
+
+      the irs is currently examining the years 2007 through 2009 .
+
+
+      all irs audit issues for years prior to 2004 have been resolved .
+
+
+      in addition , the company is subject to audits by state , local , and foreign
+      tax authorities .
+
+
+      management believes that adequate provisions have been made for any adjustments
+      that may result from tax examinations .
+
+
+      however , the outcome of tax audits cannot be predicted with certainty .
+
+
+      if any issues addressed in the company 2019s tax audits are resolved in a manner
+      not consistent with management 2019s expectations , the company could be required
+      to adjust its provision for income taxes in the period such resolution occurs
+      .
+
+
+      liquidity and capital resources the following table presents selected financial
+      information and statistics as of and for the years ended september 29 , 2012
+      , september 24 , 2011 , and september 25 , 2010 ( in millions ) : .'
+    header:
+    - ''
+    - '2012'
+    - '2011'
+    - '2010'
+    rows:
+    - - cash cash equivalents and marketable securities
+      - $ 121251
+      - $ 81570
+      - $ 51011
+    - - accounts receivable net
+      - $ 10930
+      - $ 5369
+      - $ 5510
+    - - inventories
+      - $ 791
+      - $ 776
+      - $ 1051
+    - - working capital
+      - $ 19111
+      - $ 17018
+      - $ 20956
+    - - annual operating cash flow
+      - $ 50856
+      - $ 37529
+      - $ 18595
+    post_text: 'as of september 29 , 2012 , the company had $ 121.3 billion in cash
+      , cash equivalents and marketable securities , an increase of $ 39.7 billion
+      or 49% ( 49 % ) from september 24 , 2011 .
+
+
+      the principal components of this net increase was the cash generated by operating
+      activities of $ 50.9 billion , which was partially offset by payments for acquisition
+      of property , plant and equipment of $ 8.3 billion , payments for acquisition
+      of intangible assets of $ 1.1 billion and payments of dividends and dividend
+      equivalent rights of $ 2.5 billion .
+
+
+      the company 2019s marketable securities investment portfolio is invested primarily
+      in highly-rated securities and its investment policy generally limits the amount
+      of credit exposure to any one issuer .
+
+
+      the policy requires investments generally to be investment grade with the objective
+      of minimizing the potential risk of principal loss .
+
+
+      as of september 29 , 2012 and september 24 , 2011 , $ 82.6 billion and $ 54.3
+      billion , respectively , of the company 2019s cash , cash equivalents and marketable
+      securities were held by foreign subsidiaries and are generally based in u.s
+      .
+
+
+      dollar-denominated holdings .
+
+
+      amounts held by foreign subsidiaries are generally subject to u.s .
+
+
+      income taxation on repatriation to the u.s .
+
+
+      the company believes its existing balances of cash , cash equivalents and marketable
+      securities will be sufficient to satisfy its working capital needs , capital
+      asset purchases , outstanding commitments , common stock repurchases , dividends
+      on its common stock , and other liquidity requirements associated with its existing
+      operations over the next 12 months .
+
+
+      capital assets the company 2019s capital expenditures were $ 10.3 billion during
+      2012 , consisting of $ 865 million for retail store facilities and $ 9.5 billion
+      for other capital expenditures , including product tooling and manufacturing
+      process .'
+    id: aapl-2012-table-1
+  - pre_text: 'the aggregate changes in the balance of gross unrecognized tax benefits
+      , which excludes interest and penalties , for 2012 , 2011 , and 2010 , is as
+      follows ( in millions ) : .'
+    header:
+    - ''
+    - '2012'
+    - '2011'
+    - '2010'
+    rows:
+    - - beginning balance
+      - $ 1375
+      - $ 943
+      - $ 971
+    - - increases related to tax positions taken during a prior year
+      - '340'
+      - '49'
+      - '61'
+    - - decreases related to tax positions taken during a prior year
+      - -107 ( 107 )
+      - -39 ( 39 )
+      - -224 ( 224 )
+    - - increases related to tax positions taken during the current year
+      - '467'
+      - '425'
+      - '240'
+    - - decreases related to settlements with taxing authorities
+      - -3 ( 3 )
+      - '0'
+      - -102 ( 102 )
+    - - decreases related to expiration of statute of limitations
+      - -10 ( 10 )
+      - -3 ( 3 )
+      - -3 ( 3 )
+    - - ending balance
+      - $ 2062
+      - $ 1375
+      - $ 943
+    post_text: 'the company includes interest and penalties related to unrecognized
+      tax benefits within the provision for income taxes .
+
+
+      as of september 29 , 2012 and september 24 , 2011 , the total amount of gross
+      interest and penalties accrued was $ 401 million and $ 261 million , respectively
+      , which is classified as non-current liabilities in the consolidated balance
+      sheets .
+
+
+      in connection with tax matters , the company recognized interest expense in
+      2012 and 2011 of $ 140 million and $ 14 million , respectively , and in 2010
+      the company recognized an interest benefit of $ 43 million .
+
+
+      the company is subject to taxation and files income tax returns in the u.s .
+
+
+      federal jurisdiction and in many state and foreign jurisdictions .
+
+
+      for u.s .
+
+
+      federal income tax purposes , all years prior to 2004 are closed .
+
+
+      the internal revenue service ( the 201cirs 201d ) has completed its field audit
+      of the company 2019s federal income tax returns for the years 2004 through 2006
+      and proposed certain adjustments .
+
+
+      the company has contested certain of these adjustments through the irs appeals
+      office .
+
+
+      the irs is currently examining the years 2007 through 2009 .
+
+
+      in addition , the company is also subject to audits by state , local and foreign
+      tax authorities .
+
+
+      in major states and major foreign jurisdictions , the years subsequent to 1989
+      and 2002 , respectively , generally remain open and could be subject to examination
+      by the taxing authorities .
+
+
+      management believes that an adequate provision has been made for any adjustments
+      that may result from tax examinations .
+
+
+      however , the outcome of tax audits cannot be predicted with certainty .
+
+
+      if any issues addressed in the company 2019s tax audits are resolved in a manner
+      not consistent with management 2019s expectations , the company could be required
+      to adjust its provision for income tax in the period such resolution occurs
+      .
+
+
+      although timing of the resolution and/or closure of audits is not certain ,
+      the company believes it is reasonably possible that tax audit resolutions could
+      reduce its unrecognized tax benefits by between $ 120 million and $ 170 million
+      in the next 12 months .
+
+
+      note 6 2013 shareholders 2019 equity and share-based compensation preferred
+      stock the company has five million shares of authorized preferred stock , none
+      of which is issued or outstanding .
+
+
+      under the terms of the company 2019s restated articles of incorporation , the
+      board of directors is authorized to determine or alter the rights , preferences
+      , privileges and restrictions of the company 2019s authorized but unissued shares
+      of preferred stock .
+
+
+      dividend and stock repurchase program in 2012 , the board of directors of the
+      company approved a dividend policy pursuant to which it plans to make , subject
+      to subsequent declaration , quarterly dividends of $ 2.65 per share .
+
+
+      on july 24 , 2012 , the board of directors declared a dividend of $ 2.65 per
+      share to shareholders of record as of the close of business on august 13 , 2012
+      .
+
+
+      the company paid $ 2.5 billion in conjunction with this dividend on august 16
+      , 2012 .
+
+
+      no dividends were declared in the first three quarters of 2012 or in 2011 and
+      2010. .'
+    id: aapl-2012-table-2
+  - pre_text: 'other off-balance sheet commitments lease commitments the company leases
+      various equipment and facilities , including retail space , under noncancelable
+      operating lease arrangements .
+
+
+      the company does not currently utilize any other off-balance sheet financing
+      arrangements .
+
+
+      the major facility leases are typically for terms not exceeding 10 years and
+      generally provide renewal options for terms not exceeding five additional years
+      .
+
+
+      leases for retail space are for terms ranging from five to 20 years , the majority
+      of which are for 10 years , and often contain multi-year renewal options .
+
+
+      as of september 29 , 2012 , the company 2019s total future minimum lease payments
+      under noncancelable operating leases were $ 4.4 billion , of which $ 3.1 billion
+      related to leases for retail space .
+
+
+      rent expense under all operating leases , including both cancelable and noncancelable
+      leases , was $ 488 million , $ 338 million and $ 271 million in 2012 , 2011
+      and 2010 , respectively .
+
+
+      future minimum lease payments under noncancelable operating leases having remaining
+      terms in excess of one year as of september 29 , 2012 , are as follows ( in
+      millions ) : .'
+    header:
+    - '2013'
+    - $ 516
+    rows:
+    - - '2014'
+      - '556'
+    - - '2015'
+      - '542'
+    - - '2016'
+      - '513'
+    - - '2017'
+      - '486'
+    - - thereafter
+      - '1801'
+    - - total minimum lease payments
+      - $ 4414
+    post_text: 'other commitments as of september 29 , 2012 , the company had outstanding
+      off-balance sheet third-party manufacturing commitments and component purchase
+      commitments of $ 21.1 billion .
+
+
+      in addition to the off-balance sheet commitments mentioned above , the company
+      had outstanding obligations of $ 988 million as of september 29 , 2012 , which
+      were comprised mainly of commitments to acquire capital assets , including product
+      tooling and manufacturing process equipment , and commitments related to advertising
+      , research and development , internet and telecommunications services and other
+      obligations .
+
+
+      contingencies the company is subject to various legal proceedings and claims
+      that have arisen in the ordinary course of business and have not been fully
+      adjudicated , certain of which are discussed in part i , item 3 of this form
+      10-k under the heading 201clegal proceedings 201d and in part i , item 1a of
+      this form 10-k under the heading 201crisk factors . 201d in the opinion of management
+      , there was not at least a reasonable possibility the company may have incurred
+      a material loss , or a material loss in excess of a recorded accrual , with
+      respect to loss contingencies .
+
+
+      however , the outcome of litigation is inherently uncertain .
+
+
+      therefore , although management considers the likelihood of such an outcome
+      to be remote , if one or more of these legal matters were resolved against the
+      company in a reporting period for amounts in excess of management 2019s expectations
+      , the company 2019s consolidated financial statements for that reporting period
+      could be materially adversely affected .
+
+
+      apple inc .
+
+
+      vs samsung electronics co. , ltd , et al .
+
+
+      on august 24 , 2012 , a jury returned a verdict awarding the company $ 1.05
+      billion in its lawsuit against samsung electronics and affiliated parties in
+      the united states district court , northern district of california , san jose
+      division .
+
+
+      because the award is subject to entry of final judgment and may be subject to
+      appeal , the company has not recognized the award in its consolidated financial
+      statements for the year ended september 29 , 2012. .'
+    id: aapl-2012-table-3
+  - pre_text: '$ 43.3 million in 2011 compared to $ 34.1 million in 2010 .
+
+
+      the retail segment represented 13% ( 13 % ) and 15% ( 15 % ) of the company
+      2019s total net sales in 2011 and 2010 , respectively .
+
+
+      the retail segment 2019s operating income was $ 4.7 billion , $ 3.2 billion
+      , and $ 2.3 billion during 2012 , 2011 , and 2010 respectively .
+
+
+      these year-over-year increases in retail operating income were primarily attributable
+      to higher overall net sales that resulted in significantly higher average revenue
+      per store during the respective years .
+
+
+      gross margin gross margin for 2012 , 2011 and 2010 are as follows ( in millions
+      , except gross margin percentages ) : .'
+    header:
+    - ''
+    - '2012'
+    - '2011'
+    - '2010'
+    rows:
+    - - net sales
+      - $ 156508
+      - $ 108249
+      - $ 65225
+    - - cost of sales
+      - '87846'
+      - '64431'
+      - '39541'
+    - - gross margin
+      - $ 68662
+      - $ 43818
+      - $ 25684
+    - - gross margin percentage
+      - 43.9% ( 43.9 % )
+      - 40.5% ( 40.5 % )
+      - 39.4% ( 39.4 % )
+    post_text: 'the gross margin percentage in 2012 was 43.9% ( 43.9 % ) , compared
+      to 40.5% ( 40.5 % ) in 2011 .
+
+
+      this year-over-year increase in gross margin was largely driven by lower commodity
+      and other product costs , a higher mix of iphone sales , and improved leverage
+      on fixed costs from higher net sales .
+
+
+      the increase in gross margin was partially offset by the impact of a stronger
+      u.s .
+
+
+      dollar .
+
+
+      the gross margin percentage during the first half of 2012 was 45.9% ( 45.9 %
+      ) compared to 41.4% ( 41.4 % ) during the second half of 2012 .
+
+
+      the primary drivers of higher gross margin in the first half of 2012 compared
+      to the second half are a higher mix of iphone sales and improved leverage on
+      fixed costs from higher net sales .
+
+
+      additionally , gross margin in the second half of 2012 was also affected by
+      the introduction of new products with flat pricing that have higher cost structures
+      and deliver greater value to customers , price reductions on certain existing
+      products , higher transition costs associated with product launches , and continued
+      strengthening of the u.s .
+
+
+      dollar ; partially offset by lower commodity costs .
+
+
+      the gross margin percentage in 2011 was 40.5% ( 40.5 % ) , compared to 39.4%
+      ( 39.4 % ) in 2010 .
+
+
+      this year-over-year increase in gross margin was largely driven by lower commodity
+      and other product costs .
+
+
+      the company expects to experience decreases in its gross margin percentage in
+      future periods , as compared to levels achieved during 2012 , and the company
+      anticipates gross margin of about 36% ( 36 % ) during the first quarter of 2013
+      .
+
+
+      expected future declines in gross margin are largely due to a higher mix of
+      new and innovative products with flat or reduced pricing that have higher cost
+      structures and deliver greater value to customers and anticipated component
+      cost and other cost increases .
+
+
+      future strengthening of the u.s .
+
+
+      dollar could further negatively impact gross margin .
+
+
+      the foregoing statements regarding the company 2019s expected gross margin percentage
+      in future periods , including the first quarter of 2013 , are forward-looking
+      and could differ from actual results because of several factors including ,
+      but not limited to those set forth above in part i , item 1a of this form 10-k
+      under the heading 201crisk factors 201d and those described in this paragraph
+      .
+
+
+      in general , gross margins and margins on individual products will remain under
+      downward pressure due to a variety of factors , including continued industry
+      wide global product pricing pressures , increased competition , compressed product
+      life cycles , product transitions and potential increases in the cost of components
+      , as well as potential increases in the costs of outside manufacturing services
+      and a potential shift in the company 2019s sales mix towards products with lower
+      gross margins .
+
+
+      in response to competitive pressures , the company expects it will continue
+      to take product pricing actions , which would adversely affect gross margins
+      .
+
+
+      gross margins could also be affected by the company 2019s ability to manage
+      product quality and warranty costs effectively and to stimulate demand for certain
+      of its products .
+
+
+      due to the company 2019s significant international operations , financial results
+      can be significantly affected in the short-term by fluctuations in exchange
+      rates. .'
+    id: aapl-2012-table-4
+- id: aapl-10k-2013
+  form: 10-K
+  filed: '2013-10-30'
+  period_covered: 2013-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/320193/000119312513416534/d590790d10k.htm
+  tables:
+  - pre_text: 'table of contents company stock performance the following graph shows
+      a five-year comparison of cumulative total shareholder return , calculated on
+      a dividend reinvested basis , for the company , the s&p 500 index , the s&p
+      computer hardware index , and the dow jones u.s .
+
+
+      technology supersector index .
+
+
+      the graph assumes $ 100 was invested in each of the company 2019s common stock
+      , the s&p 500 index , the s&p computer hardware index , and the dow jones u.s
+      .
+
+
+      technology supersector index as of the market close on september 30 , 2008 .
+
+
+      data points on the graph are annual .
+
+
+      note that historic stock price performance is not necessarily indicative of
+      future stock price performance .
+
+
+      fiscal year ending september 30 .
+
+
+      copyright 2013 s&p , a division of the mcgraw-hill companies inc .
+
+
+      all rights reserved .
+
+
+      copyright 2013 dow jones & co .
+
+
+      all rights reserved .
+
+
+      *$ 100 invested on 9/30/08 in stock or index , including reinvestment of dividends
+      .
+
+
+      september 30 , september 30 , september 30 , september 30 , september 30 , september
+      30 .'
+    header:
+    - ''
+    - september 30 2008
+    - september 30 2009
+    - september 30 2010
+    - september 30 2011
+    - september 30 2012
+    - september 30 2013
+    rows:
+    - - apple inc .
+      - $ 100
+      - $ 163
+      - $ 250
+      - $ 335
+      - $ 589
+      - $ 431
+    - - s&p 500 index
+      - $ 100
+      - $ 93
+      - $ 103
+      - $ 104
+      - $ 135
+      - $ 161
+    - - s&p computer hardware index
+      - $ 100
+      - $ 118
+      - $ 140
+      - $ 159
+      - $ 255
+      - $ 197
+    - - dow jones us technology supersector index
+      - $ 100
+      - $ 111
+      - $ 124
+      - $ 128
+      - $ 166
+      - $ 175
+    post_text: .
+    id: aapl-2013-table-0
+  - pre_text: 'table of contents the following table presents certain payments due
+      by the company under contractual obligations with minimum firm commitments as
+      of september 28 , 2013 and excludes amounts already recorded on the consolidated
+      balance sheet , except for long-term debt ( in millions ) : lease commitments
+      the company 2019s major facility leases are typically for terms not exceeding
+      10 years and generally provide renewal options for terms not exceeding five
+      additional years .
+
+
+      leases for retail space are for terms ranging from five to 20 years , the majority
+      of which are for 10 years , and often contain multi-year renewal options .
+
+
+      as of september 28 , 2013 , the company 2019s total future minimum lease payments
+      under noncancelable operating leases were $ 4.7 billion , of which $ 3.5 billion
+      related to leases for retail space .
+
+
+      purchase commitments with outsourcing partners and component suppliers the company
+      utilizes several outsourcing partners to manufacture sub-assemblies for the
+      company 2019s products and to perform final assembly and testing of finished
+      products .
+
+
+      these outsourcing partners acquire components and build product based on demand
+      information supplied by the company , which typically covers periods up to 150
+      days .
+
+
+      the company also obtains individual components for its products from a wide
+      variety of individual suppliers .
+
+
+      consistent with industry practice , the company acquires components through
+      a combination of purchase orders , supplier contracts , and open orders based
+      on projected demand information .
+
+
+      where appropriate , the purchases are applied to inventory component prepayments
+      that are outstanding with the respective supplier .
+
+
+      as of september 28 , 2013 , the company had outstanding off-balance sheet third-
+      party manufacturing commitments and component purchase commitments of $ 18.6
+      billion .
+
+
+      other obligations in addition to the off-balance sheet commitments mentioned
+      above , the company had outstanding obligations of $ 1.3 billion as of september
+      28 , 2013 , that consisted mainly of commitments to acquire capital assets ,
+      including product tooling and manufacturing process equipment , and commitments
+      related to advertising , research and development , internet and telecommunications
+      services and other obligations .
+
+
+      the company 2019s other non-current liabilities in the consolidated balance
+      sheets consist primarily of deferred tax liabilities , gross unrecognized tax
+      benefits and the related gross interest and penalties .
+
+
+      as of september 28 , 2013 , the company had non-current deferred tax liabilities
+      of $ 16.5 billion .
+
+
+      additionally , as of september 28 , 2013 , the company had gross unrecognized
+      tax benefits of $ 2.7 billion and an additional $ 590 million for gross interest
+      and penalties classified as non-current liabilities .
+
+
+      at this time , the company is unable to make a reasonably reliable estimate
+      of the timing of payments in individual years in connection with these tax liabilities
+      ; therefore , such amounts are not included in the above contractual obligation
+      table .
+
+
+      indemnification the company generally does not indemnify end-users of its operating
+      system and application software against legal claims that the software infringes
+      third-party intellectual property rights .
+
+
+      other agreements entered into by payments due in than 1 payments due in payments
+      due in payments due in than 5 years total .'
+    header:
+    - ''
+    - payments due in less than1 year
+    - payments due in 1-3 years
+    - payments due in 4-5 years
+    - payments due in more than5 years
+    - total
+    rows:
+    - - long-term debt
+      - $ 0
+      - $ 2500
+      - $ 6000
+      - $ 8500
+      - $ 17000
+    - - operating leases
+      - '610'
+      - '1200'
+      - '1056'
+      - '1855'
+      - '4721'
+    - - purchase obligations
+      - '18616'
+      - '0'
+      - '0'
+      - '0'
+      - '18616'
+    - - other obligations
+      - '1081'
+      - '248'
+      - '16'
+      - '3'
+      - '1348'
+    - - total
+      - $ 20307
+      - $ 3948
+      - $ 7072
+      - $ 10358
+      - $ 41685
+    post_text: .
+    id: aapl-2013-table-1
+  - pre_text: 'table of contents as of september 28 , 2013 .
+
+
+      the company 2019s share repurchase program does not obligate it to acquire any
+      specific number of shares .
+
+
+      under the program , shares may be repurchased in privately negotiated and/or
+      open market transactions , including under plans complying with rule 10b5-1
+      of the securities exchange act of 1934 , as amended ( the 201cexchange act 201d
+      ) .
+
+
+      in august 2012 , the company entered into an accelerated share repurchase arrangement
+      ( 201casr 201d ) with a financial institution to purchase up to $ 1.95 billion
+      of the company 2019s common stock in 2013 .
+
+
+      in the first quarter of 2013 , 2.6 million shares were initially delivered to
+      the company .
+
+
+      in april 2013 , the purchase period for the asr ended and an additional 1.5
+      million shares were delivered to the company .
+
+
+      in total , 4.1 million shares were delivered under the asr at an average repurchase
+      price of $ 478.20 per share .
+
+
+      the shares were retired in the quarters they were delivered , and the up-front
+      payment of $ 1.95 billion was accounted for as a reduction to shareholders 2019
+      equity in the company 2019s consolidated balance sheet in the first quarter
+      of 2013 .
+
+
+      in april 2013 , the company entered into a new asr program with two financial
+      institutions to purchase up to $ 12 billion of the company 2019s common stock
+      .
+
+
+      in exchange for up-front payments totaling $ 12 billion , the financial institutions
+      committed to deliver shares during the asr 2019s purchase periods , which will
+      end during 2014 .
+
+
+      the total number of shares ultimately delivered , and therefore the average
+      price paid per share , will be determined at the end of the applicable purchase
+      period based on the volume weighted average price of the company 2019s stock
+      during that period .
+
+
+      during the third quarter of 2013 , 23.5 million shares were initially delivered
+      to the company and retired .
+
+
+      this does not represent the final number of shares to be delivered under the
+      asr .
+
+
+      the up-front payments of $ 12 billion were accounted for as a reduction to shareholders
+      2019 equity in the company 2019s consolidated balance sheet .
+
+
+      the company reflected the asrs as a repurchase of common stock for purposes
+      of calculating earnings per share and as forward contracts indexed to its own
+      common stock .
+
+
+      the forward contracts met all of the applicable criteria for equity classification
+      , and , therefore , were not accounted for as derivative instruments .
+
+
+      during 2013 , the company repurchased 19.4 million shares of its common stock
+      in the open market at an average price of $ 464.11 per share for a total of
+      $ 9.0 billion .
+
+
+      these shares were retired upon repurchase .
+
+
+      note 8 2013 comprehensive income comprehensive income consists of two components
+      , net income and other comprehensive income .
+
+
+      other comprehensive income refers to revenue , expenses , and gains and losses
+      that under gaap are recorded as an element of shareholders 2019 equity but are
+      excluded from net income .
+
+
+      the company 2019s other comprehensive income consists of foreign currency translation
+      adjustments from those subsidiaries not using the u.s .
+
+
+      dollar as their functional currency , net deferred gains and losses on certain
+      derivative instruments accounted for as cash flow hedges , and unrealized gains
+      and losses on marketable securities classified as available-for-sale .
+
+
+      the following table shows the components of aoci , net of taxes , as of september
+      28 , 2013 and september 29 , 2012 ( in millions ) : .'
+    header:
+    - ''
+    - '2013'
+    - '2012'
+    rows:
+    - - cumulative foreign currency translation
+      - $ -105 ( 105 )
+      - $ 8
+    - - net unrecognized gains/losses on derivative instruments
+      - -175 ( 175 )
+      - -240 ( 240 )
+    - - net unrealized gains/losses on marketable securities
+      - -191 ( 191 )
+      - '731'
+    - - accumulated other comprehensive income/ ( loss )
+      - $ -471 ( 471 )
+      - $ 499
+    post_text: .
+    id: aapl-2013-table-2
+  - pre_text: 'table of contents adjustments that may result from tax examinations
+      .
+
+
+      however , the outcome of tax audits cannot be predicted with certainty .
+
+
+      if any issues addressed in the company 2019s tax audits are resolved in a manner
+      not consistent with management 2019s expectations , the company could be required
+      to adjust its provision for income taxes in the period such resolution occurs
+      .
+
+
+      liquidity and capital resources the following table presents selected financial
+      information and statistics as of and for the years ended september 28 , 2013
+      , september 29 , 2012 and september 24 , 2011 ( in millions ) : the company
+      believes its existing balances of cash , cash equivalents and marketable securities
+      will be sufficient to satisfy its working capital needs , capital asset purchases
+      , outstanding commitments , and other liquidity requirements associated with
+      its existing operations over the next 12 months .
+
+
+      the company anticipates the cash used for future dividends and the share repurchase
+      program will come from its current domestic cash , cash generated from on-going
+      u.s .
+
+
+      operating activities and from borrowings .
+
+
+      as of september 28 , 2013 and september 29 , 2012 , $ 111.3 billion and $ 82.6
+      billion , respectively , of the company 2019s cash , cash equivalents and marketable
+      securities were held by foreign subsidiaries and are generally based in u.s
+      .
+
+
+      dollar-denominated holdings .
+
+
+      amounts held by foreign subsidiaries are generally subject to u.s .
+
+
+      income taxation on repatriation to the u.s .
+
+
+      the company 2019s marketable securities investment portfolio is invested primarily
+      in highly-rated securities and its investment policy generally limits the amount
+      of credit exposure to any one issuer .
+
+
+      the policy requires investments generally to be investment grade with the objective
+      of minimizing the potential risk of principal loss .
+
+
+      during 2013 , cash generated from operating activities of $ 53.7 billion was
+      a result of $ 37.0 billion of net income , non-cash adjustments to net income
+      of $ 10.2 billion and an increase in net change in operating assets and liabilities
+      of $ 6.5 billion .
+
+
+      cash used in investing activities of $ 33.8 billion during 2013 consisted primarily
+      of net purchases , sales and maturities of marketable securities of $ 24.0 billion
+      and cash used to acquire property , plant and equipment of $ 8.2 billion .
+
+
+      cash used in financing activities during 2013 consisted primarily of cash used
+      to repurchase common stock of $ 22.9 billion and cash used to pay dividends
+      and dividend equivalent rights of $ 10.6 billion , partially offset by net proceeds
+      from the issuance of long-term debt of $ 16.9 billion .
+
+
+      during 2012 , cash generated from operating activities of $ 50.9 billion was
+      a result of $ 41.7 billion of net income and non-cash adjustments to net income
+      of $ 9.4 billion , partially offset by a decrease in net operating assets and
+      liabilities of $ 299 million .
+
+
+      cash used in investing activities during 2012 of $ 48.2 billion consisted primarily
+      of net purchases , sales and maturities of marketable securities of $ 38.4 billion
+      and cash used to acquire property , plant and equipment of $ 8.3 billion .
+
+
+      cash used in financing activities during 2012 of $ 1.7 billion consisted primarily
+      of cash used to pay dividends and dividend equivalent rights of $ 2.5 billion
+      .
+
+
+      capital assets the company 2019s capital expenditures were $ 7.0 billion during
+      2013 , consisting of $ 499 million for retail store facilities and $ 6.5 billion
+      for other capital expenditures , including product tooling and manufacturing
+      process equipment , and other corporate facilities and infrastructure .
+
+
+      the company 2019s actual cash payments for capital expenditures during 2013
+      were $ 8.2 billion. .'
+    header:
+    - ''
+    - '2013'
+    - '2012'
+    - '2011'
+    rows:
+    - - cash cash equivalents and marketable securities
+      - $ 146761
+      - $ 121251
+      - $ 81570
+    - - property plant and equipment net
+      - $ 16597
+      - $ 15452
+      - $ 7777
+    - - long-term debt
+      - $ 16960
+      - $ 0
+      - $ 0
+    - - working capital
+      - $ 29628
+      - $ 19111
+      - $ 17018
+    - - cash generated by operating activities
+      - $ 53666
+      - $ 50856
+      - $ 37529
+    - - cash used in investing activities
+      - $ -33774 ( 33774 )
+      - $ -48227 ( 48227 )
+      - $ -40419 ( 40419 )
+    - - cash generated/ ( used in ) by financing activities
+      - $ -16379 ( 16379 )
+      - $ -1698 ( 1698 )
+      - $ 1444
+    post_text: .
+    id: aapl-2013-table-3
+  - pre_text: 'table of contents rent expense under all operating leases , including
+      both cancelable and noncancelable leases , was $ 645 million , $ 488 million
+      and $ 338 million in 2013 , 2012 and 2011 , respectively .
+
+
+      future minimum lease payments under noncancelable operating leases having remaining
+      terms in excess of one year as of september 28 , 2013 , are as follows ( in
+      millions ) : other commitments as of september 28 , 2013 , the company had outstanding
+      off-balance sheet third-party manufacturing commitments and component purchase
+      commitments of $ 18.6 billion .
+
+
+      in addition to the off-balance sheet commitments mentioned above , the company
+      had outstanding obligations of $ 1.3 billion as of september 28 , 2013 , which
+      consisted mainly of commitments to acquire capital assets , including product
+      tooling and manufacturing process equipment , and commitments related to advertising
+      , research and development , internet and telecommunications services and other
+      obligations .
+
+
+      contingencies the company is subject to various legal proceedings and claims
+      that have arisen in the ordinary course of business and that have not been fully
+      adjudicated .
+
+
+      in the opinion of management , there was not at least a reasonable possibility
+      the company may have incurred a material loss , or a material loss in excess
+      of a recorded accrual , with respect to loss contingencies .
+
+
+      however , the outcome of litigation is inherently uncertain .
+
+
+      therefore , although management considers the likelihood of such an outcome
+      to be remote , if one or more of these legal matters were resolved against the
+      company in a reporting period for amounts in excess of management 2019s expectations
+      , the company 2019s consolidated financial statements for that reporting period
+      could be materially adversely affected .
+
+
+      apple inc .
+
+
+      v .
+
+
+      samsung electronics co. , ltd , et al .
+
+
+      on august 24 , 2012 , a jury returned a verdict awarding the company $ 1.05
+      billion in its lawsuit against samsung electronics co. , ltd and affiliated
+      parties in the united states district court , northern district of california
+      , san jose division .
+
+
+      on march 1 , 2013 , the district court upheld $ 599 million of the jury 2019s
+      award and ordered a new trial as to the remainder .
+
+
+      because the award is subject to entry of final judgment , partial re-trial and
+      appeal , the company has not recognized the award in its results of operations
+      .
+
+
+      virnetx , inc .
+
+
+      v .
+
+
+      apple inc .
+
+
+      et al .
+
+
+      on august 11 , 2010 , virnetx , inc .
+
+
+      filed an action against the company alleging that certain of its products infringed
+      on four patents relating to network communications technology .
+
+
+      on november 6 , 2012 , a jury returned a verdict against the company , and awarded
+      damages of $ 368 million .
+
+
+      the company is challenging the verdict , believes it has valid defenses and
+      has not recorded a loss accrual at this time. .'
+    header:
+    - '2014'
+    - $ 610
+    rows:
+    - - '2015'
+      - '613'
+    - - '2016'
+      - '587'
+    - - '2017'
+      - '551'
+    - - '2018'
+      - '505'
+    - - thereafter
+      - '1855'
+    - - total minimum lease payments
+      - $ 4721
+    post_text: .
+    id: aapl-2013-table-4
+- id: aapl-10k-2014
+  form: 10-K
+  filed: '2014-10-27'
+  period_covered: 2014-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/320193/000119312514383437/d783162d10k.htm
+  tables:
+  - pre_text: 'table of contents the foreign provision for income taxes is based on
+      foreign pre-tax earnings of $ 33.6 billion , $ 30.5 billion and $ 36.8 billion
+      in 2014 , 2013 and 2012 , respectively .
+
+
+      the company 2019s consolidated financial statements provide for any related
+      tax liability on undistributed earnings that the company does not intend to
+      be indefinitely reinvested outside the u.s .
+
+
+      substantially all of the company 2019s undistributed international earnings
+      intended to be indefinitely reinvested in operations outside the u.s .
+
+
+      were generated by subsidiaries organized in ireland , which has a statutory
+      tax rate of 12.5% ( 12.5 % ) .
+
+
+      as of september 27 , 2014 , u.s .
+
+
+      income taxes have not been provided on a cumulative total of $ 69.7 billion
+      of such earnings .
+
+
+      the amount of unrecognized deferred tax liability related to these temporary
+      differences is estimated to be approximately $ 23.3 billion .
+
+
+      as of september 27 , 2014 and september 28 , 2013 , $ 137.1 billion and $ 111.3
+      billion , respectively , of the company 2019s cash , cash equivalents and marketable
+      securities were held by foreign subsidiaries and are generally based in u.s
+      .
+
+
+      dollar-denominated holdings .
+
+
+      amounts held by foreign subsidiaries are generally subject to u.s .
+
+
+      income taxation on repatriation to the u.s .
+
+
+      a reconciliation of the provision for income taxes , with the amount computed
+      by applying the statutory federal income tax rate ( 35% ( 35 % ) in 2014 , 2013
+      and 2012 ) to income before provision for income taxes for 2014 , 2013 and 2012
+      , is as follows ( dollars in millions ) : the company 2019s income taxes payable
+      have been reduced by the tax benefits from employee stock plan awards .
+
+
+      for stock options , the company receives an income tax benefit calculated as
+      the tax effect of the difference between the fair market value of the stock
+      issued at the time of the exercise and the exercise price .
+
+
+      for rsus , the company receives an income tax benefit upon the award 2019s vesting
+      equal to the tax effect of the underlying stock 2019s fair market value .
+
+
+      the company had net excess tax benefits from equity awards of $ 706 million
+      , $ 643 million and $ 1.4 billion in 2014 , 2013 and 2012 , respectively , which
+      were reflected as increases to common stock .
+
+
+      apple inc .
+
+
+      | 2014 form 10-k | 64 .'
+    header:
+    - ''
+    - '2014'
+    - '2013'
+    - '2012'
+    rows:
+    - - computed expected tax
+      - $ 18719
+      - $ 17554
+      - $ 19517
+    - - state taxes net of federal effect
+      - '469'
+      - '508'
+      - '677'
+    - - indefinitely invested earnings of foreign subsidiaries
+      - -4744 ( 4744 )
+      - -4614 ( 4614 )
+      - -5895 ( 5895 )
+    - - research and development credit net
+      - -88 ( 88 )
+      - -287 ( 287 )
+      - -103 ( 103 )
+    - - domestic production activities deduction
+      - -495 ( 495 )
+      - -308 ( 308 )
+      - -328 ( 328 )
+    - - other
+      - '112'
+      - '265'
+      - '162'
+    - - provision for income taxes
+      - $ 13973
+      - $ 13118
+      - $ 14030
+    - - effective tax rate
+      - 26.1% ( 26.1 % )
+      - 26.2% ( 26.2 % )
+      - 25.2% ( 25.2 % )
+    post_text: .
+    id: aapl-2014-table-0
+  - pre_text: 'table of contents company stock performance the following graph shows
+      a comparison of cumulative total shareholder return , calculated on a dividend
+      reinvested basis , for the company , the s&p 500 index , the dow jones u.s .
+
+
+      technology supersector index and the s&p information technology index for the
+      five years ended september 27 , 2014 .
+
+
+      the company has added the s&p information technology index to the graph to capture
+      the stock performance of companies whose products and services relate to those
+      of the company .
+
+
+      the s&p information technology index replaces the s&p computer hardware index
+      , which is no longer tracked by s&p .
+
+
+      the graph assumes $ 100 was invested in each of the company 2019s common stock
+      , the s&p 500 index , the dow jones u.s .
+
+
+      technology supersector index and the s&p information technology index as of
+      the market close on september 25 , 2009 .
+
+
+      note that historic stock price performance is not necessarily indicative of
+      future stock price performance .
+
+
+      copyright a9 2014 s&p , a division of the mcgraw-hill companies inc .
+
+
+      all rights reserved .
+
+
+      copyright a9 2014 dow jones & co .
+
+
+      all rights reserved .
+
+
+      apple inc .
+
+
+      | 2014 form 10-k | 23 * $ 100 invested on 9/25/09 in stock or index , including
+      reinvestment of dividends .
+
+
+      data points are the last day of each fiscal year for the company 2019s common
+      stock and september 30th for indexes .
+
+
+      september september september september september september .'
+    header:
+    - ''
+    - september 2009
+    - september 2010
+    - september 2011
+    - september 2012
+    - september 2013
+    - september 2014
+    rows:
+    - - apple inc .
+      - $ 100
+      - $ 160
+      - $ 222
+      - $ 367
+      - $ 272
+      - $ 407
+    - - s&p 500 index
+      - $ 100
+      - $ 110
+      - $ 111
+      - $ 145
+      - $ 173
+      - $ 207
+    - - dow jones u.s . technology supersector index
+      - $ 100
+      - $ 112
+      - $ 115
+      - $ 150
+      - $ 158
+      - $ 205
+    - - s&p information technology index
+      - $ 100
+      - $ 111
+      - $ 115
+      - $ 152
+      - $ 163
+      - $ 210
+    post_text: .
+    id: aapl-2014-table-1
+  - pre_text: 'table of contents concentrations in the available sources of supply
+      of materials and product although most components essential to the company 2019s
+      business are generally available from multiple sources , a number of components
+      are currently obtained from single or limited sources .
+
+
+      in addition , the company competes for various components with other participants
+      in the markets for mobile communication and media devices and personal computers
+      .
+
+
+      therefore , many components used by the company , including those that are available
+      from multiple sources , are at times subject to industry-wide shortage and significant
+      pricing fluctuations that could materially adversely affect the company 2019s
+      financial condition and operating results .
+
+
+      the company uses some custom components that are not commonly used by its competitors
+      , and new products introduced by the company often utilize custom components
+      available from only one source .
+
+
+      when a component or product uses new technologies , initial capacity constraints
+      may exist until the suppliers 2019 yields have matured or manufacturing capacity
+      has increased .
+
+
+      if the company 2019s supply of components for a new or existing product were
+      delayed or constrained , or if an outsourcing partner delayed shipments of completed
+      products to the company , the company 2019s financial condition and operating
+      results could be materially adversely affected .
+
+
+      the company 2019s business and financial performance could also be materially
+      adversely affected depending on the time required to obtain sufficient quantities
+      from the original source , or to identify and obtain sufficient quantities from
+      an alternative source .
+
+
+      continued availability of these components at acceptable prices , or at all
+      , may be affected if those suppliers concentrated on the production of common
+      components instead of components customized to meet the company 2019s requirements
+      .
+
+
+      the company has entered into agreements for the supply of many components ;
+      however , there can be no guarantee that the company will be able to extend
+      or renew these agreements on similar terms , or at all .
+
+
+      therefore , the company remains subject to significant risks of supply shortages
+      and price increases that could materially adversely affect its financial condition
+      and operating results .
+
+
+      substantially all of the company 2019s hardware products are manufactured by
+      outsourcing partners that are located primarily in asia .
+
+
+      a significant concentration of this manufacturing is currently performed by
+      a small number of outsourcing partners , often in single locations .
+
+
+      certain of these outsourcing partners are the sole-sourced suppliers of components
+      and manufacturers for many of the company 2019s products .
+
+
+      although the company works closely with its outsourcing partners on manufacturing
+      schedules , the company 2019s operating results could be adversely affected
+      if its outsourcing partners were unable to meet their production commitments
+      .
+
+
+      the company 2019s purchase commitments typically cover its requirements for
+      periods up to 150 days .
+
+
+      other off-balance sheet commitments operating leases the company leases various
+      equipment and facilities , including retail space , under noncancelable operating
+      lease arrangements .
+
+
+      the company does not currently utilize any other off-balance sheet financing
+      arrangements .
+
+
+      the major facility leases are typically for terms not exceeding 10 years and
+      generally contain multi-year renewal options .
+
+
+      leases for retail space are for terms ranging from five to 20 years , the majority
+      of which are for 10 years , and often contain multi-year renewal options .
+
+
+      as of september 27 , 2014 , the company 2019s total future minimum lease payments
+      under noncancelable operating leases were $ 5.0 billion , of which $ 3.6 billion
+      related to leases for retail space .
+
+
+      rent expense under all operating leases , including both cancelable and noncancelable
+      leases , was $ 717 million , $ 645 million and $ 488 million in 2014 , 2013
+      and 2012 , respectively .
+
+
+      future minimum lease payments under noncancelable operating leases having remaining
+      terms in excess of one year as of september 27 , 2014 , are as follows ( in
+      millions ) : apple inc .
+
+
+      | 2014 form 10-k | 75 .'
+    header:
+    - '2015'
+    - $ 662
+    rows:
+    - - '2016'
+      - '676'
+    - - '2017'
+      - '645'
+    - - '2018'
+      - '593'
+    - - '2019'
+      - '534'
+    - - thereafter
+      - '1877'
+    - - total
+      - $ 4987
+    post_text: .
+    id: aapl-2014-table-2
 - id: aapl-10k-2015
   form: 10-K
   filed: '2015-10-28'
