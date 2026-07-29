@@ -104,11 +104,14 @@ def load(
     n: int | None = None,
     tickers: frozenset[str] = SEEDED_TICKERS,
     rows: list[dict] | None = None,
+    min_year: int | None = None,
 ) -> list[FinqaCase]:
     """Load FinQA rows, filter, parse, return sorted+truncated case list.
 
     When `rows` is None, downloads the HF train split. Tests pass `rows`
-    directly to avoid network.
+    directly to avoid network. `min_year` drops rows whose FinQA year is
+    older than the argument (used to align with the seed's period coverage,
+    e.g. min_year=2010 for the current AAPL sidecar).
     """
     if rows is None:
         from datasets import load_dataset  # local import to keep test paths cheap
@@ -123,6 +126,9 @@ def load(
         ticker, year_s, _page = m.group(1), m.group(2), m.group(3)
         if ticker not in tickers:
             continue
+        year = int(year_s)
+        if min_year is not None and year < min_year:
+            continue
         raw_ans = row.get("answer", "")
         try:
             value, unit = _parse_answer(raw_ans)
@@ -132,7 +138,7 @@ def load(
         cases.append(FinqaCase(
             id=row["id"],
             ticker=ticker,
-            year=int(year_s),
+            year=year,
             question=row.get("question", ""),
             gold_answer_raw=str(raw_ans),
             gold_answer_value=value,

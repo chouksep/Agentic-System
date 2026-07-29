@@ -66,6 +66,17 @@ def test_load_truncates_to_n_deterministically():
     ]
 
 
+def test_load_min_year_drops_older_cases():
+    rows = [
+        _row("AAPL/2002/page_23.pdf-1", "5%"),
+        _row("AAPL/2015/page_10.pdf-0", "$100"),
+        _row("AAPL/2020/page_5.pdf-0", "$200"),
+    ]
+    cases = finqa.load(rows=rows, tickers=frozenset({"AAPL"}), min_year=2010)
+    years = [c.year for c in cases]
+    assert years == [2015, 2020]
+
+
 def test_load_drops_unparseable_gold_rows():
     rows = [
         _row("JPM/2018/page_43.pdf-0", "n/a"),

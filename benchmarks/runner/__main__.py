@@ -94,6 +94,12 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         default=None,
         help="(finqa) comma-separated ticker override (e.g. 'JPM,AAPL'); default = SEEDED_TICKERS",
     )
+    p.add_argument(
+        "--min-year",
+        type=int,
+        default=None,
+        help="(finqa) drop cases whose FinQA year is older than this (align with sidecar coverage)",
+    )
     args = p.parse_args(argv)
     if args.dataset is None and args.benchmark is None:
         p.error("one of --benchmark or --dataset is required")
@@ -226,8 +232,12 @@ def _run_finqa(args: argparse.Namespace, repo_root: Path) -> int:
         frozenset(t.strip().upper() for t in args.tickers.split(",") if t.strip())
         if args.tickers else _finqa.SEEDED_TICKERS
     )
-    cases = _finqa.load(n=args.n, tickers=tickers)
-    log.info("finqa: loaded %d case(s) across %d ticker(s)", len(cases), len(tickers))
+    cases = _finqa.load(n=args.n, tickers=tickers, min_year=args.min_year)
+    log.info(
+        "finqa: loaded %d case(s) across %d ticker(s)%s",
+        len(cases), len(tickers),
+        f" (min_year={args.min_year})" if args.min_year else "",
+    )
 
     config = Config.from_env(repo_root=repo_root)
     llm = LLMClient(config)
