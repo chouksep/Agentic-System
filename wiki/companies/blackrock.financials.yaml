@@ -133,6 +133,12 @@ metrics:
       xbrl_concept: us-gaap:Liabilities
       description: Total liabilities
 filings:
+- id: blk-10k-2024
+  form: 10-K
+  filed: '2025-02-25'
+  period_covered: 2024-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/2012383/000095017025026584/blk-20241231.htm
+  tables: []
 - id: blk-10k-2025
   form: 10-K
   filed: '2026-02-25'

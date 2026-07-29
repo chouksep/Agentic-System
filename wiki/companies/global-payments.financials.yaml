@@ -463,6 +463,776 @@ metrics:
       xbrl_concept: us-gaap:Liabilities
       description: Total liabilities
 filings:
+- id: gpn-10k-2013
+  form: 10-K
+  filed: '2013-07-25'
+  period_covered: 2013-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1123360/000112336013000025/gpn20130531-10k.htm
+  tables:
+  - pre_text: 'our initial estimate of fraud losses , fines and other charges on our
+      understanding of the rules and operating regulations published by the networks
+      and preliminary communications with the networks .
+
+
+      we have now reached resolution with and made payments to the networks , resulting
+      in charges that were less than our initial estimates .
+
+
+      the primary difference between our initial estimates and the final charges relates
+      to lower fraud related costs attributed to this event than previously expected
+      .
+
+
+      the following table reflects the activity in our accrual for fraud losses ,
+      fines and other charges for the twelve months ended may 31 , 2013 ( in thousands
+      ) : .'
+    header:
+    - balance at may 31 2012
+    - $ 67436
+    rows:
+    - - adjustments
+      - -31781 ( 31781 )
+    - - subtotal
+      - '35655'
+    - - payments
+      - -35655 ( 35655 )
+    - - balance at may 31 2013
+      - $ 2014
+    post_text: 'we were insured under policies that provided coverage of certain costs
+      associated with this event .
+
+
+      the policies provided a total of $ 30.0 million in policy limits and contained
+      various sub-limits of liability and other terms , conditions and limitations
+      , including a $ 1.0 million deductible per claim .
+
+
+      as of fiscal year 2013 , we received assessments from certain networks and submitted
+      additional claims to the insurers and recorded $ 20.0 million in additional
+      insurance recoveries based on our negotiations with our insurers .
+
+
+      we will record receivables for any additional recoveries in the periods in which
+      we determine such recovery is probable and the amount can be reasonably estimated
+      .
+
+
+      a class action arising out of the processing system intrusion was filed against
+      us on april 4 , 2012 by natalie willingham ( individually and on behalf of a
+      putative nationwide class ) ( the 201cplaintiff 201d ) .
+
+
+      specifically , ms .
+
+
+      willingham alleged that we failed to maintain reasonable and adequate procedures
+      to protect her personally identifiable information ( 201cpii 201d ) which she
+      claims resulted in two fraudulent charges on her credit card in march 2012 .
+
+
+      further , ms .
+
+
+      willingham asserted that we failed to timely notify the public of the data breach
+      .
+
+
+      based on these allegations , ms .
+
+
+      willingham asserted claims for negligence , violation of the federal stored
+      communications act , willful violation of the fair credit reporting act , negligent
+      violation of the fair credit reporting act , violation of georgia 2019s unfair
+      and deceptive trade practices act , negligence per se , breach of third-party
+      beneficiary contract , and breach of implied contract .
+
+
+      ms .
+
+
+      willingham sought an unspecified amount of damages and injunctive relief .
+
+
+      the lawsuit was filed in the united states district court for the northern district
+      of georgia .
+
+
+      on may 14 , 2012 , we filed a motion to dismiss .
+
+
+      on july 11 , 2012 , plaintiff filed a motion for leave to amend her complaint
+      , and on july 16 , 2012 , the court granted that motion .
+
+
+      she then filed an amended complaint on july 16 , 2012 .
+
+
+      the amended complaint did not add any new causes of action .
+
+
+      instead , it added two new named plaintiffs ( nadine and robert hielscher )
+      ( together with plaintiff , the 201cplaintiffs 201d ) and dropped plaintiff
+      2019s claim for negligence per se .
+
+
+      on august 16 , 2012 , we filed a motion to dismiss the plaintiffs 2019 amended
+      complaint .
+
+
+      the plaintiffs filed their response in opposition to our motion to dismiss on
+      october 5 , 2012 , and we subsequently filed our reply brief on october 22 ,
+      2012 .
+
+
+      the magistrate judge issued a report and recommendation recommending dismissal
+      of all of plaintiffs 2019 claims with prejudice .
+
+
+      the plaintiffs subsequently agreed to voluntarily dismiss the lawsuit with prejudice
+      , with each party bearing its own fees and costs .
+
+
+      this was the only consideration exchanged by the parties in connection with
+      plaintiffs 2019 voluntary dismissal with prejudice of the lawsuit .
+
+
+      the lawsuit was dismissed with prejudice on march 6 , 2013 .
+
+
+      note 3 2014settlement processing assets and obligations we are designated as
+      a merchant service provider by mastercard and an independent sales organization
+      by visa .
+
+
+      these designations are dependent upon member clearing banks ( 201cmember 201d
+      ) sponsoring us and our adherence to the standards of the networks .
+
+
+      we have primary financial institution sponsors in the various markets where
+      we facilitate payment transactions with whom we have sponsorship or depository
+      and clearing agreements .
+
+
+      these agreements allow us to route transactions under the member banks 2019
+      control and identification numbers to clear credit card transactions through
+      mastercard and visa .
+
+
+      in certain markets , we are members in various payment networks , allowing us
+      to process and fund transactions without third-party sponsorship. .'
+    id: gpn-2013-table-0
+  - pre_text: 'item 11 2014executive compensation we incorporate by reference in this
+      item 11 the information relating to executive and director compensation contained
+      under the headings 201cother information about the board and its committees
+      , 201d 201ccompensation and other benefits 201d and 201creport of the compensation
+      committee 201d from our proxy statement to be delivered in connection with our
+      2013 annual meeting of shareholders to be held on november 20 , 2013 .
+
+
+      item 12 2014security ownership of certain beneficial owners and management and
+      related stockholder matters we incorporate by reference in this item 12 the
+      information relating to ownership of our common stock by certain persons contained
+      under the headings 201ccommon stock ownership of management 201d and 201ccommon
+      stock ownership by certain other persons 201d from our proxy statement to be
+      delivered in connection with our 2013 annual meeting of shareholders to be held
+      on november 20 , 2013 .
+
+
+      the following table provides certain information as of may 31 , 2013 concerning
+      the shares of the company 2019s common stock that may be issued under existing
+      equity compensation plans .
+
+
+      for more information on these plans , see note 11 to notes to consolidated financial
+      statements .
+
+
+      plan category number of securities to be issued upon exercise of outstanding
+      options , warrants and rights weighted- average exercise price of outstanding
+      options , warrants and rights number of securities remaining available for future
+      issuance under equity compensation plans ( excluding securities reflected in
+      column ( a ) ) equity compensation plans approved by security holders : 1765510
+      $ 34.92 7927210 ( 1 ) equity compensation plans not approved by security holders
+      : 2014 2014 2014 .'
+    header:
+    - plan category
+    - number of securities to be issued upon exercise of outstanding options warrants
+      and rights ( a )
+    - weighted-average exerciseprice of outstanding options warrants and rights (
+      b )
+    - number of securitiesremaining available forfuture issuance under equity compensation
+      plans ( excluding securities reflected in column ( a ) ) ( c )
+    - ''
+    rows:
+    - - 'equity compensation plans approved by security holders:'
+      - '1765510'
+      - $ 34.92
+      - '7927210'
+      - -1 ( 1 )
+    - - 'equity compensation plans not approved by security holders:'
+      - '2014'
+      - '2014'
+      - '2014'
+      - ''
+    - - total
+      - '1765510'
+      - $ 34.92
+      - '7927210'
+      - -1 ( 1 )
+    post_text: '( 1 ) also includes shares of common stock available for issuance
+      other than upon the exercise of an option , warrant or right under the global
+      payments inc .
+
+
+      2000 long-term incentive plan , as amended and restated , the global payments
+      inc .
+
+
+      amended and restated 2005 incentive plan , amended and restated 2000 non- employee
+      director stock option plan , global payments employee stock purchase plan and
+      the global payments inc .
+
+
+      2011 incentive plan .
+
+
+      item 13 2014certain relationships and related transactions , and director independence
+      we incorporate by reference in this item 13 the information regarding certain
+      relationships and related transactions between us and some of our affiliates
+      and the independence of our board of directors contained under the headings
+      201ccertain relationships and related transactions 201d and 201cother information
+      about the board and its committees 201d from our proxy statement to be delivered
+      in connection with our 2013 annual meeting of shareholders to be held on november
+      20 , 2013 .
+
+
+      item 14 2014principal accounting fees and services we incorporate by reference
+      in this item 14 the information regarding principal accounting fees and services
+      contained under the section ratification of the reappointment of auditors from
+      our proxy statement to be delivered in connection with our 2013 annual meeting
+      of shareholders to be held on november 20 , 2013. .'
+    id: gpn-2013-table-1
+- id: gpn-10k-2014
+  form: 10-K
+  filed: '2014-07-29'
+  period_covered: 2014-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1123360/000112336014000033/gpn20140531-10k.htm
+  tables:
+  - pre_text: 'cash and a commitment to fund the capital needs of the business until
+      such time as its cumulative funding is equal to funding that we have provided
+      from inception through the effective date of the transaction .
+
+
+      the transaction created a new joint venture which does business as comercia
+      global payments brazil .
+
+
+      as a result of the transaction , we deconsolidated global payments brazil ,
+      and we apply the equity method of accounting to our retained interest in comercia
+      global payments brazil .
+
+
+      we recorded a gain on the transaction of $ 2.1 million which is included in
+      interest and other income in the consolidated statement of income for the fiscal
+      year ended may 31 , 2014 .
+
+
+      the results of the brazil operation from inception until the restructuring into
+      a joint venture on september 30 , 2013 were not material to our consolidated
+      results of operations , and the assets and liabilities that we derecognized
+      were not material to our consolidated balance sheet .
+
+
+      american express portfolio on october 24 , 2013 , we acquired a merchant portfolio
+      in the czech republic from american express limited for $ 1.9 million .
+
+
+      the acquired assets have been classified as customer-related intangible assets
+      and contract-based intangible assets with estimated amortization periods of
+      10 years .
+
+
+      paypros on march 4 , 2014 , we completed the acquisition of 100% ( 100 % ) of
+      the outstanding stock of payment processing , inc .
+
+
+      ( 201cpaypros 201d ) for $ 420.0 million in cash plus $ 7.7 million in cash
+      for working capital , subject to adjustment based on a final determination of
+      working capital .
+
+
+      we funded the acquisition with a combination of cash on hand and proceeds from
+      our new term loan .
+
+
+      paypros , based in california , is a provider of fully-integrated payment solutions
+      for small-to-medium sized merchants in the united states .
+
+
+      paypros delivers its products and services through a network of technology-based
+      enterprise software partners to vertical markets that are complementary to the
+      markets served by accelerated payment technologies ( 201capt 201d ) , which
+      we acquired in october 2012 .
+
+
+      we acquired paypros to expand our direct distribution capabilities in the united
+      states and to further enhance our existing integrated solutions offerings .
+
+
+      this acquisition was recorded as a business combination , and the purchase price
+      was allocated to the assets acquired and liabilities assumed based on their
+      estimated fair values .
+
+
+      due to the timing of this transaction , the allocation of the purchase price
+      is preliminary pending final valuation of intangible assets and deferred income
+      taxes as well as resolution of the working capital settlement discussed above
+      .
+
+
+      the purchase price of paypros was determined by analyzing the historical and
+      prospective financial statements .
+
+
+      acquisition costs associated with this purchase were not material .
+
+
+      the following table summarizes the preliminary purchase price allocation ( in
+      thousands ) : .'
+    header:
+    - goodwill
+    - $ 271577
+    rows:
+    - - customer-related intangible assets
+      - '147500'
+    - - contract-based intangible assets
+      - '31000'
+    - - acquired technology
+      - '10700'
+    - - fixed assets
+      - '1680'
+    - - other assets
+      - '4230'
+    - - total assets acquired
+      - '466687'
+    - - deferred income taxes
+      - -38949 ( 38949 )
+    - - net assets acquired
+      - $ 427738
+    post_text: 'the preliminary purchase price allocation resulted in goodwill , included
+      in the north america merchant services segment , of $ 271.6 million .
+
+
+      such goodwill is attributable primarily to synergies with the services offered
+      and markets served by paypros .
+
+
+      the goodwill associated with the acquisition is not deductible for tax purposes
+      .
+
+
+      the customer-related intangible assets and the contract-based intangible assets
+      have an estimated amortization period of 13 years .
+
+
+      the acquired technology has an estimated amortization period of 7 years. .'
+    id: gpn-2014-table-0
+- id: gpn-10k-2015
+  form: 10-K
+  filed: '2015-07-30'
+  period_covered: 2015-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1123360/000112336015000026/gpn20150531-10k.htm
+  tables:
+  - pre_text: 'undistributed earnings of $ 696.9 million from certain foreign subsidiaries
+      are considered to be permanently reinvested abroad and will not be repatriated
+      to the united states in the foreseeable future .
+
+
+      because those earnings are considered to be indefinitely reinvested , no domestic
+      federal or state deferred income taxes have been provided thereon .
+
+
+      if we were to make a distribution of any portion of those earnings in the form
+      of dividends or otherwise , we would be subject to both u.s .
+
+
+      income taxes ( subject to an adjustment for foreign tax credits ) and withholding
+      taxes payable to the various foreign jurisdictions .
+
+
+      because of the availability of u.s .
+
+
+      foreign tax credit carryforwards , it is not practicable to determine the domestic
+      federal income tax liability that would be payable if such earnings were no
+      longer considered to be reinvested indefinitely .
+
+
+      a valuation allowance is provided against deferred tax assets when it is more
+      likely than not that some portion or all of the deferred tax assets will not
+      be realized .
+
+
+      changes to our valuation allowance during the years ended may 31 , 2015 and
+      2014 are summarized below ( in thousands ) : .'
+    header:
+    - balance at may 31 2013
+    - $ -28464 ( 28464 )
+    rows:
+    - - utilization of foreign net operating loss carryforwards
+      - '2822'
+    - - allowance for foreign tax credit carryforward
+      - '18061'
+    - - other
+      - '382'
+    - - balance at may 31 2014
+      - -7199 ( 7199 )
+    - - utilization of foreign net operating loss carryforwards
+      - '3387'
+    - - other
+      - -11 ( 11 )
+    - - balance at may 31 2015
+      - $ -3823 ( 3823 )
+    post_text: 'net operating loss carryforwards of foreign subsidiaries totaling
+      $ 12.4 million and u.s .
+
+
+      net operating loss carryforwards previously acquired totaling $ 19.8 million
+      at may 31 , 2015 will expire between may 31 , 2017 and may 31 , 2033 if not
+      utilized .
+
+
+      capital loss carryforwards of u.s .
+
+
+      subsidiaries totaling $ 4.7 million will expire if not utilized by may 31 ,
+      2017 .
+
+
+      tax credit carryforwards totaling $ 8.4 million at may 31 , 2015 will expire
+      between may 31 , 2017 and may 31 , 2023 if not utilized .
+
+
+      we conduct business globally and file income tax returns in the u.s .
+
+
+      federal jurisdiction and various state and foreign jurisdictions .
+
+
+      in the normal course of business , we are subject to examination by taxing authorities
+      around the world .
+
+
+      as a result of events that occurred in the fourth quarter of the year ended
+      may 31 , 2015 , management concluded that it was more likely than not that the
+      tax positions in a foreign jurisdiction , for which we had recorded estimated
+      liabilities of $ 65.6 million in other noncurrent liabilities on our consolidated
+      balance sheet , would be sustained on their technical merits based on information
+      available as of may 31 , 2015 .
+
+
+      therefore , the liability and corresponding deferred tax assets were eliminated
+      as of may 31 , 2015 .
+
+
+      the uncertain tax positions have been subject to an ongoing examination in that
+      foreign jurisdiction by the tax authority .
+
+
+      discussions and correspondence between the tax authority and us during the fourth
+      quarter indicated that the likelihood of the positions being sustained had increased
+      .
+
+
+      subsequent to may 31 , 2015 , we received a final closure notice regarding the
+      examination resulting in no adjustments to taxable income related to this matter
+      for the tax returns filed for the periods ended may 31 , 2010 through may 31
+      , 2013 .
+
+
+      the unrecognized tax benefits were effectively settled with this final closure
+      notice .
+
+
+      we are no longer subjected to state income tax examinations for years ended
+      on or before may 31 , 2008 , u.s .
+
+
+      federal income tax examinations for fiscal years prior to 2012 and united kingdom
+      federal income tax examinations for years ended on or before may 31 , 2013 .
+
+
+      78 2013 global payments inc .
+
+
+      | 2015 form 10-k annual report .'
+    id: gpn-2015-table-0
+  - pre_text: 'the performance units granted to certain executives in fiscal 2014
+      were based on a one-year performance period .
+
+
+      after the compensation committee certified the performance results , 25% ( 25
+      % ) of the performance units converted to unrestricted shares .
+
+
+      the remaining 75% ( 75 % ) converted to restricted shares that vest in equal
+      installments on each of the first three anniversaries of the conversion date
+      .
+
+
+      the performance units granted to certain executives during fiscal 2015 were
+      based on a three-year performance period .
+
+
+      after the compensation committee certifies the performance results for the three-year
+      period , performance units earned will convert into unrestricted common stock
+      .
+
+
+      the compensation committee may set a range of possible performance-based outcomes
+      for performance units .
+
+
+      depending on the achievement of the performance measures , the grantee may earn
+      up to 200% ( 200 % ) of the target number of shares .
+
+
+      for awards with only performance conditions , we recognize compensation expense
+      over the performance period using the grant date fair value of the award , which
+      is based on the number of shares expected to be earned according to the level
+      of achievement of performance goals .
+
+
+      if the number of shares expected to be earned were to change at any time during
+      the performance period , we would make a cumulative adjustment to share-based
+      compensation expense based on the revised number of shares expected to be earned
+      .
+
+
+      during fiscal 2015 , certain executives were granted performance units that
+      we refer to as leveraged performance units , or lpus .
+
+
+      lpus contain a market condition based on our relative stock price growth over
+      a three-year performance period .
+
+
+      the lpus contain a minimum threshold performance which , if not met , would
+      result in no payout .
+
+
+      the lpus also contain a maximum award opportunity set as a fixed dollar and
+      fixed number of shares .
+
+
+      after the three-year performance period , one-third of any earned units converts
+      to unrestricted common stock .
+
+
+      the remaining two-thirds convert to restricted stock that will vest in equal
+      installments on each of the first two anniversaries of the conversion date .
+
+
+      we recognize share-based compensation expense based on the grant date fair value
+      of the lpus , as determined by use of a monte carlo model , on a straight-line
+      basis over the requisite service period for each separately vesting portion
+      of the lpu award .
+
+
+      total shareholder return units before fiscal 2015 , certain of our executives
+      were granted total shareholder return ( 201ctsr 201d ) units , which are performance-based
+      restricted stock units that are earned based on our total shareholder return
+      over a three-year performance period compared to companies in the s&p 500 .
+
+
+      once the performance results are certified , tsr units convert into unrestricted
+      common stock .
+
+
+      depending on our performance , the grantee may earn up to 200% ( 200 % ) of
+      the target number of shares .
+
+
+      the target number of tsr units for each executive is set by the compensation
+      committee .
+
+
+      we recognize share-based compensation expense based on the grant date fair value
+      of the tsr units , as determined by use of a monte carlo model , on a straight-line
+      basis over the vesting period .
+
+
+      the following table summarizes the changes in unvested share-based awards for
+      the years ended may 31 , 2015 and 2014 ( shares in thousands ) : shares weighted-average
+      grant-date fair value .'
+    header:
+    - ''
+    - shares
+    - weighted-averagegrant-datefair value
+    rows:
+    - - unvested at may 31 2013
+      - '1096'
+      - $ 44
+    - - granted
+      - '544'
+      - '47'
+    - - vested
+      - -643 ( 643 )
+      - '45'
+    - - forfeited
+      - -120 ( 120 )
+      - '45'
+    - - unvested at may 31 2014
+      - '877'
+      - '45'
+    - - granted
+      - '477'
+      - '72'
+    - - vested
+      - -324 ( 324 )
+      - '46'
+    - - forfeited
+      - -106 ( 106 )
+      - '53'
+    - - unvested at may 31 2015
+      - '924'
+      - $ 58
+    post_text: 'global payments inc .
+
+
+      | 2015 form 10-k annual report 2013 81 .'
+    id: gpn-2015-table-1
+  - pre_text: 'during fiscal 2013 , we entered into an asr with a financial institution
+      to repurchase an aggregate of $ 125 million of our common stock .
+
+
+      in exchange for an up-front payment of $ 125 million , the financial institution
+      committed to deliver a number of shares during the asr 2019s purchase period
+      , which ended on march 30 , 2013 .
+
+
+      the total number of shares delivered under this asr was 2.5 million at an average
+      price of $ 49.13 per share .
+
+
+      during fiscal 2013 , in addition to shares repurchased under the asr , we repurchased
+      and retired 1.1 million shares of our common stock at a cost of $ 50.3 million
+      , or an average of $ 44.55 per share , including commissions .
+
+
+      note 10 2014share-based awards and options non-qualified stock options and restricted
+      stock have been granted to officers , key employees and directors under the
+      global payments inc .
+
+
+      2000 long-term incentive plan , as amended and restated ( the 201c2000 plan
+      201d ) , the global payments inc .
+
+
+      amended and restated 2005 incentive plan ( the 201c2005 plan 201d ) , the amended
+      and restated 2000 non-employee director stock option plan ( the 201cdirector
+      stock option plan 201d ) , and the global payments inc .
+
+
+      2011 incentive plan ( the 201c2011 plan 201d ) ( collectively , the 201cplans
+      201d ) .
+
+
+      there were no further grants made under the 2000 plan after the 2005 plan was
+      effective , and the director stock option plan expired by its terms on february
+      1 , 2011 .
+
+
+      there will be no future grants under the 2000 plan , the 2005 plan or the director
+      stock option the 2011 plan permits grants of equity to employees , officers
+      , directors and consultants .
+
+
+      a total of 7.0 million shares of our common stock was reserved and made available
+      for issuance pursuant to awards granted under the 2011 plan .
+
+
+      the following table summarizes share-based compensation expense and the related
+      income tax benefit recognized for stock options , restricted stock , performance
+      units , tsr units , and shares issued under our employee stock purchase plan
+      ( each as described below ) .
+
+
+      2015 2014 2013 ( in millions ) .'
+    header:
+    - ''
+    - '2015'
+    - 2014 ( in millions )
+    - '2013'
+    rows:
+    - - share-based compensation expense
+      - $ 21.1
+      - $ 29.8
+      - $ 18.4
+    - - income tax benefit
+      - $ -6.9 ( 6.9 )
+      - $ -7.1 ( 7.1 )
+      - $ -5.6 ( 5.6 )
+    post_text: 'we grant various share-based awards pursuant to the plans under what
+      we refer to as our 201clong-term incentive plan . 201d the awards are held in
+      escrow and released upon the grantee 2019s satisfaction of conditions of the
+      award certificate .
+
+
+      restricted stock and restricted stock units we grant restricted stock and restricted
+      stock units .
+
+
+      restricted stock awards vest over a period of time , provided , however , that
+      if the grantee is not employed by us on the vesting date , the shares are forfeited
+      .
+
+
+      restricted shares cannot be sold or transferred until they have vested .
+
+
+      restricted stock granted before fiscal 2015 vests in equal installments on each
+      of the first four anniversaries of the grant date .
+
+
+      restricted stock granted during fiscal 2015 will either vest in equal installments
+      on each of the first three anniversaries of the grant date or cliff vest at
+      the end of a three-year service period .
+
+
+      the grant date fair value of restricted stock , which is based on the quoted
+      market value of our common stock at the closing of the award date , is recognized
+      as share-based compensation expense on a straight-line basis over the vesting
+      period .
+
+
+      performance units certain of our executives have been granted up to three types
+      of performance units under our long-term incentive plan .
+
+
+      performance units are performance-based restricted stock units that , after
+      a performance period , convert into common shares , which may be restricted
+      .
+
+
+      the number of shares is dependent upon the achievement of certain performance
+      measures during the performance period .
+
+
+      the target number of performance units and any market-based performance measures
+      ( 201cat threshold , 201d 201ctarget , 201d and 201cmaximum 201d ) are set by
+      the compensation committee of our board of directors .
+
+
+      performance units are converted only after the compensation committee certifies
+      performance based on pre-established goals .
+
+
+      80 2013 global payments inc .
+
+
+      | 2015 form 10-k annual report .'
+    id: gpn-2015-table-2
 - id: gpn-10k-2016
   form: 10-K
   filed: '2016-07-28'

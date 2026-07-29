@@ -418,6 +418,557 @@ metrics:
       xbrl_concept: us-gaap:StockholdersEquity
       description: Total equity
 filings:
+- id: awk-10k-2012
+  form: 10-K
+  filed: '2013-03-01'
+  period_covered: 2012-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1410636/000119312513085812/d444550d10k.htm
+  tables:
+  - pre_text: 'the following table summarizes the changes in the company 2019s valuation
+      allowance: .'
+    header:
+    - balance at january 1 2010
+    - $ 25621
+    rows:
+    - - increases in current period tax positions
+      - '907'
+    - - decreases in current period tax positions
+      - -2740 ( 2740 )
+    - - balance at december 31 2010
+      - $ 23788
+    - - increases in current period tax positions
+      - '1525'
+    - - decreases in current period tax positions
+      - -3734 ( 3734 )
+    - - balance at december 31 2011
+      - $ 21579
+    - - increases in current period tax positions
+      - '0'
+    - - decreases in current period tax positions
+      - -2059 ( 2059 )
+    - - balance at december 31 2012
+      - $ 19520
+    post_text: 'note 14 : employee benefits pension and other postretirement benefits
+      the company maintains noncontributory defined benefit pension plans covering
+      eligible employees of its regulated utility and shared services operations .
+
+
+      benefits under the plans are based on the employee 2019s years of service and
+      compensation .
+
+
+      the pension plans have been closed for most employees hired on or after january
+      1 , 2006 .
+
+
+      union employees hired on or after january 1 , 2001 had their accrued benefit
+      frozen and will be able to receive this benefit as a lump sum upon termination
+      or retirement .
+
+
+      union employees hired on or after january 1 , 2001 and non-union employees hired
+      on or after january 1 , 2006 are provided with a 5.25% ( 5.25 % ) of base pay
+      defined contribution plan .
+
+
+      the company does not participate in a multiemployer plan .
+
+
+      the company 2019s funding policy is to contribute at least the greater of the
+      minimum amount required by the employee retirement income security act of 1974
+      or the normal cost , and an additional contribution if needed to avoid 201cat
+      risk 201d status and benefit restrictions under the pension protection act of
+      2006 .
+
+
+      the company may also increase its contributions , if appropriate , to its tax
+      and cash position and the plan 2019s funded position .
+
+
+      pension plan assets are invested in a number of actively managed and indexed
+      investments including equity and bond mutual funds , fixed income securities
+      and guaranteed interest contracts with insurance companies .
+
+
+      pension expense in excess of the amount contributed to the pension plans is
+      deferred by certain regulated subsidiaries pending future recovery in rates
+      charged for utility services as contributions are made to the plans .
+
+
+      ( see note 6 ) the company also has several unfunded noncontributory supplemental
+      non-qualified pension plans that provide additional retirement benefits to certain
+      employees .
+
+
+      the company maintains other postretirement benefit plans providing varying levels
+      of medical and life insurance to eligible retirees .
+
+
+      the retiree welfare plans are closed for union employees hired on or after january
+      1 , 2006 .
+
+
+      the plans had previously closed for non-union employees hired on or after january
+      1 , 2002 .
+
+
+      the company 2019s policy is to fund other postretirement benefit costs for rate-making
+      purposes .
+
+
+      plan assets are invested in equity and bond mutual funds , fixed income securities
+      , real estate investment trusts ( 201creits 201d ) and emerging market funds
+      .
+
+
+      the obligations of the plans are dominated by obligations for active employees
+      .
+
+
+      because the timing of expected benefit payments is so far in the future and
+      the size of the plan assets are small relative to the company 2019s assets ,
+      the investment strategy is to allocate a significant percentage of assets to
+      equities , which the company believes will provide the highest return over the
+      long-term period .
+
+
+      the fixed income assets are invested in long duration debt securities and may
+      be invested in fixed income instruments , such as futures and options in order
+      to better match the duration of the plan liability. .'
+    id: awk-2012-table-0
+  - pre_text: 'as noted above , as a result of these sales , these regulated subsidiaries
+      are presented as discontinued operations for all periods presented .
+
+
+      therefore , the amounts , statistics and tables presented in this section refer
+      only to on-going operations , unless otherwise noted .
+
+
+      the following table sets forth our regulated businesses operating revenue for
+      2012 and number of customers from continuing operations as well as an estimate
+      of population served as of december 31 , 2012 : operating revenues ( in millions
+      ) % (  % ) of total number of customers % (  % ) of total estimated population
+      served ( in millions ) % (  % ) of total .'
+    header:
+    - new jersey
+    - operating revenues ( in millions ) $ 639.0
+    - '% (  % ) of total 24.9% ( 24.9 % )'
+    - number of customers 639838
+    - '% (  % ) of total 20.3% ( 20.3 % )'
+    - estimated population served ( in millions ) 2.5
+    - '% (  % ) of total 21.9% ( 21.9 % )'
+    rows:
+    - - pennsylvania
+      - '557.7'
+      - 21.7% ( 21.7 % )
+      - '658153'
+      - 20.8% ( 20.8 % )
+      - '2.2'
+      - 19.3% ( 19.3 % )
+    - - missouri
+      - '279.5'
+      - 10.9% ( 10.9 % )
+      - '455730'
+      - 14.4% ( 14.4 % )
+      - '1.5'
+      - 13.2% ( 13.2 % )
+    - - illinois ( a )
+      - '256.4'
+      - 10.0% ( 10.0 % )
+      - '308014'
+      - 9.8% ( 9.8 % )
+      - '1.2'
+      - 10.5% ( 10.5 % )
+    - - indiana
+      - '198.7'
+      - 7.8% ( 7.8 % )
+      - '289068'
+      - 9.2% ( 9.2 % )
+      - '1.2'
+      - 10.5% ( 10.5 % )
+    - - california
+      - '193.3'
+      - 7.5% ( 7.5 % )
+      - '174188'
+      - 5.5% ( 5.5 % )
+      - '0.6'
+      - 5.3% ( 5.3 % )
+    - - west virginia ( b )
+      - '125.0'
+      - 4.9% ( 4.9 % )
+      - '172159'
+      - 5.4% ( 5.4 % )
+      - '0.6'
+      - 5.3% ( 5.3 % )
+    - - subtotal ( top seven states )
+      - '2249.6'
+      - 87.7% ( 87.7 % )
+      - '2697150'
+      - 85.4% ( 85.4 % )
+      - '9.8'
+      - 86.0% ( 86.0 % )
+    - - other ( c )
+      - '314.8'
+      - 12.3% ( 12.3 % )
+      - '461076'
+      - 14.6% ( 14.6 % )
+      - '1.6'
+      - 14.0% ( 14.0 % )
+    - - total regulated businesses
+      - $ 2564.4
+      - 100.0% ( 100.0 % )
+      - '3158226'
+      - 100.0% ( 100.0 % )
+      - '11.4'
+      - 100.0% ( 100.0 % )
+    post_text: '( a ) includes illinois-american water company , which we refer to
+      as ilawc and american lake water company , also a regulated subsidiary in illinois
+      .
+
+
+      ( b ) west virginia-american water company , which we refer to as wvawc , and
+      its subsidiary bluefield valley water works company .
+
+
+      ( c ) includes data from our operating subsidiaries in the following states
+      : georgia , hawaii , iowa , kentucky , maryland , michigan , new york , tennessee
+      , and virginia .
+
+
+      approximately 87.7% ( 87.7 % ) of operating revenue from our regulated businesses
+      in 2012 was generated from approximately 2.7 million customers in our seven
+      largest states , as measured by operating revenues .
+
+
+      in fiscal year 2012 , no single customer accounted for more than 10% ( 10 %
+      ) of our annual operating revenue .
+
+
+      overview of networks , facilities and water supply our regulated businesses
+      operate in approximately 1500 communities in 16 states in the united states
+      .
+
+
+      our primary operating assets include approximately 80 surface water treatment
+      plants , 500 groundwater treatment plants , 1000 groundwater wells , 100 wastewater
+      treatment facilities , 1200 treated water storage facilities , 1300 pumping
+      stations , 90 dams and 46000 miles of mains and collection pipes .
+
+
+      our regulated utilities own substantially all of the assets used by our regulated
+      businesses .
+
+
+      we generally own the land and physical assets used to store , extract and treat
+      source water .
+
+
+      typically , we do not own the water itself , which is held in public trust and
+      is allocated to us through contracts and allocation rights granted by federal
+      and state agencies or through the ownership of water rights pursuant to local
+      law .
+
+
+      maintaining the reliability of our networks is a key activity of our regulated
+      businesses .
+
+
+      we have ongoing infrastructure renewal programs in all states in which our regulated
+      businesses operate .
+
+
+      these programs consist of both rehabilitation of existing mains and replacement
+      of mains that have reached the end of their useful service lives .
+
+
+      our ability to meet the existing and future water demands of our customers depends
+      on an adequate supply of water .
+
+
+      drought , governmental restrictions , overuse of sources of water , the protection
+      of threatened species or habitats or other factors may limit the availability
+      of ground and surface water .
+
+
+      we employ a variety of measures to ensure that we have adequate sources of water
+      supply , both in the short-term and over the long-term .
+
+
+      the geographic diversity of our service areas tends to mitigate some of the
+      economic effect of weather extremes we .'
+    id: awk-2012-table-1
+- id: awk-10k-2013
+  form: 10-K
+  filed: '2014-02-27'
+  period_covered: 2013-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/1410636/000156459014000381/awk-10k_20131231.htm
+  tables:
+  - pre_text: 'the following table summarizes the changes in the company 2019s valuation
+      allowance: .'
+    header:
+    - balance at january 1 2011
+    - $ 23788
+    rows:
+    - - increases in current period tax positions
+      - '1525'
+    - - decreases in current period tax positions
+      - -3734 ( 3734 )
+    - - balance at december 31 2011
+      - $ 21579
+    - - increases in current period tax positions
+      - '0'
+    - - decreases in current period tax positions
+      - -2059 ( 2059 )
+    - - balance at december 31 2012
+      - $ 19520
+    - - increases in current period tax positions
+      - '0'
+    - - decreases in current period tax positions
+      - -5965 ( 5965 )
+    - - balance at december 31 2013
+      - $ 13555
+    post_text: 'included in 2013 is a discrete tax benefit totaling $ 2979 associated
+      with an entity re-organization within the company 2019s market-based segment
+      that allowed for the utilization of state net operating loss carryforwards and
+      the release of an associated valuation allowance .
+
+
+      note 14 : employee benefits pension and other postretirement benefits the company
+      maintains noncontributory defined benefit pension plans covering eligible employees
+      of its regulated utility and shared services operations .
+
+
+      benefits under the plans are based on the employee 2019s years of service and
+      compensation .
+
+
+      the pension plans have been closed for all employees .
+
+
+      the pension plans were closed for most employees hired on or after january 1
+      , 2006 .
+
+
+      union employees hired on or after january 1 , 2001 had their accrued benefit
+      frozen and will be able to receive this benefit as a lump sum upon termination
+      or retirement .
+
+
+      union employees hired on or after january 1 , 2001 and non-union employees hired
+      on or after january 1 , 2006 are provided with a 5.25% ( 5.25 % ) of base pay
+      defined contribution plan .
+
+
+      the company does not participate in a multiemployer plan .
+
+
+      the company 2019s pension funding practice is to contribute at least the greater
+      of the minimum amount required by the employee retirement income security act
+      of 1974 or the normal cost .
+
+
+      further , the company will consider additional contributions if needed to avoid
+      201cat risk 201d status and benefit restrictions under the pension protection
+      act of 2006 .
+
+
+      the company may also consider increased contributions , based on other financial
+      requirements and the plans 2019 funded position .
+
+
+      pension plan assets are invested in a number of actively managed and indexed
+      investments including equity and bond mutual funds , fixed income securities
+      , guaranteed interest contracts with insurance companies and real estate investment
+      trusts ( 201creits 201d ) .
+
+
+      pension expense in excess of the amount contributed to the pension plans is
+      deferred by certain regulated subsidiaries pending future recovery in rates
+      charged for utility services as contributions are made to the plans .
+
+
+      ( see note 6 ) the company also has unfunded noncontributory supplemental non-qualified
+      pension plans that provide additional retirement benefits to certain employees
+      .
+
+
+      the company maintains other postretirement benefit plans providing varying levels
+      of medical and life insurance to eligible retirees .
+
+
+      the retiree welfare plans are closed for union employees hired on or after january
+      1 , 2006 .
+
+
+      the plans had previously closed for non-union employees hired on or after january
+      1 , 2002 .
+
+
+      the company 2019s policy is to fund other postretirement benefit costs for rate-making
+      purposes .
+
+
+      assets of the plans are invested in equity mutual funds , bond mutual funds
+      and fixed income securities. .'
+    id: awk-2013-table-0
+  - pre_text: 'acquisition added approximately 1700 water customers and nearly 2000
+      wastewater customers .
+
+
+      the tex as assets served approximately 4200 water and 1100 wastewater customers
+      in the greater houston metropolitan as noted above , as a result of these sales
+      , these regulated subsidiaries are presented as discontinued operations for
+      all periods presented .
+
+
+      therefore , the amounts , statistics and tables presented in this section refer
+      only to on-going operations , unless otherwise noted .
+
+
+      the following table sets forth our regulated businesses operating revenue for
+      2013 and number of customers from continuing operations as well as an estimate
+      of population served as of december 31 , 2013 : operating revenues ( in millions
+      ) % (  % ) of total number of customers % (  % ) of total estimated population
+      served ( in millions ) % (  % ) of total .'
+    header:
+    - new jersey
+    - operatingrevenues ( in millions ) $ 638.0
+    - '% (  % ) of total 24.6% ( 24.6 % )'
+    - number ofcustomers 647168
+    - '% (  % ) of total 20.1% ( 20.1 % )'
+    - estimatedpopulationserved ( in millions ) 2.5
+    - '% (  % ) of total 21.7% ( 21.7 % )'
+    rows:
+    - - pennsylvania
+      - '571.2'
+      - 22.0% ( 22.0 % )
+      - '666947'
+      - 20.7% ( 20.7 % )
+      - '2.1'
+      - 18.3% ( 18.3 % )
+    - - missouri
+      - '264.8'
+      - 10.2% ( 10.2 % )
+      - '464232'
+      - 14.4% ( 14.4 % )
+      - '1.5'
+      - 13.1% ( 13.1 % )
+    - - illinois ( a )
+      - '261.7'
+      - 10.1% ( 10.1 % )
+      - '311464'
+      - 9.7% ( 9.7 % )
+      - '1.2'
+      - 10.4% ( 10.4 % )
+    - - california
+      - '209.5'
+      - 8.1% ( 8.1 % )
+      - '173986'
+      - 5.4% ( 5.4 % )
+      - '0.6'
+      - 5.2% ( 5.2 % )
+    - - indiana
+      - '199.2'
+      - 7.7% ( 7.7 % )
+      - '293345'
+      - 9.1% ( 9.1 % )
+      - '1.2'
+      - 10.4% ( 10.4 % )
+    - - west virginia ( b )
+      - '124.2'
+      - 4.8% ( 4.8 % )
+      - '173208'
+      - 5.4% ( 5.4 % )
+      - '0.6'
+      - 5.2% ( 5.2 % )
+    - - subtotal ( top seven states )
+      - '2268.6'
+      - 87.5% ( 87.5 % )
+      - '2730350'
+      - 84.8% ( 84.8 % )
+      - '9.7'
+      - 84.3% ( 84.3 % )
+    - - other ( c )
+      - '325.3'
+      - 12.5% ( 12.5 % )
+      - '489149'
+      - 15.2% ( 15.2 % )
+      - '1.8'
+      - 15.7% ( 15.7 % )
+    - - total regulated businesses
+      - $ 2593.9
+      - 100.0% ( 100.0 % )
+      - '3219499'
+      - 100.0% ( 100.0 % )
+      - '11.5'
+      - 100.0% ( 100.0 % )
+    post_text: '( a ) includes illinois-american water company , which we refer to
+      as ilawc and american lake water company , also a regulated subsidiary in illinois
+      .
+
+
+      ( b ) west virginia-american water company , which we refer to as wvawc , and
+      its subsidiary bluefield valley water works company .
+
+
+      ( c ) includes data from our operating subsidiaries in the following states
+      : georgia , hawaii , iowa , kentucky , maryland , michigan , new york , tennessee
+      , and virginia .
+
+
+      approximately 87.5 % (  % ) of operating revenue from our regulated businesses
+      in 2013 was generated from approximately 2.7 million customers in our seven
+      largest states , as measured by operating revenues .
+
+
+      in fiscal year 2013 , no single customer accounted for more than 10% ( 10 %
+      ) of our annual operating revenue .
+
+
+      overview of networks , facilities and water supply our regulated businesses
+      operate in approximately 1500 communities in 16 states in the united states
+      .
+
+
+      our primary operating assets include 87 dams along with approximately 80 surface
+      water treatment plants , 500 groundwater treatment plants , 1000 groundwater
+      wells , 100 wastewater treatment facilities , 1200 treated water storage facilities
+      , 1300 pumping stations , and 47000 miles of mains and collection pipes .
+
+
+      our regulated utilities own substantially all of the assets used by our regulated
+      businesses .
+
+
+      we generally own the land and physical assets used to store , extract and treat
+      source water .
+
+
+      typically , we do not own the water itself , which is held in public trust and
+      is allocated to us through contracts and allocation rights granted by federal
+      and state agencies or through the ownership of water rights pursuant to local
+      law .
+
+
+      maintaining the reliability of our networks is a key activity of our regulated
+      businesses .
+
+
+      we have ongoing infrastructure renewal programs in all states in which our regulated
+      businesses operate .
+
+
+      these programs consist of both rehabilitation of existing mains and replacement
+      of mains that have reached the end of their useful service lives .
+
+
+      our ability to meet the existing and future water demands of our customers depends
+      on an adequate supply of water .
+
+
+      drought , governmental restrictions , overuse of sources of water , the protection
+      of threatened species or .'
+    id: awk-2013-table-1
 - id: awk-10k-2014
   form: 10-K
   filed: '2015-02-25'

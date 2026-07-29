@@ -586,6 +586,2479 @@ metrics:
       xbrl_concept: us-gaap:Liabilities
       description: Total liabilities
 filings:
+- id: adbe-10k-2009
+  form: 10-K
+  filed: '2010-01-22'
+  period_covered: 2009-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/796343/000079634310000003/form_10k.htm
+  tables:
+  - pre_text: 'adobe systems incorporated notes to consolidated financial statements
+      ( continued ) note 8 .
+
+
+      other assets other assets as of november 27 , 2009 and november 28 , 2008 consisted
+      of the following ( in thousands ) : .'
+    header:
+    - ''
+    - '2009'
+    - '2008'
+    rows:
+    - - acquired rights to use technology
+      - $ 84313
+      - $ 90643
+    - - investments
+      - '63526'
+      - '76589'
+    - - security and other deposits
+      - '11692'
+      - '16087'
+    - - prepaid royalties
+      - '12059'
+      - '9026'
+    - - deferred compensation plan assets
+      - '9045'
+      - '7560'
+    - - restricted cash
+      - '4650'
+      - '7361'
+    - - prepaid land lease
+      - '3209'
+      - '3185'
+    - - prepaid rent
+      - '1377'
+      - '2658'
+    - - other
+      - '1394'
+      - '3420'
+    - - other assets
+      - $ 191265
+      - $ 216529
+    post_text: 'acquired rights to use technology purchased during fiscal 2009 and
+      fiscal 2008 was $ 6.0 million and $ 100.4 million , respectively .
+
+
+      of the cost for fiscal 2008 , an estimated $ 56.4 million was related to future
+      licensing rights and has been capitalized and is being amortized on a straight-line
+      basis over the estimated useful lives up to fifteen years .
+
+
+      of the remaining costs for fiscal 2008 , we estimated that $ 27.2 million was
+      related to historical use of licensing rights which was expensed as cost of
+      sales and the residual of $ 16.8 million for fiscal 2008 was expensed as general
+      and administrative costs .
+
+
+      in connection with these licensing arrangements , we have the ability to acquire
+      additional rights to use technology in the future .
+
+
+      see note 17 for further information regarding our contractual commitments .
+
+
+      in general , acquired rights to use technology are amortized over their estimated
+      useful lives of 3 to 15 years .
+
+
+      included in investments are our indirect investments through our limited partnership
+      interest in adobe ventures of approximately $ 37.1 million and $ 39.0 million
+      as of november 27 , 2009 and november 28 , 2008 , respectively , which is consolidated
+      in accordance with the provisions for consolidating variable interest entities
+      .
+
+
+      the partnership is controlled by granite ventures , an independent venture capital
+      firm and sole general partner of adobe ventures .
+
+
+      we are the primary beneficiary of adobe ventures and bear virtually all of the
+      risks and rewards related to our ownership .
+
+
+      our investment in adobe ventures does not have a significant impact on our consolidated
+      financial position , results of operations or cash flows .
+
+
+      adobe ventures carries its investments in equity securities at estimated fair
+      value and investment gains and losses are included in our consolidated statements
+      of income .
+
+
+      substantially all of the investments held by adobe ventures at november 27 ,
+      2009 and november 28 , 2008 are not publicly traded and , therefore , there
+      is no established market for these securities .
+
+
+      in order to determine the fair value of these investments , we use the most
+      recent round of financing involving new non-strategic investors or estimates
+      of current market value made by granite ventures .
+
+
+      it is our policy to evaluate the fair value of these investments held by adobe
+      ventures , as well as our direct investments , on a regular basis .
+
+
+      this evaluation includes , but is not limited to , reviewing each company 2019s
+      cash position , financing needs , earnings and revenue outlook , operational
+      performance , management and ownership changes and competition .
+
+
+      in the case of privately-held companies , this evaluation is based on information
+      that we request from these companies .
+
+
+      this information is not subject to the same disclosure regulations as u.s .
+
+
+      publicly traded companies and as such , the basis for these evaluations is subject
+      to the timing and the accuracy of the data received from these companies .
+
+
+      see note 4 for further information regarding adobe ventures .
+
+
+      also included in investments are our direct investments in privately-held companies
+      of approximately $ 26.4 million and $ 37.6 million as of november 27 , 2009
+      and november 28 , 2008 , respectively , which are accounted for based on the
+      cost method .
+
+
+      we assess these investments for impairment in value as circumstances dictate
+      .
+
+
+      see note 4 for further information regarding our cost method investments .
+
+
+      we entered into a purchase and sale agreement , effective may 12 , 2008 , for
+      the acquisition of real property located in waltham , massachusetts .
+
+
+      we purchased the property upon completion of construction of an office building
+      shell and core , parking structure , and site improvements .
+
+
+      the purchase price for the property was $ 44.7 million and closed on june 16
+      , 2009 .
+
+
+      we made an initial deposit of $ 7.0 million which was included in security and
+      other deposits as of november 28 , 2008 and the remaining balance was paid at
+      closing .
+
+
+      this deposit was held in escrow until closing and then applied to the purchase
+      price. .'
+    id: adbe-2009-table-0
+  - pre_text: 'adobe systems incorporated notes to consolidated financial statements
+      ( continued ) foreign currency translation we translate assets and liabilities
+      of foreign subsidiaries , whose functional currency is their local currency
+      , at exchange rates in effect at the balance sheet date .
+
+
+      we translate revenue and expenses at the monthly average exchange rates .
+
+
+      we include accumulated net translation adjustments in stockholders 2019 equity
+      as a component of accumulated other comprehensive income .
+
+
+      property and equipment we record property and equipment at cost less accumulated
+      depreciation and amortization .
+
+
+      property and equipment are depreciated using the straight-line method over their
+      estimated useful lives ranging from 1 to 5 years for computers and equipment
+      , 1 to 6 years for furniture and fixtures and up to 35 years for buildings .
+
+
+      leasehold improvements are amortized using the straight-line method over the
+      lesser of the remaining respective lease term or useful lives .
+
+
+      goodwill , purchased intangibles and other long-lived assets we review our goodwill
+      for impairment annually , or more frequently , if facts and circumstances warrant
+      a review .
+
+
+      we completed our annual impairment test in the second quarter of fiscal 2009
+      and determined that there was no impairment .
+
+
+      goodwill is assigned to one or more reporting segments on the date of acquisition
+      .
+
+
+      we evaluate goodwill for impairment by comparing the fair value of each of our
+      reporting segments to its carrying value , including the associated goodwill
+      .
+
+
+      to determine the fair values , we use the market approach based on comparable
+      publicly traded companies in similar lines of businesses and the income approach
+      based on estimated discounted future cash flows .
+
+
+      our cash flow assumptions consider historical and forecasted revenue , operating
+      costs and other relevant factors .
+
+
+      we amortize intangible assets with finite lives over their estimated useful
+      lives and review them for impairment whenever an impairment indicator exists
+      .
+
+
+      we continually monitor events and changes in circumstances that could indicate
+      carrying amounts of our long-lived assets , including our intangible assets
+      may not be recoverable .
+
+
+      when such events or changes in circumstances occur , we assess recoverability
+      by determining whether the carrying value of such assets will be recovered through
+      the undiscounted expected future cash flows .
+
+
+      if the future undiscounted cash flows are less than the carrying amount of these
+      assets , we recognize an impairment loss based on the excess of the carrying
+      amount over the fair value of the assets .
+
+
+      we did not recognize any intangible asset impairment charges in fiscal 2009
+      , 2008 or 2007 .
+
+
+      our intangible assets are amortized over their estimated useful lives of 1 to
+      13 years as shown in the table below .
+
+
+      amortization is based on the pattern in which the economic benefits of the intangible
+      asset will be consumed .
+
+
+      weighted average useful life ( years ) .'
+    header:
+    - ''
+    - weighted average useful life ( years )
+    rows:
+    - - purchased technology
+      - '7'
+    - - localization
+      - '1'
+    - - trademarks
+      - '7'
+    - - customer contracts and relationships
+      - '10'
+    - - other intangibles
+      - '2'
+    post_text: 'software development costs capitalization of software development
+      costs for software to be sold , leased , or otherwise marketed begins upon the
+      establishment of technological feasibility , which is generally the completion
+      of a working prototype that has been certified as having no critical bugs and
+      is a release candidate .
+
+
+      amortization begins once the software is ready for its intended use , generally
+      based on the pattern in which the economic benefits will be consumed .
+
+
+      to date , software development costs incurred between completion of a working
+      prototype and general availability of the related product have not been material
+      .
+
+
+      revenue recognition our revenue is derived from the licensing of software products
+      , consulting , hosting services and maintenance and support .
+
+
+      primarily , we recognize revenue when persuasive evidence of an arrangement
+      exists , we have delivered the product or performed the service , the fee is
+      fixed or determinable and collection is probable. .'
+    id: adbe-2009-table-1
+- id: adbe-10k-2011
+  form: 10-K
+  filed: '2012-01-26'
+  period_covered: 2011-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/796343/000079634312000003/adbe10kfy11.htm
+  tables:
+  - pre_text: 'improvements are amortized using the straight-line method over the
+      lesser of the remaining respective lease term or estimated useful lives ranging
+      from 1 to 15 years .
+
+
+      goodwill , purchased intangibles and other long-lived assets we review our goodwill
+      for impairment annually , or more frequently , if facts and circumstances warrant
+      a review .
+
+
+      we completed our annual impairment test in the second quarter of fiscal 2011
+      and determined that there was no impairment .
+
+
+      in the fourth quarter of fiscal 2011 , we announced changes to our business
+      strategy which resulted in a reduction of forecasted revenue for certain of
+      our products .
+
+
+      we performed an update to our goodwill impairment test for the enterprise reporting
+      unit and determined there was no impairment .
+
+
+      goodwill is assigned to one or more reporting segments on the date of acquisition
+      .
+
+
+      we evaluate goodwill for impairment by comparing the fair value of each of our
+      reporting segments to its carrying value , including the associated goodwill
+      .
+
+
+      to determine the fair values , we use the market approach based on comparable
+      publicly traded companies in similar lines of businesses and the income approach
+      based on estimated discounted future cash flows .
+
+
+      our cash flow assumptions consider historical and forecasted revenue , operating
+      costs and other relevant factors .
+
+
+      we amortize intangible assets with finite lives over their estimated useful
+      lives and review them for impairment whenever an impairment indicator exists
+      .
+
+
+      we continually monitor events and changes in circumstances that could indicate
+      carrying amounts of our long-lived assets , including our intangible assets
+      may not be recoverable .
+
+
+      when such events or changes in circumstances occur , we assess recoverability
+      by determining whether the carrying value of such assets will be recovered through
+      the undiscounted expected future cash flows .
+
+
+      if the future undiscounted cash flows are less than the carrying amount of these
+      assets , we recognize an impairment loss based on any excess of the carrying
+      amount over the fair value of the assets .
+
+
+      we did not recognize any intangible asset impairment charges in fiscal 2011
+      , 2010 or 2009 .
+
+
+      our intangible assets are amortized over their estimated useful lives of 1 to
+      13 years .
+
+
+      amortization is based on the pattern in which the economic benefits of the intangible
+      asset will be consumed .
+
+
+      the weighted average useful lives of our intangibles assets was as follows:
+      .'
+    header:
+    - ''
+    - weighted averageuseful life ( years )
+    rows:
+    - - purchased technology
+      - '6'
+    - - customer contracts and relationships
+      - '10'
+    - - trademarks
+      - '7'
+    - - acquired rights to use technology
+      - '9'
+    - - localization
+      - '1'
+    - - other intangibles
+      - '3'
+    post_text: 'weighted average useful life ( years ) software development costs
+      capitalization of software development costs for software to be sold , leased
+      , or otherwise marketed begins upon the establishment of technological feasibility
+      , which is generally the completion of a working prototype that has been certified
+      as having no critical bugs and is a release candidate .
+
+
+      amortization begins once the software is ready for its intended use , generally
+      based on the pattern in which the economic benefits will be consumed .
+
+
+      to date , software development costs incurred between completion of a working
+      prototype and general availability of the related product have not been material
+      .
+
+
+      internal use software we capitalize costs associated with customized internal-use
+      software systems that have reached the application development stage .
+
+
+      such capitalized costs include external direct costs utilized in developing
+      or obtaining the applications and payroll and payroll-related expenses for employees
+      , who are directly associated with the development of the applications .
+
+
+      capitalization of such costs begins when the preliminary project stage is complete
+      and ceases at the point in which the project is substantially complete and is
+      ready for its intended purpose .
+
+
+      table of contents adobe systems incorporated notes to consolidated financial
+      statements ( continued ) .'
+    id: adbe-2011-table-0
+  - pre_text: 'a valuation allowance has been established for certain deferred tax
+      assets related to the impairment of investments .
+
+
+      accounting for uncertainty in income taxes during fiscal 2011 and 2010 , our
+      aggregate changes in our total gross amount of unrecognized tax benefits are
+      summarized as follows ( in thousands ) : beginning balance gross increases in
+      unrecognized tax benefits 2013 prior year tax positions gross decreases in unrecognized
+      tax benefits 2013 prior year tax positions gross increases in unrecognized tax
+      benefits 2013 current year tax positions settlements with taxing authorities
+      lapse of statute of limitations foreign exchange gains and losses ending balance
+      $ 156925 11901 ( 4154 ) 32420 ( 29101 ) ( 3825 ) $ 163607 $ 218040 ( 7104 )
+      15108 ( 70484 ) ( 7896 ) $ 156925 as of december 2 , 2011 , the combined amount
+      of accrued interest and penalties related to tax positions taken on our tax
+      returns and included in non-current income taxes payable was approximately $
+      12.3 million .
+
+
+      we file income tax returns in the u.s .
+
+
+      on a federal basis and in many u.s .
+
+
+      state and foreign jurisdictions .
+
+
+      we are subject to the continual examination of our income tax returns by the
+      irs and other domestic and foreign tax authorities .
+
+
+      our major tax jurisdictions are the u.s. , ireland and california .
+
+
+      for california , ireland and the u.s. , the earliest fiscal years open for examination
+      are 2005 , 2006 and 2008 , respectively .
+
+
+      we regularly assess the likelihood of outcomes resulting from these examinations
+      to determine the adequacy of our provision for income taxes and have reserved
+      for potential adjustments that may result from the current examination .
+
+
+      we believe such estimates to be reasonable ; however , there can be no assurance
+      that the final determination of any of these examinations will not have an adverse
+      effect on our operating results and financial position .
+
+
+      in august 2011 , a canadian income tax examination covering our fiscal years
+      2005 through 2008 was completed .
+
+
+      our accrued tax and interest related to these years was approximately $ 35 million
+      and was previously reported in long-term income taxes payable .
+
+
+      we reclassified approximately $ 17 million to short-term income taxes payable
+      and decreased deferred tax assets by approximately $ 18 million in conjunction
+      with the aforementioned resolution .
+
+
+      the $ 17 million balance in short-term income taxes payable is partially secured
+      by a letter of credit and is expected to be paid by the first quarter of fiscal
+      2012 .
+
+
+      in october 2010 , a u.s .
+
+
+      income tax examination covering our fiscal years 2005 through 2007 was completed
+      .
+
+
+      our accrued tax and interest related to these years was $ 59 million and was
+      previously reported in long-term income taxes payable .
+
+
+      we paid $ 20 million in conjunction with the aforementioned resolution .
+
+
+      a net income statement tax benefit in the fourth quarter of fiscal 2010 of $
+      39 million resulted .
+
+
+      the timing of the resolution of income tax examinations is highly uncertain
+      as are the amounts and timing of tax payments that are part of any audit settlement
+      process .
+
+
+      these events could cause large fluctuations in the balance sheet classification
+      of current and non-current assets and liabilities .
+
+
+      the company believes that before the end of fiscal 2012 , it is reasonably possible
+      that either certain audits will conclude or statutes of limitations on certain
+      income tax examination periods will expire , or both .
+
+
+      given the uncertainties described above , we can only determine a range of estimated
+      potential decreases in underlying unrecognized tax benefits ranging from $ 0
+      to approximately $ 40 million .
+
+
+      these amounts would decrease income tax expense under current gaap related to
+      income taxes .
+
+
+      note 11 .
+
+
+      restructuring fiscal 2011 restructuring plan in the fourth quarter of fiscal
+      2011 , in order to better align our resources around our digital media and digital
+      marketing strategies , we initiated a restructuring plan consisting of reductions
+      of approximately 700 full-time positions worldwide and we recorded restructuring
+      charges of approximately $ 78.6 million related to ongoing termination benefits
+      for the position eliminated .
+
+
+      table of contents adobe systems incorporated notes to consolidated financial
+      statements ( continued ) .'
+    header:
+    - ''
+    - '2011'
+    - '2010'
+    rows:
+    - - beginning balance
+      - $ 156925
+      - $ 218040
+    - - gross increases in unrecognized tax benefits 2013 prior year tax positions
+      - '11901'
+      - '9580'
+    - - gross decreases in unrecognized tax benefits 2013 prior year tax positions
+      - -4154 ( 4154 )
+      - -7104 ( 7104 )
+    - - gross increases in unrecognized tax benefits 2013 current year tax positions
+      - '32420'
+      - '15108'
+    - - settlements with taxing authorities
+      - -29101 ( 29101 )
+      - -70484 ( 70484 )
+    - - lapse of statute of limitations
+      - -3825 ( 3825 )
+      - -7896 ( 7896 )
+    - - foreign exchange gains and losses
+      - -559 ( 559 )
+      - -319 ( 319 )
+    - - ending balance
+      - $ 163607
+      - $ 156925
+    post_text: 'a valuation allowance has been established for certain deferred tax
+      assets related to the impairment of investments .
+
+
+      accounting for uncertainty in income taxes during fiscal 2011 and 2010 , our
+      aggregate changes in our total gross amount of unrecognized tax benefits are
+      summarized as follows ( in thousands ) : beginning balance gross increases in
+      unrecognized tax benefits 2013 prior year tax positions gross decreases in unrecognized
+      tax benefits 2013 prior year tax positions gross increases in unrecognized tax
+      benefits 2013 current year tax positions settlements with taxing authorities
+      lapse of statute of limitations foreign exchange gains and losses ending balance
+      $ 156925 11901 ( 4154 ) 32420 ( 29101 ) ( 3825 ) $ 163607 $ 218040 ( 7104 )
+      15108 ( 70484 ) ( 7896 ) $ 156925 as of december 2 , 2011 , the combined amount
+      of accrued interest and penalties related to tax positions taken on our tax
+      returns and included in non-current income taxes payable was approximately $
+      12.3 million .
+
+
+      we file income tax returns in the u.s .
+
+
+      on a federal basis and in many u.s .
+
+
+      state and foreign jurisdictions .
+
+
+      we are subject to the continual examination of our income tax returns by the
+      irs and other domestic and foreign tax authorities .
+
+
+      our major tax jurisdictions are the u.s. , ireland and california .
+
+
+      for california , ireland and the u.s. , the earliest fiscal years open for examination
+      are 2005 , 2006 and 2008 , respectively .
+
+
+      we regularly assess the likelihood of outcomes resulting from these examinations
+      to determine the adequacy of our provision for income taxes and have reserved
+      for potential adjustments that may result from the current examination .
+
+
+      we believe such estimates to be reasonable ; however , there can be no assurance
+      that the final determination of any of these examinations will not have an adverse
+      effect on our operating results and financial position .
+
+
+      in august 2011 , a canadian income tax examination covering our fiscal years
+      2005 through 2008 was completed .
+
+
+      our accrued tax and interest related to these years was approximately $ 35 million
+      and was previously reported in long-term income taxes payable .
+
+
+      we reclassified approximately $ 17 million to short-term income taxes payable
+      and decreased deferred tax assets by approximately $ 18 million in conjunction
+      with the aforementioned resolution .
+
+
+      the $ 17 million balance in short-term income taxes payable is partially secured
+      by a letter of credit and is expected to be paid by the first quarter of fiscal
+      2012 .
+
+
+      in october 2010 , a u.s .
+
+
+      income tax examination covering our fiscal years 2005 through 2007 was completed
+      .
+
+
+      our accrued tax and interest related to these years was $ 59 million and was
+      previously reported in long-term income taxes payable .
+
+
+      we paid $ 20 million in conjunction with the aforementioned resolution .
+
+
+      a net income statement tax benefit in the fourth quarter of fiscal 2010 of $
+      39 million resulted .
+
+
+      the timing of the resolution of income tax examinations is highly uncertain
+      as are the amounts and timing of tax payments that are part of any audit settlement
+      process .
+
+
+      these events could cause large fluctuations in the balance sheet classification
+      of current and non-current assets and liabilities .
+
+
+      the company believes that before the end of fiscal 2012 , it is reasonably possible
+      that either certain audits will conclude or statutes of limitations on certain
+      income tax examination periods will expire , or both .
+
+
+      given the uncertainties described above , we can only determine a range of estimated
+      potential decreases in underlying unrecognized tax benefits ranging from $ 0
+      to approximately $ 40 million .
+
+
+      these amounts would decrease income tax expense under current gaap related to
+      income taxes .
+
+
+      note 11 .
+
+
+      restructuring fiscal 2011 restructuring plan in the fourth quarter of fiscal
+      2011 , in order to better align our resources around our digital media and digital
+      marketing strategies , we initiated a restructuring plan consisting of reductions
+      of approximately 700 full-time positions worldwide and we recorded restructuring
+      charges of approximately $ 78.6 million related to ongoing termination benefits
+      for the position eliminated .
+
+
+      table of contents adobe systems incorporated notes to consolidated financial
+      statements ( continued ) .'
+    id: adbe-2011-table-1
+  - pre_text: 'note 17 .
+
+
+      debt our debt as of december 2 , 2011 and december 3 , 2010 consisted of the
+      following ( in thousands ) : capital lease obligations total debt and capital
+      lease obligations less : current portion debt and capital lease obligations
+      $ 1494627 19681 1514308 $ 1505096 $ 1493969 28492 1522461 $ 1513662 in february
+      2010 , we issued $ 600.0 million of 3.25% ( 3.25 % ) senior notes due february
+      1 , 2015 ( the 201c2015 notes 201d ) and $ 900.0 million of 4.75% ( 4.75 % )
+      senior notes due february 1 , 2020 ( the 201c2020 notes 201d and , together
+      with the 2015 notes , the 201cnotes 201d ) .
+
+
+      our proceeds were approximately $ 1.5 billion and were net of an issuance discount
+      of $ 6.6 million .
+
+
+      the notes rank equally with our other unsecured and unsubordinated indebtedness
+      .
+
+
+      in addition , we incurred issuance costs of approximately $ 10.7 million .
+
+
+      both the discount and issuance costs are being amortized to interest expense
+      over the respective terms of the notes using the effective interest method .
+
+
+      the effective interest rate including the discount and issuance costs is 3.45%
+      ( 3.45 % ) for the 2015 notes and 4.92% ( 4.92 % ) for the 2020 notes .
+
+
+      interest is payable semi-annually , in arrears , on february 1 and august 1
+      , commencing on august 1 , 2010 .
+
+
+      during fiscal 2011 interest payments totaled $ 62.3 million .
+
+
+      the proceeds from the notes are available for general corporate purposes , including
+      repayment of any balance outstanding on our credit facility .
+
+
+      based on quoted market prices , the fair value of the notes was approximately
+      $ 1.6 billion as of december 2 , 2011 .
+
+
+      we may redeem the notes at any time , subject to a make whole premium .
+
+
+      in addition , upon the occurrence of certain change of control triggering events
+      , we may be required to repurchase the notes , at a price equal to 101% ( 101
+      % ) of their principal amount , plus accrued and unpaid interest to the date
+      of repurchase .
+
+
+      the notes also include covenants that limit our ability to grant liens on assets
+      and to enter into sale and leaseback transactions , subject to significant allowances
+      .
+
+
+      as of december 2 , 2011 , we were in compliance with all of the covenants .
+
+
+      credit agreement in august 2007 , we entered into an amendment to our credit
+      agreement dated february 2007 ( the 201camendment 201d ) , which increased the
+      total senior unsecured revolving facility from $ 500.0 million to $ 1.0 billion
+      .
+
+
+      the amendment also permits us to request one-year extensions effective on each
+      anniversary of the closing date of the original agreement , subject to the majority
+      consent of the lenders .
+
+
+      we also retain an option to request an additional $ 500.0 million in commitments
+      , for a maximum aggregate facility of $ 1.5 billion .
+
+
+      in february 2008 , we entered into a second amendment to the credit agreement
+      dated february 26 , 2008 , which extended the maturity date of the facility
+      by one year to february 16 , 2013 .
+
+
+      the facility would terminate at this date if no additional extensions have been
+      requested and granted .
+
+
+      all other terms and conditions remain the same .
+
+
+      the facility contains a financial covenant requiring us not to exceed a certain
+      maximum leverage ratio .
+
+
+      at our option , borrowings under the facility accrue interest based on either
+      the london interbank offered rate ( 201clibor 201d ) for one , two , three or
+      six months , or longer periods with bank consent , plus a margin according to
+      a pricing grid tied to this financial covenant , or a base rate .
+
+
+      the margin is set at rates between 0.20% ( 0.20 % ) and 0.475% ( 0.475 % ) .
+
+
+      commitment fees are payable on the facility at rates between 0.05% ( 0.05 %
+      ) and 0.15% ( 0.15 % ) per year based on the same pricing grid .
+
+
+      the facility is available to provide loans to us and certain of our subsidiaries
+      for general corporate purposes .
+
+
+      on february 1 , 2010 , we paid the outstanding balance on our credit facility
+      and the entire $ 1.0 billion credit line under this facility remains available
+      for borrowing .
+
+
+      capital lease obligation in june 2010 , we entered into a sale-leaseback agreement
+      to sell equipment totaling $ 32.2 million and leaseback the same equipment over
+      a period of 43 months .
+
+
+      this transaction was classified as a capital lease obligation and recorded at
+      fair value .
+
+
+      as of december 2 , 2011 , our capital lease obligations of $ 19.7 million includes
+      $ 9.2 million of current debt .
+
+
+      table of contents adobe systems incorporated notes to consolidated financial
+      statements ( continued ) .'
+    header:
+    - ''
+    - '2011'
+    - '2010'
+    rows:
+    - - notes
+      - $ 1494627
+      - $ 1493969
+    - - capital lease obligations
+      - '19681'
+      - '28492'
+    - - total debt and capital lease obligations
+      - '1514308'
+      - '1522461'
+    - - 'less : current portion'
+      - '9212'
+      - '8799'
+    - - debt and capital lease obligations
+      - $ 1505096
+      - $ 1513662
+    post_text: 'note 17 .
+
+
+      debt our debt as of december 2 , 2011 and december 3 , 2010 consisted of the
+      following ( in thousands ) : capital lease obligations total debt and capital
+      lease obligations less : current portion debt and capital lease obligations
+      $ 1494627 19681 1514308 $ 1505096 $ 1493969 28492 1522461 $ 1513662 in february
+      2010 , we issued $ 600.0 million of 3.25% ( 3.25 % ) senior notes due february
+      1 , 2015 ( the 201c2015 notes 201d ) and $ 900.0 million of 4.75% ( 4.75 % )
+      senior notes due february 1 , 2020 ( the 201c2020 notes 201d and , together
+      with the 2015 notes , the 201cnotes 201d ) .
+
+
+      our proceeds were approximately $ 1.5 billion and were net of an issuance discount
+      of $ 6.6 million .
+
+
+      the notes rank equally with our other unsecured and unsubordinated indebtedness
+      .
+
+
+      in addition , we incurred issuance costs of approximately $ 10.7 million .
+
+
+      both the discount and issuance costs are being amortized to interest expense
+      over the respective terms of the notes using the effective interest method .
+
+
+      the effective interest rate including the discount and issuance costs is 3.45%
+      ( 3.45 % ) for the 2015 notes and 4.92% ( 4.92 % ) for the 2020 notes .
+
+
+      interest is payable semi-annually , in arrears , on february 1 and august 1
+      , commencing on august 1 , 2010 .
+
+
+      during fiscal 2011 interest payments totaled $ 62.3 million .
+
+
+      the proceeds from the notes are available for general corporate purposes , including
+      repayment of any balance outstanding on our credit facility .
+
+
+      based on quoted market prices , the fair value of the notes was approximately
+      $ 1.6 billion as of december 2 , 2011 .
+
+
+      we may redeem the notes at any time , subject to a make whole premium .
+
+
+      in addition , upon the occurrence of certain change of control triggering events
+      , we may be required to repurchase the notes , at a price equal to 101% ( 101
+      % ) of their principal amount , plus accrued and unpaid interest to the date
+      of repurchase .
+
+
+      the notes also include covenants that limit our ability to grant liens on assets
+      and to enter into sale and leaseback transactions , subject to significant allowances
+      .
+
+
+      as of december 2 , 2011 , we were in compliance with all of the covenants .
+
+
+      credit agreement in august 2007 , we entered into an amendment to our credit
+      agreement dated february 2007 ( the 201camendment 201d ) , which increased the
+      total senior unsecured revolving facility from $ 500.0 million to $ 1.0 billion
+      .
+
+
+      the amendment also permits us to request one-year extensions effective on each
+      anniversary of the closing date of the original agreement , subject to the majority
+      consent of the lenders .
+
+
+      we also retain an option to request an additional $ 500.0 million in commitments
+      , for a maximum aggregate facility of $ 1.5 billion .
+
+
+      in february 2008 , we entered into a second amendment to the credit agreement
+      dated february 26 , 2008 , which extended the maturity date of the facility
+      by one year to february 16 , 2013 .
+
+
+      the facility would terminate at this date if no additional extensions have been
+      requested and granted .
+
+
+      all other terms and conditions remain the same .
+
+
+      the facility contains a financial covenant requiring us not to exceed a certain
+      maximum leverage ratio .
+
+
+      at our option , borrowings under the facility accrue interest based on either
+      the london interbank offered rate ( 201clibor 201d ) for one , two , three or
+      six months , or longer periods with bank consent , plus a margin according to
+      a pricing grid tied to this financial covenant , or a base rate .
+
+
+      the margin is set at rates between 0.20% ( 0.20 % ) and 0.475% ( 0.475 % ) .
+
+
+      commitment fees are payable on the facility at rates between 0.05% ( 0.05 %
+      ) and 0.15% ( 0.15 % ) per year based on the same pricing grid .
+
+
+      the facility is available to provide loans to us and certain of our subsidiaries
+      for general corporate purposes .
+
+
+      on february 1 , 2010 , we paid the outstanding balance on our credit facility
+      and the entire $ 1.0 billion credit line under this facility remains available
+      for borrowing .
+
+
+      capital lease obligation in june 2010 , we entered into a sale-leaseback agreement
+      to sell equipment totaling $ 32.2 million and leaseback the same equipment over
+      a period of 43 months .
+
+
+      this transaction was classified as a capital lease obligation and recorded at
+      fair value .
+
+
+      as of december 2 , 2011 , our capital lease obligations of $ 19.7 million includes
+      $ 9.2 million of current debt .
+
+
+      table of contents adobe systems incorporated notes to consolidated financial
+      statements ( continued ) .'
+    id: adbe-2011-table-2
+  - pre_text: 'the following table sets forth the components of foreign currency translation
+      adjustments for fiscal 2011 , 2010 and 2009 ( in thousands ) : beginning balance
+      foreign currency translation adjustments income tax effect relating to translation
+      adjustments for undistributed foreign earnings ending balance $ 7632 ( 2208
+      ) $ 10580 $ 10640 ( 4144 ) $ 7632 $ ( 431 ) 17343 ( 6272 ) $ 10640 stock repurchase
+      program to facilitate our stock repurchase program , designed to return value
+      to our stockholders and minimize dilution from stock issuances , we repurchase
+      shares in the open market and also enter into structured repurchase agreements
+      with third-parties .
+
+
+      authorization to repurchase shares to cover on-going dilution was not subject
+      to expiration .
+
+
+      however , this repurchase program was limited to covering net dilution from
+      stock issuances and was subject to business conditions and cash flow requirements
+      as determined by our board of directors from time to time .
+
+
+      during the third quarter of fiscal 2010 , our board of directors approved an
+      amendment to our stock repurchase program authorized in april 2007 from a non-expiring
+      share-based authority to a time-constrained dollar-based authority .
+
+
+      as part of this amendment , the board of directors granted authority to repurchase
+      up to $ 1.6 billion in common stock through the end of fiscal 2012 .
+
+
+      this amended program did not affect the $ 250.0 million structured stock repurchase
+      agreement entered into during march 2010 .
+
+
+      as of december 3 , 2010 , no prepayments remain under that agreement .
+
+
+      during fiscal 2011 , 2010 and 2009 , we entered into several structured repurchase
+      agreements with large financial institutions , whereupon we provided the financial
+      institutions with prepayments totaling $ 695.0 million , $ 850.0 million and
+      $ 350.0 million , respectively .
+
+
+      of the $ 850.0 million of prepayments during fiscal 2010 , $ 250.0 million was
+      under the stock repurchase program prior to the program amendment and the remaining
+      $ 600.0 million was under the amended $ 1.6 billion time-constrained dollar-
+      based authority .
+
+
+      we enter into these agreements in order to take advantage of repurchasing shares
+      at a guaranteed discount to the volume weighted average price ( 201cvwap 201d
+      ) of our common stock over a specified period of time .
+
+
+      we only enter into such transactions when the discount that we receive is higher
+      than the foregone return on our cash prepayments to the financial institutions
+      .
+
+
+      there were no explicit commissions or fees on these structured repurchases .
+
+
+      under the terms of the agreements , there is no requirement for the financial
+      institutions to return any portion of the prepayment to us .
+
+
+      the financial institutions agree to deliver shares to us at monthly intervals
+      during the contract term .
+
+
+      the parameters used to calculate the number of shares deliverable are : the
+      total notional amount of the contract , the number of trading days in the contract
+      , the number of trading days in the interval and the average vwap of our stock
+      during the interval less the agreed upon discount .
+
+
+      during fiscal 2011 , we repurchased approximately 21.8 million shares at an
+      average price of $ 31.81 through structured repurchase agreements entered into
+      during fiscal 2011 .
+
+
+      during fiscal 2010 , we repurchased approximately 31.2 million shares at an
+      average price of $ 29.19 through structured repurchase agreements entered into
+      during fiscal 2009 and fiscal 2010 .
+
+
+      during fiscal 2009 , we repurchased approximately 15.2 million shares at an
+      average price per share of $ 27.89 through structured repurchase agreements
+      entered into during fiscal 2008 and fiscal 2009 .
+
+
+      for fiscal 2011 , 2010 and 2009 , the prepayments were classified as treasury
+      stock on our consolidated balance sheets at the payment date , though only shares
+      physically delivered to us by december 2 , 2011 , december 3 , 2010 and november
+      27 , 2009 were excluded from the computation of earnings per share .
+
+
+      as of december 2 , 2011 and december 3 , 2010 , no prepayments remained under
+      these agreements .
+
+
+      as of november 27 , 2009 , approximately $ 59.9 million of prepayments remained
+      under these agreements .
+
+
+      subsequent to december 2 , 2011 , as part of our $ 1.6 billion stock repurchase
+      program , we entered into a structured stock repurchase agreement with a large
+      financial institution whereupon we provided them with a prepayment of $ 80.0
+      million .
+
+
+      this amount will be classified as treasury stock on our consolidated balance
+      sheets .
+
+
+      upon completion of the $ 80.0 million stock table of contents adobe systems
+      incorporated notes to consolidated financial statements ( continued ) jarcamo
+      typewritten text .'
+    header:
+    - ''
+    - '2011'
+    - '2010'
+    - '2009'
+    rows:
+    - - beginning balance
+      - $ 7632
+      - $ 10640
+      - $ -431 ( 431 )
+    - - foreign currency translation adjustments
+      - '5156'
+      - -4144 ( 4144 )
+      - '17343'
+    - - income tax effect relating to translation adjustments forundistributed foreign
+        earnings
+      - -2208 ( 2208 )
+      - '1136'
+      - -6272 ( 6272 )
+    - - ending balance
+      - $ 10580
+      - $ 7632
+      - $ 10640
+    post_text: 'the following table sets forth the components of foreign currency
+      translation adjustments for fiscal 2011 , 2010 and 2009 ( in thousands ) : beginning
+      balance foreign currency translation adjustments income tax effect relating
+      to translation adjustments for undistributed foreign earnings ending balance
+      $ 7632 ( 2208 ) $ 10580 $ 10640 ( 4144 ) $ 7632 $ ( 431 ) 17343 ( 6272 ) $ 10640
+      stock repurchase program to facilitate our stock repurchase program , designed
+      to return value to our stockholders and minimize dilution from stock issuances
+      , we repurchase shares in the open market and also enter into structured repurchase
+      agreements with third-parties .
+
+
+      authorization to repurchase shares to cover on-going dilution was not subject
+      to expiration .
+
+
+      however , this repurchase program was limited to covering net dilution from
+      stock issuances and was subject to business conditions and cash flow requirements
+      as determined by our board of directors from time to time .
+
+
+      during the third quarter of fiscal 2010 , our board of directors approved an
+      amendment to our stock repurchase program authorized in april 2007 from a non-expiring
+      share-based authority to a time-constrained dollar-based authority .
+
+
+      as part of this amendment , the board of directors granted authority to repurchase
+      up to $ 1.6 billion in common stock through the end of fiscal 2012 .
+
+
+      this amended program did not affect the $ 250.0 million structured stock repurchase
+      agreement entered into during march 2010 .
+
+
+      as of december 3 , 2010 , no prepayments remain under that agreement .
+
+
+      during fiscal 2011 , 2010 and 2009 , we entered into several structured repurchase
+      agreements with large financial institutions , whereupon we provided the financial
+      institutions with prepayments totaling $ 695.0 million , $ 850.0 million and
+      $ 350.0 million , respectively .
+
+
+      of the $ 850.0 million of prepayments during fiscal 2010 , $ 250.0 million was
+      under the stock repurchase program prior to the program amendment and the remaining
+      $ 600.0 million was under the amended $ 1.6 billion time-constrained dollar-
+      based authority .
+
+
+      we enter into these agreements in order to take advantage of repurchasing shares
+      at a guaranteed discount to the volume weighted average price ( 201cvwap 201d
+      ) of our common stock over a specified period of time .
+
+
+      we only enter into such transactions when the discount that we receive is higher
+      than the foregone return on our cash prepayments to the financial institutions
+      .
+
+
+      there were no explicit commissions or fees on these structured repurchases .
+
+
+      under the terms of the agreements , there is no requirement for the financial
+      institutions to return any portion of the prepayment to us .
+
+
+      the financial institutions agree to deliver shares to us at monthly intervals
+      during the contract term .
+
+
+      the parameters used to calculate the number of shares deliverable are : the
+      total notional amount of the contract , the number of trading days in the contract
+      , the number of trading days in the interval and the average vwap of our stock
+      during the interval less the agreed upon discount .
+
+
+      during fiscal 2011 , we repurchased approximately 21.8 million shares at an
+      average price of $ 31.81 through structured repurchase agreements entered into
+      during fiscal 2011 .
+
+
+      during fiscal 2010 , we repurchased approximately 31.2 million shares at an
+      average price of $ 29.19 through structured repurchase agreements entered into
+      during fiscal 2009 and fiscal 2010 .
+
+
+      during fiscal 2009 , we repurchased approximately 15.2 million shares at an
+      average price per share of $ 27.89 through structured repurchase agreements
+      entered into during fiscal 2008 and fiscal 2009 .
+
+
+      for fiscal 2011 , 2010 and 2009 , the prepayments were classified as treasury
+      stock on our consolidated balance sheets at the payment date , though only shares
+      physically delivered to us by december 2 , 2011 , december 3 , 2010 and november
+      27 , 2009 were excluded from the computation of earnings per share .
+
+
+      as of december 2 , 2011 and december 3 , 2010 , no prepayments remained under
+      these agreements .
+
+
+      as of november 27 , 2009 , approximately $ 59.9 million of prepayments remained
+      under these agreements .
+
+
+      subsequent to december 2 , 2011 , as part of our $ 1.6 billion stock repurchase
+      program , we entered into a structured stock repurchase agreement with a large
+      financial institution whereupon we provided them with a prepayment of $ 80.0
+      million .
+
+
+      this amount will be classified as treasury stock on our consolidated balance
+      sheets .
+
+
+      upon completion of the $ 80.0 million stock table of contents adobe systems
+      incorporated notes to consolidated financial statements ( continued ) jarcamo
+      typewritten text .'
+    id: adbe-2011-table-3
+- id: adbe-10k-2012
+  form: 10-K
+  filed: '2013-01-22'
+  period_covered: 2012-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/796343/000079634313000008/adbe10kfy12.htm
+  tables:
+  - pre_text: 'goodwill is assigned to one or more reporting segments on the date
+      of acquisition .
+
+
+      we evaluate goodwill for impairment by comparing the fair value of each of our
+      reporting segments to its carrying value , including the associated goodwill
+      .
+
+
+      to determine the fair values , we use the market approach based on comparable
+      publicly traded companies in similar lines of businesses and the income approach
+      based on estimated discounted future cash flows .
+
+
+      our cash flow assumptions consider historical and forecasted revenue , operating
+      costs and other relevant factors .
+
+
+      we amortize intangible assets with finite lives over their estimated useful
+      lives and review them for impairment whenever an impairment indicator exists
+      .
+
+
+      we continually monitor events and changes in circumstances that could indicate
+      carrying amounts of our long-lived assets , including our intangible assets
+      may not be recoverable .
+
+
+      when such events or changes in circumstances occur , we assess recoverability
+      by determining whether the carrying value of such assets will be recovered through
+      the undiscounted expected future cash flows .
+
+
+      if the future undiscounted cash flows are less than the carrying amount of these
+      assets , we recognize an impairment loss based on any excess of the carrying
+      amount over the fair value of the assets .
+
+
+      we did not recognize any intangible asset impairment charges in fiscal 2012
+      , 2011 or 2010 .
+
+
+      our intangible assets are amortized over their estimated useful lives of 1 to
+      13 years .
+
+
+      amortization is based on the pattern in which the economic benefits of the intangible
+      asset will be consumed .
+
+
+      the weighted average useful lives of our intangible assets was as follows :
+      weighted average useful life ( years ) .'
+    header:
+    - ''
+    - weighted averageuseful life ( years )
+    rows:
+    - - purchased technology
+      - '5'
+    - - customer contracts and relationships
+      - '10'
+    - - trademarks
+      - '7'
+    - - acquired rights to use technology
+      - '9'
+    - - localization
+      - '1'
+    - - other intangibles
+      - '3'
+    post_text: 'software development costs capitalization of software development
+      costs for software to be sold , leased , or otherwise marketed begins upon the
+      establishment of technological feasibility , which is generally the completion
+      of a working prototype that has been certified as having no critical bugs and
+      is a release candidate .
+
+
+      amortization begins once the software is ready for its intended use , generally
+      based on the pattern in which the economic benefits will be consumed .
+
+
+      to date , software development costs incurred between completion of a working
+      prototype and general availability of the related product have not been material
+      .
+
+
+      internal use software we capitalize costs associated with customized internal-use
+      software systems that have reached the application development stage .
+
+
+      such capitalized costs include external direct costs utilized in developing
+      or obtaining the applications and payroll and payroll-related expenses for employees
+      , who are directly associated with the development of the applications .
+
+
+      capitalization of such costs begins when the preliminary project stage is complete
+      and ceases at the point in which the project is substantially complete and is
+      ready for its intended purpose .
+
+
+      income taxes we use the asset and liability method of accounting for income
+      taxes .
+
+
+      under this method , income tax expense is recognized for the amount of taxes
+      payable or refundable for the current year .
+
+
+      in addition , deferred tax assets and liabilities are recognized for expected
+      future tax consequences of temporary differences between the financial reporting
+      and tax bases of assets and liabilities , and for operating losses and tax credit
+      carryforwards .
+
+
+      we record a valuation allowance to reduce deferred tax assets to an amount for
+      which realization is more likely than not .
+
+
+      table of contents adobe systems incorporated notes to consolidated financial
+      statements ( continued ) .'
+    id: adbe-2012-table-0
+  - pre_text: 'repatriated , the related u.s .
+
+
+      tax liability may be reduced by any foreign income taxes paid on these earnings
+      .
+
+
+      as of november 30 , 2012 , the cumulative amount of earnings upon which u.s
+      .
+
+
+      income taxes have not been provided is approximately $ 2.9 billion .
+
+
+      the unrecognized deferred tax liability for these earnings is approximately
+      $ 0.8 billion .
+
+
+      as of november 30 , 2012 , we have u.s .
+
+
+      net operating loss carryforwards of approximately $ 33.7 million for federal
+      and $ 77.7 million for state .
+
+
+      we also have federal , state and foreign tax credit carryforwards of approximately
+      $ 1.9 million , $ 18.0 million and $ 17.6 million , respectively .
+
+
+      the net operating loss carryforward assets , federal tax credits and foreign
+      tax credits will expire in various years from fiscal 2017 through 2032 .
+
+
+      the state tax credit carryforwards can be carried forward indefinitely .
+
+
+      the net operating loss carryforward assets and certain credits are subject to
+      an annual limitation under internal revenue code section 382 , but are expected
+      to be fully realized .
+
+
+      in addition , we have been tracking certain deferred tax attributes of $ 45.0
+      million which have not been recorded in the financial statements pursuant to
+      accounting standards related to stock-based compensation .
+
+
+      these amounts are no longer included in our gross or net deferred tax assets
+      .
+
+
+      pursuant to these standards , the benefit of these deferred tax assets will
+      be recorded to equity if and when they reduce taxes payable .
+
+
+      as of november 30 , 2012 , a valuation allowance of $ 28.2 million has been
+      established for certain deferred tax assets related to the impairment of investments
+      and certain foreign assets .
+
+
+      for fiscal 2012 , the total change in the valuation allowance was $ 23.0 million
+      , of which $ 2.1 million was recorded as a tax benefit through the income statement
+      .
+
+
+      accounting for uncertainty in income taxes during fiscal 2012 and 2011 , our
+      aggregate changes in our total gross amount of unrecognized tax benefits are
+      summarized as follows ( in thousands ) : .'
+    header:
+    - ''
+    - '2012'
+    - '2011'
+    rows:
+    - - beginning balance
+      - $ 163607
+      - $ 156925
+    - - gross increases in unrecognized tax benefits 2013 prior year tax positions
+      - '1038'
+      - '11901'
+    - - gross decreases in unrecognized tax benefits 2013 prior year tax positions
+      - '2014'
+      - -4154 ( 4154 )
+    - - gross increases in unrecognized tax benefits 2013 current year tax positions
+      - '23771'
+      - '32420'
+    - - settlements with taxing authorities
+      - -1754 ( 1754 )
+      - -29101 ( 29101 )
+    - - lapse of statute of limitations
+      - -25387 ( 25387 )
+      - -3825 ( 3825 )
+    - - foreign exchange gains and losses
+      - -807 ( 807 )
+      - -559 ( 559 )
+    - - ending balance
+      - $ 160468
+      - $ 163607
+    post_text: 'as of november 30 , 2012 , the combined amount of accrued interest
+      and penalties related to tax positions taken on our tax returns and included
+      in non-current income taxes payable was approximately $ 12.5 million .
+
+
+      we file income tax returns in the u.s .
+
+
+      on a federal basis and in many u.s .
+
+
+      state and foreign jurisdictions .
+
+
+      we are subject to the continual examination of our income tax returns by the
+      irs and other domestic and foreign tax authorities .
+
+
+      our major tax jurisdictions are the u.s. , ireland and california .
+
+
+      for california , ireland and the u.s. , the earliest fiscal years open for examination
+      are 2005 , 2006 and 2008 , respectively .
+
+
+      we regularly assess the likelihood of outcomes resulting from these examinations
+      to determine the adequacy of our provision for income taxes and have reserved
+      for potential adjustments that may result from the current examinations .
+
+
+      we believe such estimates to be reasonable ; however , there can be no assurance
+      that the final determination of any of these examinations will not have an adverse
+      effect on our operating results and financial position .
+
+
+      in august 2011 , a canadian income tax examination covering our fiscal years
+      2005 through 2008 was completed .
+
+
+      our accrued tax and interest related to these years was approximately $ 35 million
+      and was previously reported in long-term income taxes payable .
+
+
+      we reclassified approximately $ 17 million to short-term income taxes payable
+      and decreased deferred tax assets by approximately $ 18 million in conjunction
+      with the aforementioned resolution .
+
+
+      the timing of the resolution of income tax examinations is highly uncertain
+      as are the amounts and timing of tax payments that are part of any audit settlement
+      process .
+
+
+      these events could cause large fluctuations in the balance sheet classification
+      of current and non-current assets and liabilities .
+
+
+      the company believes that before the end of fiscal 2013 , it is reasonably possible
+      table of contents adobe systems incorporated notes to consolidated financial
+      statements ( continued ) .'
+    id: adbe-2012-table-1
+  - pre_text: 'the following table sets forth the components of foreign currency translation
+      adjustments for fiscal 2012 , 2011 and 2010 ( in thousands ) : .'
+    header:
+    - ''
+    - '2012'
+    - '2011'
+    - '2010'
+    rows:
+    - - beginning balance
+      - $ 10580
+      - $ 7632
+      - $ 10640
+    - - foreign currency translation adjustments
+      - -2225 ( 2225 )
+      - '5156'
+      - -4144 ( 4144 )
+    - - income tax effect relating to translation adjustments forundistributed foreign
+        earnings
+      - '1314'
+      - -2208 ( 2208 )
+      - '1136'
+    - - ending balance
+      - $ 9669
+      - $ 10580
+      - $ 7632
+    post_text: 'stock repurchase program to facilitate our stock repurchase program
+      , designed to return value to our stockholders and minimize dilution from stock
+      issuances , we repurchase shares in the open market and also enter into structured
+      repurchase agreements with third-parties .
+
+
+      authorization to repurchase shares to cover on-going dilution was not subject
+      to expiration .
+
+
+      however , this repurchase program was limited to covering net dilution from
+      stock issuances and was subject to business conditions and cash flow requirements
+      as determined by our board of directors from time to time .
+
+
+      during the third quarter of fiscal 2010 , our board of directors approved an
+      amendment to our stock repurchase program authorized in april 2007 from a non-expiring
+      share-based authority to a time-constrained dollar-based authority .
+
+
+      as part of this amendment , the board of directors granted authority to repurchase
+      up to $ 1.6 billion in common stock through the end of fiscal 2012 .
+
+
+      during the second quarter of fiscal 2012 , we exhausted our $ 1.6 billion authority
+      granted by our board of directors in fiscal in april 2012 , the board of directors
+      approved a new stock repurchase program granting authority to repurchase up
+      to $ 2.0 billion in common stock through the end of fiscal 2015 .
+
+
+      the new stock repurchase program approved by our board of directors is similar
+      to our previous $ 1.6 billion stock repurchase program .
+
+
+      during fiscal 2012 , 2011 and 2010 , we entered into several structured repurchase
+      agreements with large financial institutions , whereupon we provided the financial
+      institutions with prepayments totaling $ 405.0 million , $ 695.0 million and
+      $ 850 million , respectively .
+
+
+      of the $ 405.0 million of prepayments during fiscal 2012 , $ 100.0 million was
+      under the new $ 2.0 billion stock repurchase program and the remaining $ 305.0
+      million was under our previous $ 1.6 billion authority .
+
+
+      of the $ 850.0 million of prepayments during fiscal 2010 , $ 250.0 million was
+      under the stock repurchase program prior to the program amendment in the third
+      quarter of fiscal 2010 and the remaining $ 600.0 million was under the amended
+      $ 1.6 billion time-constrained dollar-based authority .
+
+
+      we enter into these agreements in order to take advantage of repurchasing shares
+      at a guaranteed discount to the volume weighted average price ( 201cvwap 201d
+      ) of our common stock over a specified period of time .
+
+
+      we only enter into such transactions when the discount that we receive is higher
+      than the foregone return on our cash prepayments to the financial institutions
+      .
+
+
+      there were no explicit commissions or fees on these structured repurchases .
+
+
+      under the terms of the agreements , there is no requirement for the financial
+      institutions to return any portion of the prepayment to us .
+
+
+      the financial institutions agree to deliver shares to us at monthly intervals
+      during the contract term .
+
+
+      the parameters used to calculate the number of shares deliverable are : the
+      total notional amount of the contract , the number of trading days in the contract
+      , the number of trading days in the interval and the average vwap of our stock
+      during the interval less the agreed upon discount .
+
+
+      during fiscal 2012 , we repurchased approximately 11.5 million shares at an
+      average price of $ 32.29 through structured repurchase agreements entered into
+      during fiscal 2012 .
+
+
+      during fiscal 2011 , we repurchased approximately 21.8 million shares at an
+      average price of $ 31.81 through structured repurchase agreements entered into
+      during fiscal 2011 .
+
+
+      during fiscal 2010 , we repurchased approximately 31.2 million shares at an
+      average price per share of $ 29.19 through structured repurchase agreements
+      entered into during fiscal 2009 and fiscal 2010 .
+
+
+      for fiscal 2012 , 2011 and 2010 , the prepayments were classified as treasury
+      stock on our consolidated balance sheets at the payment date , though only shares
+      physically delivered to us by november 30 , 2012 , december 2 , 2011 and december
+      3 , 2010 were excluded from the computation of earnings per share .
+
+
+      as of november 30 , 2012 , $ 33.0 million of prepayments remained under these
+      agreements .
+
+
+      as of december 2 , 2011 and december 3 , 2010 , no prepayments remained under
+      these agreements .
+
+
+      table of contents adobe systems incorporated notes to consolidated financial
+      statements ( continued ) .'
+    id: adbe-2012-table-2
+- id: adbe-10k-2013
+  form: 10-K
+  filed: '2014-01-21'
+  period_covered: 2013-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/796343/000079634314000004/adbe10kfy13.htm
+  tables:
+  - pre_text: 'adobe systems incorporated notes to consolidated financial statements
+      ( continued ) we review our goodwill for impairment annually , or more frequently
+      , if facts and circumstances warrant a review .
+
+
+      we completed our annual impairment test in the second quarter of fiscal 2013
+      .
+
+
+      we elected to use the step 1 quantitative assessment for our three reporting
+      units 2014digital media , digital marketing and print and publishing 2014and
+      determined that there was no impairment of goodwill .
+
+
+      there is no significant risk of material goodwill impairment in any of our reporting
+      units , based upon the results of our annual goodwill impairment test .
+
+
+      we amortize intangible assets with finite lives over their estimated useful
+      lives and review them for impairment whenever an impairment indicator exists
+      .
+
+
+      we continually monitor events and changes in circumstances that could indicate
+      carrying amounts of our long-lived assets , including our intangible assets
+      may not be recoverable .
+
+
+      when such events or changes in circumstances occur , we assess recoverability
+      by determining whether the carrying value of such assets will be recovered through
+      the undiscounted expected future cash flows .
+
+
+      if the future undiscounted cash flows are less than the carrying amount of these
+      assets , we recognize an impairment loss based on any excess of the carrying
+      amount over the fair value of the assets .
+
+
+      we did not recognize any intangible asset impairment charges in fiscal 2013
+      , 2012 or 2011 .
+
+
+      our intangible assets are amortized over their estimated useful lives of 1 to
+      14 years .
+
+
+      amortization is based on the pattern in which the economic benefits of the intangible
+      asset will be consumed or on a straight-line basis when the consumption pattern
+      is not apparent .
+
+
+      the weighted average useful lives of our intangible assets were as follows :
+      weighted average useful life ( years ) .'
+    header:
+    - ''
+    - weighted averageuseful life ( years )
+    rows:
+    - - purchased technology
+      - '6'
+    - - customer contracts and relationships
+      - '10'
+    - - trademarks
+      - '8'
+    - - acquired rights to use technology
+      - '8'
+    - - localization
+      - '1'
+    - - other intangibles
+      - '3'
+    post_text: 'software development costs capitalization of software development
+      costs for software to be sold , leased , or otherwise marketed begins upon the
+      establishment of technological feasibility , which is generally the completion
+      of a working prototype that has been certified as having no critical bugs and
+      is a release candidate .
+
+
+      amortization begins once the software is ready for its intended use , generally
+      based on the pattern in which the economic benefits will be consumed .
+
+
+      to date , software development costs incurred between completion of a working
+      prototype and general availability of the related product have not been material
+      .
+
+
+      internal use software we capitalize costs associated with customized internal-use
+      software systems that have reached the application development stage .
+
+
+      such capitalized costs include external direct costs utilized in developing
+      or obtaining the applications and payroll and payroll-related expenses for employees
+      , who are directly associated with the development of the applications .
+
+
+      capitalization of such costs begins when the preliminary project stage is complete
+      and ceases at the point in which the project is substantially complete and is
+      ready for its intended purpose .
+
+
+      income taxes we use the asset and liability method of accounting for income
+      taxes .
+
+
+      under this method , income tax expense is recognized for the amount of taxes
+      payable or refundable for the current year .
+
+
+      in addition , deferred tax assets and liabilities are recognized for expected
+      future tax consequences of temporary differences between the financial reporting
+      and tax bases of assets and liabilities , and for operating losses and tax credit
+      carryforwards .
+
+
+      we record a valuation allowance to reduce deferred tax assets to an amount for
+      which realization is more likely than not. .'
+    id: adbe-2013-table-0
+  - pre_text: 'adobe systems incorporated notes to consolidated financial statements
+      ( continued ) in the first quarter of fiscal 2013 , the executive compensation
+      committee certified the actual performance achievement of participants in the
+      2012 performance share program ( the 201c2012 program 201d ) .
+
+
+      based upon the achievement of specific and/or market- based performance goals
+      outlined in the 2012 program , participants had the ability to receive up to
+      150% ( 150 % ) of the target number of shares originally granted .
+
+
+      actual performance resulted in participants achieving 116% ( 116 % ) of target
+      or approximately 1.3 million shares for the 2012 program .
+
+
+      one third of the shares under the 2012 program vested in the first quarter of
+      fiscal 2013 and the remaining two thirds vest evenly on the following two anniversaries
+      of the grant , contingent upon the recipient''s continued service to adobe .
+
+
+      in the first quarter of fiscal 2012 , the executive compensation committee certified
+      the actual performance achievement of participants in the 2011 performance share
+      program ( the 201c2011 program 201d ) .
+
+
+      based upon the achievement of goals outlined in the 2011 program , participants
+      had the ability to receive up to 150% ( 150 % ) of the target number of shares
+      originally granted .
+
+
+      actual performance resulted in participants achieving 130% ( 130 % ) of target
+      or approximately 0.5 million shares for the 2011 program .
+
+
+      one third of the shares under the 2011 program vested in the first quarter of
+      fiscal 2012 and the remaining two thirds vest evenly on the following two annual
+      anniversary dates of the grant , contingent upon the recipient''s continued
+      service to adobe .
+
+
+      in the first quarter of fiscal 2011 , the executive compensation committee certified
+      the actual performance achievement of participants in the 2010 performance share
+      program ( the 201c2010 program 201d ) .
+
+
+      based upon the achievement of goals outlined in the 2010 program , participants
+      had the ability to receive up to 150% ( 150 % ) of the target number of shares
+      originally granted .
+
+
+      actual performance resulted in participants achieving 135% ( 135 % ) of target
+      or approximately 0.3 million shares for the 2010 program .
+
+
+      one third of the shares under the 2011 program vested in the first quarter of
+      fiscal 2012 and the remaining two thirds vest evenly on the following two annual
+      anniversary dates of the grant , contingent upon the recipient''s continued
+      service to adobe .
+
+
+      the following table sets forth the summary of performance share activity under
+      our 2010 , 2011 and 2012 programs , based upon share awards actually achieved
+      , for the fiscal years ended november 29 , 2013 , november 30 , 2012 and december
+      2 , 2011 ( in thousands ) : .'
+    header:
+    - ''
+    - '2013'
+    - '2012'
+    - '2011'
+    rows:
+    - - beginning outstanding balance
+      - '388'
+      - '405'
+      - '557'
+    - - achieved
+      - '1279'
+      - '492'
+      - '337'
+    - - released
+      - -665 ( 665 )
+      - -464 ( 464 )
+      - -436 ( 436 )
+    - - forfeited
+      - -141 ( 141 )
+      - -45 ( 45 )
+      - -53 ( 53 )
+    - - ending outstanding balance
+      - '861'
+      - '388'
+      - '405'
+    post_text: the total fair value of performance awards vested during fiscal 2013
+      , 2012 and 2011 was $ 25.4 million , $ 14.4 million and $ 14.8 million , respectively.
+      .
+    id: adbe-2013-table-1
+  - pre_text: 'adobe systems incorporated notes to consolidated financial statements
+      ( continued ) accounting for uncertainty in income taxes during fiscal 2013
+      and 2012 , our aggregate changes in our total gross amount of unrecognized tax
+      benefits are summarized as follows ( in thousands ) : .'
+    header:
+    - ''
+    - '2013'
+    - '2012'
+    rows:
+    - - beginning balance
+      - $ 160468
+      - $ 163607
+    - - gross increases in unrecognized tax benefits 2013 prior year tax positions
+      - '20244'
+      - '1038'
+    - - gross increases in unrecognized tax benefits 2013 current year tax positions
+      - '16777'
+      - '23771'
+    - - settlements with taxing authorities
+      - -55851 ( 55851 )
+      - -1754 ( 1754 )
+    - - lapse of statute of limitations
+      - -4066 ( 4066 )
+      - -25387 ( 25387 )
+    - - foreign exchange gains and losses
+      - -1474 ( 1474 )
+      - -807 ( 807 )
+    - - ending balance
+      - $ 136098
+      - $ 160468
+    post_text: 'as of november 29 , 2013 , the combined amount of accrued interest
+      and penalties related to tax positions taken on our tax returns and included
+      in non-current income taxes payable was approximately $ 11.4 million .
+
+
+      we file income tax returns in the u.s .
+
+
+      on a federal basis and in many u.s .
+
+
+      state and foreign jurisdictions .
+
+
+      we are subject to the continual examination of our income tax returns by the
+      irs and other domestic and foreign tax authorities .
+
+
+      our major tax jurisdictions are the u.s. , ireland and california .
+
+
+      for california , ireland and the u.s. , the earliest fiscal years open for examination
+      are 2005 , 2006 and 2010 , respectively .
+
+
+      we regularly assess the likelihood of outcomes resulting from these examinations
+      to determine the adequacy of our provision for income taxes and have reserved
+      for potential adjustments that may result from the current examinations .
+
+
+      we believe such estimates to be reasonable ; however , there can be no assurance
+      that the final determination of any of these examinations will not have an adverse
+      effect on our operating results and financial position .
+
+
+      in july 2013 , a u.s .
+
+
+      income tax examination covering our fiscal years 2008 and 2009 was completed
+      .
+
+
+      our accrued tax and interest related to these years was $ 48.4 million and was
+      previously reported in long-term income taxes payable .
+
+
+      we settled the tax obligation resulting from this examination with cash and
+      income tax assets totaling $ 41.2 million , and the resulting $ 7.2 million
+      income tax benefit was recorded in the third quarter of fiscal 2013 .
+
+
+      the timing of the resolution of income tax examinations is highly uncertain
+      as are the amounts and timing of tax payments that are part of any audit settlement
+      process .
+
+
+      these events could cause large fluctuations in the balance sheet classification
+      of current and non-current assets and liabilities .
+
+
+      we believe that within the next 12 months , it is reasonably possible that either
+      certain audits will conclude or statutes of limitations on certain income tax
+      examination periods will expire , or both .
+
+
+      given the uncertainties described above , we can only determine a range of estimated
+      potential decreases in underlying unrecognized tax benefits ranging from $ 0
+      to approximately $ 5 million .
+
+
+      note 10 .
+
+
+      restructuring fiscal 2011 restructuring plan in the fourth quarter of fiscal
+      2011 , we initiated a restructuring plan consisting of reductions in workforce
+      and the consolidation of facilities in order to better align our resources around
+      our digital media and digital marketing strategies .
+
+
+      during fiscal 2013 , we continued to implement restructuring activities under
+      this plan .
+
+
+      total costs incurred to date and expected to be incurred for closing redundant
+      facilities are $ 12.2 million as all facilities under this plan have been exited
+      as of november 29 , 2013 .
+
+
+      other restructuring plans other restructuring plans include other adobe plans
+      and other plans associated with certain of our acquisitions that are substantially
+      complete .
+
+
+      we continue to make cash outlays to settle obligations under these plans , however
+      the current impact to our consolidated financial statements is not significant
+      .
+
+
+      our other restructuring plans primarily consist of the 2009 restructuring plan
+      , which was implemented in the fourth quarter of fiscal 2009 , in order to appropriately
+      align our costs in connection with our fiscal 2010 operating plan. .'
+    id: adbe-2013-table-2
+- id: adbe-10k-2014
+  form: 10-K
+  filed: '2015-01-20'
+  period_covered: 2014-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/796343/000079634315000022/adbe10kfy14.htm
+  tables:
+  - pre_text: 'adobe systems incorporated notes to consolidated financial statements
+      ( continued ) we review our goodwill for impairment annually , or more frequently
+      , if facts and circumstances warrant a review .
+
+
+      we completed our annual impairment test in the second quarter of fiscal 2014
+      .
+
+
+      we elected to use the step 1 quantitative assessment for our reporting units
+      and determined that there was no impairment of goodwill .
+
+
+      there is no significant risk of material goodwill impairment in any of our reporting
+      units , based upon the results of our annual goodwill impairment test .
+
+
+      we amortize intangible assets with finite lives over their estimated useful
+      lives and review them for impairment whenever an impairment indicator exists
+      .
+
+
+      we continually monitor events and changes in circumstances that could indicate
+      carrying amounts of our long-lived assets , including our intangible assets
+      may not be recoverable .
+
+
+      when such events or changes in circumstances occur , we assess recoverability
+      by determining whether the carrying value of such assets will be recovered through
+      the undiscounted expected future cash flows .
+
+
+      if the future undiscounted cash flows are less than the carrying amount of these
+      assets , we recognize an impairment loss based on any excess of the carrying
+      amount over the fair value of the assets .
+
+
+      we did not recognize any intangible asset impairment charges in fiscal 2014
+      , 2013 or 2012 .
+
+
+      our intangible assets are amortized over their estimated useful lives of 1 to
+      14 years .
+
+
+      amortization is based on the pattern in which the economic benefits of the intangible
+      asset will be consumed or on a straight-line basis when the consumption pattern
+      is not apparent .
+
+
+      the weighted average useful lives of our intangible assets were as follows :
+      weighted average useful life ( years ) .'
+    header:
+    - ''
+    - weighted averageuseful life ( years )
+    rows:
+    - - purchased technology
+      - '6'
+    - - customer contracts and relationships
+      - '10'
+    - - trademarks
+      - '8'
+    - - acquired rights to use technology
+      - '8'
+    - - localization
+      - '1'
+    - - other intangibles
+      - '3'
+    post_text: 'software development costs capitalization of software development
+      costs for software to be sold , leased , or otherwise marketed begins upon the
+      establishment of technological feasibility , which is generally the completion
+      of a working prototype that has been certified as having no critical bugs and
+      is a release candidate .
+
+
+      amortization begins once the software is ready for its intended use , generally
+      based on the pattern in which the economic benefits will be consumed .
+
+
+      to date , software development costs incurred between completion of a working
+      prototype and general availability of the related product have not been material
+      .
+
+
+      internal use software we capitalize costs associated with customized internal-use
+      software systems that have reached the application development stage .
+
+
+      such capitalized costs include external direct costs utilized in developing
+      or obtaining the applications and payroll and payroll-related expenses for employees
+      , who are directly associated with the development of the applications .
+
+
+      capitalization of such costs begins when the preliminary project stage is complete
+      and ceases at the point in which the project is substantially complete and is
+      ready for its intended purpose .
+
+
+      income taxes we use the asset and liability method of accounting for income
+      taxes .
+
+
+      under this method , income tax expense is recognized for the amount of taxes
+      payable or refundable for the current year .
+
+
+      in addition , deferred tax assets and liabilities are recognized for expected
+      future tax consequences of temporary differences between the financial reporting
+      and tax bases of assets and liabilities , and for operating losses and tax credit
+      carryforwards .
+
+
+      we record a valuation allowance to reduce deferred tax assets to an amount for
+      which realization is more likely than not .
+
+
+      taxes collected from customers we net taxes collected from customers against
+      those remitted to government authorities in our financial statements .
+
+
+      accordingly , taxes collected from customers are not reported as revenue. .'
+    id: adbe-2014-table-0
+  - pre_text: 'subscription cost of subscription revenue consists of third-party royalties
+      and expenses related to operating our network infrastructure , including depreciation
+      expenses and operating lease payments associated with computer equipment , data
+      center costs , salaries and related expenses of network operations , implementation
+      , account management and technical support personnel , amortization of intangible
+      assets and allocated overhead .
+
+
+      we enter into contracts with third-parties for the use of their data center
+      facilities and our data center costs largely consist of the amounts we pay to
+      these third parties for rack space , power and similar items .
+
+
+      cost of subscription revenue increased due to the following : % (  % ) change
+      2014-2013 % (  % ) change 2013-2012 .'
+    header:
+    - ''
+    - '% (  % ) change2014-2013'
+    - '% (  % ) change2013-2012'
+    rows:
+    - - data center cost
+      - 10% ( 10 % )
+      - 11% ( 11 % )
+    - - compensation cost and related benefits associated with headcount
+      - '4'
+      - '5'
+    - - depreciation expense
+      - '3'
+      - '3'
+    - - royalty cost
+      - '3'
+      - '4'
+    - - amortization of purchased intangibles
+      - '2014'
+      - '4'
+    - - various individually insignificant items
+      - '1'
+      - '2014'
+    - - total change
+      - 21% ( 21 % )
+      - 27% ( 27 % )
+    post_text: 'cost of subscription revenue increased during fiscal 2014 as compared
+      to fiscal 2013 primarily due to data center costs , compensation cost and related
+      benefits , deprecation expense , and royalty cost .
+
+
+      data center costs increased as compared with the year-ago period primarily due
+      to higher transaction volumes in our adobe marketing cloud and creative cloud
+      services .
+
+
+      compensation cost and related benefits increased as compared to the year-ago
+      period primarily due to additional headcount in fiscal 2014 , including from
+      our acquisition of neolane in the third quarter of fiscal 2013 .
+
+
+      depreciation expense increased as compared to the year-ago period primarily
+      due to higher capital expenditures in recent periods as we continue to invest
+      in our network and data center infrastructure to support the growth of our business
+      .
+
+
+      royalty cost increased primarily due to increases in subscriptions and downloads
+      of our saas offerings .
+
+
+      cost of subscription revenue increased during fiscal 2013 as compared to fiscal
+      2012 primarily due to increased hosted server costs and amortization of purchased
+      intangibles .
+
+
+      hosted server costs increased primarily due to increases in data center costs
+      related to higher transaction volumes in our adobe marketing cloud and creative
+      cloud services , depreciation expense from higher capital expenditures in prior
+      years and compensation and related benefits driven by additional headcount .
+
+
+      amortization of purchased intangibles increased primarily due to increased amortization
+      of intangible assets purchased associated with our acquisitions of behance and
+      neolane in fiscal 2013 .
+
+
+      services and support cost of services and support revenue is primarily comprised
+      of employee-related costs and associated costs incurred to provide consulting
+      services , training and product support .
+
+
+      cost of services and support revenue increased during fiscal 2014 as compared
+      to fiscal 2013 primarily due to increases in compensation and related benefits
+      driven by additional headcount and third-party fees related to training and
+      consulting services provided to our customers .
+
+
+      cost of services and support revenue increased during fiscal 2013 as compared
+      to fiscal 2012 primarily due to increases in third-party fees related to training
+      and consulting services provided to our customers and compensation and related
+      benefits driven by additional headcount , including headcount from our acquisition
+      of neolane in fiscal 2013. .'
+    id: adbe-2014-table-1
+  - pre_text: 'adobe systems incorporated notes to consolidated financial statements
+      ( continued ) note 15 .
+
+
+      commitments and contingencies lease commitments we lease certain of our facilities
+      and some of our equipment under non-cancellable operating lease arrangements
+      that expire at various dates through 2028 .
+
+
+      we also have one land lease that expires in 2091 .
+
+
+      rent expense includes base contractual rent and variable costs such as building
+      expenses , utilities , taxes , insurance and equipment rental .
+
+
+      rent expense and sublease income for these leases for fiscal 2014 , 2013 and
+      2012 were as follows ( in thousands ) : .'
+    header:
+    - ''
+    - '2014'
+    - '2013'
+    - '2012'
+    rows:
+    - - rent expense
+      - $ 111149
+      - $ 118976
+      - $ 105809
+    - - 'less : sublease income'
+      - '1412'
+      - '3057'
+      - '2330'
+    - - net rent expense
+      - $ 109737
+      - $ 115919
+      - $ 103479
+    post_text: 'we occupy three office buildings in san jose , california where our
+      corporate headquarters are located .
+
+
+      we reference these office buildings as the almaden tower and the east and west
+      towers .
+
+
+      in august 2014 , we exercised our option to purchase the east and west towers
+      for a total purchase price of $ 143.2 million .
+
+
+      upon purchase , our investment in the lease receivable of $ 126.8 million was
+      credited against the total purchase price and we were no longer required to
+      maintain a standby letter of credit as stipulated in the east and west towers
+      lease agreement .
+
+
+      we capitalized the east and west towers as property and equipment on our consolidated
+      balance sheets at $ 144.1 million , the lesser of cost or fair value , which
+      represented the total purchase price plus other direct costs associated with
+      the purchase .
+
+
+      see note 6 for discussion of our east and west towers purchase .
+
+
+      the lease agreement for the almaden tower is effective through march 2017 .
+
+
+      we are the investors in the lease receivable related to the almaden tower lease
+      in the amount of $ 80.4 million , which is recorded as investment in lease receivable
+      on our consolidated balance sheets .
+
+
+      as of november 28 , 2014 , the carrying value of the lease receivable related
+      to the almaden tower approximated fair value .
+
+
+      under the agreement for the almaden tower , we have the option to purchase the
+      building at any time during the lease term for $ 103.6 million .
+
+
+      if we purchase the building , the investment in the lease receivable may be
+      credited against the purchase price .
+
+
+      the residual value guarantee under the almaden tower obligation is $ 89.4 million
+      .
+
+
+      the almaden tower lease is subject to standard covenants including certain financial
+      ratios that are reported to the lessor quarterly .
+
+
+      as of november 28 , 2014 , we were in compliance with all of the covenants .
+
+
+      in the case of a default , the lessor may demand we purchase the building for
+      an amount equal to the lease balance , or require that we remarket or relinquish
+      the building .
+
+
+      if we choose to remarket or are required to do so upon relinquishing the building
+      , we are bound to arrange the sale of the building to an unrelated party and
+      will be required to pay the lessor any shortfall between the net remarketing
+      proceeds and the lease balance , up to the residual value guarantee amount less
+      our investment in lease receivable .
+
+
+      the almaden tower lease qualifies for operating lease accounting treatment and
+      , as such , the building and the related obligation are not included in our
+      consolidated balance sheets .
+
+
+      see note 16 for discussion of our capital lease obligation .
+
+
+      unconditional purchase obligations our purchase obligations consist of agreements
+      to purchase goods and services entered into in the ordinary course of business.
+      .'
+    id: adbe-2014-table-2
+  - pre_text: 'adobe systems incorporated notes to consolidated financial statements
+      ( continued ) accounting for uncertainty in income taxes during fiscal 2014
+      and 2013 , our aggregate changes in our total gross amount of unrecognized tax
+      benefits are summarized as follows ( in thousands ) : .'
+    header:
+    - ''
+    - '2014'
+    - '2013'
+    rows:
+    - - beginning balance
+      - $ 136098
+      - $ 160468
+    - - gross increases in unrecognized tax benefits 2013 prior year tax positions
+      - '144'
+      - '20244'
+    - - gross increases in unrecognized tax benefits 2013 current year tax positions
+      - '18877'
+      - '16777'
+    - - settlements with taxing authorities
+      - -995 ( 995 )
+      - -55851 ( 55851 )
+    - - lapse of statute of limitations
+      - -1630 ( 1630 )
+      - -4066 ( 4066 )
+    - - foreign exchange gains and losses
+      - -3646 ( 3646 )
+      - -1474 ( 1474 )
+    - - ending balance
+      - $ 148848
+      - $ 136098
+    post_text: 'as of november 28 , 2014 , the combined amount of accrued interest
+      and penalties related to tax positions taken on our tax returns and included
+      in non-current income taxes payable was approximately $ 14.6 million .
+
+
+      we file income tax returns in the u.s .
+
+
+      on a federal basis and in many u.s .
+
+
+      state and foreign jurisdictions .
+
+
+      we are subject to the continual examination of our income tax returns by the
+      irs and other domestic and foreign tax authorities .
+
+
+      our major tax jurisdictions are ireland , california and the u.s .
+
+
+      for ireland , california and the u.s. , the earliest fiscal years open for examination
+      are 2008 , 2008 and 2010 , respectively .
+
+
+      we regularly assess the likelihood of outcomes resulting from these examinations
+      to determine the adequacy of our provision for income taxes and have reserved
+      for potential adjustments that may result from the current examinations .
+
+
+      we believe such estimates to be reasonable ; however , there can be no assurance
+      that the final determination of any of these examinations will not have an adverse
+      effect on our operating results and financial position .
+
+
+      in july 2013 , a u.s .
+
+
+      income tax examination covering fiscal 2008 and 2009 was completed .
+
+
+      our accrued tax and interest related to these years was $ 48.4 million and was
+      previously reported in long-term income taxes payable .
+
+
+      we settled the tax obligation resulting from this examination with cash and
+      income tax assets totaling $ 41.2 million , and the resulting $ 7.2 million
+      income tax benefit was recorded in the third quarter of fiscal 2013 .
+
+
+      the timing of the resolution of income tax examinations is highly uncertain
+      as are the amounts and timing of tax payments that are part of any audit settlement
+      process .
+
+
+      these events could cause large fluctuations in the balance sheet classification
+      of current and non-current assets and liabilities .
+
+
+      we believe that within the next 12 months , it is reasonably possible that either
+      certain audits will conclude or statutes of limitations on certain income tax
+      examination periods will expire , or both .
+
+
+      given the uncertainties described above , we can only determine a range of estimated
+      potential decreases in underlying unrecognized tax benefits ranging from $ 0
+      to approximately $ 5 million .
+
+
+      note 10 .
+
+
+      restructuring fiscal 2014 restructuring plan in the fourth quarter of fiscal
+      2014 , in order to better align our global resources for digital media and digital
+      marketing , we initiated a restructuring plan to vacate our research and development
+      facility in china and our sales and marketing facility in russia .
+
+
+      this plan consisted of reductions of approximately 350 full-time positions and
+      we recorded restructuring charges of approximately $ 18.8 million related to
+      ongoing termination benefits for the positions eliminated .
+
+
+      during fiscal 2015 , we intend to vacate both of these facilities .
+
+
+      the amount accrued for the fair value of future contractual obligations under
+      these operating leases was insignificant .
+
+
+      other restructuring plans during the past several years , we have implemented
+      other restructuring plans consisting of reductions in workforce and the consolidation
+      of facilities to better align our resources around our business strategies .
+
+
+      as of november 28 , 2014 , we considered our other restructuring plans to be
+      substantially complete .
+
+
+      we continue to make cash outlays to settle obligations under these plans , however
+      the current impact to our consolidated financial statements is not significant.
+      .'
+    id: adbe-2014-table-3
 - id: adbe-10k-2018
   form: 10-K
   filed: '2019-01-25'

@@ -570,6 +570,3421 @@ metrics:
       xbrl_concept: us-gaap:Liabilities
       description: Total liabilities
 filings:
+- id: ppg-10k-2010
+  form: 10-K
+  filed: '2011-02-17'
+  period_covered: 2010-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/79879/000119312511038642/d10k.htm
+  tables:
+  - pre_text: 'notes to the consolidated financial statements the credit agreement
+      provides that loans will bear interest at rates based , at the company 2019s
+      option , on one of two specified base rates plus a margin based on certain formulas
+      defined in the credit agreement .
+
+
+      additionally , the credit agreement contains a commitment fee on the amount
+      of unused commitment under the credit agreement ranging from 0.125% ( 0.125
+      % ) to 0.625% ( 0.625 % ) per annum .
+
+
+      the applicable interest rate and the commitment fee will vary depending on the
+      ratings established by standard & poor 2019s financial services llc and moody
+      2019s investor service inc .
+
+
+      for the company 2019s non-credit enhanced , long- term , senior , unsecured
+      debt .
+
+
+      the credit agreement contains usual and customary restrictive covenants for
+      facilities of its type , which include , with specified exceptions , limitations
+      on the company 2019s ability to create liens or other encumbrances , to enter
+      into sale and leaseback transactions and to enter into consolidations , mergers
+      or transfers of all or substantially all of its assets .
+
+
+      the credit agreement also requires the company to maintain a ratio of total
+      indebtedness to total capitalization , as defined in the credit agreement ,
+      of sixty percent or less .
+
+
+      the credit agreement contains customary events of default that would permit
+      the lenders to accelerate the repayment of any loans , including the failure
+      to make timely payments when due under the credit agreement or other material
+      indebtedness , the failure to satisfy covenants contained in the credit agreement
+      , a change in control of the company and specified events of bankruptcy and
+      insolvency .
+
+
+      there were no amounts outstanding under the credit agreement at december 31
+      , on november 12 , 2010 , ppg completed a public offering of $ 250 million in
+      aggregate principal amount of its 1.900% ( 1.900 % ) notes due 2016 ( the 201c2016
+      notes 201d ) , $ 500 million in aggregate principal amount of its 3.600% ( 3.600
+      % ) notes due 2020 ( the 201c2020 notes 201d ) and $ 250 million in aggregate
+      principal amount of its 5.500% ( 5.500 % ) notes due 2040 ( the 201c2040 notes
+      201d ) .
+
+
+      these notes were issued pursuant to an indenture dated as of march 18 , 2008
+      ( the 201coriginal indenture 201d ) between the company and the bank of new
+      york mellon trust company , n.a. , as trustee ( the 201ctrustee 201d ) , as
+      supplemented by a first supplemental indenture dated as of march 18 , 2008 between
+      the company and the trustee ( the 201cfirst supplemental indenture 201d ) and
+      a second supplemental indenture dated as of november 12 , 2010 between the company
+      and the trustee ( the 201csecond supplemental indenture 201d and , together
+      with the original indenture and the first supplemental indenture , the 201cindenture
+      201d ) .
+
+
+      the company may issue additional debt from time to time pursuant to the original
+      indenture .
+
+
+      the indenture governing these notes contains covenants that limit the company
+      2019s ability to , among other things , incur certain liens securing indebtedness
+      , engage in certain sale-leaseback transactions , and enter into certain consolidations
+      , mergers , conveyances , transfers or leases of all or substantially all the
+      company 2019s assets .
+
+
+      the terms of these notes also require the company to make an offer to repurchase
+      notes upon a change of control triggering event ( as defined in the second supplemental
+      indenture ) at a price equal to 101% ( 101 % ) of their principal amount plus
+      accrued and unpaid interest .
+
+
+      cash proceeds from this notes offering was $ 983 million ( net of discount and
+      issuance costs ) .
+
+
+      the discount and issuance costs related to these notes , which totaled $ 17
+      million , will be amortized to interest expense over the respective terms of
+      the notes .
+
+
+      ppg 2019s non-u.s .
+
+
+      operations have uncommitted lines of credit totaling $ 791 million of which
+      $ 31 million was used as of december 31 , 2010 .
+
+
+      these uncommitted lines of credit are subject to cancellation at any time and
+      are generally not subject to any commitment fees .
+
+
+      short-term debt outstanding as of december 31 , 2010 and 2009 , was as follows
+      : ( millions ) 2010 2009 20ac650 million revolving credit facility , 0.8% (
+      0.8 % ) as of dec .
+
+
+      31 , 2009 $ 2014 $ 110 other , weighted average 3.39% ( 3.39 % ) as of dec .
+
+
+      31 , 2010 and 2.2% ( 2.2 % ) as of december 31 , 2009 24 158 total $ 24 $ 268
+      ppg is in compliance with the restrictive covenants under its various credit
+      agreements , loan agreements and indentures .
+
+
+      the company 2019s revolving credit agreements include a financial ratio covenant
+      .
+
+
+      the covenant requires that the amount of total indebtedness not exceed 60% (
+      60 % ) of the company 2019s total capitalization excluding the portion of accumulated
+      other comprehensive income ( loss ) related to pensions and other postretirement
+      benefit adjustments .
+
+
+      as of december 31 , 2010 , total indebtedness was 45% ( 45 % ) of the company
+      2019s total capitalization excluding the portion of accumulated other comprehensive
+      income ( loss ) related to pensions and other postretirement benefit adjustments
+      .
+
+
+      additionally , substantially all of the company 2019s debt agreements contain
+      customary cross- default provisions .
+
+
+      those provisions generally provide that a default on a debt service payment
+      of $ 10 million or more for longer than the grace period provided ( usually
+      10 days ) under one agreement may result in an event of default under other
+      agreements .
+
+
+      none of the company 2019s primary debt obligations are secured or guaranteed
+      by the company 2019s affiliates .
+
+
+      interest payments in 2010 , 2009 and 2008 totaled $ 189 million , $ 201 million
+      and $ 228 million , respectively .
+
+
+      2010 ppg annual report and form 10-k 43 .'
+    header:
+    - ( millions )
+    - '2010'
+    - '2009'
+    rows:
+    - - 20ac650 million revolving credit facility 0.8% ( 0.8 % ) as of dec . 31 2009
+      - $ 2014
+      - $ 110
+    - - other weighted average 3.39% ( 3.39 % ) as of dec . 31 2010 and 2.2% ( 2.2
+        % ) as of december 31 2009
+      - '24'
+      - '158'
+    - - total
+      - $ 24
+      - $ 268
+    post_text: 'notes to the consolidated financial statements the credit agreement
+      provides that loans will bear interest at rates based , at the company 2019s
+      option , on one of two specified base rates plus a margin based on certain formulas
+      defined in the credit agreement .
+
+
+      additionally , the credit agreement contains a commitment fee on the amount
+      of unused commitment under the credit agreement ranging from 0.125% ( 0.125
+      % ) to 0.625% ( 0.625 % ) per annum .
+
+
+      the applicable interest rate and the commitment fee will vary depending on the
+      ratings established by standard & poor 2019s financial services llc and moody
+      2019s investor service inc .
+
+
+      for the company 2019s non-credit enhanced , long- term , senior , unsecured
+      debt .
+
+
+      the credit agreement contains usual and customary restrictive covenants for
+      facilities of its type , which include , with specified exceptions , limitations
+      on the company 2019s ability to create liens or other encumbrances , to enter
+      into sale and leaseback transactions and to enter into consolidations , mergers
+      or transfers of all or substantially all of its assets .
+
+
+      the credit agreement also requires the company to maintain a ratio of total
+      indebtedness to total capitalization , as defined in the credit agreement ,
+      of sixty percent or less .
+
+
+      the credit agreement contains customary events of default that would permit
+      the lenders to accelerate the repayment of any loans , including the failure
+      to make timely payments when due under the credit agreement or other material
+      indebtedness , the failure to satisfy covenants contained in the credit agreement
+      , a change in control of the company and specified events of bankruptcy and
+      insolvency .
+
+
+      there were no amounts outstanding under the credit agreement at december 31
+      , on november 12 , 2010 , ppg completed a public offering of $ 250 million in
+      aggregate principal amount of its 1.900% ( 1.900 % ) notes due 2016 ( the 201c2016
+      notes 201d ) , $ 500 million in aggregate principal amount of its 3.600% ( 3.600
+      % ) notes due 2020 ( the 201c2020 notes 201d ) and $ 250 million in aggregate
+      principal amount of its 5.500% ( 5.500 % ) notes due 2040 ( the 201c2040 notes
+      201d ) .
+
+
+      these notes were issued pursuant to an indenture dated as of march 18 , 2008
+      ( the 201coriginal indenture 201d ) between the company and the bank of new
+      york mellon trust company , n.a. , as trustee ( the 201ctrustee 201d ) , as
+      supplemented by a first supplemental indenture dated as of march 18 , 2008 between
+      the company and the trustee ( the 201cfirst supplemental indenture 201d ) and
+      a second supplemental indenture dated as of november 12 , 2010 between the company
+      and the trustee ( the 201csecond supplemental indenture 201d and , together
+      with the original indenture and the first supplemental indenture , the 201cindenture
+      201d ) .
+
+
+      the company may issue additional debt from time to time pursuant to the original
+      indenture .
+
+
+      the indenture governing these notes contains covenants that limit the company
+      2019s ability to , among other things , incur certain liens securing indebtedness
+      , engage in certain sale-leaseback transactions , and enter into certain consolidations
+      , mergers , conveyances , transfers or leases of all or substantially all the
+      company 2019s assets .
+
+
+      the terms of these notes also require the company to make an offer to repurchase
+      notes upon a change of control triggering event ( as defined in the second supplemental
+      indenture ) at a price equal to 101% ( 101 % ) of their principal amount plus
+      accrued and unpaid interest .
+
+
+      cash proceeds from this notes offering was $ 983 million ( net of discount and
+      issuance costs ) .
+
+
+      the discount and issuance costs related to these notes , which totaled $ 17
+      million , will be amortized to interest expense over the respective terms of
+      the notes .
+
+
+      ppg 2019s non-u.s .
+
+
+      operations have uncommitted lines of credit totaling $ 791 million of which
+      $ 31 million was used as of december 31 , 2010 .
+
+
+      these uncommitted lines of credit are subject to cancellation at any time and
+      are generally not subject to any commitment fees .
+
+
+      short-term debt outstanding as of december 31 , 2010 and 2009 , was as follows
+      : ( millions ) 2010 2009 20ac650 million revolving credit facility , 0.8% (
+      0.8 % ) as of dec .
+
+
+      31 , 2009 $ 2014 $ 110 other , weighted average 3.39% ( 3.39 % ) as of dec .
+
+
+      31 , 2010 and 2.2% ( 2.2 % ) as of december 31 , 2009 24 158 total $ 24 $ 268
+      ppg is in compliance with the restrictive covenants under its various credit
+      agreements , loan agreements and indentures .
+
+
+      the company 2019s revolving credit agreements include a financial ratio covenant
+      .
+
+
+      the covenant requires that the amount of total indebtedness not exceed 60% (
+      60 % ) of the company 2019s total capitalization excluding the portion of accumulated
+      other comprehensive income ( loss ) related to pensions and other postretirement
+      benefit adjustments .
+
+
+      as of december 31 , 2010 , total indebtedness was 45% ( 45 % ) of the company
+      2019s total capitalization excluding the portion of accumulated other comprehensive
+      income ( loss ) related to pensions and other postretirement benefit adjustments
+      .
+
+
+      additionally , substantially all of the company 2019s debt agreements contain
+      customary cross- default provisions .
+
+
+      those provisions generally provide that a default on a debt service payment
+      of $ 10 million or more for longer than the grace period provided ( usually
+      10 days ) under one agreement may result in an event of default under other
+      agreements .
+
+
+      none of the company 2019s primary debt obligations are secured or guaranteed
+      by the company 2019s affiliates .
+
+
+      interest payments in 2010 , 2009 and 2008 totaled $ 189 million , $ 201 million
+      and $ 228 million , respectively .
+
+
+      2010 ppg annual report and form 10-k 43 .'
+    id: ppg-2010-table-0
+  - pre_text: 'notes to the consolidated financial statements related to the change
+      in the unrealized gain ( loss ) on derivatives for the years ended december
+      31 , 2010 , 2009 and 2008 was $ 1 million , $ ( 16 ) million and $ 30 million
+      , respectively .
+
+
+      19 .
+
+
+      employee savings plan ppg 2019s employee savings plan ( 201csavings plan 201d
+      ) covers substantially all u.s .
+
+
+      employees .
+
+
+      the company makes matching contributions to the savings plan based upon participants
+      2019 savings , subject to certain limitations .
+
+
+      for most participants not covered by a collective bargaining agreement , company-matching
+      contributions are established each year at the discretion of the company and
+      are applied to a maximum of 6% ( 6 % ) of eligible participant compensation
+      .
+
+
+      for those participants whose employment is covered by a collective bargaining
+      agreement , the level of company- matching contribution , if any , is determined
+      by the collective bargaining agreement .
+
+
+      the company-matching contribution was 100% ( 100 % ) for 2008 and for the first
+      two months of 2009 .
+
+
+      the company- matching contribution was suspended from march 2009 through june
+      2010 as a cost savings measure in recognition of the adverse impact of the global
+      recession .
+
+
+      effective july 1 , 2010 , the company match was reinstated at 50% ( 50 % ) on
+      the first 6% ( 6 % ) contributed for most employees eligible for the company-matching
+      contribution feature .
+
+
+      this would have included the bargained employees in accordance with their collective
+      bargaining agreements .
+
+
+      on january 1 , 2011 , the company match was increased to 75% ( 75 % ) on the
+      first 6% ( 6 % ) contributed by these eligible employees .
+
+
+      compensation expense and cash contributions related to the company match of
+      participant contributions to the savings plan for 2010 , 2009 and 2008 totaled
+      $ 9 million , $ 7 million and $ 42 million , respectively .
+
+
+      a portion of the savings plan qualifies under the internal revenue code as an
+      employee stock ownership plan .
+
+
+      as a result , the tax deductible dividends on ppg shares held by the savings
+      plan were $ 24 million , $ 28 million and $ 29 million for 2010 , 2009 and 2008
+      , respectively .
+
+
+      20 .
+
+
+      other earnings ( millions ) 2010 2009 2008 .'
+    header:
+    - ( millions )
+    - '2010'
+    - '2009'
+    - '2008'
+    rows:
+    - - interest income
+      - $ 34
+      - $ 28
+      - $ 26
+    - - royalty income
+      - '58'
+      - '45'
+      - '52'
+    - - share of net earnings ( loss ) of equity affiliates ( see note 6 )
+      - '45'
+      - -5 ( 5 )
+      - '3'
+    - - gain on sale of assets
+      - '8'
+      - '36'
+      - '23'
+    - - other
+      - '69'
+      - '74'
+      - '61'
+    - - total
+      - $ 214
+      - $ 178
+      - $ 165
+    post_text: 'total $ 214 $ 178 $ 165 21 .
+
+
+      stock-based compensation the company 2019s stock-based compensation includes
+      stock options , restricted stock units ( 201crsus 201d ) and grants of contingent
+      shares that are earned based on achieving targeted levels of total shareholder
+      return .
+
+
+      all current grants of stock options , rsus and contingent shares are made under
+      the ppg industries , inc .
+
+
+      omnibus incentive plan ( 201cppg omnibus plan 201d ) .
+
+
+      shares available for future grants under the ppg omnibus plan were 4.1 million
+      as of december 31 , 2010 .
+
+
+      total stock-based compensation cost was $ 52 million , $ 34 million and $ 33
+      million in 2010 , 2009 and 2008 , respectively .
+
+
+      the total income tax benefit recognized in the accompanying consolidated statement
+      of income related to the stock-based compensation was $ 18 million , $ 12 million
+      and $ 12 million in 2010 , 2009 and 2008 , respectively .
+
+
+      stock options ppg has outstanding stock option awards that have been granted
+      under two stock option plans : the ppg industries , inc .
+
+
+      stock plan ( 201cppg stock plan 201d ) and the ppg omnibus plan .
+
+
+      under the ppg omnibus plan and the ppg stock plan , certain employees of the
+      company have been granted options to purchase shares of common stock at prices
+      equal to the fair market value of the shares on the date the options were granted
+      .
+
+
+      the options are generally exercisable beginning from six to 48 months after
+      being granted and have a maximum term of 10 years .
+
+
+      upon exercise of a stock option , shares of company stock are issued from treasury
+      stock .
+
+
+      the ppg stock plan includes a restored option provision for options originally
+      granted prior to january 1 , 2003 that allows an optionee to exercise options
+      and satisfy the option price by certifying ownership of mature shares of ppg
+      common stock with equivalent market value .
+
+
+      the fair value of stock options issued to employees is measured on the date
+      of grant and is recognized as expense over the requisite service period .
+
+
+      ppg estimates the fair value of stock options using the black-scholes option
+      pricing model .
+
+
+      the risk-free interest rate is determined by using the u.s .
+
+
+      treasury yield curve at the date of the grant and using a maturity equal to
+      the expected life of the option .
+
+
+      the expected life of options is calculated using the average of the vesting
+      term and the maximum term , as prescribed by accounting guidance on the use
+      of the simplified method for determining the expected term of an employee share
+      option .
+
+
+      this method is used as the vesting term of stock options was changed to three
+      years in 2004 and , as a result , the historical exercise data does not provide
+      a reasonable basis upon which to estimate the expected life of options .
+
+
+      the expected dividend yield and volatility are based on historical stock prices
+      and dividend amounts over past time periods equal in length to the expected
+      life of the options .
+
+
+      66 2010 ppg annual report and form 10-k .'
+    id: ppg-2010-table-1
+- id: ppg-10k-2011
+  form: 10-K
+  filed: '2012-02-16'
+  period_covered: 2011-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/79879/000119312512064763/d260697d10k.htm
+  tables:
+  - pre_text: 'liquidity and capital resources during the past three years , we had
+      sufficient financial resources to meet our operating requirements , to fund
+      our capital spending , share repurchases and pension plans and to pay increasing
+      dividends to our shareholders .
+
+
+      cash from operating activities was $ 1436 million , $ 1310 million , and $ 1345
+      million in 2011 , 2010 , and 2009 , respectively .
+
+
+      higher earnings increased cash from operations in 2011 compared to 2010 , but
+      the increase was reduced by cash used to fund an increase in working capital
+      of $ 212 million driven by our sales growth in 2011 .
+
+
+      cash provided by working capital was greater in 2009 than 2010 and that decline
+      was more than offset by the cash from higher 2010 earnings .
+
+
+      operating working capital is a subset of total working capital and represents
+      ( 1 ) trade receivables-net of the allowance for doubtful accounts , plus (
+      2 ) inventories on a first-in , first-out ( 201cfifo 201d ) basis , less ( 3
+      ) trade creditors 2019 liabilities .
+
+
+      see note 3 , 201cworking capital detail 201d under item 8 of this form 10-k
+      for further information related to the components of the company 2019s operating
+      working capital .
+
+
+      we believe operating working capital represents the key components of working
+      capital under the operating control of our businesses .
+
+
+      operating working capital at december 31 , 2011 and 2010 was $ 2.7 billion and
+      $ 2.6 billion , respectively .
+
+
+      a key metric we use to measure our working capital management is operating working
+      capital as a percentage of sales ( fourth quarter sales annualized ) .
+
+
+      ( millions ) 2011 2010 operating working capital $ 2739 $ 2595 operating working
+      capital as % (  % ) of sales 19.5% ( 19.5 % ) 19.2% ( 19.2 % ) the change in
+      operating working capital elements , excluding the impact of currency and acquisitions
+      , was an increase of $ 195 million during the year ended december 31 , 2011
+      .
+
+
+      this increase was the net result of an increase in receivables from customers
+      associated with the 2011 increase in sales and an increase in fifo inventory
+      slightly offset by an increase in trade creditors 2019 liabilities .
+
+
+      trade receivables from customers , net , as a percentage of fourth quarter sales
+      , annualized , for 2011 was 17.9 percent , down slightly from 18.1 percent for
+      2010 .
+
+
+      days sales outstanding was 66 days in 2011 , level with 2010 .
+
+
+      inventories on a fifo basis as a percentage of fourth quarter sales , annualized
+      , for 2011 was 13.1 percent level with 2010 .
+
+
+      inventory turnover was 5.0 times in 2011 and 4.6 times in 2010 .
+
+
+      total capital spending , including acquisitions , was $ 446 million , $ 341
+      million and $ 265 million in 2011 , 2010 , and 2009 , respectively .
+
+
+      spending related to modernization and productivity improvements , expansion
+      of existing businesses and environmental control projects was $ 390 million
+      , $ 307 million and $ 239 million in 2011 , 2010 , and 2009 , respectively ,
+      and is expected to be in the range of $ 450-$ 550 million during 2012 .
+
+
+      capital spending , excluding acquisitions , as a percentage of sales was 2.6%
+      ( 2.6 % ) , 2.3% ( 2.3 % ) and 2.0% ( 2.0 % ) in 2011 , 2010 and 2009 , respectively
+      .
+
+
+      capital spending related to business acquisitions amounted to $ 56 million ,
+      $ 34 million , and $ 26 million in 2011 , 2010 and 2009 , respectively .
+
+
+      we continue to evaluate acquisition opportunities and expect to use cash in
+      2012 to fund small to mid-sized acquisitions , as part of a balanced deployment
+      of our cash to support growth in earnings .
+
+
+      in january 2012 , the company closed the previously announced acquisitions of
+      colpisa , a colombian producer of automotive oem and refinish coatings , and
+      dyrup , a european architectural coatings company .
+
+
+      the cost of these acquisitions , including assumed debt , was $ 193 million
+      .
+
+
+      dividends paid to shareholders totaled $ 355 million , $ 360 million and $ 353
+      million in 2011 , 2010 and 2009 , respectively .
+
+
+      ppg has paid uninterrupted annual dividends since 1899 , and 2011 marked the
+      40th consecutive year of increased annual dividend payments to shareholders
+      .
+
+
+      we did not have a mandatory contribution to our u.s .
+
+
+      defined benefit pension plans in 2011 ; however , we made voluntary contributions
+      to these plans in 2011 totaling $ 50 million .
+
+
+      in 2010 and 2009 , we made voluntary contributions to our u.s .
+
+
+      defined benefit pension plans of $ 250 and $ 360 million ( of which $ 100 million
+      was made in ppg stock ) , respectively .
+
+
+      we expect to make voluntary contributions to our u.s .
+
+
+      defined benefit pension plans in 2012 of up to $ 60 million .
+
+
+      contributions were made to our non-u.s .
+
+
+      defined benefit pension plans of $ 71 million , $ 87 million and $ 90 million
+      ( of which approximately $ 20 million was made in ppg stock ) for 2011 , 2010
+      and 2009 , respectively , some of which were required by local funding requirements
+      .
+
+
+      we expect to make mandatory contributions to our non-u.s .
+
+
+      plans in 2012 of approximately $ 90 million .
+
+
+      the company 2019s share repurchase activity in 2011 , 2010 and 2009 was 10.2
+      million shares at a cost of $ 858 million , 8.1 million shares at a cost of
+      $ 586 million and 1.5 million shares at a cost of $ 59 million , respectively
+      .
+
+
+      we expect to make share repurchases in 2012 as part of our cash deployment focused
+      on earnings growth .
+
+
+      the amount of spending will depend on the level of acquisition spending and
+      other uses of cash , but we currently expect to spend in the range of $ 250
+      million to $ 500 million on share repurchases in 2012 .
+
+
+      we can repurchase about 9 million shares under the current authorization from
+      the board of directors .
+
+
+      26 2011 ppg annual report and form 10-k .'
+    header:
+    - ( millions )
+    - '2011'
+    - '2010'
+    - ''
+    rows:
+    - - operating working capital
+      - $ 2739
+      - $ 2595
+      - ''
+    - - operating working capital as % (  % ) of sales
+      - 19.5% ( 19.5 % )
+      - '19.2'
+      - '% (  % )'
+    post_text: 'liquidity and capital resources during the past three years , we had
+      sufficient financial resources to meet our operating requirements , to fund
+      our capital spending , share repurchases and pension plans and to pay increasing
+      dividends to our shareholders .
+
+
+      cash from operating activities was $ 1436 million , $ 1310 million , and $ 1345
+      million in 2011 , 2010 , and 2009 , respectively .
+
+
+      higher earnings increased cash from operations in 2011 compared to 2010 , but
+      the increase was reduced by cash used to fund an increase in working capital
+      of $ 212 million driven by our sales growth in 2011 .
+
+
+      cash provided by working capital was greater in 2009 than 2010 and that decline
+      was more than offset by the cash from higher 2010 earnings .
+
+
+      operating working capital is a subset of total working capital and represents
+      ( 1 ) trade receivables-net of the allowance for doubtful accounts , plus (
+      2 ) inventories on a first-in , first-out ( 201cfifo 201d ) basis , less ( 3
+      ) trade creditors 2019 liabilities .
+
+
+      see note 3 , 201cworking capital detail 201d under item 8 of this form 10-k
+      for further information related to the components of the company 2019s operating
+      working capital .
+
+
+      we believe operating working capital represents the key components of working
+      capital under the operating control of our businesses .
+
+
+      operating working capital at december 31 , 2011 and 2010 was $ 2.7 billion and
+      $ 2.6 billion , respectively .
+
+
+      a key metric we use to measure our working capital management is operating working
+      capital as a percentage of sales ( fourth quarter sales annualized ) .
+
+
+      ( millions ) 2011 2010 operating working capital $ 2739 $ 2595 operating working
+      capital as % (  % ) of sales 19.5% ( 19.5 % ) 19.2% ( 19.2 % ) the change in
+      operating working capital elements , excluding the impact of currency and acquisitions
+      , was an increase of $ 195 million during the year ended december 31 , 2011
+      .
+
+
+      this increase was the net result of an increase in receivables from customers
+      associated with the 2011 increase in sales and an increase in fifo inventory
+      slightly offset by an increase in trade creditors 2019 liabilities .
+
+
+      trade receivables from customers , net , as a percentage of fourth quarter sales
+      , annualized , for 2011 was 17.9 percent , down slightly from 18.1 percent for
+      2010 .
+
+
+      days sales outstanding was 66 days in 2011 , level with 2010 .
+
+
+      inventories on a fifo basis as a percentage of fourth quarter sales , annualized
+      , for 2011 was 13.1 percent level with 2010 .
+
+
+      inventory turnover was 5.0 times in 2011 and 4.6 times in 2010 .
+
+
+      total capital spending , including acquisitions , was $ 446 million , $ 341
+      million and $ 265 million in 2011 , 2010 , and 2009 , respectively .
+
+
+      spending related to modernization and productivity improvements , expansion
+      of existing businesses and environmental control projects was $ 390 million
+      , $ 307 million and $ 239 million in 2011 , 2010 , and 2009 , respectively ,
+      and is expected to be in the range of $ 450-$ 550 million during 2012 .
+
+
+      capital spending , excluding acquisitions , as a percentage of sales was 2.6%
+      ( 2.6 % ) , 2.3% ( 2.3 % ) and 2.0% ( 2.0 % ) in 2011 , 2010 and 2009 , respectively
+      .
+
+
+      capital spending related to business acquisitions amounted to $ 56 million ,
+      $ 34 million , and $ 26 million in 2011 , 2010 and 2009 , respectively .
+
+
+      we continue to evaluate acquisition opportunities and expect to use cash in
+      2012 to fund small to mid-sized acquisitions , as part of a balanced deployment
+      of our cash to support growth in earnings .
+
+
+      in january 2012 , the company closed the previously announced acquisitions of
+      colpisa , a colombian producer of automotive oem and refinish coatings , and
+      dyrup , a european architectural coatings company .
+
+
+      the cost of these acquisitions , including assumed debt , was $ 193 million
+      .
+
+
+      dividends paid to shareholders totaled $ 355 million , $ 360 million and $ 353
+      million in 2011 , 2010 and 2009 , respectively .
+
+
+      ppg has paid uninterrupted annual dividends since 1899 , and 2011 marked the
+      40th consecutive year of increased annual dividend payments to shareholders
+      .
+
+
+      we did not have a mandatory contribution to our u.s .
+
+
+      defined benefit pension plans in 2011 ; however , we made voluntary contributions
+      to these plans in 2011 totaling $ 50 million .
+
+
+      in 2010 and 2009 , we made voluntary contributions to our u.s .
+
+
+      defined benefit pension plans of $ 250 and $ 360 million ( of which $ 100 million
+      was made in ppg stock ) , respectively .
+
+
+      we expect to make voluntary contributions to our u.s .
+
+
+      defined benefit pension plans in 2012 of up to $ 60 million .
+
+
+      contributions were made to our non-u.s .
+
+
+      defined benefit pension plans of $ 71 million , $ 87 million and $ 90 million
+      ( of which approximately $ 20 million was made in ppg stock ) for 2011 , 2010
+      and 2009 , respectively , some of which were required by local funding requirements
+      .
+
+
+      we expect to make mandatory contributions to our non-u.s .
+
+
+      plans in 2012 of approximately $ 90 million .
+
+
+      the company 2019s share repurchase activity in 2011 , 2010 and 2009 was 10.2
+      million shares at a cost of $ 858 million , 8.1 million shares at a cost of
+      $ 586 million and 1.5 million shares at a cost of $ 59 million , respectively
+      .
+
+
+      we expect to make share repurchases in 2012 as part of our cash deployment focused
+      on earnings growth .
+
+
+      the amount of spending will depend on the level of acquisition spending and
+      other uses of cash , but we currently expect to spend in the range of $ 250
+      million to $ 500 million on share repurchases in 2012 .
+
+
+      we can repurchase about 9 million shares under the current authorization from
+      the board of directors .
+
+
+      26 2011 ppg annual report and form 10-k .'
+    id: ppg-2011-table-0
+  - pre_text: 'notes to the consolidated financial statements at a price equal to
+      101% ( 101 % ) of their principal amount plus accrued and unpaid interest .
+
+
+      cash proceeds from the sale of these notes was $ 983 million ( net of discount
+      and issuance costs ) .
+
+
+      the discount and issuance costs related to these notes , which totaled $ 17
+      million , will be amortized to interest expense over the respective terms of
+      the notes .
+
+
+      in august 2010 , ppg entered into a three-year credit agreement with several
+      banks and financial institutions ( the 201ccredit agreement 201d ) .
+
+
+      the credit agreement provides for a $ 1.2 billion unsecured revolving credit
+      facility .
+
+
+      in connection with entering into this credit agreement , the company terminated
+      its 20ac650 million and its $ 1 billion revolving credit facilities that were
+      each set to expire in 2011 .
+
+
+      there were no outstanding amounts due under either revolving facility at the
+      times of their termination .
+
+
+      the company has the ability to increase the size of the credit agreement by
+      up to an additional $ 300 million , subject to the receipt of lender commitments
+      and other conditions .
+
+
+      the credit agreement will terminate and all amounts outstanding will be due
+      and payable on august 5 , 2013 .
+
+
+      the credit agreement provides that loans will bear interest at rates based ,
+      at the company 2019s option , on one of two specified base rates plus a margin
+      based on certain formulas defined in the credit agreement .
+
+
+      additionally , the credit agreement contains a commitment fee on the amount
+      of unused commitment under the credit agreement ranging from 0.125% ( 0.125
+      % ) to 0.625% ( 0.625 % ) per annum .
+
+
+      the applicable interest rate and the fee will vary depending on the ratings
+      established by standard & poor 2019s financial services llc and moody 2019s
+      investor service inc .
+
+
+      for the company 2019s non-credit enhanced , long- term , senior , unsecured
+      debt .
+
+
+      there were no amounts outstanding under the credit agreement at december 31
+      , 2011 ; however , the available borrowing rate on a one month , u.s .
+
+
+      dollar denominated borrowing would have been 1.05 percent .
+
+
+      the credit agreement contains usual and customary restrictive covenants for
+      facilities of its type , which include , with specified exceptions , limitations
+      on the company 2019s ability to create liens or other encumbrances , to enter
+      into sale and leaseback transactions and to enter into consolidations , mergers
+      or transfers of all or substantially all of its assets .
+
+
+      the credit agreement also requires the company to maintain a ratio of total
+      indebtedness to total capitalization , as defined in the credit agreement ,
+      of 60 percent or less .
+
+
+      the credit agreement contains customary events of default that would permit
+      the lenders to accelerate the repayment of any loans , including the failure
+      to make timely payments when due under the credit agreement or other material
+      indebtedness , the failure to satisfy covenants contained in the credit agreement
+      , a change in control of the company and specified events of bankruptcy and
+      insolvency .
+
+
+      ppg 2019s non-u.s .
+
+
+      operations have uncommitted lines of credit totaling $ 679 million of which
+      $ 36 million was used as of december 31 , 2011 .
+
+
+      these uncommitted lines of credit are subject to cancellation at any time and
+      are generally not subject to any commitment fees .
+
+
+      short-term debt outstanding as of december 31 , 2011 and 2010 , was as follows
+      : ( millions ) 2011 2010 other , weighted average 3.72% ( 3.72 % ) as of dec
+      .
+
+
+      31 , 2011 and 3.39% ( 3.39 % ) as of december 31 , 2010 33 24 total $ 33 $ 24
+      ppg is in compliance with the restrictive covenants under its various credit
+      agreements , loan agreements and indentures .
+
+
+      the company 2019s revolving credit agreements include a financial ratio covenant
+      .
+
+
+      the covenant requires that the amount of total indebtedness not exceed 60% (
+      60 % ) of the company 2019s total capitalization excluding the portion of accumulated
+      other comprehensive income ( loss ) related to pensions and other postretirement
+      benefit adjustments .
+
+
+      as of december 31 , 2011 , total indebtedness was 43 percent of the company
+      2019s total capitalization excluding the portion of accumulated other comprehensive
+      income ( loss ) related to pensions and other postretirement benefit adjustments
+      .
+
+
+      additionally , substantially all of the company 2019s debt agreements contain
+      customary cross-default provisions .
+
+
+      those provisions generally provide that a default on a debt service payment
+      of $ 10 million or more for longer than the grace period provided ( usually
+      10 days ) under one agreement may result in an event of default under other
+      agreements .
+
+
+      none of the company 2019s primary debt obligations are secured or guaranteed
+      by the company 2019s affiliates .
+
+
+      interest payments in 2011 , 2010 and 2009 totaled $ 212 million , $ 189 million
+      and $ 201 million , respectively .
+
+
+      in october 2009 , the company entered into an agreement with a counterparty
+      to repurchase up to 1.2 million shares of the company 2019s stock of which 1.1
+      million shares were purchased in the open market ( 465006 of these shares were
+      purchased as of december 31 , 2009 at a weighted average price of $ 56.66 per
+      share ) .
+
+
+      the counterparty held the shares until september of 2010 when the company paid
+      $ 65 million and took possession of these shares .
+
+
+      in december 2008 , the company entered into an agreement with a counterparty
+      to repurchase 1.5 million 44 2011 ppg annual report and form 10-k .'
+    header:
+    - ( millions )
+    - '2011'
+    - '2010'
+    rows:
+    - - other weighted average 3.72% ( 3.72 % ) as of dec . 31 2011 and 3.39% ( 3.39
+        % ) as of december 31 2010
+      - '33'
+      - '24'
+    - - total
+      - $ 33
+      - $ 24
+    post_text: 'notes to the consolidated financial statements at a price equal to
+      101% ( 101 % ) of their principal amount plus accrued and unpaid interest .
+
+
+      cash proceeds from the sale of these notes was $ 983 million ( net of discount
+      and issuance costs ) .
+
+
+      the discount and issuance costs related to these notes , which totaled $ 17
+      million , will be amortized to interest expense over the respective terms of
+      the notes .
+
+
+      in august 2010 , ppg entered into a three-year credit agreement with several
+      banks and financial institutions ( the 201ccredit agreement 201d ) .
+
+
+      the credit agreement provides for a $ 1.2 billion unsecured revolving credit
+      facility .
+
+
+      in connection with entering into this credit agreement , the company terminated
+      its 20ac650 million and its $ 1 billion revolving credit facilities that were
+      each set to expire in 2011 .
+
+
+      there were no outstanding amounts due under either revolving facility at the
+      times of their termination .
+
+
+      the company has the ability to increase the size of the credit agreement by
+      up to an additional $ 300 million , subject to the receipt of lender commitments
+      and other conditions .
+
+
+      the credit agreement will terminate and all amounts outstanding will be due
+      and payable on august 5 , 2013 .
+
+
+      the credit agreement provides that loans will bear interest at rates based ,
+      at the company 2019s option , on one of two specified base rates plus a margin
+      based on certain formulas defined in the credit agreement .
+
+
+      additionally , the credit agreement contains a commitment fee on the amount
+      of unused commitment under the credit agreement ranging from 0.125% ( 0.125
+      % ) to 0.625% ( 0.625 % ) per annum .
+
+
+      the applicable interest rate and the fee will vary depending on the ratings
+      established by standard & poor 2019s financial services llc and moody 2019s
+      investor service inc .
+
+
+      for the company 2019s non-credit enhanced , long- term , senior , unsecured
+      debt .
+
+
+      there were no amounts outstanding under the credit agreement at december 31
+      , 2011 ; however , the available borrowing rate on a one month , u.s .
+
+
+      dollar denominated borrowing would have been 1.05 percent .
+
+
+      the credit agreement contains usual and customary restrictive covenants for
+      facilities of its type , which include , with specified exceptions , limitations
+      on the company 2019s ability to create liens or other encumbrances , to enter
+      into sale and leaseback transactions and to enter into consolidations , mergers
+      or transfers of all or substantially all of its assets .
+
+
+      the credit agreement also requires the company to maintain a ratio of total
+      indebtedness to total capitalization , as defined in the credit agreement ,
+      of 60 percent or less .
+
+
+      the credit agreement contains customary events of default that would permit
+      the lenders to accelerate the repayment of any loans , including the failure
+      to make timely payments when due under the credit agreement or other material
+      indebtedness , the failure to satisfy covenants contained in the credit agreement
+      , a change in control of the company and specified events of bankruptcy and
+      insolvency .
+
+
+      ppg 2019s non-u.s .
+
+
+      operations have uncommitted lines of credit totaling $ 679 million of which
+      $ 36 million was used as of december 31 , 2011 .
+
+
+      these uncommitted lines of credit are subject to cancellation at any time and
+      are generally not subject to any commitment fees .
+
+
+      short-term debt outstanding as of december 31 , 2011 and 2010 , was as follows
+      : ( millions ) 2011 2010 other , weighted average 3.72% ( 3.72 % ) as of dec
+      .
+
+
+      31 , 2011 and 3.39% ( 3.39 % ) as of december 31 , 2010 33 24 total $ 33 $ 24
+      ppg is in compliance with the restrictive covenants under its various credit
+      agreements , loan agreements and indentures .
+
+
+      the company 2019s revolving credit agreements include a financial ratio covenant
+      .
+
+
+      the covenant requires that the amount of total indebtedness not exceed 60% (
+      60 % ) of the company 2019s total capitalization excluding the portion of accumulated
+      other comprehensive income ( loss ) related to pensions and other postretirement
+      benefit adjustments .
+
+
+      as of december 31 , 2011 , total indebtedness was 43 percent of the company
+      2019s total capitalization excluding the portion of accumulated other comprehensive
+      income ( loss ) related to pensions and other postretirement benefit adjustments
+      .
+
+
+      additionally , substantially all of the company 2019s debt agreements contain
+      customary cross-default provisions .
+
+
+      those provisions generally provide that a default on a debt service payment
+      of $ 10 million or more for longer than the grace period provided ( usually
+      10 days ) under one agreement may result in an event of default under other
+      agreements .
+
+
+      none of the company 2019s primary debt obligations are secured or guaranteed
+      by the company 2019s affiliates .
+
+
+      interest payments in 2011 , 2010 and 2009 totaled $ 212 million , $ 189 million
+      and $ 201 million , respectively .
+
+
+      in october 2009 , the company entered into an agreement with a counterparty
+      to repurchase up to 1.2 million shares of the company 2019s stock of which 1.1
+      million shares were purchased in the open market ( 465006 of these shares were
+      purchased as of december 31 , 2009 at a weighted average price of $ 56.66 per
+      share ) .
+
+
+      the counterparty held the shares until september of 2010 when the company paid
+      $ 65 million and took possession of these shares .
+
+
+      in december 2008 , the company entered into an agreement with a counterparty
+      to repurchase 1.5 million 44 2011 ppg annual report and form 10-k .'
+    id: ppg-2011-table-1
+- id: ppg-10k-2012
+  form: 10-K
+  filed: '2013-02-21'
+  period_covered: 2012-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/79879/000007987913000016/ppg-20121231x10k.htm
+  tables:
+  - pre_text: '2012 ppg annual report and form 10-k 45 costs related to these notes
+      , which totaled $ 17 million , will be amortized to interest expense over the
+      respective terms of the notes .
+
+
+      in august 2010 , ppg entered into a three-year credit agreement with several
+      banks and financial institutions ( the "2010 credit agreement" ) which was subsequently
+      terminated in july 2012 .
+
+
+      the 2010 credit agreement provided for a $ 1.2 billion unsecured revolving credit
+      facility .
+
+
+      in connection with entering into the 2010 credit agreement , the company terminated
+      its 20ac650 million and its $ 1 billion revolving credit facilities that were
+      each set to expire in 2011 .
+
+
+      there were no outstanding amounts due under either revolving facility at the
+      times of their termination .
+
+
+      the 2010 credit agreement was set to terminate on august 5 , 2013 .
+
+
+      ppg 2019s non-u.s .
+
+
+      operations have uncommitted lines of credit totaling $ 705 million of which
+      $ 34 million was used as of december 31 , 2012 .
+
+
+      these uncommitted lines of credit are subject to cancellation at any time and
+      are generally not subject to any commitment fees .
+
+
+      short-term debt outstanding as of december 31 , 2012 and 2011 , was as follows:
+      .'
+    header:
+    - ( millions )
+    - '2012'
+    - '2011'
+    rows:
+    - - other weighted average 2.27% ( 2.27 % ) as of dec . 31 2012 and 3.72% ( 3.72
+        % ) as of december 31 2011
+      - $ 39
+      - $ 33
+    - - total
+      - $ 39
+      - $ 33
+    post_text: 'ppg is in compliance with the restrictive covenants under its various
+      credit agreements , loan agreements and indentures .
+
+
+      the company 2019s revolving credit agreements include a financial ratio covenant
+      .
+
+
+      the covenant requires that the amount of total indebtedness not exceed 60% (
+      60 % ) of the company 2019s total capitalization excluding the portion of accumulated
+      other comprehensive income ( loss ) related to pensions and other postretirement
+      benefit adjustments .
+
+
+      as of december 31 , 2012 , total indebtedness was 42% ( 42 % ) of the company
+      2019s total capitalization excluding the portion of accumulated other comprehensive
+      income ( loss ) related to pensions and other postretirement benefit adjustments
+      .
+
+
+      additionally , substantially all of the company 2019s debt agreements contain
+      customary cross- default provisions .
+
+
+      those provisions generally provide that a default on a debt service payment
+      of $ 10 million or more for longer than the grace period provided ( usually
+      10 days ) under one agreement may result in an event of default under other
+      agreements .
+
+
+      none of the company 2019s primary debt obligations are secured or guaranteed
+      by the company 2019s affiliates .
+
+
+      interest payments in 2012 , 2011 and 2010 totaled $ 219 million , $ 212 million
+      and $ 189 million , respectively .
+
+
+      in october 2009 , the company entered into an agreement with a counterparty
+      to repurchase up to 1.2 million shares of the company 2019s stock of which 1.1
+      million shares were purchased in the open market ( 465006 of these shares were
+      purchased as of december 31 , 2009 at a weighted average price of $ 56.66 per
+      share ) .
+
+
+      the counterparty held the shares until september of 2010 when the company paid
+      $ 65 million and took possession of these shares .
+
+
+      rental expense for operating leases was $ 233 million , $ 249 million and $
+      233 million in 2012 , 2011 and 2010 , respectively .
+
+
+      the primary leased assets include paint stores , transportation equipment ,
+      warehouses and other distribution facilities , and office space , including
+      the company 2019s corporate headquarters located in pittsburgh , pa .
+
+
+      minimum lease commitments for operating leases that have initial or remaining
+      lease terms in excess of one year as of december 31 , 2012 , are ( in millions
+      ) $ 171 in 2013 , $ 135 in 2014 , $ 107 in 2015 , $ 83 in 2016 , $ 64 in 2017
+      and $ 135 thereafter .
+
+
+      the company had outstanding letters of credit and surety bonds of $ 119 million
+      as of december 31 , 2012 .
+
+
+      the letters of credit secure the company 2019s performance to third parties
+      under certain self-insurance programs and other commitments made in the ordinary
+      course of business .
+
+
+      as of december 31 , 2012 and 2011 , guarantees outstanding were $ 96 million
+      and $ 90 million , respectively .
+
+
+      the guarantees relate primarily to debt of certain entities in which ppg has
+      an ownership interest and selected customers of certain of the company 2019s
+      businesses .
+
+
+      a portion of such debt is secured by the assets of the related entities .
+
+
+      the carrying values of these guarantees were $ 11 million and $ 13 million as
+      of december 31 , 2012 and 2011 , respectively , and the fair values were $ 11
+      million and $ 21 million , as of december 31 , 2012 and 2011 , respectively
+      .
+
+
+      the fair value of each guarantee was estimated by comparing the net present
+      value of two hypothetical cash flow streams , one based on ppg 2019s incremental
+      borrowing rate and the other based on the borrower 2019s incremental borrowing
+      rate , as of the effective date of the guarantee .
+
+
+      both streams were discounted at a risk free rate of return .
+
+
+      the company does not believe any loss related to these letters of credit , surety
+      bonds or guarantees is likely .
+
+
+      9 .
+
+
+      fair value measurement the accounting guidance on fair value measurements establishes
+      a hierarchy with three levels of inputs used to determine fair value .
+
+
+      level 1 inputs are quoted prices ( unadjusted ) in active markets for identical
+      assets and liabilities , are considered to be the most reliable evidence of
+      fair value , and should be used whenever available .
+
+
+      level 2 inputs are observable prices that are not quoted on active exchanges
+      .
+
+
+      level 3 inputs are unobservable inputs employed for measuring the fair value
+      of assets or liabilities .
+
+
+      table of contents notes to the consolidated financial statements .'
+    id: ppg-2012-table-0
+  - pre_text: '68 2012 ppg annual report and form 10-k december 31 , 2012 , 2011 and
+      2010 was $ ( 30 ) million , $ 98 million and $ 65 million , respectively .
+
+
+      the cumulative tax benefit related to the adjustment for pension and other postretirement
+      benefits at december 31 , 2012 and 2011 was approximately $ 960 million and
+      $ 990 million , respectively .
+
+
+      there was no tax ( cost ) benefit related to the change in the unrealized gain
+      ( loss ) on marketable securities for the year ended december 31 , 2012 .
+
+
+      the tax ( cost ) benefit related to the change in the unrealized gain ( loss
+      ) on marketable securities for the years ended december 31 , 2011 and 2010 was
+      $ ( 0.2 ) million and $ 0.6 million , respectively .
+
+
+      the tax benefit related to the change in the unrealized gain ( loss ) on derivatives
+      for the years ended december 31 , 2012 , 2011 and 2010 was $ 4 million , $ 19
+      million and $ 1 million , respectively .
+
+
+      18 .
+
+
+      employee savings plan ppg 2019s employee savings plan ( 201csavings plan 201d
+      ) covers substantially all u.s .
+
+
+      employees .
+
+
+      the company makes matching contributions to the savings plan , at management''s
+      discretion , based upon participants 2019 savings , subject to certain limitations
+      .
+
+
+      for most participants not covered by a collective bargaining agreement , company-matching
+      contributions are established each year at the discretion of the company and
+      are applied to participant savings up to a maximum of 6% ( 6 % ) of eligible
+      participant compensation .
+
+
+      for those participants whose employment is covered by a collective bargaining
+      agreement , the level of company-matching contribution , if any , is determined
+      by the relevant collective bargaining agreement .
+
+
+      the company-matching contribution was suspended from march 2009 through june
+      2010 as a cost savings measure in recognition of the adverse impact of the global
+      recession .
+
+
+      effective july 1 , 2010 , the company match was reinstated at 50% ( 50 % ) on
+      the first 6% ( 6 % ) of compensation contributed for most employees eligible
+      for the company-matching contribution feature .
+
+
+      this included the union represented employees in accordance with their collective
+      bargaining agreements .
+
+
+      on january 1 , 2011 , the company match was increased to 75% ( 75 % ) on the
+      first 6% ( 6 % ) of compensation contributed by these eligible employees and
+      this level was maintained throughout 2012 .
+
+
+      compensation expense and cash contributions related to the company match of
+      participant contributions to the savings plan for 2012 , 2011 and 2010 totaled
+      $ 28 million , $ 26 million and $ 9 million , respectively .
+
+
+      a portion of the savings plan qualifies under the internal revenue code as an
+      employee stock ownership plan .
+
+
+      as a result , the dividends on ppg shares held by that portion of the savings
+      plan totaling $ 18 million , $ 20 million and $ 24 million for 2012 , 2011 and
+      2010 , respectively , were tax deductible to the company for u.s .
+
+
+      federal tax purposes .
+
+
+      19 .
+
+
+      other earnings .'
+    header:
+    - ( millions )
+    - '2012'
+    - '2011'
+    - '2010'
+    rows:
+    - - royalty income
+      - $ 51
+      - $ 55
+      - $ 58
+    - - share of net earnings of equity affiliates ( see note 5 )
+      - '11'
+      - '37'
+      - '45'
+    - - gain on sale of assets
+      - '4'
+      - '12'
+      - '8'
+    - - other
+      - '83'
+      - '73'
+      - '69'
+    - - total
+      - $ 149
+      - $ 177
+      - $ 180
+    post_text: '20 .
+
+
+      stock-based compensation the company 2019s stock-based compensation includes
+      stock options , restricted stock units ( 201crsus 201d ) and grants of contingent
+      shares that are earned based on achieving targeted levels of total shareholder
+      return .
+
+
+      all current grants of stock options , rsus and contingent shares are made under
+      the ppg industries , inc .
+
+
+      amended and restated omnibus incentive plan ( 201cppg amended omnibus plan 201d
+      ) , which was amended and restated effective april 21 , 2011 .
+
+
+      shares available for future grants under the ppg amended omnibus plan were 8.5
+      million as of december 31 , 2012 .
+
+
+      total stock-based compensation cost was $ 73 million , $ 36 million and $ 52
+      million in 2012 , 2011 and 2010 , respectively .
+
+
+      stock-based compensation expense increased year over year due to the increase
+      in the expected payout percentage of the 2010 performance-based rsu grants and
+      ppg''s total shareholder return performance in 2012 in comparison with the standard
+      & poors ( s&p ) 500 index , which has increased the expense related to outstanding
+      grants of contingent shares .
+
+
+      the total income tax benefit recognized in the accompanying consolidated statement
+      of income related to the stock-based compensation was $ 25 million , $ 13 million
+      and $ 18 million in 2012 , 2011 and 2010 , respectively .
+
+
+      stock options ppg has outstanding stock option awards that have been granted
+      under two stock option plans : the ppg industries , inc .
+
+
+      stock plan ( 201cppg stock plan 201d ) and the ppg amended omnibus plan .
+
+
+      under the ppg amended omnibus plan and the ppg stock plan , certain employees
+      of the company have been granted options to purchase shares of common stock
+      at prices equal to the fair market value of the shares on the date the options
+      were granted .
+
+
+      the options are generally exercisable beginning from six to 48 months after
+      being granted and have a maximum term of 10 years .
+
+
+      upon exercise of a stock option , shares of company stock are issued from treasury
+      stock .
+
+
+      the ppg stock plan includes a restored option provision for options originally
+      granted prior to january 1 , 2003 that allows an optionee to exercise options
+      and satisfy the option cost by certifying ownership of mature shares of ppg
+      common stock with a market value equal to the option cost .
+
+
+      the fair value of stock options issued to employees is measured on the date
+      of grant and is recognized as expense over the requisite service period .
+
+
+      ppg estimates the fair value of stock options using the black-scholes option
+      pricing model .
+
+
+      the risk- free interest rate is determined by using the u.s .
+
+
+      treasury yield table of contents .'
+    id: ppg-2012-table-1
+  - pre_text: '74 2012 ppg annual report and form 10-k 25 .
+
+
+      separation and merger transaction on january , 28 , 2013 , the company completed
+      the previously announced separation of its commodity chemicals business and
+      merger of its wholly-owned subsidiary , eagle spinco inc. , with a subsidiary
+      of georgia gulf corporation in a tax efficient reverse morris trust transaction
+      ( the 201ctransaction 201d ) .
+
+
+      pursuant to the merger , eagle spinco , the entity holding ppg''s former commodity
+      chemicals business , is now a wholly-owned subsidiary of georgia gulf .
+
+
+      the closing of the merger followed the expiration of the related exchange offer
+      and the satisfaction of certain other conditions .
+
+
+      the combined company formed by uniting georgia gulf with ppg''s former commodity
+      chemicals business is named axiall corporation ( 201caxiall 201d ) .
+
+
+      ppg holds no ownership interest in axiall .
+
+
+      ppg received the necessary ruling from the internal revenue service and as a
+      result this transaction was generally tax free to ppg and its shareholders .
+
+
+      under the terms of the exchange offer , 35249104 shares of eagle spinco common
+      stock were available for distribution in exchange for shares of ppg common stock
+      accepted in the offer .
+
+
+      following the merger , each share of eagle spinco common stock automatically
+      converted into the right to receive one share of axiall corporation common stock
+      .
+
+
+      accordingly , ppg shareholders who tendered their shares of ppg common stock
+      as part of this offer received 3.2562 shares of axiall common stock for each
+      share of ppg common stock accepted for exchange .
+
+
+      ppg was able to accept the maximum of 10825227 shares of ppg common stock for
+      exchange in the offer , and thereby , reduced its outstanding shares by approximately
+      7% ( 7 % ) .
+
+
+      under the terms of the transaction , ppg received $ 900 million of cash and
+      35.2 million shares of axiall common stock ( market value of $ 1.8 billion on
+      january 25 , 2013 ) which was distributed to ppg shareholders by the exchange
+      offer as described above .
+
+
+      the cash consideration is subject to customary post-closing adjustment , including
+      a working capital adjustment .
+
+
+      in the transaction , ppg transferred environmental remediation liabilities ,
+      defined benefit pension plan assets and liabilities and other post-employment
+      benefit liabilities related to the commodity chemicals business to axiall .
+
+
+      ppg will report a gain on the transaction reflecting the excess of the sum of
+      the cash proceeds received and the cost ( closing stock price on january 25
+      , 2013 ) of the ppg shares tendered and accepted in the exchange for the 35.2
+      million shares of axiall common stock over the net book value of the net assets
+      of ppg''s former commodity chemicals business .
+
+
+      the transaction will also result in a net partial settlement loss associated
+      with the spin out and termination of defined benefit pension liabilities and
+      the transfer of other post-retirement benefit liabilities under the terms of
+      the transaction .
+
+
+      during 2012 , the company incurred $ 21 million of pretax expense , primarily
+      for professional services , related to the transaction .
+
+
+      additional transaction-related expenses will be incurred in 2013 .
+
+
+      ppg will report the results of its commodity chemicals business for january
+      2013 and a net gain on the transaction as results from discontinued operations
+      when it reports its results for the quarter ending march 31 , 2013 .
+
+
+      in the ppg results for prior periods , presented for comparative purposes beginning
+      with the first quarter 2013 , the results of its former commodity chemicals
+      business will be reclassified from continuing operations and presented as the
+      results from discontinued operations .
+
+
+      the net sales and income before income taxes of the commodity chemicals business
+      that will be reclassified and reported as discontinued operations are presented
+      in the table below for the years ended december 31 , 2012 , 2011 and 2010: .'
+    header:
+    - millions
+    - year-ended 2012
+    - year-ended 2011
+    - year-ended 2010
+    rows:
+    - - net sales
+      - $ 1700
+      - $ 1741
+      - $ 1441
+    - - income before income taxes
+      - $ 368
+      - $ 376
+      - $ 187
+    post_text: 'income before income taxes for the year ended december 31 , 2012 ,
+      2011 and 2010 is $ 4 million lower , $ 6 million higher and $ 2 million lower
+      , respectively , than segment earnings for the ppg commodity chemicals segment
+      reported for these periods .
+
+
+      these differences are due to the inclusion of certain gains , losses and expenses
+      associated with the chlor-alkali and derivatives business that were not reported
+      in the ppg commodity chemicals segment earnings in accordance with the accounting
+      guidance on segment reporting .
+
+
+      table of contents notes to the consolidated financial statements .'
+    id: ppg-2012-table-2
+- id: ppg-10k-2013
+  form: 10-K
+  filed: '2014-02-20'
+  period_covered: 2013-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/79879/000007987914000010/ppg-20131231x10k.htm
+  tables:
+  - pre_text: '52 2013 ppg annual report and form 10-k repatriation of undistributed
+      earnings of non-u.s .
+
+
+      subsidiaries as of december 31 , 2013 and december 31 , 2012 would have resulted
+      in a u.s .
+
+
+      tax cost of approximately $ 250 million and $ 110 million , respectively .
+
+
+      the company files federal , state and local income tax returns in numerous domestic
+      and foreign jurisdictions .
+
+
+      in most tax jurisdictions , returns are subject to examination by the relevant
+      tax authorities for a number of years after the returns have been filed .
+
+
+      the company is no longer subject to examinations by tax authorities in any major
+      tax jurisdiction for years before 2006 .
+
+
+      additionally , the internal revenue service has completed its examination of
+      the company 2019s u.s .
+
+
+      federal income tax returns filed for years through 2010 .
+
+
+      the examination of the company 2019s u.s .
+
+
+      federal income tax return for 2011 is currently underway and is expected to
+      be finalized during 2014 .
+
+
+      a reconciliation of the total amounts of unrecognized tax benefits ( excluding
+      interest and penalties ) as of december 31 follows: .'
+    header:
+    - ( millions )
+    - '2013'
+    - '2012'
+    - '2011'
+    rows:
+    - - balance at january 1
+      - $ 82
+      - $ 107
+      - $ 111
+    - - additions based on tax positions related to the current year
+      - '12'
+      - '12'
+      - '15'
+    - - additions for tax positions of prior years
+      - '9'
+      - '2'
+      - '17'
+    - - reductions for tax positions of prior years
+      - -10 ( 10 )
+      - -12 ( 12 )
+      - -19 ( 19 )
+    - - pre-acquisition unrecognized tax benefits
+      - '2014'
+      - '2'
+      - '2014'
+    - - reductions for expiration of the applicable statute of limitations
+      - -10 ( 10 )
+      - -6 ( 6 )
+      - -7 ( 7 )
+    - - settlements
+      - '2014'
+      - -23 ( 23 )
+      - -8 ( 8 )
+    - - foreign currency translation
+      - '2'
+      - '2014'
+      - -2 ( 2 )
+    - - balance at december 31
+      - $ 85
+      - $ 82
+      - $ 107
+    post_text: 'the company expects that any reasonably possible change in the amount
+      of unrecognized tax benefits in the next 12 months would not be significant
+      .
+
+
+      the total amount of unrecognized tax benefits that , if recognized , would affect
+      the effective tax rate was $ 81 million as of december 31 , 2013 .
+
+
+      the company recognizes accrued interest and penalties related to unrecognized
+      tax benefits in income tax expense .
+
+
+      as of december 31 , 2013 , 2012 and 2011 , the company had liabilities for estimated
+      interest and penalties on unrecognized tax benefits of $ 9 million , $ 10 million
+      and $ 15 million , respectively .
+
+
+      the company recognized $ 2 million and $ 5 million of income in 2013 and 2012
+      , respectively , related to the reduction of estimated interest and penalties
+      .
+
+
+      the company recognized no income or expense for estimated interest and penalties
+      during the year ended december 31 , 2011 .
+
+
+      13 .
+
+
+      pensions and other postretirement benefits defined benefit plans ppg has defined
+      benefit pension plans that cover certain employees worldwide .
+
+
+      the principal defined benefit pension plans are those in the u.s. , canada ,
+      the netherlands and the u.k .
+
+
+      which , in the aggregate represent approximately 91% ( 91 % ) of the projected
+      benefit obligation at december 31 , 2013 , of which the u.s .
+
+
+      defined benefit pension plans represent the majority .
+
+
+      ppg also sponsors welfare benefit plans that provide postretirement medical
+      and life insurance benefits for certain u.s .
+
+
+      and canadian employees and their dependents .
+
+
+      these programs require retiree contributions based on retiree-selected coverage
+      levels for certain retirees and their dependents and provide for sharing of
+      future benefit cost increases between ppg and participants based on management
+      discretion .
+
+
+      the company has the right to modify or terminate certain of these benefit plans
+      in the future .
+
+
+      salaried and certain hourly employees in the u.s .
+
+
+      hired on or after october 1 , 2004 , or rehired on or after october 1 , 2012
+      are not eligible for postretirement medical benefits .
+
+
+      salaried employees in the u.s .
+
+
+      hired , rehired or transferred to salaried status on or after january 1 , 2006
+      , and certain u.s .
+
+
+      hourly employees hired in 2006 or thereafter are eligible to participate in
+      a defined contribution retirement plan .
+
+
+      these employees are not eligible for defined benefit pension plan benefits .
+
+
+      plan design changes in january 2011 , the company approved an amendment to one
+      of its u.s .
+
+
+      defined benefit pension plans that represented about 77% ( 77 % ) of the total
+      u.s .
+
+
+      projected benefit obligation at december 31 , 2011 .
+
+
+      depending upon the affected employee''s combined age and years of service to
+      ppg , this change resulted in certain employees no longer accruing benefits
+      under this plan as of december 31 , 2011 , while the remaining employees will
+      no longer accrue benefits under this plan as of december 31 , 2020 .
+
+
+      the affected employees will participate in the company 2019s defined contribution
+      retirement plan from the date their benefit under the defined benefit plan is
+      frozen .
+
+
+      the company remeasured the projected benefit obligation of this amended plan
+      , which lowered 2011 pension expense by approximately $ 12 million .
+
+
+      the company made similar changes to certain other u.s .
+
+
+      defined benefit pension plans in 2011 .
+
+
+      the company recognized a curtailment loss and special termination benefits associated
+      with these plan amendments of $ 5 million in 2011 .
+
+
+      the company plans to continue reviewing and potentially changing other ppg defined
+      benefit plans in the future .
+
+
+      separation and merger of commodity chemicals business on january 28 , 2013 ,
+      ppg completed the separation of its commodity chemicals business and the merger
+      of the subsidiary holding the ppg commodity chemicals business with a subsidiary
+      of georgia gulf , as discussed in note 22 , 201cseparation and merger transaction
+      . 201d ppg transferred the defined benefit pension plan and other postretirement
+      benefit liabilities for the affected employees in the u.s. , canada , and taiwan
+      in the separation resulting in a net partial settlement loss of $ 33 million
+      notes to the consolidated financial statements .'
+    id: ppg-2013-table-0
+  - pre_text: '74 2013 ppg annual report and form 10-k 22 .
+
+
+      separation and merger transaction on january 28 , 2013 , the company completed
+      the previously announced separation of its commodity chemicals business and
+      merger of its wholly-owned subsidiary , eagle spinco inc. , with a subsidiary
+      of georgia gulf corporation in a tax ef ficient reverse morris trust transaction
+      ( the 201ctransaction 201d ) .
+
+
+      pursuant to the merger , eagle spinco , the entity holding ppg''s former commodity
+      chemicals business , became a wholly-owned subsidiary of georgia gulf .
+
+
+      the closing of the merger followed the expiration of the related exchange offer
+      and the satisfaction of certain other conditions .
+
+
+      the combined company formed by uniting georgia gulf with ppg''s former commodity
+      chemicals business is named axiall corporation ( 201caxiall 201d ) .
+
+
+      ppg holds no ownership interest in axiall .
+
+
+      ppg received the necessary ruling from the internal revenue service and as a
+      result this transaction was generally tax free to ppg and its shareholders in
+      the united states and canada .
+
+
+      under the terms of the exchange offer , 35249104 shares of eagle spinco common
+      stock were available for distribution in exchange for shares of ppg common stock
+      accepted in the offer .
+
+
+      following the merger , each share of eagle spinco common stock automatically
+      converted into the right to receive one share of axiall corporation common stock
+      .
+
+
+      accordingly , ppg shareholders who tendered their shares of ppg common stock
+      as part of this offer received 3.2562 shares of axiall common stock for each
+      share of ppg common stock accepted for exchange .
+
+
+      ppg was able to accept the maximum of 10825227 shares of ppg common stock for
+      exchange in the offer , and thereby , reduced its outstanding shares by approximately
+      7% ( 7 % ) .
+
+
+      the completion of this exchange offer was a non-cash financing transaction ,
+      which resulted in an increase in "treasury stock" at a cost of $ 1.561 billion
+      based on the ppg closing stock price on january 25 , 2013 .
+
+
+      under the terms of the transaction , ppg received $ 900 million of cash and
+      35.2 million shares of axiall common stock ( market value of $ 1.8 billion on
+      january 25 , 2013 ) which was distributed to ppg shareholders by the exchange
+      offer as described above .
+
+
+      in addition , ppg received $ 67 million in cash for a preliminary post-closing
+      working capital adjustment under the terms of the transaction agreements .
+
+
+      the net assets transferred to axiall included $ 27 million of cash on the books
+      of the business transferred .
+
+
+      in the transaction , ppg transferred environmental remediation liabilities ,
+      defined benefit pension plan assets and liabilities and other post-employment
+      benefit liabilities related to the commodity chemicals business to axiall .
+
+
+      during the first quarter of 2013 , ppg recorded a gain of $ 2.2 billion on the
+      transaction reflecting the excess of the sum of the cash proceeds received and
+      the cost ( closing stock price on january 25 , 2013 ) of the ppg shares tendered
+      and accepted in the exchange for the 35.2 million shares of axiall common stock
+      over the net book value of the net assets of ppg''s former commodity chemicals
+      business .
+
+
+      the transaction resulted in a net partial settlement loss of $ 33 million associated
+      with the spin out and termination of defined benefit pension liabilities and
+      the transfer of other post-retirement benefit liabilities under the terms of
+      the transaction .
+
+
+      the company also incurred $ 14 million of pretax expense , primarily for professional
+      services related to the transaction in 2013 as well as approximately $ 2 million
+      of net expense related to certain retained obligations and post-closing adjustments
+      under the terms of the transaction agreements .
+
+
+      the net gain on the transaction includes these related losses and expenses .
+
+
+      the results of operations and cash flows of ppg''s former commodity chemicals
+      business for january 2013 and the net gain on the transaction are reported as
+      results from discontinued operations for the year -ended december 31 , 2013
+      .
+
+
+      in prior periods presented , the results of operations and cash flows of ppg''s
+      former commodity chemicals business have been reclassified from continuing operations
+      and presented as results from discontinued operations .
+
+
+      ppg will provide axiall with certain transition services for up to 24 months
+      following the closing date of the transaction .
+
+
+      these services include logistics , purchasing , finance , information technology
+      , human resources , tax and payroll processing .
+
+
+      the net sales and income before income taxes of the commodity chemicals business
+      that have been reclassified and reported as discontinued operations are presented
+      in the table below: .'
+    header:
+    - millions
+    - year-ended 2013
+    - year-ended 2012
+    - year-ended 2011
+    rows:
+    - - net sales
+      - $ 108
+      - $ 1688
+      - $ 1732
+    - - income from operations before income tax
+      - $ 2014
+      - $ 345
+      - $ 376
+    - - net gain from separation and merger of commodity chemicals business
+      - '2192'
+      - '2014'
+      - '2014'
+    - - income tax expense
+      - -5 ( 5 )
+      - '117'
+      - '126'
+    - - income from discontinued operations net of tax
+      - $ 2197
+      - $ 228
+      - $ 250
+    - - 'less : net income attributable to non-controlling interests discontinued
+        operations'
+      - $ 2014
+      - $ -13 ( 13 )
+      - $ -13 ( 13 )
+    - - net income from discontinued operations ( attributable to ppg )
+      - $ 2197
+      - $ 215
+      - $ 237
+    post_text: 'income from discontinued operations , net of tax $ 2197 $ 228 $ 250
+      less : net income attributable to non- controlling interests , discontinued
+      operations $ 2014 $ ( 13 ) $ ( 13 ) net income from discontinued operations
+      ( attributable to ppg ) $ 2197 $ 215 $ 237 during 2012 , $ 21 million of business
+      separation costs are included within "income from discontinued operations ,
+      net." notes to the consolidated financial statements .'
+    id: ppg-2013-table-1
+- id: ppg-10k-2015
+  form: 10-K
+  filed: '2016-02-18'
+  period_covered: 2015-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/79879/000007987916000065/ppg-20151231x10k.htm
+  tables:
+  - pre_text: '38 2015 ppg annual report and form 10-k notes to the consolidated financial
+      statements 1 .
+
+
+      summary of significant accounting policies principles of consolidation the accompanying
+      consolidated financial statements include the accounts of ppg industries , inc
+      .
+
+
+      ( 201cppg 201d or the 201ccompany 201d ) and all subsidiaries , both u.s .
+
+
+      and non-u.s. , that it controls .
+
+
+      ppg owns more than 50% ( 50 % ) of the voting stock of most of the subsidiaries
+      that it controls .
+
+
+      for those consolidated subsidiaries in which the company 2019s ownership is
+      less than 100% ( 100 % ) , the outside shareholders 2019 interests are shown
+      as noncontrolling interests .
+
+
+      investments in companies in which ppg owns 20% ( 20 % ) to 50% ( 50 % ) of the
+      voting stock and has the ability to exercise significant influence over operating
+      and financial policies of the investee are accounted for using the equity method
+      of accounting .
+
+
+      as a result , ppg 2019s share of the earnings or losses of such equity affiliates
+      is included in the accompanying consolidated statement of income and ppg 2019s
+      share of these companies 2019 shareholders 2019 equity is included in 201cinvestments
+      201d in the accompanying consolidated balance sheet .
+
+
+      transactions between ppg and its subsidiaries are eliminated in consolidation
+      .
+
+
+      use of estimates in the preparation of financial statements the preparation
+      of financial statements in conformity with u.s .
+
+
+      generally accepted accounting principles requires management to make estimates
+      and assumptions that affect the reported amounts of assets and liabilities and
+      the disclosure of contingent assets and liabilities at the date of the financial
+      statements , as well as the reported amounts of income and expenses during the
+      reporting period .
+
+
+      such estimates also include the fair value of assets acquired and liabilities
+      assumed resulting from the allocation of the purchase price related to business
+      combinations consummated .
+
+
+      actual outcomes could differ from those estimates .
+
+
+      revenue recognition the company recognizes revenue when the earnings process
+      is complete .
+
+
+      revenue from sales is recognized by all operating segments when goods are shipped
+      and title to inventory and risk of loss passes to the customer or when services
+      have been rendered .
+
+
+      shipping and handling costs amounts billed to customers for shipping and handling
+      are reported in 201cnet sales 201d in the accompanying consolidated statement
+      of income .
+
+
+      shipping and handling costs incurred by the company for the delivery of goods
+      to customers are included in 201ccost of sales , exclusive of depreciation and
+      amortization 201d in the accompanying consolidated statement of income .
+
+
+      selling , general and administrative costs amounts presented as 201cselling
+      , general and administrative 201d in the accompanying consolidated statement
+      of income are comprised of selling , customer service , distribution and advertising
+      costs , as well as the costs of providing corporate- wide functional support
+      in such areas as finance , law , human resources and planning .
+
+
+      distribution costs pertain to the movement and storage of finished goods inventory
+      at company- owned and leased warehouses , terminals and other distribution facilities
+      .
+
+
+      advertising costs advertising costs are expensed as incurred and totaled $ 324
+      million , $ 297 million and $ 235 million in 2015 , 2014 and 2013 , respectively
+      .
+
+
+      research and development research and development costs , which consist primarily
+      of employee related costs , are charged to expense as incurred. .'
+    header:
+    - ( $ in millions )
+    - '2015'
+    - '2014'
+    - '2013'
+    rows:
+    - - research and development 2013 total
+      - $ 505
+      - $ 509
+      - $ 479
+    - - less depreciation on research facilities
+      - '19'
+      - '17'
+      - '16'
+    - - research and development net
+      - $ 486
+      - $ 492
+      - $ 463
+    post_text: 'legal costs legal costs , primarily include costs associated with
+      acquisition and divestiture transactions , general litigation , environmental
+      regulation compliance , patent and trademark protection and other general corporate
+      purposes , are charged to expense as incurred .
+
+
+      foreign currency translation the functional currency of most significant non-u.s
+      .
+
+
+      operations is their local currency .
+
+
+      assets and liabilities of those operations are translated into u.s .
+
+
+      dollars using year-end exchange rates ; income and expenses are translated using
+      the average exchange rates for the reporting period .
+
+
+      unrealized foreign currency translation adjustments are deferred in accumulated
+      other comprehensive loss , a separate component of shareholders 2019 equity
+      .
+
+
+      cash equivalents cash equivalents are highly liquid investments ( valued at
+      cost , which approximates fair value ) acquired with an original maturity of
+      three months or less .
+
+
+      short-term investments short-term investments are highly liquid , high credit
+      quality investments ( valued at cost plus accrued interest ) that have stated
+      maturities of greater than three months to one year .
+
+
+      the purchases and sales of these investments are classified as investing activities
+      in the consolidated statement of cash flows .
+
+
+      marketable equity securities the company 2019s investment in marketable equity
+      securities is recorded at fair market value and reported in 201cother current
+      assets 201d and 201cinvestments 201d in the accompanying consolidated balance
+      sheet with changes in fair market value recorded in income for those securities
+      designated as trading securities and in other comprehensive income , net of
+      tax , for those designated as available for sale securities. .'
+    id: ppg-2015-table-0
+- id: ppg-10k-2016
+  form: 10-K
+  filed: '2017-02-16'
+  period_covered: 2016-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/79879/000007987917000009/ppg201610k.htm
+  tables:
+  - pre_text: 'notes to the consolidated financial statements 50 2016 ppg annual report
+      and form 10-k loans will bear interest at rates based , at the company 2019s
+      option , on one of two specified base rates plus a margin based on certain formulas
+      defined in the credit agreement .
+
+
+      additionally , the credit agreement contains a commitment fee , as defined in
+      the credit agreement , on the amount of unused commitments under the credit
+      agreement ranging from 0.080% ( 0.080 % ) to 0.225% ( 0.225 % ) per annum .
+
+
+      the average commitment fee in 2016 was 0.09% ( 0.09 % ) , and ppg is committed
+      to pay 0.09% ( 0.09 % ) in 2017 .
+
+
+      the credit agreement also supports the company 2019s commercial paper borrowings
+      .
+
+
+      as a result , the commercial paper borrowings as of december 31 , 2015 were
+      classified as long- term debt based on ppg 2019s intent and ability to refinance
+      these borrowings on a long-term basis .
+
+
+      there were no commercial paper borrowings outstanding as of december 31 , 2016
+      .
+
+
+      the credit agreement contains usual and customary restrictive covenants for
+      facilities of its type , which include , with specified exceptions , limitations
+      on the company 2019s ability to create liens or other encumbrances , to enter
+      into sale and leaseback transactions and to enter into consolidations , mergers
+      or transfers of all or substantially all of its assets .
+
+
+      the credit agreement maintains the same restrictive covenant as the prior credit
+      agreement whereby the company must maintain a ratio of total indebtedness to
+      total capitalization , as defined in the credit agreement , of 60% ( 60 % )
+      or less .
+
+
+      as of december 31 , 2016 , total indebtedness was 45% ( 45 % ) of the company
+      2019s total capitalization .
+
+
+      the credit agreement also contains customary events of default , including the
+      failure to make timely payments when due under the credit agreement or other
+      material indebtedness , the failure to satisfy covenants contained in the credit
+      agreement , a change in control of the company and specified events of bankruptcy
+      and insolvency that would permit the lenders to accelerate the repayment of
+      any loans .
+
+
+      in june 2015 , ppg 2019s 20ac300 million 3.875% ( 3.875 % ) notes matured ,
+      upon which the company paid $ 336 million to settle these obligations .
+
+
+      in march 2015 , ppg completed a public offering of 20ac600 million 0.875% (
+      0.875 % ) notes due 2022 and 20ac600 million 1.400% ( 1.400 % ) notes due 2027
+      , or 20ac1.2 billion ( $ 1.26 billion ) in aggregate principal amount .
+
+
+      these notes were issued pursuant to ppg 2019s existing shelf registration statement
+      and pursuant to an indenture between the company and the bank of new york mellon
+      trust company , n.a. , as trustee , as supplemented .
+
+
+      the indenture governing these notes contains covenants that limit the company
+      2019s ability to , among other things , incur certain liens securing indebtedness
+      , engage in certain sale-leaseback transactions , and enter into certain consolidations
+      , mergers , conveyances , transfers or leases of all or substantially all the
+      company 2019s assets .
+
+
+      the terms of these notes also require the company to make an offer to repurchase
+      notes upon a change of control triggering event ( as defined in the indenture
+      ) at a price equal to 101% ( 101 % ) of their principal amount plus accrued
+      and unpaid interest .
+
+
+      the company may issue additional debt from time to time pursuant to the indenture
+      .
+
+
+      the aggregate cash proceeds from the notes , net of discounts and fees , was
+      $ 1.24 billion .
+
+
+      the notes are denominated in euro and have been designated as hedges of net
+      investments in the company 2019s european operations .
+
+
+      for more information , refer to note 9 201cfinancial instruments , hedging activities
+      and fair value measurements . 201d 2014 activities in november 2014 , ppg completed
+      a public offering of $ 300 million in aggregate principal amount of its 2.3%
+      ( 2.3 % ) notes due 2019 .
+
+
+      these notes were issued pursuant to its existing shelf registration statement
+      and pursuant to an indenture between the company and the bank of new york mellon
+      trust company , n.a. , as trustee , as supplemented .
+
+
+      the company may issue additional debt from time to time pursuant to the indenture
+      .
+
+
+      the indenture governing these notes contains covenants that limit the company
+      2019s ability to , among other things , incur certain liens securing indebtedness
+      , engage in certain sale-leaseback transactions , and enter into certain consolidations
+      , mergers , conveyances , transfers or leases of all or substantially all the
+      company 2019s assets .
+
+
+      the terms of these notes also require the company to make an offer to repurchase
+      notes upon a change of control triggering event ( as defined in the indenture
+      ) at a price equal to 101% ( 101 % ) of their principal amount plus accrued
+      and unpaid interest .
+
+
+      also in november 2014 , the company entered into three euro-denominated borrowings
+      as follows .
+
+
+      3-year 20ac500 million bank loan interest on this loan is variable and is based
+      on changes to the euribor interest rate .
+
+
+      this loan contains covenants materially consistent with the five-year credit
+      agreement .
+
+
+      at december 31 , 2016 , the average interest rate on this borrowing was 0.31%
+      ( 0.31 % ) .
+
+
+      15-year 20ac80 million 2.5% ( 2.5 % ) fixed interest and 30-year 20ac120 million
+      3.0% ( 3.0 % ) fixed interest notes ppg privately placed a 15-year 20ac80 million
+      2.5% ( 2.5 % ) fixed interest note and a 30-year 20ac120 million 3.0% ( 3.0
+      % ) fixed interest note .
+
+
+      these notes contain covenants materially consistent with the 2.3% ( 2.3 % )
+      notes discussed above .
+
+
+      the cash proceeds related to these borrowings net of discounts and fees were
+      as follows: .'
+    header:
+    - ( $ in millions )
+    - proceeds
+    rows:
+    - - 3-year variable rate bank loan ( 1 )
+      - $ 620
+    - - 2.30% ( 2.30 % ) notes due 2019
+      - '297'
+    - - 15-year 2.5% ( 2.5 % ) fixed rate note ( 1 )
+      - '99'
+    - - 30-year 3.0% ( 3.0 % ) fixed rate note ( 1 )
+      - '142'
+    - - total cash proceeds
+      - $ 1158
+    post_text: '( 1 ) these debt arrangements are denominated in euro and have been
+      designated as net investment hedges of the company 2019s european operations
+      .
+
+
+      for more information refer to note 9 201cfinancial instruments , hedging activities
+      and fair value measurements . 201d in december 2014 , ppg completed a debt refinancing
+      which included redeeming approximately $ 1.5 billion of public notes and a tender
+      offer for any and all of its outstanding 9% ( 9 % ) debentures , due 2021 and
+      the 7.70% ( 7.70 % ) notes , due 2038 ( together , the 201coffers 201d ) .
+
+
+      the consideration for each $ 1000 principal amount of the 2021 debentures was
+      $ 1334 and was $ 1506 for the 2038 notes .
+
+
+      after the expiration of the offers , ppg accepted for purchase all of the securities
+      that were validly tendered .
+
+
+      an aggregate principal amount of $ 90 million was redeemed .'
+    id: ppg-2016-table-0
+  - pre_text: 'notes to the consolidated financial statements 40 2016 ppg annual report
+      and form 10-k 1 .
+
+
+      summary of significant accounting policies principles of consolidation the accompanying
+      consolidated financial statements include the accounts of ppg industries , inc
+      .
+
+
+      ( 201cppg 201d or the 201ccompany 201d ) and all subsidiaries , both u.s .
+
+
+      and non-u.s. , that it controls .
+
+
+      ppg owns more than 50% ( 50 % ) of the voting stock of most of the subsidiaries
+      that it controls .
+
+
+      for those consolidated subsidiaries in which the company 2019s ownership is
+      less than 100% ( 100 % ) , the outside shareholders 2019 interests are shown
+      as noncontrolling interests .
+
+
+      investments in companies in which ppg owns 20% ( 20 % ) to 50% ( 50 % ) of the
+      voting stock and has the ability to exercise significant influence over operating
+      and financial policies of the investee are accounted for using the equity method
+      of accounting .
+
+
+      as a result , ppg 2019s share of the earnings or losses of such equity affiliates
+      is included in the accompanying consolidated statement of income and ppg 2019s
+      share of these companies 2019 shareholders 2019 equity is included in 201cinvestments
+      201d in the accompanying consolidated balance sheet .
+
+
+      transactions between ppg and its subsidiaries are eliminated in consolidation
+      .
+
+
+      use of estimates in the preparation of financial statements the preparation
+      of financial statements in conformity with u.s .
+
+
+      generally accepted accounting principles requires management to make estimates
+      and assumptions that affect the reported amounts of assets and liabilities and
+      the disclosure of contingent assets and liabilities at the date of the financial
+      statements , as well as the reported amounts of income and expenses during the
+      reporting period .
+
+
+      such estimates also include the fair value of assets acquired and liabilities
+      assumed resulting from the allocation of the purchase price related to business
+      combinations consummated .
+
+
+      actual outcomes could differ from those estimates .
+
+
+      revenue recognition the company recognizes revenue when the earnings process
+      is complete .
+
+
+      revenue is recognized by all operating segments when goods are shipped and title
+      to inventory and risk of loss passes to the customer or when services have been
+      rendered .
+
+
+      shipping and handling costs amounts billed to customers for shipping and handling
+      are reported in 201cnet sales 201d in the accompanying consolidated statement
+      of income .
+
+
+      shipping and handling costs incurred by the company for the delivery of goods
+      to customers are included in 201ccost of sales , exclusive of depreciation and
+      amortization 201d in the accompanying consolidated statement of income .
+
+
+      selling , general and administrative costs amounts presented as 201cselling
+      , general and administrative 201d in the accompanying consolidated statement
+      of income are comprised of selling , customer service , distribution and advertising
+      costs , as well as the costs of providing corporate- wide functional support
+      in such areas as finance , law , human resources and planning .
+
+
+      distribution costs pertain to the movement and storage of finished goods inventory
+      at company- owned and leased warehouses and other distribution facilities .
+
+
+      advertising costs advertising costs are expensed as incurred and totaled $ 322
+      million , $ 324 million and $ 297 million in 2016 , 2015 and 2014 , respectively
+      .
+
+
+      research and development research and development costs , which consist primarily
+      of employee related costs , are charged to expense as incurred. .'
+    header:
+    - ( $ in millions )
+    - '2016'
+    - '2015'
+    - '2014'
+    rows:
+    - - research and development 2013 total
+      - $ 487
+      - $ 494
+      - $ 499
+    - - less depreciation on research facilities
+      - '21'
+      - '18'
+      - '16'
+    - - research and development net
+      - $ 466
+      - $ 476
+      - $ 483
+    post_text: 'legal costs legal costs , primarily include costs associated with
+      acquisition and divestiture transactions , general litigation , environmental
+      regulation compliance , patent and trademark protection and other general corporate
+      purposes , are charged to expense as incurred .
+
+
+      foreign currency translation the functional currency of most significant non-u.s
+      .
+
+
+      operations is their local currency .
+
+
+      assets and liabilities of those operations are translated into u.s .
+
+
+      dollars using year-end exchange rates ; income and expenses are translated using
+      the average exchange rates for the reporting period .
+
+
+      unrealized foreign currency translation adjustments are deferred in accumulated
+      other comprehensive loss , a separate component of shareholders 2019 equity
+      .
+
+
+      cash equivalents cash equivalents are highly liquid investments ( valued at
+      cost , which approximates fair value ) acquired with an original maturity of
+      three months or less .
+
+
+      short-term investments short-term investments are highly liquid , high credit
+      quality investments ( valued at cost plus accrued interest ) that have stated
+      maturities of greater than three months to one year .
+
+
+      the purchases and sales of these investments are classified as investing activities
+      in the consolidated statement of cash flows .
+
+
+      marketable equity securities the company 2019s investment in marketable equity
+      securities is recorded at fair market value and reported in 201cother current
+      assets 201d and 201cinvestments 201d in the accompanying consolidated balance
+      sheet with changes in fair market value recorded in income for those securities
+      designated as trading securities and in other comprehensive income , net of
+      tax , for those designated as available for sale securities. .'
+    id: ppg-2016-table-1
+- id: ppg-10k-2018
+  form: 10-K
+  filed: '2019-02-21'
+  period_covered: 2018-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/79879/000007987919000008/ppg201810k.htm
+  tables:
+  - pre_text: '2018 ppg annual report and form 10-k 59 other acquisitions in 2018
+      , 2017 , and 2016 , the company completed several smaller business acquisitions
+      .
+
+
+      the total consideration paid for these acquisitions , net of cash acquired ,
+      debt assumed and other post closing adjustments , was $ 108 million , $ 74 million
+      and $ 43 million , respectively .
+
+
+      in january 2018 , ppg acquired procoatings , a leading architectural paint and
+      coatings wholesaler located in the netherlands .
+
+
+      procoatings , established in 2001 , distributes a large portfolio of well-known
+      professional paint brands through its network of 23 multi-brand stores .
+
+
+      the company employs nearly 100 people .
+
+
+      the results of this business since the date of acquisition have been reported
+      within the architectural coatings americas and asia pacific business within
+      the performance coatings reportable segment .
+
+
+      in january 2017 , ppg acquired certain assets of automotive refinish coatings
+      company futian xinshi ( 201cfutian 201d ) , based in the guangdong province
+      of china .
+
+
+      futian distributes its products in china through a network of more than 200
+      distributors .
+
+
+      in january 2017 , ppg completed the acquisition of deutek s.a. , a leading romanian
+      paint and architectural coatings manufacturer , from the emerging europe accession
+      fund .
+
+
+      deutek , established in 1993 , manufactures and markets a large portfolio of
+      well-known professional and consumer paint brands , including oskar and danke!
+      .
+
+
+      the company 2019s products are sold in more than 120 do-it-yourself stores and
+      3500 independent retail outlets in romania .
+
+
+      divestitures glass segment in 2017 , ppg completed a multi-year strategic shift
+      in the company''s business portfolio , resulting in the exit of all glass operations
+      which consisted of the global fiber glass business , ppg''s ownership interest
+      in two asian fiber glass joint ventures and the flat glass business .
+
+
+      accordingly , the results of operations , including the gains on the divestitures
+      , and cash flows have been recast as discontinued operations for all periods
+      presented .
+
+
+      ppg now has two reportable business segments .
+
+
+      the net sales and income from discontinued operations related to the former
+      glass segment for the three years ended december 31 , 2018 , 2017 , and 2016
+      were as follows: .'
+    header:
+    - ( $ in millions )
+    - '2018'
+    - '2017'
+    - '2016'
+    rows:
+    - - net sales
+      - $ 2014
+      - $ 217
+      - $ 908
+    - - income from operations
+      - $ 21
+      - $ 30
+      - $ 111
+    - - net gains on the divestitures of businesses
+      - '2014'
+      - '343'
+      - '421'
+    - - income tax expense
+      - '5'
+      - '140'
+      - '202'
+    - - income from discontinued operations net of tax
+      - $ 16
+      - $ 233
+      - $ 330
+    post_text: 'during 2018 , ppg released $ 13 million of previously recorded accruals
+      and contingencies established in conjunction with the divestitures of businesses
+      within the former glass segment as a result of completed actions , new information
+      and updated estimates .
+
+
+      also during 2018 , ppg made a final payment of $ 20 million to vitro s.a.b .
+
+
+      de c.v related to the transfer of certain pension obligations upon the sale
+      of the former flat glass business .
+
+
+      north american fiber glass business on september 1 , 2017 , ppg completed the
+      sale of its north american fiber glass business to nippon electric glass co
+      .
+
+
+      ltd .
+
+
+      ( 201cneg 201d ) .
+
+
+      cash proceeds from the sale were $ 541 million , resulting in a pre-tax gain
+      of $ 343 million , net of certain accruals and contingencies established in
+      conjunction with the divestiture .
+
+
+      ppg 2019s fiber glass operations included manufacturing facilities in chester
+      , south carolina , and lexington and shelby , north carolina ; and administrative
+      and research-and-development operations in shelby and in harmar , pennsylvania
+      , near pittsburgh .
+
+
+      the business , which employed more than 1000 people and had net sales of approximately
+      $ 350 million in 2016 , supplies the transportation , energy , infrastructure
+      and consumer markets .
+
+
+      flat glass business in october 2016 , ppg completed the sale of its flat glass
+      manufacturing and glass coatings operations to vitro s.a.b .
+
+
+      de c.v .
+
+
+      ppg received approximately $ 740 million in cash proceeds and recorded a pre-tax
+      gain of $ 421 million on the sale .
+
+
+      under the terms of the agreement , ppg divested its entire flat glass manufacturing
+      and glass coatings operations , including production sites located in fresno
+      , california ; salem , oregon ; carlisle , pennsylvania ; and wichita falls
+      , texas ; four distribution/fabrication facilities located across canada ; and
+      a research-and-development center located in harmar , pennsylvania .
+
+
+      ppg 2019s flat glass business included approximately 1200 employees .
+
+
+      the business manufactures glass that is fabricated into products used primarily
+      in commercial and residential construction .
+
+
+      notes to the consolidated financial statements .'
+    id: ppg-2018-table-0
+  - pre_text: '52 2018 ppg annual report and 10-k 1 .
+
+
+      summary of significant accounting policies principles of consolidation the accompanying
+      consolidated financial statements include the accounts of ppg industries , inc
+      .
+
+
+      ( 201cppg 201d or the 201ccompany 201d ) and all subsidiaries , both u.s .
+
+
+      and non-u.s. , that it controls .
+
+
+      ppg owns more than 50% ( 50 % ) of the voting stock of most of the subsidiaries
+      that it controls .
+
+
+      for those consolidated subsidiaries in which the company 2019s ownership is
+      less than 100% ( 100 % ) , the outside shareholders 2019 interests are shown
+      as noncontrolling interests .
+
+
+      investments in companies in which ppg owns 20% ( 20 % ) to 50% ( 50 % ) of the
+      voting stock and has the ability to exercise significant influence over operating
+      and financial policies of the investee are accounted for using the equity method
+      of accounting .
+
+
+      as a result , ppg 2019s share of income or losses from such equity affiliates
+      is included in the consolidated statement of income and ppg 2019s share of these
+      companies 2019 shareholders 2019 equity is included in investments on the consolidated
+      balance sheet .
+
+
+      transactions between ppg and its subsidiaries are eliminated in consolidation
+      .
+
+
+      use of estimates in the preparation of financial statements the preparation
+      of financial statements in conformity with u.s .
+
+
+      generally accepted accounting principles requires management to make estimates
+      and assumptions that affect the reported amounts of assets and liabilities and
+      the disclosure of contingent assets and liabilities at the date of the financial
+      statements , as well as the reported amounts of income and expenses during the
+      reporting period .
+
+
+      such estimates also include the fair value of assets acquired and liabilities
+      assumed resulting from the allocation of the purchase price related to business
+      combinations consummated .
+
+
+      actual outcomes could differ from those estimates .
+
+
+      revenue recognition revenue is recognized as performance obligations with the
+      customer are satisfied , at an amount that is determined to be collectible .
+
+
+      for the sale of products , this generally occurs at the point in time when control
+      of the company 2019s products transfers to the customer based on the agreed
+      upon shipping terms .
+
+
+      shipping and handling costs amounts billed to customers for shipping and handling
+      are reported in net sales in the consolidated statement of income .
+
+
+      shipping and handling costs incurred by the company for the delivery of goods
+      to customers are included in cost of sales , exclusive of depreciation and amortization
+      in the consolidated statement of income .
+
+
+      selling , general and administrative costs amounts presented in selling , general
+      and administrative in the consolidated statement of income are comprised of
+      selling , customer service , distribution and advertising costs , as well as
+      the costs of providing corporate-wide functional support in such areas as finance
+      , law , human resources and planning .
+
+
+      distribution costs pertain to the movement and storage of finished goods inventory
+      at company-owned and leased warehouses and other distribution facilities .
+
+
+      advertising costs advertising costs are expensed as incurred and totaled $ 280
+      million , $ 313 million and $ 322 million in 2018 , 2017 and 2016 , respectively
+      .
+
+
+      research and development research and development costs , which consist primarily
+      of employee related costs , are charged to expense as incurred. .'
+    header:
+    - ( $ in millions )
+    - '2018'
+    - '2017'
+    - '2016'
+    rows:
+    - - research and development 2013 total
+      - $ 464
+      - $ 472
+      - $ 473
+    - - less depreciation on research facilities
+      - '23'
+      - '21'
+      - '20'
+    - - research and development net
+      - $ 441
+      - $ 451
+      - $ 453
+    post_text: 'legal costs legal costs , primarily include costs associated with
+      acquisition and divestiture transactions , general litigation , environmental
+      regulation compliance , patent and trademark protection and other general corporate
+      purposes , are charged to expense as incurred .
+
+
+      income taxes income taxes are accounted for under the asset and liability method
+      .
+
+
+      deferred tax assets and liabilities are recognized for the future tax consequences
+      attributable to operating losses and tax credit carryforwards as well as differences
+      between the financial statement carrying amounts of existing assets and liabilities
+      and their respective tax bases .
+
+
+      the effect on deferred notes to the consolidated financial statements .'
+    id: ppg-2018-table-1
+  - pre_text: '58 2018 ppg annual report and 10-k the crown group on october 2 , 2017
+      , ppg acquired the crown group ( 201ccrown 201d ) , a u.s.-based coatings application
+      services business , which is reported as part of ppg''s industrial coatings
+      reportable segment .
+
+
+      crown is one of the leading component and product finishers in north america
+      .
+
+
+      crown applies coatings to customers 2019 manufactured parts and assembled products
+      at 11 u.s .
+
+
+      sites .
+
+
+      most of crown 2019s facilities , which also provide assembly , warehousing and
+      sequencing services , are located at customer facilities or positioned near
+      customer manufacturing sites .
+
+
+      the company serves manufacturers in the automotive , agriculture , construction
+      , heavy truck and alternative energy industries .
+
+
+      the pro-forma impact on ppg''s sales and results of operations , including the
+      pro forma effect of events that are directly attributable to the acquisition
+      , was not significant .
+
+
+      the results of this business since the date of acquisition have been reported
+      within the industrial coatings business within the industrial coatings reportable
+      segment .
+
+
+      taiwan chlorine industries taiwan chlorine industries ( 201ctci 201d ) was established
+      in 1986 as a joint venture between ppg and china petrochemical development corporation
+      ( 201ccpdc 201d ) to produce chlorine-based products in taiwan , at which time
+      ppg owned 60 percent of the venture .
+
+
+      in conjunction with the 2013 separation of its commodity chemicals business
+      , ppg conveyed to axiall corporation ( "axiall" ) its 60% ( 60 % ) ownership
+      interest in tci .
+
+
+      under ppg 2019s agreement with cpdc , if certain post-closing conditions were
+      not met following the three year anniversary of the separation , cpdc had the
+      option to sell its 40% ( 40 % ) ownership interest in tci to axiall for $ 100
+      million .
+
+
+      in turn , axiall had a right to designate ppg as its designee to purchase the
+      40% ( 40 % ) ownership interest of cpdc .
+
+
+      in april 2016 , axiall announced that cpdc had decided to sell its ownership
+      interest in tci to axiall .
+
+
+      in june 2016 , axiall formally designated ppg to purchase the 40% ( 40 % ) ownership
+      interest in tci .
+
+
+      in august 2016 , westlake chemical corporation acquired axiall , which became
+      a wholly-owned subsidiary of westlake .
+
+
+      in april 2017 , ppg finalized its purchase of cpdc 2019s 40% ( 40 % ) ownership
+      interest in tci .
+
+
+      the difference between the acquisition date fair value and the purchase price
+      of ppg 2019s 40% ( 40 % ) ownership interest in tci has been recorded as a loss
+      in discontinued operations during the year-ended december 31 , 2017 .
+
+
+      ppg 2019s ownership in tci is accounted for as an equity method investment and
+      the related equity earnings are reported within other income in the consolidated
+      statement of income and in legacy in note 20 , 201creportable business segment
+      information . 201d metokote corporation in july 2016 , ppg completed the acquisition
+      of metokote corporation ( "metokote" ) , a u.s.-based coatings application services
+      business .
+
+
+      metokote applies coatings to customers'' manufactured parts and assembled products
+      .
+
+
+      it operates on- site coatings services within several customer manufacturing
+      locations , as well as at regional service centers , located throughout the
+      u.s. , canada , mexico , the united kingdom , germany , hungary and the czech
+      republic .
+
+
+      customers ship parts to metokote ae service centers where they are treated to
+      enhance paint adhesion and painted with electrocoat , powder or liquid coatings
+      technologies .
+
+
+      coated parts are then shipped to the customer 2019s next stage of assembly .
+
+
+      metokote coats an average of more than 1.5 million parts per day .
+
+
+      the following table summarizes the estimated fair value of assets acquired and
+      liabilities assumed as reflected in the final purchase price allocation for
+      metokote .
+
+
+      ( $ in millions ) .'
+    header:
+    - current assets
+    - $ 38
+    rows:
+    - - property plant and equipment
+      - '73'
+    - - identifiable intangible assets with finite lives
+      - '86'
+    - - goodwill
+      - '166'
+    - - deferred income taxes ( a )
+      - -12 ( 12 )
+    - - total assets
+      - $ 351
+    - - current liabilities
+      - -23 ( 23 )
+    - - other long-term liabilities
+      - -22 ( 22 )
+    - - total liabilities
+      - ( $ 45 )
+    - - total purchase price net of cash acquired
+      - $ 306
+    post_text: '( a ) the net deferred income tax liability is included in assets
+      due to the company''s tax jurisdictional netting .
+
+
+      the pro-forma impact on ppg''s sales and results of operations , including the
+      pro forma effect of events that are directly attributable to the acquisition
+      , was not significant .
+
+
+      while calculating this impact , no cost savings or operating synergies that
+      may result from the acquisition were included .
+
+
+      the results of this business since the date of acquisition have been reported
+      within the industrial coatings business within the industrial coatings reportable
+      segment .
+
+
+      notes to the consolidated financial statements .'
+    id: ppg-2018-table-2
+  - pre_text: '2018 ppg annual report and form 10-k 77 u.s .
+
+
+      qualified pension beginning in 2012 , the company initiated a lump sum payout
+      program that gave certain terminated vested participants in certain u.s .
+
+
+      defined benefit pension plans the option to take a one-time lump sum cash payment
+      in lieu of receiving a future monthly annuity .
+
+
+      during 2017 , ppg paid $ 87 million in lump sum benefits to terminated vested
+      participants who elected to participate in the program .
+
+
+      as the lump-sum payments were in excess of the expected 2017 service and interest
+      costs for the qualified pension plans , ppg remeasured the periodic benefit
+      obligation of the qualified plans and recorded a settlement charge totaling
+      $ 35 million ( $ 22 million after-tax ) .
+
+
+      u.s .
+
+
+      non-qualified pension in the first quarter 2017 , ppg made lump-sum payments
+      to certain retirees who had participated in ppg''s u.s .
+
+
+      non-qualified pension plan ( the "nonqualified plan" ) totaling approximately
+      $ 40 million .
+
+
+      as the lump-sum payments were in excess of the expected 2017 service and interest
+      costs for the nonqualified plan , ppg remeasured the periodic benefit obligation
+      of the nonqualified plan as of march 1 , 2017 and recorded a settlement charge
+      totaling $ 22 million ( $ 14 million after-tax ) .
+
+
+      plan assets each ppg sponsored defined benefit pension plan is managed in accordance
+      with the requirements of local laws and regulations governing defined benefit
+      pension plans for the exclusive purpose of providing pension benefits to participants
+      and their beneficiaries .
+
+
+      investment committees comprised of ppg managers have fiduciary responsibility
+      to oversee the management of pension plan assets by third party asset managers
+      .
+
+
+      pension plan assets are held in trust by financial institutions and managed
+      on a day-to-day basis by the asset managers .
+
+
+      the asset managers receive a mandate from each investment committee that is
+      aligned with the asset allocation targets established by each investment committee
+      to achieve the plan 2019s investment strategies .
+
+
+      the performance of the asset managers is monitored and evaluated by the investment
+      committees throughout the year .
+
+
+      pension plan assets are invested to generate investment earnings over an extended
+      time horizon to help fund the cost of benefits promised under the plans while
+      mitigating investment risk .
+
+
+      the asset allocation targets established for each pension plan are intended
+      to diversify the investments among a variety of asset categories and among a
+      variety of individual securities within each asset category to mitigate investment
+      risk and provide each plan with sufficient liquidity to fund the payment of
+      pension benefits to retirees .
+
+
+      the following summarizes the weighted average target pension plan asset allocation
+      as of december 31 , 2018 and 2017 for all ppg defined benefit plans: .'
+    header:
+    - asset category
+    - '2018'
+    - '2017'
+    rows:
+    - - equity securities
+      - 15-45% ( 15-45 % )
+      - 15-45% ( 15-45 % )
+    - - debt securities
+      - 30-65% ( 30-65 % )
+      - 30-65% ( 30-65 % )
+    - - real estate
+      - 0-10% ( 0-10 % )
+      - 0-10% ( 0-10 % )
+    - - other
+      - 20-40% ( 20-40 % )
+      - 20-40% ( 20-40 % )
+    post_text: notes to the consolidated financial statements .
+    id: ppg-2018-table-3
+  - pre_text: '30 2018 ppg annual report and 10-k foreign currency translation partially
+      offset by : cost reclassifications associated with the adoption of the new revenue
+      recognition standard .
+
+
+      refer to note 2 , "revenue recognition" within part 2 of this form 10-k cost
+      management including restructuring cost savings 2017 vs .
+
+
+      2016 selling , general and administrative expenses decreased $ 1 million primarily
+      due to : lower net periodic pension and other postretirement benefit costs lower
+      selling and advertising costs restructuring cost savings partially offset by
+      : wage and other cost inflation selling , general and administrative expenses
+      from acquired businesses foreign currency translation other charges and other
+      income .'
+    header:
+    - ( $ in millions except percentages )
+    - '2018'
+    - '% (  % ) change 2017'
+    - '% (  % ) change 2016'
+    - '% (  % ) change 2018 vs . 2017'
+    - '% (  % ) change 2017 vs . 2016'
+    rows:
+    - - interest expense net of interest income
+      - $ 95
+      - $ 85
+      - $ 99
+      - 11.8% ( 11.8 % )
+      - ( 14.1 ) % (  % )
+    - - business restructuring net
+      - $ 66
+      - $ 2014
+      - $ 191
+      - n/a
+      - ( 100.0 ) % (  % )
+    - - pension settlement charges
+      - $ 2014
+      - $ 60
+      - $ 968
+      - ( 100.0 ) % (  % )
+      - ( 93.8 ) % (  % )
+    - - other charges
+      - $ 122
+      - $ 74
+      - $ 242
+      - 64.9% ( 64.9 % )
+      - ( 69.4 ) % (  % )
+    - - other income
+      - ( $ 114 )
+      - ( $ 150 )
+      - ( $ 127 )
+      - ( 24.0 ) % (  % )
+      - 18.1% ( 18.1 % )
+    post_text: 'interest expense , net of interest income interest expense , net of
+      interest income increased $ 10 million in 2018 versus 2017 primarily due to
+      the issuance of long- term debt in early 2018 .
+
+
+      interest expense , net of interest income decreased $ 14 million in 2017 versus
+      2016 due to lower interest rate debt outstanding in 2017 .
+
+
+      business restructuring , net a pretax restructuring charge of $ 83 million was
+      recorded in the second quarter of 2018 , offset by certain changes in estimates
+      to complete previously recorded programs of $ 17 million .
+
+
+      a pretax charge of $ 191 million was recorded in 2016 .
+
+
+      refer to note 8 , "business restructuring" in item 8 of this form 10-k for additional
+      information .
+
+
+      pension settlement charges during 2017 , ppg made lump-sum payments to certain
+      retirees who had participated in ppg''s u.s .
+
+
+      qualified and non- qualified pension plans totaling approximately $ 127 million
+      .
+
+
+      as the lump-sum payments were in excess of the expected 2017 service and interest
+      costs for the affected plans , ppg remeasured the periodic benefit obligation
+      of these plans in the period payments were made and recorded settlement charges
+      totaling $ 60 million ( $ 38 million after-tax ) during 2017 .
+
+
+      during 2016 , ppg permanently transferred approximately $ 1.8 billion of its
+      u.s .
+
+
+      and canadian pension obligations and assets to several highly rated insurance
+      companies .
+
+
+      these actions triggered remeasurement and partial settlement of certain of the
+      company 2019s defined benefit pension plans .
+
+
+      ppg recognized a $ 968 million pre-tax settlement charge in connection with
+      these transactions .
+
+
+      refer to note 13 , "employee benefit plans" in item 8 of this form 10-k for
+      additional information .
+
+
+      other charges other charges in 2018 and 2016 were higher than 2017 primarily
+      due to environmental remediation charges .
+
+
+      these charges were principally for environmental remediation at a former chromium
+      manufacturing plant and associated sites in new jersey .
+
+
+      refer to note 14 , "commitments and contingent liabilities" in item 8 of this
+      form 10-k for additional information .
+
+
+      other income other income was lower in 2018 and 2016 than in 2017 primarily
+      due to the gain from the sale of the mexican plaka business of $ 25 million
+      and income from a legal settlement of $ 18 million in 2017 .
+
+
+      refer to note 3 , "acquisitions and divestitures" in item 8 of this form 10-k
+      for additional information. .'
+    id: ppg-2018-table-4
+  - pre_text: 18 2018 ppg annual report and 10-k research and development .
+    header:
+    - ( $ in millions )
+    - '2018'
+    - '2017'
+    - '2016'
+    rows:
+    - - research and development costs including depreciation of research facilities
+        ( a )
+      - $ 464
+      - $ 472
+      - $ 473
+    - - '% (  % ) of annual net sales'
+      - 3.0% ( 3.0 % )
+      - 3.2% ( 3.2 % )
+      - 3.3% ( 3.3 % )
+    post_text: '( a ) prior year amounts have been recast for the adoption of accounting
+      standards update no .
+
+
+      2017-07 , "improving the presentation of net periodic pension cost and net periodic
+      postretirement benefit cost . 201d see note 1 within item 8 of this form 10-k
+      for additional information .
+
+
+      technology innovation has been a hallmark of ppg 2019s success throughout its
+      history .
+
+
+      the company seeks to optimize its investment in research and development to
+      create new products to drive profitable growth .
+
+
+      we align our product development with the macro trends in the markets we serve
+      and leverage core technology platforms to develop products for unmet market
+      needs .
+
+
+      our history of successful technology introductions is based on a commitment
+      to an efficient and effective innovation process and disciplined portfolio management
+      .
+
+
+      we have obtained government funding for a small portion of the company 2019s
+      research efforts , and we will continue to pursue government funding where appropriate
+      .
+
+
+      ppg owns and operates several facilities to conduct research and development
+      for new and improved products and processes .
+
+
+      in addition to the company 2019s centralized principal research and development
+      centers ( see item 2 .
+
+
+      201cproperties 201d of this form 10-k ) , operating segments manage their development
+      through centers of excellence .
+
+
+      as part of our ongoing efforts to manage our formulations and raw material costs
+      effectively , we operate a global competitive sourcing laboratory in china .
+
+
+      because of the company 2019s broad array of products and customers , ppg is
+      not materially dependent upon any single technology platform .
+
+
+      raw materials and energy the effective management of raw materials and energy
+      is important to ppg 2019s continued success .
+
+
+      ppg uses a wide variety of complex raw materials that serve as the building
+      blocks of our manufactured products that provide broad ranging , high performance
+      solutions to our customers .
+
+
+      the company 2019s most significant raw materials are epoxy and other resins
+      , titanium dioxide and other pigments , and solvents in the coatings businesses
+      and sand and soda ash for the specialty coatings and materials business .
+
+
+      coatings raw materials include both organic , primarily petroleum-derived ,
+      materials and inorganic materials , including titanium dioxide .
+
+
+      these raw materials represent ppg 2019s single largest production cost component
+      .
+
+
+      most of the raw materials and energy used in production are purchased from outside
+      sources , and the company has made , and plans to continue to make , supply
+      arrangements to meet our planned operating requirements for the future .
+
+
+      supply of critical raw materials and energy is managed by establishing contracts
+      with multiple sources , and identifying alternative materials or technology
+      whenever possible .
+
+
+      our products use both petroleum-derived and bio-based materials as part of a
+      product renewal strategy .
+
+
+      while prices for these raw materials typically fluctuate with energy prices
+      and global supply and demand , such fluctuations are impacted by the fact that
+      the manufacture of our raw materials is several steps downstream from crude
+      oil and natural gas .
+
+
+      the company is continuing its aggressive sourcing initiatives to broaden our
+      supply of high quality raw materials .
+
+
+      these initiatives include qualifying multiple and local sources of supply ,
+      including suppliers from asia and other lower cost regions of the world , adding
+      on-site resin production at certain manufacturing locations and a reduction
+      in the amount of titanium dioxide used in our product formulations .
+
+
+      we are subject to existing and evolving standards relating to the registration
+      of chemicals which could potentially impact the availability and viability of
+      some of the raw materials we use in our production processes .
+
+
+      our ongoing , global product stewardship efforts are directed at maintaining
+      our compliance with these standards .
+
+
+      ppg has joined a global initiative to eliminate child labor from the mica industry
+      , and the company is continuing to take steps , including audits of our suppliers
+      , to ensure compliance with ppg 2019s zero-tolerance policy against the use
+      of child labor in their supply chains .
+
+
+      changes to chemical registration regulations have been proposed or implemented
+      in the eu and many other countries , including china , canada , the united states
+      ( u.s. ) , brazil , mexico and korea .
+
+
+      because implementation of many of these programs has not been finalized , the
+      financial impact cannot be estimated at this time .
+
+
+      we anticipate that the number of chemical registration regulations will continue
+      to increase globally , and we have implemented programs to track and comply
+      with these regulations .
+
+
+      given the recent volatility in certain energy-based input costs and foreign
+      currencies , the company is not able to predict with certainty the 2019 full
+      year impact of related changes in raw material pricing versus 2018 ; however
+      , ppg currently expects overall coatings raw material costs to increase a low-single-digit
+      percentage in the first half of 2019 , with impacts varied by region and commodity
+      .
+
+
+      further , given the distribution nature of many of our businesses , logistics
+      and distribution costs are sizable , as are wages and benefits but to a lesser
+      degree .
+
+
+      ppg typically experiences fluctuating prices for energy and raw materials driven
+      by various factors , including changes in supplier feedstock costs and inventories
+      , global industry activity levels , foreign currency exchange rates , government
+      regulation , and global supply and demand factors .
+
+
+      in aggregate , average .'
+    id: ppg-2018-table-5
 - id: ppg-10k-2023
   form: 10-K
   filed: '2024-02-15'

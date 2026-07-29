@@ -401,6 +401,1130 @@ metrics:
       xbrl_concept: us-gaap:StockholdersEquity
       description: Total equity
 filings:
+- id: aes-10k-2010
+  form: 10-K
+  filed: '2011-02-28'
+  period_covered: 2010-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/874761/000119312511047720/d10k.htm
+  tables:
+  - pre_text: 'the aes corporation notes to consolidated financial statements 2014
+      ( continued ) december 31 , 2010 , 2009 , and 2008 ( 3 ) multilateral loans
+      include loans funded and guaranteed by bilaterals , multilaterals , development
+      banks and other similar institutions .
+
+
+      ( 4 ) non-recourse debt of $ 708 million as of december 31 , 2009 was excluded
+      from non-recourse debt and included in current and long-term liabilities of
+      held for sale and discontinued businesses in the accompanying consolidated balance
+      sheets .
+
+
+      non-recourse debt as of december 31 , 2010 is scheduled to reach maturity as
+      set forth in the table below : december 31 , annual maturities ( in millions
+      ) .'
+    header:
+    - december 31,
+    - annual maturities ( in millions )
+    rows:
+    - - '2011'
+      - $ 2577
+    - - '2012'
+      - '657'
+    - - '2013'
+      - '953'
+    - - '2014'
+      - '1839'
+    - - '2015'
+      - '1138'
+    - - thereafter
+      - '7957'
+    - - total non-recourse debt
+      - $ 15121
+    post_text: 'as of december 31 , 2010 , aes subsidiaries with facilities under
+      construction had a total of approximately $ 432 million of committed but unused
+      credit facilities available to fund construction and other related costs .
+
+
+      excluding these facilities under construction , aes subsidiaries had approximately
+      $ 893 million in a number of available but unused committed revolving credit
+      lines to support their working capital , debt service reserves and other business
+      needs .
+
+
+      these credit lines can be used in one or more of the following ways : solely
+      for borrowings ; solely for letters of credit ; or a combination of these uses
+      .
+
+
+      the weighted average interest rate on borrowings from these facilities was 3.24%
+      ( 3.24 % ) at december 31 , 2010 .
+
+
+      non-recourse debt covenants , restrictions and defaults the terms of the company
+      2019s non-recourse debt include certain financial and non-financial covenants
+      .
+
+
+      these covenants are limited to subsidiary activity and vary among the subsidiaries
+      .
+
+
+      these covenants may include but are not limited to maintenance of certain reserves
+      , minimum levels of working capital and limitations on incurring additional
+      indebtedness .
+
+
+      compliance with certain covenants may not be objectively determinable .
+
+
+      as of december 31 , 2010 and 2009 , approximately $ 803 million and $ 653 million
+      , respectively , of restricted cash was maintained in accordance with certain
+      covenants of the non-recourse debt agreements , and these amounts were included
+      within 201crestricted cash 201d and 201cdebt service reserves and other deposits
+      201d in the accompanying consolidated balance sheets .
+
+
+      various lender and governmental provisions restrict the ability of certain of
+      the company 2019s subsidiaries to transfer their net assets to the parent company
+      .
+
+
+      such restricted net assets of subsidiaries amounted to approximately $ 5.4 billion
+      at december 31 , 2010. .'
+    id: aes-2010-table-0
+  - pre_text: '2022 integration of new projects .
+
+
+      during 2010 , the following projects were acquired or commenced commercial operations
+      : project location fuel aes equity interest ( percent , rounded ) .'
+    header:
+    - project
+    - location
+    - fuel
+    - gross mw
+    - aes equity interest ( percent rounded )
+    rows:
+    - - ballylumford
+      - united kingdom
+      - gas
+      - '1246'
+      - 100% ( 100 % )
+    - - jhrh ( 1 )
+      - china
+      - hydro
+      - '379'
+      - 35% ( 35 % )
+    - - nueva ventanas
+      - chile
+      - coal
+      - '272'
+      - 71% ( 71 % )
+    - - st . nikola
+      - bulgaria
+      - wind
+      - '156'
+      - 89% ( 89 % )
+    - - guacolda 4 ( 2 )
+      - chile
+      - coal
+      - '152'
+      - 35% ( 35 % )
+    - - dong qi ( 3 )
+      - china
+      - wind
+      - '49'
+      - 49% ( 49 % )
+    - - huanghua ii ( 3 )
+      - china
+      - wind
+      - '49'
+      - 49% ( 49 % )
+    - - st . patrick
+      - france
+      - wind
+      - '35'
+      - 100% ( 100 % )
+    - - north rhins
+      - scotland
+      - wind
+      - '22'
+      - 100% ( 100 % )
+    - - kepezkaya
+      - turkey
+      - hydro
+      - '28'
+      - 51% ( 51 % )
+    - - damlapinar ( 4 )
+      - turkey
+      - hydro
+      - '16'
+      - 51% ( 51 % )
+    post_text: 'damlapinar ( 4 ) .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      turkey hydro 16 51% ( 51 % ) ( 1 ) jianghe rural electrification development
+      co .
+
+
+      ltd .
+
+
+      ( 201cjhrh 201d ) and aes china hydropower investment co .
+
+
+      ltd .
+
+
+      entered into an agreement to acquire a 49% ( 49 % ) interest in this joint venture
+      in june 2010 .
+
+
+      acquisition of 35% ( 35 % ) ownership was completed in june 2010 and the transfer
+      of the remaining 14% ( 14 % ) ownership , which is subject to approval by the
+      chinese government , is expected to be completed in may 2011 .
+
+
+      ( 2 ) guacolda is an equity method investment indirectly held by aes through
+      gener .
+
+
+      the aes equity interest reflects the 29% ( 29 % ) noncontrolling interests in
+      gener .
+
+
+      ( 3 ) joint venture with guohua energy investment co .
+
+
+      ltd .
+
+
+      ( 4 ) joint venture with i.c .
+
+
+      energy .
+
+
+      key trends and uncertainties our operations continue to face many risks as discussed
+      in item 1a . 2014risk factors of this form 10-k .
+
+
+      some of these challenges are also described above in key drivers of results
+      in 2010 .
+
+
+      we continue to monitor our operations and address challenges as they arise .
+
+
+      development .
+
+
+      during the past year , the company has successfully acquired and completed construction
+      of a number of projects , totaling approximately 2404 mw , including the acquisition
+      of ballylumford in the united kingdom and completion of construction of a number
+      of projects in europe , chile and china .
+
+
+      however , as discussed in item 1a . 2014risk factors 2014our business is subject
+      to substantial development uncertainties of this form 10-k , our development
+      projects are subject to uncertainties .
+
+
+      certain delays have occurred at the 670 mw maritza coal-fired project in bulgaria
+      , and the project has not yet begun commercial operations .
+
+
+      as noted in note 10 2014debt included in item 8 of this form 10-k , as a result
+      of these delays the project debt is in default and the company is working with
+      its lenders to resolve the default .
+
+
+      in addition , as noted in item 3 . 2014legal proceedings , the company is in
+      litigation with the contractor regarding the cause of delays .
+
+
+      at this time , we believe that maritza will commence commercial operations for
+      at least some of the project 2019s capacity by the second half of 2011 .
+
+
+      however , commencement of commercial operations could be delayed beyond this
+      time frame .
+
+
+      there can be no assurance that maritza will achieve commercial operations ,
+      in whole or in part , by the second half of 2011 , resolve the default with
+      the lenders or prevail in the litigation referenced above , which could result
+      in the loss of some or all of our investment or require additional funding for
+      the project .
+
+
+      any of these events could have a material adverse effect on the company 2019s
+      operating results or financial position .
+
+
+      global economic conditions .
+
+
+      during the past few years , economic conditions in some countries where our
+      subsidiaries conduct business have deteriorated .
+
+
+      although the economic conditions in several of these countries have improved
+      in recent months , our businesses could be impacted in the event these recent
+      trends do not continue. .'
+    id: aes-2010-table-1
+- id: aes-10k-2011
+  form: 10-K
+  filed: '2012-02-27'
+  period_covered: 2011-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/874761/000119312512078654/d290041d10k.htm
+  tables:
+  - pre_text: 'the aes corporation notes to consolidated financial statements 2014
+      ( continued ) december 31 , 2011 , 2010 , and 2009 ( 1 ) weighted average interest
+      rate at december 31 , 2011 .
+
+
+      ( 2 ) the company has interest rate swaps and interest rate option agreements
+      in an aggregate notional principal amount of approximately $ 3.6 billion on
+      non-recourse debt outstanding at december 31 , 2011 .
+
+
+      the swap agreements economically change the variable interest rates on the portion
+      of the debt covered by the notional amounts to fixed rates ranging from approximately
+      1.44% ( 1.44 % ) to 6.98% ( 6.98 % ) .
+
+
+      the option agreements fix interest rates within a range from 1.00% ( 1.00 %
+      ) to 7.00% ( 7.00 % ) .
+
+
+      the agreements expire at various dates from 2016 through 2028 .
+
+
+      ( 3 ) multilateral loans include loans funded and guaranteed by bilaterals ,
+      multilaterals , development banks and other similar institutions .
+
+
+      ( 4 ) non-recourse debt of $ 704 million and $ 945 million as of december 31
+      , 2011 and 2010 , respectively , was excluded from non-recourse debt and included
+      in current and long-term liabilities of held for sale and discontinued businesses
+      in the accompanying consolidated balance sheets .
+
+
+      non-recourse debt as of december 31 , 2011 is scheduled to reach maturity as
+      set forth in the table below : december 31 , annual maturities ( in millions
+      ) .'
+    header:
+    - december 31,
+    - annual maturities ( in millions )
+    rows:
+    - - '2012'
+      - $ 2152
+    - - '2013'
+      - '1389'
+    - - '2014'
+      - '1697'
+    - - '2015'
+      - '851'
+    - - '2016'
+      - '2301'
+    - - thereafter
+      - '7698'
+    - - total non-recourse debt
+      - $ 16088
+    post_text: 'as of december 31 , 2011 , aes subsidiaries with facilities under
+      construction had a total of approximately $ 1.4 billion of committed but unused
+      credit facilities available to fund construction and other related costs .
+
+
+      excluding these facilities under construction , aes subsidiaries had approximately
+      $ 1.2 billion in a number of available but unused committed revolving credit
+      lines to support their working capital , debt service reserves and other business
+      needs .
+
+
+      these credit lines can be used in one or more of the following ways : solely
+      for borrowings ; solely for letters of credit ; or a combination of these uses
+      .
+
+
+      the weighted average interest rate on borrowings from these facilities was 14.75%
+      ( 14.75 % ) at december 31 , 2011 .
+
+
+      on october 3 , 2011 , dolphin subsidiary ii , inc .
+
+
+      ( 201cdolphin ii 201d ) , a newly formed , wholly-owned special purpose indirect
+      subsidiary of aes , entered into an indenture ( the 201cindenture 201d ) with
+      wells fargo bank , n.a .
+
+
+      ( the 201ctrustee 201d ) as part of its issuance of $ 450 million aggregate
+      principal amount of 6.50% ( 6.50 % ) senior notes due 2016 ( the 201c2016 notes
+      201d ) and $ 800 million aggregate principal amount of 7.25% ( 7.25 % ) senior
+      notes due 2021 ( the 201c7.25% ( 201c7.25 % ) 2021 notes 201d , together with
+      the 2016 notes , the 201cnotes 201d ) to finance the acquisition ( the 201cacquisition
+      201d ) of dpl .
+
+
+      upon closing of the acquisition on november 28 , 2011 , dolphin ii was merged
+      into dpl with dpl being the surviving entity and obligor .
+
+
+      the 2016 notes and the 7.25% ( 7.25 % ) 2021 notes are included under 201cnotes
+      and bonds 201d in the non-recourse detail table above .
+
+
+      see note 23 2014acquisitions and dispositions for further information .
+
+
+      interest on the 2016 notes and the 7.25% ( 7.25 % ) 2021 notes accrues at a
+      rate of 6.50% ( 6.50 % ) and 7.25% ( 7.25 % ) per year , respectively , and
+      is payable on april 15 and october 15 of each year , beginning april 15 , 2012
+      .
+
+
+      prior to september 15 , 2016 with respect to the 2016 notes and july 15 , 2021
+      with respect to the 7.25% ( 7.25 % ) 2021 notes , dpl may redeem some or all
+      of the 2016 notes or 7.25% ( 7.25 % ) 2021 notes at par , plus a 201cmake-whole
+      201d amount set forth in .'
+    id: aes-2011-table-0
+  - pre_text: 'the aes corporation notes to consolidated financial statements 2014
+      ( continued ) december 31 , 2011 , 2010 , and 2009 the preliminary allocation
+      of the purchase price to the fair value of assets acquired and liabilities assumed
+      is as follows ( in millions ) : .'
+    header:
+    - cash
+    - $ 116
+    rows:
+    - - accounts receivable
+      - '278'
+    - - inventory
+      - '124'
+    - - other current assets
+      - '41'
+    - - property plant and equipment
+      - '2549'
+    - - intangible assets subject to amortization
+      - '166'
+    - - intangible assets 2014indefinite-lived
+      - '5'
+    - - regulatory assets
+      - '201'
+    - - other noncurrent assets
+      - '58'
+    - - current liabilities
+      - -401 ( 401 )
+    - - non-recourse debt
+      - -1255 ( 1255 )
+    - - deferred taxes
+      - -558 ( 558 )
+    - - regulatory liabilities
+      - -117 ( 117 )
+    - - other noncurrent liabilities
+      - -195 ( 195 )
+    - - redeemable preferred stock
+      - -18 ( 18 )
+    - - net identifiable assets acquired
+      - '994'
+    - - goodwill
+      - '2489'
+    - - net assets acquired
+      - $ 3483
+    post_text: 'at december 31 , 2011 , the assets acquired and liabilities assumed
+      in the acquisition were recorded at provisional amounts based on the preliminary
+      purchase price allocation .
+
+
+      the company is in the process of obtaining additional information to identify
+      and measure all assets acquired and liabilities assumed in the acquisition within
+      the measurement period , which could be up to one year from the date of acquisition
+      .
+
+
+      such provisional amounts will be retrospectively adjusted to reflect any new
+      information about facts and circumstances that existed at the acquisition date
+      that , if known , would have affected the measurement of these amounts .
+
+
+      additionally , key input assumptions and their sensitivity to the valuation
+      of assets acquired and liabilities assumed are currently being reviewed by management
+      .
+
+
+      it is likely that the value of the generation business related property , plant
+      and equipment , the intangible asset related to the electric security plan with
+      its regulated customers and long-term coal contracts , the 4.9% ( 4.9 % ) equity
+      ownership interest in the ohio valley electric corporation , and deferred taxes
+      could change as the valuation process is finalized .
+
+
+      dpler , dpl 2019s wholly-owned competitive retail electric service ( 201ccres
+      201d ) provider , will also likely have changes in its initial purchase price
+      allocation for the valuation of its intangible assets for the trade name , and
+      customer relationships and contracts .
+
+
+      as noted in the table above , the preliminary purchase price allocation has
+      resulted in the recognition of $ 2.5 billion of goodwill .
+
+
+      factors primarily contributing to a price in excess of the fair value of the
+      net tangible and intangible assets include , but are not limited to : the ability
+      to expand the u.s .
+
+
+      utility platform in the mid-west market , the ability to capitalize on utility
+      management experience gained from ipl , enhanced ability to negotiate with suppliers
+      of fuel and energy , the ability to capture value associated with aes 2019 u.s
+      .
+
+
+      tax position , a well- positioned generating fleet , the ability of dpl to leverage
+      its assembled workforce to take advantage of growth opportunities , etc .
+
+
+      our ability to realize the benefit of dpl 2019s goodwill depends on the realization
+      of expected benefits resulting from a successful integration of dpl into aes
+      2019 existing operations and our ability to respond to the changes in the ohio
+      utility market .
+
+
+      for example , utilities in ohio continue to face downward pressure on operating
+      margins due to the evolving regulatory environment , which is moving towards
+      a market-based competitive pricing mechanism .
+
+
+      at the same time , the declining energy prices are also reducing operating .'
+    id: aes-2011-table-1
+  - pre_text: 'the aes corporation notes to consolidated financial statements 2014
+      ( continued ) december 31 , 2011 , 2010 , and 2009 may require the government
+      to acquire an ownership interest and the current expectation of future losses
+      .
+
+
+      our evaluation indicated that the long-lived assets were no longer recoverable
+      and , accordingly , they were written down to their estimated fair value of
+      $ 24 million based on a discounted cash flow analysis .
+
+
+      the long-lived assets had a carrying amount of $ 66 million prior to the recognition
+      of asset impairment expense .
+
+
+      kelanitissa is a build- operate-transfer ( bot ) generation facility and payments
+      under its ppa are scheduled to decline over the ppa term .
+
+
+      it is possible that further impairment charges may be required in the future
+      as kelanitissa gets closer to the bot date .
+
+
+      kelanitissa is reported in the asia generation reportable segment .
+
+
+      asset impairment expense for the year ended december 31 , 2010 consisted of
+      : ( in millions ) .'
+    header:
+    - ''
+    - 2010 ( in millions )
+    rows:
+    - - southland ( huntington beach )
+      - $ 200
+    - - tisza ii
+      - '85'
+    - - deepwater
+      - '79'
+    - - other
+      - '25'
+    - - total
+      - $ 389
+    post_text: 'southland 2014in september 2010 , a new environmental policy on the
+      use of ocean water to cool generation facilities was issued in california that
+      requires generation plants to comply with the policy by december 31 , 2020 and
+      would require significant capital expenditure or plants 2019 shutdown .
+
+
+      the company 2019s huntington beach gas-fired generation facility in california
+      , which is part of aes 2019 southland business , was impacted by the new policy
+      .
+
+
+      the company performed an asset impairment test and determined the fair value
+      of the asset group using a discounted cash flow analysis .
+
+
+      the carrying value of the asset group of $ 288 million exceeded the fair value
+      of $ 88 million resulting in the recognition of asset impairment expense of
+      $ 200 million for the year ended december 31 , 2010 .
+
+
+      southland is reported in the north america generation reportable segment .
+
+
+      tisza ii 2014during the third quarter of 2010 , the company entered into annual
+      negotiations with the offtaker of tisza ii .
+
+
+      as a result of these preliminary negotiations , as well as the further deterioration
+      of the economic environment in hungary , the company determined that an indicator
+      of impairment existed at september 30 , 2010 .
+
+
+      thus , the company performed an asset impairment test and determined that based
+      on the undiscounted cash flow analysis , the carrying amount of the tisza ii
+      asset group was not recoverable .
+
+
+      the fair value of the asset group was then determined using a discounted cash
+      flow analysis .
+
+
+      the carrying value of the tisza ii asset group of $ 160 million exceeded the
+      fair value of $ 75 million resulting in the recognition of asset impairment
+      expense of $ 85 million during the year ended december 31 , 2010 .
+
+
+      deepwater 2014in 2010 , deepwater , our 160 mw petcoke-fired merchant power
+      plant located in texas , experienced deteriorating market conditions due to
+      increasing petcoke prices and diminishing power prices .
+
+
+      as a result , deepwater incurred operating losses and was shut down from time
+      to time to avoid negative operating margin .
+
+
+      in the fourth quarter of 2010 , management concluded that , on an undiscounted
+      cash flow basis , the carrying amount of the asset group was no longer recoverable
+      .
+
+
+      the fair value of deepwater was determined using a discounted cash flow analysis
+      and $ 79 million of impairment expense was recognized .
+
+
+      deepwater is reported in the north america generation reportable segment. .'
+    id: aes-2011-table-2
+  - pre_text: 'management 2019s priorities management has re-evaluated its priorities
+      following the appointment of its new ceo in september 2011 .
+
+
+      management is focused on the following priorities : 2022 execution of our geographic
+      concentration strategy to maximize shareholder value through disciplined capital
+      allocation including : 2022 platform expansion in brazil , chile , colombia
+      , and the united states , 2022 platform development in turkey , poland , and
+      the united kingdom , 2022 corporate debt reduction , and 2022 a return of capital
+      to shareholders , including our intent to initiate a dividend in 2012 ; 2022
+      closing the sales of businesses for which we have signed agreements with counterparties
+      and prudently exiting select non-strategic markets ; 2022 optimizing profitability
+      of operations in the existing portfolio ; 2022 integration of dpl into our portfolio
+      ; 2022 implementing a management realignment of our businesses under two business
+      lines : utilities and generation , and achieving cost savings through the alignment
+      of overhead costs with business requirements , systems automation and optimal
+      allocation of business development spending ; and 2022 completion of an approximately
+      2400 mw construction program and the integration of new projects into existing
+      businesses .
+
+
+      during the year ended december 31 , 2011 , the following projects commenced
+      commercial operations : project location fuel aes equity interest ( percent
+      , rounded ) aes solar ( 1 ) .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      various solar 62 50% ( 50 % ) .'
+    header:
+    - project
+    - location
+    - fuel
+    - gross mw
+    - aes equity interest ( percent rounded )
+    rows:
+    - - aes solar ( 1 )
+      - various
+      - solar
+      - '62'
+      - 50% ( 50 % )
+    - - angamos
+      - chile
+      - coal
+      - '545'
+      - 71% ( 71 % )
+    - - changuinola
+      - panama
+      - hydro
+      - '223'
+      - 100% ( 100 % )
+    - - kumkoy ( 2 )
+      - turkey
+      - hydro
+      - '18'
+      - 51% ( 51 % )
+    - - laurel mountain
+      - us-wv
+      - wind
+      - '98'
+      - 100% ( 100 % )
+    - - maritza
+      - bulgaria
+      - coal
+      - '670'
+      - 100% ( 100 % )
+    - - sao joaquim
+      - brazil
+      - hydro
+      - '3'
+      - 24% ( 24 % )
+    - - trinidad ( 3 )
+      - trinidad
+      - gas
+      - '394'
+      - 10% ( 10 % )
+    post_text: 'trinidad ( 3 ) .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      trinidad gas 394 10% ( 10 % ) ( 1 ) aes solar energy ltd .
+
+
+      is a joint venture with riverstone holdings and is accounted for as an equity
+      method investment .
+
+
+      plants that came online during the year include : kalipetrovo , ugento , soemina
+      , francavilla fontana , latina , cocomeri , francofonte , scopeto , sabaudia
+      , aprilla-1 , siracusa 1-3 complex , manduria apollo and rinaldone .
+
+
+      ( 2 ) joint venture with i.c .
+
+
+      energy .
+
+
+      ( 3 ) an equity method investment held by aes .
+
+
+      key trends and uncertainties our operations continue to face many risks as discussed
+      in item 1a . 2014risk factors of this form 10-k .
+
+
+      some of these challenges are also described below in 201ckey drivers of results
+      in 2011 201d .
+
+
+      we continue to monitor our operations and address challenges as they arise .
+
+
+      operations in august 2010 , the esti power plant , a 120 mw run-of-river hydroelectric
+      power plant in panama , was taken offline due to damage to its tunnel infrastructure
+      .
+
+
+      aes panama is partially covered for business .'
+    id: aes-2011-table-3
+  - pre_text: 'the aes corporation notes to consolidated financial statements 2014
+      ( continued ) december 31 , 2011 , 2010 , and 2009 company for an aggregate
+      proceeds of approximately $ 234 million .
+
+
+      the company recognized a gain on disposal of $ 6 million , net of tax , during
+      the year ended december 31 , 2010 .
+
+
+      ras laffan was previously reported in the asia generation segment .
+
+
+      23 .
+
+
+      acquisitions and dispositions acquisitions dpl 2014on november 28 , 2011 , aes
+      completed its acquisition of 100% ( 100 % ) of the common stock of dpl for approximately
+      $ 3.5 billion , pursuant to the terms and conditions of a definitive agreement
+      ( the 201cmerger agreement 201d ) dated april 19 , 2011 .
+
+
+      dpl serves over 500000 customers , primarily west central ohio , through its
+      operating subsidiaries dp&l and dpl energy resources ( 201cdpler 201d ) .
+
+
+      additionally , dpl operates over 3800 mw of power generation facilities and
+      provides competitive retail energy services to residential , commercial , industrial
+      and governmental customers .
+
+
+      the acquisition strengthens the company 2019s u.s .
+
+
+      utility operations by expanding in the midwest and pjm , a regional transmission
+      organization serving several eastern states as part of the eastern interconnection
+      .
+
+
+      the company expects to benefit from the regional scale provided by indianapolis
+      power & light company , its nearby integrated utility business in indiana .
+
+
+      aes funded the aggregate purchase consideration through a combination of the
+      following : 2022 the proceeds from a $ 1.05 billion term loan obtained in may
+      2011 ; 2022 the proceeds from a private offering of $ 1.0 billion notes in june
+      2011 ; 2022 temporary borrowings of $ 251 million under its revolving credit
+      facility ; and 2022 the proceeds from private offerings of $ 450 million aggregate
+      principal amount of 6.50% ( 6.50 % ) senior notes due 2016 and $ 800 million
+      aggregate principal amount of 7.25% ( 7.25 % ) senior notes due 2021 ( collectively
+      , the 201cnotes 201d ) in october 2011 by dolphin subsidiary ii , inc .
+
+
+      ( 201cdolphin ii 201d ) , a wholly-owned special purpose indirect subsidiary
+      of aes , which was merged into dpl upon the completion of acquisition .
+
+
+      the fair value of the consideration paid for dpl was as follows ( in millions
+      ) : .'
+    header:
+    - agreed enterprise value
+    - $ 4719
+    rows:
+    - - 'less : fair value of assumed long-term debt outstanding net'
+      - -1255 ( 1255 )
+    - - cash consideration paid to dpl 2019s common stockholders
+      - '3464'
+    - - 'add : cash paid for outstanding stock-based awards'
+      - '19'
+    - - total cash consideration paid
+      - $ 3483
+    post_text: .
+    id: aes-2011-table-4
+  - pre_text: 'the aes corporation notes to consolidated financial statements 2014
+      ( continued ) december 31 , 2011 , 2010 , and 2009 20 .
+
+
+      impairment expense asset impairment asset impairment expense for the year ended
+      december 31 , 2011 consisted of : ( in millions ) .'
+    header:
+    - ''
+    - 2011 ( in millions )
+    rows:
+    - - wind turbines & deposits
+      - $ 116
+    - - tisza ii
+      - '52'
+    - - kelanitissa
+      - '42'
+    - - other
+      - '15'
+    - - total
+      - $ 225
+    post_text: 'wind turbines & deposits 2014during the third quarter of 2011 , the
+      company evaluated the future use of certain wind turbines held in storage pending
+      their installation .
+
+
+      due to reduced wind turbine market pricing and advances in turbine technology
+      , the company determined it was more likely than not that the turbines would
+      be sold significantly before the end of their previously estimated useful lives
+      .
+
+
+      in addition , the company has concluded that more likely than not non-refundable
+      deposits it had made in prior years to a turbine manufacturer for the purchase
+      of wind turbines are not recoverable .
+
+
+      the company determined it was more likely than not that it would not proceed
+      with the purchase of turbines due to the availability of more advanced and lower
+      cost turbines in the market .
+
+
+      these developments were more likely than not as of september 30 , 2011 and as
+      a result were considered impairment indicators and the company determined that
+      an impairment had occurred as of september 30 , 2011 as the aggregate carrying
+      amount of $ 161 million of these assets was not recoverable and was reduced
+      to their estimated fair value of $ 45 million determined under the market approach
+      .
+
+
+      this resulted in asset impairment expense of $ 116 million .
+
+
+      wind generation is reported in the corporate and other segment .
+
+
+      in january 2012 , the company forfeited the deposits for which a full impairment
+      charge was recognized in the third quarter of 2011 , and there is no obligation
+      for further payments under the related turbine supply agreement .
+
+
+      additionally , the company sold some of the turbines held in storage during
+      the fourth quarter of 2011 and is continuing to evaluate the future use of the
+      turbines held in storage .
+
+
+      the company determined it is more likely than not that they will be sold , however
+      they are not being actively marketed for sale at this time as the company is
+      reconsidering the potential use of the turbines in light of recent development
+      activity at one of its advance stage development projects .
+
+
+      it is reasonably possible that the turbines could incur further loss in value
+      due to changing market conditions and advances in technology .
+
+
+      tisza ii 2014during the fourth quarter of 2011 , tisza ii , a 900 mw gas and
+      oil-fired generation plant in hungary entered into annual negotiations with
+      its offtaker .
+
+
+      as a result of these negotiations , as well as the further deterioration of
+      the economic environment in hungary , the company determined that an indicator
+      of impairment existed at december 31 , 2011 .
+
+
+      thus , the company performed an asset impairment test and determined that based
+      on the undiscounted cash flow analysis , the carrying amount of tisza ii asset
+      group was not recoverable .
+
+
+      the fair value of the asset group was then determined using a discounted cash
+      flow analysis .
+
+
+      the carrying value of the tisza ii asset group of $ 94 million exceeded the
+      fair value of $ 42 million resulting in the recognition of asset impairment
+      expense of $ 52 million during the three months ended december 31 , 2011 .
+
+
+      tisza ii is reported in the europe generation reportable segment .
+
+
+      kelanitissa 2014in 2011 , the company recognized asset impairment expense of
+      $ 42 million for the long-lived assets of kelanitissa , our diesel-fired generation
+      plant in sri lanka .
+
+
+      we have continued to evaluate the recoverability of our long-lived assets at
+      kelanitissa as a result of both the existing government regulation which .'
+    id: aes-2011-table-5
+  - pre_text: 'the aes corporation notes to consolidated financial statements 2014
+      ( continued ) december 31 , 2011 , 2010 , and 2009 the table below sets forth
+      the pre-tax accumulated other comprehensive income ( loss ) expected to be recognized
+      as an increase ( decrease ) to income from continuing operations before income
+      taxes over the next twelve months as of december 31 , 2011 for the following
+      types of derivative instruments : accumulated other comprehensive income ( loss
+      ) ( 1 ) ( in millions ) .'
+    header:
+    - ''
+    - accumulated other comprehensive income ( loss ) ( 1 ) ( in millions )
+    rows:
+    - - interest rate derivatives
+      - $ -101 ( 101 )
+    - - cross currency derivatives
+      - $ -1 ( 1 )
+    - - foreign currency derivatives
+      - $ 7
+    - - commodity and other derivatives
+      - $ -1 ( 1 )
+    post_text: '( 1 ) excludes a loss of $ 94 million expected to be recognized as
+      part of the sale of cartagena , which closed on february 9 , 2012 , and is further
+      discussed in note 23 2014acquisitions and dispositions .
+
+
+      the balance in accumulated other comprehensive loss related to derivative transactions
+      will be reclassified into earnings as interest expense is recognized for interest
+      rate hedges and cross currency swaps ( except for the amount reclassified to
+      foreign currency transaction gains and losses to offset the remeasurement of
+      the foreign currency-denominated debt being hedged by the cross currency swaps
+      ) , as depreciation is recognized for interest rate hedges during construction
+      , as foreign currency transaction gains and losses are recognized for hedges
+      of foreign currency exposure , and as electricity sales and fuel purchases are
+      recognized for hedges of forecasted electricity and fuel transactions .
+
+
+      these balances are included in the consolidated statements of cash flows as
+      operating and/or investing activities based on the nature of the underlying
+      transaction .
+
+
+      for the years ended december 31 , 2011 , 2010 and 2009 , pre-tax gains ( losses
+      ) of $ 0 million , $ ( 1 ) million , and $ 0 million net of noncontrolling interests
+      , respectively , were reclassified into earnings as a result of the discontinuance
+      of a cash flow hedge because it was probable that the forecasted transaction
+      would not occur by the end of the originally specified time period ( as documented
+      at the inception of the hedging relationship ) or within an additional two-month
+      time period thereafter. .'
+    id: aes-2011-table-6
 - id: aes-10k-2012
   form: 10-K
   filed: '2013-02-27'

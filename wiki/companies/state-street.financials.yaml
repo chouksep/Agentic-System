@@ -415,6 +415,3408 @@ metrics:
       xbrl_concept: us-gaap:Liabilities
       description: Total liabilities
 filings:
+- id: stt-10k-2009
+  form: 10-K
+  filed: '2010-02-22'
+  period_covered: 2009-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/93751/000119312510036481/d10k.htm
+  tables:
+  - pre_text: 'note 10 .
+
+
+      commitments and contingencies credit-related commitments and contingencies :
+      credit-related financial instruments , which are off-balance sheet , include
+      indemnified securities financing , unfunded commitments to extend credit or
+      purchase assets , and standby letters of credit .
+
+
+      the potential loss associated with indemnified securities financing , unfunded
+      commitments and standby letters of credit is equal to the total gross contractual
+      amount , which does not consider the value of any collateral .
+
+
+      the following table summarizes the total gross contractual amounts of credit-related
+      off-balance sheet financial instruments at december 31 .
+
+
+      amounts reported do not reflect participations to independent third parties.
+      .'
+    header:
+    - ( in millions )
+    - '2009'
+    - '2008'
+    rows:
+    - - indemnified securities financing
+      - $ 365251
+      - $ 324590
+    - - asset purchase agreements ( 1 )
+      - '8211'
+      - '31780'
+    - - unfunded commitments to extend credit
+      - '18078'
+      - '20981'
+    - - standby letters of credit
+      - '4784'
+      - '6061'
+    post_text: '( 1 ) amount for 2009 excludes agreements related to the commercial
+      paper conduits , which were consolidated in may 2009 ; see note 11 .
+
+
+      approximately 81% ( 81 % ) of the unfunded commitments to extend credit expire
+      within one year from the date of issue .
+
+
+      since many of these commitments are expected to expire or renew without being
+      drawn upon , the total commitment amount does not necessarily represent future
+      cash requirements .
+
+
+      securities finance : on behalf of our customers , we lend their securities to
+      creditworthy brokers and other institutions .
+
+
+      we generally indemnify our customers for the fair market value of those securities
+      against a failure of the borrower to return such securities .
+
+
+      collateral funds received in connection with our securities finance services
+      are held by us as agent and are not recorded in our consolidated statement of
+      condition .
+
+
+      we require the borrowers to provide collateral in an amount equal to or in excess
+      of 100% ( 100 % ) of the fair market value of the securities borrowed .
+
+
+      the borrowed securities are revalued daily to determine if additional collateral
+      is necessary .
+
+
+      in this regard , we held , as agent , cash and u.s .
+
+
+      government securities with an aggregate fair value of $ 375.92 billion and $
+      333.07 billion as collateral for indemnified securities on loan at december
+      31 , 2009 and 2008 , respectively , presented in the table above .
+
+
+      the collateral held by us is invested on behalf of our customers in accordance
+      with their guidelines .
+
+
+      in certain cases , the collateral is invested in third-party repurchase agreements
+      , for which we indemnify the customer against loss of the principal invested
+      .
+
+
+      we require the repurchase agreement counterparty to provide collateral in an
+      amount equal to or in excess of 100% ( 100 % ) of the amount of the repurchase
+      agreement .
+
+
+      the indemnified repurchase agreements and the related collateral are not recorded
+      in our consolidated statement of condition .
+
+
+      of the collateral of $ 375.92 billion at december 31 , 2009 and $ 333.07 billion
+      at december 31 , 2008 referenced above , $ 77.73 billion at december 31 , 2009
+      and $ 68.37 billion at december 31 , 2008 was invested in indemnified repurchase
+      agreements .
+
+
+      we held , as agent , cash and securities with an aggregate fair value of $ 82.62
+      billion and $ 71.87 billion as collateral for indemnified investments in repurchase
+      agreements at december 31 , 2009 and december 31 , 2008 , respectively .
+
+
+      legal proceedings : in the ordinary course of business , we and our subsidiaries
+      are involved in disputes , litigation and regulatory inquiries and investigations
+      , both pending and threatened .
+
+
+      these matters , if resolved adversely against us , may result in monetary damages
+      , fines and penalties or require changes in our business practices .
+
+
+      the resolution of these proceedings is inherently difficult to predict .
+
+
+      however , we do not believe that the amount of any judgment , settlement or
+      other action arising from any pending proceeding will have a material adverse
+      effect on our consolidated financial condition , although the outcome of certain
+      of the matters described below may have a material adverse effect on our consolidated
+      results of operations for the period in which such matter is resolved .'
+    id: stt-2009-table-0
+  - pre_text: 'in connection with our assessment of impairment we recorded gross other-than-temporary
+      impairment of $ 1.15 billion for 2009 , compared to $ 122 million for 2008 .
+
+
+      of the total recorded , $ 227 million related to credit and was recognized in
+      our consolidated statement of income .
+
+
+      the remaining $ 928 million related to factors other than credit , more fully
+      discussed below , and was recognized , net of related taxes , in oci in our
+      consolidated statement of condition .
+
+
+      the $ 227 million was composed of $ 151 million associated with expected credit
+      losses , $ 54 million related to management 2019s decision to sell the impaired
+      securities prior to their recovery in value , and $ 22 million related to adverse
+      changes in the timing of expected future cash flows from the securities .
+
+
+      the majority of the impairment losses related to non-agency securities collateralized
+      by mortgages , for which management concluded had experienced credit losses
+      based on the present value of the securities 2019 expected future cash flows
+      .
+
+
+      these securities are classified as asset-backed securities in the foregoing
+      investment securities tables .
+
+
+      as described in note 1 , management periodically reviews the fair values of
+      investment securities to determine if other-than-temporary impairment has occurred
+      .
+
+
+      this review encompasses all investment securities and includes such quantitative
+      factors as current and expected future interest rates and the length of time
+      that a security 2019s cost basis has exceeded its fair value , and includes
+      investment securities for which we have issuer- specific concerns regardless
+      of quantitative factors .
+
+
+      gains and losses related to investment securities were as follows for the years
+      ended december 31: .'
+    header:
+    - ( in millions )
+    - '2009'
+    - '2008'
+    - '2007'
+    rows:
+    - - gross gains from sales of available-for-sale securities
+      - $ 418
+      - $ 100
+      - $ 24
+    - - gross losses from sales of available-for-sale securities
+      - -50 ( 50 )
+      - -32 ( 32 )
+      - -17 ( 17 )
+    - - gross losses from other-than-temporary impairment
+      - -1155 ( 1155 )
+      - -122 ( 122 )
+      - -34 ( 34 )
+    - - losses not related to credit ( 1 )
+      - '928'
+      - '2014'
+      - '2014'
+    - - net impairment losses
+      - -227 ( 227 )
+      - -122 ( 122 )
+      - -34 ( 34 )
+    - - gains ( losses ) related to investment securities net
+      - $ 141
+      - $ -54 ( 54 )
+      - $ -27 ( 27 )
+    post_text: '( 1 ) these losses were recognized as a component of oci ; see note
+      12 .
+
+
+      we conduct periodic reviews to evaluate each security that is impaired .
+
+
+      impairment exists when the current fair value of an individual security is below
+      its amortized cost basis .
+
+
+      for debt securities available for sale and held to maturity , other-than-temporary
+      impairment is recorded in our consolidated statement of income when management
+      intends to sell ( or may be required to sell ) securities before they recover
+      in value , or when management expects the present value of cash flows expected
+      to be collected to be less than the amortized cost of the impaired security
+      ( a credit loss ) .
+
+
+      our review of impaired securities generally includes : 2022 the identification
+      and evaluation of securities that have indications of possible other-than-temporary
+      impairment , such as issuer-specific concerns including deteriorating financial
+      condition or bankruptcy ; 2022 the analysis of expected future cash flows of
+      securities , based on quantitative and qualitative factors ; 2022 the analysis
+      of the collectability of those future cash flows , including information about
+      past events , current conditions and reasonable and supportable forecasts ;
+      2022 the analysis of individual impaired securities , including consideration
+      of the length of time the security has been in an unrealized loss position and
+      the anticipated recovery period ; 2022 the discussion of evidential matter ,
+      including an evaluation of factors or triggers that could cause individual securities
+      to be deemed other-than-temporarily impaired and those that would not support
+      other-than-temporary impairment ; and 2022 documentation of the results of these
+      analyses .
+
+
+      factors considered in determining whether impairment is other than temporary
+      include : 2022 the length of time the security has been impaired; .'
+    id: stt-2009-table-1
+  - pre_text: 'we currently maintain a corporate commercial paper program , unrelated
+      to the conduits 2019 asset-backed commercial paper program , under which we
+      can issue up to $ 3 billion with original maturities of up to 270 days from
+      the date of issue .
+
+
+      at december 31 , 2009 , we had $ 2.78 billion of commercial paper outstanding
+      , compared to $ 2.59 billion at december 31 , 2008 .
+
+
+      additional information about our corporate commercial paper program is provided
+      in note 8 of the notes to consolidated financial statements included under item
+      8 .
+
+
+      in connection with our participation in the fdic 2019s temporary liquidity guarantee
+      program , or tlgp , in which we elected to participate in december 2008 , the
+      parent company was eligible to issue up to approximately $ 1.67 billion of unsecured
+      senior debt during 2009 , backed by the full faith and credit of the united
+      states .
+
+
+      as of december 31 , 2009 , the parent company 2019s outstanding unsecured senior
+      debt issued under the tlgp was $ 1.5 billion .
+
+
+      additional information with respect to this outstanding debt is provided in
+      note 9 of the notes to consolidated financial statements included under item
+      8 .
+
+
+      the guarantee of this outstanding debt under the tlgp expires on april 30 ,
+      2012 , the maturity date of the debt .
+
+
+      state street bank currently has board authority to issue bank notes up to an
+      aggregate of $ 5 billion , and up to $ 1 billion of subordinated bank notes
+      .
+
+
+      in connection with state street bank 2019s participation in the tlgp , in which
+      state street bank elected to participate in december 2008 , state street bank
+      was eligible to issue up to approximately $ 2.48 billion of unsecured senior
+      notes during 2009 , backed by the full faith and credit of the united states
+      .
+
+
+      as of december 31 , 2009 , state street bank 2019s outstanding unsecured senior
+      notes issued under the tlgp , and pursuant to the aforementioned board authority
+      , totaled $ 2.45 billion .
+
+
+      additional information with respect to these outstanding bank notes is provided
+      in note 9 of the notes to consolidated financial statements included under item
+      8 .
+
+
+      the guarantee of state street bank 2019s outstanding debt under the tlgp expires
+      on the maturity date of each respective debt issuance , as follows 2014$ 1 billion
+      on march 15 , 2011 , and $ 1.45 billion on september 15 , 2011 .
+
+
+      state street bank currently maintains a line of credit with a financial institution
+      of cad $ 800 million , or approximately $ 761 million as of december 31 , 2009
+      , to support its canadian securities processing operations .
+
+
+      the line of credit has no stated termination date and is cancelable by either
+      party with prior notice .
+
+
+      as of december 31 , 2009 , no balance was outstanding on this line of credit
+      .
+
+
+      contractual cash obligations .'
+    header:
+    - as of december 31 2009 ( in millions )
+    - payments due by period total
+    - payments due by period less than 1 year
+    - payments due by period 1-3 years
+    - payments due by period 4-5 years
+    - payments due by period over 5 years
+    rows:
+    - - long-term debt ( 1 )
+      - $ 10981
+      - $ 529
+      - $ 4561
+      - $ 797
+      - $ 5094
+    - - operating leases
+      - '1033'
+      - '229'
+      - '342'
+      - '240'
+      - '222'
+    - - capital lease obligations
+      - '1151'
+      - '74'
+      - '147'
+      - '145'
+      - '785'
+    - - total contractual cash obligations
+      - $ 13165
+      - $ 832
+      - $ 5050
+      - $ 1182
+      - $ 6101
+    post_text: '( 1 ) long-term debt excludes capital lease obligations ( reported
+      as a separate line item ) and the effect of interest- rate swaps .
+
+
+      interest payments were calculated at the stated rate with the exception of floating-rate
+      debt , for which payments were calculated using the indexed rate in effect on
+      december 31 , 2009 .
+
+
+      the obligations presented in the table above are recorded in our consolidated
+      statement of condition at december 31 , 2009 , except for interest on long-term
+      debt .
+
+
+      the table does not include obligations which will be settled in cash , primarily
+      in less than one year , such as deposits , federal funds purchased , securities
+      sold under repurchase agreements and other short-term borrowings .
+
+
+      additional information about deposits , federal funds purchased , securities
+      sold under repurchase agreements and other short-term borrowings is provided
+      in notes 7 and 8 of the notes to consolidated financial statements included
+      under item 8 .
+
+
+      the table does not include obligations related to derivative instruments , because
+      the amounts included in our consolidated statement of condition at december
+      31 , 2009 related to derivatives do not represent the amounts that may ultimately
+      be paid under the contracts upon settlement .
+
+
+      additional information about derivative contracts is provided in note 16 of
+      the notes to consolidated financial statements included under item 8 .
+
+
+      we have obligations under pension and other post-retirement benefit plans ,
+      more fully described in note 18 of the notes to consolidated financial statements
+      included under item 8 , which are not included in the above table. .'
+    id: stt-2009-table-2
+- id: stt-10k-2011
+  form: 10-K
+  filed: '2012-02-27'
+  period_covered: 2011-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/93751/000119312512079737/d262731d10k.htm
+  tables:
+  - pre_text: 'we maintain an effective universal shelf registration that allows for
+      the public offering and sale of debt securities , capital securities , common
+      stock , depositary shares and preferred stock , and warrants to purchase such
+      securities , including any shares into which the preferred stock and depositary
+      shares may be convertible , or any combination thereof .
+
+
+      we have , as discussed previously , issued in the past , and we may issue in
+      the future , securities pursuant to the shelf registration .
+
+
+      the issuance of debt or equity securities will depend on future market conditions
+      , funding needs and other factors .
+
+
+      additional information about debt and equity securities issued pursuant to this
+      shelf registration is provided in notes 9 and 12 to the consolidated financial
+      statements included under item 8 .
+
+
+      we currently maintain a corporate commercial paper program , under which we
+      can issue up to $ 3 billion with original maturities of up to 270 days from
+      the date of issue .
+
+
+      at december 31 , 2011 , we had $ 2.38 billion of commercial paper outstanding
+      , compared to $ 2.80 billion at december 31 , 2010 .
+
+
+      additional information about our corporate commercial paper program is provided
+      in note 8 to the consolidated financial statements included under item 8 .
+
+
+      state street bank had initial board authority to issue bank notes up to an aggregate
+      of $ 5 billion , including up to $ 1 billion of subordinated bank notes .
+
+
+      approximately $ 2.05 billion was available under this board authority as of
+      december 31 , 2011 .
+
+
+      in 2011 , $ 2.45 billion of senior notes , which were outstanding at december
+      31 , 2010 , matured .
+
+
+      state street bank currently maintains a line of credit with a financial institution
+      of cad $ 800 million , or approximately $ 787 million as of december 31 , 2011
+      , to support its canadian securities processing operations .
+
+
+      the line of credit has no stated termination date and is cancelable by either
+      party with prior notice .
+
+
+      as of december 31 , 2011 , no balance was outstanding on this line of credit
+      .
+
+
+      contractual cash obligations .'
+    header:
+    - as of december 31 2011 ( in millions )
+    - payments due by period total
+    - payments due by period less than 1 year
+    - payments due by period 1-3 years
+    - payments due by period 4-5 years
+    - payments due by period over 5 years
+    rows:
+    - - long-term debt ( 1 )
+      - $ 9276
+      - $ 1973
+      - $ 1169
+      - $ 1944
+      - $ 4190
+    - - operating leases
+      - '1129'
+      - '237'
+      - '389'
+      - '228'
+      - '275'
+    - - capital lease obligations
+      - '989'
+      - '68'
+      - '136'
+      - '138'
+      - '647'
+    - - total contractual cash obligations
+      - $ 11394
+      - $ 2278
+      - $ 1694
+      - $ 2310
+      - $ 5112
+    post_text: '( 1 ) long-term debt excludes capital lease obligations ( presented
+      as a separate line item ) and the effect of interest-rate swaps .
+
+
+      interest payments were calculated at the stated rate with the exception of floating-rate
+      debt , for which payments were calculated using the indexed rate in effect as
+      of december 31 , 2011 .
+
+
+      the obligations presented in the table above are recorded in our consolidated
+      statement of condition at december 31 , 2011 , except for interest on long-term
+      debt and capital lease obligations .
+
+
+      the table does not include obligations which will be settled in cash , primarily
+      in less than one year , such as deposits , federal funds purchased , securities
+      sold under repurchase agreements and other short-term borrowings .
+
+
+      additional information about deposits , federal funds purchased , securities
+      sold under repurchase agreements and other short-term borrowings is provided
+      in notes 7 and 8 to the consolidated financial statements included under item
+      8 .
+
+
+      the table does not include obligations related to derivative instruments , because
+      the amounts included in our consolidated statement of condition at december
+      31 , 2011 related to derivatives do not represent the amounts that may ultimately
+      be paid under the contracts upon settlement .
+
+
+      additional information about derivative contracts is provided in note 16 to
+      the consolidated financial statements included under item 8 .
+
+
+      we have obligations under pension and other post-retirement benefit plans ,
+      more fully described in note 18 to the consolidated financial statements included
+      under item 8 , which are not included in the above table .
+
+
+      additional information about contractual cash obligations related to long-term
+      debt and operating and capital leases is provided in notes 9 and 19 to the consolidated
+      financial statements included under item 8 .
+
+
+      the consolidated statement of cash flows , also included under item 8 , provides
+      additional liquidity information. .'
+    id: stt-2011-table-0
+  - pre_text: 'in march 2011 , we announced a new program under which the purchase
+      by us of up to $ 675 million of our common stock in 2011 was authorized by our
+      board of directors .
+
+
+      during 2011 , we purchased approximately 16.3 million shares of our common stock
+      under this program , and as of december 31 , 2011 , no purchase authority remained
+      under the program .
+
+
+      the following table presents purchases of our common stock and related information
+      for the three months ended december 31 , 2011 .
+
+
+      ( dollars in millions , except per share amounts , shares in thousands ) period
+      total number of shares purchased under publicly announced program average price
+      paid per share approximate dollar value of shares purchased under publicly announced
+      program approximate dollar value of shares yet to be purchased under publicly
+      announced program .'
+    header:
+    - ( dollars in millions except per share amounts shares in thousands ) period
+    - total number of shares purchased under publicly announced program
+    - average price paid per share
+    - approximate dollar value of shares purchased underpublicly announced program
+    - approximate dollar value of shares yet to be purchased under publicly announced
+      program
+    rows:
+    - - october 1 - october 31 2011
+      - '1528'
+      - $ 40.15
+      - $ 61
+      - $ 164
+    - - november 1 - november 30 2011
+      - '4086'
+      - '40.05'
+      - '164'
+      - '2014'
+    - - december 1 - december 31 2011
+      - '2014'
+      - '2014'
+      - '2014'
+      - '2014'
+    - - total
+      - '5614'
+      - $ 40.08
+      - $ 225
+      - '2014'
+    post_text: 'additional information about our common stock , including board of
+      directors authorization with respect to purchases by us of our common stock
+      , is provided under 201ccapital-regulatory capital 201d in management 2019s
+      discussion and analysis , included under item 7 , and in note 12 to the consolidated
+      financial statements included under item 8 , and is incorporated herein by reference
+      .
+
+
+      related stockholdermatters as a bank holding company , the parent company is
+      a legal entity separate and distinct from its principal banking subsidiary ,
+      state street bank , and its non-banking subsidiaries .
+
+
+      the right of the parent company to participate as a shareholder in any distribution
+      of assets of state street bank upon its liquidation , reorganization or otherwise
+      is subject to the prior claims by creditors of state street bank , including
+      obligations for federal funds purchased and securities sold under repurchase
+      agreements and deposit liabilities .
+
+
+      payment of common stock dividends by state street bank is subject to the provisions
+      of massachusetts banking law , which provide that dividends may be paid out
+      of net profits provided ( i ) capital stock and surplus remain unimpaired ,
+      ( ii ) dividend and retirement fund requirements of any preferred stock have
+      been met , ( iii ) surplus equals or exceeds capital stock , and ( iv ) losses
+      and bad debts , as defined , in excess of reserves specifically established
+      for such losses and bad debts , have been deducted from net profits .
+
+
+      under the federal reserve act and massachusetts state law , regulatory approval
+      of the federal reserve and the massachusetts division of banks would be required
+      if dividends declared by state street bank in any year exceeded the total of
+      its net profits for that year combined with its retained net profits for the
+      preceding two years , less any required transfers to surplus .
+
+
+      in 2011 , the parent company declared aggregate common stock dividends of $
+      0.72 per share , or approximately $ 358 million .
+
+
+      in 2010 , the parent company declared aggregate common stock dividends of $
+      0.04 per share , or $ 20 million .
+
+
+      the 2011 common stock dividends represented the first increase in our common
+      stock dividend since we announced a reduction of such dividends in the first
+      quarter of 2009 .
+
+
+      the prior approval of the federal reserve is required for us to pay future common
+      stock dividends .
+
+
+      information about dividends from the parent company and from our subsidiary
+      banks is provided under 201ccapital 2014regulatory capital 201d in management
+      2019s discussion and analysis , included under item 7 , and in note 15 to the
+      consolidated financial statements included under item 8 , and is incorporated
+      herein by reference .
+
+
+      future dividend payments of state street bank and other non-banking subsidiaries
+      cannot be determined at this time .
+
+
+      as of december 31 , 2011 , the parent company had $ 500 million outstanding
+      in aggregate liquidation preference of its series a preferred stock .
+
+
+      holders of shares of the preferred stock are entitled to receive non- cumulative
+      cash dividends , only when , as and if declared by the parent company 2019s
+      board of directors .
+
+
+      any dividends on the preferred stock are calculated at a rate per annum equal
+      to the three-month libor for the relevant three-month period plus 4.99% ( 4.99
+      % ) , with such dividend rate applied to the outstanding liquidation preference
+      .'
+    id: stt-2011-table-1
+  - pre_text: 'average securities purchased under resale agreements increased to $
+      4.69 billion for the year ended december 31 , 2011 from $ 2.96 billion for the
+      year ended december 31 , 2010 .
+
+
+      average trading account assets increased to $ 2.01 billion for the year ended
+      december 31 , 2011 from $ 376 million for 2010 .
+
+
+      averages benefited largely from an increase in client demand associated with
+      our trading activities .
+
+
+      in connection with these activities , we traded in highly liquid fixed-income
+      securities as principal with our custody clients and other third- parties that
+      trade in these securities .
+
+
+      our average investment securities portfolio increased to $ 103.08 billion for
+      the year ended december 31 , 2011 from $ 96.12 billion for 2010 .
+
+
+      the increase was generally the result of ongoing purchases of securities , partly
+      offset by maturities and sales .
+
+
+      in december 2010 , we repositioned our portfolio by selling approximately $
+      11 billion of mortgage- and asset-backed securities and re-investing approximately
+      $ 7 billion of the proceeds , primarily in agency mortgage-backed securities
+      .
+
+
+      the repositioning was undertaken to enhance our regulatory capital ratios under
+      evolving regulatory capital standards , increase our balance sheet flexibility
+      in deploying our capital , and reduce our exposure to certain asset classes
+      .
+
+
+      during 2011 , we purchased $ 54 billion of highly rated u.s .
+
+
+      treasury securities , federal agency mortgage-backed securities and u.s .
+
+
+      and non-u.s .
+
+
+      asset-backed securities .
+
+
+      as of december 31 , 2011 , securities rated 201caaa 201d and 201caa 201d comprised
+      approximately 89% ( 89 % ) of our portfolio , compared to 90% ( 90 % ) rated
+      201caaa 201d and 201caa 201d as of december 31 , 2010 .
+
+
+      loans and leases averaged $ 12.18 billion for the year ended december 31 , 2011
+      , compared to $ 12.09 billion for 2010 .
+
+
+      the increases primarily resulted from higher client demand for short-duration
+      liquidity , offset in part by a decrease in leases and the purchased receivables
+      added in connection with the conduit consolidation , mainly from maturities
+      and pay-downs .
+
+
+      for 2011 and 2010 , approximately 29% ( 29 % ) and 27% ( 27 % ) , respectively
+      , of our average loan and lease portfolio was composed of short-duration advances
+      that provided liquidity to clients in support of their investment activities
+      related to securities settlement .
+
+
+      the following table presents average u.s .
+
+
+      and non-u.s .
+
+
+      short-duration advances for the years indicated: .'
+    header:
+    - ( in millions )
+    - years ended december 31 , 2011
+    - years ended december 31 , 2010
+    - years ended december 31 , 2009
+    rows:
+    - - average u.s . short-duration advances
+      - $ 1994
+      - $ 1924
+      - $ 2213
+    - - average non-u.s . short-duration advances
+      - '1585'
+      - '1366'
+      - '761'
+    - - total average short-duration advances
+      - $ 3579
+      - $ 3290
+      - $ 2974
+    post_text: 'for the year ended december 31 , 2011 , the increase in average non-u.s
+      .
+
+
+      short-duration advances compared to the prior-year period was mainly due to
+      activity associated with clients added in connection with the acquired intesa
+      securities services business .
+
+
+      average other interest-earning assets increased to $ 5.46 billion for the year
+      ended december 31 , 2011 from $ 1.16 billion for 2010 .
+
+
+      the increase was primarily the result of higher levels of cash collateral provided
+      in connection with our role as principal in certain securities borrowing activities
+      .
+
+
+      average interest-bearing deposits increased to $ 88.06 billion for the year
+      ended december 31 , 2011 from $ 76.96 billion for 2010 .
+
+
+      the increase reflected client deposits added in connection with the may 2010
+      acquisition of the intesa securities services business , and higher levels of
+      non-u.s .
+
+
+      transaction accounts associated with new and existing business in assets under
+      custody and administration .
+
+
+      average other short-term borrowings declined to $ 5.13 billion for the year
+      ended december 31 , 2011 from $ 13.59 billion for 2010 , as the higher levels
+      of client deposits provided additional liquidity .
+
+
+      average long-term debt increased to $ 8.97 billion for the year ended december
+      31 , 2011 from $ 8.68 billion for the same period in 2010 .
+
+
+      the increase primarily reflected the issuance of an aggregate of $ 2 billion
+      of senior notes by us in march 2011 , partly offset by the maturities of $ 1
+      billion of senior notes in february 2011 and $ 1.45 billion of senior notes
+      in september 2011 , both previously issued by state street bank under the fdic
+      2019s temporary liquidity guarantee program .
+
+
+      additional information about our long-term debt is provided in note 9 to the
+      consolidated financial statements included under item 8. .'
+    id: stt-2011-table-2
+  - pre_text: 'we define past-due loans as loans on which contractual principal or
+      interest payments are over 90 days delinquent , but for which interest continues
+      to be accrued .
+
+
+      no institutional loans were 90 days or more contractually past due as of december
+      31 , 2011 , 2010 , 2009 , 2008 or 2007 .
+
+
+      although a portion of the cre loans was 90 days or more contractually past due
+      as of december 31 , 2011 , 2010 , 2009 and 2008 , we do not report them as past-due
+      loans , because in accordance with gaap , the interest earned on these loans
+      is based on an accretable yield resulting from management 2019s expectations
+      with respect to the future cash flows for each loan relative to both the timing
+      and collection of principal and interest as of the reporting date , not the
+      loans 2019 contractual payment terms .
+
+
+      these cash flow estimates are updated quarterly to reflect changes in management
+      2019s expectations , which consider market conditions .
+
+
+      we generally place loans on non-accrual status once principal or interest payments
+      are 60 days past due , or earlier if management determines that full collection
+      is not probable .
+
+
+      loans 60 days past due , but considered both well-secured and in the process
+      of collection , may be excluded from non-accrual status .
+
+
+      for loans placed on non-accrual status , revenue recognition is suspended .
+
+
+      as of december 31 , 2011 and 2010 , approximately $ 5 million and $ 158 million
+      , respectively , of the aforementioned cre loans had been placed by management
+      on non-accrual status , as the yield associated with these loans , determined
+      when the loans were acquired , was deemed to be non-accretable .
+
+
+      this determination was based on management 2019s expectations of the future
+      collection of principal and interest from the loans .
+
+
+      the decline in loans on non-accrual status at december 31 , 2011 compared to
+      december 31 , 2010 resulted mainly from the transfer of certain cre loans to
+      other real estate owned in 2011 in connection with foreclosure or similar transactions
+      .
+
+
+      these transactions had no impact on our 2011 consolidated statement of income
+      .
+
+
+      the following table presents contractual maturities for loan and lease balances
+      as of december 31 , 2011 : ( in millions ) total under 1 year 1 to 5 years over
+      5 years institutional : investment funds : u.s .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      $ 5592 $ 5261 $ 331 non-u.s .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      796 796 2014 commercial and financial : u.s .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      563 533 30 non-u.s .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      453 440 13 purchased receivables : u.s .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      563 2014 49 $ 514 non-u.s .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      372 2014 372 2014 lease financing : u.s .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      397 9 39 349 non-u.s .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      857 100 217 540 total institutional .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      9593 7139 1051 1403 commercial real estate : u.s .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      460 41 21 398 total loans and leases .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      $ 10053 $ 7180 $ 1072 $ 1801 the following table presents the classification
+      of loan and lease balances due after one year according to sensitivity to changes
+      in interest rates as of december 31 , 2011 : ( in millions ) .'
+    header:
+    - loans and leases with predetermined interest rates
+    - $ 1145
+    rows:
+    - - loans and leases with floating or adjustable interest rates
+      - '1728'
+    - - total
+      - $ 2873
+    post_text: .
+    id: stt-2011-table-3
+- id: stt-10k-2012
+  form: 10-K
+  filed: '2013-02-22'
+  period_covered: 2012-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/93751/000009375113000040/stt-20121231_10k.htm
+  tables:
+  - pre_text: 'shareholder return performance presentation the graph presented below
+      compares the cumulative total shareholder return on state street''s common stock
+      to the cumulative total return of the s&p 500 index and the s&p financial index
+      over a five-year period .
+
+
+      the cumulative total shareholder return assumes the investment of $ 100 in state
+      street common stock and in each index on december 31 , 2007 at the closing price
+      on the last trading day of 2007 , and also assumes reinvestment of common stock
+      dividends .
+
+
+      the s&p financial index is a publicly available measure of 80 of the standard
+      & poor''s 500 companies , representing 26 diversified financial services companies
+      , 22 insurance companies , 17 real estate companies and 15 banking companies
+      .
+
+
+      comparison of five-year cumulative total shareholder return .'
+    header:
+    - ''
+    - '2007'
+    - '2008'
+    - '2009'
+    - '2010'
+    - '2011'
+    - '2012'
+    rows:
+    - - state street corporation
+      - $ 100
+      - $ 49
+      - $ 55
+      - $ 58
+      - $ 52
+      - $ 61
+    - - s&p 500 index
+      - '100'
+      - '63'
+      - '80'
+      - '92'
+      - '94'
+      - '109'
+    - - s&p financial index
+      - '100'
+      - '45'
+      - '52'
+      - '59'
+      - '49'
+      - '63'
+    post_text: .
+    id: stt-2012-table-0
+- id: stt-10k-2013
+  form: 10-K
+  filed: '2014-02-21'
+  period_covered: 2013-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/93751/000009375114000040/stt-20131231_10k.htm
+  tables:
+  - pre_text: 'management 2019s discussion and analysis of financial condition and
+      results of operations ( continued ) the following table presents average u.s
+      .
+
+
+      and non-u.s .
+
+
+      short-duration advances for the years ended december 31 : years ended december
+      31 .'
+    header:
+    - ( in millions )
+    - '2013'
+    - '2012'
+    - '2011'
+    rows:
+    - - average u.s . short-duration advances
+      - $ 2356
+      - $ 1972
+      - $ 1994
+    - - average non-u.s . short-duration advances
+      - '1393'
+      - '1393'
+      - '1585'
+    - - average total short-duration advances
+      - $ 3749
+      - $ 3365
+      - $ 3579
+    post_text: 'although average short-duration advances for the year ended december
+      31 , 2013 increased compared to the year ended december 31 , 2012 , such average
+      advances remained low relative to historical levels , mainly the result of clients
+      continuing to hold higher levels of liquidity .
+
+
+      average other interest-earning assets increased to $ 11.16 billion for the year
+      ended december 31 , 2013 from $ 7.38 billion for the year ended december 31
+      , 2012 .
+
+
+      the increased levels were primarily the result of higher levels of cash collateral
+      provided in connection with our participation in principal securities finance
+      transactions .
+
+
+      aggregate average interest-bearing deposits increased to $ 109.25 billion for
+      the year ended december 31 , 2013 from $ 98.39 billion for the year ended december
+      31 , 2012 .
+
+
+      this increase was mainly due to higher levels of non-u.s .
+
+
+      transaction accounts associated with the growth of new and existing business
+      in assets under custody and administration .
+
+
+      future transaction account levels will be influenced by the underlying asset
+      servicing business , as well as market conditions , including the general levels
+      of u.s .
+
+
+      and non-u.s .
+
+
+      interest rates .
+
+
+      average other short-term borrowings declined to $ 3.79 billion for the year
+      ended december 31 , 2013 from $ 4.68 billion for the year ended december 31
+      , 2012 , as higher levels of client deposits provided additional liquidity .
+
+
+      average long-term debt increased to $ 8.42 billion for the year ended december
+      31 , 2013 from $ 7.01 billion for the year ended december 31 , 2012 .
+
+
+      the increase primarily reflected the issuance of $ 1.0 billion of extendible
+      notes by state street bank in december 2012 , the issuance of $ 1.5 billion
+      of senior and subordinated debt in may 2013 , and the issuance of $ 1.0 billion
+      of senior debt in november 2013 .
+
+
+      this increase was partly offset by maturities of $ 1.75 billion of senior debt
+      in the second quarter of 2012 .
+
+
+      average other interest-bearing liabilities increased to $ 6.46 billion for the
+      year ended december 31 , 2013 from $ 5.90 billion for the year ended december
+      31 , 2012 , primarily the result of higher levels of cash collateral received
+      from clients in connection with our participation in principal securities finance
+      transactions .
+
+
+      several factors could affect future levels of our net interest revenue and margin
+      , including the mix of client liabilities ; actions of various central banks
+      ; changes in u.s .
+
+
+      and non-u.s .
+
+
+      interest rates ; changes in the various yield curves around the world ; revised
+      or proposed regulatory capital or liquidity standards , or interpretations of
+      those standards ; the amount of discount accretion generated by the former conduit
+      securities that remain in our investment securities portfolio ; and the yields
+      earned on securities purchased compared to the yields earned on securities sold
+      or matured .
+
+
+      based on market conditions and other factors , we continue to reinvest the majority
+      of the proceeds from pay- downs and maturities of investment securities in highly-rated
+      securities , such as u.s .
+
+
+      treasury and agency securities , federal agency mortgage-backed securities and
+      u.s .
+
+
+      and non-u.s .
+
+
+      mortgage- and asset-backed securities .
+
+
+      the pace at which we continue to reinvest and the types of investment securities
+      purchased will depend on the impact of market conditions and other factors over
+      time .
+
+
+      we expect these factors and the levels of global interest rates to dictate what
+      effect our reinvestment program will have on future levels of our net interest
+      revenue and net interest margin. .'
+    id: stt-2013-table-0
+  - pre_text: 'state street corporation notes to consolidated financial statements
+      ( continued ) with respect to the 5.25% ( 5.25 % ) subordinated bank notes due
+      2018 , state street bank is required to make semi- annual interest payments
+      on the outstanding principal balance of the notes on april 15 and october 15
+      of each year , and the notes qualify for inclusion in tier 2 regulatory capital
+      under current federal regulatory capital guidelines .
+
+
+      with respect to the 5.30% ( 5.30 % ) subordinated notes due 2016 and the floating-rate
+      subordinated notes due 2015 , state street bank is required to make semi-annual
+      interest payments on the outstanding principal balance of the 5.30% ( 5.30 %
+      ) subordinated notes on january 15 and july 15 of each year , and quarterly
+      interest payments on the outstanding principal balance of the floating-rate
+      notes on march 8 , june 8 , september 8 and december 8 of each year .
+
+
+      each of the subordinated notes qualifies for inclusion in tier 2 regulatory
+      capital under current federal regulatory capital guidelines .
+
+
+      note 11 .
+
+
+      commitments , guarantees and contingencies commitments : we had unfunded off-balance
+      sheet commitments to extend credit totaling $ 21.30 billion and $ 17.86 billion
+      as of december 31 , 2013 and 2012 , respectively .
+
+
+      the potential losses associated with these commitments equal the gross contractual
+      amounts , and do not consider the value of any collateral .
+
+
+      approximately 75% ( 75 % ) of our unfunded commitments to extend credit expire
+      within one year from the date of issue .
+
+
+      since many of these commitments are expected to expire or renew without being
+      drawn upon , the gross contractual amounts do not necessarily represent our
+      future cash requirements .
+
+
+      guarantees : off-balance sheet guarantees are composed of indemnified securities
+      financing , stable value protection , unfunded commitments to purchase assets
+      , and standby letters of credit .
+
+
+      the potential losses associated with these guarantees equal the gross contractual
+      amounts , and do not consider the value of any collateral .
+
+
+      the following table presents the aggregate gross contractual amounts of our
+      off-balance sheet guarantees as of december 31 , 2013 and 2012 .
+
+
+      amounts presented do not reflect participations to independent third parties.
+      .'
+    header:
+    - ( in millions )
+    - '2013'
+    - '2012'
+    rows:
+    - - indemnified securities financing
+      - $ 320078
+      - $ 302341
+    - - stable value protection
+      - '24906'
+      - '33512'
+    - - asset purchase agreements
+      - '4685'
+      - '5063'
+    - - standby letters of credit
+      - '4612'
+      - '4552'
+    post_text: 'indemnified securities financing on behalf of our clients , we lend
+      their securities , as agent , to brokers and other institutions .
+
+
+      in most circumstances , we indemnify our clients for the fair market value of
+      those securities against a failure of the borrower to return such securities
+      .
+
+
+      we require the borrowers to maintain collateral in an amount equal to or in
+      excess of 100% ( 100 % ) of the fair market value of the securities borrowed
+      .
+
+
+      securities on loan and the collateral are revalued daily to determine if additional
+      collateral is necessary or if excess collateral is required to be returned to
+      the borrower .
+
+
+      collateral received in connection with our securities lending services is held
+      by us as agent and is not recorded in our consolidated statement of condition
+      .
+
+
+      the cash collateral held by us as agent is invested on behalf of our clients
+      .
+
+
+      in certain cases , the cash collateral is invested in third-party repurchase
+      agreements , for which we indemnify the client against loss of the principal
+      invested .
+
+
+      we require the counterparty to the indemnified repurchase agreement to provide
+      collateral in an amount equal to or in excess of 100% ( 100 % ) of the amount
+      of the repurchase agreement .
+
+
+      in our role as agent , the indemnified repurchase agreements and the related
+      collateral held by us are not recorded in our consolidated statement of condition.
+      .'
+    id: stt-2013-table-1
+  - pre_text: 'management 2019s discussion and analysis of financial condition and
+      results of operations ( continued ) the npr is generally consistent with the
+      basel committee 2019s lcr .
+
+
+      however , it includes certain more stringent requirements , including an accelerated
+      implementation time line and modifications to the definition of high-quality
+      liquid assets and expected outflow assumptions .
+
+
+      we continue to analyze the proposed rules and analyze their impact as well as
+      develop strategies for compliance .
+
+
+      the principles of the lcr are consistent with our liquidity management framework
+      ; however , the specific calibrations of various elements within the final lcr
+      rule , such as the eligibility of assets as hqla , operational deposit requirements
+      and net outflow requirements could have a material effect on our liquidity ,
+      funding and business activities , including the management and composition of
+      our investment securities portfolio and our ability to extend committed contingent
+      credit facilities to our clients .
+
+
+      in january 2014 , the basel committee released a revised proposal with respect
+      to the net stable funding ratio , or nsfr , which will establish a one-year
+      liquidity standard representing the proportion of long-term assets funded by
+      long-term stable funding , scheduled for global implementation in 2018 .
+
+
+      the revised nsfr has made some favorable changes regarding the treatment of
+      operationally linked deposits and a reduction in the funding required for certain
+      securities .
+
+
+      however , we continue to review the specifics of the basel committee''s release
+      and will be evaluating the u.s .
+
+
+      implementation of this standard to analyze the impact and develop strategies
+      for compliance .
+
+
+      u.s .
+
+
+      banking regulators have not yet issued a proposal to implement the nsfr .
+
+
+      contractual cash obligations and other commitments the following table presents
+      our long-term contractual cash obligations , in total and by period due as of
+      december 31 , 2013 .
+
+
+      these obligations were recorded in our consolidated statement of condition as
+      of that date , except for operating leases and the interest portions of long-term
+      debt and capital leases .
+
+
+      contractual cash obligations .'
+    header:
+    - as of december 31 2013 ( in millions )
+    - payments due by period total
+    - payments due by period less than 1year
+    - payments due by period 1-3years
+    - payments due by period 4-5years
+    - payments due by period over 5years
+    rows:
+    - - long-term debt ( 1 )
+      - $ 10630
+      - $ 1015
+      - $ 2979
+      - $ 2260
+      - $ 4376
+    - - operating leases
+      - '923'
+      - '208'
+      - '286'
+      - '209'
+      - '220'
+    - - capital lease obligations
+      - '1051'
+      - '99'
+      - '185'
+      - '169'
+      - '598'
+    - - total contractual cash obligations
+      - $ 12604
+      - $ 1322
+      - $ 3450
+      - $ 2638
+      - $ 5194
+    post_text: '( 1 ) long-term debt excludes capital lease obligations ( presented
+      as a separate line item ) and the effect of interest-rate swaps .
+
+
+      interest payments were calculated at the stated rate with the exception of floating-rate
+      debt , for which payments were calculated using the indexed rate in effect as
+      of december 31 , 2013 .
+
+
+      the table above does not include obligations which will be settled in cash ,
+      primarily in less than one year , such as client deposits , federal funds purchased
+      , securities sold under repurchase agreements and other short-term borrowings
+      .
+
+
+      additional information about deposits , federal funds purchased , securities
+      sold under repurchase agreements and other short-term borrowings is provided
+      in notes 8 and 9 to the consolidated financial statements included under item
+      8 of this form 10-k .
+
+
+      the table does not include obligations related to derivative instruments because
+      the derivative-related amounts recorded in our consolidated statement of condition
+      as of december 31 , 2013 did not represent the amounts that may ultimately be
+      paid under the contracts upon settlement .
+
+
+      additional information about our derivative instruments is provided in note
+      16 to the consolidated financial statements included under item 8 of this form
+      10-k .
+
+
+      we have obligations under pension and other post-retirement benefit plans ,
+      more fully described in note 19 to the consolidated financial statements included
+      under item 8 of this form 10-k , which are not included in the above table .
+
+
+      additional information about contractual cash obligations related to long-term
+      debt and operating and capital leases is provided in notes 10 and 20 to the
+      consolidated financial statements included under item 8 of this form 10-k .
+
+
+      our consolidated statement of cash flows , also included under item 8 of this
+      form 10-k , provides additional liquidity information .
+
+
+      the following table presents our commitments , other than the contractual cash
+      obligations presented above , in total and by duration as of december 31 , 2013
+      .
+
+
+      these commitments were not recorded in our consolidated statement of condition
+      as of that date. .'
+    id: stt-2013-table-2
+  - pre_text: 'shareholder return performance presentation the graph presented below
+      compares the cumulative total shareholder return on state street''s common stock
+      to the cumulative total return of the s&p 500 index , the s&p financial index
+      and the kbw bank index over a five- year period .
+
+
+      the cumulative total shareholder return assumes the investment of $ 100 in state
+      street common stock and in each index on december 31 , 2008 at the closing price
+      on the last trading day of 2008 , and also assumes reinvestment of common stock
+      dividends .
+
+
+      the s&p financial index is a publicly available measure of 81 of the standard
+      & poor''s 500 companies , representing 17 diversified financial services companies
+      , 22 insurance companies , 19 real estate companies and 23 banking companies
+      .
+
+
+      the kbw bank index seeks to reflect the performance of banks and thrifts that
+      are publicly traded in the u.s. , and is composed of 24 leading national money
+      center and regional banks and thrifts. .'
+    header:
+    - ''
+    - '2008'
+    - '2009'
+    - '2010'
+    - '2011'
+    - '2012'
+    - '2013'
+    rows:
+    - - state street corporation
+      - $ 100
+      - $ 111
+      - $ 118
+      - $ 105
+      - $ 125
+      - $ 198
+    - - s&p 500 index
+      - '100'
+      - '126'
+      - '146'
+      - '149'
+      - '172'
+      - '228'
+    - - s&p financial index
+      - '100'
+      - '117'
+      - '132'
+      - '109'
+      - '141'
+      - '191'
+    - - kbw bank index
+      - '100'
+      - '98'
+      - '121'
+      - '93'
+      - '122'
+      - '168'
+    post_text: .
+    id: stt-2013-table-3
+- id: stt-10k-2014
+  form: 10-K
+  filed: '2015-02-20'
+  period_covered: 2014-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/93751/000009375115000042/stt-20141231_10k.htm
+  tables:
+  - pre_text: 'management 2019s discussion and analysis of financial condition and
+      results of operations ( continued ) funding deposits : we provide products and
+      services including custody , accounting , administration , daily pricing , foreign
+      exchange services , cash management , financial asset management , securities
+      finance and investment advisory services .
+
+
+      as a provider of these products and services , we generate client deposits ,
+      which have generally provided a stable , low-cost source of funds .
+
+
+      as a global custodian , clients place deposits with state street entities in
+      various currencies .
+
+
+      we invest these client deposits in a combination of investment securities and
+      short- duration financial instruments whose mix is determined by the characteristics
+      of the deposits .
+
+
+      for the past several years , we have experienced higher client deposit inflows
+      toward the end of the quarter or the end of the year .
+
+
+      as a result , we believe average client deposit balances are more reflective
+      of ongoing funding than period-end balances .
+
+
+      table 33 : client deposits average balance december 31 , year ended december
+      31 .'
+    header:
+    - ( in millions )
+    - december 31 , 2014
+    - december 31 , 2013
+    - december 31 , 2014
+    - '2013'
+    rows:
+    - - client deposits ( 1 )
+      - $ 195276
+      - $ 182268
+      - $ 167470
+      - $ 143043
+    post_text: 'client deposits ( 1 ) $ 195276 $ 182268 $ 167470 $ 143043 ( 1 ) balance
+      as of december 31 , 2014 excluded term wholesale certificates of deposit , or
+      cds , of $ 13.76 billion ; average balances for the year ended december 31 ,
+      2014 and 2013 excluded average cds of $ 6.87 billion and $ 2.50 billion , respectively
+      .
+
+
+      short-term funding : our corporate commercial paper program , under which we
+      can issue up to $ 3.0 billion of commercial paper with original maturities of
+      up to 270 days from the date of issuance , had $ 2.48 billion and $ 1.82 billion
+      of commercial paper outstanding as of december 31 , 2014 and 2013 , respectively
+      .
+
+
+      our on-balance sheet liquid assets are also an integral component of our liquidity
+      management strategy .
+
+
+      these assets provide liquidity through maturities of the assets , but more importantly
+      , they provide us with the ability to raise funds by pledging the securities
+      as collateral for borrowings or through outright sales .
+
+
+      in addition , our access to the global capital markets gives us the ability
+      to source incremental funding at reasonable rates of interest from wholesale
+      investors .
+
+
+      as discussed earlier under 201casset liquidity , 201d state street bank''s membership
+      in the fhlb allows for advances of liquidity with varying terms against high-quality
+      collateral .
+
+
+      short-term secured funding also comes in the form of securities lent or sold
+      under agreements to repurchase .
+
+
+      these transactions are short-term in nature , generally overnight , and are
+      collateralized by high-quality investment securities .
+
+
+      these balances were $ 8.93 billion and $ 7.95 billion as of december 31 , 2014
+      and 2013 , respectively .
+
+
+      state street bank currently maintains a line of credit with a financial institution
+      of cad $ 800 million , or approximately $ 690 million as of december 31 , 2014
+      , to support its canadian securities processing operations .
+
+
+      the line of credit has no stated termination date and is cancelable by either
+      party with prior notice .
+
+
+      as of december 31 , 2014 , there was no balance outstanding on this line of
+      credit .
+
+
+      long-term funding : as of december 31 , 2014 , state street bank had board authority
+      to issue unsecured senior debt securities from time to time , provided that
+      the aggregate principal amount of such unsecured senior debt outstanding at
+      any one time does not exceed $ 5 billion .
+
+
+      as of december 31 , 2014 , $ 4.1 billion was available for issuance pursuant
+      to this authority .
+
+
+      as of december 31 , 2014 , state street bank also had board authority to issue
+      an additional $ 500 million of subordinated debt .
+
+
+      we maintain an effective universal shelf registration that allows for the public
+      offering and sale of debt securities , capital securities , common stock , depositary
+      shares and preferred stock , and warrants to purchase such securities , including
+      any shares into which the preferred stock and depositary shares may be convertible
+      , or any combination thereof .
+
+
+      we have issued in the past , and we may issue in the future , securities pursuant
+      to our shelf registration .
+
+
+      the issuance of debt or equity securities will depend on future market conditions
+      , funding needs and other factors .
+
+
+      agency credit ratings our ability to maintain consistent access to liquidity
+      is fostered by the maintenance of high investment-grade ratings as measured
+      by the major independent credit rating agencies .
+
+
+      factors essential to maintaining high credit ratings include diverse and stable
+      core earnings ; relative market position ; strong risk management ; strong capital
+      ratios ; diverse liquidity sources , including the global capital markets and
+      client deposits ; strong liquidity monitoring procedures ; and preparedness
+      for current or future regulatory developments .
+
+
+      high ratings limit borrowing costs and enhance our liquidity by providing assurance
+      for unsecured funding and depositors , increasing the potential market for our
+      debt and improving our ability to offer products , serve markets , and engage
+      in transactions in which clients value high credit ratings .
+
+
+      a downgrade or reduction of our credit ratings could have a material adverse
+      effect on our liquidity by restricting our ability to access the capital .'
+    id: stt-2014-table-0
+  - pre_text: 'management 2019s discussion and analysis of financial condition and
+      results of operations ( continued ) detail with respect to our investment portfolio
+      as of december 31 , 2014 and 2013 is provided in note 3 to the consolidated
+      financial statements included under item 8 of this form 10-k .
+
+
+      loans and leases averaged $ 15.91 billion for the year ended 2014 , up from
+      $ 13.78 billion in 2013 .
+
+
+      the increase was mainly related to mutual fund lending and our continued investment
+      in senior secured bank loans .
+
+
+      mutual fund lending and senior secured bank loans averaged approximately $ 9.12
+      billion and $ 1.40 billion , respectively , for the year ended december 31 ,
+      2014 compared to $ 8.16 billion and $ 170 million for the year ended december
+      31 , 2013 , respectively .
+
+
+      average loans and leases also include short- duration advances .
+
+
+      table 13 : u.s .
+
+
+      and non-u.s .
+
+
+      short-duration advances years ended december 31 .'
+    header:
+    - ( in millions )
+    - '2014'
+    - '2013'
+    - '2012'
+    rows:
+    - - average u.s . short-duration advances
+      - $ 2355
+      - $ 2356
+      - $ 1972
+    - - average non-u.s . short-duration advances
+      - '1512'
+      - '1393'
+      - '1393'
+    - - average total short-duration advances
+      - $ 3867
+      - $ 3749
+      - $ 3365
+    - - average short-durance advances to average loans and leases
+      - 24% ( 24 % )
+      - 27% ( 27 % )
+      - 29% ( 29 % )
+    post_text: 'average u.s .
+
+
+      short-duration advances $ 2355 $ 2356 $ 1972 average non-u.s .
+
+
+      short-duration advances 1512 1393 1393 average total short-duration advances
+      $ 3867 $ 3749 $ 3365 average short-durance advances to average loans and leases
+      24% ( 24 % ) 27% ( 27 % ) 29% ( 29 % ) the decline in proportion of the average
+      daily short-duration advances to average loans and leases is primarily due to
+      growth in the other segments of the loan and lease portfolio .
+
+
+      short-duration advances provide liquidity to clients in support of their investment
+      activities .
+
+
+      although average short-duration advances for the year ended december 31 , 2014
+      increased compared to the year ended december 31 , 2013 , such average advances
+      remained low relative to historical levels , mainly the result of clients continuing
+      to hold higher levels of liquidity .
+
+
+      average other interest-earning assets increased to $ 15.94 billion for the year
+      ended december 31 , 2014 from $ 11.16 billion for the year ended december 31
+      , 2013 .
+
+
+      the increased levels were primarily the result of higher levels of cash collateral
+      provided in connection with our enhanced custody business .
+
+
+      aggregate average interest-bearing deposits increased to $ 130.30 billion for
+      the year ended december 31 , 2014 from $ 109.25 billion for year ended 2013
+      .
+
+
+      the higher levels were primarily the result of increases in both u.s .
+
+
+      and non-u.s .
+
+
+      transaction accounts and time deposits .
+
+
+      future transaction account levels will be influenced by the underlying asset
+      servicing business , as well as market conditions , including the general levels
+      of u.s .
+
+
+      and non-u.s .
+
+
+      interest rates .
+
+
+      average other short-term borrowings increased to $ 4.18 billion for the year
+      ended december 31 , 2014 from $ 3.79 billion for the year ended 2013 .
+
+
+      the increase was the result of a higher level of client demand for our commercial
+      paper .
+
+
+      the decline in rates paid from 1.6% ( 1.6 % ) in 2013 to 0.1% ( 0.1 % ) in 2014
+      resulted from a reclassification of certain derivative contracts that hedge
+      our interest-rate risk on certain assets and liabilities , which reduced interest
+      revenue and interest expense .
+
+
+      average long-term debt increased to $ 9.31 billion for the year ended december
+      31 , 2014 from $ 8.42 billion for the year ended december 31 , 2013 .
+
+
+      the increase primarily reflected the issuance of $ 1.5 billion of senior and
+      subordinated debt in may 2013 , $ 1.0 billion of senior debt issued in november
+      2013 , and $ 1.0 billion of senior debt issued in december 2014 .
+
+
+      this is partially offset by the maturities of $ 500 million of senior debt in
+      may 2014 and $ 250 million of senior debt in march 2014 .
+
+
+      average other interest-bearing liabilities increased to $ 7.35 billion for the
+      year ended december 31 , 2014 from $ 6.46 billion for the year ended december
+      31 , 2013 , primarily the result of higher levels of cash collateral received
+      from clients in connection with our enhanced custody business .
+
+
+      several factors could affect future levels of our net interest revenue and margin
+      , including the mix of client liabilities ; actions of various central banks
+      ; changes in u.s .
+
+
+      and non-u.s .
+
+
+      interest rates ; changes in the various yield curves around the world ; revised
+      or proposed regulatory capital or liquidity standards , or interpretations of
+      those standards ; the amount of discount accretion generated by the former conduit
+      securities that remain in our investment securities portfolio ; and the yields
+      earned on securities purchased compared to the yields earned on securities sold
+      or matured .
+
+
+      based on market conditions and other factors , we continue to reinvest the majority
+      of the proceeds from pay-downs and maturities of investment securities in highly-rated
+      securities , such as u.s .
+
+
+      treasury and agency securities , municipal securities , federal agency mortgage-backed
+      securities and u.s .
+
+
+      and non-u.s .
+
+
+      mortgage- and asset-backed securities .
+
+
+      the pace at which we continue to reinvest and the types of investment securities
+      purchased will depend on the impact of market conditions and other factors over
+      time .
+
+
+      we expect these factors and the levels of global interest rates to influence
+      what effect our reinvestment program will have on future levels of our net interest
+      revenue and net interest margin. .'
+    id: stt-2014-table-1
+- id: stt-10k-2017
+  form: 10-K
+  filed: '2018-02-26'
+  period_covered: 2017-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/93751/000009375118000308/stt-20171231_10k.htm
+  tables:
+  - pre_text: 'management 2019s discussion and analysis of financial condition and
+      results of operations state street corporation | 90 table 30 : total deposits
+      average balance december 31 years ended december 31 .'
+    header:
+    - ( in millions )
+    - december 31 2017
+    - december 31 2016
+    - december 31 2017
+    - '2016'
+    rows:
+    - - client deposits
+      - $ 180149
+      - $ 176693
+      - $ 158996
+      - $ 156029
+    - - wholesale cds
+      - '4747'
+      - '10470'
+      - '4812'
+      - '14456'
+    - - total deposits
+      - $ 184896
+      - $ 187163
+      - $ 163808
+      - $ 170485
+    post_text: 'short-term funding our on-balance sheet liquid assets are also an
+      integral component of our liquidity management strategy .
+
+
+      these assets provide liquidity through maturities of the assets , but more importantly
+      , they provide us with the ability to raise funds by pledging the securities
+      as collateral for borrowings or through outright sales .
+
+
+      in addition , our access to the global capital markets gives us the ability
+      to source incremental funding at reasonable rates of interest from wholesale
+      investors .
+
+
+      as discussed earlier under 201casset liquidity , 201d state street bank''s membership
+      in the fhlb allows for advances of liquidity with varying terms against high-quality
+      collateral .
+
+
+      short-term secured funding also comes in the form of securities lent or sold
+      under agreements to repurchase .
+
+
+      these transactions are short-term in nature , generally overnight , and are
+      collateralized by high-quality investment securities .
+
+
+      these balances were $ 2.84 billion and $ 4.40 billion as of december 31 , 2017
+      and december 31 , 2016 , respectively .
+
+
+      state street bank currently maintains a line of credit with a financial institution
+      of cad 1.40 billion , or approximately $ 1.11 billion as of december 31 , 2017
+      , to support its canadian securities processing operations .
+
+
+      the line of credit has no stated termination date and is cancelable by either
+      party with prior notice .
+
+
+      as of december 31 , 2017 , there was no balance outstanding on this line of
+      credit .
+
+
+      long-term funding we have the ability to issue debt and equity securities under
+      our current universal shelf registration to meet current commitments and business
+      needs , including accommodating the transaction and cash management needs of
+      our clients .
+
+
+      in addition , state street bank , a wholly owned subsidiary of the parent company
+      , also has authorization to issue up to $ 5 billion in unsecured senior debt
+      and an additional $ 500 million of subordinated debt .
+
+
+      agency credit ratings our ability to maintain consistent access to liquidity
+      is fostered by the maintenance of high investment-grade ratings as measured
+      by the major independent credit rating agencies .
+
+
+      factors essential to maintaining high credit ratings include : 2022 diverse
+      and stable core earnings ; 2022 relative market position ; 2022 strong risk
+      management ; 2022 strong capital ratios ; 2022 diverse liquidity sources , including
+      the global capital markets and client deposits ; 2022 strong liquidity monitoring
+      procedures ; and 2022 preparedness for current or future regulatory developments
+      .
+
+
+      high ratings limit borrowing costs and enhance our liquidity by : 2022 providing
+      assurance for unsecured funding and depositors ; 2022 increasing the potential
+      market for our debt and improving our ability to offer products ; 2022 serving
+      markets ; and 2022 engaging in transactions in which clients value high credit
+      ratings .
+
+
+      a downgrade or reduction of our credit ratings could have a material adverse
+      effect on our liquidity by restricting our ability to access the capital markets
+      , which could increase the related cost of funds .
+
+
+      in turn , this could cause the sudden and large-scale withdrawal of unsecured
+      deposits by our clients , which could lead to draw-downs of unfunded commitments
+      to extend credit or trigger requirements under securities purchase commitments
+      ; or require additional collateral or force terminations of certain trading
+      derivative contracts .
+
+
+      a majority of our derivative contracts have been entered into under bilateral
+      agreements with counterparties who may require us to post collateral or terminate
+      the transactions based on changes in our credit ratings .
+
+
+      we assess the impact of these arrangements by determining the collateral that
+      would be required assuming a downgrade by all rating agencies .
+
+
+      the additional collateral or termination payments related to our net derivative
+      liabilities under these arrangements that could have been called by counterparties
+      in the event of a downgrade in our credit ratings below levels specified in
+      the agreements is disclosed in note 10 to the consolidated financial statements
+      included under item 8 , financial statements and supplementary data , of this
+      form 10-k .
+
+
+      other funding sources , such as secured financing transactions and other margin
+      requirements , for which there are no explicit triggers , could also be adversely
+      affected. .'
+    id: stt-2017-table-0
+  - pre_text: 'state street corporation | 52 shareholder return performance presentation
+      the graph presented below compares the cumulative total shareholder return on
+      state street''s common stock to the cumulative total return of the s&p 500 index
+      , the s&p financial index and the kbw bank index over a five-year period .
+
+
+      the cumulative total shareholder return assumes the investment of $ 100 in state
+      street common stock and in each index on december 31 , 2012 .
+
+
+      it also assumes reinvestment of common stock dividends .
+
+
+      the s&p financial index is a publicly available , capitalization-weighted index
+      , comprised of 67 of the standard & poor 2019s 500 companies , representing
+      27 diversified financial services companies , 23 insurance companies , and 17
+      banking companies .
+
+
+      the kbw bank index is a modified cap-weighted index consisting of 24 exchange-listed
+      stocks , representing national money center banks and leading regional institutions.
+      .'
+    header:
+    - ''
+    - '2012'
+    - '2013'
+    - '2014'
+    - '2015'
+    - '2016'
+    - '2017'
+    rows:
+    - - state street corporation
+      - $ 100
+      - $ 159
+      - $ 172
+      - $ 148
+      - $ 178
+      - $ 227
+    - - s&p 500 index
+      - '100'
+      - '132'
+      - '151'
+      - '153'
+      - '171'
+      - '208'
+    - - s&p financial index
+      - '100'
+      - '136'
+      - '156'
+      - '154'
+      - '189'
+      - '230'
+    - - kbw bank index
+      - '100'
+      - '138'
+      - '151'
+      - '151'
+      - '195'
+      - '231'
+    post_text: .
+    id: stt-2017-table-1
+  - pre_text: 'management 2019s discussion and analysis of financial condition and
+      results of operations state street corporation | 89 $ 65.35 billion and $ 87.20
+      billion as of december 31 , 2017 and december 31 , 2016 , respectively .
+
+
+      table 29 : components of average hqla by type of ( in millions ) december 31
+      , december 31 .'
+    header:
+    - ( in millions )
+    - december 31 2017
+    - december 31 2016
+    rows:
+    - - excess central bank balances
+      - $ 33584
+      - $ 48407
+    - - u.s . treasuries
+      - '10278'
+      - '17770'
+    - - other investment securities
+      - '13422'
+      - '15442'
+    - - foreign government
+      - '8064'
+      - '5585'
+    - - total
+      - $ 65348
+      - $ 87204
+    post_text: 'with respect to highly liquid short-term investments presented in
+      the preceding table , due to the continued elevated level of client deposits
+      as of december 31 , 2017 , we maintained cash balances in excess of regulatory
+      requirements governing deposits with the federal reserve of approximately $
+      33.58 billion at the federal reserve , the ecb and other non-u.s .
+
+
+      central banks , compared to $ 48.40 billion as of december 31 , 2016 .
+
+
+      the lower levels of deposits with central banks as of december 31 , 2017 compared
+      to december 31 , 2016 was due to normal deposit volatility .
+
+
+      liquid securities carried in our asset liquidity include securities pledged
+      without corresponding advances from the frbb , the fhlb , and other non- u.s
+      .
+
+
+      central banks .
+
+
+      state street bank is a member of the fhlb .
+
+
+      this membership allows for advances of liquidity in varying terms against high-quality
+      collateral , which helps facilitate asset-and-liability management .
+
+
+      access to primary , intra-day and contingent liquidity provided by these utilities
+      is an important source of contingent liquidity with utilization subject to underlying
+      conditions .
+
+
+      as of december 31 , 2017 and december 31 , 2016 , we had no outstanding primary
+      credit borrowings from the frbb discount window or any other central bank facility
+      , and as of the same dates , no fhlb advances were outstanding .
+
+
+      in addition to the securities included in our asset liquidity , we have significant
+      amounts of other unencumbered investment securities .
+
+
+      the aggregate fair value of those securities was $ 66.10 billion as of december
+      31 , 2017 , compared to $ 54.40 billion as of december 31 , 2016 .
+
+
+      these securities are available sources of liquidity , although not as rapidly
+      deployed as those included in our asset liquidity .
+
+
+      measures of liquidity include lcr , nsfr and tlac which are described in "supervision
+      and regulation" included under item 1 , business , of this form 10-k .
+
+
+      uses of liquidity significant uses of our liquidity could result from the following
+      : withdrawals of client deposits ; draw- downs of unfunded commitments to extend
+      credit or to purchase securities , generally provided through lines of credit
+      ; and short-duration advance facilities .
+
+
+      such circumstances would generally arise under stress conditions including deterioration
+      in credit ratings .
+
+
+      a recurring significant use of our liquidity involves our deployment of hqla
+      from our investment portfolio to post collateral to financial institutions and
+      participants in our agency lending program serving as sources of securities
+      under our enhanced custody program .
+
+
+      we had unfunded commitments to extend credit with gross contractual amounts
+      totaling $ 26.49 billion and $ 26.99 billion as of december 31 , 2017 and december
+      31 , 2016 , respectively .
+
+
+      these amounts do not reflect the value of any collateral .
+
+
+      as of december 31 , 2017 , approximately 72% ( 72 % ) of our unfunded commitments
+      to extend credit expire within one year .
+
+
+      since many of our commitments are expected to expire or renew without being
+      drawn upon , the gross contractual amounts do not necessarily represent our
+      future cash requirements .
+
+
+      information about our resolution planning and the impact actions under our resolution
+      plans could have on our liquidity is provided in "supervision and regulation"
+      included under item 1 .
+
+
+      business , of this form 10-k .
+
+
+      funding deposits we provide products and services including custody , accounting
+      , administration , daily pricing , foreign exchange services , cash management
+      , financial asset management , securities finance and investment advisory services
+      .
+
+
+      as a provider of these products and services , we generate client deposits ,
+      which have generally provided a stable , low-cost source of funds .
+
+
+      as a global custodian , clients place deposits with state street entities in
+      various currencies .
+
+
+      as of december 31 , 2017 and december 31 , 2016 , approximately 60% ( 60 % )
+      of our average client deposit balances were denominated in u.s .
+
+
+      dollars , approximately 20% ( 20 % ) in eur , 10% ( 10 % ) in gbp and 10% (
+      10 % ) in all other currencies .
+
+
+      for the past several years , we have frequently experienced higher client deposit
+      inflows toward the end of each fiscal quarter or the end of the fiscal year
+      .
+
+
+      as a result , we believe average client deposit balances are more reflective
+      of ongoing funding than period-end balances. .'
+    id: stt-2017-table-2
+- id: stt-10k-2023
+  form: 10-K
+  filed: '2024-02-15'
+  period_covered: 2023-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/93751/000009375124000498/stt-20231231.htm
+  tables: []
 - id: stt-10k-2024
   form: 10-K
   filed: '2025-02-13'

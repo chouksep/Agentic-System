@@ -544,6 +544,1833 @@ metrics:
       xbrl_concept: us-gaap:Liabilities
       description: Total liabilities
 filings:
+- id: aon-10k-2009
+  form: 10-K
+  filed: '2010-02-26'
+  period_covered: 2009-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/315293/000104746910001535/a2196344z10-k.htm
+  tables:
+  - pre_text: '14 .
+
+
+      stock compensation plans the following table summarizes stock-based compensation
+      expense recognized in continuing operations in the consolidated statements of
+      income in compensation and benefits ( in millions ) : .'
+    header:
+    - years ended december 31
+    - '2009'
+    - '2008'
+    - '2007'
+    rows:
+    - - rsus
+      - $ 124
+      - $ 132
+      - $ 109
+    - - performance plans
+      - '60'
+      - '67'
+      - '54'
+    - - stock options
+      - '21'
+      - '24'
+      - '22'
+    - - employee stock purchase plans
+      - '4'
+      - '3'
+      - '3'
+    - - total stock-based compensation expense
+      - '209'
+      - '226'
+      - '188'
+    - - tax benefit
+      - '68'
+      - '82'
+      - '64'
+    - - stock-based compensation expense net of tax
+      - $ 141
+      - $ 144
+      - $ 124
+    post_text: 'during 2009 , the company converted its stock administration system
+      to a new service provider .
+
+
+      in connection with this conversion , a reconciliation of the methodologies and
+      estimates utilized was performed , which resulted in a $ 12 million reduction
+      of expense for the year ended december 31 , 2009 .
+
+
+      stock awards stock awards , in the form of rsus , are granted to certain employees
+      and consist of both performance-based and service-based rsus .
+
+
+      service-based awards generally vest between three and ten years from the date
+      of grant .
+
+
+      the fair value of service-based awards is based upon the market price of the
+      underlying common stock at the date of grant .
+
+
+      with certain limited exceptions , any break in continuous employment will cause
+      the forfeiture of all unvested awards .
+
+
+      compensation expense associated with stock awards is recognized over the service
+      period using the straight-line method .
+
+
+      dividend equivalents are paid on certain service-based rsus , based on the initial
+      grant amount .
+
+
+      at december 31 , 2009 , 2008 and 2007 , the number of shares available for stock
+      awards is included with options available for grant .
+
+
+      performance-based rsus have been granted to certain employees .
+
+
+      vesting of these awards is contingent upon meeting various individual , divisional
+      or company-wide performance conditions , including revenue generation or growth
+      in revenue , pretax income or earnings per share over a one- to five-year period
+      .
+
+
+      the performance conditions are not considered in the determination of the grant
+      date fair value for these awards .
+
+
+      the fair value of performance-based awards is based upon the market price of
+      the underlying common stock at the date of grant .
+
+
+      compensation expense is recognized over the performance period , and in certain
+      cases an additional vesting period , based on management 2019s estimate of the
+      number of units expected to vest .
+
+
+      compensation expense is adjusted to reflect the actual number of shares paid
+      out at the end of the programs .
+
+
+      the payout of shares under these performance-based plans may range from 0-200%
+      ( 0-200 % ) of the number of units granted , based on the plan .
+
+
+      dividend equivalents are generally not paid on the performance-based rsus .
+
+
+      during 2009 , the company granted approximately 2 million shares in connection
+      with the completion of the 2006 leadership performance plan ( 2018 2018lpp 2019
+      2019 ) cycle .
+
+
+      during 2009 , 2008 and 2007 , the company granted approximately 3.7 million
+      , 4.2 million and 4.3 million restricted shares , respectively , in connection
+      with the company 2019s incentive compensation plans. .'
+    id: aon-2009-table-0
+  - pre_text: 'at december 31 , 2009 , aon had domestic federal operating loss carryforwards
+      of $ 7 million that will expire at various dates from 2010 to 2024 , state operating
+      loss carryforwards of $ 513 million that will expire at various dates from 2010
+      to 2028 , and foreign operating and capital loss carryforwards of $ 453 million
+      and $ 252 million , respectively , nearly all of which are subject to indefinite
+      carryforward .
+
+
+      unrecognized tax benefits the following is a reconciliation of the company 2019s
+      beginning and ending amount of unrecognized tax benefits ( in millions ) : .'
+    header:
+    - ''
+    - '2009'
+    - '2008'
+    rows:
+    - - balance at january 1
+      - $ 86
+      - $ 70
+    - - additions based on tax positions related to the current year
+      - '2'
+      - '5'
+    - - additions for tax positions of prior years
+      - '5'
+      - '12'
+    - - reductions for tax positions of prior years
+      - -11 ( 11 )
+      - -11 ( 11 )
+    - - settlements
+      - -10 ( 10 )
+      - -4 ( 4 )
+    - - lapse of statute of limitations
+      - -3 ( 3 )
+      - -1 ( 1 )
+    - - acquisitions
+      - '6'
+      - '21'
+    - - foreign currency translation
+      - '2'
+      - -6 ( 6 )
+    - - balance at december 31
+      - $ 77
+      - $ 86
+    post_text: 'as of december 31 , 2009 , $ 61 million of unrecognized tax benefits
+      would impact the effective tax rate if recognized .
+
+
+      aon does not expect the unrecognized tax positions to change significantly over
+      the next twelve months .
+
+
+      the company recognizes penalties and interest related to unrecognized income
+      tax benefits in its provision for income taxes .
+
+
+      aon accrued potential penalties of less than $ 1 million during each of 2009
+      , 2008 and 2007 .
+
+
+      aon accrued interest of $ 2 million during 2009 and less than $ 1 million during
+      both 2008 and 2007 .
+
+
+      as of december 31 , 2009 and 2008 , aon has recorded a liability for penalties
+      of $ 5 million and $ 4 million , respectively , and for interest of $ 18 million
+      and $ 14 million , respectively .
+
+
+      aon and its subsidiaries file income tax returns in the u.s .
+
+
+      federal jurisdiction as well as various state and international jurisdictions
+      .
+
+
+      aon has substantially concluded all u.s .
+
+
+      federal income tax matters for years through 2006 .
+
+
+      material u.s .
+
+
+      state and local income tax jurisdiction examinations have been concluded for
+      years through 2002 .
+
+
+      aon has concluded income tax examinations in its primary international jurisdictions
+      through 2002. .'
+    id: aon-2009-table-1
+  - pre_text: 'holding other assumptions constant , the following table reflects what
+      a one hundred basis point increase and decrease in our estimated long-term rate
+      of return on plan assets would have on our estimated 2010 pension expense (
+      in millions ) : change in long-term rate of return on plan assets .'
+    header:
+    - increase ( decrease ) in expense
+    - change in long-term rateof return on plan assets increase
+    - change in long-term rateof return on plan assets decrease
+    rows:
+    - - u.s . plans
+      - $ -13 ( 13 )
+      - $ 13
+    - - u.k . plans
+      - -32 ( 32 )
+      - '32'
+    - - the netherlands plan
+      - -5 ( 5 )
+      - '5'
+    - - canada plans
+      - -2 ( 2 )
+      - '2'
+    post_text: 'estimated future contributions we estimate contributions of approximately
+      $ 381 million in 2010 as compared with $ 437 million in goodwill and other intangible
+      assets goodwill represents the excess of cost over the fair market value of
+      the net assets acquired .
+
+
+      we classify our intangible assets acquired as either trademarks , client lists
+      , non-compete agreements , or other purchased intangibles .
+
+
+      our goodwill and other intangible balances at december 31 , 2009 were $ 6.1
+      billion and $ 791 million , respectively , compared to $ 5.6 billion and $ 779
+      million , respectively , at december 31 , 2008 .
+
+
+      although goodwill is not amortized , we test it for impairment at least annually
+      in the fourth quarter .
+
+
+      beginning in 2009 , we also test trademarks ( which also are not amortized )
+      that were acquired in conjunction with the benfield merger for impairment .
+
+
+      we test more frequently if there are indicators of impairment or whenever business
+      circumstances suggest that the carrying value of goodwill or trademarks may
+      not be recoverable .
+
+
+      these indicators may include a sustained significant decline in our share price
+      and market capitalization , a decline in our expected future cash flows , or
+      a significant adverse change in legal factors or in the business climate , among
+      others .
+
+
+      no events occurred during 2009 or 2008 that indicate the existence of an impairment
+      with respect to our reported goodwill or trademarks .
+
+
+      we perform impairment reviews at the reporting unit level .
+
+
+      a reporting unit is an operating segment or one level below an operating segment
+      ( referred to as a 2018 2018component 2019 2019 ) .
+
+
+      a component of an operating segment is a reporting unit if the component constitutes
+      a business for which discrete financial information is available and segment
+      management regularly reviews the operating results of that component .
+
+
+      an operating segment shall be deemed to be a reporting unit if all of its components
+      are similar , if none of its components is a reporting unit , or if the segment
+      comprises only a single component .
+
+
+      the goodwill impairment test is a two step analysis .
+
+
+      step one requires the fair value of each reporting unit to be compared to its
+      book value .
+
+
+      management must apply judgment in determining the estimated fair value of the
+      reporting units .
+
+
+      if the fair value of a reporting unit is determined to be greater than the carrying
+      value of the reporting unit , goodwill and trademarks are deemed not to be impaired
+      and no further testing is necessary .
+
+
+      if the fair value of a reporting unit is less than the carrying value , we perform
+      step two .
+
+
+      step two uses the calculated fair value of the reporting unit to perform a hypothetical
+      purchase price allocation to the fair value of the assets and liabilities of
+      the reporting unit .
+
+
+      the difference between the fair value of the reporting unit calculated in step
+      one and the fair value of the underlying assets and liabilities of the reporting
+      unit is the implied fair value of .'
+    id: aon-2009-table-2
+  - pre_text: 'the company recognizes the effect of income tax positions only if sustaining
+      those positions is more likely than not .
+
+
+      changes in recognition or measurement are reflected in the period in which a
+      change in judgment occurs .
+
+
+      the company records penalties and interest related to unrecognized tax benefits
+      in income taxes in the company 2019s consolidated statements of income .
+
+
+      changes in accounting principles business combinations and noncontrolling interests
+      on january 1 , 2009 , the company adopted revised principles related to business
+      combinations and noncontrolling interests .
+
+
+      the revised principle on business combinations applies to all transactions or
+      other events in which an entity obtains control over one or more businesses
+      .
+
+
+      it requires an acquirer to recognize the assets acquired , the liabilities assumed
+      , and any noncontrolling interest in the acquiree at the acquisition date ,
+      measured at their fair values as of that date .
+
+
+      business combinations achieved in stages require recognition of the identifiable
+      assets and liabilities , as well as the noncontrolling interest in the acquiree
+      , at the full amounts of their fair values when control is obtained .
+
+
+      this revision also changes the requirements for recognizing assets acquired
+      and liabilities assumed arising from contingencies , and requires direct acquisition
+      costs to be expensed .
+
+
+      in addition , it provides certain changes to income tax accounting for business
+      combinations which apply to both new and previously existing business combinations
+      .
+
+
+      in april 2009 , additional guidance was issued which revised certain business
+      combination guidance related to accounting for contingent liabilities assumed
+      in a business combination .
+
+
+      the company has adopted this guidance in conjunction with the adoption of the
+      revised principles related to business combinations .
+
+
+      the adoption of the revised principles related to business combinations has
+      not had a material impact on the consolidated financial statements .
+
+
+      the revised principle related to noncontrolling interests establishes accounting
+      and reporting standards for the noncontrolling interests in a subsidiary and
+      for the deconsolidation of a subsidiary .
+
+
+      the revised principle clarifies that a noncontrolling interest in a subsidiary
+      is an ownership interest in the consolidated entity that should be reported
+      as a separate component of equity in the consolidated statements of financial
+      position .
+
+
+      the revised principle requires retrospective adjustments , for all periods presented
+      , of stockholders 2019 equity and net income for noncontrolling interests .
+
+
+      in addition to these financial reporting changes , the revised principle provides
+      for significant changes in accounting related to changes in ownership of noncontrolling
+      interests .
+
+
+      changes in aon 2019s controlling financial interests in consolidated subsidiaries
+      that do not result in a loss of control are accounted for as equity transactions
+      similar to treasury stock transactions .
+
+
+      if a change in ownership of a consolidated subsidiary results in a loss of control
+      and deconsolidation , any retained ownership interests are remeasured at fair
+      value with the gain or loss reported in net income .
+
+
+      in previous periods , noncontrolling interests for operating subsidiaries were
+      reported in other general expenses in the consolidated statements of income
+      .
+
+
+      prior period amounts have been restated to conform to the current year 2019s
+      presentation .
+
+
+      the principal effect on the prior years 2019 balance sheets related to the adoption
+      of the new guidance related to noncontrolling interests is summarized as follows
+      ( in millions ) : .'
+    header:
+    - as of december 31
+    - '2008'
+    - '2007'
+    rows:
+    - - equity as previously reported
+      - $ 5310
+      - $ 6221
+    - - increase for reclassification of non-controlling interests
+      - '105'
+      - '40'
+    - - equity as adjusted
+      - $ 5415
+      - $ 6261
+    post_text: 'the revised principle also requires that net income be adjusted to
+      include the net income attributable to the noncontrolling interests and a new
+      separate caption for net income attributable to aon stockholders be presented
+      in the consolidated statements of income .
+
+
+      the adoption of this new guidance increased net income by $ 16 million and $
+      13 million for 2008 and 2007 , respectively .
+
+
+      net .'
+    id: aon-2009-table-3
+- id: aon-10k-2010
+  form: 10-K
+  filed: '2011-02-25'
+  period_covered: 2010-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/315293/000104746911001427/a2202065z10-k.htm
+  tables:
+  - pre_text: 'considered to be the primary beneficiary of either entity and have
+      therefore deconsolidated both entities .
+
+
+      at december 31 , 2010 , we held a 36% ( 36 % ) interest in juniperus which is
+      accounted for using the equity method of accounting .
+
+
+      our potential loss at december 31 , 2010 is limited to our investment of $ 73
+      million in juniperus , which is recorded in investments in the consolidated
+      statements of financial position .
+
+
+      we have not provided any financing to juniperus other than previously contractually
+      required amounts .
+
+
+      juniperus and jchl had combined assets and liabilities of $ 121 million and
+      $ 22 million , respectively , at december 31 , 2008 .
+
+
+      for the year ended december 31 , 2009 , we recognized $ 36 million of pretax
+      income from juniperus and jchl .
+
+
+      we recognized $ 16 million of after-tax income , after allocating the appropriate
+      share of net income to the non-controlling interests .
+
+
+      we previously owned an 85% ( 85 % ) economic equity interest in globe re limited
+      ( 2018 2018globe re 2019 2019 ) , a vie , which provided reinsurance coverage
+      for a defined portfolio of property catastrophe reinsurance contracts underwritten
+      by a third party for a limited period which ended june 1 , 2009 .
+
+
+      we consolidated globe re as we were deemed to be the primary beneficiary .
+
+
+      in connection with the winding up of its operations , globe re repaid its $
+      100 million of short-term debt and our equity investment from available cash
+      in 2009 .
+
+
+      we recognized $ 2 million of after-tax income from globe re in 2009 , taking
+      into account the share of net income attributable to non-controlling interests
+      .
+
+
+      globe re was fully liquidated in the third quarter of 2009 .
+
+
+      review by segment general we serve clients through the following segments :
+      2022 risk solutions ( formerly risk and insurance brokerage services ) acts
+      as an advisor and insurance and reinsurance broker , helping clients manage
+      their risks , via consultation , as well as negotiation and placement of insurance
+      risk with insurance carriers through our global distribution network .
+
+
+      2022 hr solutions ( formerly consulting ) partners with organizations to solve
+      their most complex benefits , talent and related financial challenges , and
+      improve business performance by designing , implementing , communicating and
+      administering a wide range of human capital , retirement , investment management
+      , health care , compensation and talent management strategies .
+
+
+      risk solutions .'
+    header:
+    - years ended december 31,
+    - '2010'
+    - '2009'
+    - '2008'
+    rows:
+    - - revenue
+      - $ 6423
+      - $ 6305
+      - $ 6197
+    - - operating income
+      - '1194'
+      - '900'
+      - '846'
+    - - operating margin
+      - 18.6% ( 18.6 % )
+      - 14.3% ( 14.3 % )
+      - 13.7% ( 13.7 % )
+    post_text: 'the demand for property and casualty insurance generally rises as
+      the overall level of economic activity increases and generally falls as such
+      activity decreases , affecting both the commissions and fees generated by our
+      brokerage business .
+
+
+      the economic activity that impacts property and casualty insurance is described
+      as exposure units , and is most closely correlated with employment levels ,
+      corporate revenue and asset values .
+
+
+      during 2010 we continued to see a 2018 2018soft market 2019 2019 , which began
+      in 2007 , in our retail brokerage product line .
+
+
+      in a soft market , premium rates flatten or decrease , along with commission
+      revenues , due to increased competition for market share among insurance carriers
+      or increased underwriting capacity .
+
+
+      changes in premiums have a direct and potentially material impact on the insurance
+      brokerage industry , as commission revenues are generally based on a percentage
+      of the .'
+    id: aon-2010-table-0
+  - pre_text: hr solutions .
+    header:
+    - years ended december 31,
+    - '2010'
+    - '2009'
+    - '2008'
+    rows:
+    - - revenue
+      - $ 2111
+      - $ 1267
+      - $ 1356
+    - - operating income
+      - '234'
+      - '203'
+      - '208'
+    - - operating margin
+      - 11.1% ( 11.1 % )
+      - 16.0% ( 16.0 % )
+      - 15.3% ( 15.3 % )
+    post_text: 'in october 2010 , we completed the acquisition of hewitt , one of
+      the world 2019s leading human resource consulting and outsourcing companies
+      .
+
+
+      hewitt operates globally together with aon 2019s existing consulting and outsourcing
+      operations under the newly created aon hewitt brand .
+
+
+      hewitt 2019s operating results are included in aon 2019s results of operations
+      beginning october 1 , 2010 .
+
+
+      our hr solutions segment generated approximately 25% ( 25 % ) of our consolidated
+      total revenues in 2010 and provides a broad range of human capital services
+      , as follows : consulting services : 2022 health and benefits advises clients
+      about how to structure , fund , and administer employee benefit programs that
+      attract , retain , and motivate employees .
+
+
+      benefits consulting includes health and welfare , executive benefits , workforce
+      strategies and productivity , absence management , benefits administration ,
+      data-driven health , compliance , employee commitment , investment advisory
+      and elective benefits services .
+
+
+      2022 retirement specializes in global actuarial services , defined contribution
+      consulting , investment consulting , tax and erisa consulting , and pension
+      administration .
+
+
+      2022 compensation focuses on compensatory advisory/counsel including : compensation
+      planning design , executive reward strategies , salary survey and benchmarking
+      , market share studies and sales force effectiveness , with special expertise
+      in the financial services and technology industries .
+
+
+      2022 strategic human capital delivers advice to complex global organizations
+      on talent , change and organizational effectiveness issues , including talent
+      strategy and acquisition , executive on-boarding , performance management ,
+      leadership assessment and development , communication strategy , workforce training
+      and change management .
+
+
+      outsourcing services : 2022 benefits outsourcing applies our hr expertise primarily
+      through defined benefit ( pension ) , defined contribution ( 401 ( k ) ) , and
+      health and welfare administrative services .
+
+
+      our model replaces the resource-intensive processes once required to administer
+      benefit plans with more efficient , effective , and less costly solutions .
+
+
+      2022 human resource business processing outsourcing ( 2018 2018hr bpo 2019 2019
+      ) provides market-leading solutions to manage employee data ; administer benefits
+      , payroll and other human resources processes ; and record and manage talent
+      , workforce and other core hr process transactions as well as other complementary
+      services such as absence management , flexible spending , dependent audit and
+      participant advocacy .
+
+
+      beginning in late 2008 , the disruption in the global credit markets and the
+      deterioration of the financial markets created significant uncertainty in the
+      marketplace .
+
+
+      weak economic conditions globally continued throughout 2010 .
+
+
+      the prolonged economic downturn is adversely impacting our clients 2019 financial
+      condition and therefore the levels of business activities in the industries
+      and geographies where we operate .
+
+
+      while we believe that the majority of our practices are well positioned to manage
+      through this time , these challenges are reducing demand for some of our services
+      and putting .'
+    id: aon-2010-table-1
+  - pre_text: 'remitted to the u.s .
+
+
+      due to foreign tax credits and exclusions that may become available at the time
+      of remittance .
+
+
+      at december 31 , 2010 , aon had domestic federal operating loss carryforwards
+      of $ 56 million that will expire at various dates from 2011 to 2024 , state
+      operating loss carryforwards of $ 610 million that will expire at various dates
+      from 2011 to 2031 , and foreign operating and capital loss carryforwards of
+      $ 720 million and $ 251 million , respectively , nearly all of which are subject
+      to indefinite carryforward .
+
+
+      unrecognized tax provisions the following is a reconciliation of the company
+      2019s beginning and ending amount of unrecognized tax benefits ( in millions
+      ) : .'
+    header:
+    - ''
+    - '2010'
+    - '2009'
+    rows:
+    - - balance at january 1
+      - $ 77
+      - $ 86
+    - - additions based on tax positions related to the current year
+      - '7'
+      - '2'
+    - - additions for tax positions of prior years
+      - '4'
+      - '5'
+    - - reductions for tax positions of prior years
+      - -7 ( 7 )
+      - -11 ( 11 )
+    - - settlements
+      - -1 ( 1 )
+      - -10 ( 10 )
+    - - lapse of statute of limitations
+      - -5 ( 5 )
+      - -3 ( 3 )
+    - - acquisitions
+      - '26'
+      - '6'
+    - - foreign currency translation
+      - -1 ( 1 )
+      - '2'
+    - - balance at december 31
+      - $ 100
+      - $ 77
+    post_text: 'as of december 31 , 2010 , $ 85 million of unrecognized tax benefits
+      would impact the effective tax rate if recognized .
+
+
+      aon does not expect the unrecognized tax positions to change significantly over
+      the next twelve months , except for a potential reduction of unrecognized tax
+      benefits in the range of $ 10-$ 15 million relating to anticipated audit settlements
+      .
+
+
+      the company recognizes penalties and interest related to unrecognized income
+      tax benefits in its provision for income taxes .
+
+
+      aon accrued potential penalties of less than $ 1 million during each of 2010
+      , 2009 and 2008 .
+
+
+      aon accrued interest of less than $ 1 million in 2010 , $ 2 million during 2009
+      and less than $ 1 million in 2008 .
+
+
+      aon has recorded a liability for penalties of $ 5 million and for interest of
+      $ 18 million for both december 31 , 2010 and 2009 .
+
+
+      aon and its subsidiaries file income tax returns in the u.s .
+
+
+      federal jurisdiction as well as various state and international jurisdictions
+      .
+
+
+      aon has substantially concluded all u.s .
+
+
+      federal income tax matters for years through 2006 .
+
+
+      material u.s .
+
+
+      state and local income tax jurisdiction examinations have been concluded for
+      years through 2002 .
+
+
+      aon has concluded income tax examinations in its primary international jurisdictions
+      through 2004. .'
+    id: aon-2010-table-2
+  - pre_text: 'holding other assumptions constant , the following table reflects what
+      a one hundred basis point increase and decrease in our estimated long-term rate
+      of return on plan assets would have on our estimated 2011 pension expense (
+      in millions ) : change in long-term rate of return on plan assets .'
+    header:
+    - increase ( decrease ) in expense
+    - change in long-term rateof return on plan assets increase
+    - change in long-term rateof return on plan assets decrease
+    rows:
+    - - u.s . plans
+      - $ -14 ( 14 )
+      - $ 14
+    - - u.k . plans
+      - -35 ( 35 )
+      - '35'
+    - - the netherlands plan
+      - -5 ( 5 )
+      - '5'
+    - - canada plans
+      - -2 ( 2 )
+      - '2'
+    post_text: 'estimated future contributions we estimate contributions of approximately
+      $ 403 million in 2011 as compared with $ 288 million in goodwill and other intangible
+      assets goodwill represents the excess of cost over the fair market value of
+      the net assets acquired .
+
+
+      we classify our intangible assets acquired as either trademarks , customer relationships
+      , technology , non-compete agreements , or other purchased intangibles .
+
+
+      our goodwill and other intangible balances at december 31 , 2010 increased to
+      $ 8.6 billion and $ 3.6 billion , respectively , compared to $ 6.1 billion and
+      $ 791 million , respectively , at december 31 , 2009 , primarily as a result
+      of the hewitt acquisition .
+
+
+      although goodwill is not amortized , we test it for impairment at least annually
+      in the fourth quarter .
+
+
+      in the fourth quarter , we also test acquired trademarks ( which also are not
+      amortized ) for impairment .
+
+
+      we test more frequently if there are indicators of impairment or whenever business
+      circumstances suggest that the carrying value of goodwill or trademarks may
+      not be recoverable .
+
+
+      these indicators may include a sustained significant decline in our share price
+      and market capitalization , a decline in our expected future cash flows , or
+      a significant adverse change in legal factors or in the business climate , among
+      others .
+
+
+      no events occurred during 2010 or 2009 that indicate the existence of an impairment
+      with respect to our reported goodwill or trademarks .
+
+
+      we perform impairment reviews at the reporting unit level .
+
+
+      a reporting unit is an operating segment or one level below an operating segment
+      ( referred to as a 2018 2018component 2019 2019 ) .
+
+
+      a component of an operating segment is a reporting unit if the component constitutes
+      a business for which discrete financial information is available and segment
+      management regularly reviews the operating results of that component .
+
+
+      an operating segment shall be deemed to be a reporting unit if all of its components
+      are similar , if none of its components is a reporting unit , or if the segment
+      comprises only a single component .
+
+
+      the goodwill impairment test is a two step analysis .
+
+
+      step one requires the fair value of each reporting unit to be compared to its
+      book value .
+
+
+      management must apply judgment in determining the estimated fair value of the
+      reporting units .
+
+
+      if the fair value of a reporting unit is determined to be greater than the carrying
+      value of the reporting unit , goodwill and trademarks are deemed not to be impaired
+      and no further testing is necessary .
+
+
+      if the fair value of a reporting unit is less than the carrying value , we perform
+      step two .
+
+
+      step two uses the calculated fair value of the reporting unit to perform a hypothetical
+      purchase price allocation to the fair value of the assets and liabilities of
+      the reporting unit .
+
+
+      the difference between the fair value of the reporting unit calculated in step
+      one and the fair value of the underlying assets and liabilities of the reporting
+      unit is the implied fair value of the reporting unit 2019s goodwill .
+
+
+      a charge is recorded in the financial statements if the carrying value of the
+      reporting unit 2019s goodwill is greater than its implied fair value. .'
+    id: aon-2010-table-3
+- id: aon-10k-2011
+  form: 10-K
+  filed: '2012-02-24'
+  period_covered: 2011-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/315293/000104746912001478/a2207295z10-k.htm
+  tables:
+  - pre_text: 'reinsurance commissions , fees and other revenue increased 1% ( 1 %
+      ) driven by a favorable foreign currency translation of 2% ( 2 % ) and was partially
+      offset by a 1% ( 1 % ) decline in dispositions , net of acquisitions and other
+      .
+
+
+      organic revenue was flat primarily resulting from strong growth in the capital
+      market transactions and advisory business , partially offset by declines in
+      global facultative placements .
+
+
+      operating income operating income increased $ 120 million , or 10% ( 10 % )
+      , from 2010 to $ 1.3 billion in 2011 .
+
+
+      in 2011 , operating income margins in this segment were 19.3% ( 19.3 % ) , up
+      70 basis points from 18.6% ( 18.6 % ) in 2010 .
+
+
+      operating margin improvement was primarily driven by revenue growth , reduced
+      costs of restructuring initiatives and realization of the benefits of those
+      restructuring plans , which was partially offset by the negative impact of expense
+      increases related to investment in the business , lease termination costs ,
+      legacy receivables write-off , and foreign currency exchange rates .
+
+
+      hr solutions .'
+    header:
+    - years ended december 31,
+    - '2011'
+    - '2010'
+    - '2009'
+    rows:
+    - - revenue
+      - $ 4501
+      - $ 2111
+      - $ 1267
+    - - operating income
+      - '448'
+      - '234'
+      - '203'
+    - - operating margin
+      - 10.0% ( 10.0 % )
+      - 11.1% ( 11.1 % )
+      - 16.0% ( 16.0 % )
+    post_text: 'in october 2010 , we completed the acquisition of hewitt , one of
+      the world 2019s leading human resource consulting and outsourcing companies
+      .
+
+
+      hewitt operates globally together with aon 2019s existing consulting and outsourcing
+      operations under the newly created aon hewitt brand .
+
+
+      hewitt 2019s operating results are included in aon 2019s results of operations
+      beginning october 1 , 2010 .
+
+
+      our hr solutions segment generated approximately 40% ( 40 % ) of our consolidated
+      total revenues in 2011 and provides a broad range of human capital services
+      , as follows : 2022 health and benefits advises clients about how to structure
+      , fund , and administer employee benefit programs that attract , retain , and
+      motivate employees .
+
+
+      benefits consulting includes health and welfare , executive benefits , workforce
+      strategies and productivity , absence management , benefits administration ,
+      data-driven health , compliance , employee commitment , investment advisory
+      and elective benefits services .
+
+
+      effective january 1 , 2012 , this line of business will be included in the results
+      of the risk solutions segment .
+
+
+      2022 retirement specializes in global actuarial services , defined contribution
+      consulting , investment consulting , tax and erisa consulting , and pension
+      administration .
+
+
+      2022 compensation focuses on compensatory advisory/counsel including : compensation
+      planning design , executive reward strategies , salary survey and benchmarking
+      , market share studies and sales force effectiveness , with special expertise
+      in the financial services and technology industries .
+
+
+      2022 strategic human capital delivers advice to complex global organizations
+      on talent , change and organizational effectiveness issues , including talent
+      strategy and acquisition , executive on-boarding , performance management ,
+      leadership assessment and development , communication strategy , workforce training
+      and change management .
+
+
+      2022 benefits administration applies our hr expertise primarily through defined
+      benefit ( pension ) , defined contribution ( 401 ( k ) ) , and health and welfare
+      administrative services .
+
+
+      our model replaces the resource-intensive processes once required to administer
+      benefit plans with more efficient , effective , and less costly solutions .
+
+
+      2022 human resource business processing outsourcing ( 2018 2018hr bpo 2019 2019
+      ) provides market-leading solutions to manage employee data ; administer benefits
+      , payroll and other human resources processes ; and .'
+    id: aon-2011-table-0
+  - pre_text: '2022 net derivative losses of $ 13 million .
+
+
+      review by segment general we serve clients through the following segments :
+      2022 risk solutions acts as an advisor and insurance and reinsurance broker
+      , helping clients manage their risks , via consultation , as well as negotiation
+      and placement of insurance risk with insurance carriers through our global distribution
+      network .
+
+
+      2022 hr solutions partners with organizations to solve their most complex benefits
+      , talent and related financial challenges , and improve business performance
+      by designing , implementing , communicating and administering a wide range of
+      human capital , retirement , investment management , health care , compensation
+      and talent management strategies .
+
+
+      risk solutions .'
+    header:
+    - years ended december 31,
+    - '2011'
+    - '2010'
+    - '2009'
+    rows:
+    - - revenue
+      - $ 6817
+      - $ 6423
+      - $ 6305
+    - - operating income
+      - '1314'
+      - '1194'
+      - '900'
+    - - operating margin
+      - 19.3% ( 19.3 % )
+      - 18.6% ( 18.6 % )
+      - 14.3% ( 14.3 % )
+    post_text: 'the demand for property and casualty insurance generally rises as
+      the overall level of economic activity increases and generally falls as such
+      activity decreases , affecting both the commissions and fees generated by our
+      brokerage business .
+
+
+      the economic activity that impacts property and casualty insurance is described
+      as exposure units , and is closely correlated with employment levels , corporate
+      revenue and asset values .
+
+
+      during 2011 we began to see some improvement in pricing ; however , we would
+      still consider this to be a 2018 2018soft market , 2019 2019 which began in
+      2007 .
+
+
+      in a soft market , premium rates flatten or decrease , along with commission
+      revenues , due to increased competition for market share among insurance carriers
+      or increased underwriting capacity .
+
+
+      changes in premiums have a direct and potentially material impact on the insurance
+      brokerage industry , as commission revenues are generally based on a percentage
+      of the premiums paid by insureds .
+
+
+      in 2011 , pricing showed signs of stabilization and improvement in both our
+      retail and reinsurance brokerage product lines and we expect this trend to slowly
+      continue into 2012 .
+
+
+      additionally , beginning in late 2008 and continuing through 2011 , we faced
+      difficult conditions as a result of unprecedented disruptions in the global
+      economy , the repricing of credit risk and the deterioration of the financial
+      markets .
+
+
+      weak global economic conditions have reduced our customers 2019 demand for our
+      brokerage products , which have had a negative impact on our operational results
+      .
+
+
+      risk solutions generated approximately 60% ( 60 % ) of our consolidated total
+      revenues in 2011 .
+
+
+      revenues are generated primarily through fees paid by clients , commissions
+      and fees paid by insurance and reinsurance companies , and investment income
+      on funds held on behalf of clients .
+
+
+      our revenues vary from quarter to quarter throughout the year as a result of
+      the timing of our clients 2019 policy renewals , the net effect of new and lost
+      business , the timing of services provided to our clients , and the income we
+      earn on investments , which is heavily influenced by short-term interest rates
+      .
+
+
+      we operate in a highly competitive industry and compete with many retail insurance
+      brokerage and agency firms , as well as with individual brokers , agents , and
+      direct writers of insurance coverage .
+
+
+      specifically , we address the highly specialized product development and risk
+      management needs of commercial enterprises , professional groups , insurance
+      companies , governments , health care providers , and non-profit groups , among
+      others ; provide affinity products for professional liability , life , disability
+      .'
+    id: aon-2011-table-1
+  - pre_text: 'performance share awards the vesting of psas is contingent upon meeting
+      various individual , divisional or company-wide performance conditions , including
+      revenue generation or growth in revenue , pretax income or earnings per share
+      over a one- to five-year period .
+
+
+      the performance conditions are not considered in the determination of the grant
+      date fair value for these awards .
+
+
+      the fair value of psas is based upon the market price of the aon common stock
+      at the date of grant .
+
+
+      compensation expense is recognized over the performance period , and in certain
+      cases an additional vesting period , based on management 2019s estimate of the
+      number of units expected to vest .
+
+
+      compensation expense is adjusted to reflect the actual number of shares issued
+      at the end of the programs .
+
+
+      the actual issuance of shares may range from 0-200% ( 0-200 % ) of the target
+      number of psas granted , based on the plan .
+
+
+      dividend equivalents are not paid on psas .
+
+
+      information regarding psas granted during the years ended december 31 , 2011
+      , 2010 and 2009 follows ( shares in thousands , dollars in millions , except
+      fair value ) : .'
+    header:
+    - ''
+    - '2011'
+    - '2010'
+    - '2009'
+    rows:
+    - - target psus granted
+      - '1715'
+      - '1390'
+      - '3754'
+    - - fair value ( 1 )
+      - $ 50
+      - $ 39
+      - $ 38
+    - - number of shares that would be issued based on current performance levels
+      - '1772'
+      - '1397'
+      - '2300'
+    - - unamortized expense based on current performance levels
+      - $ 60
+      - $ 18
+      - $ 4
+    post_text: '( 1 ) represents per share weighted average fair value of award at
+      date of grant .
+
+
+      during 2011 , the company issued approximately 1.2 million shares in connection
+      with the 2008 leadership performance plan ( 2018 2018lpp 2019 2019 ) cycle and
+      0.3 million shares related to a 2006 performance plan .
+
+
+      during 2010 , the company issued approximately 1.6 million shares in connection
+      with the completion of the 2007 lpp cycle and 84000 shares related to other
+      performance plans .
+
+
+      stock options options to purchase common stock are granted to certain employees
+      at fair value on the date of grant .
+
+
+      commencing in 2010 , the company ceased granting new stock options with the
+      exception of historical contractual commitments .
+
+
+      generally , employees are required to complete two continuous years of service
+      before the options begin to vest in increments until the completion of a 4-year
+      period of continuous employment , although a number of options were granted
+      that require five continuous years of service before the options are fully vested
+      .
+
+
+      options issued under the lpp program vest ratable over 3 years with a six year
+      term .
+
+
+      the maximum contractual term on stock options is generally ten years from the
+      date of grant .
+
+
+      aon uses a lattice-binomial option-pricing model to value stock options .
+
+
+      lattice-based option valuation models use a range of assumptions over the expected
+      term of the options .
+
+
+      expected volatilities are based on the average of the historical volatility
+      of aon 2019s stock price and the implied volatility of traded options and aon
+      2019s stock .
+
+
+      the valuation model stratifies employees between those receiving lpp options
+      , special stock plan ( 2018 2018ssp 2019 2019 ) options , and all other option
+      grants .
+
+
+      the company believes that this stratification better represents prospective
+      stock option exercise patterns .
+
+
+      the expected dividend yield assumption is based on the company 2019s historical
+      and expected future dividend rate .
+
+
+      the risk-free rate for periods within the contractual life of the option is
+      based on the u.s .
+
+
+      treasury yield curve in effect at the time of grant .
+
+
+      the expected life of employee stock options represents the weighted-average
+      period stock options are expected to remain outstanding and is a derived output
+      of the lattice-binomial model. .'
+    id: aon-2011-table-2
+  - pre_text: 'and $ 19 million of these expenses in 2011 and 2010 , respectively
+      , with the remaining expense unallocated .
+
+
+      the company financed the acquisition with the proceeds from a $ 1.0 billion
+      three-year term loan credit facility , $ 1.5 billion in unsecured notes , and
+      the issuance of 61 million shares of aon common stock .
+
+
+      in addition , as part of the consideration , certain outstanding hewitt stock
+      options were converted into options to purchase 4.5 million shares of aon common
+      stock .
+
+
+      these items are detailed further in note 8 2018 2018debt 2019 2019 and note
+      11 2018 2018stockholders 2019 equity 2019 2019 .
+
+
+      the transaction has been accounted for using the acquisition method of accounting
+      which requires , among other things , that most assets acquired and liabilities
+      assumed be recognized at their fair values as of the acquisition date .
+
+
+      the following table summarizes the amounts recognized for assets acquired and
+      liabilities assumed as of the acquisition date ( in millions ) : amounts recorded
+      as of the acquisition .'
+    header:
+    - ''
+    - amountsrecorded as ofthe acquisitiondate
+    rows:
+    - - working capital ( 1 )
+      - $ 348
+    - - property equipment and capitalized software
+      - '297'
+    - - 'identifiable intangible assets:'
+      - ''
+    - - customer relationships
+      - '1800'
+    - - trademarks
+      - '890'
+    - - technology
+      - '215'
+    - - other noncurrent assets ( 2 )
+      - '344'
+    - - long-term debt
+      - '346'
+    - - other noncurrent liabilities ( 3 )
+      - '360'
+    - - net deferred tax liability ( 4 )
+      - '1021'
+    - - net assets acquired
+      - '2167'
+    - - goodwill
+      - '2765'
+    - - total consideration transferred
+      - $ 4932
+    post_text: '( 1 ) includes cash and cash equivalents , short-term investments
+      , client receivables , other current assets , accounts payable and other current
+      liabilities .
+
+
+      ( 2 ) includes primarily deferred contract costs and long-term investments .
+
+
+      ( 3 ) includes primarily unfavorable lease obligations and deferred contract
+      revenues .
+
+
+      ( 4 ) included in other current assets ( $ 31 million ) , deferred tax assets
+      ( $ 30 million ) , other current liabilities ( $ 7 million ) and deferred tax
+      liabilities ( $ 1.1 billion ) in the company 2019s consolidated statements of
+      financial position .
+
+
+      the acquired customer relationships are being amortized over a weighted average
+      life of 12 years .
+
+
+      the technology asset is being amortized over 7 years and trademarks have been
+      determined to have indefinite useful lives .
+
+
+      goodwill is calculated as the excess of the acquisition cost over the fair value
+      of the net assets acquired and represents the synergies and other benefits that
+      are expected to arise from combining the operations of hewitt with the operations
+      of aon , and the future economic benefits arising from other assets acquired
+      that could not be individually identified and separately recognized .
+
+
+      goodwill is not amortized and is not deductible for tax purposes .
+
+
+      a single estimate of fair value results from a complex series of the company
+      2019s judgments about future events and uncertainties and relies heavily on
+      estimates and assumptions .
+
+
+      the company 2019s .'
+    id: aon-2011-table-3
+  - pre_text: 'available , we do not expect any transactions to have a significant
+      impact on our reported income tax expense .
+
+
+      in connection with the completion of the reorganization , we will reevaluate
+      the ability to realize our deferred tax assets related to u.s .
+
+
+      operations under the new aon uk corporate structure and we may recognize a non-cash
+      , deferred tax expense upon the conclusion of this evaluation .
+
+
+      based on information currently available , we do not expect the additional deferred
+      tax expense , if any , to be significant .
+
+
+      the reorganization will result in additional ongoing costs to us .
+
+
+      the completion of the reorganization will result in an increase in some of our
+      ongoing expenses and require us to incur some new expenses .
+
+
+      some costs , including those related to employees in our u.k .
+
+
+      offices and holding board meetings in the u.k. , are expected to be higher than
+      would be the case if our principal executive offices were not relocated to the
+      u.k. .
+
+
+      we also expect to incur new expenses , including professional fees and sdrt
+      in connection with settlement of equity-based awards under our stock or share
+      incentive plans , to comply with u.k .
+
+
+      corporate and tax laws .
+
+
+      item 1b .
+
+
+      unresolved staff comments .
+
+
+      item 2 .
+
+
+      properties .
+
+
+      we have offices in various locations throughout the world .
+
+
+      substantially all of our offices are located in leased premises .
+
+
+      we maintain our corporate headquarters at 200 e .
+
+
+      randolph street in chicago , illinois , where we occupy approximately 355000
+      square feet of space under an operating lease agreement that expires in 2013
+      .
+
+
+      there are two five-year renewal options at current market rates .
+
+
+      we own one building at pallbergweg 2-4 , amsterdam , the netherlands ( 150000
+      square feet ) .
+
+
+      the following are additional significant leased properties , along with the
+      occupied square footage and expiration. .'
+    header:
+    - 'property:'
+    - occupied square footage
+    - lease expiration dates
+    rows:
+    - - 4 overlook point and other locations lincolnshire illinois
+      - '1224000'
+      - 2014 2013 2019
+    - - 2601 research forest drive the woodlands texas
+      - '414000'
+      - '2020'
+    - - dlf city and unitech cyber park gurgaan india
+      - '383000'
+      - 2012 2013 2014
+    - - 2300 discovery drive orlando florida
+      - '364000'
+      - '2020'
+    - - devonshire square and other locations london uk
+      - '327000'
+      - 2018 2013 2023
+    - - 199 water street new york new york
+      - '319000'
+      - '2018'
+    - - 7201 hewitt associates drive charlotte north carolina
+      - '218000'
+      - '2015'
+    post_text: '7201 hewitt associates drive , charlotte , north carolina .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      .
+
+
+      218000 2015 the locations in lincolnshire , illinois , the woodlands , texas
+      , orlando , florida , and charlotte north carolina , each of which were acquired
+      as part of the hewitt acquisition in 2010 , are primarily dedicated to our hr
+      solutions segment .
+
+
+      the other locations listed above house personnel from each of our business segments
+      .
+
+
+      in november 2011 , aon entered into an agreement to lease 190000 square feet
+      in a new building to be constructed in london , united kingdom .
+
+
+      the agreement is contingent upon the completion of the building construction
+      .
+
+
+      aon expects to move into the new building in 2015 when it exercises an early
+      break option at the devonshire square location. .'
+    id: aon-2011-table-4
+- id: aon-10k-2013
+  form: 10-K
+  filed: '2014-02-18'
+  period_covered: 2013-FY
+  source_url: https://www.sec.gov/Archives/edgar/data/315293/000144530514000476/aonplc201310-k.htm
+  tables:
+  - pre_text: 'period .
+
+
+      the discount reflects our incremental borrowing rate , which matches the lifetime
+      of the liability .
+
+
+      significant changes in the discount rate selected or the estimations of sublease
+      income in the case of leases could impact the amounts recorded .
+
+
+      other associated costs with restructuring activities we recognize other costs
+      associated with restructuring activities as they are incurred , including moving
+      costs and consulting and legal fees .
+
+
+      pensions we sponsor defined benefit pension plans throughout the world .
+
+
+      our most significant plans are located in the u.s. , the u.k. , the netherlands
+      and canada .
+
+
+      our significant u.s. , u.k .
+
+
+      and canadian pension plans are closed to new entrants .
+
+
+      we have ceased crediting future benefits relating to salary and service for
+      our u.s. , u.k .
+
+
+      and canadian plans .
+
+
+      recognition of gains and losses and prior service certain changes in the value
+      of the obligation and in the value of plan assets , which may occur due to various
+      factors such as changes in the discount rate and actuarial assumptions , actual
+      demographic experience and/or plan asset performance are not immediately recognized
+      in net income .
+
+
+      such changes are recognized in other comprehensive income and are amortized
+      into net income as part of the net periodic benefit cost .
+
+
+      unrecognized gains and losses that have been deferred in other comprehensive
+      income , as previously described , are amortized into compensation and benefits
+      expense as a component of periodic pension expense based on the average expected
+      future service of active employees for our plans in the netherlands and canada
+      , or the average life expectancy of the u.s .
+
+
+      and u.k .
+
+
+      plan members .
+
+
+      after the effective date of the plan amendments to cease crediting future benefits
+      relating to service , unrecognized gains and losses are also be based on the
+      average life expectancy of members in the canadian plans .
+
+
+      we amortize any prior service expense or credits that arise as a result of plan
+      changes over a period consistent with the amortization of gains and losses .
+
+
+      as of december 31 , 2013 , our pension plans have deferred losses that have
+      not yet been recognized through income in the consolidated financial statements
+      .
+
+
+      we amortize unrecognized actuarial losses outside of a corridor , which is defined
+      as 10% ( 10 % ) of the greater of market-related value of plan assets or projected
+      benefit obligation .
+
+
+      to the extent not offset by future gains , incremental amortization as calculated
+      above will continue to affect future pension expense similarly until fully amortized
+      .
+
+
+      the following table discloses our combined experience loss , the number of years
+      over which we are amortizing the experience loss , and the estimated 2014 amortization
+      of loss by country ( amounts in millions ) : .'
+    header:
+    - ''
+    - u.k .
+    - u.s .
+    - other
+    rows:
+    - - combined experience loss
+      - $ 2012
+      - $ 1219
+      - $ 402
+    - - amortization period ( in years )
+      - '29'
+      - '26'
+      - 11 - 23
+    - - estimated 2014 amortization of loss
+      - $ 53
+      - $ 44
+      - $ 10
+    post_text: 'the unrecognized prior service cost at december 31 , 2013 was $ 27
+      million in the u.k .
+
+
+      and other plans .
+
+
+      for the u.s .
+
+
+      pension plans we use a market-related valuation of assets approach to determine
+      the expected return on assets , which is a component of net periodic benefit
+      cost recognized in the consolidated statements of income .
+
+
+      this approach recognizes 20% ( 20 % ) of any gains or losses in the current
+      year''s value of market-related assets , with the remaining 80% ( 80 % ) spread
+      over the next four years .
+
+
+      as this approach recognizes gains or losses over a five-year period , the future
+      value of assets and therefore , our net periodic benefit cost will be impacted
+      as previously deferred gains or losses are recorded .
+
+
+      as of december 31 , 2013 , the market-related value of assets was $ 1.8 billion
+      .
+
+
+      we do not use the market-related valuation approach to determine the funded
+      status of the u.s .
+
+
+      plans recorded in the consolidated statements of financial position .
+
+
+      instead , we record and present the funded status in the consolidated statements
+      of financial position based on the fair value of the plan assets .
+
+
+      as of december 31 , 2013 , the fair value of plan assets was $ 1.9 billion .
+
+
+      our non-u.s .
+
+
+      plans use fair value to determine expected return on assets. .'
+    id: aon-2013-table-0
+  - pre_text: 'class a ordinary shares of aon plc are , at present , eligible for
+      deposit and clearing within the dtc system .
+
+
+      in connection with the closing of the merger , we entered into arrangements
+      with dtc whereby we agreed to indemnify dtc for any stamp duty and/or sdrt that
+      may be assessed upon it as a result of its service as a depository and clearing
+      agency for our class a ordinary shares .
+
+
+      in addition , we have obtained a ruling from hmrc in respect of the stamp duty
+      and sdrt consequences of the reorganization , and sdrt has been paid in accordance
+      with the terms of this ruling in respect of the deposit of class a ordinary
+      shares with the initial depository .
+
+
+      dtc will generally have discretion to cease to act as a depository and clearing
+      agency for the class a ordinary shares .
+
+
+      if dtc determines at any time that the class a ordinary shares are not eligible
+      for continued deposit and clearance within its facilities , then we believe
+      the class a ordinary shares would not be eligible for continued listing on a
+      u.s .
+
+
+      securities exchange or inclusion in the s&p 500 and trading in the class a ordinary
+      shares would be disrupted .
+
+
+      while we would pursue alternative arrangements to preserve our listing and maintain
+      trading , any such disruption could have a material adverse effect on the trading
+      price of the class a ordinary shares .
+
+
+      item 1b .
+
+
+      unresolved staff comments .
+
+
+      item 2 .
+
+
+      properties .
+
+
+      we have offices in various locations throughout the world .
+
+
+      substantially all of our offices are located in leased premises .
+
+
+      we maintain our corporate headquarters at 8 devonshire square , london , england
+      , where we occupy approximately 225000 square feet of space under an operating
+      lease agreement that expires in 2018 .
+
+
+      we own one building at pallbergweg 2-4 , amsterdam , the netherlands ( 150000
+      square feet ) .
+
+
+      the following are additional significant leased properties , along with the
+      occupied square footage and expiration .
+
+
+      property : occupied square footage expiration .'
+    header:
+    - 'property:'
+    - occupiedsquare footage
+    - leaseexpiration dates
+    rows:
+    - - 4 overlook point and other locations lincolnshire illinois
+      - '1224000'
+      - 2017 2013 2024
+    - - 2601 research forest drive the woodlands texas
+      - '414000'
+      - '2020'
+    - - dlf city and unitech cyber park gurgaon india
+      - '413000'
+      - 2014 2013 2015
+    - - 200 e . randolph street chicago illinois
+      - '396000'
+      - '2028'
+    - - 2300 discovery drive orlando florida
+      - '364000'
+      - '2020'
+    - - 199 water street new york new york
+      - '319000'
+      - '2018'
+    - - 7201 hewitt associates drive charlotte north carolina
+      - '218000'
+      - '2015'
+    post_text: 'the locations in lincolnshire , illinois , the woodlands , texas ,
+      gurgaon , india , orlando , florida , and charlotte , north carolina , each
+      of which were acquired as part of the hewitt acquisition in 2010 , are primarily
+      dedicated to our hr solutions segment .
+
+
+      the other locations listed above house personnel from both of our reportable
+      segments .
+
+
+      in november 2011 , aon entered into an agreement to lease 190000 square feet
+      in a new building to be constructed in london , united kingdom .
+
+
+      the agreement is contingent upon the completion of the building construction
+      .
+
+
+      aon expects to move into the new building in 2015 when it exercises an early
+      break option at the devonshire square location .
+
+
+      in september 2013 , aon entered into an agreement to lease up to 479000 square
+      feet in a new building to be constructed in gurgaon , india .
+
+
+      the agreement is contingent upon the completion of the building construction
+      .
+
+
+      aon expects to move into the new building in phases during 2014 and 2015 upon
+      the expiration of the existing leases at the gurgaon locations .
+
+
+      in general , no difficulty is anticipated in negotiating renewals as leases
+      expire or in finding other satisfactory space if the premises become unavailable
+      .
+
+
+      we believe that the facilities we currently occupy are adequate for the purposes
+      for which they are being used and are well maintained .
+
+
+      in certain circumstances , we may have unused space and may seek to sublet such
+      space to third parties , depending upon the demands for office space in the
+      locations involved .
+
+
+      see note 9 "lease commitments" of the notes to consolidated financial statements
+      in part ii , item 8 of this report for information with respect to our lease
+      commitments as of december 31 , 2013 .
+
+
+      item 3 .
+
+
+      legal proceedings .
+
+
+      we hereby incorporate by reference note 16 "commitments and contingencies" of
+      the notes to consolidated financial statements in part ii , item 8 of this report.
+      .'
+    id: aon-2013-table-1
 - id: aon-10k-2014
   form: 10-K
   filed: '2015-02-24'
