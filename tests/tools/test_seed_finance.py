@@ -254,6 +254,82 @@ def test_fetch_submissions_returns_parsed_json():
     assert data["tickers"] == ["JPM"]
 
 
+def test_fetch_all_10k_filings_combines_recent_and_files():
+    """One 10-K in `recent` + one paginated file with one older 10-K → both returned."""
+    recent_body = json.dumps({
+        "cik": "0000019617",
+        "filings": {
+            "recent": {
+                "accessionNumber": ["0000019617-19-000067"],
+                "filingDate": ["2019-02-26"],
+                "reportDate": ["2018-12-31"],
+                "form": ["10-K"],
+                "primaryDocument": ["jpm-10k-2018.htm"],
+            },
+            "files": [
+                {
+                    "name": "CIK0000019617-submissions-001.json",
+                    "filingCount": 1000,
+                    "filingFrom": "2010-01-01",
+                    "filingTo": "2013-05-15",
+                },
+            ],
+        },
+    }).encode("utf-8")
+    paginated_body = json.dumps({
+        "accessionNumber": ["0000019617-12-000005"],
+        "filingDate": ["2012-02-15"],
+        "reportDate": ["2011-12-31"],
+        "form": ["10-K"],
+        "primaryDocument": ["jpm-10k-2011.htm"],
+    }).encode("utf-8")
+
+    session = _FakeSession([
+        _FakeResp(200, recent_body),
+        _FakeResp(200, paginated_body),
+    ])
+    client = sec_edgar.SecEdgarClient(
+        user_agent="test-agent", session=session, sleep_seconds=0.0,
+    )
+    filings = client.fetch_all_10k_filings("0000019617")
+
+    assert len(filings) == 2
+    filed_dates = {f["filingDate"] for f in filings}
+    assert filed_dates == {"2019-02-26", "2012-02-15"}
+    assert all(f["form"] == "10-K" for f in filings)
+
+    # Second call fetched the paginated file, not some other endpoint
+    called_urls = [url for url, _headers in session.calls]
+    assert any("CIK0000019617-submissions-001.json" in u for u in called_urls)
+
+
+def test_fetch_all_10k_filings_handles_missing_files_array():
+    """Small company with no `filings.files[]` → just the recent 10-Ks, no extra fetch."""
+    body = json.dumps({
+        "cik": "0000320193",
+        "filings": {
+            "recent": {
+                "accessionNumber": ["0000320193-23-000106"],
+                "filingDate": ["2023-11-03"],
+                "reportDate": ["2023-09-30"],
+                "form": ["10-K"],
+                "primaryDocument": ["aapl-20230930.htm"],
+            },
+            # no "files" key at all
+        },
+    }).encode("utf-8")
+    session = _FakeSession([_FakeResp(200, body)])
+    client = sec_edgar.SecEdgarClient(
+        user_agent="test-agent", session=session, sleep_seconds=0.0,
+    )
+    filings = client.fetch_all_10k_filings("0000320193")
+
+    assert len(filings) == 1
+    assert filings[0]["filingDate"] == "2023-11-03"
+    # Only one HTTP call — no paginated files to fetch
+    assert len(session.calls) == 1
+
+
 def test_load_ticker_map_zero_pads_cik():
     body = (FIXTURES / "company_tickers.json").read_bytes()
     session = _FakeSession([_FakeResp(200, body)])
@@ -394,7 +470,13 @@ from tools.seed_finance import run
 
 
 def _fake_edgar_client(known_facts: dict, known_submissions: dict, known_ticker_map: dict):
-    """Build a SecEdgarClient-shaped stub for run.seed(edgar_client=...)."""
+    """Build a SecEdgarClient-shaped stub for run.seed(edgar_client=...).
+
+    `known_submissions` values are full submissions.json-shaped dicts (i.e.
+    have a top-level "filings" key). fetch_all_10k_filings reuses the real
+    sec_edgar._extract_10ks helper against "recent" so the stub behaves like
+    the real client for the (recent-only) fixtures used in these tests.
+    """
     class _Stub:
         def load_ticker_map(self):
             return known_ticker_map
@@ -408,6 +490,19 @@ def _fake_edgar_client(known_facts: dict, known_submissions: dict, known_ticker_
             if cik not in known_submissions:
                 raise sec_edgar.NotFound(f"cik {cik} not in stub")
             return known_submissions[cik]
+
+        def fetch_all_10k_filings(self, cik):
+            if cik not in known_submissions:
+                raise sec_edgar.NotFound(f"cik {cik} not in stub")
+            submissions = known_submissions[cik]
+            filings_obj = submissions.get("filings") or {}
+            out = list(sec_edgar._extract_10ks(filings_obj.get("recent") or {}))
+            for file_ref in filings_obj.get("files") or []:
+                # Tests that need paginated history stash the page body under
+                # known_submissions[f"{cik}::{name}"] directly.
+                page = known_submissions.get(f"{cik}::{file_ref['name']}") or {}
+                out.extend(sec_edgar._extract_10ks(page))
+            return out
 
     return _Stub()
 
@@ -560,18 +655,54 @@ def test_find_10k_matches_non_calendar_fiscal_year():
     within the fiscal year itself, leaving `filings` empty for roughly half
     the top-20 tickers.
     """
-    filings_recent = {
-        "accessionNumber": ["0000320193-23-000106"],
-        "filingDate": ["2023-11-03"],
-        "reportDate": ["2023-09-30"],
-        "form": ["10-K"],
-        "primaryDocument": ["aapl-20230930.htm"],
-    }
-    entry = run._find_10k_for_year(filings_recent, 2023, "0000320193")
+    filings_10k = [
+        {
+            "accessionNumber": "0000320193-23-000106",
+            "filingDate": "2023-11-03",
+            "reportDate": "2023-09-30",
+            "form": "10-K",
+            "primaryDocument": "aapl-20230930.htm",
+        },
+    ]
+    entry = run._find_10k_for_year(filings_10k, 2023, "0000320193")
     assert entry is not None
     assert entry["form"] == "10-K"
     assert entry["filed"] == "2023-11-03"
     assert "0000320193" in entry["source_url"]
+
+
+def test_find_10k_for_year_uses_flat_list():
+    """_find_10k_for_year selects the correct entry out of a flat 10-K list.
+
+    Regression for the P2b fix: the function used to take the
+    filings.recent parallel-arrays dict directly; it now takes a flat list
+    of per-filing dicts (as produced by fetch_all_10k_filings), which is the
+    shape needed to combine recent + paginated history.
+    """
+    filings_10k = [
+        {
+            "accessionNumber": "0000019617-19-000067",
+            "filingDate": "2019-02-26",
+            "reportDate": "2018-12-31",
+            "form": "10-K",
+            "primaryDocument": "jpm-10k.htm",
+        },
+        {
+            "accessionNumber": "0000019617-12-000000",
+            "filingDate": "2012-02-15",
+            "reportDate": "2011-12-31",
+            "form": "10-K",
+            "primaryDocument": "jpm-10k-2011.htm",
+        },
+    ]
+    entry = run._find_10k_for_year(filings_10k, 2011, "0000019617")
+    assert entry is not None
+    assert entry["filed"] == "2012-02-15"
+    assert "0000019617" in entry["source_url"]
+    assert "000001961712000000" in entry["source_url"]  # accession, dashes stripped
+
+    # Year with no match returns None
+    assert run._find_10k_for_year(filings_10k, 1999, "0000019617") is None
 
 
 def test_seed_dry_run_writes_nothing(tmp_path):

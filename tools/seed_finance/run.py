@@ -198,15 +198,14 @@ def _seed_one(
         if not meta.get("xbrl_concept"):
             del meta["xbrl_concept"]
 
-    # Fetch submissions + build filings list
+    # Fetch every 10-K (recent + paginated history) + build filings list
     filings: list[dict] = []
     try:
-        submissions = edgar_client.fetch_submissions(cik)
+        all_10ks = edgar_client.fetch_all_10k_filings(cik)
     except (sec_edgar.NotFound, sec_edgar.SecEdgarError):
-        submissions = {}
-    filings_index = (submissions.get("filings") or {}).get("recent") or {}
+        all_10ks = []
     for year in period_target_years:
-        filing_entry = _find_10k_for_year(filings_index, year, cik)
+        filing_entry = _find_10k_for_year(all_10ks, year, cik)
         if not filing_entry:
             continue
         tables = tables_for(finqa_rows, ticker, year)
@@ -291,11 +290,19 @@ def _scale_to_units(raw: float | int, metric_name: str) -> float:
 
 
 def _find_10k_for_year(
-    filings_recent: dict,
+    filings_10k: list[dict],
     year: int,
     cik: str,
 ) -> dict | None:
     """Find the 10-K covering fiscal year `year`.
+
+    `filings_10k` is a flat list of 10-K filing dicts (as returned by
+    `SecEdgarClient.fetch_all_10k_filings`), each with keys
+    `accessionNumber`, `filingDate`, `reportDate`, `form`, `primaryDocument`.
+    It spans both the recent-filings window and any older filings paginated
+    into `filings.files[]` — a company with a long filing history (e.g. AMT,
+    public since ~2005) has 10-Ks older than the ~1000-filing recent window,
+    and those would otherwise be silently invisible to this lookup.
 
     Companies with a calendar fiscal year end typically file their FY N 10-K
     in early calendar year N+1 (e.g. JPM's FY2018 10-K filed 2019-02-26).
@@ -312,29 +319,23 @@ def _find_10k_for_year(
 
     Returns {"form", "filed", "source_url"} or None.
     """
-    accession_numbers = filings_recent.get("accessionNumber") or []
-    filing_dates = filings_recent.get("filingDate") or []
-    report_dates = filings_recent.get("reportDate") or []
-    forms = filings_recent.get("form") or []
-    primary_docs = filings_recent.get("primaryDocument") or []
-
-    for i, form in enumerate(forms):
-        if form != "10-K":
+    for entry in filings_10k:
+        if entry.get("form") != "10-K":
             continue
-        filed = filing_dates[i] if i < len(filing_dates) else ""
-        report_date = report_dates[i] if i < len(report_dates) else ""
+        filed = entry.get("filingDate") or ""
+        report_date = entry.get("reportDate") or ""
         if report_date:
             if not report_date.startswith(str(year)):
                 continue
         elif not (filed.startswith(str(year)) or filed.startswith(str(year + 1))):
             continue
-        accn = accession_numbers[i] if i < len(accession_numbers) else ""
-        doc = primary_docs[i] if i < len(primary_docs) else ""
+        accn = entry.get("accessionNumber") or ""
+        doc = entry.get("primaryDocument") or ""
         accn_no_dashes = accn.replace("-", "")
         source_url = (
             f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accn_no_dashes}/{doc}"
         )
-        return {"form": form, "filed": filed, "source_url": source_url}
+        return {"form": "10-K", "filed": filed, "source_url": source_url}
     return None
 
 

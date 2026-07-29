@@ -18,6 +18,7 @@ import requests
 
 _COMPANY_FACTS_URL = "https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json"
 _SUBMISSIONS_URL = "https://data.sec.gov/submissions/CIK{cik}.json"
+_SUBMISSIONS_FILE_URL_PREFIX = "https://data.sec.gov/submissions/"
 _TICKER_MAP_URL = "https://www.sec.gov/files/company_tickers.json"
 
 _MAX_ATTEMPTS = 3
@@ -34,6 +35,33 @@ class NotFound(SecEdgarError):
 
 class RateLimitExceeded(SecEdgarError):
     """SEC returned 429 more times than the retry budget allows."""
+
+
+def _extract_10ks(parallel_arrays: dict) -> list[dict]:
+    """Filter a `filings.recent`-shaped dict down to 10-K entries.
+
+    `parallel_arrays` holds same-length lists keyed by field name
+    (accessionNumber, filingDate, reportDate, form, primaryDocument, ...).
+    Returns one dict per 10-K, indexed out of the parallel arrays.
+    """
+    forms = parallel_arrays.get("form") or []
+    accession_numbers = parallel_arrays.get("accessionNumber") or []
+    filing_dates = parallel_arrays.get("filingDate") or []
+    report_dates = parallel_arrays.get("reportDate") or []
+    primary_docs = parallel_arrays.get("primaryDocument") or []
+
+    out: list[dict] = []
+    for i, form in enumerate(forms):
+        if form != "10-K":
+            continue
+        out.append({
+            "accessionNumber": accession_numbers[i] if i < len(accession_numbers) else "",
+            "filingDate": filing_dates[i] if i < len(filing_dates) else "",
+            "reportDate": report_dates[i] if i < len(report_dates) else "",
+            "form": form,
+            "primaryDocument": primary_docs[i] if i < len(primary_docs) else "",
+        })
+    return out
 
 
 class SecEdgarClient:
@@ -55,6 +83,43 @@ class SecEdgarClient:
 
     def fetch_submissions(self, cik: str) -> dict:
         return self._get(_SUBMISSIONS_URL.format(cik=cik))
+
+    def fetch_all_10k_filings(self, cik: str) -> list[dict]:
+        """Return every 10-K filing for `cik`, spanning recent + paginated history.
+
+        `data.sec.gov/submissions/CIK<cik>.json` only carries the ~1000 most
+        recent filings in `filings.recent` (parallel arrays keyed by index).
+        Older filings are pushed into `filings.files[]` — a list of
+        `{"name", "filingCount", "filingFrom", "filingTo"}` pointers, each
+        fetchable at `https://data.sec.gov/submissions/<name>` and shaped
+        exactly like `filings.recent` (same parallel-array layout).
+
+        This method fetches the top-level submissions doc plus every
+        paginated file, filters each for `form == "10-K"`, and returns a
+        flat list of dicts: `{"accessionNumber", "filingDate", "reportDate",
+        "form", "primaryDocument"}`. Order is recent-first, then each
+        paginated file in the order SEC lists it (typically newest-old to
+        oldest-old); callers that need a specific fiscal year should search
+        the full list rather than relying on ordering.
+        """
+        submissions = self.fetch_submissions(cik)
+        filings_obj = submissions.get("filings") or {}
+
+        out: list[dict] = []
+        out.extend(_extract_10ks(filings_obj.get("recent") or {}))
+
+        for file_ref in filings_obj.get("files") or []:
+            name = file_ref.get("name")
+            if not name:
+                continue
+            try:
+                page = self._get(f"{_SUBMISSIONS_FILE_URL_PREFIX}{name}")
+            except NotFound:
+                # Listed but not fetchable — skip rather than fail the whole run.
+                continue
+            out.extend(_extract_10ks(page))
+
+        return out
 
     def load_ticker_map(self) -> dict[str, str]:
         """Return {TICKER: cik10} with CIKs zero-padded to 10 digits."""
