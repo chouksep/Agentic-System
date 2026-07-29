@@ -85,3 +85,23 @@ def test_counting_dispatcher_caps_calls():
     out = disp.dispatch(tc)
     assert "tool_call_cap_exceeded" in out
     assert disp.tool_call_count == _MAX_TOOL_CALLS  # counter DOES NOT increment past cap
+
+
+def test_extract_answer_prefers_unit_tagged_over_trailing_year():
+    """Model text like 'was 194% for the five years ended 2015' must pick 194%, not 2015."""
+    from benchmarks.runner.finqa_agent import _extract_answer
+    value, unit, err = _extract_answer(
+        "The cumulative total shareholder return was 194% for the five years ended 2015."
+    )
+    assert err is None
+    assert unit == "%"
+    assert value == 194.0
+
+
+def test_extract_answer_falls_back_to_bare_number_when_no_unit_tagged():
+    """No unit token anywhere -> keep old last-number-wins behavior."""
+    from benchmarks.runner.finqa_agent import _extract_answer
+    value, unit, err = _extract_answer("The change was 47")
+    assert err is None
+    assert unit == "raw"
+    assert value == 47.0

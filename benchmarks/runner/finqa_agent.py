@@ -40,6 +40,11 @@ _USER_TEMPLATE = (
 # Very permissive: last non-empty line, or last number + trailing token.
 _LAST_NUMBER_RE = re.compile(r"(-?\$?\s*\d[\d,]*(?:\.\d+)?\s*(?:%|million(?:s)?|billion(?:s)?|mn|bn|x|:\s*1)?)", re.IGNORECASE)
 
+# Unit tokens that mark a match as more likely the actual answer than a bare
+# year or index reference. When any match carries one of these suffixes, we
+# prefer the LAST such match over the LAST bare number.
+_UNIT_TOKEN_RE = re.compile(r"(%|million|billion|mn|bn|x|:\s*1)", re.IGNORECASE)
+
 
 class _CountingDispatcher(ToolDispatcher):
     def __init__(self, page_io, search, wiki_dir: Path) -> None:
@@ -73,11 +78,15 @@ def _extract_answer(text: str) -> tuple[float | None, str | None, str | None]:
     if "NOT_AVAILABLE" in stripped.upper():
         return None, None, "not_available"
 
-    # Look for the last match — models often say "The revenue was X"
+    # Prefer the last match that carries a unit token (%, million, billion, x)
+    # over trailing bare numbers, which are often years or index bases the
+    # model quoted after the actual answer.
     matches = list(_LAST_NUMBER_RE.finditer(stripped))
     if not matches:
         return None, None, "regex_fail"
-    candidate = matches[-1].group(0)
+    unit_tagged = [m for m in matches if _UNIT_TOKEN_RE.search(m.group(0))]
+    chosen = unit_tagged[-1] if unit_tagged else matches[-1]
+    candidate = chosen.group(0)
     try:
         value, unit = _parse_answer(candidate)
     except ValueError:
