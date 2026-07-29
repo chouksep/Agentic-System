@@ -25,8 +25,14 @@ _MAX_ITERATIONS = 10  # matches LLMClient default; kept explicit
 
 _SYSTEM_PROMPT = (
     "You are a financial-QA assistant. Answer with a single number and a "
-    "unit (millions / billions / % / ratio / raw). If the value is not in "
-    "the sidecar, respond exactly NOT_AVAILABLE. Do not show your work."
+    "unit (millions / billions / % / ratio / raw). "
+    "If the question asks 'what percentage of X is Y' or 'what portion of X', "
+    "you MUST compute Y/X and answer as a percentage; do NOT answer with the "
+    "raw dollar amount of Y or X. Similarly, if the question asks for a "
+    "'change' or 'growth rate' expressed as a percentage, compute "
+    "(new - old) / old * 100 and answer as %. "
+    "If the value is not in the sidecar, respond exactly NOT_AVAILABLE. "
+    "Do not show your work."
 )
 
 _USER_TEMPLATE = (
