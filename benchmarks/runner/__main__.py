@@ -6,6 +6,7 @@ Run:
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 import random
 import sys
@@ -24,7 +25,10 @@ from benchmarks.runner.datasets.triviaqa import load_triviaqa
 from benchmarks.runner.report import render
 from benchmarks.runner.types import MultiModelResults
 
+log = logging.getLogger(__name__)
+
 _VALID_DATASETS = ("fixtures", "entity_questions", "triviaqa", "synthesized")
+_VALID_SINGLE_DATASETS = ("finqa",)
 
 # Off-topic questions used by the synthesizer to build `irrelevance`-category
 # cases. Each one is clearly outside the ci-wiki domain (AI companies /
@@ -42,12 +46,14 @@ _OFF_TOPIC_QUESTIONS: list[str] = [
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p = argparse.ArgumentParser(prog="python -m benchmarks.runner")
-    p.add_argument("--benchmark", choices=["bfcl"], required=True)
+    p.add_argument("--benchmark", choices=["bfcl"], default=None,
+                   help="BFCL harness mode. Mutually exclusive with --dataset.")
     p.add_argument(
         "--models",
-        required=True,
+        default=None,
         type=lambda s: [m.strip() for m in s.split(",") if m.strip()],
-        help="Comma-separated model IDs (e.g. claude-sonnet-4-5,claude-sonnet-4-6).",
+        help="Comma-separated model IDs (e.g. claude-sonnet-4-5,claude-sonnet-4-6). "
+             "Required with --benchmark bfcl.",
     )
     p.add_argument(
         "--datasets",
@@ -70,7 +76,32 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p.add_argument("--cache-dir", default=None, help="Override cache root.")
     p.add_argument("--output-dir", default=None,
                    help="Override output dir (default benchmarks/runner/results/<timestamp>).")
-    return p.parse_args(argv)
+    p.add_argument(
+        "--dataset",
+        choices=_VALID_SINGLE_DATASETS,
+        default=None,
+        help="Single-dataset mode (e.g. 'finqa'). Mutually exclusive with --benchmark.",
+    )
+    p.add_argument(
+        "--n",
+        type=int,
+        default=None,
+        help="(finqa) cap the number of cases; default = all seeded",
+    )
+    p.add_argument(
+        "--tickers",
+        type=str,
+        default=None,
+        help="(finqa) comma-separated ticker override (e.g. 'JPM,AAPL'); default = SEEDED_TICKERS",
+    )
+    args = p.parse_args(argv)
+    if args.dataset is None and args.benchmark is None:
+        p.error("one of --benchmark or --dataset is required")
+    if args.dataset is not None and args.benchmark is not None:
+        p.error("--benchmark and --dataset are mutually exclusive")
+    if args.benchmark == "bfcl" and not args.models:
+        p.error("--models is required with --benchmark bfcl")
+    return args
 
 
 def default_agent_factory():
@@ -183,10 +214,73 @@ def assemble_cases(
     return deduped[:n_samples]
 
 
+def _run_finqa(args: argparse.Namespace, repo_root: Path) -> int:
+    """Single-dataset FinQA mode: load, run the agent, score, write results."""
+    from benchmarks.runner import finqa_evaluator as evaluator
+    from benchmarks.runner.datasets import finqa as _finqa
+    from benchmarks.runner.finqa_agent import FinqaAgent
+    from ci_wiki.config import Config
+    from ci_wiki.llm.client import LLMClient
+
+    tickers = (
+        frozenset(t.strip().upper() for t in args.tickers.split(",") if t.strip())
+        if args.tickers else _finqa.SEEDED_TICKERS
+    )
+    cases = _finqa.load(n=args.n, tickers=tickers)
+    log.info("finqa: loaded %d case(s) across %d ticker(s)", len(cases), len(tickers))
+
+    config = Config.from_env(repo_root=repo_root)
+    llm = LLMClient(config)
+    wiki_dir = repo_root / "wiki"
+    agent = FinqaAgent(llm_client=llm, wiki_dir=wiki_dir)
+
+    per_case = []
+    n_correct = 0
+    total_tool_calls = 0
+    for case in cases:
+        record = agent.answer(case)
+        result = evaluator.score(case, record.parsed_value, record.parsed_unit, record.parse_error)
+        per_case.append({
+            "id": case.id,
+            "ticker": case.ticker,
+            "question": case.question,
+            "gold_raw": case.gold_answer_raw,
+            "gold_value": case.gold_answer_value,
+            "gold_unit": case.gold_answer_unit,
+            "pred_text": record.final_text,
+            "pred_value": record.parsed_value,
+            "pred_unit": record.parsed_unit,
+            "parse_error": record.parse_error,
+            "correct": result.correct,
+            "reason": result.reason,
+            "tool_call_count": record.tool_call_count,
+            "latency_s": record.latency_s,
+        })
+        n_correct += int(result.correct)
+        total_tool_calls += record.tool_call_count
+
+    summary = {
+        "n": len(cases),
+        "accuracy": (n_correct / len(cases)) if cases else 0.0,
+        "mean_tool_calls": (total_tool_calls / len(cases)) if cases else 0.0,
+        "per_case": per_case,
+    }
+    ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    out = repo_root / "benchmarks" / "runner" / "results" / f"finqa-{ts}.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(summary, indent=2, default=str), encoding="utf-8")
+    print(f"finqa: {n_correct}/{len(cases)} correct ({summary['accuracy']:.1%})  ->  {out}")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
     args = parse_args(argv)
     repo_root = _repo_root()
+
+    if args.dataset == "finqa":
+        return _run_finqa(args, repo_root)
+
     run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     out_dir = Path(args.output_dir) if args.output_dir else (
         repo_root / "benchmarks" / "runner" / "results" / run_id
