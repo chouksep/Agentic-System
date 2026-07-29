@@ -1,0 +1,30 @@
+cases:
+  - id: "JPM/2018/page_43.pdf-0"
+    ticker: JPM
+    year: 2018
+    question: "What was JPM's 2018 revenue?"
+    gold_answer_raw: "$109 billion"
+    gold_answer_value: 109.0
+    gold_answer_unit: billions
+    scripted_final_text: "JPM 2018 revenue was $109 billion."
+    expected_correct: true
+
+  - id: "AAPL/2023/page_10.pdf-0"
+    ticker: AAPL
+    year: 2023
+    question: "What was Apple's 2023 diluted EPS?"
+    gold_answer_raw: "6.13"
+    gold_answer_value: 6.13
+    gold_answer_unit: raw
+    scripted_final_text: "Apple 2023 diluted EPS was 6.13."
+    expected_correct: true
+
+  - id: "LMT/2019/page_5.pdf-0"
+    ticker: LMT
+    year: 2019
+    question: "What was LMT's 2019 operating margin?"
+    gold_answer_raw: "14%"
+    gold_answer_value: 14.0
+    gold_answer_unit: "%"
+    scripted_final_text: "The margin was 20%."
+    expected_correct: false
