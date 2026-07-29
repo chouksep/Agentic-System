@@ -11,6 +11,7 @@ from benchmarks.runner.datasets.finqa import FinqaCase
 
 
 _TOLERANCE = 0.01  # 1% relative
+_PERCENT_ABS_TOLERANCE = 0.5  # +/- 0.5 percentage points, for both-% comparisons
 
 
 @dataclass
@@ -56,6 +57,16 @@ def score(
     gold = case.gold_answer_value * scale.get(gold_unit, 1.0)
 
     denom = max(abs(gold), 1e-9)
-    if abs(pred - gold) / denom < _TOLERANCE:
+    within_relative = abs(pred - gold) / denom < _TOLERANCE
+
+    # FinQA gold percentages are frequently rounded to whole points (e.g.
+    # "12%") while the agent computes a precise value (e.g. 11.86%). Relative
+    # tolerance alone rejects these near-misses, so when both sides are '%'
+    # also accept matches within a small absolute-point tolerance.
+    within_absolute = False
+    if pred_unit == "%" and gold_unit == "%":
+        within_absolute = abs(pred - gold) <= _PERCENT_ABS_TOLERANCE
+
+    if within_relative or within_absolute:
         return ScoreResult(True, "correct")
     return ScoreResult(False, "value_mismatch")

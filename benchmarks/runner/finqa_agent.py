@@ -32,7 +32,14 @@ _SYSTEM_PROMPT = (
     "'change' or 'growth rate' expressed as a percentage, compute "
     "(new - old) / old * 100 and answer as %. "
     "If the value is not in the sidecar, respond exactly NOT_AVAILABLE. "
-    "Do not show your work."
+    "Do not show your work. "
+    "End your response with a line 'FINAL_ANSWER: <number> <unit>' where unit "
+    "is one of millions/billions/%/ratio/raw. "
+    "When the question references a specific segment, business line, table "
+    "row, or footnote (e.g., 'Risk Solutions segment', 'aeronautics', "
+    "'purchased technology'), prefer get_filing_table over get_metric_series "
+    "— the standardized metric series is CONSOLIDATED and won't have the "
+    "sub-line detail."
 )
 
 _USER_TEMPLATE = (
@@ -45,6 +52,12 @@ _USER_TEMPLATE = (
 
 # Very permissive: last non-empty line, or last number + trailing token.
 _LAST_NUMBER_RE = re.compile(r"(-?\$?\s*\d[\d,]*(?:\.\d+)?\s*(?:%|million(?:s)?|billion(?:s)?|mn|bn|x|:\s*1)?)", re.IGNORECASE)
+
+# Explicit marker the system prompt asks the model to emit as the last line,
+# e.g. "FINAL_ANSWER: -12.4 %" or "FINAL_ANSWER: 47 raw". Preferred over the
+# permissive regex below because it pins down exactly one value/unit and
+# preserves a leading sign that the permissive scan can otherwise lose.
+_FINAL_ANSWER_RE = re.compile(r"^\s*FINAL_ANSWER:\s*(\S+.*)$", re.IGNORECASE | re.MULTILINE)
 
 # Unit tokens that mark a match as more likely the actual answer than a bare
 # year or index reference. When any match carries one of these suffixes, we
@@ -83,6 +96,17 @@ def _extract_answer(text: str) -> tuple[float | None, str | None, str | None]:
         return None, None, "regex_fail"
     if "NOT_AVAILABLE" in stripped.upper():
         return None, None, "not_available"
+
+    # Prefer the explicit FINAL_ANSWER marker (last occurrence, in case the
+    # model repeats it) — it is unambiguous about which value is the answer.
+    marker_matches = list(_FINAL_ANSWER_RE.finditer(stripped))
+    if marker_matches:
+        candidate = marker_matches[-1].group(1).strip()
+        try:
+            value, unit = _parse_answer(candidate)
+            return value, unit, None
+        except ValueError:
+            pass  # fall through to permissive scan below
 
     # Prefer the last match that carries a unit token (%, million, billion, x)
     # over trailing bare numbers, which are often years or index bases the

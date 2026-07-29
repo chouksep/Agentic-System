@@ -105,3 +105,21 @@ def test_extract_answer_falls_back_to_bare_number_when_no_unit_tagged():
     assert err is None
     assert unit == "raw"
     assert value == 47.0
+
+
+def test_extract_answer_prefers_final_answer_marker():
+    """Explicit FINAL_ANSWER marker line is parsed directly, ignoring reasoning text."""
+    from benchmarks.runner.finqa_agent import _extract_answer
+    value, unit, err = _extract_answer("reasoning...\nFINAL_ANSWER: 194%")
+    assert err is None
+    assert value == 194.0
+    assert unit == "%"
+
+
+def test_extract_answer_final_answer_beats_stray_year():
+    """FINAL_ANSWER marker must win over a bare number (e.g. a year) earlier in the text."""
+    from benchmarks.runner.finqa_agent import _extract_answer
+    value, unit, err = _extract_answer("...answer is 47 for 2012\nFINAL_ANSWER: 47 raw")
+    assert err is None
+    assert value == 47.0
+    assert unit == "raw"

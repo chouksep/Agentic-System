@@ -68,3 +68,19 @@ def test_score_raw_gold_still_rejects_wrong_magnitude():
                              parsed_value=100.0, parsed_unit="millions", parse_error=None)
     assert result.correct is False
     assert result.reason == "value_mismatch"
+
+
+def test_percentage_absolute_tolerance_accepts_small_rounding():
+    """Gold rounded to whole percent (12%) vs agent's precise 11.86% should match."""
+    result = evaluator.score(_case(value=12.0, unit="%"),
+                             parsed_value=11.86, parsed_unit="%", parse_error=None)
+    assert result.correct is True
+    assert result.reason == "correct"
+
+
+def test_percentage_absolute_tolerance_still_rejects_wide_miss():
+    """Absolute tolerance is a small floor, not a blanket pass for percentages."""
+    result = evaluator.score(_case(value=12.0, unit="%"),
+                             parsed_value=20.0, parsed_unit="%", parse_error=None)
+    assert result.correct is False
+    assert result.reason == "value_mismatch"
