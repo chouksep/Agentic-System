@@ -25,7 +25,7 @@ _MAX_ITERATIONS = 10  # matches LLMClient default; kept explicit
 
 _SYSTEM_PROMPT = (
     "You are a financial-QA assistant. Answer with a single number and a "
-    "unit (millions / billions / %% / ratio / raw). If the value is not in "
+    "unit (millions / billions / % / ratio / raw). If the value is not in "
     "the sidecar, respond exactly NOT_AVAILABLE. Do not show your work."
 )
 
