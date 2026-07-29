@@ -40,10 +40,20 @@ def score(
     if _canonical_unit(parsed_unit) != _canonical_unit(case.gold_answer_unit):
         return ScoreResult(False, "unit_mismatch")
 
-    # Scale to the same magnitude before comparing values.
+    # FinQA gold answers with unit='raw' typically inherit the table's implicit
+    # unit (usually 'millions'). When one side is 'raw' and the other has an
+    # explicit scale, adopt the explicit scale for the raw side so
+    # `750 raw` compares equal to `750 millions`.
+    pred_unit = parsed_unit
+    gold_unit = case.gold_answer_unit
+    if pred_unit == "raw" and gold_unit in {"millions", "billions"}:
+        pred_unit = gold_unit
+    elif gold_unit == "raw" and pred_unit in {"millions", "billions"}:
+        gold_unit = pred_unit
+
     scale = {"raw": 1.0, "millions": 1e6, "billions": 1e9, "%": 1.0, "ratio": 1.0}
-    pred = parsed_value * scale.get(parsed_unit, 1.0)
-    gold = case.gold_answer_value * scale.get(case.gold_answer_unit, 1.0)
+    pred = parsed_value * scale.get(pred_unit, 1.0)
+    gold = case.gold_answer_value * scale.get(gold_unit, 1.0)
 
     denom = max(abs(gold), 1e-9)
     if abs(pred - gold) / denom < _TOLERANCE:

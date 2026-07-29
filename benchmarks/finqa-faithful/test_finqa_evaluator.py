@@ -52,3 +52,19 @@ def test_score_not_available():
     result = evaluator.score(_case(), parsed_value=None, parsed_unit=None, parse_error="not_available")
     assert result.correct is False
     assert result.reason == "not_available"
+
+
+def test_score_raw_gold_matches_millions_prediction():
+    """FinQA gold '750 raw' (table-implicit millions) should match agent's '750 millions'."""
+    result = evaluator.score(_case(value=750.0, unit="raw"),
+                             parsed_value=750.0, parsed_unit="millions", parse_error=None)
+    assert result.correct is True
+    assert result.reason == "correct"
+
+
+def test_score_raw_gold_still_rejects_wrong_magnitude():
+    """Adaptive raw promotion must not mask a real magnitude error."""
+    result = evaluator.score(_case(value=750.0, unit="raw"),
+                             parsed_value=100.0, parsed_unit="millions", parse_error=None)
+    assert result.correct is False
+    assert result.reason == "value_mismatch"
